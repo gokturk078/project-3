@@ -1,0 +1,25 @@
+{
+  "name": "personnel-management-portal",
+  "version": "1.0.0",
+  "description": "Ultra-premium personnel management portal with Excel data ingestion",
+  "type": "module",
+  "scripts": {
+    "ingest": "node scripts/ingest_xlsx_to_dbjson.js",
+    "ingest:merge": "node scripts/ingest_xlsx_to_dbjson.js --merge",
+    "dev": "npx http-server -p 8080 -o",
+    "validate": "node scripts/validate_db.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "personnel",
+    "management",
+    "portal",
+    "excel",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT"
+}
