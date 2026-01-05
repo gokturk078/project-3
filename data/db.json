@@ -8,7 +8,7 @@
       "izin_belgeleri.xlsx",
       "takip.xlsx"
     ],
-    "adminHash": null,
+    "adminHash": "c2acdf4db7cd4a5fcff4d173bf4d51b7cbb723f37bc10bd85ec5d2b840db8d3d",
     "remoteStore": {
       "enabled": false,
       "gistId": null,
@@ -66,7 +66,8 @@
         "HİZMETLİ": 3,
         "UNASSIGNED": 172
       }
-    }
+    },
+    "lastUpdated": "2026-01-05T13:17:29.515Z"
   },
   "taxonomy": {
     "categories": [
