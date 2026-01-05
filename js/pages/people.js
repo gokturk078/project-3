@@ -10,51 +10,51 @@ import { getRouteParams } from '../router.js';
 let currentPage = 1;
 const pageSize = 20;
 let filters = {
-    search: '',
-    category: '',
-    role: '',
-    status: ''
+  search: '',
+  category: '',
+  role: '',
+  status: ''
 };
 
 export async function render(ctx) {
-    const container = document.getElementById('main-content');
-    if (!container) return;
+  const container = document.getElementById('main-content');
+  if (!container) return;
 
-    const params = getRouteParams();
+  const params = getRouteParams();
 
-    // If person ID in params, show drawer
-    if (params.id) {
-        await renderPeopleList(container);
-        showPersonDrawer(params.id);
-    } else {
-        await renderPeopleList(container);
-    }
+  // If person ID in params, show drawer
+  if (params.id) {
+    await renderPeopleList(container);
+    showPersonDrawer(params.id);
+  } else {
+    await renderPeopleList(container);
+  }
 }
 
 async function renderPeopleList(container) {
-    function getFilteredPeople() {
-        return getPeople({
-            search: filters.search,
-            category: filters.category || undefined,
-            role: filters.role || undefined,
-            status: filters.status || undefined
-        });
-    }
+  function getFilteredPeople() {
+    return getPeople({
+      search: filters.search,
+      category: filters.category || undefined,
+      role: filters.role || undefined,
+      status: filters.status || undefined
+    });
+  }
 
-    function getPaginatedPeople() {
-        const all = getFilteredPeople();
-        const start = (currentPage - 1) * pageSize;
-        return {
-            people: all.slice(start, start + pageSize),
-            total: all.length,
-            totalPages: Math.ceil(all.length / pageSize)
-        };
-    }
+  function getPaginatedPeople() {
+    const all = getFilteredPeople();
+    const start = (currentPage - 1) * pageSize;
+    return {
+      people: all.slice(start, start + pageSize),
+      total: all.length,
+      totalPages: Math.ceil(all.length / pageSize)
+    };
+  }
 
-    function renderTable() {
-        const { people, total, totalPages } = getPaginatedPeople();
+  function renderTable() {
+    const { people, total, totalPages } = getPaginatedPeople();
 
-        return `
+    return `
       <table class="data-table">
         <thead>
           <tr>
@@ -108,12 +108,12 @@ async function renderPeopleList(container) {
         </div>
       </div>
     `;
-    }
+  }
 
-    const state = getState();
-    const allPeople = getPeople();
+  const state = getState();
+  const allPeople = getPeople();
 
-    container.innerHTML = `
+  container.innerHTML = `
     <div class="page-header">
       <div class="d-flex items-center justify-between">
         <div>
@@ -165,114 +165,114 @@ async function renderPeopleList(container) {
     </div>
   `;
 
-    // Event listeners
-    const searchInput = container.querySelector('#search-input');
-    const categoryFilter = container.querySelector('#category-filter');
-    const roleFilter = container.querySelector('#role-filter');
-    const statusFilter = container.querySelector('#status-filter');
-    const clearBtn = container.querySelector('#clear-filters');
-    const tableWrapper = container.querySelector('#people-table');
-    const addPersonBtn = container.querySelector('#add-person-btn');
+  // Event listeners
+  const searchInput = container.querySelector('#search-input');
+  const categoryFilter = container.querySelector('#category-filter');
+  const roleFilter = container.querySelector('#role-filter');
+  const statusFilter = container.querySelector('#status-filter');
+  const clearBtn = container.querySelector('#clear-filters');
+  const tableWrapper = container.querySelector('#people-table');
+  const addPersonBtn = container.querySelector('#add-person-btn');
 
-    let debounceTimer;
+  let debounceTimer;
 
-    searchInput?.addEventListener('input', (e) => {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(() => {
-            filters.search = e.target.value;
-            currentPage = 1;
-            tableWrapper.innerHTML = renderTable();
-            attachTableListeners();
-        }, 300);
-    });
+  searchInput?.addEventListener('input', (e) => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      filters.search = e.target.value;
+      currentPage = 1;
+      tableWrapper.innerHTML = renderTable();
+      attachTableListeners();
+    }, 300);
+  });
 
-    categoryFilter?.addEventListener('change', (e) => {
-        filters.category = e.target.value;
-        currentPage = 1;
-        tableWrapper.innerHTML = renderTable();
-        attachTableListeners();
-    });
-
-    roleFilter?.addEventListener('change', (e) => {
-        filters.role = e.target.value;
-        currentPage = 1;
-        tableWrapper.innerHTML = renderTable();
-        attachTableListeners();
-    });
-
-    statusFilter?.addEventListener('change', (e) => {
-        filters.status = e.target.value;
-        currentPage = 1;
-        tableWrapper.innerHTML = renderTable();
-        attachTableListeners();
-    });
-
-    clearBtn?.addEventListener('click', () => {
-        filters = { search: '', category: '', role: '', status: '' };
-        searchInput.value = '';
-        categoryFilter.value = '';
-        roleFilter.value = '';
-        statusFilter.value = '';
-        currentPage = 1;
-        tableWrapper.innerHTML = renderTable();
-        attachTableListeners();
-    });
-
-    addPersonBtn?.addEventListener('click', () => {
-        showAddPersonModal();
-    });
-
-    function attachTableListeners() {
-        // Row clicks
-        tableWrapper.querySelectorAll('tr[data-person-id]').forEach(row => {
-            row.addEventListener('click', () => {
-                const personId = row.dataset.personId;
-                showPersonDrawer(personId);
-            });
-        });
-
-        // Pagination
-        tableWrapper.querySelector('#prev-page')?.addEventListener('click', () => {
-            if (currentPage > 1) {
-                currentPage--;
-                tableWrapper.innerHTML = renderTable();
-                attachTableListeners();
-            }
-        });
-
-        tableWrapper.querySelector('#next-page')?.addEventListener('click', () => {
-            const { totalPages } = getPaginatedPeople();
-            if (currentPage < totalPages) {
-                currentPage++;
-                tableWrapper.innerHTML = renderTable();
-                attachTableListeners();
-            }
-        });
-
-        tableWrapper.querySelectorAll('.page-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                currentPage = parseInt(btn.dataset.page);
-                tableWrapper.innerHTML = renderTable();
-                attachTableListeners();
-            });
-        });
-    }
-
+  categoryFilter?.addEventListener('change', (e) => {
+    filters.category = e.target.value;
+    currentPage = 1;
+    tableWrapper.innerHTML = renderTable();
     attachTableListeners();
+  });
+
+  roleFilter?.addEventListener('change', (e) => {
+    filters.role = e.target.value;
+    currentPage = 1;
+    tableWrapper.innerHTML = renderTable();
+    attachTableListeners();
+  });
+
+  statusFilter?.addEventListener('change', (e) => {
+    filters.status = e.target.value;
+    currentPage = 1;
+    tableWrapper.innerHTML = renderTable();
+    attachTableListeners();
+  });
+
+  clearBtn?.addEventListener('click', () => {
+    filters = { search: '', category: '', role: '', status: '' };
+    searchInput.value = '';
+    categoryFilter.value = '';
+    roleFilter.value = '';
+    statusFilter.value = '';
+    currentPage = 1;
+    tableWrapper.innerHTML = renderTable();
+    attachTableListeners();
+  });
+
+  addPersonBtn?.addEventListener('click', () => {
+    showAddPersonModal();
+  });
+
+  function attachTableListeners() {
+    // Row clicks
+    tableWrapper.querySelectorAll('tr[data-person-id]').forEach(row => {
+      row.addEventListener('click', () => {
+        const personId = row.dataset.personId;
+        showPersonDrawer(personId);
+      });
+    });
+
+    // Pagination
+    tableWrapper.querySelector('#prev-page')?.addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--;
+        tableWrapper.innerHTML = renderTable();
+        attachTableListeners();
+      }
+    });
+
+    tableWrapper.querySelector('#next-page')?.addEventListener('click', () => {
+      const { totalPages } = getPaginatedPeople();
+      if (currentPage < totalPages) {
+        currentPage++;
+        tableWrapper.innerHTML = renderTable();
+        attachTableListeners();
+      }
+    });
+
+    tableWrapper.querySelectorAll('.page-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentPage = parseInt(btn.dataset.page);
+        tableWrapper.innerHTML = renderTable();
+        attachTableListeners();
+      });
+    });
+  }
+
+  attachTableListeners();
 }
 
 function showPersonDrawer(personId) {
-    const person = getPersonById(personId);
-    if (!person) {
-        window.showToast('Personel bulunamadı', 'error');
-        return;
-    }
+  const person = getPersonById(personId);
+  if (!person) {
+    window.showToast('Personel bulunamadı', 'error');
+    return;
+  }
 
-    const leaves = getLeaves({ personId });
-    const tracking = getTracking({ personId });
-    const state = getState();
+  const leaves = getLeaves({ personId });
+  const tracking = getTracking({ personId });
+  const state = getState();
 
-    const content = `
+  const content = `
     <div class="d-flex items-center gap-4 mb-6">
       <div class="avatar avatar-xl" style="background: ${getCategoryBg(person.category)}; color: ${getCategoryColor(person.category)};">
         ${person.fullName.charAt(0)}
@@ -373,18 +373,18 @@ function showPersonDrawer(personId) {
     ` : ''}
   `;
 
-    const footer = state.isAdmin ? `
+  const footer = state.isAdmin ? `
     <button class="btn btn-secondary" onclick="window.hideDrawer()">Kapat</button>
     <button class="btn btn-primary" onclick="window.editPerson('${personId}')">Düzenle</button>
   ` : `
     <button class="btn btn-secondary" onclick="window.hideDrawer()">Kapat</button>
   `;
 
-    window.showDrawer(person.fullName, content, footer);
+  window.showDrawer(person.fullName, content, footer);
 }
 
 function showAddPersonModal() {
-    const content = `
+  const content = `
     <form id="add-person-form" class="d-flex flex-col gap-4">
       <div class="form-group">
         <label class="form-label required">Ad Soyad</label>
@@ -414,83 +414,253 @@ function showAddPersonModal() {
     </form>
   `;
 
-    const footer = `
+  const footer = `
     <button class="btn btn-secondary" onclick="window.hideModal()">İptal</button>
     <button class="btn btn-primary" onclick="window.submitAddPerson()">Ekle</button>
   `;
 
-    window.showModal('Yeni Personel Ekle', content, footer);
+  window.showModal('Yeni Personel Ekle', content, footer);
 }
 
 window.editPerson = (personId) => {
-    // TODO: Implement edit
-    window.showToast('Düzenleme özelliği yakında eklenecek', 'info');
+  const person = getPersonById(personId);
+  if (!person) {
+    window.showToast('Personel bulunamadı', 'error');
+    return;
+  }
+
+  const content = `
+    <form id="edit-person-form" class="d-flex flex-col gap-4">
+      <input type="hidden" name="personId" value="${personId}">
+      
+      <!-- Name (read-only for now) -->
+      <div class="form-group">
+        <label class="form-label">Ad Soyad</label>
+        <input type="text" class="form-input" value="${person.fullName}" disabled style="opacity: 0.7;">
+        <div class="text-xs text-tertiary mt-1">İsim değişikliği için admin panelinden JSON düzenleme kullanın</div>
+      </div>
+      
+      <!-- Category -->
+      <div class="form-group">
+        <label class="form-label">Kategori</label>
+        <select class="form-select" name="category" id="edit-category">
+          <option value="">Seçiniz</option>
+          ${CATEGORIES.map(c => `<option value="${c}" ${person.category === c ? 'selected' : ''}>${c}</option>`).join('')}
+        </select>
+      </div>
+      
+      <!-- Role -->
+      <div class="form-group">
+        <label class="form-label">Rol</label>
+        <select class="form-select" name="role" id="edit-role">
+          <option value="">Seçiniz</option>
+          ${ROLES.map(r => `<option value="${r}" ${person.role === r ? 'selected' : ''}>${r}</option>`).join('')}
+        </select>
+      </div>
+      
+      <!-- Job Title -->
+      <div class="form-group">
+        <label class="form-label">İş Tanımı / Meslek</label>
+        <input type="text" class="form-input" name="jobTitle" value="${person.jobTitle || ''}" placeholder="Örn: İnşaat İşçisi">
+      </div>
+      
+      <!-- Status -->
+      <div class="form-group">
+        <label class="form-label">Durum</label>
+        <select class="form-select" name="status" id="edit-status">
+          <option value="active" ${person.status === 'active' ? 'selected' : ''}>✓ Aktif</option>
+          <option value="pending" ${person.status === 'pending' ? 'selected' : ''}>⏳ Bekleyen</option>
+          <option value="departed" ${person.status === 'departed' ? 'selected' : ''}>↗ Ayrıldı</option>
+        </select>
+      </div>
+      
+      <!-- Needs Review Toggle -->
+      <div class="form-group">
+        <label class="d-flex items-center gap-3 cursor-pointer">
+          <input type="checkbox" name="needsReview" ${person.needsReview ? 'checked' : ''} style="width: 18px; height: 18px;">
+          <span>İnceleme Bekliyor</span>
+        </label>
+      </div>
+      
+      ${person.unmappedTags?.length > 0 ? `
+        <div class="p-3 rounded-lg bg-warning-50 border border-warning-200">
+          <div class="font-medium text-sm mb-2">Eşlenmemiş Etiketler</div>
+          <div class="d-flex flex-wrap gap-2">
+            ${person.unmappedTags.map(t => `<span class="badge badge-warning">${t}</span>`).join('')}
+          </div>
+        </div>
+      ` : ''}
+      
+      <div class="border-t border-secondary pt-4 mt-2">
+        <div class="text-xs text-tertiary">
+          <div>Kayıt ID: <span class="font-mono">${personId.slice(0, 8)}...</span></div>
+          <div>Oluşturulma: ${formatDate(person.createdAt)}</div>
+          <div>Son Güncelleme: ${formatDate(person.updatedAt)}</div>
+        </div>
+      </div>
+    </form>
+  `;
+
+  const footer = `
+    <button class="btn btn-ghost" onclick="window.showPersonDrawer('${personId}')">İptal</button>
+    <button class="btn btn-danger" onclick="window.confirmDeletePerson('${personId}')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+        <polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+      </svg>
+      Sil
+    </button>
+    <button class="btn btn-primary" onclick="window.submitEditPerson()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+        <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/>
+      </svg>
+      Kaydet
+    </button>
+  `;
+
+  window.showDrawer('Personel Düzenle', content, footer);
+};
+
+window.showPersonDrawer = (personId) => {
+  showPersonDrawer(personId);
+};
+
+window.submitEditPerson = async () => {
+  const form = document.getElementById('edit-person-form');
+  if (!form) return;
+
+  const formData = new FormData(form);
+  const personId = formData.get('personId');
+
+  const updates = {
+    category: formData.get('category') || null,
+    role: formData.get('role') || null,
+    jobTitle: formData.get('jobTitle') || null,
+    status: formData.get('status'),
+    needsReview: formData.has('needsReview')
+  };
+
+  try {
+    const { updatePerson } = await import('../store.js');
+    const updated = updatePerson(personId, updates);
+
+    window.showToast('Personel güncellendi', 'success');
+
+    // Show updated drawer
+    showPersonDrawer(personId);
+
+    // Refresh table in background
+    const tableWrapper = document.querySelector('#people-table');
+    if (tableWrapper) {
+      const { render } = await import('./people.js');
+      render({});
+    }
+  } catch (err) {
+    window.showToast(err.message, 'error');
+  }
+};
+
+window.confirmDeletePerson = (personId) => {
+  const person = getPersonById(personId);
+  if (!person) return;
+
+  const content = `
+    <div class="text-center p-4">
+      <div class="text-4xl mb-4">⚠️</div>
+      <h3 class="font-bold text-lg mb-2">Personeli Silmek Üzeresiniz</h3>
+      <p class="text-secondary mb-4">"${person.fullName}" kalıcı olarak silinecek.</p>
+      <p class="text-sm text-danger">Bu işlem geri alınamaz!</p>
+    </div>
+  `;
+
+  const footer = `
+    <button class="btn btn-secondary" onclick="window.hideModal()">İptal</button>
+    <button class="btn btn-danger" onclick="window.executeDeletePerson('${personId}')">Evet, Sil</button>
+  `;
+
+  window.showModal('Silme Onayı', content, footer);
+};
+
+window.executeDeletePerson = async (personId) => {
+  try {
+    const { deletePerson } = await import('../store.js');
+    deletePerson(personId);
+
+    window.hideModal();
+    window.hideDrawer();
+    window.showToast('Personel silindi', 'success');
+
+    // Refresh table
+    const { render } = await import('./people.js');
+    render({});
+  } catch (err) {
+    window.showToast(err.message, 'error');
+  }
 };
 
 window.submitAddPerson = async () => {
-    const form = document.getElementById('add-person-form');
-    if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-    }
+  const form = document.getElementById('add-person-form');
+  if (!form.checkValidity()) {
+    form.reportValidity();
+    return;
+  }
 
-    const formData = new FormData(form);
-    const data = Object.fromEntries(formData);
+  const formData = new FormData(form);
+  const data = Object.fromEntries(formData);
 
-    try {
-        const { addPerson } = await import('../store.js');
-        addPerson(data);
-        window.hideModal();
-        window.showToast('Personel eklendi', 'success');
-        // Refresh the page
-        const { render } = await import('./people.js');
-        render({});
-    } catch (err) {
-        window.showToast(err.message, 'error');
-    }
+  try {
+    const { addPerson } = await import('../store.js');
+    addPerson(data);
+    window.hideModal();
+    window.showToast('Personel eklendi', 'success');
+    // Refresh the page
+    const { render } = await import('./people.js');
+    render({});
+  } catch (err) {
+    window.showToast(err.message, 'error');
+  }
 };
 
 function renderPageNumbers(current, total) {
-    if (total <= 7) {
-        return Array.from({ length: total }, (_, i) => i + 1)
-            .map(n => `<button class="pagination-btn page-btn ${n === current ? 'active' : ''}" data-page="${n}">${n}</button>`)
-            .join('');
-    }
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, i) => i + 1)
+      .map(n => `<button class="pagination-btn page-btn ${n === current ? 'active' : ''}" data-page="${n}">${n}</button>`)
+      .join('');
+  }
 
-    // Show first, last, and pages around current
-    let pages = [1];
+  // Show first, last, and pages around current
+  let pages = [1];
 
-    if (current > 3) pages.push('...');
+  if (current > 3) pages.push('...');
 
-    for (let i = Math.max(2, current - 1); i <= Math.min(total - 1, current + 1); i++) {
-        pages.push(i);
-    }
+  for (let i = Math.max(2, current - 1); i <= Math.min(total - 1, current + 1); i++) {
+    pages.push(i);
+  }
 
-    if (current < total - 2) pages.push('...');
+  if (current < total - 2) pages.push('...');
 
-    if (total > 1) pages.push(total);
+  if (total > 1) pages.push(total);
 
-    return pages.map(p => {
-        if (p === '...') return `<span class="pagination-btn text-secondary">...</span>`;
-        return `<button class="pagination-btn page-btn ${p === current ? 'active' : ''}" data-page="${p}">${p}</button>`;
-    }).join('');
+  return pages.map(p => {
+    if (p === '...') return `<span class="pagination-btn text-secondary">...</span>`;
+    return `<button class="pagination-btn page-btn ${p === current ? 'active' : ''}" data-page="${p}">${p}</button>`;
+  }).join('');
 }
 
 function getStatusLabel(status) {
-    const labels = {
-        active: 'Aktif',
-        pending: 'Bekleyen',
-        departed: 'Ayrıldı',
-        conflict: 'Çakışma'
-    };
-    return labels[status] || status;
+  const labels = {
+    active: 'Aktif',
+    pending: 'Bekleyen',
+    departed: 'Ayrıldı',
+    conflict: 'Çakışma'
+  };
+  return labels[status] || status;
 }
 
 function getCategoryColor(category) {
-    return CATEGORY_COLORS[category] || 'var(--text-secondary)';
+  return CATEGORY_COLORS[category] || 'var(--text-secondary)';
 }
 
 function getCategoryBg(category) {
-    const color = CATEGORY_COLORS[category];
-    return color ? `${color}20` : 'var(--bg-tertiary)';
+  const color = CATEGORY_COLORS[category];
+  return color ? `${color}20` : 'var(--bg-tertiary)';
 }
