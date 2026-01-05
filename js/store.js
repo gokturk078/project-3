@@ -529,33 +529,22 @@ function saveToLocal() {
 // ADMIN AUTH
 // ============================================================================
 
+// FIXED PASSWORD IMPLEMENTATION
+const FIXED_ADMIN_PASSWORD = 'admin';
+
 export function isAdminPasswordSet() {
-    return !!state.db?.meta?.adminHash;
+    return true; // Always show login screen, never setup
 }
 
 export async function setAdminPassword(password) {
-    if (password.length < 12) {
-        throw new Error('Password must be at least 12 characters');
-    }
-
-    const hash = await hashPassword(password);
-
-    if (!state.db.meta) state.db.meta = {};
-    state.db.meta.adminHash = hash;
-
-    saveToLocal();
-    notifyListeners();
+    // No-op for fixed password
+    console.warn('Fixed password is active. Cannot change via UI.');
 }
 
 export async function adminLogin(password) {
-    if (!state.db?.meta?.adminHash) {
-        throw new Error('Admin password not set');
-    }
-
-    const hash = await hashPassword(password);
-
-    if (hash !== state.db.meta.adminHash) {
-        throw new Error('Invalid password');
+    // Check against fixed password
+    if (password !== FIXED_ADMIN_PASSWORD) {
+        throw new Error('Hatalı şifre');
     }
 
     const session = {
