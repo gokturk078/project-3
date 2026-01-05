@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-05T13:27:36.556Z"
+    "lastUpdated": "2026-01-05T13:28:28.407Z"
   },
   "taxonomy": {
     "categories": [
@@ -282,7 +282,7 @@
       "normalizedName": "BATUHAN GUNES",
       "baseKey": "BATUHAN GUNES",
       "category": "REPSAM",
-      "role": "FORMEN",
+      "role": "MÜHENDİS",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -295,7 +295,7 @@
       "mergedFrom": [],
       "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:28:28.407Z"
     },
     {
       "fullName": "BEHİYE SOYDAN",
@@ -5601,6 +5601,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "004df557-65cb-4be3-8828-f3e48944ebde",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "7c403519-f4af-4c36-9ff8-74914313c288",
+      "details": {
+        "before": {
+          "fullName": "BATUHAN GÜNEŞ",
+          "normalizedName": "BATUHAN GUNES",
+          "baseKey": "BATUHAN GUNES",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 10
+          },
+          "mergedFrom": [],
+          "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "BATUHAN GÜNEŞ",
+          "normalizedName": "BATUHAN GUNES",
+          "baseKey": "BATUHAN GUNES",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 10
+          },
+          "mergedFrom": [],
+          "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:28:28.407Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:28:28.407Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
     {
       "id": "b0e0568d-c8ed-4ced-816d-72c34144ef67",
       "action": "UPDATE",
