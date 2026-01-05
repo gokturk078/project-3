@@ -3,56 +3,56 @@
  */
 
 import { getLeaves, getPeople, getState } from '../store.js';
-import { formatDate, daysBetween } from '../utils.js';
+import { formatDate } from '../utils.js';
 
 export async function render(ctx) {
-    const container = document.getElementById('main-content');
-    if (!container) return;
+  const container = document.getElementById('main-content');
+  if (!container) return;
 
-    const state = getState();
-    const leaves = getLeaves();
-    const people = getPeople();
+  const state = getState();
+  const leaves = getLeaves();
+  const people = getPeople();
 
-    // Create person lookup
-    const personMap = new Map(people.map(p => [p.personId, p]));
+  // Create person lookup
+  const personMap = new Map(people.map(p => [p.personId, p]));
 
-    // Enrich leaves with person data
-    const enrichedLeaves = leaves.map(leave => ({
-        ...leave,
-        person: personMap.get(leave.personId)
-    }));
+  // Enrich leaves with person data
+  const enrichedLeaves = leaves.map(leave => ({
+    ...leave,
+    person: personMap.get(leave.personId)
+  }));
 
-    // Calculate stats
-    const now = new Date();
-    const activeLeaves = enrichedLeaves.filter(l => {
-        const end = new Date(l.endDate);
-        return end >= now;
+  // Calculate stats
+  const now = new Date();
+  const activeLeaves = enrichedLeaves.filter(l => {
+    const end = new Date(l.endDate);
+    return end >= now;
+  });
+  const upcomingEnd = enrichedLeaves.filter(l => {
+    const end = new Date(l.endDate);
+    const sevenDays = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
+    return end >= now && end <= sevenDays;
+  });
+
+  let searchQuery = '';
+  let typeFilter = '';
+
+  function filterLeaves() {
+    return enrichedLeaves.filter(l => {
+      if (searchQuery && !l.person?.fullName.toLowerCase().includes(searchQuery.toLowerCase())) {
+        return false;
+      }
+      if (typeFilter && l.type !== typeFilter) {
+        return false;
+      }
+      return true;
     });
-    const upcomingEnd = enrichedLeaves.filter(l => {
-        const end = new Date(l.endDate);
-        const sevenDays = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
-        return end >= now && end <= sevenDays;
-    });
+  }
 
-    let searchQuery = '';
-    let typeFilter = '';
+  function renderTable() {
+    const filtered = filterLeaves();
 
-    function filterLeaves() {
-        return enrichedLeaves.filter(l => {
-            if (searchQuery && !l.person?.fullName.toLowerCase().includes(searchQuery.toLowerCase())) {
-                return false;
-            }
-            if (typeFilter && l.type !== typeFilter) {
-                return false;
-            }
-            return true;
-        });
-    }
-
-    function renderTable() {
-        const filtered = filterLeaves();
-
-        return `
+    return `
       <table class="data-table">
         <thead>
           <tr>
@@ -63,45 +63,59 @@ export async function render(ctx) {
             <th>Tür</th>
             <th>Not</th>
             <th>Durum</th>
+            ${state.isAdmin ? '<th>İşlem</th>' : ''}
           </tr>
         </thead>
         <tbody>
           ${filtered.length > 0 ? filtered.map(l => {
-            const endDate = new Date(l.endDate);
-            const isActive = endDate >= now;
-            const isEnding = endDate >= now && endDate <= new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
+      const endDate = new Date(l.endDate);
+      const isActive = endDate >= now;
+      const isEnding = endDate >= now && endDate <= new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
+      const hasId = l.id || l.leaveId;
 
-            return `
+      return `
               <tr>
                 <td class="cell-name">${l.person?.fullName || 'Bilinmeyen'}</td>
                 <td class="cell-mono">${formatDate(l.startDate)}</td>
                 <td class="cell-mono">${formatDate(l.endDate)}</td>
                 <td><span class="badge badge-neutral">${l.days}</span></td>
                 <td><span class="badge ${l.type === 'ÜCRETSİZ' ? 'badge-warning' : 'badge-info'}">${l.type || 'NORMAL'}</span></td>
-                <td class="cell-secondary">${l.note || '-'}</td>
+                <td class="cell-secondary" style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${l.note || '-'}</td>
                 <td>
                   ${isEnding ? '<span class="badge badge-danger">⚠️ Bitiyor</span>' :
-                    isActive ? '<span class="badge badge-success">Aktif</span>' :
-                        '<span class="badge badge-neutral">Bitti</span>'}
+          isActive ? '<span class="badge badge-success">Aktif</span>' :
+            '<span class="badge badge-neutral">Bitti</span>'}
                 </td>
+                ${state.isAdmin ? `
+                <td>
+                  ${hasId ? `
+                    <button class="btn btn-icon btn-sm text-danger delete-leave-btn" data-id="${hasId}" title="Sil">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                        <polyline points="3 6 5 6 21 6"></polyline>
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                      </svg>
+                    </button>
+                  ` : '<span class="text-xs text-tertiary">Salt Okunur</span>'}
+                </td>
+                ` : ''}
               </tr>
             `;
-        }).join('') : `
+    }).join('') : `
             <tr>
-              <td colspan="7" class="text-center text-secondary p-6">İzin kaydı bulunamadı</td>
+              <td colspan="${state.isAdmin ? 8 : 7}" class="text-center text-secondary p-6">İzin kaydı bulunamadı</td>
             </tr>
           `}
         </tbody>
       </table>
     `;
-    }
+  }
 
-    container.innerHTML = `
+  container.innerHTML = `
     <div class="page-header">
       <div class="d-flex items-center justify-between">
         <div>
           <h1 class="page-title">İzinler</h1>
-          <p class="page-description">Personel izin kayıtları</p>
+          <p class="page-description">Personel izin kayıtları yönetim paneli</p>
         </div>
         ${state.isAdmin ? `
           <button class="btn btn-primary" id="add-leave-btn">
@@ -174,6 +188,9 @@ export async function render(ctx) {
           <option value="">Tüm Türler</option>
           <option value="NORMAL">Normal</option>
           <option value="ÜCRETSİZ">Ücretsiz</option>
+          <option value="YILLIK">Yıllık</option>
+          <option value="MAZERET">Mazeret</option>
+          <option value="RAPOR">Rapor</option>
         </select>
       </div>
     </div>
@@ -184,23 +201,115 @@ export async function render(ctx) {
     </div>
   `;
 
-    // Event listeners
-    const searchInput = container.querySelector('#search-input');
-    const typeSelect = container.querySelector('#type-filter');
-    const tableWrapper = container.querySelector('#leaves-table');
-    const addBtn = container.querySelector('#add-leave-btn');
+  // Event listeners
+  const searchInput = container.querySelector('#search-input');
+  const typeSelect = container.querySelector('#type-filter');
+  const tableWrapper = container.querySelector('#leaves-table');
+  const addBtn = container.querySelector('#add-leave-btn');
 
-    searchInput?.addEventListener('input', (e) => {
-        searchQuery = e.target.value;
-        tableWrapper.innerHTML = renderTable();
-    });
+  searchInput?.addEventListener('input', (e) => {
+    searchQuery = e.target.value;
+    tableWrapper.innerHTML = renderTable();
+    attachDeleteListeners();
+  });
 
-    typeSelect?.addEventListener('change', (e) => {
-        typeFilter = e.target.value;
-        tableWrapper.innerHTML = renderTable();
-    });
+  typeSelect?.addEventListener('change', (e) => {
+    typeFilter = e.target.value;
+    tableWrapper.innerHTML = renderTable();
+    attachDeleteListeners();
+  });
 
-    addBtn?.addEventListener('click', () => {
-        window.showToast('İzin ekleme özelliği yakında eklenecek', 'info');
+  // Delete Listeners
+  function attachDeleteListeners() {
+    container.querySelectorAll('.delete-leave-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        if (!confirm('Bu izin kaydını silmek istediğinize emin misiniz?')) return;
+
+        try {
+          const { deleteLeave } = await import('../store.js');
+          deleteLeave(btn.dataset.id);
+          window.showToast('İzin kaydı silindi', 'success');
+          render(ctx);
+        } catch (err) {
+          window.showToast(err.message, 'error');
+        }
+      });
     });
+  }
+
+  attachDeleteListeners();
+
+  // Add Modal Flow
+  addBtn?.addEventListener('click', () => {
+    // Get active people from store for dropdown
+    const allActivePeople = getPeople({ status: 'active' }).sort((a, b) => a.fullName.localeCompare(b.fullName));
+
+    const formHtml = `
+            <form id="add-leave-form" class="d-flex flex-col gap-4">
+                <div class="form-group">
+                    <label class="form-label required">Personel</label>
+                    <div class="select-wrapper">
+                        <select class="form-select" name="personId" required>
+                            <option value="">Seçiniz...</option>
+                            ${allActivePeople.map(p => `<option value="${p.personId}">${p.fullName}</option>`).join('')}
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="form-group">
+                        <label class="form-label required">Başlangıç Tarihi</label>
+                        <input type="date" class="form-input" name="startDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label required">Bitiş Tarihi</label>
+                        <input type="date" class="form-input" name="endDate" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">İzin Türü</label>
+                    <select class="form-select" name="type">
+                        <option value="NORMAL">Normal</option>
+                        <option value="ÜCRETSİZ">Ücretsiz</option>
+                        <option value="YILLIK">Yıllık</option>
+                        <option value="MAZERET">Mazeret</option>
+                        <option value="RAPOR">Rapor</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Not / Açıklama</label>
+                    <textarea class="form-input" name="note" rows="3" placeholder="İsteğe bağlı not ekleyin..."></textarea>
+                </div>
+            </form>
+        `;
+
+    window.showModal('Yeni İzin Kaydı', formHtml, `
+            <button class="btn btn-secondary" onclick="hideModal()">İptal</button>
+            <button class="btn btn-primary" id="save-leave-btn">Kaydet</button>
+        `);
+
+    // Handle Save
+    document.getElementById('save-leave-btn').addEventListener('click', async () => {
+      const form = document.getElementById('add-leave-form');
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData.entries());
+
+      try {
+        const { addLeave } = await import('../store.js');
+        addLeave(data);
+        window.showToast('İzin kaydı oluşturuldu', 'success');
+        window.hideModal();
+        render(ctx);
+      } catch (err) {
+        window.showToast(err.message, 'error');
+      }
+    });
+  });
 }

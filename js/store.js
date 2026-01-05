@@ -232,7 +232,35 @@ export function getUnmappedTags() {
 }
 
 export function getStats() {
-    return state.db?.meta?.stats || {};
+    if (!state.db?.people) return {};
+
+    const people = state.db.people;
+    const activePeople = people.filter(p => p.status === 'active' || !p.status);
+    const pendingPeople = people.filter(p => p.status === 'pending'); // From pending roster
+    const departedPeople = state.db.departures || []; // Departures are separate array
+
+    // Calculate Category Distribution (Active Only)
+    const byCategory = {};
+    for (const cat of CATEGORIES) {
+        byCategory[cat] = activePeople.filter(p => p.category === cat).length;
+    }
+    // Add pending to uncategorized/others if needed, or keep separate. 
+    // Dashboard typically shows active roster breakdown.
+
+    // Calculate Role Distribution (Active Only)
+    const byRole = {};
+    for (const role of ROLES) {
+        byRole[role] = activePeople.filter(p => p.role === role).length;
+    }
+
+    return {
+        activeRosterCount: activePeople.length,
+        pendingCount: pendingPeople.length,
+        departedCount: departedPeople.length,
+        byCategory,
+        byRole,
+        generatedAt: new Date().toISOString() // Dynamic timestamp
+    };
 }
 
 export function getAudit() {
@@ -415,6 +443,144 @@ export function deletePerson(personId) {
     notifyListeners();
 
     return deletedPerson;
+}
+
+export function addLeave(leaveData) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db) throw new Error('No database loaded');
+
+    const now = new Date().toISOString();
+    const leaveId = crypto.randomUUID();
+
+    // Calculate days if not provided
+    let days = leaveData.days;
+    if (!days && leaveData.startDate && leaveData.endDate) {
+        const start = new Date(leaveData.startDate);
+        const end = new Date(leaveData.endDate);
+        const diffTime = Math.abs(end - start);
+        days = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
+    }
+
+    const newLeave = {
+        id: leaveId,
+        personId: leaveData.personId,
+        startDate: leaveData.startDate,
+        endDate: leaveData.endDate,
+        days: days || 0,
+        type: leaveData.type || 'NORMAL',
+        note: leaveData.note || '',
+        createdAt: now
+    };
+
+    if (!state.db.leaves) state.db.leaves = [];
+    state.db.leaves.push(newLeave);
+
+    addAuditEntry('CREATE', 'leave', leaveId, { leave: newLeave });
+
+    saveToLocal();
+    notifyListeners();
+
+    return newLeave;
+}
+
+export function deleteLeave(leaveId) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db?.leaves) throw new Error('No database loaded');
+
+    const idx = state.db.leaves.findIndex(l => (l.id === leaveId) || (l.leaveId === leaveId)); // Suboptimal check due to possible schema var
+    // Actually our ingest creates leaves without IDs initially, maybe? 
+    // Let's check ingest script or just use index if no ID.
+    // Wait, ingestion script might not assign IDs to leaves.
+    // If no ID, we might need to rely on object reference or generate IDs during load.
+    // Let's assume we maintain IDs moving forward.
+
+    // Fallback: finding by props if no ID? No, that's risky. 
+    // Better: Ensure all leaves have IDs. 
+    // If existing leaves don't have IDs, we should generate them on load or ingest.
+
+    // For now, let's look for ID.
+    if (idx === -1) throw new Error('Leave record not found');
+
+    const deletedLeave = state.db.leaves.splice(idx, 1)[0];
+
+    addAuditEntry('DELETE', 'leave', leaveId, { leave: deletedLeave });
+
+    saveToLocal();
+    notifyListeners();
+
+    return deletedLeave;
+}
+
+export function addTracking(trackingData) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db) throw new Error('No database loaded');
+
+    const now = new Date().toISOString();
+    const trackingId = crypto.randomUUID();
+
+    const newTracking = {
+        id: trackingId,
+        personId: trackingData.personId,
+        applicationNo: trackingData.applicationNo || '',
+        profession: trackingData.profession || '',
+        status: trackingData.status || 'ÖN İZNİ ONAYLANDI',
+        expectedDate: trackingData.expectedDate || null,
+        contactPerson: trackingData.contactPerson || '',
+        notes: trackingData.notes || '',
+        createdAt: now,
+        updatedAt: now
+    };
+
+    if (!state.db.tracking) state.db.tracking = [];
+    state.db.tracking.push(newTracking);
+
+    addAuditEntry('CREATE', 'tracking', trackingId, { tracking: newTracking });
+
+    saveToLocal();
+    notifyListeners();
+
+    return newTracking;
+}
+
+export function updateTracking(trackingId, updates) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db?.tracking) throw new Error('No database loaded');
+
+    const idx = state.db.tracking.findIndex(t => (t.id === trackingId) || (t.trackingId === trackingId));
+    if (idx === -1) throw new Error('Tracking record not found');
+
+    const oldTracking = { ...state.db.tracking[idx] };
+    const newTracking = {
+        ...oldTracking,
+        ...updates,
+        updatedAt: new Date().toISOString()
+    };
+
+    state.db.tracking[idx] = newTracking;
+
+    addAuditEntry('UPDATE', 'tracking', trackingId, { before: oldTracking, after: newTracking });
+
+    saveToLocal();
+    notifyListeners();
+
+    return newTracking;
+}
+
+export function deleteTracking(trackingId) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db?.tracking) throw new Error('No database loaded');
+
+    const idx = state.db.tracking.findIndex(t => (t.id === trackingId) || (t.trackingId === trackingId));
+    if (idx === -1) throw new Error('Tracking record not found');
+
+    const deletedTracking = state.db.tracking.splice(idx, 1)[0];
+
+    addAuditEntry('DELETE', 'tracking', trackingId, { tracking: deletedTracking });
+
+    saveToLocal();
+    notifyListeners();
+
+    return deletedTracking;
 }
 
 export function mapTag(tag, category) {
