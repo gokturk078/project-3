@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-05T13:28:28.407Z"
+    "lastUpdated": "2026-01-05T19:09:34.218Z"
   },
   "taxonomy": {
     "categories": [
@@ -4354,6 +4354,26 @@
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
       "updatedAt": "2026-01-05T12:12:49.592Z"
+    },
+    {
+      "personId": "37b34272-736f-453f-ab71-fa68dd1a5e87",
+      "baseKey": "ALI ULMASOV",
+      "fullName": "ali ulmasov",
+      "normalizedName": "ALI ULMASOV",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-05T19:09:34.218Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-05T19:09:34.218Z",
+      "updatedAt": "2026-01-05T19:09:34.218Z"
     }
   ],
   "leaves": [
@@ -5601,6 +5621,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "78181d08-1cbc-4ef2-8fd4-415ec54e5e1e",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "37b34272-736f-453f-ab71-fa68dd1a5e87",
+      "details": {
+        "person": {
+          "personId": "37b34272-736f-453f-ab71-fa68dd1a5e87",
+          "baseKey": "ALI ULMASOV",
+          "fullName": "ali ulmasov",
+          "normalizedName": "ALI ULMASOV",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-05T19:09:34.218Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-05T19:09:34.218Z",
+          "updatedAt": "2026-01-05T19:09:34.218Z"
+        }
+      },
+      "timestamp": "2026-01-05T19:09:34.218Z",
+      "adminSession": "550e79c9-6090-4ba9-9f9b-278cab9f1d05"
+    },
     {
       "id": "004df557-65cb-4be3-8828-f3e48944ebde",
       "action": "UPDATE",
