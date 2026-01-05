@@ -493,6 +493,18 @@ function addAuditEntry(action, entityType, entityId, details) {
 function saveToLocal() {
     try {
         localStorage.setItem(STORAGE_KEYS.DB, JSON.stringify(state.db));
+
+        // SYNC: Try to save to server
+        fetch('/api/save', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(state.db)
+        }).then(res => {
+            if (res.ok) console.log('✅ Synced to server');
+            else console.warn('⚠️ Sync failed:', res.status);
+        }).catch(err => {
+            // Silent fail for static mode
+        });
     } catch (e) {
         console.error('Failed to save to localStorage:', e);
     }
