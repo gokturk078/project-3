@@ -8,7 +8,7 @@
       "izin_belgeleri.xlsx",
       "takip.xlsx"
     ],
-    "adminHash": null,
+    "adminHash": "c2acdf4db7cd4a5fcff4d173bf4d51b7cbb723f37bc10bd85ec5d2b840db8d3d",
     "remoteStore": {
       "enabled": false,
       "gistId": null,
@@ -66,7 +66,8 @@
         "HİZMETLİ": 3,
         "UNASSIGNED": 172
       }
-    }
+    },
+    "lastUpdated": "2026-01-05T13:17:42.324Z"
   },
   "taxonomy": {
     "categories": [
@@ -481,7 +482,7 @@
       "normalizedName": "FERIT KAHRIMAN",
       "baseKey": "FERIT KAHRIMAN",
       "category": "REPSAM",
-      "role": "OFİS PERSONELİ",
+      "role": "MÜHENDİS",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -494,7 +495,7 @@
       "mergedFrom": [],
       "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:17:42.324Z"
     },
     {
       "fullName": "GÖKHAN TAÇKIN",
@@ -5599,5 +5600,106 @@
       "exitDate": "2025-06-03"
     }
   ],
-  "audit": []
+  "audit": [
+    {
+      "id": "2d295678-096c-46fe-8da7-17f399a9a07b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+      "details": {
+        "before": {
+          "fullName": "FERİT KAHRİMAN",
+          "normalizedName": "FERIT KAHRIMAN",
+          "baseKey": "FERIT KAHRIMAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 20
+          },
+          "mergedFrom": [],
+          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:17:38.611Z"
+        },
+        "after": {
+          "fullName": "FERİT KAHRİMAN",
+          "normalizedName": "FERIT KAHRIMAN",
+          "baseKey": "FERIT KAHRIMAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 20
+          },
+          "mergedFrom": [],
+          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:17:42.324Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:17:42.324Z",
+      "adminSession": "3a91e54d-07f0-48bb-a64c-e215e32c2d3b"
+    },
+    {
+      "id": "8a26ff84-beeb-48af-bba3-d78f5215d16e",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+      "details": {
+        "before": {
+          "fullName": "FERİT KAHRİMAN",
+          "normalizedName": "FERIT KAHRIMAN",
+          "baseKey": "FERIT KAHRIMAN",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 20
+          },
+          "mergedFrom": [],
+          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "FERİT KAHRİMAN",
+          "normalizedName": "FERIT KAHRIMAN",
+          "baseKey": "FERIT KAHRIMAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 20
+          },
+          "mergedFrom": [],
+          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:17:38.611Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:17:38.611Z",
+      "adminSession": "3a91e54d-07f0-48bb-a64c-e215e32c2d3b"
+    }
+  ]
 }
