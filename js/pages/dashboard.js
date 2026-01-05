@@ -31,7 +31,7 @@ export async function render(ctx) {
     </div>
 
     <!-- Category Distribution & Chart -->
-    <div class="card h-full">
+    <div class="card">
       <div class="card-header">
         <h3 class="card-title">Kategori Dağılımı</h3>
         <a href="#/categories" class="btn btn-ghost btn-sm">Tümünü Gör</a>
@@ -42,13 +42,13 @@ export async function render(ctx) {
     </div>
 
     <!-- Role Distribution -->
-    <div class="card h-full">
+    <div class="card">
       <div class="card-header">
         <h3 class="card-title">Rol Dağılımı</h3>
         <a href="#/roles" class="btn btn-ghost btn-sm">Tümünü Gör</a>
       </div>
-      <div class="card-body">
-        <div class="grid grid-cols-2 gap-3 h-full content-start">
+      <div class="card-body custom-scrollbar" style="max-height: 240px; overflow-y: auto;">
+        <div class="grid grid-cols-2 gap-3 content-start">
           ${renderRoleCards(stats.byRole || {})}
         </div>
       </div>
