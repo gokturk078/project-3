@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-05T13:25:39.200Z"
+    "lastUpdated": "2026-01-05T13:26:09.853Z"
   },
   "taxonomy": {
     "categories": [
@@ -3582,7 +3582,7 @@
       "normalizedName": "AHMET SAHIN",
       "baseKey": "AHMET SAHIN",
       "category": "CAPRA",
-      "role": null,
+      "role": "CAPRA İŞVEREN",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -3595,7 +3595,7 @@
       "mergedFrom": [],
       "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:26:09.853Z"
     },
     {
       "fullName": "ABDULHAMİT ŞANVERDİ",
@@ -5601,6 +5601,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "fc16a33f-0a29-47c1-829d-9fa01e38ff96",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
+      "details": {
+        "before": {
+          "fullName": "AHMET ŞAHİN",
+          "normalizedName": "AHMET SAHIN",
+          "baseKey": "AHMET SAHIN",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 1
+          },
+          "mergedFrom": [],
+          "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "AHMET ŞAHİN",
+          "normalizedName": "AHMET SAHIN",
+          "baseKey": "AHMET SAHIN",
+          "category": "CAPRA",
+          "role": "CAPRA İŞVEREN",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 1
+          },
+          "mergedFrom": [],
+          "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:26:09.853Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:26:09.853Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
     {
       "id": "703256e3-1518-42e9-8645-dc07c2c6665f",
       "action": "UPDATE",
