@@ -583,6 +583,148 @@ export function deleteTracking(trackingId) {
     return deletedTracking;
 }
 
+export function updateLeave(leaveId, updates) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db?.leaves) throw new Error('No database loaded');
+
+    const idx = state.db.leaves.findIndex(l => (l.id === leaveId) || (l.leaveId === leaveId));
+    if (idx === -1) throw new Error('Leave record not found');
+
+    const oldLeave = { ...state.db.leaves[idx] };
+
+    // Recalculate days if dates change
+    let days = updates.days || oldLeave.days;
+    if ((updates.startDate || updates.endDate) && !updates.days) {
+        const start = new Date(updates.startDate || oldLeave.startDate);
+        const end = new Date(updates.endDate || oldLeave.endDate);
+        const diffTime = Math.abs(end - start);
+        days = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
+    }
+
+    const newLeave = {
+        ...oldLeave,
+        ...updates,
+        days,
+        updatedAt: new Date().toISOString()
+    };
+
+    state.db.leaves[idx] = newLeave;
+
+    addAuditEntry('UPDATE', 'leave', leaveId, { before: oldLeave, after: newLeave });
+
+    saveToLocal();
+    notifyListeners();
+
+    return newLeave;
+}
+
+export function addDeparture(departureData) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db) throw new Error('No database loaded');
+
+    const now = new Date().toISOString();
+    const departureId = crypto.randomUUID();
+
+    // Calculate total days
+    let totalDays = departureData.totalDays;
+    if (!totalDays && departureData.entryDate && departureData.exitDate) {
+        const start = new Date(departureData.entryDate);
+        const end = new Date(departureData.exitDate);
+        const diffTime = Math.abs(end - start);
+        totalDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    }
+
+    // Calculate exit month for grouping
+    const exitMonth = departureData.exitDate ? departureData.exitDate.substring(0, 7) : now.substring(0, 7);
+
+    const newDeparture = {
+        id: departureId,
+        personId: departureData.personId || null,
+        fullName: departureData.fullName,
+        category: departureData.category || null,
+        job: departureData.job || '',
+        entryDate: departureData.entryDate || '',
+        exitDate: departureData.exitDate || '',
+        totalDays: totalDays || 0,
+        exitMonth: exitMonth,
+        createdAt: now,
+        updatedAt: now
+    };
+
+    if (!state.db.departures) state.db.departures = [];
+    state.db.departures.push(newDeparture);
+
+    addAuditEntry('CREATE', 'departure', departureId, { departure: newDeparture });
+
+    saveToLocal();
+    notifyListeners();
+
+    return newDeparture;
+}
+
+export function updateDeparture(departureId, updates) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db?.departures) throw new Error('No database loaded');
+
+    const idx = state.db.departures.findIndex(d => (d.id === departureId) || (d.id === departureId)); // consistency
+    if (idx === -1) throw new Error('Departure record not found');
+
+    const oldDeparture = { ...state.db.departures[idx] };
+
+    // Recalculate derived fields if needed
+    let totalDays = updates.totalDays || oldDeparture.totalDays;
+    if ((updates.entryDate || updates.exitDate) && !updates.totalDays) {
+        const start = new Date(updates.entryDate || oldDeparture.entryDate);
+        const end = new Date(updates.exitDate || oldDeparture.exitDate);
+        if (!isNaN(start) && !isNaN(end)) {
+            const diffTime = Math.abs(end - start);
+            totalDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        }
+    }
+
+    let exitMonth = oldDeparture.exitMonth;
+    if (updates.exitDate) {
+        exitMonth = updates.exitDate.substring(0, 7);
+    }
+
+    // Recalc groupedMonth if present? No, view handles grouping.
+    // Just ensure exitMonth is correct string YYYY-MM.
+
+    const newDeparture = {
+        ...oldDeparture,
+        ...updates,
+        totalDays,
+        exitMonth,
+        updatedAt: new Date().toISOString()
+    };
+
+    state.db.departures[idx] = newDeparture;
+
+    addAuditEntry('UPDATE', 'departure', departureId, { before: oldDeparture, after: newDeparture });
+
+    saveToLocal();
+    notifyListeners();
+
+    return newDeparture;
+}
+
+export function deleteDeparture(departureId) {
+    if (!state.isAdmin) throw new Error('Admin access required');
+    if (!state.db?.departures) throw new Error('No database loaded');
+
+    const idx = state.db.departures.findIndex(d => d.id === departureId);
+    if (idx === -1) throw new Error('Departure record not found');
+
+    const deletedDeparture = state.db.departures.splice(idx, 1)[0];
+
+    addAuditEntry('DELETE', 'departure', departureId, { departure: deletedDeparture });
+
+    saveToLocal();
+    notifyListeners();
+
+    return deletedDeparture;
+}
+
 export function mapTag(tag, category) {
     if (!state.isAdmin) throw new Error('Admin access required');
     if (!state.db?.taxonomy?.tagMap) throw new Error('No database loaded');

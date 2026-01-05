@@ -101,6 +101,7 @@ export async function render(ctx) {
                       <th>Giriş Tarihi</th>
                       <th>Çıkış Tarihi</th>
                       <th>Toplam Gün</th>
+                      ${state.isAdmin ? `<th>İşlem</th>` : ''}
                     </tr>
                   </thead>
                   <tbody>
@@ -117,6 +118,24 @@ export async function render(ctx) {
                         <td class="cell-mono">${formatDate(d.entryDate)}</td>
                         <td class="cell-mono">${formatDate(d.exitDate)}</td>
                         <td><span class="badge badge-neutral">${d.totalDays || 0}</span></td>
+                        ${state.isAdmin ? `
+                        <td>
+                          <div class="d-flex gap-2">
+                            <button class="btn btn-icon btn-sm text-secondary edit-departure-btn" data-id="${d.id}" title="Düzenle">
+                              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                              </svg>
+                            </button>
+                            <button class="btn btn-icon btn-sm text-danger delete-departure-btn" data-id="${d.id}" title="Sil">
+                              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                                <polyline points="3 6 5 6 21 6"></polyline>
+                                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </td>
+                        ` : ''}
                       </tr>
                     `).join('') : `
                       <tr>
@@ -141,14 +160,22 @@ export async function render(ctx) {
           <p class="page-description">Aylık ve kategoriye göre ayrılan personel raporu</p>
         </div>
         ${state.isAdmin ? `
-          <button class="btn btn-secondary" id="export-btn">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-              <polyline points="7 10 12 15 17 10"/>
-              <line x1="12" y1="15" x2="12" y2="3"/>
-            </svg>
-            Dışa Aktar
-          </button>
+          <div class="d-flex gap-2">
+            <button class="btn btn-secondary" id="export-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              Dışa Aktar
+            </button>
+            <button class="btn btn-primary" id="add-departure-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+              </svg>
+              Kayıt Ekle
+            </button>
+          </div>
         ` : ''}
       </div>
     </div>
@@ -213,11 +240,12 @@ export async function render(ctx) {
   const monthsContainer = container.querySelector('#months-container');
   const categoryChips = container.querySelectorAll('.category-chip');
   const exportBtn = container.querySelector('#export-btn');
+  const addBtn = container.querySelector('#add-departure-btn');
 
   searchInput?.addEventListener('input', (e) => {
     searchQuery = e.target.value;
     monthsContainer.innerHTML = renderMonthAccordion();
-    attachMonthListeners();
+    attachListeners();
   });
 
   categoryChips.forEach(chip => {
@@ -231,7 +259,7 @@ export async function render(ctx) {
       });
 
       monthsContainer.innerHTML = renderMonthAccordion();
-      attachMonthListeners();
+      attachListeners();
     });
   });
 
@@ -239,9 +267,14 @@ export async function render(ctx) {
     exportToCsv();
   });
 
-  function attachMonthListeners() {
+  // Action Listeners (Month + CRUD)
+  function attachListeners() {
+    // Accordion toggle
     monthsContainer.querySelectorAll('.month-header').forEach(header => {
-      header.addEventListener('click', () => {
+      header.addEventListener('click', (e) => {
+        // Prevent toggling if clicking action buttons inside
+        if (e.target.closest('button')) return;
+
         const month = header.dataset.month;
         if (expandedMonths.has(month)) {
           expandedMonths.delete(month);
@@ -249,12 +282,117 @@ export async function render(ctx) {
           expandedMonths.add(month);
         }
         monthsContainer.innerHTML = renderMonthAccordion();
-        attachMonthListeners();
+        attachListeners();
+      });
+    });
+
+    // Delete Buttons
+    monthsContainer.querySelectorAll('.delete-departure-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        if (!confirm('Bu ayrılan kaydını silmek istediğinize emin misiniz?')) return;
+
+        try {
+          const { deleteDeparture } = await import('../store.js');
+          deleteDeparture(btn.dataset.id);
+          window.showToast('Kayıt silindi', 'success');
+          render(ctx);
+        } catch (err) {
+          window.showToast(err.message, 'error');
+        }
+      });
+    });
+
+    // Edit Buttons
+    monthsContainer.querySelectorAll('.edit-departure-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.dataset.id;
+        const departure = allDepartures.find(d => d.id === id);
+        if (departure) openModal(departure);
       });
     });
   }
 
-  attachMonthListeners();
+  attachListeners();
+
+  // Add/Edit Modal
+  function openModal(editingRecord = null) {
+    const isEdit = !!editingRecord;
+
+    const formHtml = `
+            <form id="departure-form" class="d-flex flex-col gap-4">
+                <div class="form-group">
+                    <label class="form-label required">Ad Soyad</label>
+                    <input type="text" class="form-input" name="fullName" required value="${isEdit ? editingRecord.fullName : ''}">
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="form-group">
+                        <label class="form-label">Kategori</label>
+                        <select class="form-select" name="category">
+                            <option value="">Seçiniz...</option>
+                            ${CATEGORIES.map(c => `
+                                <option value="${c}" ${isEdit && editingRecord.category === c ? 'selected' : ''}>${c}</option>
+                            `).join('')}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Görevi</label>
+                        <input type="text" class="form-input" name="job" value="${isEdit ? (editingRecord.job || '') : ''}">
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="form-group">
+                        <label class="form-label">Giriş Tarihi</label>
+                        <input type="date" class="form-input" name="entryDate" value="${isEdit ? (editingRecord.entryDate || '') : ''}">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label required">Çıkış Tarihi</label>
+                        <input type="date" class="form-input" name="exitDate" required value="${isEdit ? (editingRecord.exitDate || '') : ''}">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Toplam Gün (Otomatik Hesaplanır)</label>
+                    <input type="number" class="form-input" name="totalDays" placeholder="Boş bırakılırsa tarihe göre hesaplanır" value="${isEdit ? (editingRecord.totalDays || '') : ''}">
+                </div>
+            </form>
+      `;
+
+    window.showModal(isEdit ? 'Kaydı Düzenle' : 'Yeni Ayrılan Kaydı', formHtml, `
+        <button class="btn btn-secondary" onclick="hideModal()">İptal</button>
+        <button class="btn btn-primary" id="save-dep-btn">${isEdit ? 'Güncelle' : 'Kaydet'}</button>
+      `);
+
+    document.getElementById('save-dep-btn').addEventListener('click', async () => {
+      const form = document.getElementById('departure-form');
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData.entries());
+      if (data.totalDays) data.totalDays = parseInt(data.totalDays);
+
+      try {
+        const { addDeparture, updateDeparture } = await import('../store.js');
+        if (isEdit) {
+          updateDeparture(editingRecord.id, data);
+          window.showToast('Kayıt güncellendi', 'success');
+        } else {
+          addDeparture(data);
+          window.showToast('Kayıt oluşturuldu', 'success');
+        }
+        window.hideModal();
+        render(ctx);
+      } catch (err) {
+        window.showToast(err.message, 'error');
+      }
+    });
+  }
+
+  addBtn?.addEventListener('click', () => openModal());
 }
 
 function exportToCsv() {

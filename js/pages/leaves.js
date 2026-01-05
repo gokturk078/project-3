@@ -88,14 +88,22 @@ export async function render(ctx) {
                 </td>
                 ${state.isAdmin ? `
                 <td>
-                  ${hasId ? `
-                    <button class="btn btn-icon btn-sm text-danger delete-leave-btn" data-id="${hasId}" title="Sil">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
-                        <polyline points="3 6 5 6 21 6"></polyline>
-                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                      </svg>
-                    </button>
-                  ` : '<span class="text-xs text-tertiary">Salt Okunur</span>'}
+                  <div class="d-flex gap-2">
+                    ${hasId ? `
+                      <button class="btn btn-icon btn-sm text-secondary edit-leave-btn" data-id="${hasId}" title="Düzenle">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                          <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                          <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                        </svg>
+                      </button>
+                      <button class="btn btn-icon btn-sm text-danger delete-leave-btn" data-id="${hasId}" title="Sil">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                          <polyline points="3 6 5 6 21 6"></polyline>
+                          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                        </svg>
+                      </button>
+                    ` : '<span class="text-xs text-tertiary">Salt Okunur</span>'}
+                  </div>
                 </td>
                 ` : ''}
               </tr>
@@ -210,17 +218,17 @@ export async function render(ctx) {
   searchInput?.addEventListener('input', (e) => {
     searchQuery = e.target.value;
     tableWrapper.innerHTML = renderTable();
-    attachDeleteListeners();
+    attachListeners();
   });
 
   typeSelect?.addEventListener('change', (e) => {
     typeFilter = e.target.value;
     tableWrapper.innerHTML = renderTable();
-    attachDeleteListeners();
+    attachListeners();
   });
 
-  // Delete Listeners
-  function attachDeleteListeners() {
+  // Action Listeners
+  function attachListeners() {
     container.querySelectorAll('.delete-leave-btn').forEach(btn => {
       btn.addEventListener('click', async () => {
         if (!confirm('Bu izin kaydını silmek istediğinize emin misiniz?')) return;
@@ -235,64 +243,78 @@ export async function render(ctx) {
         }
       });
     });
+
+    container.querySelectorAll('.edit-leave-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const leaveId = btn.dataset.id;
+        const leave = enrichedLeaves.find(l => (l.id === leaveId) || (l.leaveId === leaveId));
+        if (leave) openModal(leave);
+      });
+    });
   }
 
-  attachDeleteListeners();
+  attachListeners();
 
-  // Add Modal Flow
-  addBtn?.addEventListener('click', () => {
+  // Add/Edit Modal
+  function openModal(editingLeave = null) {
     // Get active people from store for dropdown
     const allActivePeople = getPeople({ status: 'active' }).sort((a, b) => a.fullName.localeCompare(b.fullName));
+    const isEdit = !!editingLeave;
 
     const formHtml = `
-            <form id="add-leave-form" class="d-flex flex-col gap-4">
+            <form id="leave-form" class="d-flex flex-col gap-4">
                 <div class="form-group">
                     <label class="form-label required">Personel</label>
                     <div class="select-wrapper">
-                        <select class="form-select" name="personId" required>
+                        <select class="form-select" name="personId" required ${isEdit ? 'disabled' : ''}>
                             <option value="">Seçiniz...</option>
-                            ${allActivePeople.map(p => `<option value="${p.personId}">${p.fullName}</option>`).join('')}
+                            ${allActivePeople.map(p => `
+                                <option value="${p.personId}" ${isEdit && p.personId === editingLeave.personId ? 'selected' : ''}>
+                                    ${p.fullName}
+                                </option>
+                            `).join('')}
                         </select>
                     </div>
+                    ${isEdit ? '<input type="hidden" name="personId" value="' + editingLeave.personId + '">' : ''}
                 </div>
                 
                 <div class="grid grid-cols-2 gap-4">
                     <div class="form-group">
                         <label class="form-label required">Başlangıç Tarihi</label>
-                        <input type="date" class="form-input" name="startDate" required>
+                        <input type="date" class="form-input" name="startDate" required value="${isEdit ? editingLeave.startDate : ''}">
                     </div>
                     <div class="form-group">
                         <label class="form-label required">Bitiş Tarihi</label>
-                        <input type="date" class="form-input" name="endDate" required>
+                        <input type="date" class="form-input" name="endDate" required value="${isEdit ? editingLeave.endDate : ''}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label class="form-label">İzin Türü</label>
                     <select class="form-select" name="type">
-                        <option value="NORMAL">Normal</option>
-                        <option value="ÜCRETSİZ">Ücretsiz</option>
-                        <option value="YILLIK">Yıllık</option>
-                        <option value="MAZERET">Mazeret</option>
-                        <option value="RAPOR">Rapor</option>
+                        <option value="NORMAL" ${isEdit && editingLeave.type === 'NORMAL' ? 'selected' : ''}>Normal</option>
+                        <option value="ÜCRETSİZ" ${isEdit && editingLeave.type === 'ÜCRETSİZ' ? 'selected' : ''}>Ücretsiz</option>
+                        <option value="YILLIK" ${isEdit && editingLeave.type === 'YILLIK' ? 'selected' : ''}>Yıllık</option>
+                        <option value="MAZERET" ${isEdit && editingLeave.type === 'MAZERET' ? 'selected' : ''}>Mazeret</option>
+                        <option value="RAPOR" ${isEdit && editingLeave.type === 'RAPOR' ? 'selected' : ''}>Rapor</option>
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label class="form-label">Not / Açıklama</label>
-                    <textarea class="form-input" name="note" rows="3" placeholder="İsteğe bağlı not ekleyin..."></textarea>
+                    <textarea class="form-input" name="note" rows="3" placeholder="İsteğe bağlı not ekleyin...">${isEdit ? (editingLeave.note || '') : ''}</textarea>
                 </div>
             </form>
         `;
 
-    window.showModal('Yeni İzin Kaydı', formHtml, `
+    window.showModal(isEdit ? 'İzin Düzenle' : 'Yeni İzin Kaydı', formHtml, `
             <button class="btn btn-secondary" onclick="hideModal()">İptal</button>
-            <button class="btn btn-primary" id="save-leave-btn">Kaydet</button>
+            <button class="btn btn-primary" id="save-leave-btn">${isEdit ? 'Güncelle' : 'Kaydet'}</button>
         `);
 
     // Handle Save
     document.getElementById('save-leave-btn').addEventListener('click', async () => {
-      const form = document.getElementById('add-leave-form');
+      const form = document.getElementById('leave-form');
       if (!form.checkValidity()) {
         form.reportValidity();
         return;
@@ -302,14 +324,23 @@ export async function render(ctx) {
       const data = Object.fromEntries(formData.entries());
 
       try {
-        const { addLeave } = await import('../store.js');
-        addLeave(data);
-        window.showToast('İzin kaydı oluşturuldu', 'success');
+        const { addLeave, updateLeave } = await import('../store.js');
+
+        if (isEdit) {
+          updateLeave(editingLeave.id || editingLeave.leaveId, data);
+          window.showToast('İzin kaydı güncellendi', 'success');
+        } else {
+          addLeave(data);
+          window.showToast('İzin kaydı oluşturuldu', 'success');
+        }
+
         window.hideModal();
         render(ctx);
       } catch (err) {
         window.showToast(err.message, 'error');
       }
     });
-  });
+  }
+
+  addBtn?.addEventListener('click', () => openModal());
 }
