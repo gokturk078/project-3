@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-05T13:17:42.324Z"
+    "lastUpdated": "2026-01-05T13:28:28.407Z"
   },
   "taxonomy": {
     "categories": [
@@ -282,7 +282,7 @@
       "normalizedName": "BATUHAN GUNES",
       "baseKey": "BATUHAN GUNES",
       "category": "REPSAM",
-      "role": "FORMEN",
+      "role": "MÜHENDİS",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -295,7 +295,7 @@
       "mergedFrom": [],
       "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:28:28.407Z"
     },
     {
       "fullName": "BEHİYE SOYDAN",
@@ -482,7 +482,7 @@
       "normalizedName": "FERIT KAHRIMAN",
       "baseKey": "FERIT KAHRIMAN",
       "category": "REPSAM",
-      "role": "MÜHENDİS",
+      "role": "OFİS PERSONELİ",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -495,7 +495,7 @@
       "mergedFrom": [],
       "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T13:17:42.324Z"
+      "updatedAt": "2026-01-05T13:25:39.199Z"
     },
     {
       "fullName": "GÖKHAN TAÇKIN",
@@ -882,7 +882,7 @@
       "normalizedName": "MUSTAFA BAYRAKTAR",
       "baseKey": "MUSTAFA BAYRAKTAR",
       "category": "REPSAM",
-      "role": "PROJE MÜDÜRÜ",
+      "role": "ÜLKE KOORDİNATÖRÜ",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -895,7 +895,7 @@
       "mergedFrom": [],
       "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:27:36.556Z"
     },
     {
       "fullName": "MUSTAFA DURAN",
@@ -3582,7 +3582,7 @@
       "normalizedName": "AHMET SAHIN",
       "baseKey": "AHMET SAHIN",
       "category": "CAPRA",
-      "role": null,
+      "role": "CAPRA İŞVEREN",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -3595,14 +3595,14 @@
       "mergedFrom": [],
       "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:26:09.853Z"
     },
     {
       "fullName": "ABDULHAMİT ŞANVERDİ",
       "normalizedName": "ABDULHAMIT SANVERDI",
       "baseKey": "ABDULHAMIT SANVERDI",
       "category": "CAPRA",
-      "role": null,
+      "role": "CAPRA DİREKTÖR",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -3615,7 +3615,7 @@
       "mergedFrom": [],
       "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:26:29.568Z"
     },
     {
       "fullName": "DAVUT SEZEN",
@@ -5601,6 +5601,256 @@
     }
   ],
   "audit": [
+    {
+      "id": "004df557-65cb-4be3-8828-f3e48944ebde",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "7c403519-f4af-4c36-9ff8-74914313c288",
+      "details": {
+        "before": {
+          "fullName": "BATUHAN GÜNEŞ",
+          "normalizedName": "BATUHAN GUNES",
+          "baseKey": "BATUHAN GUNES",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 10
+          },
+          "mergedFrom": [],
+          "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "BATUHAN GÜNEŞ",
+          "normalizedName": "BATUHAN GUNES",
+          "baseKey": "BATUHAN GUNES",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 10
+          },
+          "mergedFrom": [],
+          "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:28:28.407Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:28:28.407Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
+    {
+      "id": "b0e0568d-c8ed-4ced-816d-72c34144ef67",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
+      "details": {
+        "before": {
+          "fullName": "MUSTAFA BAYRAKTAR",
+          "normalizedName": "MUSTAFA BAYRAKTAR",
+          "baseKey": "MUSTAFA BAYRAKTAR",
+          "category": "REPSAM",
+          "role": "PROJE MÜDÜRÜ",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 40
+          },
+          "mergedFrom": [],
+          "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MUSTAFA BAYRAKTAR",
+          "normalizedName": "MUSTAFA BAYRAKTAR",
+          "baseKey": "MUSTAFA BAYRAKTAR",
+          "category": "REPSAM",
+          "role": "ÜLKE KOORDİNATÖRÜ",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 40
+          },
+          "mergedFrom": [],
+          "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:27:36.556Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:27:36.556Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
+    {
+      "id": "357f4a41-3d72-4970-95b7-95130bca6b56",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "3ec54910-e9bd-4534-a791-554c6163c913",
+      "details": {
+        "before": {
+          "fullName": "ABDULHAMİT ŞANVERDİ",
+          "normalizedName": "ABDULHAMIT SANVERDI",
+          "baseKey": "ABDULHAMIT SANVERDI",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 2
+          },
+          "mergedFrom": [],
+          "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "ABDULHAMİT ŞANVERDİ",
+          "normalizedName": "ABDULHAMIT SANVERDI",
+          "baseKey": "ABDULHAMIT SANVERDI",
+          "category": "CAPRA",
+          "role": "CAPRA DİREKTÖR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 2
+          },
+          "mergedFrom": [],
+          "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:26:29.568Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:26:29.568Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
+    {
+      "id": "fc16a33f-0a29-47c1-829d-9fa01e38ff96",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
+      "details": {
+        "before": {
+          "fullName": "AHMET ŞAHİN",
+          "normalizedName": "AHMET SAHIN",
+          "baseKey": "AHMET SAHIN",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 1
+          },
+          "mergedFrom": [],
+          "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "AHMET ŞAHİN",
+          "normalizedName": "AHMET SAHIN",
+          "baseKey": "AHMET SAHIN",
+          "category": "CAPRA",
+          "role": "CAPRA İŞVEREN",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 1
+          },
+          "mergedFrom": [],
+          "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:26:09.853Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:26:09.853Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
+    {
+      "id": "703256e3-1518-42e9-8645-dc07c2c6665f",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+      "details": {
+        "before": {
+          "fullName": "FERİT KAHRİMAN",
+          "normalizedName": "FERIT KAHRIMAN",
+          "baseKey": "FERIT KAHRIMAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 20
+          },
+          "mergedFrom": [],
+          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:17:42.324Z"
+        },
+        "after": {
+          "fullName": "FERİT KAHRİMAN",
+          "normalizedName": "FERIT KAHRIMAN",
+          "baseKey": "FERIT KAHRIMAN",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 20
+          },
+          "mergedFrom": [],
+          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:25:39.199Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:25:39.199Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
     {
       "id": "2d295678-096c-46fe-8da7-17f399a9a07b",
       "action": "UPDATE",
