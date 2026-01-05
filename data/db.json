@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-01-05T11:46:38.436Z",
+    "generatedAt": "2026-01-05T12:12:49.593Z",
     "version": "3.0.0",
     "sourceFiles": [
       "on_izin.xlsx",
@@ -36,7 +36,7 @@
       "departedCount": 51,
       "conflictCount": 2,
       "needsReviewCount": 22,
-      "unmappedTagsCount": 9,
+      "unmappedTagsCount": 0,
       "duplicateCandidatesCount": 0,
       "leavesCount": 10,
       "trackingCount": 22,
@@ -93,17 +93,7 @@
       "PROJE MÜDÜRÜ",
       "HİZMETLİ"
     ],
-    "tagMap": {
-      "MİMAR": null,
-      "MÜHENDİS": null,
-      "DEMİR DOĞRAMACI": null,
-      "HİZMETLİ": null,
-      "İNŞAAT İŞÇİSİ": null,
-      "GEOTEM": null,
-      "OFİS PERSONELİ": null,
-      "ŞOFÖR": null,
-      "MTH FATİH AKALIN": null
-    }
+    "tagMap": {}
   },
   "people": [
     {
@@ -122,9 +112,9 @@
         "row": 1
       },
       "mergedFrom": [],
-      "personId": "854bd707-8481-4635-96ab-ca127c0d958e",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "224e06ca-9220-4c8a-89ca-e2dc8a9a659d",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "FATİH AKTAŞ",
@@ -142,9 +132,9 @@
         "row": 2
       },
       "mergedFrom": [],
-      "personId": "79d46298-c5ac-44ba-8a21-5287d31db9ab",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1da51d56-0d3d-4f73-9be5-e3a7814c0e76",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ABDULLAH TAŞ",
@@ -162,9 +152,9 @@
         "row": 3
       },
       "mergedFrom": [],
-      "personId": "cf0c146c-6e21-48c2-beae-d48760ffccd7",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "ee884d7f-519e-4e45-b8ce-71508af58120",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ADEM KOCA",
@@ -182,9 +172,9 @@
         "row": 4
       },
       "mergedFrom": [],
-      "personId": "1a79c9bd-427a-4749-9282-4db0503a5394",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "c32b8a2f-701c-426f-93b0-f8a1a3ffcde2",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ADNAN ÇEVİK",
@@ -202,9 +192,9 @@
         "row": 5
       },
       "mergedFrom": [],
-      "personId": "84e08bb9-d1bc-49ea-a29e-6a970f7ada6c",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e8bdfbec-ab38-4f74-b158-a1766a654c2f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ALİCAN ÇAĞLAYAN",
@@ -222,9 +212,9 @@
         "row": 6
       },
       "mergedFrom": [],
-      "personId": "7a07eace-bca4-46f1-b8eb-449d13b22f40",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ALPEREN ASLAN",
@@ -242,9 +232,9 @@
         "row": 7
       },
       "mergedFrom": [],
-      "personId": "fedb810d-2269-4f86-8e6e-dddb0b5a7082",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "b7aee6b3-a0c4-4bb9-812a-4cddb3098fd3",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ASUMAN GÜLALİOĞLU",
@@ -262,9 +252,9 @@
         "row": 8
       },
       "mergedFrom": [],
-      "personId": "b93f862c-f3e3-42c2-8b03-b7d2ba3e3639",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0ae4bc3b-83f1-4f50-adca-c751d700f0a6",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "AYHAN DÖNER",
@@ -282,9 +272,9 @@
         "row": 9
       },
       "mergedFrom": [],
-      "personId": "8bce9015-1ac9-423a-af97-ef33316d5784",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0c224583-7ae2-4683-bfcb-4ed09f884144",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BATUHAN GÜNEŞ",
@@ -302,9 +292,9 @@
         "row": 10
       },
       "mergedFrom": [],
-      "personId": "8d5ba49a-5ebf-4720-a49f-7705383965d1",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BEHİYE SOYDAN",
@@ -322,9 +312,9 @@
         "row": 11
       },
       "mergedFrom": [],
-      "personId": "dd9e019d-c3cf-4f73-b416-51617eec6155",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0b949451-72d9-4d23-a95a-114c2c117aa2",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BİLAL KILIÇ",
@@ -342,9 +332,9 @@
         "row": 12
       },
       "mergedFrom": [],
-      "personId": "6e01f14e-c6c5-4b25-86db-26263b62e0de",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "f1c278ce-a7f5-4773-ba64-0723bc4b675a",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "CELALETTİN GARİP",
@@ -362,9 +352,9 @@
         "row": 13
       },
       "mergedFrom": [],
-      "personId": "7e0920ce-6c78-4d37-b726-365a9259e144",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "CUMHUR BAHADIR",
@@ -382,9 +372,9 @@
         "row": 14
       },
       "mergedFrom": [],
-      "personId": "9625713d-06ee-4fb8-b9ea-86987a1ae847",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "daaede8c-2a03-4fc8-88d3-d3aad28c5c64",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "GÜL TAZEOĞULLARI",
@@ -402,9 +392,9 @@
         "row": 15
       },
       "mergedFrom": [],
-      "personId": "61d9e9c2-4776-4293-be70-aee34b993798",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "7b2c987f-6518-46cc-b514-678ffcbfb6ed",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "EMİRCAN VAROL",
@@ -422,9 +412,9 @@
         "row": 16
       },
       "mergedFrom": [],
-      "personId": "8db62537-bd1d-48f1-9ee6-223eb4f800e1",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "7980a677-7e82-45b9-b754-5877e81c75ed",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ERKAN UZUN",
@@ -442,9 +432,9 @@
         "row": 17
       },
       "mergedFrom": [],
-      "personId": "786f1cb4-1bef-49a5-85f5-095db4d9f4a5",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3ca77018-2dc7-4f50-a543-1aa64f8012f4",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "EROL KURUM",
@@ -462,9 +452,9 @@
         "row": 18
       },
       "mergedFrom": [],
-      "personId": "8934aa4a-2fbc-4ae0-a6af-05ecb7a3d6df",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "cc1255f0-7ab1-4372-be4c-50064b1db366",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ESAT İĞDE",
@@ -482,9 +472,9 @@
         "row": 19
       },
       "mergedFrom": [],
-      "personId": "cdf2190c-0afa-4ea6-9a30-1de91bd7fc96",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "b6b6f780-e4a3-4eab-a73a-24af3bcb3fba",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "FERİT KAHRİMAN",
@@ -502,9 +492,9 @@
         "row": 20
       },
       "mergedFrom": [],
-      "personId": "48a4bae5-0fcc-4406-9ca6-3719c6444400",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "GÖKHAN TAÇKIN",
@@ -522,9 +512,9 @@
         "row": 21
       },
       "mergedFrom": [],
-      "personId": "a9a39b17-c094-4853-89c1-6ae74f492795",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "01cffcc5-d938-47d5-9bb0-3d596e00301b",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "GÖKHAN YILDIZ",
@@ -542,9 +532,9 @@
         "row": 22
       },
       "mergedFrom": [],
-      "personId": "78a0852e-3dd9-46ab-bc1e-192c8e7c0fe7",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "7006cdb0-183f-47b5-ae14-724b350b483a",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HAKAN UYDURAN",
@@ -562,9 +552,9 @@
         "row": 23
       },
       "mergedFrom": [],
-      "personId": "15e096c1-d1de-4db3-94b8-8df4095fec33",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "ad56b649-dd9d-4a03-b0bd-fb841721bc77",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HALİL KARATAŞ",
@@ -582,9 +572,9 @@
         "row": 24
       },
       "mergedFrom": [],
-      "personId": "cce8e55e-c2b3-473d-bc80-dbbe4a1f58a7",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "24482edc-60d8-41f7-9474-a73497f45f5d",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HASAN KÜÇÜK",
@@ -602,9 +592,9 @@
         "row": 25
       },
       "mergedFrom": [],
-      "personId": "29dd66e6-7ae9-40f3-9d13-456eaa597e13",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "22f873c5-0d7c-4a0a-a9f0-ea1506678fc1",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "İBRAHİM ER",
@@ -622,9 +612,9 @@
         "row": 26
       },
       "mergedFrom": [],
-      "personId": "82287bad-0551-4a15-968f-663b136935e0",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "41f4f8b0-9045-4bf3-bad8-698b9d25a86f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "İSMAİL ORUL",
@@ -642,9 +632,9 @@
         "row": 27
       },
       "mergedFrom": [],
-      "personId": "5e792640-2ab6-4d37-abe2-5714af471f78",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "305b5400-8191-48db-8b14-7733c36a4f89",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "KAAN EREN ERKAN",
@@ -662,9 +652,9 @@
         "row": 28
       },
       "mergedFrom": [],
-      "personId": "12fcd068-4856-41c6-8ef4-29b5acf97ed1",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "289416a5-0adc-4a95-abfb-eb6fa169e35f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "KAMAL SARDER",
@@ -682,9 +672,9 @@
         "row": 29
       },
       "mergedFrom": [],
-      "personId": "183b4fab-ff00-4415-9418-3ff5f1b70144",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "4cd74d7f-2642-443b-bd33-79b81dfc863f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MAHSUM AYDOĞAN",
@@ -702,9 +692,9 @@
         "row": 30
       },
       "mergedFrom": [],
-      "personId": "ac8b1be5-671d-4c71-b5d1-f95e1c342b90",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "58c22b80-71e5-4e81-8369-3c26eacefe46",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MAHSUN YÜNDEMLİ",
@@ -722,9 +712,9 @@
         "row": 31
       },
       "mergedFrom": [],
-      "personId": "d9b45d74-ee7b-43ad-929e-072bb851b623",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "90e2e13c-8f91-48ba-a965-9fb941fa9483",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MEHMET ARTAN",
@@ -742,9 +732,9 @@
         "row": 32
       },
       "mergedFrom": [],
-      "personId": "5b8a0b38-3e95-4a65-ab70-3ba5b140eaf2",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "20a6d9e1-3c08-4964-93cf-ca6af919af0f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MEHMET ERSİN AKBABA",
@@ -762,9 +752,9 @@
         "row": 33
       },
       "mergedFrom": [],
-      "personId": "4efbf2bb-0e8b-4762-8ab4-56c8ef8b512a",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "2ece817a-1647-44fc-be0a-ec2e14854611",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MEHMET KIZILKURT",
@@ -782,9 +772,9 @@
         "row": 34
       },
       "mergedFrom": [],
-      "personId": "646faa2c-2442-405f-89bb-3b930cf52546",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "6b1e6efb-bf32-4b96-a105-c95d5ad6cce0",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MEHMET SALİH ÖNEN",
@@ -802,9 +792,9 @@
         "row": 35
       },
       "mergedFrom": [],
-      "personId": "6113ed07-5eb0-446f-b730-8d32a9e4dc3f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "94feaec9-a6e8-42de-aa8a-79e9ebeba95a",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MERTCAN SALMAN",
@@ -822,9 +812,9 @@
         "row": 36
       },
       "mergedFrom": [],
-      "personId": "0c9cc814-1b77-414d-a165-2bef8afae7e0",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "35973f25-c50b-40db-89bb-319a33df9e31",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUHAMMED ALİ YILDIRIM",
@@ -842,9 +832,9 @@
         "row": 37
       },
       "mergedFrom": [],
-      "personId": "22061d01-6bf4-454e-b3a6-a7119d18722b",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "45db4bd0-47fd-4963-a887-43628167b9eb",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MURAT ÇETİNKAYA",
@@ -862,9 +852,9 @@
         "row": 38
       },
       "mergedFrom": [],
-      "personId": "dc54768f-5342-4944-91a7-5cb9274302de",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "201a2473-39a1-4c98-976b-1deaa4976cd4",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MURAT ÜYÜR",
@@ -882,9 +872,9 @@
         "row": 39
       },
       "mergedFrom": [],
-      "personId": "ac95df24-16f3-4788-a8e1-d8751f44bd0d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "b55ca12d-519c-4b89-8c38-6f3e2e840dce",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUSTAFA BAYRAKTAR",
@@ -902,9 +892,9 @@
         "row": 40
       },
       "mergedFrom": [],
-      "personId": "c1d23b7a-a21e-4b96-8fa2-c8d94723e9a9",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUSTAFA DURAN",
@@ -922,9 +912,9 @@
         "row": 41
       },
       "mergedFrom": [],
-      "personId": "a01642b8-c48a-4c5d-a9a2-97a2f76f15df",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUSTAFA ONARAN",
@@ -942,9 +932,9 @@
         "row": 42
       },
       "mergedFrom": [],
-      "personId": "7fb3cf03-c962-4f07-a76a-19e84f260f10",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "303650c0-5ad7-4edf-9d0c-e42e89842168",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ORHAN ÖZCAN",
@@ -962,9 +952,9 @@
         "row": 43
       },
       "mergedFrom": [],
-      "personId": "f25b394a-9468-406b-99d6-e3e093e18da5",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3922e9e2-1f4c-4f11-a984-2bc3ab4c8d61",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RAMAZAN ÇELİK",
@@ -982,9 +972,9 @@
         "row": 44
       },
       "mergedFrom": [],
-      "personId": "ea1d8086-8262-400b-96ed-37a92712ca09",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "677aca81-9673-4cfe-bef9-d61d661b212d",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RAMAZAN TEKİN",
@@ -1002,9 +992,9 @@
         "row": 45
       },
       "mergedFrom": [],
-      "personId": "a6ea866d-b8d9-4bf7-b72f-103a72f44257",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "88cc94a6-e246-4047-9ad6-a909568a8a30",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "REŞAT DURU",
@@ -1022,9 +1012,9 @@
         "row": 46
       },
       "mergedFrom": [],
-      "personId": "803c0ea3-c8f7-441b-bcc6-45dc3a4f9ba0",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "674a0c7f-bfbe-40aa-8d55-19dacfa49179",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RESUL ÇETİNKAYA",
@@ -1042,9 +1032,9 @@
         "row": 47
       },
       "mergedFrom": [],
-      "personId": "5be48ade-eb7a-4570-bfec-184fd8d2aee3",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SALİH BUDAK",
@@ -1062,9 +1052,9 @@
         "row": 48
       },
       "mergedFrom": [],
-      "personId": "072dcd9f-7198-4436-a8e6-c18519d03699",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "c5c4d20c-3f32-4870-9cad-27775a3aafbd",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SEDAT GÜNEŞ",
@@ -1082,9 +1072,9 @@
         "row": 49
       },
       "mergedFrom": [],
-      "personId": "238bb662-4ba5-4350-8121-8aae0d7a7de1",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3b167dfa-f08c-413d-a7e6-8ff9490a33f9",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SELÇUK ÖKSÜZ",
@@ -1102,9 +1092,9 @@
         "row": 50
       },
       "mergedFrom": [],
-      "personId": "691e9b39-6c70-4890-a1cb-aa91022d9264",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ŞEVKET TUNÇ BAYDAR",
@@ -1122,9 +1112,9 @@
         "row": 51
       },
       "mergedFrom": [],
-      "personId": "67229bea-177b-467c-85ac-939b54f04f40",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "188d2d0f-60f0-494e-b297-cab150aa3369",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SİNAN BATU",
@@ -1142,9 +1132,9 @@
         "row": 52
       },
       "mergedFrom": [],
-      "personId": "04e35d37-afc7-4bb7-a9c4-051c8c999db9",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "50f661f2-b043-410d-8989-2c7a6f420d26",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SİNAN YILMAZ",
@@ -1162,9 +1152,9 @@
         "row": 53
       },
       "mergedFrom": [],
-      "personId": "d0a6c18b-a052-426d-bb1d-7410fa36ac6e",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "33667ccb-4b5e-469d-8be5-79d8ec7b2140",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SÜLEYMAN AKBULUT",
@@ -1182,9 +1172,9 @@
         "row": 54
       },
       "mergedFrom": [],
-      "personId": "678b2f31-efd0-4895-8f3f-ff15809fbde7",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "7d8adc45-a640-4bc6-bd65-0a7bae7222c0",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SÜLEYMAN ORUL",
@@ -1202,9 +1192,9 @@
         "row": 55
       },
       "mergedFrom": [],
-      "personId": "dd000d93-c683-46bf-b426-3a310c0ea549",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "TAHİR BUDAK",
@@ -1222,9 +1212,9 @@
         "row": 56
       },
       "mergedFrom": [],
-      "personId": "84bab6f8-e61f-41e7-ac2c-b6ae96496541",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e73a0f6a-6d6b-42a9-ba74-5dc0b65c3bb7",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "TALİP KARAGÜLLE",
@@ -1242,9 +1232,9 @@
         "row": 57
       },
       "mergedFrom": [],
-      "personId": "158dd247-8e47-4e62-96fc-c882a8b2affd",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "f8c1658a-ff8c-4cc4-bab1-3cdec7cad708",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "UĞUR TOPCU",
@@ -1262,9 +1252,9 @@
         "row": 58
       },
       "mergedFrom": [],
-      "personId": "b4e56102-0040-4f02-a092-b30862fa7e5d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3de917a0-6587-430c-adc3-f569bad62799",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "YAMAN HAFEZ",
@@ -1282,9 +1272,9 @@
         "row": 59
       },
       "mergedFrom": [],
-      "personId": "ac1084b3-ef95-42f0-8961-85741eaef424",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "86729041-6047-43f8-9fab-d2a1d364fc8f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "YASİN YILMAZ",
@@ -1302,9 +1292,9 @@
         "row": 60
       },
       "mergedFrom": [],
-      "personId": "3b9324f8-1fad-4802-954b-4b06085a0583",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "5977c057-3d9e-494e-900d-21cfff97afa6",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "FUAT YÜKSEK",
@@ -1322,9 +1312,9 @@
         "row": 61
       },
       "mergedFrom": [],
-      "personId": "43613f84-07bf-4499-91d8-7d410c20f26f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "bfda2ef1-67da-410c-8aca-41cae527f085",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BİRKAN YILDIZ",
@@ -1342,9 +1332,9 @@
         "row": 62
       },
       "mergedFrom": [],
-      "personId": "cfd2c6a4-0be0-40cf-b033-0639c21255e6",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "78108cc2-8833-4c5d-b768-f8d1fb8daa8b",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "EMEL TÜRKÜCÜ",
@@ -1362,9 +1352,9 @@
         "row": 63
       },
       "mergedFrom": [],
-      "personId": "b0c6a06f-4dac-47a6-99d7-7303af0d9b13",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "8b54766b-bb6f-454e-ae9a-edf6f743765e",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "NERMİN GÜL",
@@ -1382,9 +1372,9 @@
         "row": 64
       },
       "mergedFrom": [],
-      "personId": "cd72125a-c87d-40e7-8d95-7acfec3cb42f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "27ddf666-093f-46aa-9557-15cb65c1e111",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ABDULLAH AKAR",
@@ -1402,9 +1392,9 @@
         "row": 1
       },
       "mergedFrom": [],
-      "personId": "6db41e27-f2ad-4926-9fa6-4ed80cf4c8da",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3286d3bd-e745-4464-b3f0-6261b878170d",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ABDULLAH AYDIN",
@@ -1422,9 +1412,9 @@
         "row": 2
       },
       "mergedFrom": [],
-      "personId": "7b451894-ebd0-4829-83ef-948fbf3d95d4",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0eeaf745-d626-4f21-9eb1-d5f8609d11f6",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ABDULLAH DEMİRALP",
@@ -1442,9 +1432,9 @@
         "row": 3
       },
       "mergedFrom": [],
-      "personId": "1fae89a8-d84d-4a8d-96d5-d12a3481b26d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0a9609a2-30f8-46f6-8777-8b8ba1c86f11",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "AHMET DÖNMEZ",
@@ -1462,9 +1452,9 @@
         "row": 4
       },
       "mergedFrom": [],
-      "personId": "b6b60797-d136-4f66-be57-ca31384bc0b9",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "AZİZ BİRİNCİ",
@@ -1482,9 +1472,9 @@
         "row": 5
       },
       "mergedFrom": [],
-      "personId": "6759a31c-393d-455a-b194-bfecfea6c8d2",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "88071a00-74de-47aa-ae5c-998946cdf3a4",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BAGER KAPLAN",
@@ -1502,9 +1492,9 @@
         "row": 6
       },
       "mergedFrom": [],
-      "personId": "4909980b-bece-4744-aa91-7e2ffbc08906",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "78c58ecb-02f1-4e42-a931-75f0427402f3",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BAHTİYAR KARAKUŞ",
@@ -1522,9 +1512,9 @@
         "row": 7
       },
       "mergedFrom": [],
-      "personId": "2a2b42c2-25da-47e6-8fad-e3fb65902b95",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "8b04b843-319e-4b02-b679-563a45d32fda",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BARAN BOZAN",
@@ -1542,9 +1532,9 @@
         "row": 8
       },
       "mergedFrom": [],
-      "personId": "c6deb0d3-7db9-4ea2-b68e-87b8cc9d0aaa",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3ce31cc2-5b37-40a9-84e3-3dd58613cc13",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BAYRAM HATUN",
@@ -1562,9 +1552,9 @@
         "row": 9
       },
       "mergedFrom": [],
-      "personId": "1aabdf3a-f3b7-425e-b728-841ec9285041",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "8637e718-e2e2-4ba7-b9af-c7e419db4f2c",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BERZAN UÇAN",
@@ -1582,9 +1572,9 @@
         "row": 10
       },
       "mergedFrom": [],
-      "personId": "dc0e8464-f129-4865-9f68-41cf4c187aba",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "f0dfee21-ee8b-4a82-8378-4c52557fc2f2",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BEYTULLAH ÖZYURT",
@@ -1602,9 +1592,9 @@
         "row": 11
       },
       "mergedFrom": [],
-      "personId": "1e46879e-3b46-442f-b8da-b32bf8593ff7",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1c09e08c-0097-40e6-b10b-4a0e2aa2e374",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BURAK DEMİRALP",
@@ -1622,9 +1612,9 @@
         "row": 12
       },
       "mergedFrom": [],
-      "personId": "11305f3f-2dbd-4815-9db5-5503d046f74f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "209229ec-c155-4012-a7e9-5e579c3a4f6f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "CELAL KARBUZ",
@@ -1642,9 +1632,9 @@
         "row": 13
       },
       "mergedFrom": [],
-      "personId": "3c84c6c9-b8c6-415e-ae77-4514ed382901",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e935b342-934f-4ab5-a223-556d9897b029",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "CUDİ DEMİRALP",
@@ -1662,9 +1652,9 @@
         "row": 14
       },
       "mergedFrom": [],
-      "personId": "fea3bc9c-1508-4500-8fe1-ebb40926bda4",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0ad0a562-1c8a-472d-9c4f-dd5453a6d7bc",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "DELİL DEMİRALP",
@@ -1682,9 +1672,9 @@
         "row": 15
       },
       "mergedFrom": [],
-      "personId": "aee97262-f0ca-463e-b46d-e29c7481b00e",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "ccef057c-e197-4997-888d-a7234da28fcc",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "DOĞUKAN KARBUZ",
@@ -1702,9 +1692,9 @@
         "row": 16
       },
       "mergedFrom": [],
-      "personId": "909f86cb-30c9-48b9-bc62-2c59c02dc31f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "57b1f19d-a1c1-43ad-a004-34f480fa002c",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "EMRULLAH TARIM",
@@ -1722,9 +1712,9 @@
         "row": 17
       },
       "mergedFrom": [],
-      "personId": "9600080e-b903-4e31-a0e3-1ed8bd814815",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "2b5336af-08e0-4411-92b0-7f530da39295",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ERCAN ÖKSÜZ",
@@ -1742,9 +1732,9 @@
         "row": 18
       },
       "mergedFrom": [],
-      "personId": "e4848901-2ca7-4f1d-be8f-6b6daf7e87e3",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "a1c39756-4f0b-42e1-be09-d8fdc7225e56",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ERSİN KARAKUŞ",
@@ -1762,9 +1752,9 @@
         "row": 19
       },
       "mergedFrom": [],
-      "personId": "f19cd16a-5cab-421a-8bf4-d53e7376cda0",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "148427a5-a2ee-47e5-a4e6-3f214fd8584c",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "FERDİ KALINTAŞ",
@@ -1782,9 +1772,9 @@
         "row": 20
       },
       "mergedFrom": [],
-      "personId": "47a61a87-a012-4a38-8577-bb6e7550245a",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "6f5392aa-81c1-4a91-b9e3-2803ec7528aa",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "FİKRET YAZAN",
@@ -1802,9 +1792,9 @@
         "row": 21
       },
       "mergedFrom": [],
-      "personId": "8e7c2825-3999-46a8-a937-94ee35db3ec0",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "a10c619f-6dc5-4434-b361-edfbc3d0fdde",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HABİL ÇİFTÇİ",
@@ -1822,9 +1812,9 @@
         "row": 22
       },
       "mergedFrom": [],
-      "personId": "f59823b5-606b-4e72-bb41-1b82a93b337e",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "4f6822fc-b8a9-4a24-86c7-cd8a61746867",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HAKAN DEMİR",
@@ -1842,9 +1832,9 @@
         "row": 23
       },
       "mergedFrom": [],
-      "personId": "a1d458ca-80a2-4091-ab8d-406ae611cfbc",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e325c286-481b-4e1c-aac5-8b9decb14bc6",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HAMDİ TAYLAN",
@@ -1862,9 +1852,9 @@
         "row": 24
       },
       "mergedFrom": [],
-      "personId": "8ae63803-3bd6-4850-abf8-ddc5e2a9226a",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "2b2d2101-dc33-4e2d-9b7f-85f8c2521de2",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HAYDAR DELİBAL",
@@ -1882,9 +1872,9 @@
         "row": 25
       },
       "mergedFrom": [],
-      "personId": "0ae5aa2a-2275-4791-a961-79a8b0044546",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3d0f2fa5-d82a-44e8-94ae-97850a9f6812",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HİCABİ KOSKAR",
@@ -1902,9 +1892,9 @@
         "row": 26
       },
       "mergedFrom": [],
-      "personId": "455c5f5d-e1e6-46d8-bc12-f6995b4675e7",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "bb8afefe-3e7c-45d2-b99d-8c0c227f12fe",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "İSA YILMAZ",
@@ -1922,9 +1912,9 @@
         "row": 27
       },
       "mergedFrom": [],
-      "personId": "fcdec4d3-8403-484f-95b6-c23e079fb11c",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "c7c41b45-920a-4732-aa26-4f4e69cb1824",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "KEMAL BİRİNCİ",
@@ -1942,9 +1932,9 @@
         "row": 28
       },
       "mergedFrom": [],
-      "personId": "ff444294-ee71-4928-85bd-c59f7be37678",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1130cfd3-7778-4573-b98a-1c24e601c855",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "KEREM YILMAZ",
@@ -1962,9 +1952,9 @@
         "row": 29
       },
       "mergedFrom": [],
-      "personId": "ec28015c-4933-4474-a553-f91a46f2b43d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3bcc56f1-aca8-4821-8176-8cd162df22e8",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MAHMUT BUDAK",
@@ -1982,9 +1972,9 @@
         "row": 30
       },
       "mergedFrom": [],
-      "personId": "ff80c825-a03b-4e3a-9e2b-519949734448",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MESUT DEMİRALP",
@@ -2002,9 +1992,9 @@
         "row": 31
       },
       "mergedFrom": [],
-      "personId": "b4e1dbc2-967b-4d8c-a920-50f877eb0b98",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "c15075db-3630-43e7-92ab-0d0e184d3019",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUHAMMED KAYA",
@@ -2022,9 +2012,9 @@
         "row": 32
       },
       "mergedFrom": [],
-      "personId": "0fea2e8d-3cf4-4a1d-a20b-7262f574676b",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "14a882d5-aad5-4094-9e09-99f29c309dc8",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUHİTTİN KALINTAŞ",
@@ -2042,9 +2032,9 @@
         "row": 33
       },
       "mergedFrom": [],
-      "personId": "c846fa4e-9a8c-4e9c-8471-dec29b437cb9",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MURAT KALINTAŞ",
@@ -2062,9 +2052,9 @@
         "row": 34
       },
       "mergedFrom": [],
-      "personId": "5276a451-8db8-433b-9c2e-5ae7d8ae4c3a",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "cf5bf79d-70e7-4cd8-b6c1-7a1527776e25",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUSA KURT",
@@ -2082,9 +2072,9 @@
         "row": 35
       },
       "mergedFrom": [],
-      "personId": "0df536c1-7176-4891-b11b-4b7cf1639166",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1c4ef47e-0b08-4109-aeb0-105bb32777fd",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUSTAFA KUŞ",
@@ -2102,9 +2092,9 @@
         "row": 36
       },
       "mergedFrom": [],
-      "personId": "076637f2-5da9-4968-8adf-f334248cfd65",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "4c6843e4-b45a-437b-a744-10d77fc9b73f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "OKAN KAAN KARBUZ",
@@ -2122,9 +2112,9 @@
         "row": 37
       },
       "mergedFrom": [],
-      "personId": "158cf4d2-2d62-4ce9-9136-f4a8bbd6d16a",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "058a79e2-7d8b-4769-b4a0-7a05c34c4dfd",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "OKTAY BEKTAŞ",
@@ -2142,9 +2132,9 @@
         "row": 38
       },
       "mergedFrom": [],
-      "personId": "25a2ad43-cbd4-4d57-9615-3751b29dd569",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "b349e8bb-e6a6-4849-b49b-3462a26d100f",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ÖZCAN BUĞDAY",
@@ -2162,9 +2152,9 @@
         "row": 39
       },
       "mergedFrom": [],
-      "personId": "64fe153e-a0b1-4d70-a894-175d226bf6f7",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "2632aa3e-61e0-487e-8d80-664c9226fc4d",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RAMAZAN ÖZBEN",
@@ -2182,9 +2172,9 @@
         "row": 40
       },
       "mergedFrom": [],
-      "personId": "4848192e-8a42-41b4-98ba-9a424f6f1d51",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "bf80e71c-f9a4-4991-8c69-ec3021340f37",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SALİH BİRİNCİ",
@@ -2202,9 +2192,9 @@
         "row": 41
       },
       "mergedFrom": [],
-      "personId": "2f9096cc-8616-49ed-b813-82f8c26d1877",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "de04b1ac-ae4c-4447-be4a-fb0bc8666c43",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SALİH UYAR",
@@ -2222,9 +2212,9 @@
         "row": 42
       },
       "mergedFrom": [],
-      "personId": "e0ae3da8-73e5-4d39-a919-8920bce876f8",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ŞEMSETTİN KAYA",
@@ -2242,9 +2232,9 @@
         "row": 43
       },
       "mergedFrom": [],
-      "personId": "007b5147-fb65-45bf-8e2f-68b64bfe7201",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "5c022692-799b-4ccb-9132-f15fdc14447c",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SONER KARBUZ",
@@ -2262,9 +2252,9 @@
         "row": 44
       },
       "mergedFrom": [],
-      "personId": "fa38acfa-c378-4072-a7cd-dd2899c7b553",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "165b8e15-3c73-4b59-b241-e63841bf304b",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ŞÜKRÜ ŞİMŞEK",
@@ -2282,9 +2272,9 @@
         "row": 45
       },
       "mergedFrom": [],
-      "personId": "d0770dba-e519-4fb1-b6bc-74100bec4a27",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e3444914-3f1c-499f-a417-834ccdbdd7ac",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SÜLEYMAN HATUN",
@@ -2302,9 +2292,9 @@
         "row": 46
       },
       "mergedFrom": [],
-      "personId": "6b3dafa0-2cef-4568-b43e-3e836ab72012",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "67f6ed61-5bb8-4a41-b2f1-9b7accae6f3d",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "TARKAN KALINTAŞ",
@@ -2322,9 +2312,9 @@
         "row": 47
       },
       "mergedFrom": [],
-      "personId": "03295a21-baf0-4651-a3e1-202e9579c332",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "02394a38-a975-4cce-9ce1-e2dd90e86e36",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "TUNAHAN ŞAHİN",
@@ -2342,9 +2332,9 @@
         "row": 48
       },
       "mergedFrom": [],
-      "personId": "2c29cc94-95ce-4c7c-8833-5b50a7a345d8",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3af2612e-6c02-413b-8aae-a8200f577cc5",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ÜNAL KARBUZ",
@@ -2362,9 +2352,9 @@
         "row": 49
       },
       "mergedFrom": [],
-      "personId": "68e4d0f0-ad50-4927-a033-9c5833432237",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e097bd14-9505-4696-afcf-ca47bfb04675",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "YASİN YILDIRIM",
@@ -2382,9 +2372,9 @@
         "row": 50
       },
       "mergedFrom": [],
-      "personId": "cb70f1d4-7e32-4015-9cd6-40d753a5b35f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "d2444015-5768-4454-bccc-be393c85ed19",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "YUSUF CAN",
@@ -2402,9 +2392,9 @@
         "row": 51
       },
       "mergedFrom": [],
-      "personId": "fd557030-cb30-4bbc-a845-e409336b78a6",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "fc1d10a7-0698-4832-a319-31bd7bb5fd1d",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ZEKAİ UYAR",
@@ -2422,9 +2412,9 @@
         "row": 52
       },
       "mergedFrom": [],
-      "personId": "217351f7-8290-4c20-890d-efaaf835ddc5",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "ee638392-fb4f-4be9-a20c-785caf065409",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ADEM AKSOY",
@@ -2442,9 +2432,9 @@
         "row": 1
       },
       "mergedFrom": [],
-      "personId": "ba638314-2cc1-4f82-9d44-7a151fbb8074",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "f5b12062-277b-4544-bbc5-db9966c05ca8",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "AHMET DÜNDAR",
@@ -2462,9 +2452,9 @@
         "row": 2
       },
       "mergedFrom": [],
-      "personId": "6f53237e-2643-4640-b6a0-bc0f9bad9ff8",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "7d2f3c27-e761-4dc1-9610-bd28f217e45a",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ALİ AKSOY",
@@ -2482,9 +2472,9 @@
         "row": 3
       },
       "mergedFrom": [],
-      "personId": "f01a12f0-dd6a-464b-b499-5e92adb99f2d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "15248273-e4b2-4f6a-bb96-2c6a22ee9d95",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "AYDIN KAYMAK",
@@ -2502,9 +2492,9 @@
         "row": 4
       },
       "mergedFrom": [],
-      "personId": "e26f448e-0e82-4362-ad69-eed6f4d107eb",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "6145412e-0907-4376-bca5-7dea8a0aa95a",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "FARUK DÜŞÜNCELİ",
@@ -2522,9 +2512,9 @@
         "row": 5
       },
       "mergedFrom": [],
-      "personId": "1539a51d-fd89-4fd0-a666-2e64cec0eff5",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "a649caad-005c-436f-839a-86db3d030203",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "FATİH AKSOY",
@@ -2542,9 +2532,9 @@
         "row": 6
       },
       "mergedFrom": [],
-      "personId": "47997208-4fa5-4bb2-a2ea-c26ce7ca30c4",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "24bf7f33-fe77-470b-babb-31b86d8e195a",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "HAYDAR KAHRAMAN",
@@ -2562,9 +2552,9 @@
         "row": 7
       },
       "mergedFrom": [],
-      "personId": "197b3362-5919-49b3-b7cd-f54d4b47cb1f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "8c97aeb9-2649-450e-bf67-63cf5e5272ea",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "İBRAHİM AYDIN",
@@ -2582,9 +2572,9 @@
         "row": 8
       },
       "mergedFrom": [],
-      "personId": "583ce8e6-d76c-44a8-be50-a693f8d51d8f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "55dc1c4c-50e6-4700-9bc4-4c263fb46591",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MEHMET AKSOY",
@@ -2602,9 +2592,9 @@
         "row": 9
       },
       "mergedFrom": [],
-      "personId": "5ef778ee-3140-49ad-b1aa-618a2d0d93a9",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "43398262-c0cb-4c48-bf34-9717d798d9d7",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUHAMMED EMİN KAHRAMAN",
@@ -2622,9 +2612,9 @@
         "row": 10
       },
       "mergedFrom": [],
-      "personId": "5a6b8348-c71d-4310-8450-ea87aafeb46d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0c73a8ce-06d0-4e35-8d12-cd4b16c85e04",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUHAMMET EMİN BUCAK",
@@ -2642,9 +2632,9 @@
         "row": 11
       },
       "mergedFrom": [],
-      "personId": "cb37ce14-1c5c-4337-85a6-eba1b8ff9305",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3feffd56-b6a4-418f-888e-8b649f95d333",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "NURİ AKSOY",
@@ -2662,9 +2652,9 @@
         "row": 12
       },
       "mergedFrom": [],
-      "personId": "99573676-9ac6-4921-8cf7-139d883e1ed2",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "cd794d87-3fab-4d25-b8c2-0ea372a665e3",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "OĞUZHAN GÖK",
@@ -2682,9 +2672,9 @@
         "row": 13
       },
       "mergedFrom": [],
-      "personId": "2f74b8a9-a0a3-43ad-a3e3-10de6e36aa9e",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "abb9da67-7e97-4aca-8353-8a9425d765e3",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ÖMER DOĞAN",
@@ -2702,9 +2692,9 @@
         "row": 14
       },
       "mergedFrom": [],
-      "personId": "22e67c61-315d-4904-b326-32b7333600a6",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "bd839efc-5216-41c9-92f2-560ee78edc05",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ORHAN ÇİTO",
@@ -2722,9 +2712,9 @@
         "row": 15
       },
       "mergedFrom": [],
-      "personId": "64e80beb-f1fe-4376-a3af-b9296846ab18",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1d87d37c-ab31-439d-99b0-0ece1f4bac32",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ÖZGÜR AKSOY",
@@ -2742,9 +2732,9 @@
         "row": 16
       },
       "mergedFrom": [],
-      "personId": "5a267fa4-8b21-4fb5-b119-88a78a881c42",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "9e81fd1f-8104-4bd8-975a-4b94bba0d558",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RASİM AYDIN",
@@ -2762,9 +2752,9 @@
         "row": 17
       },
       "mergedFrom": [],
-      "personId": "0e912601-f249-4668-a801-2da5a351ac20",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e642e259-2d2d-4bd2-8065-5d264b85d776",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RESUL ALAŞ",
@@ -2782,9 +2772,9 @@
         "row": 18
       },
       "mergedFrom": [],
-      "personId": "0367eb37-bc02-4c56-9494-9b0ed43d8a2a",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "YILMAZ ÇIRA",
@@ -2802,9 +2792,9 @@
         "row": 19
       },
       "mergedFrom": [],
-      "personId": "4aee3fb3-2ac5-4aff-8b9f-aaf40b8ca9fc",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "d89696ac-af37-450d-b94d-eed058ae2527",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "YUSUF ÇİFTÇİ",
@@ -2822,9 +2812,9 @@
         "row": 20
       },
       "mergedFrom": [],
-      "personId": "d8ca0d59-cd3b-41c9-81ec-72c72ae31275",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1ed1536d-5f88-4c52-9ec3-f6bb4b904baf",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "NEŞAT KAHRAMAN",
@@ -2842,9 +2832,9 @@
         "row": 21
       },
       "mergedFrom": [],
-      "personId": "181d1d3a-fd4c-482b-8db8-02553425f94d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "dda81ecb-14af-4308-8bd9-ae6b1b461c77",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ABDUL RAHEEM",
@@ -2862,9 +2852,9 @@
         "row": 1
       },
       "mergedFrom": [],
-      "personId": "708578ac-56b2-421f-99cc-a60cfea5db20",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1bd378b8-2871-4637-ac65-42412342ef27",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "FAIZAN YOUNAS",
@@ -2882,9 +2872,9 @@
         "row": 2
       },
       "mergedFrom": [],
-      "personId": "5918b806-8a2b-4a26-aaec-c43b5930a482",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "4fefe0df-2033-4c0b-b8d8-bfc7282df7c6",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "IKROM RAKHMATOV",
@@ -2902,9 +2892,9 @@
         "row": 3
       },
       "mergedFrom": [],
-      "personId": "61656794-869f-48e5-93f8-f77cf5a5d274",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "c2b31889-e96a-499f-933e-361e751688f7",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "KABIRUL ISLAM",
@@ -2922,9 +2912,9 @@
         "row": 4
       },
       "mergedFrom": [],
-      "personId": "f67a35d2-da8d-4963-8422-0c82b13355e8",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "4f074775-977f-4984-a444-d1e7e09a4a08",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD ABDUL MOTIN",
@@ -2942,9 +2932,9 @@
         "row": 5
       },
       "mergedFrom": [],
-      "personId": "c0a0cc1c-b7dd-425f-8fa4-0fa97e04dd0f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "cb76466c-edaa-4726-9f7e-8ee53959ec1e",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD AZIZUL ISLAM",
@@ -2962,9 +2952,9 @@
         "row": 6
       },
       "mergedFrom": [],
-      "personId": "97b15181-1301-47ac-8ce3-5e93e4a41c0b",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "b80ed213-3af9-4f1f-9752-11e64c19d738",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD HASEN SHEKH",
@@ -2982,9 +2972,9 @@
         "row": 7
       },
       "mergedFrom": [],
-      "personId": "624bdd56-9b25-4f92-9eb7-f176cbcfe51e",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "f3e8a97a-0e66-4d9e-bee3-50906c2562a1",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD IMRAN UDDIN",
@@ -3002,9 +2992,9 @@
         "row": 8
       },
       "mergedFrom": [],
-      "personId": "cc3a7a90-67cb-44ed-9d92-7328577800cd",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3e3c40e4-a4bf-4bec-85ef-181eff30570c",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD JASIM UDDIN",
@@ -3022,9 +3012,9 @@
         "row": 9
       },
       "mergedFrom": [],
-      "personId": "deb6a4c5-a7a1-4e38-8289-9e620e7bce09",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "257f1877-4e34-4aa3-8781-e408ff6b7ad5",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD JIHAD MIAH",
@@ -3042,9 +3032,9 @@
         "row": 10
       },
       "mergedFrom": [],
-      "personId": "677b2c30-f627-44d2-a1fd-17040ccbc1c6",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "159a5ef2-e297-4b12-8acd-b060eb25778b",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD JULFIKAR RAHMAN",
@@ -3062,9 +3052,9 @@
         "row": 11
       },
       "mergedFrom": [],
-      "personId": "1fe57d3c-efb0-4ccf-87cb-0cf7d75c869f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1a9ffb86-baa6-4ec6-9ca2-039dcb35cd8c",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD RAJIB HOSSAIN",
@@ -3082,9 +3072,9 @@
         "row": 12
       },
       "mergedFrom": [],
-      "personId": "5368c460-2026-4fd0-93fb-9b323ff42812",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "b120fdd8-fdca-4c77-af0e-17696d10a2f6",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD RIPON ALI",
@@ -3102,9 +3092,9 @@
         "row": 13
       },
       "mergedFrom": [],
-      "personId": "cd7d1d75-c6f6-45de-bc89-9caa9b1e6b69",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "bb5e38d2-d44b-4e01-9e8d-9f2270a5f182",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD RUBEL",
@@ -3122,9 +3112,9 @@
         "row": 14
       },
       "mergedFrom": [],
-      "personId": "df0fa4d2-6792-44f8-964d-1efb57666526",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "5c259311-ee87-4d81-8ac6-824a07949dc1",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD SAKHAWAT HOSSAIN",
@@ -3142,9 +3132,9 @@
         "row": 15
       },
       "mergedFrom": [],
-      "personId": "fedb6b3e-4bfa-4c02-bcfc-09110be94085",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "1b68bde0-6a32-4cf5-87dd-1f34d4f584ae",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD SHOHEL RANA",
@@ -3162,9 +3152,9 @@
         "row": 16
       },
       "mergedFrom": [],
-      "personId": "2aed12e7-1cf1-4aec-907f-7e7f459039a0",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "c05eee58-ee9e-4425-bdc1-9a058411e023",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD SORIFUL ISLAM",
@@ -3182,9 +3172,9 @@
         "row": 17
       },
       "mergedFrom": [],
-      "personId": "cedd0c61-52e3-47c8-b4be-e94bd1908771",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "4609335d-52ab-415b-bc70-1b16dadad4fa",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD SUMON ALI",
@@ -3202,9 +3192,9 @@
         "row": 18
       },
       "mergedFrom": [],
-      "personId": "1a54bc95-ad49-4deb-9d71-2dab113bb03d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "deff4281-3e05-413f-a2cf-e3f07a2067d8",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MD SUMON HOSSAIN",
@@ -3222,9 +3212,9 @@
         "row": 19
       },
       "mergedFrom": [],
-      "personId": "478afd37-1431-48f6-b469-f45cfda8ee40",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "44636592-efed-4e2d-813c-37b6e686d4d9",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MOHAMMAD RAKIB MOLLA",
@@ -3242,9 +3232,9 @@
         "row": 20
       },
       "mergedFrom": [],
-      "personId": "57066ea4-f0c1-457d-9e65-971fa0e5b34c",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "4783963c-faae-4e59-b152-6e7d96895f52",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "NOUMAN ALI",
@@ -3262,9 +3252,9 @@
         "row": 21
       },
       "mergedFrom": [],
-      "personId": "aa89a267-8a0b-41da-931f-aa39f5f907bb",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "12f5ca08-bb05-4f34-b2a2-a0e86aee6aad",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RAKIB MOLLAH",
@@ -3282,9 +3272,9 @@
         "row": 22
       },
       "mergedFrom": [],
-      "personId": "d5f282b9-45d3-415d-ae70-8f460d7b4c2d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0c6c17ef-f68c-4d4c-9378-5892e3223f16",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RAZA ATIF",
@@ -3302,9 +3292,9 @@
         "row": 23
       },
       "mergedFrom": [],
-      "personId": "dfdeb6c0-2cd8-4eb2-9458-d8b04cadbd91",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "b9037d83-5e01-427d-9193-52c6a24cbde0",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "RUHUL AMIN",
@@ -3322,9 +3312,9 @@
         "row": 24
       },
       "mergedFrom": [],
-      "personId": "20fe5667-4637-450a-876e-8e6f51e2f9e1",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "f174b74e-bf6d-42b1-b59f-82a7718b5330",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SAKIB HOSSAIN",
@@ -3342,9 +3332,9 @@
         "row": 25
       },
       "mergedFrom": [],
-      "personId": "9ee00f0f-f7fd-4e07-b4f2-8249ba72a3ae",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "153bb9b1-d5b3-4c12-ac14-14bca7ca78a1",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SHAHADAT RAJU",
@@ -3362,9 +3352,9 @@
         "row": 26
       },
       "mergedFrom": [],
-      "personId": "93b5aa6c-4905-4942-90a7-5d2cc2ce401f",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "954de269-fdf6-4d66-b27c-72b6af2b2f9c",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "WASEEM AKRAM",
@@ -3382,9 +3372,9 @@
         "row": 27
       },
       "mergedFrom": [],
-      "personId": "4fa1ca43-79c0-4162-b579-94a64d4d8680",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e7475e90-7ac9-43fa-b18b-b9d2f7310f2b",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BAKHODIR KHOLIKOV",
@@ -3402,9 +3392,9 @@
         "row": 1
       },
       "mergedFrom": [],
-      "personId": "fbb9b7d1-5078-4aa1-924d-31b99b359004",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "341faaab-55af-4dd2-874a-06c420d8f0f0",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "DIYORJON IBROKHIMOV",
@@ -3422,9 +3412,9 @@
         "row": 2
       },
       "mergedFrom": [],
-      "personId": "ee210811-53f2-442c-8c2e-a434247b3ecf",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "80cd0566-a7ce-4919-83d8-a988d4a6e3a6",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "KHAYOTJON MINGBOEV",
@@ -3442,9 +3432,9 @@
         "row": 3
       },
       "mergedFrom": [],
-      "personId": "d86f0d8c-846a-43a7-98b1-510b8939092d",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3450a745-a270-464b-adb1-eb8524368083",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SARDOR MUKHAMMATOV",
@@ -3462,9 +3452,9 @@
         "row": 4
       },
       "mergedFrom": [],
-      "personId": "07d18398-99d6-44df-8e4a-7bf0286598d0",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "e9d045f7-db34-4359-b013-4a30daa97d0e",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SIROJ ABDUVAITOV",
@@ -3482,9 +3472,9 @@
         "row": 5
       },
       "mergedFrom": [],
-      "personId": "abd042d6-436a-42de-ab98-c54875052732",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "5144f20c-d6d7-4811-9aa2-753af4e66d36",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "TURSUNBOY MISIROV",
@@ -3502,9 +3492,9 @@
         "row": 6
       },
       "mergedFrom": [],
-      "personId": "2c514d62-eba4-41b9-8112-a622273cefc3",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "d0be571d-8ae4-409d-8d41-1320a8931787",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BEGENDIK SULTANOV",
@@ -3522,9 +3512,9 @@
         "row": 1
       },
       "mergedFrom": [],
-      "personId": "c6bba8be-83fa-470c-8176-cb4c8d686bd5",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "4637416b-d3f0-438e-a286-01119ec630a6",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "GAYGYSYZ DURNAZAROV",
@@ -3542,9 +3532,9 @@
         "row": 2
       },
       "mergedFrom": [],
-      "personId": "a51dd504-97ae-4638-ba72-91df2c82bdac",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "47c5c96f-4869-453a-bfaf-6718a1eef5a3",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "SHATLYK ACHYLOV",
@@ -3562,9 +3552,9 @@
         "row": 3
       },
       "mergedFrom": [],
-      "personId": "750cf63c-8abe-44b9-9611-051d6d6568a1",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "45bdd05e-e4fb-4359-a0bf-94fd28fb22b2",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "TINODANA ROY GWAVAVA",
@@ -3582,9 +3572,9 @@
         "row": 2
       },
       "mergedFrom": [],
-      "personId": "03ebf666-437f-4742-aa99-07f1c25b3cdc",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "ca74d283-d65b-48b2-940c-4b800b484506",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "AHMET ŞAHİN",
@@ -3602,9 +3592,9 @@
         "row": 1
       },
       "mergedFrom": [],
-      "personId": "51c431fc-c534-4a61-827d-c0afc7ef36c7",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ABDULHAMİT ŞANVERDİ",
@@ -3622,9 +3612,9 @@
         "row": 2
       },
       "mergedFrom": [],
-      "personId": "a638edaa-6488-43a2-a8c5-d7c05db1d208",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "DAVUT SEZEN",
@@ -3642,9 +3632,9 @@
         "row": 3
       },
       "mergedFrom": [],
-      "personId": "6050eb67-ed88-49b7-aaa8-6fe6607117e8",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "fa1c6733-43fe-4662-8629-6d7c7b5d9a23",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "MUSTAFA ŞEN",
@@ -3662,9 +3652,9 @@
         "row": 4
       },
       "mergedFrom": [],
-      "personId": "20fb41b4-f641-409e-bba1-0fef5d25ced2",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "ONUR HÜSEYİNOĞLU",
@@ -3682,9 +3672,9 @@
         "row": 5
       },
       "mergedFrom": [],
-      "personId": "2526512d-47a0-4c51-8a89-f3fe806552e5",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "0e7c6c1e-bbed-4e3f-b49b-9175d3fedb79",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "İZZET İĞDE",
@@ -3702,9 +3692,9 @@
         "row": 6
       },
       "mergedFrom": [],
-      "personId": "5c72fc1a-cab9-4274-af76-404e28e36f5b",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "BURAK ERDEM",
@@ -3722,12 +3712,12 @@
         "row": 7
       },
       "mergedFrom": [],
-      "personId": "2abdf6f6-2370-4201-b00e-b2671fb5712a",
-      "createdAt": "2026-01-05T11:46:38.424Z",
-      "updatedAt": "2026-01-05T11:46:38.424Z"
+      "personId": "165719dc-185e-4dec-8d2b-750fddfea991",
+      "createdAt": "2026-01-05T12:12:49.580Z",
+      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
-      "personId": "c056aa75-73c7-44d7-a9cb-21afeedc14f2",
+      "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
       "baseKey": "EYYUB SALIH ARIK",
       "fullName": "EYYÜB SALİH ARIK",
       "normalizedName": "EYYUB SALIH ARIK",
@@ -3752,11 +3742,11 @@
         "expectedDate": null,
         "contactPerson": "EYYÜP"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "c4c5b395-e155-432f-b762-fd59b542af39",
+      "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
       "baseKey": "HALIL KAYA",
       "fullName": "HALİL KAYA",
       "normalizedName": "HALIL KAYA",
@@ -3781,11 +3771,11 @@
         "expectedDate": "2025-12-21",
         "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "31406d3a-8c7b-49b8-9c76-ffaf3370bf4e",
+      "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
       "baseKey": "BARIS TUNA",
       "fullName": "BARIŞ TUNA",
       "normalizedName": "BARIS TUNA",
@@ -3810,11 +3800,11 @@
         "expectedDate": "2025-12-21",
         "contactPerson": "YEMEKHANECİ SEDAT"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "05fb6a61-7fa0-415b-b85c-662733112408",
+      "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
       "baseKey": "DOGUS KARBUZ",
       "fullName": "DOĞUŞ KARBUZ",
       "normalizedName": "DOGUS KARBUZ",
@@ -3839,11 +3829,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "MESUT"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "8234b61d-2b3f-4e6a-a652-dda61f5368b7",
+      "personId": "37d42596-a665-48ed-8158-1299397d70e6",
       "baseKey": "OGUN KARBUZ",
       "fullName": "OGÜN KARBUZ",
       "normalizedName": "OGUN KARBUZ",
@@ -3868,11 +3858,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "MESUT"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "26a0578a-2f1f-4e53-ad33-a0bcf417a48a",
+      "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
       "baseKey": "YETIS KARBUZ",
       "fullName": "YETİŞ KARBUZ",
       "normalizedName": "YETIS KARBUZ",
@@ -3897,11 +3887,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "MESUT"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "5dd8fc12-7b37-493b-8ea4-b70b484d6e23",
+      "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
       "baseKey": "FEREMEZ ANUCUR",
       "fullName": "FEREMEZ ANUCUR",
       "normalizedName": "FEREMEZ ANUCUR",
@@ -3926,11 +3916,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "MESUT"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "02c18137-6662-4ed6-b36a-f3c0a0a927b1",
+      "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
       "baseKey": "SERVET OKSUZ",
       "fullName": "SERVET ÖKSÜZ",
       "normalizedName": "SERVET OKSUZ",
@@ -3955,11 +3945,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "MESUT"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "ab26d533-ff89-4615-a78d-e73269c19b2d",
+      "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
       "baseKey": "MUHAMMET AR",
       "fullName": "MUHAMMET AR",
       "normalizedName": "MUHAMMET AR",
@@ -3984,11 +3974,11 @@
         "expectedDate": null,
         "contactPerson": "MURAT ÜYÜR"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "ddcb087e-bec1-4f66-a967-d5f9a9f0549e",
+      "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
       "baseKey": "CEMALETTIN KAPLAN",
       "fullName": "CEMALETTİN KAPLAN",
       "normalizedName": "CEMALETTIN KAPLAN",
@@ -4013,11 +4003,11 @@
         "expectedDate": null,
         "contactPerson": "MURAT ÜYÜR"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "cf50b4d1-0373-4cb0-ba83-19ad898a8821",
+      "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
       "baseKey": "SAKIP YILDIZOGLU",
       "fullName": "ŞAKİP YILDIZOĞLU",
       "normalizedName": "SAKIP YILDIZOGLU",
@@ -4042,11 +4032,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "MURAT ÜYÜR"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "cd4a41c0-dde6-4031-a358-4ad3ed5c51f7",
+      "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
       "baseKey": "HARUN DURDU",
       "fullName": "HARUN DURDU",
       "normalizedName": "HARUN DURDU",
@@ -4071,11 +4061,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "MURAT ÜYÜR"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "2eb9c3e6-cc0a-4f76-b133-f2f5351cf530",
+      "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
       "baseKey": "NAZMI DEMIR",
       "fullName": "NAZMİ DEMİR",
       "normalizedName": "NAZMI DEMIR",
@@ -4100,11 +4090,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "SÜLEYMAN ORUL"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "8ed66565-bea4-427d-8252-ac715a080e94",
+      "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
       "baseKey": "REZZAN KAYA",
       "fullName": "REZZAN KAYA",
       "normalizedName": "REZZAN KAYA",
@@ -4129,11 +4119,11 @@
         "expectedDate": "2026-01-18",
         "contactPerson": "HAYDAR"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "fb4494e8-c147-4586-8240-76a9bb0d77ed",
+      "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
       "baseKey": "MEHMET SERIF KORKMAZ",
       "fullName": "MEHMET ŞERİF KORKMAZ",
       "normalizedName": "MEHMET SERIF KORKMAZ",
@@ -4158,11 +4148,11 @@
         "expectedDate": null,
         "contactPerson": "MURAT ÜYÜR( İSKELE)"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "6bed2737-049b-4190-8c46-0858b3ef209c",
+      "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
       "baseKey": "MERTCAN SIMSEK",
       "fullName": "MERTCAN ŞİMŞEK",
       "normalizedName": "MERTCAN SIMSEK",
@@ -4187,11 +4177,11 @@
         "expectedDate": "2026-01-29",
         "contactPerson": "İSG"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "07b0acfe-6532-4602-859f-2a9687951915",
+      "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
       "baseKey": "RIDVAN GEZER",
       "fullName": "RIDVAN GEZER",
       "normalizedName": "RIDVAN GEZER",
@@ -4216,11 +4206,11 @@
         "expectedDate": null,
         "contactPerson": "MURAT ÜYÜR( İSKELE)"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "3594f29d-36c8-49e1-957a-ddb50d81cf02",
+      "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
       "baseKey": "MEHMET CIFTCI",
       "fullName": "MEHMET ÇİFTÇİ",
       "normalizedName": "MEHMET CIFTCI",
@@ -4245,11 +4235,11 @@
         "expectedDate": null,
         "contactPerson": "MURAT ÜYÜR (İSKELE)"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "bcbcbd03-029a-4980-8d94-5325bae3a765",
+      "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
       "baseKey": "MECIT AYDOGAN",
       "fullName": "MECİT AYDOĞAN",
       "normalizedName": "MECIT AYDOGAN",
@@ -4274,11 +4264,11 @@
         "expectedDate": null,
         "contactPerson": "MURAT ÜYÜR (İSKELE)"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "5afbef9b-e7c4-4b3b-9db9-bb7fb3415b77",
+      "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
       "baseKey": "SERHAT IS",
       "fullName": "SERHAT İŞ",
       "normalizedName": "SERHAT IS",
@@ -4303,11 +4293,11 @@
         "expectedDate": null,
         "contactPerson": "İSG (İŞÇİ)"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "2e557c47-a974-46fd-997b-4b5ae79373f2",
+      "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
       "baseKey": "ABDULSAMET DURU",
       "fullName": "ABDULSAMET DURU",
       "normalizedName": "ABDULSAMET DURU",
@@ -4332,11 +4322,11 @@
         "expectedDate": null,
         "contactPerson": "İSG(İŞÇİ)"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "28013f81-c19f-484e-acaf-56b1a8e24032",
+      "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
       "baseKey": "BENAN UYUR",
       "fullName": "BENAN ÜYÜR",
       "normalizedName": "BENAN UYUR",
@@ -4361,13 +4351,13 @@
         "expectedDate": null,
         "contactPerson": "MURAT ÜYÜR EŞİ"
       },
-      "createdAt": "2026-01-05T11:46:38.436Z",
-      "updatedAt": "2026-01-05T11:46:38.436Z"
+      "createdAt": "2026-01-05T12:12:49.592Z",
+      "updatedAt": "2026-01-05T12:12:49.592Z"
     }
   ],
   "leaves": [
     {
-      "id": "1174fcc8-772a-4033-bfef-7798f7d68ea4",
+      "id": "73b823aa-f8bb-402c-9ce0-34da869f31e2",
       "fullName": "MUHAMMED ALİ YILDIRIM",
       "normalizedName": "MUHAMMED ALI YILDIRIM",
       "baseKey": "MUHAMMED ALI YILDIRIM",
@@ -4380,10 +4370,10 @@
         "sheet": "Sayfa1",
         "row": 3
       },
-      "personId": "22061d01-6bf4-454e-b3a6-a7119d18722b"
+      "personId": "45db4bd0-47fd-4963-a887-43628167b9eb"
     },
     {
-      "id": "c765ddf7-f46c-4c3e-8674-27af9d6f2b7d",
+      "id": "ef47cf93-dfb8-4381-84b1-d092d3a0f67a",
       "fullName": "YASİN YILMAZ",
       "normalizedName": "YASIN YILMAZ",
       "baseKey": "YASIN YILMAZ",
@@ -4396,10 +4386,10 @@
         "sheet": "Sayfa1",
         "row": 4
       },
-      "personId": "3b9324f8-1fad-4802-954b-4b06085a0583"
+      "personId": "5977c057-3d9e-494e-900d-21cfff97afa6"
     },
     {
-      "id": "6e91e989-6334-4f33-8a95-59ec63a4a8fc",
+      "id": "d426fb8b-b6d1-48fd-a3a7-fc78f9caf835",
       "fullName": "İBRAHİM ER",
       "normalizedName": "IBRAHIM ER",
       "baseKey": "IBRAHIM ER",
@@ -4412,10 +4402,10 @@
         "sheet": "Sayfa1",
         "row": 5
       },
-      "personId": "82287bad-0551-4a15-968f-663b136935e0"
+      "personId": "41f4f8b0-9045-4bf3-bad8-698b9d25a86f"
     },
     {
-      "id": "760cbdd7-d677-4bd4-b7ae-712d7b39b3d5",
+      "id": "82642f1f-8646-4288-8477-25cd5cbd0d7e",
       "fullName": "CELALETTİN GARİP",
       "normalizedName": "CELALETTIN GARIP",
       "baseKey": "CELALETTIN GARIP",
@@ -4428,10 +4418,10 @@
         "sheet": "Sayfa1",
         "row": 7
       },
-      "personId": "7e0920ce-6c78-4d37-b726-365a9259e144"
+      "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2"
     },
     {
-      "id": "03aa384b-7305-405b-ab4e-8178adcfc0c0",
+      "id": "74ea5ab5-c913-48f5-ac05-8d8b39ee2ca4",
       "fullName": "SALİH BUDAK",
       "normalizedName": "SALIH BUDAK",
       "baseKey": "SALIH BUDAK",
@@ -4444,10 +4434,10 @@
         "sheet": "Sayfa1",
         "row": 8
       },
-      "personId": "072dcd9f-7198-4436-a8e6-c18519d03699"
+      "personId": "c5c4d20c-3f32-4870-9cad-27775a3aafbd"
     },
     {
-      "id": "c7d07cb6-9526-4ecc-a1af-d06b42735bd4",
+      "id": "5f1df0c6-e7d2-4336-a09c-27acf42bef81",
       "fullName": "TAHİR BUDAK",
       "normalizedName": "TAHIR BUDAK",
       "baseKey": "TAHIR BUDAK",
@@ -4460,10 +4450,10 @@
         "sheet": "Sayfa1",
         "row": 9
       },
-      "personId": "84bab6f8-e61f-41e7-ac2c-b6ae96496541"
+      "personId": "e73a0f6a-6d6b-42a9-ba74-5dc0b65c3bb7"
     },
     {
-      "id": "436dd25e-e6c1-4b03-b1e4-6e2eb0cf2914",
+      "id": "fcfad5d8-a3e1-4e74-8f1f-083838e88636",
       "fullName": "MAHMUT BUDAK",
       "normalizedName": "MAHMUT BUDAK",
       "baseKey": "MAHMUT BUDAK",
@@ -4476,10 +4466,10 @@
         "sheet": "Sayfa1",
         "row": 10
       },
-      "personId": "ff80c825-a03b-4e3a-9e2b-519949734448"
+      "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5"
     },
     {
-      "id": "f2ce6c55-1a83-4b79-92fe-b28033fa460e",
+      "id": "088c0c07-5aed-4f21-a2f0-bbe9be8b4b2e",
       "fullName": "MEHMET ARTAN",
       "normalizedName": "MEHMET ARTAN",
       "baseKey": "MEHMET ARTAN",
@@ -4492,10 +4482,10 @@
         "sheet": "Sayfa1",
         "row": 11
       },
-      "personId": "5b8a0b38-3e95-4a65-ab70-3ba5b140eaf2"
+      "personId": "20a6d9e1-3c08-4964-93cf-ca6af919af0f"
     },
     {
-      "id": "266b4fb5-af83-4abe-98af-9de9f2526e14",
+      "id": "07a4e35a-da6b-4b90-af99-bbcc54ce4d90",
       "fullName": "MEHMET SALİH ÖNEN",
       "normalizedName": "MEHMET SALIH ONEN",
       "baseKey": "MEHMET SALIH ONEN",
@@ -4508,10 +4498,10 @@
         "sheet": "Sayfa1",
         "row": 12
       },
-      "personId": "6113ed07-5eb0-446f-b730-8d32a9e4dc3f"
+      "personId": "94feaec9-a6e8-42de-aa8a-79e9ebeba95a"
     },
     {
-      "id": "e7d5efd3-769a-4ea6-8b24-919a77072d3b",
+      "id": "fb01dcf2-2a37-4b50-bfab-59c2bedd232b",
       "fullName": "SÜLEYMAN ORUL",
       "normalizedName": "SULEYMAN ORUL",
       "baseKey": "SULEYMAN ORUL",
@@ -4524,12 +4514,12 @@
         "sheet": "Sayfa1",
         "row": 13
       },
-      "personId": "dd000d93-c683-46bf-b426-3a310c0ea549"
+      "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7"
     }
   ],
   "tracking": [
     {
-      "id": "65f678eb-e50a-4d71-bd13-5080e0900cd5",
+      "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
       "fullName": "EYYÜB SALİH ARIK",
       "normalizedName": "EYYUB SALIH ARIK",
       "baseKey": "EYYUB SALIH ARIK",
@@ -4544,10 +4534,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 3
       },
-      "personId": "c056aa75-73c7-44d7-a9cb-21afeedc14f2"
+      "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c"
     },
     {
-      "id": "a966d148-a93c-4663-b477-3882962f1fee",
+      "id": "db910679-62cf-491d-af0b-6673313a6ca2",
       "fullName": "HALİL KAYA",
       "normalizedName": "HALIL KAYA",
       "baseKey": "HALIL KAYA",
@@ -4562,10 +4552,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 4
       },
-      "personId": "c4c5b395-e155-432f-b762-fd59b542af39"
+      "personId": "9987614f-d957-4b21-b255-6e29fc51f80d"
     },
     {
-      "id": "9b2abda6-e164-49bf-bcd6-249ca9a1cfcd",
+      "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
       "fullName": "BARIŞ TUNA",
       "normalizedName": "BARIS TUNA",
       "baseKey": "BARIS TUNA",
@@ -4580,10 +4570,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 5
       },
-      "personId": "31406d3a-8c7b-49b8-9c76-ffaf3370bf4e"
+      "personId": "6bd35035-1712-42c4-a5cb-6665336e328b"
     },
     {
-      "id": "c46c391a-2326-488b-80ae-e42c5ab1ebc3",
+      "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
       "fullName": "DOĞUŞ KARBUZ",
       "normalizedName": "DOGUS KARBUZ",
       "baseKey": "DOGUS KARBUZ",
@@ -4598,10 +4588,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 6
       },
-      "personId": "05fb6a61-7fa0-415b-b85c-662733112408"
+      "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50"
     },
     {
-      "id": "86c9d23f-a60c-474e-b746-92e6ce40d977",
+      "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
       "fullName": "OGÜN KARBUZ",
       "normalizedName": "OGUN KARBUZ",
       "baseKey": "OGUN KARBUZ",
@@ -4616,10 +4606,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 7
       },
-      "personId": "8234b61d-2b3f-4e6a-a652-dda61f5368b7"
+      "personId": "37d42596-a665-48ed-8158-1299397d70e6"
     },
     {
-      "id": "19b17935-0f80-4499-9359-76dbb9b775a2",
+      "id": "ed8327ef-b584-4603-aebc-538e089f4f77",
       "fullName": "YETİŞ KARBUZ",
       "normalizedName": "YETIS KARBUZ",
       "baseKey": "YETIS KARBUZ",
@@ -4634,10 +4624,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 8
       },
-      "personId": "26a0578a-2f1f-4e53-ad33-a0bcf417a48a"
+      "personId": "42552932-7346-4a0a-9436-3edbc9774ef5"
     },
     {
-      "id": "888b0c60-3536-45c6-8a82-9d493786e609",
+      "id": "dab2d4a9-b44a-446f-874f-39332743518e",
       "fullName": "FEREMEZ ANUCUR",
       "normalizedName": "FEREMEZ ANUCUR",
       "baseKey": "FEREMEZ ANUCUR",
@@ -4652,10 +4642,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 9
       },
-      "personId": "5dd8fc12-7b37-493b-8ea4-b70b484d6e23"
+      "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231"
     },
     {
-      "id": "5158e290-d0c5-4705-93bc-e730f249035c",
+      "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
       "fullName": "SERVET ÖKSÜZ",
       "normalizedName": "SERVET OKSUZ",
       "baseKey": "SERVET OKSUZ",
@@ -4670,10 +4660,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 10
       },
-      "personId": "02c18137-6662-4ed6-b36a-f3c0a0a927b1"
+      "personId": "5b473275-73f5-43bf-9337-084a8f4d15af"
     },
     {
-      "id": "08a61e8b-7c35-438e-80ba-a4b9e96b22e8",
+      "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
       "fullName": "MUHAMMET AR",
       "normalizedName": "MUHAMMET AR",
       "baseKey": "MUHAMMET AR",
@@ -4688,10 +4678,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 11
       },
-      "personId": "ab26d533-ff89-4615-a78d-e73269c19b2d"
+      "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a"
     },
     {
-      "id": "deb8087d-557f-4a3b-a193-d0bfb34ee7ef",
+      "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
       "fullName": "CEMALETTİN KAPLAN",
       "normalizedName": "CEMALETTIN KAPLAN",
       "baseKey": "CEMALETTIN KAPLAN",
@@ -4706,10 +4696,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 12
       },
-      "personId": "ddcb087e-bec1-4f66-a967-d5f9a9f0549e"
+      "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a"
     },
     {
-      "id": "afb402d3-242d-496f-9b96-497be7139f74",
+      "id": "44bedf53-3c24-43ed-bd65-57c7fcbf2821",
       "fullName": "ŞAKİP YILDIZOĞLU",
       "normalizedName": "SAKIP YILDIZOGLU",
       "baseKey": "SAKIP YILDIZOGLU",
@@ -4724,10 +4714,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 13
       },
-      "personId": "cf50b4d1-0373-4cb0-ba83-19ad898a8821"
+      "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0"
     },
     {
-      "id": "fd09fb34-31f8-4110-ab9a-89463e66bb48",
+      "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
       "fullName": "HARUN DURDU",
       "normalizedName": "HARUN DURDU",
       "baseKey": "HARUN DURDU",
@@ -4742,10 +4732,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 14
       },
-      "personId": "cd4a41c0-dde6-4031-a358-4ad3ed5c51f7"
+      "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7"
     },
     {
-      "id": "18af9d20-a357-40cd-9066-f8354f4ca5fa",
+      "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
       "fullName": "NAZMİ DEMİR",
       "normalizedName": "NAZMI DEMIR",
       "baseKey": "NAZMI DEMIR",
@@ -4760,10 +4750,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 15
       },
-      "personId": "2eb9c3e6-cc0a-4f76-b133-f2f5351cf530"
+      "personId": "16281e34-9bfb-4a84-b623-319c2149edc8"
     },
     {
-      "id": "61404ede-e508-479e-bbe9-dde0c8fca6b3",
+      "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
       "fullName": "REZZAN KAYA",
       "normalizedName": "REZZAN KAYA",
       "baseKey": "REZZAN KAYA",
@@ -4778,10 +4768,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 16
       },
-      "personId": "8ed66565-bea4-427d-8252-ac715a080e94"
+      "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2"
     },
     {
-      "id": "5ddbe9d1-f6bb-40fb-9685-844ac22ddf54",
+      "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
       "fullName": "MEHMET ŞERİF KORKMAZ",
       "normalizedName": "MEHMET SERIF KORKMAZ",
       "baseKey": "MEHMET SERIF KORKMAZ",
@@ -4796,10 +4786,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 17
       },
-      "personId": "fb4494e8-c147-4586-8240-76a9bb0d77ed"
+      "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd"
     },
     {
-      "id": "5c1f1a42-f44e-4ce4-ba40-0f15c49ab16f",
+      "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
       "fullName": "MERTCAN ŞİMŞEK",
       "normalizedName": "MERTCAN SIMSEK",
       "baseKey": "MERTCAN SIMSEK",
@@ -4814,10 +4804,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 18
       },
-      "personId": "6bed2737-049b-4190-8c46-0858b3ef209c"
+      "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb"
     },
     {
-      "id": "4f5bc3da-0624-4462-aeec-0fe3cbcd1fa7",
+      "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
       "fullName": "RIDVAN GEZER",
       "normalizedName": "RIDVAN GEZER",
       "baseKey": "RIDVAN GEZER",
@@ -4832,10 +4822,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 19
       },
-      "personId": "07b0acfe-6532-4602-859f-2a9687951915"
+      "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf"
     },
     {
-      "id": "a4c3a76b-2e67-4973-af71-545652f2288c",
+      "id": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
       "fullName": "MEHMET ÇİFTÇİ",
       "normalizedName": "MEHMET CIFTCI",
       "baseKey": "MEHMET CIFTCI",
@@ -4850,10 +4840,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 20
       },
-      "personId": "3594f29d-36c8-49e1-957a-ddb50d81cf02"
+      "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab"
     },
     {
-      "id": "677066e3-4b71-4d5d-a806-d322dc520527",
+      "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
       "fullName": "MECİT AYDOĞAN",
       "normalizedName": "MECIT AYDOGAN",
       "baseKey": "MECIT AYDOGAN",
@@ -4868,10 +4858,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 21
       },
-      "personId": "bcbcbd03-029a-4980-8d94-5325bae3a765"
+      "personId": "0af29589-af64-4fa8-aef7-7b480090f51e"
     },
     {
-      "id": "b72736f3-a8bd-447a-94df-d7c1166fc0de",
+      "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
       "fullName": "SERHAT İŞ",
       "normalizedName": "SERHAT IS",
       "baseKey": "SERHAT IS",
@@ -4886,10 +4876,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 22
       },
-      "personId": "5afbef9b-e7c4-4b3b-9db9-bb7fb3415b77"
+      "personId": "ea679478-0826-4468-9be1-e8081993dc5a"
     },
     {
-      "id": "83ee9452-f603-48ce-a480-a0f9d0704acd",
+      "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
       "fullName": "ABDULSAMET DURU",
       "normalizedName": "ABDULSAMET DURU",
       "baseKey": "ABDULSAMET DURU",
@@ -4904,10 +4894,10 @@
         "sheet": "GÜNCEL (3)",
         "row": 23
       },
-      "personId": "2e557c47-a974-46fd-997b-4b5ae79373f2"
+      "personId": "8839f24f-9749-49a0-b4f9-84733601a72b"
     },
     {
-      "id": "42315e0f-7699-4a07-aa6f-c363d1ab7c62",
+      "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
       "fullName": "BENAN ÜYÜR",
       "normalizedName": "BENAN UYUR",
       "baseKey": "BENAN UYUR",
@@ -4922,706 +4912,672 @@
         "sheet": "GÜNCEL (3)",
         "row": 24
       },
-      "personId": "28013f81-c19f-484e-acaf-56b1a8e24032"
+      "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220"
     }
   ],
   "departures": [
     {
-      "id": "428848a5-41a8-4909-b2b6-03529f276628",
-      "personId": "eee08671-00cb-4957-9fc9-a3cf9db86306",
+      "id": "60a77ae4-7b10-46b9-8af7-53fd3e9bb671",
+      "personId": "58810c38-c3c6-4dd5-84cf-e81ad6ca872f",
       "fullName": "BELKİYE AYDIN",
       "category": null,
-      "job": "45383",
-      "entryDate": "2025-03-08",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "MİMAR"
-      ]
+      "job": "MİMAR",
+      "entryDate": "2024-04-01",
+      "exitDate": "2025-03-08",
+      "totalDays": 342,
+      "exitMonth": "2025-03",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "07093b95-e52b-43f7-add4-decb152b1564",
-      "personId": "e1ce44b4-bd79-4435-b6a0-94f178e8f875",
+      "id": "e9b76ba7-de7f-42be-adf9-1b7770a475d5",
+      "personId": "ce2496ed-3c11-4d2a-998a-805ed7d3db16",
       "fullName": "GÜRHAN GARABLİ",
       "category": null,
-      "job": "45420",
-      "entryDate": "2025-08-31",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "MÜHENDİS"
-      ]
+      "job": "MÜHENDİS",
+      "entryDate": "2024-05-08",
+      "exitDate": "2025-08-31",
+      "totalDays": 481,
+      "exitMonth": "2025-08",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "d2221c1d-79c4-49ba-94f3-0db283434701",
-      "personId": "35355409-8d7a-4b84-9786-9c14f960496e",
+      "id": "be80e656-a1a4-4bc3-a2f1-dd6546753256",
+      "personId": "80c0643f-40fd-4c8d-8058-64a74679b623",
       "fullName": "MEHMET YEĞİN",
       "category": null,
-      "job": "45422",
-      "entryDate": "2025-05-07",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "DEMİR DOĞRAMACI"
-      ]
+      "job": "DEMİR DOĞRAMACI",
+      "entryDate": "2024-05-10",
+      "exitDate": "2025-05-07",
+      "totalDays": 363,
+      "exitMonth": "2025-05",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "75e8d9bc-0efc-4911-9412-e7d5cccbf617",
-      "personId": "3d9cc9b1-7d91-4a13-a4ee-636dfafc940a",
+      "id": "82ae0095-3bdc-4191-9d7a-f323575bf8b9",
+      "personId": "028f486a-1ae7-40df-92fb-64c92be1b0fe",
       "fullName": "YÜCEL İŞBİLİR",
       "category": "REPSAM",
-      "job": "45498",
-      "entryDate": "2025-02-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2024-07-25",
+      "exitDate": "2025-02-12",
+      "totalDays": 203,
+      "exitMonth": "2025-02",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "906b862d-3a35-4df7-9a0b-656c20ad5e42",
-      "personId": "bd01c14e-2010-487c-900e-0c30f7d12f4a",
+      "id": "40974796-4e1f-462a-b292-f21b4dcd33ac",
+      "personId": "a903eb65-6859-4d8b-97ae-a5a6b79aa7e3",
       "fullName": "AHMET ÇELEBİ",
       "category": "REPSAM",
-      "job": "45525",
-      "entryDate": "2025-05-05",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2024-08-21",
+      "exitDate": "2025-05-05",
+      "totalDays": 258,
+      "exitMonth": "2025-05",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "9ef0c162-5894-406d-8360-c346bccb0871",
-      "personId": "4d0c7798-8830-4a2a-a4be-96f7dbfc90d1",
+      "id": "1567e04c-52a0-47af-a192-c2ddc6c1f4cd",
+      "personId": "4d022613-d5fe-4de8-a984-009248df9796",
       "fullName": "SAMET ÖZDEMİR",
       "category": "REPSAM",
-      "job": "45525",
-      "entryDate": "2025-05-05",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2024-08-21",
+      "exitDate": "2025-05-05",
+      "totalDays": 258,
+      "exitMonth": "2025-05",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "4573e402-9388-46de-834f-4d7338ea2ba9",
-      "personId": "1865d41e-fec3-43b7-bf82-818d446c8741",
+      "id": "aeae4a83-54f0-4723-8ad5-be16edea589b",
+      "personId": "69b993cc-7202-435a-bb24-39361f799468",
       "fullName": "EMİNE SEYLANİ",
       "category": null,
-      "job": "45536",
-      "entryDate": "2025-10-30",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "HİZMETLİ"
-      ]
+      "job": "HİZMETLİ",
+      "entryDate": "2024-09-01",
+      "exitDate": "2025-10-30",
+      "totalDays": 425,
+      "exitMonth": "2025-10",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "35867136-bebf-419c-a871-2b76054a274d",
-      "personId": "ce0e57ab-bfc5-47d4-9b21-05762b0154b5",
+      "id": "99ae9789-2444-4366-b797-fcd21048ea6d",
+      "personId": "3a082375-c204-428d-b8bd-b95b81583bbb",
       "fullName": "MAHSUM KILIÇ",
       "category": null,
-      "job": "45537",
-      "entryDate": "2025-07-25",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "İNŞAAT İŞÇİSİ"
-      ]
+      "job": "İNŞAAT İŞÇİSİ",
+      "entryDate": "2024-09-02",
+      "exitDate": "2025-07-25",
+      "totalDays": 327,
+      "exitMonth": "2025-07",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "04bac4f4-015c-4366-9ef2-db16736f60fe",
-      "personId": "99f289c6-2590-4e04-9cc7-3c455cf33717",
+      "id": "758166ed-8b89-43b3-a988-e060186e0b33",
+      "personId": "36d31837-1558-4d14-87fe-0ebb4f475cac",
       "fullName": "SEYDALİ ASLAN",
       "category": null,
-      "job": "45540",
-      "entryDate": "2025-12-06",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "GEOTEM"
-      ]
+      "job": "GEOTEM",
+      "entryDate": "2024-09-05",
+      "exitDate": "2025-12-06",
+      "totalDays": 458,
+      "exitMonth": "2025-12",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "4c6d6bf4-758f-4555-b48d-bc5d2cd21d37",
-      "personId": "16ecf1b8-111a-4817-8cd5-10c161804e7e",
+      "id": "ee4a1a92-e612-44dc-8b92-2266ef53d714",
+      "personId": "f09ec957-6fd5-4496-8f3b-57c8bb6c5b47",
       "fullName": "FARUK ÇELEBİ",
       "category": "REPSAM",
-      "job": "45540",
-      "entryDate": "2025-12-06",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2024-09-05",
+      "exitDate": "2025-12-06",
+      "totalDays": 458,
+      "exitMonth": "2025-12",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "1caa2ef4-9477-4892-a23e-30636cda6c19",
-      "personId": "c082b2d5-c65f-49c0-bb72-e2272f8b2056",
+      "id": "86e26330-708b-4bd5-9472-3dd627959361",
+      "personId": "b37c337b-79ac-43e4-8faf-a6a1048bd3dc",
       "fullName": "FATİH ÇELEBİ",
       "category": null,
-      "job": "45540",
-      "entryDate": "2025-05-03",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "GEOTEM"
-      ]
+      "job": "GEOTEM",
+      "entryDate": "2024-09-05",
+      "exitDate": "2025-05-03",
+      "totalDays": 241,
+      "exitMonth": "2025-05",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "ce3e2ce9-f590-4bde-9dc0-4ed8b82a0394",
-      "personId": "588066e0-a80e-4ea7-9230-607803e9dd9f",
+      "id": "e0789b65-c4b1-4e6b-acd7-5f7447da2af8",
+      "personId": "6a6839d4-4050-4d21-a6ef-c3cc81b26ac1",
       "fullName": "YUSUF TİKBAK",
       "category": null,
-      "job": "45540",
-      "entryDate": "2025-12-06",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "GEOTEM"
-      ]
+      "job": "GEOTEM",
+      "entryDate": "2024-09-05",
+      "exitDate": "2025-12-06",
+      "totalDays": 458,
+      "exitMonth": "2025-12",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "606d1a01-389d-4daf-b7fd-5eb69389aa9f",
-      "personId": "edc8a686-a24b-4d69-a2db-f9865f581ecd",
+      "id": "7ac78b56-33a7-4cf2-a20e-c9dd2c260bc2",
+      "personId": "aeb197a0-5144-403b-979a-a73b4d757595",
       "fullName": "ŞÜKRÜ COŞGUN",
       "category": null,
-      "job": "45540",
-      "entryDate": "2025-12-06",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "GEOTEM"
-      ]
+      "job": "GEOTEM",
+      "entryDate": "2024-09-05",
+      "exitDate": "2025-12-06",
+      "totalDays": 458,
+      "exitMonth": "2025-12",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "7402e078-e96d-463b-9334-33f17fddc922",
-      "personId": "0eb65619-7b80-41b8-85e6-25ade224e4f6",
+      "id": "5538bfc1-7a8e-4d57-b12c-fd0e49235b03",
+      "personId": "37770fcc-b49d-4a80-ad3d-dbe8d2fd59e8",
       "fullName": "YASİN EMRE ÖZDEMİR",
       "category": null,
-      "job": "45568",
-      "entryDate": "2025-12-06",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "GEOTEM"
-      ]
+      "job": "GEOTEM",
+      "entryDate": "2024-10-03",
+      "exitDate": "2025-12-06",
+      "totalDays": 430,
+      "exitMonth": "2025-12",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "a05c5a0a-cb63-4297-b710-23233ec09b49",
-      "personId": "2a64679c-0d7f-46a5-a5b3-4c49d6eb706a",
+      "id": "89a9e29e-826d-4085-97da-9822c0ad2b9a",
+      "personId": "8bdc519d-efe6-464d-8bf2-3d55e793a72b",
       "fullName": "OĞUZHAN ÇELEBİ",
       "category": "REPSAM",
-      "job": "45587",
-      "entryDate": "2025-05-03",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2024-10-22",
+      "exitDate": "2025-05-03",
+      "totalDays": 194,
+      "exitMonth": "2025-05",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "cb76012b-4fdf-43de-ab79-dd9cb9cb4728",
-      "personId": "4a229b14-5cbb-427a-8385-9d25803fb8d8",
+      "id": "43770e4e-801e-4311-8199-1242df1efb43",
+      "personId": "dc969be7-7fe9-40d6-b0cc-26a55d6213d2",
       "fullName": "EBU BEKİR KAPLAN",
       "category": "REPSAM",
-      "job": "45587",
-      "entryDate": "2025-02-15",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2024-10-22",
+      "exitDate": "2025-02-15",
+      "totalDays": 117,
+      "exitMonth": "2025-02",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "dfcdac48-f854-4672-9ec6-89513b9dbaad",
-      "personId": "7b607889-9e85-4f6c-80f5-936225a6086a",
+      "id": "867ef482-06ac-4638-ade6-1f27410980ac",
+      "personId": "029dd92d-68fe-4732-ab27-957d7c71ce82",
       "fullName": "TALİP KARAGÜLLE",
       "category": null,
-      "job": "45587",
-      "entryDate": "2025-09-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "OFİS PERSONELİ"
-      ]
+      "job": "OFİS PERSONELİ",
+      "entryDate": "2024-10-22",
+      "exitDate": "2025-09-12",
+      "totalDays": 326,
+      "exitMonth": "2025-09",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "5a2d48d8-3952-4aac-98d6-141bcba4fe85",
-      "personId": "ce0af4d7-c431-4408-9217-389be0bfcd2b",
+      "id": "b33025b3-e124-4f63-b9e0-2b105c0fef35",
+      "personId": "9f5f28f4-c7b5-4ab9-8345-0fa11cc3b869",
       "fullName": "BURAK DEMİR",
       "category": null,
-      "job": "45600",
-      "entryDate": "2025-07-05",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "MÜHENDİS"
-      ]
+      "job": "MÜHENDİS",
+      "entryDate": "2024-11-04",
+      "exitDate": "2025-07-05",
+      "totalDays": 244,
+      "exitMonth": "2025-07",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "4a4bd2a7-d4a2-421b-81a2-ab12244073ee",
-      "personId": "a1d860e8-01eb-4627-a6ca-4cf2264c4360",
+      "id": "af99c88d-a492-4e46-a89d-6c3f950bfcf4",
+      "personId": "09d30d82-8f2b-4d1e-952c-8af8a5a9c324",
       "fullName": "FURKAN AKSOY",
       "category": null,
-      "job": "45709",
-      "entryDate": "2025-08-13",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "MİMAR"
-      ]
+      "job": "MİMAR",
+      "entryDate": "2025-02-21",
+      "exitDate": "2025-08-13",
+      "totalDays": 174,
+      "exitMonth": "2025-08",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "a621e63f-b23d-4993-b893-3ee2b4b919aa",
-      "personId": "e33417d9-0973-4097-9cbd-45317b6ea4df",
+      "id": "39c322b6-4caa-4fc9-b65f-46eab997841d",
+      "personId": "ff483566-b82f-4fd8-938b-f030e11ec89b",
       "fullName": "EBUBEKİR PAKIR",
       "category": "REPSAM",
-      "job": "45709",
-      "entryDate": "2025-08-13",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-02-21",
+      "exitDate": "2025-08-13",
+      "totalDays": 174,
+      "exitMonth": "2025-08",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "f143db5c-ac63-4820-91fe-8f51f4fb1b5d",
-      "personId": "c42f5b01-7fd4-4458-a8fc-250dc3bf2821",
+      "id": "68861074-04e6-494c-9409-accab7baedb7",
+      "personId": "fc2e41de-31d6-46f5-9687-833c64df517b",
       "fullName": "ABDURRAHİM DEMİRTAŞ",
       "category": "KALMES",
-      "job": "45712",
-      "entryDate": "2025-10-07",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-02-24",
+      "exitDate": "2025-10-07",
+      "totalDays": 226,
+      "exitMonth": "2025-10",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "d5981c21-7823-4d9a-ae5a-ac00fce07d46",
-      "personId": "f6557ac7-0d92-4fa4-9ca3-6847e6ddd0e7",
+      "id": "df0bfa64-c05c-4119-94f0-fa567638adf3",
+      "personId": "23a5ebd1-b649-41b1-8469-1820dea4587a",
       "fullName": "MEHMET ŞERİF KIZILÇINAR",
       "category": "KALMES",
-      "job": "45712",
-      "entryDate": "2025-10-07",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-02-24",
+      "exitDate": "2025-10-07",
+      "totalDays": 226,
+      "exitMonth": "2025-10",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "02d54a9e-a60f-40ad-bebd-869c50fe8673",
-      "personId": "a91e24d5-8aeb-478e-919a-51a8ab9dbe4d",
+      "id": "16ddf752-7c73-4112-9f71-f01999a91c5d",
+      "personId": "465cccb8-7de5-41dc-af1a-339a4a7c2c10",
       "fullName": "NİHAT TOSUN",
       "category": "KALMES",
-      "job": "45712",
-      "entryDate": "2025-10-07",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-02-24",
+      "exitDate": "2025-10-07",
+      "totalDays": 226,
+      "exitMonth": "2025-10",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "e003af1c-827d-4cf4-8dba-d208f8b38fc7",
-      "personId": "f87fe18d-8def-42a7-9608-62b7c932cdf3",
+      "id": "50cfc6ae-3ca7-4216-9031-4c732d8f5abc",
+      "personId": "dfb883ca-08c8-4c22-b001-b5c7c946bc92",
       "fullName": "MUSTAFA ADAK",
       "category": "KALMES",
-      "job": "45757",
-      "entryDate": "2025-06-18",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-04-10",
+      "exitDate": "2025-06-18",
+      "totalDays": 70,
+      "exitMonth": "2025-06",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "7e816563-a465-4a19-9e8f-ebf94fcf8260",
-      "personId": "f9a26de0-fae0-4773-8b4c-1b7d98c4b859",
+      "id": "0af66839-64a3-490a-aebe-6b0eb3e80d38",
+      "personId": "e66e5c92-941f-44d5-8be9-9b63931fcc22",
       "fullName": "İZZET İĞDE",
       "category": "NEŞAT",
-      "job": "45762",
-      "entryDate": "2025-06-03",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-04-15",
+      "exitDate": "2025-06-03",
+      "totalDays": 50,
+      "exitMonth": "2025-06",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "57a18a6a-d773-4baf-9655-1e0c2f968455",
-      "personId": "6acfcfc3-c974-40b1-820b-85b516b5d5a9",
+      "id": "40e44875-a166-450d-b9f8-b408fb302d45",
+      "personId": "072bf840-809d-439c-895a-f4539425e430",
       "fullName": "YUSUF GÜNEŞ",
       "category": "REPSAM",
-      "job": "45770",
-      "entryDate": "2025-10-14",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-04-23",
+      "exitDate": "2025-10-14",
+      "totalDays": 175,
+      "exitMonth": "2025-10",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "f462f241-5f8b-4518-b50e-be453f8753cf",
-      "personId": "dcba9b74-4fec-48ae-98ff-1a80e3114ac3",
+      "id": "00f736b8-907f-4453-bb02-7dbe7d2f0ebd",
+      "personId": "1b2a3c6a-a21c-49c7-bf0a-7d30e663d949",
       "fullName": "MEVLÜT KÖSE",
       "category": "REPSAM",
-      "job": "45779",
-      "entryDate": "2025-06-27",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-05-02",
+      "exitDate": "2025-06-27",
+      "totalDays": 57,
+      "exitMonth": "2025-06",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "6715dc00-fccf-4f8f-84c6-2ec30e563ba3",
-      "personId": "e0e4fd7a-b60a-46da-a75c-78196a7dabb5",
+      "id": "501e1789-99a6-4fee-ada2-8286be8b2759",
+      "personId": "62024082-a337-4af1-830b-f9eb70cc1be5",
       "fullName": "AHMET KUKUL",
       "category": "KALMES",
-      "job": "45779",
-      "entryDate": "2025-06-27",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-05-02",
+      "exitDate": "2025-06-27",
+      "totalDays": 57,
+      "exitMonth": "2025-06",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "e772cda1-97b5-44b7-af64-7c63784b7132",
-      "personId": "6bbf1a87-4ffc-4353-8edb-91d3869c06de",
+      "id": "2bcdd728-3744-4a79-a60c-8545a5d2a4e3",
+      "personId": "077267b8-e16b-4a76-90cf-0eb52e8c9388",
       "fullName": "BESTAMİ MUSLU",
       "category": "REPSAM",
-      "job": "45783",
-      "entryDate": "2025-06-03",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-05-06",
+      "exitDate": "2025-06-03",
+      "totalDays": 29,
+      "exitMonth": "2025-06",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "3cb6f562-2bdd-41aa-94cc-0acc8a44c1b9",
-      "personId": "4cb057c4-cfd8-4dc2-964d-3ee1ac709837",
+      "id": "5cf7ae7d-fb7c-40f7-9653-c14a93e3a2aa",
+      "personId": "3609d6ee-1278-4a0c-9329-a21f85a17ede",
       "fullName": "DENİZ TAÇKIN",
       "category": "REPSAM",
-      "job": "45794",
-      "entryDate": "2025-08-27",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-05-17",
+      "exitDate": "2025-08-27",
+      "totalDays": 103,
+      "exitMonth": "2025-08",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "1d215fc6-4a08-4b82-a7f5-4c49a5a83fad",
-      "personId": "a1a2719e-2196-4ee3-b452-d3f126619e59",
+      "id": "fe370023-3d9f-4c6c-acfa-04a4f410ff12",
+      "personId": "94a85573-1af0-4421-a485-634a0e85760a",
       "fullName": "YUNUS EMRE AKSÜT",
       "category": null,
-      "job": "45800",
-      "entryDate": "2025-08-20",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "ŞOFÖR"
-      ]
+      "job": "ŞOFÖR",
+      "entryDate": "2025-05-23",
+      "exitDate": "2025-08-20",
+      "totalDays": 90,
+      "exitMonth": "2025-08",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "b5ca58b0-927a-4b03-81ff-9ed94dcf7f3d",
-      "personId": "062cc420-4951-4416-a4db-628c32062311",
+      "id": "7c1e9e32-c326-4894-a73e-ee1a1783b9da",
+      "personId": "e94c93ae-a723-41dd-956b-7989f13aad41",
       "fullName": "ŞEVKET ÖZEN",
       "category": "REPSAM",
-      "job": "45821",
-      "entryDate": "2025-07-04",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-06-13",
+      "exitDate": "2025-07-04",
+      "totalDays": 22,
+      "exitMonth": "2025-07",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "81378815-f22a-45a5-a92c-bfee8ea9bcd8",
-      "personId": "b14e3279-9a2f-46c8-9ed3-38d3ff4d0880",
+      "id": "753eda1a-e69f-4889-9fe0-01121915e269",
+      "personId": "4ad3e738-f325-4465-a205-b4684ef18d07",
       "fullName": "CEMİL YERDEN",
       "category": "REPSAM",
-      "job": "45822",
-      "entryDate": "2025-07-04",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-06-14",
+      "exitDate": "2025-07-04",
+      "totalDays": 21,
+      "exitMonth": "2025-07",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "de29ceca-c781-45d5-ae24-7b9ba70cf087",
-      "personId": "977225a7-f3cb-4ace-9bb8-7d51763c3b74",
+      "id": "094e31c5-00fb-42af-9820-376106c2540d",
+      "personId": "32b77448-9d1d-4162-832e-4baae2d96e7f",
       "fullName": "MAHMUT DEMİRALP",
       "category": "KALMES",
-      "job": "45840",
-      "entryDate": "2025-09-22",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-07-02",
+      "exitDate": "2025-09-22",
+      "totalDays": 83,
+      "exitMonth": "2025-09",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "34aa4742-da49-4113-8d47-e29ad26d8330",
-      "personId": "f5d38b88-656b-420f-9eae-1cd7df20b6fc",
+      "id": "7c2abf4a-7192-47af-9dc1-2ca25fca14d9",
+      "personId": "8ea73fa1-b2ba-4e00-91dd-e88846ed8ab6",
       "fullName": "EMİN SEVİM",
       "category": "REPSAM",
-      "job": "45840",
-      "entryDate": "2025-08-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-07-02",
+      "exitDate": "2025-08-12",
+      "totalDays": 42,
+      "exitMonth": "2025-08",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "4c25f8d4-c68f-414e-b883-e1cd32d596b4",
-      "personId": "40170668-f667-4c73-b151-68ede79a3d5d",
+      "id": "ce0fc301-aa43-497f-85b4-34b458590cda",
+      "personId": "543ddab2-f341-4368-b992-959756f6d751",
       "fullName": "MAHSUN ALTINKALEM",
       "category": "REPSAM",
-      "job": "45845",
-      "entryDate": "2025-12-03",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-07-07",
+      "exitDate": "2025-12-03",
+      "totalDays": 150,
+      "exitMonth": "2025-12",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "c797dd8b-abff-4f4c-8054-7f573eb94016",
-      "personId": "715e9e4a-d1a8-46ba-b3a4-ab36840792d1",
+      "id": "3adbca60-fd2c-4400-8854-9047db5d2147",
+      "personId": "bc76acbb-38db-4550-8d32-d75710805f79",
       "fullName": "AHMET KILINÇ",
       "category": "KALMES",
-      "job": "45859",
-      "entryDate": "2025-10-30",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-07-21",
+      "exitDate": "2025-10-30",
+      "totalDays": 102,
+      "exitMonth": "2025-10",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "4f21975d-1ecd-4ecc-973b-baf688ffcc50",
-      "personId": "49b5cf81-ddb4-456a-8020-1d172588bd60",
+      "id": "56daa946-17c1-459c-a5ff-7a377adaf590",
+      "personId": "5e4fe821-4168-4a3c-aac2-f38163914bc4",
       "fullName": "CEMAL CAN",
       "category": "KALMES",
-      "job": "45861",
-      "entryDate": "2025-10-21",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-07-23",
+      "exitDate": "2025-10-21",
+      "totalDays": 91,
+      "exitMonth": "2025-10",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "578c19c7-26b1-44e8-b8e5-623065f1b9ab",
-      "personId": "4bca4a2c-7a1a-4430-9a93-3bf92559c4d1",
+      "id": "7812dd58-704e-441e-bc33-4d1314df68d7",
+      "personId": "7fe81471-4859-458f-a778-cce892181675",
       "fullName": "AHMET TACAR",
       "category": "KALMES",
-      "job": "45874",
-      "entryDate": "2025-10-30",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-08-05",
+      "exitDate": "2025-10-30",
+      "totalDays": 87,
+      "exitMonth": "2025-10",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "e165fa60-ede4-4035-b04e-261957cdddbc",
-      "personId": "9cdd41ec-6ce6-48e5-8b61-1965bc89a873",
+      "id": "cfda0f81-650b-4a2e-a33f-0e58b3ea66c8",
+      "personId": "2e964e57-ac52-45fc-870c-b5411030b277",
       "fullName": "DOSTON UNGAROV",
       "category": "ÖZBEK",
-      "job": "45877",
-      "entryDate": "2025-12-16",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-08-08",
+      "exitDate": "2025-12-16",
+      "totalDays": 131,
+      "exitMonth": "2025-12",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "1e61cfac-a727-4be5-aac9-c7e47d485eef",
-      "personId": "fbf96e22-79a4-418d-a774-f1a4f81e48c9",
+      "id": "07ad260d-1d83-4b8e-a414-7edf79a18e0a",
+      "personId": "53355c78-f645-45a1-8b6b-eaef638532ca",
       "fullName": "HAYRİ KALINTAŞ",
       "category": "KALMES",
-      "job": "45886",
-      "entryDate": "2025-12-16",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-08-17",
+      "exitDate": "2025-12-16",
+      "totalDays": 122,
+      "exitMonth": "2025-12",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "94529129-2a73-4431-92fb-7c76c02029b6",
-      "personId": "1b6c79bf-cb93-4ee8-b00e-6d0958b38a02",
+      "id": "7c4b0f98-01b8-4717-941f-eb07c1eb1c97",
+      "personId": "d977f24e-a75c-40bf-a68b-935f8b01170e",
       "fullName": "CEMALETTİN GAZEL",
       "category": "KALMES",
-      "job": "45918",
-      "entryDate": "2025-11-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-09-18",
+      "exitDate": "2025-11-12",
+      "totalDays": 56,
+      "exitMonth": "2025-11",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "1f4ba6a8-dac3-4769-8190-330f4bf1f76d",
-      "personId": "b054f106-2c4f-420b-9ddf-9803c4568368",
+      "id": "20569202-cb05-47fa-9a18-95e49ffced70",
+      "personId": "1de41beb-cba1-4521-becf-89b93a7ffa57",
       "fullName": "ONUR BAKAR",
       "category": "KALMES",
-      "job": "45918",
-      "entryDate": "2025-11-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-09-18",
+      "exitDate": "2025-11-12",
+      "totalDays": 56,
+      "exitMonth": "2025-11",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "0da301a5-fd1f-4f90-8282-458e3c5e4fc3",
-      "personId": "a5f8802a-8fe7-4447-9400-98a384dab823",
+      "id": "5a9a18b8-94dd-4346-81cb-e6d9138a87c3",
+      "personId": "4496f2e6-32ee-4333-b13e-b3e47b55138e",
       "fullName": "BURHANETTİN BAKAR",
       "category": "KALMES",
-      "job": "45918",
-      "entryDate": "2025-11-05",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-09-18",
+      "exitDate": "2025-11-05",
+      "totalDays": 49,
+      "exitMonth": "2025-11",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "f6c14513-aa25-4cfb-8e83-a8418b6d531c",
-      "personId": "98c389fb-fcb7-44ff-a110-ac0d447134d7",
+      "id": "38d11e1a-d2e8-41d8-a7b5-60c4f782c377",
+      "personId": "1588aa9f-cf32-42d8-9776-7cfae39d0af8",
       "fullName": "MUSTAFA BAKAR",
       "category": "KALMES",
-      "job": "45918",
-      "entryDate": "2025-11-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-09-18",
+      "exitDate": "2025-11-12",
+      "totalDays": 56,
+      "exitMonth": "2025-11",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "6323a514-0721-4b06-84ba-5b7bcc7e978f",
-      "personId": "572298e3-3cb5-4d44-9b90-0d2e6491c8af",
+      "id": "d4d6319c-907f-4a9f-9f3a-5caa391bff1c",
+      "personId": "f46a1804-85ed-4fd9-b641-3eca0d878836",
       "fullName": "ALİ OSMAN AKYOL",
       "category": "KALMES",
-      "job": "45918",
-      "entryDate": "2025-11-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-09-18",
+      "exitDate": "2025-11-12",
+      "totalDays": 56,
+      "exitMonth": "2025-11",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "9c637da7-f03f-413c-96ea-ef6221208b30",
-      "personId": "72e09cf3-de4e-4c68-b1eb-05dfd8bcb79c",
+      "id": "ffb2c7d6-2b05-43a7-af72-9468aeea4b3c",
+      "personId": "afa0b306-e9de-49fb-871e-a8409ca5cb72",
       "fullName": "COŞKUN ÇALKAN",
       "category": "KALMES",
-      "job": "45925",
-      "entryDate": "2025-11-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-09-25",
+      "exitDate": "2025-11-12",
+      "totalDays": 49,
+      "exitMonth": "2025-11",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "4aa85a6d-beb7-4b2a-87fc-f174654a5abb",
-      "personId": "7b265d30-150e-4d70-813b-a5e6237d0c42",
+      "id": "f762211d-c08c-4465-896e-1882f0b99348",
+      "personId": "883d4754-9276-4352-8fe7-c4e105eeb581",
       "fullName": "ADEM ERGENÇ",
       "category": "KALMES",
-      "job": "45925",
-      "entryDate": "2025-11-12",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
+      "job": null,
+      "entryDate": "2025-09-25",
+      "exitDate": "2025-11-12",
+      "totalDays": 49,
+      "exitMonth": "2025-11",
       "needsReview": false,
       "unmappedTags": []
     },
     {
-      "id": "023398c3-8c2a-4f8c-96de-fa8d504b7cdb",
-      "personId": "39ed827f-7c1d-49b0-952b-7a770c90f011",
+      "id": "b67288ae-8f67-473e-9495-1aa67b382893",
+      "personId": "f4438425-9e49-4334-a286-c33470054422",
       "fullName": "PELİN YAMAN",
       "category": null,
-      "job": "45940",
-      "entryDate": "2025-11-25",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "MİMAR"
-      ]
+      "job": "MİMAR",
+      "entryDate": "2025-10-10",
+      "exitDate": "2025-11-25",
+      "totalDays": 47,
+      "exitMonth": "2025-11",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "e255c4ec-160f-41b9-9428-e58d8d228f76",
-      "personId": "6da3c7f9-7fc2-472a-9524-c7a6d1256c0e",
+      "id": "e13af02b-abca-4279-8e11-b42fb4d53ee4",
+      "personId": "a1a72635-6bdd-41c1-ba43-21c0a443fcab",
       "fullName": "BEDİRHAN ÖKSÜZ",
       "category": null,
-      "job": "45953",
-      "entryDate": "2025-12-26",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "MTH FATİH AKALIN"
-      ]
+      "job": "MTH FATİH AKALIN",
+      "entryDate": "2025-10-23",
+      "exitDate": "2025-12-26",
+      "totalDays": 65,
+      "exitMonth": "2025-12",
+      "needsReview": false,
+      "unmappedTags": []
     },
     {
-      "id": "bdf788f0-2099-409c-a372-d1d753057ec4",
-      "personId": "10c7e835-ffcf-446d-9ed6-097ca513de10",
+      "id": "8fe8668a-924d-4218-8813-7d2d4f610bea",
+      "personId": "e80fb9a7-0292-4aea-bab7-5ac5791a0f92",
       "fullName": "DAVUT TURAN",
       "category": null,
-      "job": "45953",
-      "entryDate": "2025-12-26",
-      "exitDate": null,
-      "totalDays": 0,
-      "exitMonth": "unknown",
-      "needsReview": true,
-      "unmappedTags": [
-        "MTH FATİH AKALIN"
-      ]
+      "job": "MTH FATİH AKALIN",
+      "entryDate": "2025-10-23",
+      "exitDate": "2025-12-26",
+      "totalDays": 65,
+      "exitMonth": "2025-12",
+      "needsReview": false,
+      "unmappedTags": []
     }
   ],
   "duplicateCandidates": [],
@@ -5632,7 +5588,7 @@
       "category": "REPSAM",
       "activeSource": "REPSAM",
       "departedSource": "ayrilanlar.xlsx",
-      "exitDate": null
+      "exitDate": "2025-09-12"
     },
     {
       "type": "ACTIVE_DEPARTED",
@@ -5640,7 +5596,7 @@
       "category": "CAPRA",
       "activeSource": "CAPRA",
       "departedSource": "ayrilanlar.xlsx",
-      "exitDate": null
+      "exitDate": "2025-06-03"
     }
   ],
   "audit": []

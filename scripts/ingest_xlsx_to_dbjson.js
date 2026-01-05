@@ -376,21 +376,29 @@ function parseAyrilanlarFile(filePath) {
         const fullName = String(row[1] || '').trim();
         if (!fullName || fullName.length < 2) continue;
 
-        const employerTag = String(row[2] || '').trim().toUpperCase();
-        const job = String(row[3] || '').trim();
-        const entryDate = parseDate(row[4]);
-        const exitDate = parseDate(row[5]);
-        const totalDays = row[6] ? parseInt(row[6], 10) : daysBetween(entryDate, exitDate);
+        // Column 2: "İşi" - can be a job title OR a category name
+        const jobOrCategory = String(row[2] || '').trim().toUpperCase();
 
-        // Determine category from employer tag
+        // Column 3: Entry date (Excel serial)
+        const entryDate = parseDate(row[3]);
+
+        // Column 4: Exit date (Excel serial)
+        const exitDate = parseDate(row[4]);
+
+        // Calculate total days
+        const totalDays = daysBetween(entryDate, exitDate);
+
+        // Determine if jobOrCategory is a category or job title
         let category = null;
+        let job = null;
         let needsReview = false;
 
-        if (CATEGORY_SET.has(employerTag)) {
-            category = employerTag;
-        } else if (employerTag) {
-            unmappedTags.add(employerTag);
-            needsReview = true;
+        if (CATEGORY_SET.has(jobOrCategory)) {
+            // It's a category name (like REPSAM)
+            category = jobOrCategory;
+        } else if (jobOrCategory) {
+            // It's a job title (like MÜHENDİS, MİMAR, etc.)
+            job = jobOrCategory;
         }
 
         const normalizedName = normalizeName(fullName);
@@ -407,7 +415,7 @@ function parseAyrilanlarFile(filePath) {
             totalDays,
             exitMonth: getMonthKey(exitDate),
             needsReview,
-            unmappedTags: needsReview && employerTag ? [employerTag] : [],
+            unmappedTags: [],
             source: {
                 file: 'ayrilanlar.xlsx',
                 sheet: 'Table 1',

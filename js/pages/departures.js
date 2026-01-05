@@ -8,63 +8,63 @@ import { CATEGORIES, CATEGORY_COLORS } from '../taxonomy.js';
 import { formatDate, getMonthDisplay } from '../utils.js';
 
 export async function render(ctx) {
-    const container = document.getElementById('main-content');
-    if (!container) return;
+  const container = document.getElementById('main-content');
+  if (!container) return;
 
-    const state = getState();
-    const departuresByMonth = getDeparturesByMonth();
-    const allDepartures = getDepartures();
+  const state = getState();
+  const departuresByMonth = getDeparturesByMonth();
+  const allDepartures = getDepartures();
 
-    // Total stats
-    const totalDeparted = allDepartures.length;
-    const totalDays = allDepartures.reduce((sum, d) => sum + (d.totalDays || 0), 0);
-    const avgDays = totalDeparted > 0 ? Math.round(totalDays / totalDeparted) : 0;
+  // Total stats
+  const totalDeparted = allDepartures.length;
+  const totalDays = allDepartures.reduce((sum, d) => sum + (d.totalDays || 0), 0);
+  const avgDays = totalDeparted > 0 ? Math.round(totalDays / totalDeparted) : 0;
 
-    // Category totals
-    const categoryTotals = {};
-    CATEGORIES.forEach(cat => {
-        categoryTotals[cat] = allDepartures.filter(d => d.category === cat).length;
+  // Category totals
+  const categoryTotals = {};
+  CATEGORIES.forEach(cat => {
+    categoryTotals[cat] = allDepartures.filter(d => d.category === cat).length;
+  });
+  categoryTotals['UNCATEGORIZED'] = allDepartures.filter(d => !d.category).length;
+
+  let expandedMonths = new Set([departuresByMonth[0]?.month]); // Expand first month by default
+  let searchQuery = '';
+  let categoryFilter = '';
+
+  function filterDepartures(departures) {
+    return departures.filter(d => {
+      if (searchQuery && !d.fullName.toLowerCase().includes(searchQuery.toLowerCase())) {
+        return false;
+      }
+      if (categoryFilter && d.category !== categoryFilter) {
+        return false;
+      }
+      return true;
     });
-    categoryTotals['UNCATEGORIZED'] = allDepartures.filter(d => !d.category).length;
+  }
 
-    let expandedMonths = new Set([departuresByMonth[0]?.month]); // Expand first month by default
-    let searchQuery = '';
-    let categoryFilter = '';
-
-    function filterDepartures(departures) {
-        return departures.filter(d => {
-            if (searchQuery && !d.fullName.toLowerCase().includes(searchQuery.toLowerCase())) {
-                return false;
-            }
-            if (categoryFilter && d.category !== categoryFilter) {
-                return false;
-            }
-            return true;
-        });
-    }
-
-    function renderMonthAccordion() {
-        if (departuresByMonth.length === 0) {
-            return `
+  function renderMonthAccordion() {
+    if (departuresByMonth.length === 0) {
+      return `
         <div class="empty-state">
           <div class="text-tertiary">Ayrılan personel kaydı bulunamadı</div>
         </div>
       `;
-        }
+    }
 
-        return departuresByMonth.map(({ month, departures, count, byCategory }) => {
-            const isExpanded = expandedMonths.has(month);
-            const filtered = filterDepartures(departures);
-            const displayMonth = getMonthDisplay(month);
+    return departuresByMonth.map(({ month, departures, count, byCategory }) => {
+      const isExpanded = expandedMonths.has(month);
+      const filtered = filterDepartures(departures);
+      const displayMonth = getMonthDisplay(month);
 
-            // Category distribution mini chart
-            const catDist = CATEGORIES.map(cat => ({
-                cat,
-                count: byCategory[cat] || 0,
-                color: CATEGORY_COLORS[cat]
-            })).filter(c => c.count > 0);
+      // Category distribution mini chart
+      const catDist = CATEGORIES.map(cat => ({
+        cat,
+        count: byCategory[cat] || 0,
+        color: CATEGORY_COLORS[cat]
+      })).filter(c => c.count > 0);
 
-            return `
+      return `
         <div class="card mb-4" data-month="${month}">
           <div class="d-flex items-center justify-between cursor-pointer month-header" data-month="${month}">
             <div class="d-flex items-center gap-4">
@@ -109,9 +109,9 @@ export async function render(ctx) {
                         <td class="cell-name">${d.fullName}</td>
                         <td>
                           ${d.category ?
-                    `<span class="badge badge-cat-${d.category.toLowerCase().replace(/[^a-z]/g, '')}">${d.category}</span>` :
-                    `<span class="badge badge-warning">⚠️ İnceleme</span>`
-                }
+          `<span class="badge badge-cat-${d.category.toLowerCase().replace(/[^a-z]/g, '')}">${d.category}</span>` :
+          `<span class="badge badge-neutral">-</span>`
+        }
                         </td>
                         <td class="cell-secondary">${d.job || '-'}</td>
                         <td class="cell-mono">${formatDate(d.entryDate)}</td>
@@ -130,10 +130,10 @@ export async function render(ctx) {
           ` : ''}
         </div>
       `;
-        }).join('');
-    }
+    }).join('');
+  }
 
-    container.innerHTML = `
+  container.innerHTML = `
     <div class="page-header">
       <div class="d-flex items-center justify-between">
         <div>
@@ -208,79 +208,79 @@ export async function render(ctx) {
     </div>
   `;
 
-    // Event listeners
-    const searchInput = container.querySelector('#search-input');
-    const monthsContainer = container.querySelector('#months-container');
-    const categoryChips = container.querySelectorAll('.category-chip');
-    const exportBtn = container.querySelector('#export-btn');
+  // Event listeners
+  const searchInput = container.querySelector('#search-input');
+  const monthsContainer = container.querySelector('#months-container');
+  const categoryChips = container.querySelectorAll('.category-chip');
+  const exportBtn = container.querySelector('#export-btn');
 
-    searchInput?.addEventListener('input', (e) => {
-        searchQuery = e.target.value;
+  searchInput?.addEventListener('input', (e) => {
+    searchQuery = e.target.value;
+    monthsContainer.innerHTML = renderMonthAccordion();
+    attachMonthListeners();
+  });
+
+  categoryChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      categoryFilter = chip.dataset.category;
+
+      // Update active state
+      categoryChips.forEach(c => {
+        c.classList.toggle('bg-accent-light', c.dataset.category === categoryFilter);
+        c.classList.toggle('bg-tertiary', c.dataset.category !== categoryFilter);
+      });
+
+      monthsContainer.innerHTML = renderMonthAccordion();
+      attachMonthListeners();
+    });
+  });
+
+  exportBtn?.addEventListener('click', () => {
+    exportToCsv();
+  });
+
+  function attachMonthListeners() {
+    monthsContainer.querySelectorAll('.month-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const month = header.dataset.month;
+        if (expandedMonths.has(month)) {
+          expandedMonths.delete(month);
+        } else {
+          expandedMonths.add(month);
+        }
         monthsContainer.innerHTML = renderMonthAccordion();
         attachMonthListeners();
+      });
     });
+  }
 
-    categoryChips.forEach(chip => {
-        chip.addEventListener('click', () => {
-            categoryFilter = chip.dataset.category;
-
-            // Update active state
-            categoryChips.forEach(c => {
-                c.classList.toggle('bg-accent-light', c.dataset.category === categoryFilter);
-                c.classList.toggle('bg-tertiary', c.dataset.category !== categoryFilter);
-            });
-
-            monthsContainer.innerHTML = renderMonthAccordion();
-            attachMonthListeners();
-        });
-    });
-
-    exportBtn?.addEventListener('click', () => {
-        exportToCsv();
-    });
-
-    function attachMonthListeners() {
-        monthsContainer.querySelectorAll('.month-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const month = header.dataset.month;
-                if (expandedMonths.has(month)) {
-                    expandedMonths.delete(month);
-                } else {
-                    expandedMonths.add(month);
-                }
-                monthsContainer.innerHTML = renderMonthAccordion();
-                attachMonthListeners();
-            });
-        });
-    }
-
-    attachMonthListeners();
+  attachMonthListeners();
 }
 
 function exportToCsv() {
-    const departures = getDepartures();
+  const departures = getDepartures();
 
-    const headers = ['Ad Soyad', 'Kategori', 'Görevi', 'Giriş Tarihi', 'Çıkış Tarihi', 'Toplam Gün', 'Çıkış Ayı'];
-    const rows = departures.map(d => [
-        d.fullName,
-        d.category || 'Kategorisiz',
-        d.job || '',
-        d.entryDate || '',
-        d.exitDate || '',
-        d.totalDays || 0,
-        d.exitMonth || ''
-    ]);
+  const headers = ['Ad Soyad', 'Kategori', 'Görevi', 'Giriş Tarihi', 'Çıkış Tarihi', 'Toplam Gün', 'Çıkış Ayı'];
+  const rows = departures.map(d => [
+    d.fullName,
+    d.category || 'Kategorisiz',
+    d.job || '',
+    d.entryDate || '',
+    d.exitDate || '',
+    d.totalDays || 0,
+    d.exitMonth || ''
+  ]);
 
-    const csv = [
-        headers.join(','),
-        ...rows.map(r => r.map(cell => `"${cell}"`).join(','))
-    ].join('\n');
+  const csv = [
+    headers.join(','),
+    ...rows.map(r => r.map(cell => `"${cell}"`).join(','))
+  ].join('\n');
 
-    const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = `ayrilanlar_${new Date().toISOString().split('T')[0]}.csv`;
-    link.click();
+  const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `ayrilanlar_${new Date().toISOString().split('T')[0]}.csv`;
+  link.click();
 
-    window.showToast('CSV dosyası indirildi', 'success');
+  window.showToast('CSV dosyası indirildi', 'success');
 }

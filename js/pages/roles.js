@@ -12,8 +12,24 @@ export async function render(ctx) {
 
   const { subPath } = ctx;
 
-  if (subPath && ROLES.includes(subPath.toUpperCase().replace(/-/g, ' '))) {
-    await renderRoleDetail(container, subPath.toUpperCase().replace(/-/g, ' '));
+  // Improved matching logic for Turkish characters in URL
+  let matchedRole = null;
+  if (subPath) {
+    const urlRole = decodeURIComponent(subPath).replace(/-/g, ' ').toUpperCase();
+
+    matchedRole = ROLES.find(r => {
+      // Exact match
+      if (r === urlRole) return true;
+      // Normalized match (handling I/İ issues)
+      if (r.replace(/İ/g, 'I') === urlRole.replace(/İ/g, 'I')) return true;
+      // ASCII fallback match
+      if (r.normalize('NFD').replace(/[\u0300-\u036f]/g, '') === urlRole.normalize('NFD').replace(/[\u0300-\u036f]/g, '')) return true;
+      return false;
+    });
+  }
+
+  if (matchedRole) {
+    await renderRoleDetail(container, matchedRole);
   } else {
     await renderRoleList(container);
   }
