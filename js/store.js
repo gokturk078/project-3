@@ -247,64 +247,75 @@ export async function loadData() {
     setState({ isLoading: true, error: null });
 
     try {
-        let db = null;
+        let remoteDb = null;
+        let localDb = null;
 
-        // Priority 1: Remote store (if configured)
-        const remoteConfig = getRemoteConfig();
-        if (remoteConfig?.enabled && remoteConfig?.gistId) {
-            try {
-                db = await fetchRemoteDb(remoteConfig.gistId);
-                console.log('✅ Loaded from remote store');
-            } catch (err) {
-                console.warn('⚠️ Remote store failed, falling back:', err.message);
+        // 1. Fetch Remote (Static file)
+        try {
+            const response = await fetch('data/db.json');
+            if (response.ok) {
+                remoteDb = await response.json();
             }
+        } catch (e) {
+            console.warn('Remote load failed', e);
         }
 
-        // Priority 2: Static /data/db.json
-        if (!db) {
-            try {
-                const response = await fetch('data/db.json');
-                if (response.ok) {
-                    db = await response.json();
-                    console.log('✅ Loaded from /data/db.json');
-                }
-            } catch (err) {
-                console.warn('⚠️ /data/db.json failed, falling back:', err.message);
-            }
-        }
-
-        // Priority 3: localStorage
-        if (!db) {
+        // 2. Fetch LocalStorage
+        try {
             const stored = localStorage.getItem(STORAGE_KEYS.DB);
             if (stored) {
-                db = JSON.parse(stored);
-                console.log('✅ Loaded from localStorage');
+                localDb = JSON.parse(stored);
             }
+        } catch (e) {
+            console.warn('Local load failed', e);
         }
 
-        if (!db) {
+        // 3. Compare and Decide to prevent data loss during Vercel build
+        let finalDb = null;
+
+        if (remoteDb && localDb) {
+            const remoteTime = new Date(remoteDb.meta?.lastUpdated || 0).getTime();
+            const localTime = new Date(localDb.meta?.lastUpdated || 0).getTime();
+
+            // Give preference to local if it's newer or equal
+            // This handles the case where Vercel serves old data while build is pending
+            if (localTime >= remoteTime) {
+                finalDb = localDb;
+                console.log('✅ Loaded from localStorage (Fresher/Equal)');
+            } else {
+                finalDb = remoteDb;
+                console.log('✅ Loaded from Remote (Fresher)');
+            }
+        } else {
+            finalDb = remoteDb || localDb;
+            console.log(`✅ Loaded from ${remoteDb ? 'Remote' : 'localStorage'} (Fallback)`);
+        }
+
+        if (!finalDb) {
             throw new Error('No data source available');
         }
 
         // Validate structure
-        if (!db.people || !db.taxonomy) {
+        if (!finalDb.people || !finalDb.taxonomy) {
             throw new Error('Invalid database structure');
         }
 
         setState({
-            db,
+            db: finalDb,
             isLoading: false,
             lastSync: new Date().toISOString()
         });
 
-        // Cache to localStorage
-        try {
-            localStorage.setItem(STORAGE_KEYS.DB, JSON.stringify(db));
-        } catch (e) {
-            console.warn('⚠️ localStorage save failed:', e.message);
+        // Ensure localStorage is in sync if we loaded from remote
+        if (finalDb === remoteDb) {
+            try {
+                localStorage.setItem(STORAGE_KEYS.DB, JSON.stringify(finalDb));
+            } catch (e) {
+                console.warn('⚠️ localStorage save failed:', e.message);
+            }
         }
 
-        return db;
+        return finalDb;
     } catch (error) {
         setState({ isLoading: false, error: error.message });
         throw error;
@@ -492,6 +503,10 @@ function addAuditEntry(action, entityType, entityId, details) {
 
 function saveToLocal() {
     try {
+        // Update timestamp before saving
+        if (!state.db.meta) state.db.meta = {};
+        state.db.meta.lastUpdated = new Date().toISOString();
+
         localStorage.setItem(STORAGE_KEYS.DB, JSON.stringify(state.db));
 
         // SYNC: Try to save to server
