@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-05T13:26:09.853Z"
+    "lastUpdated": "2026-01-05T13:26:29.568Z"
   },
   "taxonomy": {
     "categories": [
@@ -3602,7 +3602,7 @@
       "normalizedName": "ABDULHAMIT SANVERDI",
       "baseKey": "ABDULHAMIT SANVERDI",
       "category": "CAPRA",
-      "role": null,
+      "role": "CAPRA DİREKTÖR",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -3615,7 +3615,7 @@
       "mergedFrom": [],
       "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:26:29.568Z"
     },
     {
       "fullName": "DAVUT SEZEN",
@@ -5601,6 +5601,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "357f4a41-3d72-4970-95b7-95130bca6b56",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "3ec54910-e9bd-4534-a791-554c6163c913",
+      "details": {
+        "before": {
+          "fullName": "ABDULHAMİT ŞANVERDİ",
+          "normalizedName": "ABDULHAMIT SANVERDI",
+          "baseKey": "ABDULHAMIT SANVERDI",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 2
+          },
+          "mergedFrom": [],
+          "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "ABDULHAMİT ŞANVERDİ",
+          "normalizedName": "ABDULHAMIT SANVERDI",
+          "baseKey": "ABDULHAMIT SANVERDI",
+          "category": "CAPRA",
+          "role": "CAPRA DİREKTÖR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 2
+          },
+          "mergedFrom": [],
+          "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:26:29.568Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:26:29.568Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
     {
       "id": "fc16a33f-0a29-47c1-829d-9fa01e38ff96",
       "action": "UPDATE",
