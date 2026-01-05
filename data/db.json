@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-05T13:26:29.568Z"
+    "lastUpdated": "2026-01-05T13:27:36.556Z"
   },
   "taxonomy": {
     "categories": [
@@ -882,7 +882,7 @@
       "normalizedName": "MUSTAFA BAYRAKTAR",
       "baseKey": "MUSTAFA BAYRAKTAR",
       "category": "REPSAM",
-      "role": "PROJE MÜDÜRÜ",
+      "role": "ÜLKE KOORDİNATÖRÜ",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -895,7 +895,7 @@
       "mergedFrom": [],
       "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-05T13:27:36.556Z"
     },
     {
       "fullName": "MUSTAFA DURAN",
@@ -5601,6 +5601,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "b0e0568d-c8ed-4ced-816d-72c34144ef67",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
+      "details": {
+        "before": {
+          "fullName": "MUSTAFA BAYRAKTAR",
+          "normalizedName": "MUSTAFA BAYRAKTAR",
+          "baseKey": "MUSTAFA BAYRAKTAR",
+          "category": "REPSAM",
+          "role": "PROJE MÜDÜRÜ",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 40
+          },
+          "mergedFrom": [],
+          "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MUSTAFA BAYRAKTAR",
+          "normalizedName": "MUSTAFA BAYRAKTAR",
+          "baseKey": "MUSTAFA BAYRAKTAR",
+          "category": "REPSAM",
+          "role": "ÜLKE KOORDİNATÖRÜ",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 40
+          },
+          "mergedFrom": [],
+          "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:27:36.556Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:27:36.556Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
     {
       "id": "357f4a41-3d72-4970-95b7-95130bca6b56",
       "action": "UPDATE",
