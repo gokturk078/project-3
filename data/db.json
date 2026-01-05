@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-05T13:17:42.324Z"
+    "lastUpdated": "2026-01-05T13:25:39.200Z"
   },
   "taxonomy": {
     "categories": [
@@ -482,7 +482,7 @@
       "normalizedName": "FERIT KAHRIMAN",
       "baseKey": "FERIT KAHRIMAN",
       "category": "REPSAM",
-      "role": "MÜHENDİS",
+      "role": "OFİS PERSONELİ",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -495,7 +495,7 @@
       "mergedFrom": [],
       "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T13:17:42.324Z"
+      "updatedAt": "2026-01-05T13:25:39.199Z"
     },
     {
       "fullName": "GÖKHAN TAÇKIN",
@@ -5601,6 +5601,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "703256e3-1518-42e9-8645-dc07c2c6665f",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+      "details": {
+        "before": {
+          "fullName": "FERİT KAHRİMAN",
+          "normalizedName": "FERIT KAHRIMAN",
+          "baseKey": "FERIT KAHRIMAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 20
+          },
+          "mergedFrom": [],
+          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:17:42.324Z"
+        },
+        "after": {
+          "fullName": "FERİT KAHRİMAN",
+          "normalizedName": "FERIT KAHRIMAN",
+          "baseKey": "FERIT KAHRIMAN",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 20
+          },
+          "mergedFrom": [],
+          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T13:25:39.199Z"
+        }
+      },
+      "timestamp": "2026-01-05T13:25:39.199Z",
+      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
+    },
     {
       "id": "2d295678-096c-46fe-8da7-17f399a9a07b",
       "action": "UPDATE",
