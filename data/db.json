@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T09:23:12.806Z"
+    "lastUpdated": "2026-01-06T12:37:38.778Z"
   },
   "taxonomy": {
     "categories": [
@@ -2421,7 +2421,7 @@
       "fullName": "ADEM AKSOY",
       "normalizedName": "ADEM AKSOY",
       "baseKey": "ADEM AKSOY",
-      "category": "NEŞAT",
+      "category": "REPSAM",
       "role": null,
       "jobTitle": null,
       "needsReview": false,
@@ -2435,7 +2435,7 @@
       "mergedFrom": [],
       "personId": "f5b12062-277b-4544-bbc5-db9966c05ca8",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-06T12:37:38.778Z"
     },
     {
       "fullName": "AHMET DÜNDAR",
@@ -5615,6 +5615,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "f870920a-4e07-49f8-83a2-333a57059829",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "f5b12062-277b-4544-bbc5-db9966c05ca8",
+      "details": {
+        "before": {
+          "fullName": "ADEM AKSOY",
+          "normalizedName": "ADEM AKSOY",
+          "baseKey": "ADEM AKSOY",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 1
+          },
+          "mergedFrom": [],
+          "personId": "f5b12062-277b-4544-bbc5-db9966c05ca8",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "ADEM AKSOY",
+          "normalizedName": "ADEM AKSOY",
+          "baseKey": "ADEM AKSOY",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 1
+          },
+          "mergedFrom": [],
+          "personId": "f5b12062-277b-4544-bbc5-db9966c05ca8",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T12:37:38.778Z"
+        }
+      },
+      "timestamp": "2026-01-06T12:37:38.778Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "ac60f60a-c9ba-4197-bb62-59e58a7498f5",
       "action": "UPDATE",
