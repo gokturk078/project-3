@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-05T19:41:25.863Z"
+    "lastUpdated": "2026-01-06T05:51:36.063Z"
   },
   "taxonomy": {
     "categories": [
@@ -4374,6 +4374,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-05T19:41:25.863Z",
       "updatedAt": "2026-01-05T19:41:25.863Z"
+    },
+    {
+      "personId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
+      "baseKey": "HIKMET TIRYAKI",
+      "fullName": "hikmet tiryaki",
+      "normalizedName": "HIKMET TIRYAKI",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-06T05:51:36.062Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-06T05:51:36.062Z",
+      "updatedAt": "2026-01-06T05:51:36.062Z"
     }
   ],
   "leaves": [
@@ -5621,6 +5641,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "bc2b3771-5ca3-45d0-86ef-d93510af1483",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
+      "details": {
+        "person": {
+          "personId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
+          "baseKey": "HIKMET TIRYAKI",
+          "fullName": "hikmet tiryaki",
+          "normalizedName": "HIKMET TIRYAKI",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-06T05:51:36.062Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-06T05:51:36.062Z",
+          "updatedAt": "2026-01-06T05:51:36.062Z"
+        }
+      },
+      "timestamp": "2026-01-06T05:51:36.063Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "b32632ff-b22b-46b3-834e-cf1a152ca592",
       "action": "CREATE",
