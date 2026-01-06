@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T16:09:05.611Z"
+    "lastUpdated": "2026-01-06T16:14:22.667Z"
   },
   "taxonomy": {
     "categories": [
@@ -4374,6 +4374,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-06T05:51:36.062Z",
       "updatedAt": "2026-01-06T05:51:36.062Z"
+    },
+    {
+      "personId": "9fa2456c-96ca-4789-afa1-a8cd7039139e",
+      "baseKey": "MD  RAFİ MOLLA",
+      "fullName": "MD  RAFİ MOLLA",
+      "normalizedName": "MD  RAFİ MOLLA",
+      "category": "BANGLADEŞ",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-06T16:14:22.667Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-06T16:14:22.667Z",
+      "updatedAt": "2026-01-06T16:14:22.667Z"
     }
   ],
   "leaves": [
@@ -5636,6 +5656,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e2db0f54-7592-489d-841d-f077cc4bf539",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "9fa2456c-96ca-4789-afa1-a8cd7039139e",
+      "details": {
+        "person": {
+          "personId": "9fa2456c-96ca-4789-afa1-a8cd7039139e",
+          "baseKey": "MD  RAFİ MOLLA",
+          "fullName": "MD  RAFİ MOLLA",
+          "normalizedName": "MD  RAFİ MOLLA",
+          "category": "BANGLADEŞ",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-06T16:14:22.667Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-06T16:14:22.667Z",
+          "updatedAt": "2026-01-06T16:14:22.667Z"
+        }
+      },
+      "timestamp": "2026-01-06T16:14:22.667Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "ab4c011d-5031-439a-b273-a5888f333791",
       "action": "UPDATE",
