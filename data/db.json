@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T05:58:13.645Z"
+    "lastUpdated": "2026-01-06T05:59:10.238Z"
   },
   "taxonomy": {
     "categories": [
@@ -4916,6 +4916,18 @@
         "row": 24
       },
       "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220"
+    },
+    {
+      "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+      "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+      "applicationNo": "116083/2025",
+      "profession": "inşaat işçisi",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "2026-01-05",
+      "contactPerson": "",
+      "notes": "geldi",
+      "createdAt": "2026-01-06T05:59:10.238Z",
+      "updatedAt": "2026-01-06T05:59:10.238Z"
     }
   ],
   "departures": [
@@ -5603,6 +5615,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "b8d19b12-c6de-4d1d-ad70-7781e1d75a0b",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+      "details": {
+        "tracking": {
+          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+          "applicationNo": "116083/2025",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-05",
+          "contactPerson": "",
+          "notes": "geldi",
+          "createdAt": "2026-01-06T05:59:10.238Z",
+          "updatedAt": "2026-01-06T05:59:10.238Z"
+        }
+      },
+      "timestamp": "2026-01-06T05:59:10.238Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "64981df3-856d-4e7c-aa87-cf999f15ab46",
       "action": "DELETE",
