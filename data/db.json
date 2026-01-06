@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:04:53.982Z"
+    "lastUpdated": "2026-01-06T13:04:59.376Z"
   },
   "taxonomy": {
     "categories": [
@@ -4726,7 +4726,7 @@
       "baseKey": "HARUN DURDU",
       "applicationNo": "inşaat işçisi",
       "profession": "116094/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+      "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-18",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
@@ -4735,7 +4735,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 14
       },
-      "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7"
+      "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+      "updatedAt": "2026-01-06T13:04:59.376Z"
     },
     {
       "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
@@ -5620,6 +5621,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "b1ecf402-4740-4cbd-a645-b75084094846",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "e1bb4383-5444-4cec-99a5-881859b3f070",
+      "details": {
+        "before": {
+          "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
+          "fullName": "HARUN DURDU",
+          "normalizedName": "HARUN DURDU",
+          "baseKey": "HARUN DURDU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116094/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 14
+          },
+          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7"
+        },
+        "after": {
+          "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
+          "fullName": "HARUN DURDU",
+          "normalizedName": "HARUN DURDU",
+          "baseKey": "HARUN DURDU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116094/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 14
+          },
+          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+          "updatedAt": "2026-01-06T13:04:59.376Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:04:59.376Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "5045caa0-dffb-4f22-b3ca-4ed63ca86927",
       "action": "UPDATE",
