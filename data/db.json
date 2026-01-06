@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:10:39.243Z"
+    "lastUpdated": "2026-01-06T13:27:13.229Z"
   },
   "taxonomy": {
     "categories": [
@@ -902,7 +902,7 @@
       "normalizedName": "MUSTAFA DURAN",
       "baseKey": "MUSTAFA DURAN",
       "category": "REPSAM",
-      "role": null,
+      "role": "FORMEN",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -915,7 +915,7 @@
       "mergedFrom": [],
       "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-06T13:27:13.229Z"
     },
     {
       "fullName": "MUSTAFA ONARAN",
@@ -5636,6 +5636,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "98f722c2-9661-4eef-8fcb-78c8d3309f1b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "731d093e-4970-4bd2-869f-772468ff1cce",
+      "details": {
+        "before": {
+          "fullName": "MUSTAFA DURAN",
+          "normalizedName": "MUSTAFA DURAN",
+          "baseKey": "MUSTAFA DURAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 41
+          },
+          "mergedFrom": [],
+          "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MUSTAFA DURAN",
+          "normalizedName": "MUSTAFA DURAN",
+          "baseKey": "MUSTAFA DURAN",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 41
+          },
+          "mergedFrom": [],
+          "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T13:27:13.229Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:27:13.229Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "92159d66-074a-440c-8304-ae805da45d59",
       "action": "CREATE",
