@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:04:17.615Z"
+    "lastUpdated": "2026-01-06T13:04:31.070Z"
   },
   "taxonomy": {
     "categories": [
@@ -4836,8 +4836,8 @@
       "baseKey": "MEHMET CIFTCI",
       "applicationNo": "inşaat işçisi",
       "profession": "117458/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-      "expectedDate": null,
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR (İSKELE)",
       "notes": "",
       "source": {
@@ -4845,7 +4845,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 20
       },
-      "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab"
+      "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+      "updatedAt": "2026-01-06T13:04:31.070Z"
     },
     {
       "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
@@ -5617,6 +5618,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "c077ebc5-6799-4182-8a99-a722a1341b48",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
+      "details": {
+        "before": {
+          "id": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
+          "fullName": "MEHMET ÇİFTÇİ",
+          "normalizedName": "MEHMET CIFTCI",
+          "baseKey": "MEHMET CIFTCI",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117458/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": null,
+          "contactPerson": "MURAT ÜYÜR (İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 20
+          },
+          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab"
+        },
+        "after": {
+          "id": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
+          "fullName": "MEHMET ÇİFTÇİ",
+          "normalizedName": "MEHMET CIFTCI",
+          "baseKey": "MEHMET CIFTCI",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117458/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR (İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 20
+          },
+          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+          "updatedAt": "2026-01-06T13:04:31.070Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:04:31.070Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "fd5af17c-4de5-4617-9f87-538b1f370e24",
       "action": "UPDATE",
