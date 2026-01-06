@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:05:03.139Z"
+    "lastUpdated": "2026-01-06T13:05:06.402Z"
   },
   "taxonomy": {
     "categories": [
@@ -4654,7 +4654,7 @@
       "baseKey": "FEREMEZ ANUCUR",
       "applicationNo": "inşaat işçisi",
       "profession": "115639/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+      "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-18",
       "contactPerson": "MESUT",
       "notes": "",
@@ -4663,7 +4663,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 9
       },
-      "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231"
+      "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
+      "updatedAt": "2026-01-06T13:05:06.402Z"
     },
     {
       "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
@@ -5622,6 +5623,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "ba31db07-3a70-44b5-9ce6-0ee1f59f191a",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "dab2d4a9-b44a-446f-874f-39332743518e",
+      "details": {
+        "before": {
+          "id": "dab2d4a9-b44a-446f-874f-39332743518e",
+          "fullName": "FEREMEZ ANUCUR",
+          "normalizedName": "FEREMEZ ANUCUR",
+          "baseKey": "FEREMEZ ANUCUR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115639/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MESUT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 9
+          },
+          "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231"
+        },
+        "after": {
+          "id": "dab2d4a9-b44a-446f-874f-39332743518e",
+          "fullName": "FEREMEZ ANUCUR",
+          "normalizedName": "FEREMEZ ANUCUR",
+          "baseKey": "FEREMEZ ANUCUR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115639/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MESUT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 9
+          },
+          "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
+          "updatedAt": "2026-01-06T13:05:06.402Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:05:06.402Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "7a39389c-61d2-40a9-b0d3-a3d29263d17c",
       "action": "UPDATE",
