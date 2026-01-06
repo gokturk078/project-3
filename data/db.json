@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:27:13.229Z"
+    "lastUpdated": "2026-01-06T13:30:05.085Z"
   },
   "taxonomy": {
     "categories": [
@@ -402,7 +402,7 @@
       "normalizedName": "EMIRCAN VAROL",
       "baseKey": "EMIRCAN VAROL",
       "category": "REPSAM",
-      "role": "MÜHENDİS",
+      "role": null,
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -415,7 +415,7 @@
       "mergedFrom": [],
       "personId": "7980a677-7e82-45b9-b754-5877e81c75ed",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-06T13:30:05.085Z"
     },
     {
       "fullName": "ERKAN UZUN",
@@ -5636,6 +5636,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "e3813541-795e-48d7-844f-23d7e6889c3c",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "7980a677-7e82-45b9-b754-5877e81c75ed",
+      "details": {
+        "before": {
+          "fullName": "EMİRCAN VAROL",
+          "normalizedName": "EMIRCAN VAROL",
+          "baseKey": "EMIRCAN VAROL",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 16
+          },
+          "mergedFrom": [],
+          "personId": "7980a677-7e82-45b9-b754-5877e81c75ed",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "EMİRCAN VAROL",
+          "normalizedName": "EMIRCAN VAROL",
+          "baseKey": "EMIRCAN VAROL",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 16
+          },
+          "mergedFrom": [],
+          "personId": "7980a677-7e82-45b9-b754-5877e81c75ed",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T13:30:05.085Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:30:05.085Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "98f722c2-9661-4eef-8fcb-78c8d3309f1b",
       "action": "UPDATE",
