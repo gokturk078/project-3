@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:05:13.063Z"
+    "lastUpdated": "2026-01-06T13:05:15.710Z"
   },
   "taxonomy": {
     "categories": [
@@ -4600,7 +4600,7 @@
       "baseKey": "DOGUS KARBUZ",
       "applicationNo": "inşaat işçisi",
       "profession": "115661/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+      "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-18",
       "contactPerson": "MESUT",
       "notes": "",
@@ -4609,7 +4609,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 6
       },
-      "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50"
+      "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
+      "updatedAt": "2026-01-06T13:05:15.710Z"
     },
     {
       "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
@@ -5625,6 +5626,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "cda9bc39-1d46-4049-a46d-c680225dd37a",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
+      "details": {
+        "before": {
+          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
+          "fullName": "DOĞUŞ KARBUZ",
+          "normalizedName": "DOGUS KARBUZ",
+          "baseKey": "DOGUS KARBUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115661/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MESUT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 6
+          },
+          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50"
+        },
+        "after": {
+          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
+          "fullName": "DOĞUŞ KARBUZ",
+          "normalizedName": "DOGUS KARBUZ",
+          "baseKey": "DOGUS KARBUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115661/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MESUT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 6
+          },
+          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
+          "updatedAt": "2026-01-06T13:05:15.710Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:05:15.710Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "ac02a969-5349-4519-bbc1-f4149ae7e956",
       "action": "UPDATE",
