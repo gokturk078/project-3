@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:04:46.906Z"
+    "lastUpdated": "2026-01-06T13:04:53.982Z"
   },
   "taxonomy": {
     "categories": [
@@ -4744,7 +4744,7 @@
       "baseKey": "NAZMI DEMIR",
       "applicationNo": "inşaat işçisi",
       "profession": "116390/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+      "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-18",
       "contactPerson": "SÜLEYMAN ORUL",
       "notes": "",
@@ -4753,7 +4753,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 15
       },
-      "personId": "16281e34-9bfb-4a84-b623-319c2149edc8"
+      "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
+      "updatedAt": "2026-01-06T13:04:53.982Z"
     },
     {
       "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
@@ -5619,6 +5620,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "5045caa0-dffb-4f22-b3ca-4ed63ca86927",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "486e22c1-41a7-43ba-8a73-7f448440867a",
+      "details": {
+        "before": {
+          "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
+          "fullName": "NAZMİ DEMİR",
+          "normalizedName": "NAZMI DEMIR",
+          "baseKey": "NAZMI DEMIR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116390/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "SÜLEYMAN ORUL",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 15
+          },
+          "personId": "16281e34-9bfb-4a84-b623-319c2149edc8"
+        },
+        "after": {
+          "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
+          "fullName": "NAZMİ DEMİR",
+          "normalizedName": "NAZMI DEMIR",
+          "baseKey": "NAZMI DEMIR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116390/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "SÜLEYMAN ORUL",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 15
+          },
+          "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
+          "updatedAt": "2026-01-06T13:04:53.982Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:04:53.982Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "7824e0cf-837b-45ab-bf21-8861db4c6228",
       "action": "UPDATE",
