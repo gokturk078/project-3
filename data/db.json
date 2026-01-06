@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:05:09.215Z"
+    "lastUpdated": "2026-01-06T13:05:13.063Z"
   },
   "taxonomy": {
     "categories": [
@@ -4618,7 +4618,7 @@
       "baseKey": "OGUN KARBUZ",
       "applicationNo": "inşaat işçisi",
       "profession": "115652/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+      "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-18",
       "contactPerson": "MESUT",
       "notes": "",
@@ -4627,7 +4627,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 7
       },
-      "personId": "37d42596-a665-48ed-8158-1299397d70e6"
+      "personId": "37d42596-a665-48ed-8158-1299397d70e6",
+      "updatedAt": "2026-01-06T13:05:13.063Z"
     },
     {
       "id": "ed8327ef-b584-4603-aebc-538e089f4f77",
@@ -5624,6 +5625,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "ac02a969-5349-4519-bbc1-f4149ae7e956",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
+      "details": {
+        "before": {
+          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
+          "fullName": "OGÜN KARBUZ",
+          "normalizedName": "OGUN KARBUZ",
+          "baseKey": "OGUN KARBUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115652/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MESUT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 7
+          },
+          "personId": "37d42596-a665-48ed-8158-1299397d70e6"
+        },
+        "after": {
+          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
+          "fullName": "OGÜN KARBUZ",
+          "normalizedName": "OGUN KARBUZ",
+          "baseKey": "OGUN KARBUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115652/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MESUT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 7
+          },
+          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
+          "updatedAt": "2026-01-06T13:05:13.063Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:05:13.063Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "4fc3d3b8-8449-40f9-a82c-96fe5ae3bbd6",
       "action": "UPDATE",
