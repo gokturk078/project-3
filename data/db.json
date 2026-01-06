@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T05:54:55.808Z"
+    "lastUpdated": "2026-01-06T05:58:13.645Z"
   },
   "taxonomy": {
     "categories": [
@@ -4720,24 +4720,6 @@
       "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a"
     },
     {
-      "id": "44bedf53-3c24-43ed-bd65-57c7fcbf2821",
-      "fullName": "ŞAKİP YILDIZOĞLU",
-      "normalizedName": "SAKIP YILDIZOGLU",
-      "baseKey": "SAKIP YILDIZOGLU",
-      "applicationNo": "inşaat işçisi",
-      "profession": "116083/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-      "expectedDate": "2026-01-18",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 13
-      },
-      "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0"
-    },
-    {
       "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
       "fullName": "HARUN DURDU",
       "normalizedName": "HARUN DURDU",
@@ -5621,6 +5603,34 @@
     }
   ],
   "audit": [
+    {
+      "id": "64981df3-856d-4e7c-aa87-cf999f15ab46",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "44bedf53-3c24-43ed-bd65-57c7fcbf2821",
+      "details": {
+        "tracking": {
+          "id": "44bedf53-3c24-43ed-bd65-57c7fcbf2821",
+          "fullName": "ŞAKİP YILDIZOĞLU",
+          "normalizedName": "SAKIP YILDIZOGLU",
+          "baseKey": "SAKIP YILDIZOGLU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116083/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 13
+          },
+          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0"
+        }
+      },
+      "timestamp": "2026-01-06T05:58:13.645Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "5e80f509-e03d-41c7-b2ef-3b77fa16b346",
       "action": "DELETE",
