@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T12:46:35.475Z"
+    "lastUpdated": "2026-01-06T13:03:48.344Z"
   },
   "taxonomy": {
     "categories": [
@@ -4780,8 +4780,8 @@
       "baseKey": "MEHMET SERIF KORKMAZ",
       "applicationNo": "inşaat işçisi",
       "profession": "117450/2025",
-      "status": "SAĞLIĞA SEV EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR( İSKELE)",
       "notes": "",
       "source": {
@@ -4789,7 +4789,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 17
       },
-      "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd"
+      "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+      "updatedAt": "2026-01-06T13:03:48.343Z"
     },
     {
       "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
@@ -5615,6 +5616,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "31b310b4-af94-4661-a202-14a2e71e9fa8",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+      "details": {
+        "before": {
+          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117450/2025",
+          "status": "SAĞLIĞA SEV EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 17
+          },
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd"
+        },
+        "after": {
+          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117450/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 17
+          },
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+          "updatedAt": "2026-01-06T13:03:48.343Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:03:48.344Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "a2502445-4255-43ff-86b2-b453029fc710",
       "action": "UPDATE",
