@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:05:15.710Z"
+    "lastUpdated": "2026-01-06T13:10:39.243Z"
   },
   "taxonomy": {
     "categories": [
@@ -4536,6 +4536,16 @@
         "row": 13
       },
       "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7"
+    },
+    {
+      "id": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
+      "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
+      "startDate": "2026-01-06",
+      "endDate": "2026-01-15",
+      "days": 10,
+      "type": "RAPOR",
+      "note": "iş kazası sonucu rapor almıştır.",
+      "createdAt": "2026-01-06T13:10:39.242Z"
     }
   ],
   "tracking": [
@@ -5626,6 +5636,26 @@
     }
   ],
   "audit": [
+    {
+      "id": "92159d66-074a-440c-8304-ae805da45d59",
+      "action": "CREATE",
+      "entityType": "leave",
+      "entityId": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
+      "details": {
+        "leave": {
+          "id": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
+          "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
+          "startDate": "2026-01-06",
+          "endDate": "2026-01-15",
+          "days": 10,
+          "type": "RAPOR",
+          "note": "iş kazası sonucu rapor almıştır.",
+          "createdAt": "2026-01-06T13:10:39.242Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:10:39.243Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "cda9bc39-1d46-4049-a46d-c680225dd37a",
       "action": "UPDATE",
