@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T05:53:43.244Z"
+    "lastUpdated": "2026-01-06T05:54:55.808Z"
   },
   "taxonomy": {
     "categories": [
@@ -4356,26 +4356,6 @@
       "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "706f5e92-0f6f-4565-a1b8-d647e632a968",
-      "baseKey": "ALI ULMASOV",
-      "fullName": "ali ulmasov",
-      "normalizedName": "ALI ULMASOV",
-      "category": null,
-      "role": null,
-      "needsReview": true,
-      "unmappedTags": [],
-      "status": "active",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-01-05T19:41:25.863Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-01-05T19:41:25.863Z",
-      "updatedAt": "2026-01-05T19:41:25.863Z"
-    },
-    {
       "personId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
       "baseKey": "HIKMET TIRYAKI",
       "fullName": "hikmet tiryaki",
@@ -5641,6 +5621,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "5e80f509-e03d-41c7-b2ef-3b77fa16b346",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "706f5e92-0f6f-4565-a1b8-d647e632a968",
+      "details": {
+        "person": {
+          "personId": "706f5e92-0f6f-4565-a1b8-d647e632a968",
+          "baseKey": "ALI ULMASOV",
+          "fullName": "ali ulmasov",
+          "normalizedName": "ALI ULMASOV",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-05T19:41:25.863Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-05T19:41:25.863Z",
+          "updatedAt": "2026-01-05T19:41:25.863Z"
+        }
+      },
+      "timestamp": "2026-01-06T05:54:55.808Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "dc9aedb1-2a62-47fa-bccb-628d4333f478",
       "action": "UPDATE",
