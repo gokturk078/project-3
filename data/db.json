@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:32:41.207Z"
+    "lastUpdated": "2026-01-06T16:09:05.611Z"
   },
   "taxonomy": {
     "categories": [
@@ -2881,7 +2881,7 @@
       "fullName": "IKROM RAKHMATOV",
       "normalizedName": "IKROM RAKHMATOV",
       "baseKey": "IKROM RAKHMATOV",
-      "category": "BANGLADEŞ",
+      "category": "ÖZBEK",
       "role": null,
       "jobTitle": null,
       "needsReview": false,
@@ -2895,7 +2895,7 @@
       "mergedFrom": [],
       "personId": "c2b31889-e96a-499f-933e-361e751688f7",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-06T16:09:05.611Z"
     },
     {
       "fullName": "KABIRUL ISLAM",
@@ -5636,6 +5636,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "ab4c011d-5031-439a-b273-a5888f333791",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "c2b31889-e96a-499f-933e-361e751688f7",
+      "details": {
+        "before": {
+          "fullName": "IKROM RAKHMATOV",
+          "normalizedName": "IKROM RAKHMATOV",
+          "baseKey": "IKROM RAKHMATOV",
+          "category": "BANGLADEŞ",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "BANGLADEŞ",
+            "row": 3
+          },
+          "mergedFrom": [],
+          "personId": "c2b31889-e96a-499f-933e-361e751688f7",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "IKROM RAKHMATOV",
+          "normalizedName": "IKROM RAKHMATOV",
+          "baseKey": "IKROM RAKHMATOV",
+          "category": "ÖZBEK",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "BANGLADEŞ",
+            "row": 3
+          },
+          "mergedFrom": [],
+          "personId": "c2b31889-e96a-499f-933e-361e751688f7",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T16:09:05.611Z"
+        }
+      },
+      "timestamp": "2026-01-06T16:09:05.611Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "3b7f8489-4415-4162-8ad6-dc0fb681a1ef",
       "action": "UPDATE",
