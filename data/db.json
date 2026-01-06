@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T05:52:12.645Z"
+    "lastUpdated": "2026-01-06T05:53:43.244Z"
   },
   "taxonomy": {
     "categories": [
@@ -1441,7 +1441,7 @@
       "fullName": "AHMET DÖNMEZ",
       "normalizedName": "AHMET DONMEZ",
       "baseKey": "AHMET DONMEZ",
-      "category": "KALMES",
+      "category": "NEŞAT",
       "role": null,
       "jobTitle": null,
       "needsReview": false,
@@ -1455,7 +1455,7 @@
       "mergedFrom": [],
       "personId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-06T05:53:43.244Z"
     },
     {
       "fullName": "AZİZ BİRİNCİ",
@@ -5641,6 +5641,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "dc9aedb1-2a62-47fa-bccb-628d4333f478",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
+      "details": {
+        "before": {
+          "fullName": "AHMET DÖNMEZ",
+          "normalizedName": "AHMET DONMEZ",
+          "baseKey": "AHMET DONMEZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 4
+          },
+          "mergedFrom": [],
+          "personId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "AHMET DÖNMEZ",
+          "normalizedName": "AHMET DONMEZ",
+          "baseKey": "AHMET DONMEZ",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 4
+          },
+          "mergedFrom": [],
+          "personId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T05:53:43.244Z"
+        }
+      },
+      "timestamp": "2026-01-06T05:53:43.244Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "d00448be-a1ee-4d24-943a-d2838c38a445",
       "action": "UPDATE",
