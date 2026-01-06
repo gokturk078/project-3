@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T12:41:26.865Z"
+    "lastUpdated": "2026-01-06T12:41:54.122Z"
   },
   "taxonomy": {
     "categories": [
@@ -3684,7 +3684,7 @@
       "category": "NEŞAT",
       "role": null,
       "jobTitle": null,
-      "needsReview": false,
+      "needsReview": true,
       "unmappedTags": [],
       "status": "active",
       "source": {
@@ -3695,7 +3695,7 @@
       "mergedFrom": [],
       "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-06T12:41:26.865Z"
+      "updatedAt": "2026-01-06T12:41:54.122Z"
     },
     {
       "fullName": "BURAK ERDEM",
@@ -5615,6 +5615,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "c1fc4231-d14d-485b-b16b-c711a927add9",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
+      "details": {
+        "before": {
+          "fullName": "İZZET İĞDE",
+          "normalizedName": "IZZET IGDE",
+          "baseKey": "IZZET IGDE",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 6
+          },
+          "mergedFrom": [],
+          "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T12:41:26.865Z"
+        },
+        "after": {
+          "fullName": "İZZET İĞDE",
+          "normalizedName": "IZZET IGDE",
+          "baseKey": "IZZET IGDE",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 6
+          },
+          "mergedFrom": [],
+          "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T12:41:54.122Z"
+        }
+      },
+      "timestamp": "2026-01-06T12:41:54.122Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "754f5252-fe3a-416a-9da5-b750db20ceed",
       "action": "UPDATE",
