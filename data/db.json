@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:04:31.070Z"
+    "lastUpdated": "2026-01-06T13:04:46.906Z"
   },
   "taxonomy": {
     "categories": [
@@ -4762,7 +4762,7 @@
       "baseKey": "REZZAN KAYA",
       "applicationNo": "inşaat işçisi",
       "profession": "116388/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+      "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-18",
       "contactPerson": "HAYDAR",
       "notes": "",
@@ -4771,7 +4771,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 16
       },
-      "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2"
+      "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
+      "updatedAt": "2026-01-06T13:04:46.906Z"
     },
     {
       "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
@@ -5618,6 +5619,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "7824e0cf-837b-45ab-bf21-8861db4c6228",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "0833d07c-79df-492f-8a47-89589dd04ebc",
+      "details": {
+        "before": {
+          "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "baseKey": "REZZAN KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116388/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "HAYDAR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 16
+          },
+          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2"
+        },
+        "after": {
+          "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "baseKey": "REZZAN KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116388/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "HAYDAR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 16
+          },
+          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
+          "updatedAt": "2026-01-06T13:04:46.906Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:04:46.906Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "c077ebc5-6799-4182-8a99-a722a1341b48",
       "action": "UPDATE",
