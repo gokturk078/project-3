@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:04:59.376Z"
+    "lastUpdated": "2026-01-06T13:05:03.139Z"
   },
   "taxonomy": {
     "categories": [
@@ -4672,7 +4672,7 @@
       "baseKey": "SERVET OKSUZ",
       "applicationNo": "inşaat işçisi",
       "profession": "116626/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+      "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-18",
       "contactPerson": "MESUT",
       "notes": "",
@@ -4681,7 +4681,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 10
       },
-      "personId": "5b473275-73f5-43bf-9337-084a8f4d15af"
+      "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
+      "updatedAt": "2026-01-06T13:05:03.139Z"
     },
     {
       "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
@@ -5621,6 +5622,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "7a39389c-61d2-40a9-b0d3-a3d29263d17c",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "21472475-0265-4a9e-9aec-66bf4bf69be8",
+      "details": {
+        "before": {
+          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
+          "fullName": "SERVET ÖKSÜZ",
+          "normalizedName": "SERVET OKSUZ",
+          "baseKey": "SERVET OKSUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116626/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MESUT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 10
+          },
+          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af"
+        },
+        "after": {
+          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
+          "fullName": "SERVET ÖKSÜZ",
+          "normalizedName": "SERVET OKSUZ",
+          "baseKey": "SERVET OKSUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116626/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MESUT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 10
+          },
+          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
+          "updatedAt": "2026-01-06T13:05:03.139Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:05:03.139Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "b1ecf402-4740-4cbd-a645-b75084094846",
       "action": "UPDATE",
