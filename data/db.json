@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:03:48.344Z"
+    "lastUpdated": "2026-01-06T13:04:17.615Z"
   },
   "taxonomy": {
     "categories": [
@@ -4799,7 +4799,7 @@
       "baseKey": "MERTCAN SIMSEK",
       "applicationNo": "inşaat işçisi",
       "profession": "117451/2025",
-      "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+      "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-29",
       "contactPerson": "İSG",
       "notes": "",
@@ -4808,7 +4808,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 18
       },
-      "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb"
+      "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+      "updatedAt": "2026-01-06T13:04:17.615Z"
     },
     {
       "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
@@ -5616,6 +5617,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "fd5af17c-4de5-4617-9f87-538b1f370e24",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
+      "details": {
+        "before": {
+          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "baseKey": "MERTCAN SIMSEK",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117451/2025",
+          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "İSG",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 18
+          },
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb"
+        },
+        "after": {
+          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "baseKey": "MERTCAN SIMSEK",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117451/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "İSG",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 18
+          },
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+          "updatedAt": "2026-01-06T13:04:17.615Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:04:17.615Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "31b310b4-af94-4661-a202-14a2e71e9fa8",
       "action": "UPDATE",
