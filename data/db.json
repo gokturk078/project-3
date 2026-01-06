@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T05:51:36.063Z"
+    "lastUpdated": "2026-01-06T05:52:12.645Z"
   },
   "taxonomy": {
     "categories": [
@@ -1961,7 +1961,7 @@
       "fullName": "MAHMUT BUDAK",
       "normalizedName": "MAHMUT BUDAK",
       "baseKey": "MAHMUT BUDAK",
-      "category": "KALMES",
+      "category": "REPSAM",
       "role": null,
       "jobTitle": null,
       "needsReview": false,
@@ -1975,7 +1975,7 @@
       "mergedFrom": [],
       "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-06T05:52:12.645Z"
     },
     {
       "fullName": "MESUT DEMİRALP",
@@ -5641,6 +5641,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "d00448be-a1ee-4d24-943a-d2838c38a445",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
+      "details": {
+        "before": {
+          "fullName": "MAHMUT BUDAK",
+          "normalizedName": "MAHMUT BUDAK",
+          "baseKey": "MAHMUT BUDAK",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 30
+          },
+          "mergedFrom": [],
+          "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MAHMUT BUDAK",
+          "normalizedName": "MAHMUT BUDAK",
+          "baseKey": "MAHMUT BUDAK",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 30
+          },
+          "mergedFrom": [],
+          "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T05:52:12.645Z"
+        }
+      },
+      "timestamp": "2026-01-06T05:52:12.645Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "bc2b3771-5ca3-45d0-86ef-d93510af1483",
       "action": "CREATE",
