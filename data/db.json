@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T13:30:05.085Z"
+    "lastUpdated": "2026-01-06T13:32:41.207Z"
   },
   "taxonomy": {
     "categories": [
@@ -3643,7 +3643,7 @@
       "baseKey": "MUSTAFA SEN",
       "category": "CAPRA",
       "role": null,
-      "jobTitle": null,
+      "jobTitle": "iş güvenliği",
       "needsReview": false,
       "unmappedTags": [],
       "status": "active",
@@ -3655,7 +3655,7 @@
       "mergedFrom": [],
       "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-06T13:32:41.207Z"
     },
     {
       "fullName": "ONUR HÜSEYİNOĞLU",
@@ -5636,6 +5636,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "3b7f8489-4415-4162-8ad6-dc0fb681a1ef",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
+      "details": {
+        "before": {
+          "fullName": "MUSTAFA ŞEN",
+          "normalizedName": "MUSTAFA SEN",
+          "baseKey": "MUSTAFA SEN",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 4
+          },
+          "mergedFrom": [],
+          "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MUSTAFA ŞEN",
+          "normalizedName": "MUSTAFA SEN",
+          "baseKey": "MUSTAFA SEN",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": "iş güvenliği",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 4
+          },
+          "mergedFrom": [],
+          "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T13:32:41.207Z"
+        }
+      },
+      "timestamp": "2026-01-06T13:32:41.207Z",
+      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
+    },
     {
       "id": "e3813541-795e-48d7-844f-23d7e6889c3c",
       "action": "UPDATE",
