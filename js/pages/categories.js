@@ -44,9 +44,9 @@ async function renderCategoryList(container) {
       <p class="page-description">8 sabit kategori - Aktif Roster: ${activeRoster.length} personel</p>
     </div>
 
-    <div class="grid grid-cols-4 gap-6">
+    <div class="grid grid-cols-4 gap-6" id="category-grid">
       ${categoryStats.map(cat => `
-        <div class="card cursor-pointer transition" onclick="navigate('categories/${cat.name}')" style="border-left: 4px solid ${cat.color};">
+        <div class="card cursor-pointer transition category-card" data-category="${cat.name}" style="border-left: 4px solid ${cat.color};">
           <div class="d-flex items-center justify-between mb-4">
             <div class="avatar" style="background: ${cat.color}20; color: ${cat.color};">
               ${cat.name.charAt(0)}
@@ -99,6 +99,16 @@ async function renderCategoryList(container) {
       </div>
     ` : ''}
   `;
+
+  // Add click event listeners for category cards
+  const categoryGrid = container.querySelector('#category-grid');
+  categoryGrid?.addEventListener('click', (e) => {
+    const card = e.target.closest('.category-card');
+    if (card) {
+      const categoryName = card.dataset.category;
+      navigate(`categories/${categoryName}`);
+    }
+  });
 }
 
 async function renderCategoryDetail(container, category) {
