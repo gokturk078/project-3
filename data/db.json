@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-06T16:28:32.986Z"
+    "lastUpdated": "2026-01-07T07:01:28.430Z"
   },
   "taxonomy": {
     "categories": [
@@ -661,7 +661,7 @@
       "fullName": "KAMAL SARDER",
       "normalizedName": "KAMAL SARDER",
       "baseKey": "KAMAL SARDER",
-      "category": "REPSAM",
+      "category": "BANGLADEŞ",
       "role": null,
       "jobTitle": null,
       "needsReview": false,
@@ -675,7 +675,7 @@
       "mergedFrom": [],
       "personId": "4cd74d7f-2642-443b-bd33-79b81dfc863f",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-07T07:01:28.429Z"
     },
     {
       "fullName": "MAHSUM AYDOĞAN",
@@ -5636,6 +5636,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "0404ba54-2ecc-479e-bbfd-de2d3ca90c1f",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "4cd74d7f-2642-443b-bd33-79b81dfc863f",
+      "details": {
+        "before": {
+          "fullName": "KAMAL SARDER",
+          "normalizedName": "KAMAL SARDER",
+          "baseKey": "KAMAL SARDER",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 29
+          },
+          "mergedFrom": [],
+          "personId": "4cd74d7f-2642-443b-bd33-79b81dfc863f",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "KAMAL SARDER",
+          "normalizedName": "KAMAL SARDER",
+          "baseKey": "KAMAL SARDER",
+          "category": "BANGLADEŞ",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 29
+          },
+          "mergedFrom": [],
+          "personId": "4cd74d7f-2642-443b-bd33-79b81dfc863f",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-07T07:01:28.429Z"
+        }
+      },
+      "timestamp": "2026-01-07T07:01:28.430Z",
+      "adminSession": "61c94ad8-db42-4acd-9814-626519c61ab3"
+    },
     {
       "id": "99d936ba-8c8d-464c-90bd-57e2bd9a7249",
       "action": "DELETE",
