@@ -97,7 +97,8 @@ function parseHash() {
     // Handle sub-routes like categories/REPSAM
     const parts = path.split('/');
     const basePath = parts[0] || 'dashboard';
-    const subPath = parts[1] || null;
+    // Decode URL-encoded characters for Turkish special chars (Ş, İ, Ö, Ü, etc.)
+    const subPath = parts[1] ? decodeURIComponent(parts[1]) : null;
 
     return { basePath, subPath, fullPath: path };
 }
