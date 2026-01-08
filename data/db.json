@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-07T07:01:28.430Z"
+    "lastUpdated": "2026-01-08T11:51:43.585Z"
   },
   "taxonomy": {
     "categories": [
@@ -4354,26 +4354,6 @@
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
       "updatedAt": "2026-01-05T12:12:49.592Z"
-    },
-    {
-      "personId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
-      "baseKey": "HIKMET TIRYAKI",
-      "fullName": "hikmet tiryaki",
-      "normalizedName": "HIKMET TIRYAKI",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "active",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-01-06T05:51:36.062Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-01-06T05:51:36.062Z",
-      "updatedAt": "2026-01-06T05:51:36.062Z"
     }
   ],
   "leaves": [
@@ -5636,6 +5616,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8f089aaa-c95b-4f03-80b4-8e97c465b86e",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
+      "details": {
+        "person": {
+          "personId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
+          "baseKey": "HIKMET TIRYAKI",
+          "fullName": "hikmet tiryaki",
+          "normalizedName": "HIKMET TIRYAKI",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-06T05:51:36.062Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-06T05:51:36.062Z",
+          "updatedAt": "2026-01-06T05:51:36.062Z"
+        }
+      },
+      "timestamp": "2026-01-08T11:51:43.585Z",
+      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
+    },
     {
       "id": "0404ba54-2ecc-479e-bbfd-de2d3ca90c1f",
       "action": "UPDATE",
