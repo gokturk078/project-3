@@ -64,8 +64,8 @@
 }
 
 .sidebar-logo-icon {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,8 +77,22 @@
     flex-shrink: 0;
 }
 
+/* AS Teknolojik Brand Color */
+.sidebar-logo-icon.as-logo {
+    background: linear-gradient(135deg, #C41E3A, #8B1428);
+    font-size: var(--text-base);
+    letter-spacing: 0.5px;
+}
+
+.sidebar-logo-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    line-height: 1.2;
+}
+
 .sidebar-logo-text {
-    font-size: var(--text-lg);
+    font-size: var(--text-base);
     font-weight: var(--font-bold);
     color: var(--text-primary);
     white-space: nowrap;
@@ -86,7 +100,19 @@
     transition: opacity var(--transition-base);
 }
 
-.app.sidebar-collapsed .sidebar-logo-text {
+.sidebar-logo-tagline {
+    font-size: 0.625rem;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity var(--transition-base);
+}
+
+.app.sidebar-collapsed .sidebar-logo-text,
+.app.sidebar-collapsed .sidebar-logo-tagline,
+.app.sidebar-collapsed .sidebar-logo-text-wrapper {
     opacity: 0;
 }
 

@@ -141,7 +141,7 @@ function renderLogin(container) {
         </form>
         
         <div class="text-center mt-4">
-          <a href="#/dashboard" class="text-sm text-secondary">← Dashboard'a Dön</a>
+          <a href="#/dashboard" class="text-sm text-secondary">← Ana Sayfa'ya Dön</a>
         </div>
       </div>
     </div>

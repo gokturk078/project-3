@@ -283,7 +283,7 @@ function renderCommandHints() {
     return `
     <div class="command-group-title">Sayfalar</div>
     <div class="command-item" onclick="navigate('dashboard'); hideCommandPalette();">
-      <span class="command-item-label">Dashboard</span>
+      <span class="command-item-label">Ana Sayfa</span>
     </div>
     <div class="command-item" onclick="navigate('people'); hideCommandPalette();">
       <span class="command-item-label">Personel Listesi</span>
@@ -300,7 +300,7 @@ function searchAll(query) {
 
     // Search pages
     const pages = [
-        { name: 'Dashboard', path: 'dashboard' },
+        { name: 'Ana Sayfa', path: 'dashboard' },
         { name: 'Kategoriler', path: 'categories' },
         { name: 'Roller', path: 'roles' },
         { name: 'Personel', path: 'people' },

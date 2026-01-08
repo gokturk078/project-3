@@ -7,7 +7,7 @@
 // ============================================================================
 
 const routes = [
-    { path: 'dashboard', title: 'Dashboard', icon: 'home', section: 'main' },
+    { path: 'dashboard', title: 'Ana Sayfa', icon: 'home', section: 'main' },
     { path: 'categories', title: 'Kategoriler', icon: 'folder', section: 'main' },
     { path: 'roles', title: 'Roller', icon: 'users', section: 'main' },
     { path: 'people', title: 'Personel', icon: 'user', section: 'main' },

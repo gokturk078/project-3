@@ -19,8 +19,8 @@ export async function render(ctx) {
 
   container.innerHTML = `
     <div class="page-header">
-      <h1 class="page-title">Dashboard</h1>
-      <p class="page-description">Personel yönetim sistemi özet görünümü</p>
+      <h1 class="page-title">Ana Sayfa</h1>
+      <p class="page-description">AS Teknolojik personel yönetim sistemi özet görünümü</p>
     </div>
 
     <!-- KPI Cards -->
