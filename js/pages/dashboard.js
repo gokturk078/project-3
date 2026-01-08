@@ -48,7 +48,7 @@ export async function render(ctx) {
         <a href="#/roles" class="btn btn-ghost btn-sm">Tümünü Gör</a>
       </div>
       <div class="card-body custom-scrollbar" style="max-height: 240px; overflow-y: auto;">
-        <div class="grid grid-cols-2 gap-3 content-start">
+        <div class="grid grid-cols-2 sm:grid-cols-1 gap-3 content-start">
           ${renderRoleCards(stats.byRole || {})}
         </div>
       </div>
@@ -181,18 +181,18 @@ function renderCategoryDonutChart(byCategory) {
   }).join('');
 
   return `
-    <div class="d-flex items-center gap-6 pb-2" style="height: 240px;">
-      <div class="relative flex-shrink-0 d-flex items-center justify-center p-2" style="width: ${size}px; height: ${size}px;">
+    <div class="chart-container">
+      <div class="chart-svg-wrapper">
         <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" style="transform: rotate(-90deg);">
           ${segments}
           <circle cx="${center}" cy="${center}" r="${radius - 12}" fill="var(--bg-primary)" />
         </svg>
-        <div class="absolute inset-0 d-flex items-center justify-center flex-col pointer-events-none">
+        <div class="chart-center-text">
           <div class="text-3xl font-bold">${total}</div>
           <div class="text-xs text-secondary uppercase">Personel</div>
         </div>
       </div>
-      <div class="flex-1 overflow-y-auto pr-2 custom-scrollbar" style="height: 100%;">
+      <div class="chart-legend custom-scrollbar">
         ${legend}
       </div>
     </div>

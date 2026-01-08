@@ -203,7 +203,7 @@ export async function render(ctx) {
     <!-- Category Distribution -->
     <div class="card mb-6">
       <h3 class="font-semibold mb-4">Kategori Dağılımı</h3>
-      <div class="d-flex gap-4 flex-wrap">
+      <div class="category-chips-scroll">
         ${CATEGORIES.map(cat => `
           <div class="d-flex items-center gap-2 p-2 rounded-lg cursor-pointer transition category-chip ${categoryFilter === cat ? 'bg-accent-light' : 'bg-tertiary'}"
                data-category="${cat}">

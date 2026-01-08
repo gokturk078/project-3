@@ -176,13 +176,13 @@ export async function render(ctx) {
           </svg>
           <input type="text" class="form-input" id="search-input" placeholder="İsim veya başvuru no ara...">
         </div>
-        <select class="form-select" id="status-filter" style="width: 200px;">
+        <select class="form-select filter-select" id="status-filter">
           <option value="">Tüm Durumlar</option>
           <option value="ÖN İZNİ ONAYLANDI">Ön İzni Onaylı</option>
           <option value="SAĞLIĞA SEVK EDİLECEK">Sevk Edilecek</option>
           <option value="SAĞLIĞA SEVK EDİLDİ">Sevk Edildi</option>
         </select>
-        <select class="form-select" id="contact-filter" style="width: 160px;">
+        <select class="form-select filter-select" id="contact-filter">
           <option value="">Tüm İrtibatlar</option>
           ${contactPersons.map(c => `<option value="${c}">${c}</option>`).join('')}
         </select>

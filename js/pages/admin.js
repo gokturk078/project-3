@@ -3,48 +3,48 @@
  */
 
 import {
-    getState,
-    isAdminPasswordSet,
-    setAdminPassword,
-    adminLogin,
-    adminLogout,
-    getAudit,
-    exportDb,
-    importDb,
-    getRemoteConfig,
-    configureRemoteStore,
-    setRemoteToken,
-    publishToRemote,
-    getUnmappedTags,
-    mapTag
+  getState,
+  isAdminPasswordSet,
+  setAdminPassword,
+  adminLogin,
+  adminLogout,
+  getAudit,
+  exportDb,
+  importDb,
+  getRemoteConfig,
+  configureRemoteStore,
+  setRemoteToken,
+  publishToRemote,
+  getUnmappedTags,
+  mapTag
 } from '../store.js';
 import { CATEGORIES, CATEGORY_COLORS } from '../taxonomy.js';
 import { formatDate } from '../utils.js';
 import { navigate } from '../router.js';
 
 export async function render(ctx) {
-    const container = document.getElementById('main-content');
-    if (!container) return;
+  const container = document.getElementById('main-content');
+  if (!container) return;
 
-    const state = getState();
-    const isPasswordSet = isAdminPasswordSet();
+  const state = getState();
+  const isPasswordSet = isAdminPasswordSet();
 
-    // If not logged in, show login/setup
-    if (!state.isAdmin) {
-        if (!isPasswordSet) {
-            renderSetupPassword(container);
-        } else {
-            renderLogin(container);
-        }
-        return;
+  // If not logged in, show login/setup
+  if (!state.isAdmin) {
+    if (!isPasswordSet) {
+      renderSetupPassword(container);
+    } else {
+      renderLogin(container);
     }
+    return;
+  }
 
-    // Admin is logged in - show admin panel
-    renderAdminPanel(container, state);
+  // Admin is logged in - show admin panel
+  renderAdminPanel(container, state);
 }
 
 function renderSetupPassword(container) {
-    container.innerHTML = `
+  container.innerHTML = `
     <div class="d-flex items-center justify-center min-h-screen">
       <div class="card" style="max-width: 400px; width: 100%;">
         <div class="text-center mb-6">
@@ -83,41 +83,41 @@ function renderSetupPassword(container) {
     </div>
   `;
 
-    const form = container.querySelector('#setup-form');
-    const errorEl = container.querySelector('#error-message');
+  const form = container.querySelector('#setup-form');
+  const errorEl = container.querySelector('#error-message');
 
-    form?.addEventListener('submit', async (e) => {
-        e.preventDefault();
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
 
-        const password = document.getElementById('password').value;
-        const confirm = document.getElementById('confirm-password').value;
+    const password = document.getElementById('password').value;
+    const confirm = document.getElementById('confirm-password').value;
 
-        if (password !== confirm) {
-            errorEl.textContent = 'Şifreler eşleşmiyor';
-            errorEl.classList.remove('hidden');
-            return;
-        }
+    if (password !== confirm) {
+      errorEl.textContent = 'Şifreler eşleşmiyor';
+      errorEl.classList.remove('hidden');
+      return;
+    }
 
-        if (password.length < 12) {
-            errorEl.textContent = 'Şifre en az 12 karakter olmalıdır';
-            errorEl.classList.remove('hidden');
-            return;
-        }
+    if (password.length < 12) {
+      errorEl.textContent = 'Şifre en az 12 karakter olmalıdır';
+      errorEl.classList.remove('hidden');
+      return;
+    }
 
-        try {
-            await setAdminPassword(password);
-            await adminLogin(password);
-            window.showToast('Admin şifresi oluşturuldu ve giriş yapıldı', 'success');
-            navigate('admin');
-        } catch (err) {
-            errorEl.textContent = err.message;
-            errorEl.classList.remove('hidden');
-        }
-    });
+    try {
+      await setAdminPassword(password);
+      await adminLogin(password);
+      window.showToast('Admin şifresi oluşturuldu ve giriş yapıldı', 'success');
+      navigate('admin');
+    } catch (err) {
+      errorEl.textContent = err.message;
+      errorEl.classList.remove('hidden');
+    }
+  });
 }
 
 function renderLogin(container) {
-    container.innerHTML = `
+  container.innerHTML = `
     <div class="d-flex items-center justify-center min-h-screen">
       <div class="card" style="max-width: 400px; width: 100%;">
         <div class="text-center mb-6">
@@ -147,48 +147,48 @@ function renderLogin(container) {
     </div>
   `;
 
-    const form = container.querySelector('#login-form');
-    const errorEl = container.querySelector('#error-message');
+  const form = container.querySelector('#login-form');
+  const errorEl = container.querySelector('#error-message');
 
-    form?.addEventListener('submit', async (e) => {
-        e.preventDefault();
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
 
-        const password = document.getElementById('password').value;
+    const password = document.getElementById('password').value;
 
-        try {
-            await adminLogin(password);
-            window.showToast('Giriş başarılı', 'success');
-            navigate('admin');
-        } catch (err) {
-            errorEl.textContent = 'Geçersiz şifre';
-            errorEl.classList.remove('hidden');
-        }
-    });
+    try {
+      await adminLogin(password);
+      window.showToast('Giriş başarılı', 'success');
+      navigate('admin');
+    } catch (err) {
+      errorEl.textContent = 'Geçersiz şifre';
+      errorEl.classList.remove('hidden');
+    }
+  });
 }
 
 function renderAdminPanel(container, state) {
-    const audit = getAudit().slice(0, 20);
-    const remoteConfig = getRemoteConfig();
-    const unmappedTags = getUnmappedTags();
+  const audit = getAudit().slice(0, 20);
+  const remoteConfig = getRemoteConfig();
+  const unmappedTags = getUnmappedTags();
 
-    let activeSection = 'overview';
+  let activeSection = 'overview';
 
-    function renderSection() {
-        switch (activeSection) {
-            case 'overview':
-                return renderOverviewSection(state, unmappedTags);
-            case 'tag-mapping':
-                return renderTagMappingSection(unmappedTags);
-            case 'data':
-                return renderDataSection(remoteConfig);
-            case 'audit':
-                return renderAuditSection(audit);
-            default:
-                return '';
-        }
+  function renderSection() {
+    switch (activeSection) {
+      case 'overview':
+        return renderOverviewSection(state, unmappedTags);
+      case 'tag-mapping':
+        return renderTagMappingSection(unmappedTags);
+      case 'data':
+        return renderDataSection(remoteConfig);
+      case 'audit':
+        return renderAuditSection(audit);
+      default:
+        return '';
     }
+  }
 
-    container.innerHTML = `
+  container.innerHTML = `
     <div class="page-header">
       <div class="d-flex items-center justify-between">
         <div>
@@ -206,9 +206,9 @@ function renderAdminPanel(container, state) {
       </div>
     </div>
 
-    <div class="grid" style="grid-template-columns: 240px 1fr; gap: var(--space-6);">
+    <div class="admin-layout">
       <!-- Sidebar Menu -->
-      <div class="d-flex flex-col gap-2">
+      <div class="admin-nav-container">
         <button class="btn ${activeSection === 'overview' ? 'btn-primary' : 'btn-ghost'} justify-start admin-nav" data-section="overview">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
@@ -260,110 +260,110 @@ function renderAdminPanel(container, state) {
     </div>
   `;
 
-    // Event listeners
-    container.querySelector('#logout-btn')?.addEventListener('click', () => {
-        adminLogout();
-        window.showToast('Çıkış yapıldı', 'success');
-        navigate('dashboard');
+  // Event listeners
+  container.querySelector('#logout-btn')?.addEventListener('click', () => {
+    adminLogout();
+    window.showToast('Çıkış yapıldı', 'success');
+    navigate('dashboard');
+  });
+
+  container.querySelectorAll('.admin-nav').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeSection = btn.dataset.section;
+
+      // Update active state
+      container.querySelectorAll('.admin-nav').forEach(b => {
+        b.classList.toggle('btn-primary', b.dataset.section === activeSection);
+        b.classList.toggle('btn-ghost', b.dataset.section !== activeSection);
+      });
+
+      // Update content
+      document.getElementById('admin-content').innerHTML = renderSection();
+      attachSectionListeners();
+    });
+  });
+
+  function attachSectionListeners() {
+    // Export button
+    document.getElementById('export-btn')?.addEventListener('click', () => {
+      const data = exportDb();
+      const blob = new Blob([data], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `db_backup_${new Date().toISOString().split('T')[0]}.json`;
+      link.click();
+      window.showToast('Veri dışa aktarıldı', 'success');
     });
 
-    container.querySelectorAll('.admin-nav').forEach(btn => {
-        btn.addEventListener('click', () => {
-            activeSection = btn.dataset.section;
+    // Import form
+    document.getElementById('import-form')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const file = document.getElementById('import-file').files[0];
+      if (!file) return;
 
-            // Update active state
-            container.querySelectorAll('.admin-nav').forEach(b => {
-                b.classList.toggle('btn-primary', b.dataset.section === activeSection);
-                b.classList.toggle('btn-ghost', b.dataset.section !== activeSection);
-            });
-
-            // Update content
-            document.getElementById('admin-content').innerHTML = renderSection();
-            attachSectionListeners();
-        });
+      try {
+        const text = await file.text();
+        importDb(text);
+        window.showToast('Veri içe aktarıldı', 'success');
+        navigate('admin');
+      } catch (err) {
+        window.showToast(err.message, 'error');
+      }
     });
 
-    function attachSectionListeners() {
-        // Export button
-        document.getElementById('export-btn')?.addEventListener('click', () => {
-            const data = exportDb();
-            const blob = new Blob([data], { type: 'application/json' });
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(blob);
-            link.download = `db_backup_${new Date().toISOString().split('T')[0]}.json`;
-            link.click();
-            window.showToast('Veri dışa aktarıldı', 'success');
-        });
+    // Remote store config
+    document.getElementById('remote-form')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const gistId = document.getElementById('gist-id').value;
 
-        // Import form
-        document.getElementById('import-form')?.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const file = document.getElementById('import-file').files[0];
-            if (!file) return;
+      try {
+        configureRemoteStore(gistId);
+        window.showToast('Remote store yapılandırıldı', 'success');
+      } catch (err) {
+        window.showToast(err.message, 'error');
+      }
+    });
 
-            try {
-                const text = await file.text();
-                importDb(text);
-                window.showToast('Veri içe aktarıldı', 'success');
-                navigate('admin');
-            } catch (err) {
-                window.showToast(err.message, 'error');
-            }
-        });
+    // Publish button
+    document.getElementById('publish-btn')?.addEventListener('click', async () => {
+      const token = document.getElementById('github-token').value;
+      if (!token) {
+        window.showToast('GitHub token gerekli', 'error');
+        return;
+      }
 
-        // Remote store config
-        document.getElementById('remote-form')?.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const gistId = document.getElementById('gist-id').value;
+      try {
+        setRemoteToken(token);
+        await publishToRemote();
+        window.showToast('Veriler remote store\'a yayınlandı', 'success');
+      } catch (err) {
+        window.showToast(err.message, 'error');
+      }
+    });
 
-            try {
-                configureRemoteStore(gistId);
-                window.showToast('Remote store yapılandırıldı', 'success');
-            } catch (err) {
-                window.showToast(err.message, 'error');
-            }
-        });
+    // Tag mapping
+    document.querySelectorAll('.map-tag-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const tag = btn.dataset.tag;
+        const category = btn.dataset.category;
 
-        // Publish button
-        document.getElementById('publish-btn')?.addEventListener('click', async () => {
-            const token = document.getElementById('github-token').value;
-            if (!token) {
-                window.showToast('GitHub token gerekli', 'error');
-                return;
-            }
+        try {
+          mapTag(tag, category);
+          window.showToast(`"${tag}" → ${category}`, 'success');
+          document.getElementById('admin-content').innerHTML = renderTagMappingSection(getUnmappedTags());
+          attachSectionListeners();
+        } catch (err) {
+          window.showToast(err.message, 'error');
+        }
+      });
+    });
+  }
 
-            try {
-                setRemoteToken(token);
-                await publishToRemote();
-                window.showToast('Veriler remote store\'a yayınlandı', 'success');
-            } catch (err) {
-                window.showToast(err.message, 'error');
-            }
-        });
-
-        // Tag mapping
-        document.querySelectorAll('.map-tag-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const tag = btn.dataset.tag;
-                const category = btn.dataset.category;
-
-                try {
-                    mapTag(tag, category);
-                    window.showToast(`"${tag}" → ${category}`, 'success');
-                    document.getElementById('admin-content').innerHTML = renderTagMappingSection(getUnmappedTags());
-                    attachSectionListeners();
-                } catch (err) {
-                    window.showToast(err.message, 'error');
-                }
-            });
-        });
-    }
-
-    attachSectionListeners();
+  attachSectionListeners();
 }
 
 function renderOverviewSection(state, unmappedTags) {
-    return `
+  return `
     <div class="card mb-6">
       <h3 class="font-semibold mb-4">Oturum Bilgileri</h3>
       <div class="grid grid-cols-2 gap-4">
@@ -413,8 +413,8 @@ function renderOverviewSection(state, unmappedTags) {
 }
 
 function renderTagMappingSection(unmappedTags) {
-    if (unmappedTags.length === 0) {
-        return `
+  if (unmappedTags.length === 0) {
+    return `
       <div class="card">
         <div class="empty-state">
           <div class="text-success text-2xl">✓</div>
@@ -423,9 +423,9 @@ function renderTagMappingSection(unmappedTags) {
         </div>
       </div>
     `;
-    }
+  }
 
-    return `
+  return `
     <div class="card">
       <div class="card-header">
         <h3 class="card-title">Eşlenmemiş Etiketler</h3>
@@ -454,7 +454,7 @@ function renderTagMappingSection(unmappedTags) {
 }
 
 function renderDataSection(remoteConfig) {
-    return `
+  return `
     <div class="grid grid-cols-2 gap-6">
       <div class="card">
         <h3 class="font-semibold mb-4">Dışa Aktar</h3>
@@ -526,7 +526,7 @@ function renderDataSection(remoteConfig) {
 }
 
 function renderAuditSection(audit) {
-    return `
+  return `
     <div class="card">
       <div class="card-header">
         <h3 class="card-title">Audit Log</h3>
@@ -565,13 +565,13 @@ function renderAuditSection(audit) {
 }
 
 function getAuditBadge(action) {
-    switch (action) {
-        case 'CREATE': return 'badge-success';
-        case 'UPDATE': return 'badge-info';
-        case 'DELETE': return 'badge-danger';
-        case 'MERGE': return 'badge-primary';
-        case 'TAG_MAP': return 'badge-warning';
-        case 'IMPORT': return 'badge-neutral';
-        default: return 'badge-neutral';
-    }
+  switch (action) {
+    case 'CREATE': return 'badge-success';
+    case 'UPDATE': return 'badge-info';
+    case 'DELETE': return 'badge-danger';
+    case 'MERGE': return 'badge-primary';
+    case 'TAG_MAP': return 'badge-warning';
+    case 'IMPORT': return 'badge-neutral';
+    default: return 'badge-neutral';
+  }
 }

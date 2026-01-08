@@ -185,14 +185,14 @@ export async function render(ctx) {
 
     <!-- Filters -->
     <div class="card mb-6">
-      <div class="d-flex items-center gap-4">
-        <div class="search-input flex-1">
+      <div class="d-flex items-center gap-4 flex-wrap">
+        <div class="search-input flex-1" style="min-width: 200px;">
           <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
           </svg>
           <input type="text" class="form-input" id="search-input" placeholder="Personel ara...">
         </div>
-        <select class="form-select" id="type-filter" style="width: 160px;">
+        <select class="form-select filter-select" id="type-filter">
           <option value="">Tüm Türler</option>
           <option value="NORMAL">Normal</option>
           <option value="ÜCRETSİZ">Ücretsiz</option>

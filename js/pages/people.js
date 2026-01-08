@@ -140,15 +140,15 @@ async function renderPeopleList(container) {
           </svg>
           <input type="text" class="form-input" id="search-input" placeholder="İsim ara..." value="${filters.search}">
         </div>
-        <select class="form-select" id="category-filter" style="width: 160px;">
+        <select class="form-select filter-select" id="category-filter">
           <option value="">Tüm Kategoriler</option>
           ${CATEGORIES.map(c => `<option value="${c}" ${filters.category === c ? 'selected' : ''}>${c}</option>`).join('')}
         </select>
-        <select class="form-select" id="role-filter" style="width: 180px;">
+        <select class="form-select filter-select" id="role-filter">
           <option value="">Tüm Roller</option>
           ${ROLES.map(r => `<option value="${r}" ${filters.role === r ? 'selected' : ''}>${r}</option>`).join('')}
         </select>
-        <select class="form-select" id="status-filter" style="width: 140px;">
+        <select class="form-select filter-select" id="status-filter">
           <option value="">Tüm Durumlar</option>
           <option value="active" ${filters.status === 'active' ? 'selected' : ''}>Aktif</option>
           <option value="pending" ${filters.status === 'pending' ? 'selected' : ''}>Bekleyen</option>

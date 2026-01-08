@@ -1062,3 +1062,178 @@
         font-size: var(--text-xs);
     }
 }
+
+/* ============================================================================
+   PHASE 2: PAGE-SPECIFIC MOBILE RESPONSIVE
+   ============================================================================ */
+
+/* Chart Container - Dashboard Donut Chart */
+.chart-container {
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
+    padding-bottom: var(--space-2);
+    min-height: 240px;
+}
+
+.chart-svg-wrapper {
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    padding: var(--space-2);
+}
+
+.chart-center-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    pointer-events: none;
+}
+
+.chart-legend {
+    flex: 1;
+    overflow-y: auto;
+    max-height: 240px;
+    padding-right: var(--space-2);
+}
+
+/* Filter Select - Responsive width */
+.filter-select {
+    min-width: 120px;
+    flex: 1 1 auto;
+    max-width: 200px;
+}
+
+/* Category Chips - Scrollable container */
+.category-chips-scroll {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+}
+
+/* Admin Layout */
+.admin-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: var(--space-6);
+}
+
+.admin-nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+/* Phase 2 Mobile Responsive */
+@media (max-width: 768px) {
+
+    /* Chart Container - Stack vertically */
+    .chart-container {
+        flex-direction: column;
+        min-height: auto;
+        align-items: center;
+    }
+
+    .chart-svg-wrapper {
+        width: 160px;
+        height: 160px;
+    }
+
+    .chart-svg-wrapper svg {
+        width: 160px;
+        height: 160px;
+    }
+
+    .chart-center-text .text-3xl {
+        font-size: var(--text-2xl);
+    }
+
+    .chart-legend {
+        max-height: 180px;
+        width: 100%;
+    }
+
+    /* Filter Select - Full width */
+    .filter-select {
+        width: 100%;
+        max-width: none;
+        min-width: unset;
+    }
+
+    /* Category Chips - Horizontal scroll */
+    .category-chips-scroll {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: var(--space-2);
+        -webkit-overflow-scrolling: touch;
+        margin: 0 calc(-1 * var(--space-4));
+        padding-left: var(--space-4);
+        padding-right: var(--space-4);
+    }
+
+    .category-chips-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .category-chips-scroll>* {
+        flex-shrink: 0;
+    }
+
+    /* Admin Layout - Stack */
+    .admin-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-nav-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .admin-nav-container .btn {
+        flex: 1 1 auto;
+        min-width: 140px;
+    }
+
+    .admin-nav-container hr {
+        display: none;
+    }
+
+    /* Page Header - Stack title and buttons */
+    .page-header .d-flex.items-center.justify-between {
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--space-3);
+    }
+
+    .page-header .d-flex.items-center.justify-between>.d-flex.gap-2 {
+        flex-direction: column;
+    }
+
+    .page-header .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Form Grid - Stack in modals */
+    .modal .grid.grid-cols-2,
+    .drawer .grid.grid-cols-2,
+    form .grid.grid-cols-2 {
+        grid-template-columns: 1fr;
+    }
+
+    /* Stats Cards - Responsive grids */
+    .grid.grid-cols-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid.grid-cols-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
