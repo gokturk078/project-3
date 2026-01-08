@@ -121,6 +121,7 @@
     border-radius: var(--radius-md);
     color: var(--text-secondary);
     transition: all var(--transition-fast);
+    flex-shrink: 0;
 }
 
 .sidebar-toggle:hover {
@@ -128,8 +129,12 @@
     color: var(--text-primary);
 }
 
-.app.sidebar-collapsed .sidebar-toggle {
-    display: none;
+.sidebar-toggle svg {
+    transition: transform var(--transition-base);
+}
+
+.app.sidebar-collapsed .sidebar-toggle svg {
+    transform: rotate(180deg);
 }
 
 /* Sidebar Navigation */
