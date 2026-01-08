@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-08T11:52:09.461Z"
+    "lastUpdated": "2026-01-08T12:06:02.266Z"
   },
   "taxonomy": {
     "categories": [
@@ -4374,6 +4374,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-08T11:52:09.461Z",
       "updatedAt": "2026-01-08T11:52:09.461Z"
+    },
+    {
+      "personId": "1d3377c8-ffbf-4348-9d16-06b61d97acab",
+      "baseKey": "RESUL DAVRANOV",
+      "fullName": "RESUL DAVRANOV",
+      "normalizedName": "RESUL DAVRANOV",
+      "category": "TÜRKMEN",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-08T12:06:02.266Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-08T12:06:02.266Z",
+      "updatedAt": "2026-01-08T12:06:02.266Z"
     }
   ],
   "leaves": [
@@ -5636,6 +5656,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "47c3bf01-c1ca-4f17-b5e1-152f9b2792a3",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "1d3377c8-ffbf-4348-9d16-06b61d97acab",
+      "details": {
+        "person": {
+          "personId": "1d3377c8-ffbf-4348-9d16-06b61d97acab",
+          "baseKey": "RESUL DAVRANOV",
+          "fullName": "RESUL DAVRANOV",
+          "normalizedName": "RESUL DAVRANOV",
+          "category": "TÜRKMEN",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-08T12:06:02.266Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-08T12:06:02.266Z",
+          "updatedAt": "2026-01-08T12:06:02.266Z"
+        }
+      },
+      "timestamp": "2026-01-08T12:06:02.266Z",
+      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
+    },
     {
       "id": "5371ced5-a6c4-4697-b64f-d33a3f072662",
       "action": "CREATE",
