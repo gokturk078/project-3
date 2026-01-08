@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-08T12:06:02.266Z"
+    "lastUpdated": "2026-01-08T14:09:02.835Z"
   },
   "taxonomy": {
     "categories": [
@@ -1262,7 +1262,7 @@
       "normalizedName": "YAMAN HAFEZ",
       "baseKey": "YAMAN HAFEZ",
       "category": "REPSAM",
-      "role": null,
+      "role": "MİMAR",
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
@@ -1275,7 +1275,7 @@
       "mergedFrom": [],
       "personId": "86729041-6047-43f8-9fab-d2a1d364fc8f",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-08T14:09:02.834Z"
     },
     {
       "fullName": "YASİN YILMAZ",
@@ -5656,6 +5656,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "d25d7b88-0997-42dd-8d34-5bb6212ff8cf",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "86729041-6047-43f8-9fab-d2a1d364fc8f",
+      "details": {
+        "before": {
+          "fullName": "YAMAN HAFEZ",
+          "normalizedName": "YAMAN HAFEZ",
+          "baseKey": "YAMAN HAFEZ",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 59
+          },
+          "mergedFrom": [],
+          "personId": "86729041-6047-43f8-9fab-d2a1d364fc8f",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "YAMAN HAFEZ",
+          "normalizedName": "YAMAN HAFEZ",
+          "baseKey": "YAMAN HAFEZ",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 59
+          },
+          "mergedFrom": [],
+          "personId": "86729041-6047-43f8-9fab-d2a1d364fc8f",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-08T14:09:02.834Z"
+        }
+      },
+      "timestamp": "2026-01-08T14:09:02.834Z",
+      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
+    },
     {
       "id": "47c3bf01-c1ca-4f17-b5e1-152f9b2792a3",
       "action": "CREATE",
