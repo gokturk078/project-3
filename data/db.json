@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-08T11:51:43.585Z"
+    "lastUpdated": "2026-01-08T11:52:09.461Z"
   },
   "taxonomy": {
     "categories": [
@@ -4354,6 +4354,26 @@
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
       "updatedAt": "2026-01-05T12:12:49.592Z"
+    },
+    {
+      "personId": "9735f86e-be5e-4194-9693-83629caa2a34",
+      "baseKey": "HİKMET TİRYAKİ",
+      "fullName": "HİKMET TİRYAKİ",
+      "normalizedName": "HİKMET TİRYAKİ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-08T11:52:09.461Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-08T11:52:09.461Z",
+      "updatedAt": "2026-01-08T11:52:09.461Z"
     }
   ],
   "leaves": [
@@ -5616,6 +5636,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "5371ced5-a6c4-4697-b64f-d33a3f072662",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "9735f86e-be5e-4194-9693-83629caa2a34",
+      "details": {
+        "person": {
+          "personId": "9735f86e-be5e-4194-9693-83629caa2a34",
+          "baseKey": "HİKMET TİRYAKİ",
+          "fullName": "HİKMET TİRYAKİ",
+          "normalizedName": "HİKMET TİRYAKİ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-08T11:52:09.461Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-08T11:52:09.461Z",
+          "updatedAt": "2026-01-08T11:52:09.461Z"
+        }
+      },
+      "timestamp": "2026-01-08T11:52:09.461Z",
+      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
+    },
     {
       "id": "8f089aaa-c95b-4f03-80b4-8e97c465b86e",
       "action": "DELETE",
