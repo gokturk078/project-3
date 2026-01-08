@@ -225,7 +225,13 @@ export function renderNavigation(isAdmin = false, stats = {}) {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const path = link.dataset.path;
-            if (path) navigate(path);
+            if (path) {
+                navigate(path);
+                // Close mobile sidebar on navigation
+                if (window.closeMobileSidebar) {
+                    window.closeMobileSidebar();
+                }
+            }
         });
     });
 

@@ -814,3 +814,251 @@
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background-color: var(--text-tertiary);
 }
+
+/* ============================================================================
+   MOBILE RESPONSIVE - COMPONENTS
+   ============================================================================ */
+
+@media (max-width: 768px) {
+
+    /* Buttons - Touch Friendly */
+    .btn {
+        min-height: var(--touch-target-min);
+        padding: var(--space-3) var(--space-4);
+    }
+
+    .btn-sm {
+        min-height: 36px;
+        padding: var(--space-2) var(--space-3);
+    }
+
+    .btn-icon {
+        min-width: var(--touch-target-min);
+        min-height: var(--touch-target-min);
+    }
+
+    .btn-icon.btn-sm {
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    /* Forms - Touch Friendly */
+    .form-input,
+    .form-select,
+    .form-textarea {
+        min-height: var(--touch-target-min);
+        padding: var(--space-3);
+        font-size: 16px;
+        /* Prevents iOS zoom on focus */
+    }
+
+    .form-checkbox input,
+    .form-radio input {
+        width: 22px;
+        height: 22px;
+    }
+
+    .form-group {
+        margin-bottom: var(--space-4);
+    }
+
+    /* Cards */
+    .card {
+        padding: var(--space-4);
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-2);
+    }
+
+    /* KPI Cards */
+    .kpi-card .kpi-value {
+        font-size: var(--text-2xl);
+    }
+
+    .kpi-card .kpi-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    /* Tables - Mobile Scroll */
+    .table-wrapper {
+        margin-left: calc(-1 * var(--space-4));
+        margin-right: calc(-1 * var(--space-4));
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+
+    .data-table th,
+    .data-table td {
+        padding: var(--space-2) var(--space-3);
+        font-size: var(--text-xs);
+        white-space: nowrap;
+    }
+
+    .data-table th:first-child,
+    .data-table td:first-child {
+        position: sticky;
+        left: 0;
+        background: var(--bg-secondary);
+        z-index: 1;
+        box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .data-table .cell-name {
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* Pagination */
+    .pagination {
+        flex-direction: column;
+        gap: var(--space-3);
+        padding: var(--space-3);
+    }
+
+    .pagination-info {
+        order: 2;
+        text-align: center;
+        font-size: var(--text-xs);
+    }
+
+    .pagination-controls {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* Tabs - Scrollable */
+    .tabs {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        flex-wrap: nowrap;
+    }
+
+    .tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .tab {
+        flex-shrink: 0;
+        padding: var(--space-3);
+        min-height: var(--touch-target-min);
+    }
+
+    /* Avatar */
+    .avatar-xl {
+        width: 64px;
+        height: 64px;
+        font-size: var(--text-xl);
+    }
+
+    .avatar-lg {
+        width: 48px;
+        height: 48px;
+        font-size: var(--text-base);
+    }
+
+    /* Empty State */
+    .empty-state {
+        padding: var(--space-8);
+    }
+
+    .empty-state-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .empty-state-title {
+        font-size: var(--text-base);
+    }
+
+    .empty-state-description {
+        font-size: var(--text-xs);
+    }
+
+    /* Badges */
+    .badge {
+        font-size: 0.65rem;
+        padding: 2px 6px;
+    }
+
+    /* Dropdown - Bottom Sheet Style */
+    .dropdown-menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        max-width: 100%;
+        border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+        transform: translateY(100%);
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+
+    .dropdown.open .dropdown-menu {
+        transform: translateY(0);
+    }
+
+    .dropdown-item {
+        min-height: var(--touch-target-min);
+        padding: var(--space-3) var(--space-4);
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Extra Small Buttons */
+    .btn {
+        font-size: var(--text-sm);
+    }
+
+    .btn-lg {
+        padding: var(--space-3) var(--space-4);
+        font-size: var(--text-sm);
+    }
+
+    /* Smaller KPI Values */
+    .kpi-card .kpi-value {
+        font-size: var(--text-xl);
+    }
+
+    .kpi-card .kpi-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .kpi-card .kpi-label {
+        font-size: var(--text-xs);
+    }
+
+    /* Card Title */
+    .card-title {
+        font-size: var(--text-base);
+    }
+
+    /* Table cells even smaller */
+    .data-table th,
+    .data-table td {
+        padding: var(--space-2);
+        font-size: 0.65rem;
+    }
+
+    .data-table .cell-name {
+        max-width: 100px;
+    }
+
+    /* Pagination buttons smaller */
+    .pagination-btn {
+        width: 28px;
+        height: 28px;
+        font-size: var(--text-xs);
+    }
+}

@@ -201,10 +201,43 @@ function toggleSidebar() {
     setSidebarCollapsed(isCollapsed);
 }
 
+// Mobile Backdrop Functions
+function showMobileBackdrop() {
+    const backdrop = document.getElementById('mobile-backdrop');
+    backdrop?.classList.add('open');
+}
+
+function hideMobileBackdrop() {
+    const backdrop = document.getElementById('mobile-backdrop');
+    backdrop?.classList.remove('open');
+}
+
 function toggleMobileSidebar() {
     const sidebar = document.getElementById('sidebar');
-    sidebar?.classList.toggle('mobile-open');
+    if (!sidebar) return;
+
+    const isOpen = sidebar.classList.toggle('mobile-open');
+
+    if (isOpen) {
+        showMobileBackdrop();
+        document.body.style.overflow = 'hidden';
+    } else {
+        hideMobileBackdrop();
+        document.body.style.overflow = '';
+    }
 }
+
+function closeMobileSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar?.classList.contains('mobile-open')) {
+        sidebar.classList.remove('mobile-open');
+        hideMobileBackdrop();
+        document.body.style.overflow = '';
+    }
+}
+
+// Export for use in navigation
+window.closeMobileSidebar = closeMobileSidebar;
 
 // ============================================================================
 // COMMAND PALETTE
@@ -390,6 +423,29 @@ function initEventListeners() {
     // Command palette backdrop
     document.getElementById('command-backdrop')?.addEventListener('click', (e) => {
         if (e.target === e.currentTarget) hideCommandPalette();
+    });
+
+    // Mobile backdrop click - close sidebar
+    document.getElementById('mobile-backdrop')?.addEventListener('click', () => {
+        closeMobileSidebar();
+    });
+
+    // Escape key also closes mobile sidebar
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeMobileSidebar();
+        }
+    });
+
+    // Handle resize: close mobile sidebar when switching to desktop
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            if (window.innerWidth > 1024) {
+                closeMobileSidebar();
+            }
+        }, 100);
     });
 }
 
