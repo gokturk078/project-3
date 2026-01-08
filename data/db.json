@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-08T14:09:02.835Z"
+    "lastUpdated": "2026-01-08T15:35:43.871Z"
   },
   "taxonomy": {
     "categories": [
@@ -3642,7 +3642,7 @@
       "normalizedName": "MUSTAFA SEN",
       "baseKey": "MUSTAFA SEN",
       "category": "CAPRA",
-      "role": null,
+      "role": "İSG",
       "jobTitle": "iş güvenliği",
       "needsReview": false,
       "unmappedTags": [],
@@ -3655,7 +3655,7 @@
       "mergedFrom": [],
       "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-06T13:32:41.207Z"
+      "updatedAt": "2026-01-08T15:35:43.871Z"
     },
     {
       "fullName": "ONUR HÜSEYİNOĞLU",
@@ -5656,6 +5656,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "284cf239-9924-462c-820d-63eb1002ef20",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
+      "details": {
+        "before": {
+          "fullName": "MUSTAFA ŞEN",
+          "normalizedName": "MUSTAFA SEN",
+          "baseKey": "MUSTAFA SEN",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": "iş güvenliği",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 4
+          },
+          "mergedFrom": [],
+          "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T13:32:41.207Z"
+        },
+        "after": {
+          "fullName": "MUSTAFA ŞEN",
+          "normalizedName": "MUSTAFA SEN",
+          "baseKey": "MUSTAFA SEN",
+          "category": "CAPRA",
+          "role": "İSG",
+          "jobTitle": "iş güvenliği",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 4
+          },
+          "mergedFrom": [],
+          "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-08T15:35:43.871Z"
+        }
+      },
+      "timestamp": "2026-01-08T15:35:43.871Z",
+      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
+    },
     {
       "id": "d25d7b88-0997-42dd-8d34-5bb6212ff8cf",
       "action": "UPDATE",
