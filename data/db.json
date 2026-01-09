@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-09T12:22:50.746Z"
+    "lastUpdated": "2026-01-09T12:23:31.241Z"
   },
   "taxonomy": {
     "categories": [
@@ -2394,26 +2394,6 @@
       },
       "mergedFrom": [],
       "personId": "fc1d10a7-0698-4832-a319-31bd7bb5fd1d",
-      "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
-    },
-    {
-      "fullName": "ZEKAİ UYAR",
-      "normalizedName": "ZEKAI UYAR",
-      "baseKey": "ZEKAI UYAR",
-      "category": "KALMES",
-      "role": null,
-      "jobTitle": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "active",
-      "source": {
-        "file": "on_izin.xlsx",
-        "sheet": "KALMES",
-        "row": 52
-      },
-      "mergedFrom": [],
-      "personId": "ee638392-fb4f-4be9-a20c-785caf065409",
       "createdAt": "2026-01-05T12:12:49.580Z",
       "updatedAt": "2026-01-05T12:12:49.580Z"
     },
@@ -5753,6 +5733,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "4a52e204-6cd7-44db-a9e1-328209429ef6",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "ee638392-fb4f-4be9-a20c-785caf065409",
+      "details": {
+        "person": {
+          "fullName": "ZEKAİ UYAR",
+          "normalizedName": "ZEKAI UYAR",
+          "baseKey": "ZEKAI UYAR",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 52
+          },
+          "mergedFrom": [],
+          "personId": "ee638392-fb4f-4be9-a20c-785caf065409",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        }
+      },
+      "timestamp": "2026-01-09T12:23:31.241Z",
+      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
+    },
     {
       "id": "b17e065d-49c7-4f40-8bba-6db836561d89",
       "action": "CREATE",
