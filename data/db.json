@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-09T12:23:31.241Z"
+    "lastUpdated": "2026-01-09T12:23:47.259Z"
   },
   "taxonomy": {
     "categories": [
@@ -2074,26 +2074,6 @@
       },
       "mergedFrom": [],
       "personId": "1c4ef47e-0b08-4109-aeb0-105bb32777fd",
-      "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
-    },
-    {
-      "fullName": "MUSTAFA KUŞ",
-      "normalizedName": "MUSTAFA KUS",
-      "baseKey": "MUSTAFA KUS",
-      "category": "KALMES",
-      "role": null,
-      "jobTitle": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "active",
-      "source": {
-        "file": "on_izin.xlsx",
-        "sheet": "KALMES",
-        "row": 36
-      },
-      "mergedFrom": [],
-      "personId": "4c6843e4-b45a-437b-a744-10d77fc9b73f",
       "createdAt": "2026-01-05T12:12:49.580Z",
       "updatedAt": "2026-01-05T12:12:49.580Z"
     },
@@ -5733,6 +5713,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "fc8ca28c-a022-4509-85d6-4d21e9936d4b",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "4c6843e4-b45a-437b-a744-10d77fc9b73f",
+      "details": {
+        "person": {
+          "fullName": "MUSTAFA KUŞ",
+          "normalizedName": "MUSTAFA KUS",
+          "baseKey": "MUSTAFA KUS",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 36
+          },
+          "mergedFrom": [],
+          "personId": "4c6843e4-b45a-437b-a744-10d77fc9b73f",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        }
+      },
+      "timestamp": "2026-01-09T12:23:47.259Z",
+      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
+    },
     {
       "id": "4a52e204-6cd7-44db-a9e1-328209429ef6",
       "action": "DELETE",
