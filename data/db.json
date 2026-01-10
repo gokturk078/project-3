@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-10T10:03:29.003Z"
+    "lastUpdated": "2026-01-10T13:17:12.416Z"
   },
   "taxonomy": {
     "categories": [
@@ -4504,9 +4504,9 @@
       "endDate": "2026-01-15",
       "days": 10,
       "type": "RAPOR",
-      "note": "iş kazası sonucu rapor",
+      "note": "SALİH UYAR(İŞTEN AYRILDI)iş kazası sonucu rapor",
       "createdAt": "2026-01-06T13:10:39.242Z",
-      "updatedAt": "2026-01-09T09:23:15.437Z"
+      "updatedAt": "2026-01-10T13:17:12.416Z"
     },
     {
       "id": "a7562e36-77ae-43c3-a1f7-d00bc6736652",
@@ -5708,6 +5708,38 @@
     }
   ],
   "audit": [
+    {
+      "id": "d0a897ab-e850-4495-b185-8f8f1c43dee6",
+      "action": "UPDATE",
+      "entityType": "leave",
+      "entityId": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
+      "details": {
+        "before": {
+          "id": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
+          "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
+          "startDate": "2026-01-06",
+          "endDate": "2026-01-15",
+          "days": 10,
+          "type": "RAPOR",
+          "note": "iş kazası sonucu rapor",
+          "createdAt": "2026-01-06T13:10:39.242Z",
+          "updatedAt": "2026-01-09T09:23:15.437Z"
+        },
+        "after": {
+          "id": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
+          "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
+          "startDate": "2026-01-06",
+          "endDate": "2026-01-15",
+          "days": 10,
+          "type": "RAPOR",
+          "note": "SALİH UYAR(İŞTEN AYRILDI)iş kazası sonucu rapor",
+          "createdAt": "2026-01-06T13:10:39.242Z",
+          "updatedAt": "2026-01-10T13:17:12.416Z"
+        }
+      },
+      "timestamp": "2026-01-10T13:17:12.416Z",
+      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
+    },
     {
       "id": "29804e32-f3cc-4944-89fa-737f5bf3541f",
       "action": "UPDATE",
