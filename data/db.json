@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-10T06:57:06.265Z"
+    "lastUpdated": "2026-01-10T07:36:31.802Z"
   },
   "taxonomy": {
     "categories": [
@@ -4588,15 +4588,16 @@
       "applicationNo": "İnşaat işçisi",
       "profession": "112333/2025",
       "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": null,
-      "contactPerson": "EYYÜP",
+      "expectedDate": "",
+      "contactPerson": "OFİS PERSONELİ",
       "notes": "",
       "source": {
         "file": "takip.xlsx",
         "sheet": "GÜNCEL (3)",
         "row": 3
       },
-      "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c"
+      "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+      "updatedAt": "2026-01-10T07:36:31.801Z"
     },
     {
       "id": "db910679-62cf-491d-af0b-6673313a6ca2",
@@ -5706,6 +5707,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "2658e136-361c-4326-90f8-d86e8ed311bb",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
+      "details": {
+        "before": {
+          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "baseKey": "EYYUB SALIH ARIK",
+          "applicationNo": "İnşaat işçisi",
+          "profession": "112333/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": null,
+          "contactPerson": "EYYÜP",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 3
+          },
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c"
+        },
+        "after": {
+          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "baseKey": "EYYUB SALIH ARIK",
+          "applicationNo": "İnşaat işçisi",
+          "profession": "112333/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "OFİS PERSONELİ",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 3
+          },
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+          "updatedAt": "2026-01-10T07:36:31.801Z"
+        }
+      },
+      "timestamp": "2026-01-10T07:36:31.802Z",
+      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
+    },
     {
       "id": "ab438f83-c047-4966-b522-db1f26826a95",
       "action": "DELETE",
