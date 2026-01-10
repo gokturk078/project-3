@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-10T07:37:32.761Z"
+    "lastUpdated": "2026-01-10T07:38:49.739Z"
   },
   "taxonomy": {
     "categories": [
@@ -4813,7 +4813,7 @@
       "profession": "116388/2025",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-18",
-      "contactPerson": "HAYDAR",
+      "contactPerson": "NEŞAT",
       "notes": "",
       "source": {
         "file": "takip.xlsx",
@@ -4821,7 +4821,7 @@
         "row": 16
       },
       "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
-      "updatedAt": "2026-01-06T13:04:46.906Z"
+      "updatedAt": "2026-01-10T07:38:49.739Z"
     },
     {
       "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
@@ -5707,6 +5707,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "141a00b4-186f-458f-8b46-87adea33e6e8",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "0833d07c-79df-492f-8a47-89589dd04ebc",
+      "details": {
+        "before": {
+          "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "baseKey": "REZZAN KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116388/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "HAYDAR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 16
+          },
+          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
+          "updatedAt": "2026-01-06T13:04:46.906Z"
+        },
+        "after": {
+          "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "baseKey": "REZZAN KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116388/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 16
+          },
+          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
+          "updatedAt": "2026-01-10T07:38:49.739Z"
+        }
+      },
+      "timestamp": "2026-01-10T07:38:49.739Z",
+      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
+    },
     {
       "id": "a56c8d67-3265-4951-af6a-6c3a9e59e127",
       "action": "UPDATE",
