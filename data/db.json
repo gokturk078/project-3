@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-10T09:39:19.426Z"
+    "lastUpdated": "2026-01-10T10:03:01.645Z"
   },
   "taxonomy": {
     "categories": [
@@ -4642,7 +4642,7 @@
       "baseKey": "DOGUS KARBUZ",
       "applicationNo": "inşaat işçisi",
       "profession": "115661/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-01-18",
       "contactPerson": "KALMES",
       "notes": "",
@@ -4652,7 +4652,7 @@
         "row": 6
       },
       "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-      "updatedAt": "2026-01-10T09:39:19.426Z"
+      "updatedAt": "2026-01-10T10:03:01.645Z"
     },
     {
       "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
@@ -5708,6 +5708,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "d1b2b354-8175-4e3b-963c-06ec7fcbeec3",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
+      "details": {
+        "before": {
+          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
+          "fullName": "DOĞUŞ KARBUZ",
+          "normalizedName": "DOGUS KARBUZ",
+          "baseKey": "DOGUS KARBUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115661/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 6
+          },
+          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
+          "updatedAt": "2026-01-10T09:39:19.426Z"
+        },
+        "after": {
+          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
+          "fullName": "DOĞUŞ KARBUZ",
+          "normalizedName": "DOGUS KARBUZ",
+          "baseKey": "DOGUS KARBUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115661/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 6
+          },
+          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
+          "updatedAt": "2026-01-10T10:03:01.645Z"
+        }
+      },
+      "timestamp": "2026-01-10T10:03:01.645Z",
+      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
+    },
     {
       "id": "b4c7bebf-e405-42a5-846d-58630301522c",
       "action": "UPDATE",
