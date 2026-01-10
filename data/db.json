@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-10T07:39:36.262Z"
+    "lastUpdated": "2026-01-10T07:40:23.301Z"
   },
   "taxonomy": {
     "categories": [
@@ -4978,10 +4978,10 @@
       "profession": "inşaat işçisi",
       "status": "SAĞLIĞA SEVK EDİLECEK",
       "expectedDate": "2026-01-05",
-      "contactPerson": "",
-      "notes": "geldi",
+      "contactPerson": "MURAT ÜYÜR",
+      "notes": "",
       "createdAt": "2026-01-06T05:59:10.238Z",
-      "updatedAt": "2026-01-06T05:59:10.238Z"
+      "updatedAt": "2026-01-10T07:40:23.301Z"
     }
   ],
   "departures": [
@@ -5708,6 +5708,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "e833deb2-d267-4ae5-a879-d7ac4775d048",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+      "details": {
+        "before": {
+          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+          "applicationNo": "116083/2025",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-05",
+          "contactPerson": "",
+          "notes": "geldi",
+          "createdAt": "2026-01-06T05:59:10.238Z",
+          "updatedAt": "2026-01-06T05:59:10.238Z"
+        },
+        "after": {
+          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+          "applicationNo": "116083/2025",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-05",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-06T05:59:10.238Z",
+          "updatedAt": "2026-01-10T07:40:23.301Z"
+        }
+      },
+      "timestamp": "2026-01-10T07:40:23.301Z",
+      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
+    },
     {
       "id": "bb6894a5-59da-4d72-8ef4-d107456e7cf7",
       "action": "UPDATE",
