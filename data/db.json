@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-10T06:56:31.282Z"
+    "lastUpdated": "2026-01-10T06:57:06.265Z"
   },
   "taxonomy": {
     "categories": [
@@ -2174,26 +2174,6 @@
       },
       "mergedFrom": [],
       "personId": "de04b1ac-ae4c-4447-be4a-fb0bc8666c43",
-      "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
-    },
-    {
-      "fullName": "SALİH UYAR",
-      "normalizedName": "SALIH UYAR",
-      "baseKey": "SALIH UYAR",
-      "category": "KALMES",
-      "role": null,
-      "jobTitle": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "active",
-      "source": {
-        "file": "on_izin.xlsx",
-        "sheet": "KALMES",
-        "row": 42
-      },
-      "mergedFrom": [],
-      "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
       "createdAt": "2026-01-05T12:12:49.580Z",
       "updatedAt": "2026-01-05T12:12:49.580Z"
     },
@@ -5726,6 +5706,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ab438f83-c047-4966-b522-db1f26826a95",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
+      "details": {
+        "person": {
+          "fullName": "SALİH UYAR",
+          "normalizedName": "SALIH UYAR",
+          "baseKey": "SALIH UYAR",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 42
+          },
+          "mergedFrom": [],
+          "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        }
+      },
+      "timestamp": "2026-01-10T06:57:06.265Z",
+      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
+    },
     {
       "id": "605e681e-7a10-4ada-9a3e-64486dd00ac6",
       "action": "CREATE",
