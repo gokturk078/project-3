@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-09T12:23:47.259Z"
+    "lastUpdated": "2026-01-10T06:56:31.282Z"
   },
   "taxonomy": {
     "categories": [
@@ -5691,6 +5691,19 @@
       "exitMonth": "2026-01",
       "createdAt": "2026-01-09T12:22:50.746Z",
       "updatedAt": "2026-01-09T12:22:50.746Z"
+    },
+    {
+      "id": "39070598-3d1e-47c3-b384-d37da2447e4f",
+      "personId": null,
+      "fullName": "SALİH UYAR",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2025-10-13",
+      "exitDate": "2026-01-16",
+      "totalDays": 95,
+      "exitMonth": "2026-01",
+      "createdAt": "2026-01-10T06:56:31.282Z",
+      "updatedAt": "2026-01-10T06:56:31.282Z"
     }
   ],
   "duplicateCandidates": [],
@@ -5713,6 +5726,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "605e681e-7a10-4ada-9a3e-64486dd00ac6",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "39070598-3d1e-47c3-b384-d37da2447e4f",
+      "details": {
+        "departure": {
+          "id": "39070598-3d1e-47c3-b384-d37da2447e4f",
+          "personId": null,
+          "fullName": "SALİH UYAR",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-10-13",
+          "exitDate": "2026-01-16",
+          "totalDays": 95,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-10T06:56:31.282Z",
+          "updatedAt": "2026-01-10T06:56:31.282Z"
+        }
+      },
+      "timestamp": "2026-01-10T06:56:31.282Z",
+      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
+    },
     {
       "id": "fc8ca28c-a022-4509-85d6-4d21e9936d4b",
       "action": "DELETE",
