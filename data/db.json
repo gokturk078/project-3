@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-11T12:22:49.395Z"
+    "lastUpdated": "2026-01-11T12:23:38.418Z"
   },
   "taxonomy": {
     "categories": [
@@ -4850,7 +4850,7 @@
       "applicationNo": "inşaat işçisi",
       "profession": "117451/2025",
       "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": "2026-01-29",
+      "expectedDate": "",
       "contactPerson": "İSG",
       "notes": "",
       "source": {
@@ -4859,7 +4859,7 @@
         "row": 18
       },
       "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-      "updatedAt": "2026-01-11T12:22:49.394Z"
+      "updatedAt": "2026-01-11T12:23:38.418Z"
     },
     {
       "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
@@ -5708,6 +5708,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "c394a1c9-86a9-4553-a971-dbb84807db8e",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
+      "details": {
+        "before": {
+          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "baseKey": "MERTCAN SIMSEK",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117451/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "İSG",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 18
+          },
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+          "updatedAt": "2026-01-11T12:22:49.394Z"
+        },
+        "after": {
+          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "baseKey": "MERTCAN SIMSEK",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117451/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "İSG",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 18
+          },
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+          "updatedAt": "2026-01-11T12:23:38.418Z"
+        }
+      },
+      "timestamp": "2026-01-11T12:23:38.418Z",
+      "adminSession": "05b9624d-469f-4eb3-adeb-fd94b434a7c5"
+    },
     {
       "id": "836468e2-c5a5-48f4-ba56-d669fb524da5",
       "action": "UPDATE",
