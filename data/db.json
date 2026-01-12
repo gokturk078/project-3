@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-12T06:57:26.292Z"
+    "lastUpdated": "2026-01-12T11:25:05.139Z"
   },
   "taxonomy": {
     "categories": [
@@ -4987,11 +4987,11 @@
       "applicationNo": "116083/2025",
       "profession": "inşaat işçisi",
       "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": "2026-01-05",
+      "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-06T05:59:10.238Z",
-      "updatedAt": "2026-01-10T07:40:23.301Z"
+      "updatedAt": "2026-01-12T11:25:05.139Z"
     }
   ],
   "departures": [
@@ -5718,6 +5718,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "dfcded0f-b8cd-4ec9-b37a-64d5a3b4e144",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+      "details": {
+        "before": {
+          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+          "applicationNo": "116083/2025",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-05",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-06T05:59:10.238Z",
+          "updatedAt": "2026-01-10T07:40:23.301Z"
+        },
+        "after": {
+          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
+          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+          "applicationNo": "116083/2025",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-06T05:59:10.238Z",
+          "updatedAt": "2026-01-12T11:25:05.139Z"
+        }
+      },
+      "timestamp": "2026-01-12T11:25:05.139Z",
+      "adminSession": "d7371b5e-dedf-4aaf-94c7-45031b9c1007"
+    },
     {
       "id": "036a55b3-875a-4960-8619-42059bbf7a97",
       "action": "CREATE",
