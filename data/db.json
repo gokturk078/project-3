@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:48:19.149Z"
+    "lastUpdated": "2026-01-14T07:48:36.950Z"
   },
   "taxonomy": {
     "categories": [
@@ -4354,6 +4354,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-14T07:48:19.149Z",
       "updatedAt": "2026-01-14T07:48:19.149Z"
+    },
+    {
+      "personId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
+      "baseKey": "ERCAN İŞLEK",
+      "fullName": "ERCAN İŞLEK",
+      "normalizedName": "ERCAN İŞLEK",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-14T07:48:36.950Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-14T07:48:36.950Z",
+      "updatedAt": "2026-01-14T07:48:36.950Z"
     }
   ],
   "leaves": [
@@ -5681,6 +5701,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "69f8af4a-651b-4752-96cc-e746e295c377",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
+      "details": {
+        "person": {
+          "personId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
+          "baseKey": "ERCAN İŞLEK",
+          "fullName": "ERCAN İŞLEK",
+          "normalizedName": "ERCAN İŞLEK",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-14T07:48:36.950Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-14T07:48:36.950Z",
+          "updatedAt": "2026-01-14T07:48:36.950Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:48:36.950Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "0ec55378-1a07-4ffb-a7dd-7c65c4a16ad0",
       "action": "CREATE",
