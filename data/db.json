@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-12T11:25:05.139Z"
+    "lastUpdated": "2026-01-14T07:43:29.337Z"
   },
   "taxonomy": {
     "categories": [
@@ -4719,7 +4719,7 @@
         "row": 9
       },
       "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
-      "updatedAt": "2026-01-10T07:37:23.003Z"
+      "updatedAt": "2026-01-14T07:43:29.336Z"
     },
     {
       "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
@@ -5718,6 +5718,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "6eb62700-4b95-4f58-a671-e6e5d9920b6e",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "dab2d4a9-b44a-446f-874f-39332743518e",
+      "details": {
+        "before": {
+          "id": "dab2d4a9-b44a-446f-874f-39332743518e",
+          "fullName": "FEREMEZ ANUCUR",
+          "normalizedName": "FEREMEZ ANUCUR",
+          "baseKey": "FEREMEZ ANUCUR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115639/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 9
+          },
+          "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
+          "updatedAt": "2026-01-10T07:37:23.003Z"
+        },
+        "after": {
+          "id": "dab2d4a9-b44a-446f-874f-39332743518e",
+          "fullName": "FEREMEZ ANUCUR",
+          "normalizedName": "FEREMEZ ANUCUR",
+          "baseKey": "FEREMEZ ANUCUR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115639/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 9
+          },
+          "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
+          "updatedAt": "2026-01-14T07:43:29.336Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:43:29.336Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "dfcded0f-b8cd-4ec9-b37a-64d5a3b4e144",
       "action": "UPDATE",
