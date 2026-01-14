@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:48:57.181Z"
+    "lastUpdated": "2026-01-14T07:49:17.429Z"
   },
   "taxonomy": {
     "categories": [
@@ -4394,6 +4394,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-14T07:48:57.181Z",
       "updatedAt": "2026-01-14T07:48:57.181Z"
+    },
+    {
+      "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
+      "baseKey": "MEHMET SALİM ÇAKIR",
+      "fullName": "MEHMET SALİM ÇAKIR",
+      "normalizedName": "MEHMET SALİM ÇAKIR",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-14T07:49:17.429Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-14T07:49:17.429Z",
+      "updatedAt": "2026-01-14T07:49:17.429Z"
     }
   ],
   "leaves": [
@@ -5721,6 +5741,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "eb06832c-4fd3-4a20-8030-40bf05134f9c",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
+      "details": {
+        "person": {
+          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
+          "baseKey": "MEHMET SALİM ÇAKIR",
+          "fullName": "MEHMET SALİM ÇAKIR",
+          "normalizedName": "MEHMET SALİM ÇAKIR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-14T07:49:17.429Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-14T07:49:17.429Z",
+          "updatedAt": "2026-01-14T07:49:17.429Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:49:17.429Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "2cf282bd-54c2-401a-a217-96762f0eb499",
       "action": "CREATE",
