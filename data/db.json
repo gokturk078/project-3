@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:43:29.337Z"
+    "lastUpdated": "2026-01-14T07:43:38.485Z"
   },
   "taxonomy": {
     "categories": [
@@ -4703,25 +4703,6 @@
       "updatedAt": "2026-01-10T10:03:19.329Z"
     },
     {
-      "id": "dab2d4a9-b44a-446f-874f-39332743518e",
-      "fullName": "FEREMEZ ANUCUR",
-      "normalizedName": "FEREMEZ ANUCUR",
-      "baseKey": "FEREMEZ ANUCUR",
-      "applicationNo": "inşaat işçisi",
-      "profession": "115639/2025",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-01-18",
-      "contactPerson": "KALMES",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 9
-      },
-      "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
-      "updatedAt": "2026-01-14T07:43:29.336Z"
-    },
-    {
       "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
       "fullName": "SERVET ÖKSÜZ",
       "normalizedName": "SERVET OKSUZ",
@@ -5718,6 +5699,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "ae9c58c2-2810-40cb-bf47-05084b151686",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "dab2d4a9-b44a-446f-874f-39332743518e",
+      "details": {
+        "tracking": {
+          "id": "dab2d4a9-b44a-446f-874f-39332743518e",
+          "fullName": "FEREMEZ ANUCUR",
+          "normalizedName": "FEREMEZ ANUCUR",
+          "baseKey": "FEREMEZ ANUCUR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115639/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 9
+          },
+          "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
+          "updatedAt": "2026-01-14T07:43:29.336Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:43:38.485Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "6eb62700-4b95-4f58-a671-e6e5d9920b6e",
       "action": "UPDATE",
