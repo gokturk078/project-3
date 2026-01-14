@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T12:52:24.614Z"
+    "lastUpdated": "2026-01-14T13:07:42.057Z"
   },
   "taxonomy": {
     "categories": [
@@ -5749,11 +5749,11 @@
       "category": "KALMES",
       "job": "",
       "entryDate": "2025-10-13",
-      "exitDate": "2025-12-05",
+      "exitDate": "2026-08-06",
       "totalDays": 87,
-      "exitMonth": "2025-12",
+      "exitMonth": "2026-08",
       "createdAt": "2026-01-09T12:22:50.746Z",
-      "updatedAt": "2026-01-14T12:52:24.614Z"
+      "updatedAt": "2026-01-14T13:07:42.057Z"
     },
     {
       "id": "39070598-3d1e-47c3-b384-d37da2447e4f",
@@ -5789,6 +5789,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "3ce9f2ca-8e0d-4444-9331-0fd60099599c",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "93396654-0e35-4f00-a137-e2322fb9e14f",
+      "details": {
+        "before": {
+          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
+          "personId": null,
+          "fullName": "ZEKAİ UYAR",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-10-13",
+          "exitDate": "2025-12-05",
+          "totalDays": 87,
+          "exitMonth": "2025-12",
+          "createdAt": "2026-01-09T12:22:50.746Z",
+          "updatedAt": "2026-01-14T12:52:24.614Z"
+        },
+        "after": {
+          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
+          "personId": null,
+          "fullName": "ZEKAİ UYAR",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-10-13",
+          "exitDate": "2026-08-06",
+          "totalDays": 87,
+          "exitMonth": "2026-08",
+          "createdAt": "2026-01-09T12:22:50.746Z",
+          "updatedAt": "2026-01-14T13:07:42.057Z"
+        }
+      },
+      "timestamp": "2026-01-14T13:07:42.057Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "c4e26fcd-08ef-4286-bc32-22d72a83fb1b",
       "action": "UPDATE",
