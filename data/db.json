@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:54:25.208Z"
+    "lastUpdated": "2026-01-14T07:55:12.997Z"
   },
   "taxonomy": {
     "categories": [
@@ -5051,6 +5051,18 @@
       "notes": "",
       "createdAt": "2026-01-14T07:54:25.208Z",
       "updatedAt": "2026-01-14T07:54:25.208Z"
+    },
+    {
+      "id": "d5b853db-6abb-4dd3-8a58-04983c4cc519",
+      "personId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
+      "applicationNo": "118864/2026",
+      "profession": "İSKELE",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-01-14",
+      "contactPerson": "MURAT ÜYÜR",
+      "notes": "",
+      "createdAt": "2026-01-14T07:55:12.997Z",
+      "updatedAt": "2026-01-14T07:55:12.997Z"
     }
   ],
   "departures": [
@@ -5777,6 +5789,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "97761a88-ccd0-427a-a43c-95e78bde7a90",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "d5b853db-6abb-4dd3-8a58-04983c4cc519",
+      "details": {
+        "tracking": {
+          "id": "d5b853db-6abb-4dd3-8a58-04983c4cc519",
+          "personId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
+          "applicationNo": "118864/2026",
+          "profession": "İSKELE",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-14",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-14T07:55:12.997Z",
+          "updatedAt": "2026-01-14T07:55:12.997Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:55:12.997Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "19a1f188-a0fd-4f13-808f-fbc76ec7bb67",
       "action": "CREATE",
