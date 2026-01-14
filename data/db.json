@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:43:38.485Z"
+    "lastUpdated": "2026-01-14T07:43:47.523Z"
   },
   "taxonomy": {
     "categories": [
@@ -4777,25 +4777,6 @@
       "updatedAt": "2026-01-06T13:04:59.376Z"
     },
     {
-      "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
-      "fullName": "NAZMİ DEMİR",
-      "normalizedName": "NAZMI DEMIR",
-      "baseKey": "NAZMI DEMIR",
-      "applicationNo": "inşaat işçisi",
-      "profession": "116390/2025",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-01-18",
-      "contactPerson": "SÜLEYMAN ORUL",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 15
-      },
-      "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
-      "updatedAt": "2026-01-06T13:04:53.982Z"
-    },
-    {
       "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
       "fullName": "REZZAN KAYA",
       "normalizedName": "REZZAN KAYA",
@@ -5699,6 +5680,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "0324335d-944f-49cc-952a-d6e8797a0430",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "486e22c1-41a7-43ba-8a73-7f448440867a",
+      "details": {
+        "tracking": {
+          "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
+          "fullName": "NAZMİ DEMİR",
+          "normalizedName": "NAZMI DEMIR",
+          "baseKey": "NAZMI DEMIR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116390/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "SÜLEYMAN ORUL",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 15
+          },
+          "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
+          "updatedAt": "2026-01-06T13:04:53.982Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:43:47.523Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "ae9c58c2-2810-40cb-bf47-05084b151686",
       "action": "DELETE",
