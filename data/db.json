@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:44:03.972Z"
+    "lastUpdated": "2026-01-14T07:48:19.149Z"
   },
   "taxonomy": {
     "categories": [
@@ -4334,6 +4334,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-08T12:06:02.266Z",
       "updatedAt": "2026-01-08T12:06:02.266Z"
+    },
+    {
+      "personId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
+      "baseKey": "MEHMET TURAN",
+      "fullName": "MEHMET TURAN",
+      "normalizedName": "MEHMET TURAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-14T07:48:19.149Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-14T07:48:19.149Z",
+      "updatedAt": "2026-01-14T07:48:19.149Z"
     }
   ],
   "leaves": [
@@ -5661,6 +5681,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "0ec55378-1a07-4ffb-a7dd-7c65c4a16ad0",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
+      "details": {
+        "person": {
+          "personId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
+          "baseKey": "MEHMET TURAN",
+          "fullName": "MEHMET TURAN",
+          "normalizedName": "MEHMET TURAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-14T07:48:19.149Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-14T07:48:19.149Z",
+          "updatedAt": "2026-01-14T07:48:19.149Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:48:19.149Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "5987619f-2b45-4fef-aee2-bdd3bb51c7e9",
       "action": "DELETE",
