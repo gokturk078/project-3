@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:43:47.523Z"
+    "lastUpdated": "2026-01-14T07:44:03.972Z"
   },
   "taxonomy": {
     "categories": [
@@ -4852,25 +4852,6 @@
       "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf"
     },
     {
-      "id": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
-      "fullName": "MEHMET ÇİFTÇİ",
-      "normalizedName": "MEHMET CIFTCI",
-      "baseKey": "MEHMET CIFTCI",
-      "applicationNo": "inşaat işçisi",
-      "profession": "117458/2025",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "",
-      "contactPerson": "MURAT ÜYÜR (İSKELE)",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 20
-      },
-      "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
-      "updatedAt": "2026-01-06T13:04:31.070Z"
-    },
-    {
       "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
       "fullName": "MECİT AYDOĞAN",
       "normalizedName": "MECIT AYDOGAN",
@@ -5680,6 +5661,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "5987619f-2b45-4fef-aee2-bdd3bb51c7e9",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
+      "details": {
+        "tracking": {
+          "id": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
+          "fullName": "MEHMET ÇİFTÇİ",
+          "normalizedName": "MEHMET CIFTCI",
+          "baseKey": "MEHMET CIFTCI",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117458/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR (İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 20
+          },
+          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+          "updatedAt": "2026-01-06T13:04:31.070Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:44:03.972Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "0324335d-944f-49cc-952a-d6e8797a0430",
       "action": "DELETE",
