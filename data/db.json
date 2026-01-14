@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:48:36.950Z"
+    "lastUpdated": "2026-01-14T07:48:57.181Z"
   },
   "taxonomy": {
     "categories": [
@@ -4374,6 +4374,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-14T07:48:36.950Z",
       "updatedAt": "2026-01-14T07:48:36.950Z"
+    },
+    {
+      "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
+      "baseKey": "RAĞİP TURAN",
+      "fullName": "RAĞİP TURAN",
+      "normalizedName": "RAĞİP TURAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-14T07:48:57.181Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-14T07:48:57.181Z",
+      "updatedAt": "2026-01-14T07:48:57.181Z"
     }
   ],
   "leaves": [
@@ -5701,6 +5721,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "2cf282bd-54c2-401a-a217-96762f0eb499",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
+      "details": {
+        "person": {
+          "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
+          "baseKey": "RAĞİP TURAN",
+          "fullName": "RAĞİP TURAN",
+          "normalizedName": "RAĞİP TURAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-14T07:48:57.181Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-14T07:48:57.181Z",
+          "updatedAt": "2026-01-14T07:48:57.181Z"
+        }
+      },
+      "timestamp": "2026-01-14T07:48:57.181Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "69f8af4a-651b-4752-96cc-e746e295c377",
       "action": "CREATE",
