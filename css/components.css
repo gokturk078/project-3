@@ -230,6 +230,11 @@
     color: var(--text-secondary);
 }
 
+.badge-purple {
+    background: #f3e8ff;
+    color: #9333ea;
+}
+
 /* Category badges */
 .badge-cat-repsam {
     background: rgba(99, 102, 241, 0.1);
@@ -1234,6 +1239,10 @@
     }
 
     .grid.grid-cols-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid.grid-cols-5 {
         grid-template-columns: repeat(2, 1fr);
     }
 }

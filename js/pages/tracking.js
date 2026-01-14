@@ -26,7 +26,9 @@ export async function render(ctx) {
   const byStatus = {
     'ÖN İZNİ ONAYLANDI': enrichedTracking.filter(t => t.status === 'ÖN İZNİ ONAYLANDI'),
     'SAĞLIĞA SEVK EDİLECEK': enrichedTracking.filter(t => t.status === 'SAĞLIĞA SEVK EDİLECEK'),
-    'SAĞLIĞA SEVK EDİLDİ': enrichedTracking.filter(t => t.status === 'SAĞLIĞA SEVK EDİLDİ')
+    'SAĞLIĞA SEVK EDİLDİ': enrichedTracking.filter(t => t.status === 'SAĞLIĞA SEVK EDİLDİ'),
+    'AKİT YÜKLENECEK': enrichedTracking.filter(t => t.status === 'AKİT YÜKLENECEK'),
+    'AKİT YÜKLENDİ': enrichedTracking.filter(t => t.status === 'AKİT YÜKLENDİ')
   };
 
   // Get unique contact persons
@@ -137,12 +139,12 @@ export async function render(ctx) {
     </div>
 
     <!-- Status Summary -->
-    <div class="grid grid-cols-3 gap-6 mb-6">
+    <div class="grid grid-cols-5 gap-4 mb-6">
       <div class="card">
         <div class="d-flex items-center justify-between">
           <div>
             <div class="text-sm text-secondary">Ön İzni Onaylı</div>
-            <div class="text-3xl font-bold mt-1">${byStatus['ÖN İZNİ ONAYLANDI'].length}</div>
+            <div class="text-2xl font-bold mt-1">${byStatus['ÖN İZNİ ONAYLANDI'].length}</div>
           </div>
           <div class="avatar" style="background: var(--color-success-50); color: var(--color-success-500);">✓</div>
         </div>
@@ -151,7 +153,7 @@ export async function render(ctx) {
         <div class="d-flex items-center justify-between">
           <div>
             <div class="text-sm text-secondary">Sağlığa Sevk Edilecek</div>
-            <div class="text-3xl font-bold mt-1">${byStatus['SAĞLIĞA SEVK EDİLECEK'].length}</div>
+            <div class="text-2xl font-bold mt-1">${byStatus['SAĞLIĞA SEVK EDİLECEK'].length}</div>
           </div>
           <div class="avatar" style="background: var(--color-warning-50); color: var(--color-warning-500);">⏳</div>
         </div>
@@ -160,9 +162,27 @@ export async function render(ctx) {
         <div class="d-flex items-center justify-between">
           <div>
             <div class="text-sm text-secondary">Sağlığa Sevk Edildi</div>
-            <div class="text-3xl font-bold mt-1">${byStatus['SAĞLIĞA SEVK EDİLDİ'].length}</div>
+            <div class="text-2xl font-bold mt-1">${byStatus['SAĞLIĞA SEVK EDİLDİ'].length}</div>
           </div>
           <div class="avatar" style="background: var(--color-info-50); color: var(--color-info-500);">🏥</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="d-flex items-center justify-between">
+          <div>
+            <div class="text-sm text-secondary">Akit Yüklenecek</div>
+            <div class="text-2xl font-bold mt-1">${byStatus['AKİT YÜKLENECEK'].length}</div>
+          </div>
+          <div class="avatar" style="background: #f3e8ff; color: #9333ea;">📋</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="d-flex items-center justify-between">
+          <div>
+            <div class="text-sm text-secondary">Akit Yüklendi</div>
+            <div class="text-2xl font-bold mt-1">${byStatus['AKİT YÜKLENDİ'].length}</div>
+          </div>
+          <div class="avatar" style="background: #dbeafe; color: #2563eb;">✅</div>
         </div>
       </div>
     </div>
@@ -181,6 +201,8 @@ export async function render(ctx) {
           <option value="ÖN İZNİ ONAYLANDI">Ön İzni Onaylı</option>
           <option value="SAĞLIĞA SEVK EDİLECEK">Sevk Edilecek</option>
           <option value="SAĞLIĞA SEVK EDİLDİ">Sevk Edildi</option>
+          <option value="AKİT YÜKLENECEK">Akit Yüklenecek</option>
+          <option value="AKİT YÜKLENDİ">Akit Yüklendi</option>
         </select>
         <select class="form-select filter-select" id="contact-filter">
           <option value="">Tüm İrtibatlar</option>
@@ -307,6 +329,8 @@ export async function render(ctx) {
                         <option value="ÖN İZNİ ONAYLANDI" ${isEdit && record.status === 'ÖN İZNİ ONAYLANDI' ? 'selected' : ''}>Ön İzni Onaylandı</option>
                         <option value="SAĞLIĞA SEVK EDİLECEK" ${isEdit && record.status === 'SAĞLIĞA SEVK EDİLECEK' ? 'selected' : ''}>Sağlığa Sevk Edilecek</option>
                         <option value="SAĞLIĞA SEVK EDİLDİ" ${isEdit && record.status === 'SAĞLIĞA SEVK EDİLDİ' ? 'selected' : ''}>Sağlığa Sevk Edildi</option>
+                        <option value="AKİT YÜKLENECEK" ${isEdit && record.status === 'AKİT YÜKLENECEK' ? 'selected' : ''}>Akit Yüklenecek</option>
+                        <option value="AKİT YÜKLENDİ" ${isEdit && record.status === 'AKİT YÜKLENDİ' ? 'selected' : ''}>Akit Yüklendi</option>
                     </select>
                 </div>
 
@@ -352,6 +376,8 @@ export async function render(ctx) {
 
 function getStatusBadgeClass(status) {
   if (status?.includes('ONAYLANDI')) return 'badge-success';
+  if (status?.includes('YÜKLENECEK')) return 'badge-purple';
+  if (status?.includes('YÜKLENDİ')) return 'badge-primary';
   if (status?.includes('EDİLECEK')) return 'badge-warning';
   if (status?.includes('EDİLDİ')) return 'badge-info';
   return 'badge-neutral';
@@ -361,5 +387,7 @@ function getStatusShort(status) {
   if (status === 'ÖN İZNİ ONAYLANDI') return 'Onaylı';
   if (status === 'SAĞLIĞA SEVK EDİLECEK') return 'Sevk Edilecek';
   if (status === 'SAĞLIĞA SEVK EDİLDİ') return 'Sevk Edildi';
+  if (status === 'AKİT YÜKLENECEK') return 'Akit Yüklenecek';
+  if (status === 'AKİT YÜKLENDİ') return 'Akit Yüklendi';
   return status || '-';
 }
