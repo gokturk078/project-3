@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-14T07:55:29.115Z"
+    "lastUpdated": "2026-01-14T12:51:53.244Z"
   },
   "taxonomy": {
     "categories": [
@@ -5736,11 +5736,11 @@
       "category": "KALMES",
       "job": "",
       "entryDate": "2025-09-24",
-      "exitDate": "2026-01-08",
+      "exitDate": "2026-01-06",
       "totalDays": 106,
       "exitMonth": "2026-01",
       "createdAt": "2026-01-09T12:21:54.437Z",
-      "updatedAt": "2026-01-09T12:21:54.437Z"
+      "updatedAt": "2026-01-14T12:51:53.243Z"
     },
     {
       "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
@@ -5789,6 +5789,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "7a0dcdd1-9597-41f0-b293-618f9a5686ae",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
+      "details": {
+        "before": {
+          "id": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
+          "personId": null,
+          "fullName": "MUSTAFA KUŞ",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-09-24",
+          "exitDate": "2026-01-08",
+          "totalDays": 106,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-09T12:21:54.437Z",
+          "updatedAt": "2026-01-09T12:21:54.437Z"
+        },
+        "after": {
+          "id": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
+          "personId": null,
+          "fullName": "MUSTAFA KUŞ",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-09-24",
+          "exitDate": "2026-01-06",
+          "totalDays": 106,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-09T12:21:54.437Z",
+          "updatedAt": "2026-01-14T12:51:53.243Z"
+        }
+      },
+      "timestamp": "2026-01-14T12:51:53.243Z",
+      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
+    },
     {
       "id": "e7451bab-f459-4e62-a097-f2027d37918c",
       "action": "UPDATE",
