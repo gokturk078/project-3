@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T12:01:40.196Z"
+    "lastUpdated": "2026-01-16T12:02:05.870Z"
   },
   "taxonomy": {
     "categories": [
@@ -154,26 +154,6 @@
       },
       "mergedFrom": [],
       "personId": "ee884d7f-519e-4e45-b8ce-71508af58120",
-      "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
-    },
-    {
-      "fullName": "ADEM KOCA",
-      "normalizedName": "ADEM KOCA",
-      "baseKey": "ADEM KOCA",
-      "category": "REPSAM",
-      "role": "FORMEN",
-      "jobTitle": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "active",
-      "source": {
-        "file": "on_izin.xlsx",
-        "sheet": "REPSAM",
-        "row": 4
-      },
-      "mergedFrom": [],
-      "personId": "c32b8a2f-701c-426f-93b0-f8a1a3ffcde2",
       "createdAt": "2026-01-05T12:12:49.580Z",
       "updatedAt": "2026-01-05T12:12:49.580Z"
     },
@@ -5790,6 +5770,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "f64c26a0-e3cd-4ba3-bf0e-aabbfd42ccdf",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "c32b8a2f-701c-426f-93b0-f8a1a3ffcde2",
+      "details": {
+        "person": {
+          "fullName": "ADEM KOCA",
+          "normalizedName": "ADEM KOCA",
+          "baseKey": "ADEM KOCA",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 4
+          },
+          "mergedFrom": [],
+          "personId": "c32b8a2f-701c-426f-93b0-f8a1a3ffcde2",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        }
+      },
+      "timestamp": "2026-01-16T12:02:05.870Z",
+      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
+    },
     {
       "id": "a5c73295-6092-4d24-8adc-9dcf0134016b",
       "action": "CREATE",
