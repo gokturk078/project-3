@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T08:45:19.306Z"
+    "lastUpdated": "2026-01-16T08:45:42.882Z"
   },
   "taxonomy": {
     "categories": [
@@ -1436,26 +1436,6 @@
       "personId": "0a9609a2-30f8-46f6-8777-8b8ba1c86f11",
       "createdAt": "2026-01-05T12:12:49.580Z",
       "updatedAt": "2026-01-05T12:12:49.580Z"
-    },
-    {
-      "fullName": "AHMET DÖNMEZ",
-      "normalizedName": "AHMET DONMEZ",
-      "baseKey": "AHMET DONMEZ",
-      "category": "NEŞAT",
-      "role": null,
-      "jobTitle": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "active",
-      "source": {
-        "file": "on_izin.xlsx",
-        "sheet": "KALMES",
-        "row": 4
-      },
-      "mergedFrom": [],
-      "personId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
-      "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-06T05:53:43.244Z"
     },
     {
       "fullName": "AZİZ BİRİNCİ",
@@ -5797,6 +5777,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "09935be8-824b-40d9-80f5-d3bc4512feda",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
+      "details": {
+        "person": {
+          "fullName": "AHMET DÖNMEZ",
+          "normalizedName": "AHMET DONMEZ",
+          "baseKey": "AHMET DONMEZ",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 4
+          },
+          "mergedFrom": [],
+          "personId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T05:53:43.244Z"
+        }
+      },
+      "timestamp": "2026-01-16T08:45:42.882Z",
+      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
+    },
     {
       "id": "bdf826cc-1caa-48a7-9961-e692bb98c7fa",
       "action": "CREATE",
