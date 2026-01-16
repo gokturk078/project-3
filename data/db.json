@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T12:02:05.870Z"
+    "lastUpdated": "2026-01-16T13:02:53.365Z"
   },
   "taxonomy": {
     "categories": [
@@ -4780,25 +4780,6 @@
       "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a"
     },
     {
-      "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
-      "fullName": "HARUN DURDU",
-      "normalizedName": "HARUN DURDU",
-      "baseKey": "HARUN DURDU",
-      "applicationNo": "inşaat işçisi",
-      "profession": "116094/2025",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-01-18",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 14
-      },
-      "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
-      "updatedAt": "2026-01-06T13:04:59.376Z"
-    },
-    {
       "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
       "fullName": "REZZAN KAYA",
       "normalizedName": "REZZAN KAYA",
@@ -5770,6 +5751,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "b6656d33-19e0-4e8c-8526-014c60e59f22",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "e1bb4383-5444-4cec-99a5-881859b3f070",
+      "details": {
+        "tracking": {
+          "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
+          "fullName": "HARUN DURDU",
+          "normalizedName": "HARUN DURDU",
+          "baseKey": "HARUN DURDU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116094/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 14
+          },
+          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+          "updatedAt": "2026-01-06T13:04:59.376Z"
+        }
+      },
+      "timestamp": "2026-01-16T13:02:53.364Z",
+      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
+    },
     {
       "id": "f64c26a0-e3cd-4ba3-bf0e-aabbfd42ccdf",
       "action": "DELETE",
