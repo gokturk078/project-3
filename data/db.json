@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T06:30:30.200Z"
+    "lastUpdated": "2026-01-16T06:31:20.001Z"
   },
   "taxonomy": {
     "categories": [
@@ -3638,26 +3638,6 @@
       "updatedAt": "2026-01-06T12:46:35.475Z"
     },
     {
-      "fullName": "BURAK ERDEM",
-      "normalizedName": "BURAK ERDEM",
-      "baseKey": "BURAK ERDEM",
-      "category": "CAPRA",
-      "role": null,
-      "jobTitle": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "active",
-      "source": {
-        "file": "on_izin.xlsx",
-        "sheet": "CAPRA",
-        "row": 7
-      },
-      "mergedFrom": [],
-      "personId": "165719dc-185e-4dec-8d2b-750fddfea991",
-      "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
-    },
-    {
       "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
       "baseKey": "EYYUB SALIH ARIK",
       "fullName": "EYYÜB SALİH ARIK",
@@ -5804,6 +5784,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "875f439e-ece5-4523-90ff-97936a968b28",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "165719dc-185e-4dec-8d2b-750fddfea991",
+      "details": {
+        "person": {
+          "fullName": "BURAK ERDEM",
+          "normalizedName": "BURAK ERDEM",
+          "baseKey": "BURAK ERDEM",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 7
+          },
+          "mergedFrom": [],
+          "personId": "165719dc-185e-4dec-8d2b-750fddfea991",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        }
+      },
+      "timestamp": "2026-01-16T06:31:20.001Z",
+      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
+    },
     {
       "id": "7932a99b-8bdd-4b98-a736-89c7f0126c1a",
       "action": "CREATE",
