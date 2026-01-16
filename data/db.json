@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T13:54:33.483Z"
+    "lastUpdated": "2026-01-16T13:55:26.864Z"
   },
   "taxonomy": {
     "categories": [
@@ -3975,35 +3975,6 @@
       "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
-      "baseKey": "REZZAN KAYA",
-      "fullName": "REZZAN KAYA",
-      "normalizedName": "REZZAN KAYA",
-      "category": null,
-      "role": null,
-      "jobTitle": "116388/2025",
-      "needsReview": true,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "file": "takip.xlsx",
-          "sheet": "GÜNCEL (3)",
-          "row": 16
-        }
-      ],
-      "mergedFrom": [],
-      "trackingInfo": {
-        "applicationNo": "inşaat işçisi",
-        "profession": "116388/2025",
-        "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-        "expectedDate": "2026-01-18",
-        "contactPerson": "HAYDAR"
-      },
-      "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
-    },
-    {
       "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
       "baseKey": "MEHMET SERIF KORKMAZ",
       "fullName": "MEHMET ŞERİF KORKMAZ",
@@ -5744,6 +5715,45 @@
     }
   ],
   "audit": [
+    {
+      "id": "0a95a8f6-e52b-4037-b3ae-a4fc705f0952",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
+      "details": {
+        "person": {
+          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
+          "baseKey": "REZZAN KAYA",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "category": null,
+          "role": null,
+          "jobTitle": "116388/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 16
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116388/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "HAYDAR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        }
+      },
+      "timestamp": "2026-01-16T13:55:26.864Z",
+      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
+    },
     {
       "id": "6dbfebf5-570f-42b6-b9e7-95d2b645321a",
       "action": "CREATE",
