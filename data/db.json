@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T13:02:53.365Z"
+    "lastUpdated": "2026-01-16T13:02:57.424Z"
   },
   "taxonomy": {
     "categories": [
@@ -4780,25 +4780,6 @@
       "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a"
     },
     {
-      "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
-      "fullName": "REZZAN KAYA",
-      "normalizedName": "REZZAN KAYA",
-      "baseKey": "REZZAN KAYA",
-      "applicationNo": "inşaat işçisi",
-      "profession": "116388/2025",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-01-18",
-      "contactPerson": "NEŞAT",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 16
-      },
-      "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
-      "updatedAt": "2026-01-10T07:38:49.739Z"
-    },
-    {
       "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
       "fullName": "MEHMET ŞERİF KORKMAZ",
       "normalizedName": "MEHMET SERIF KORKMAZ",
@@ -5751,6 +5732,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "3b5c4cfc-0875-455a-a0f7-d27ea953a5f4",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "0833d07c-79df-492f-8a47-89589dd04ebc",
+      "details": {
+        "tracking": {
+          "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "baseKey": "REZZAN KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116388/2025",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 16
+          },
+          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
+          "updatedAt": "2026-01-10T07:38:49.739Z"
+        }
+      },
+      "timestamp": "2026-01-16T13:02:57.424Z",
+      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
+    },
     {
       "id": "b6656d33-19e0-4e8c-8526-014c60e59f22",
       "action": "DELETE",
