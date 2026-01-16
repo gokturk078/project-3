@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T08:45:42.882Z"
+    "lastUpdated": "2026-01-16T12:01:40.196Z"
   },
   "taxonomy": {
     "categories": [
@@ -5755,6 +5755,19 @@
       "exitMonth": "2026-01",
       "createdAt": "2026-01-16T08:45:19.305Z",
       "updatedAt": "2026-01-16T08:45:19.305Z"
+    },
+    {
+      "id": "7af8809e-301e-4761-a945-90c2e5eddaea",
+      "personId": null,
+      "fullName": "ADEM KOCA",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-11-07",
+      "exitDate": "2026-01-16",
+      "totalDays": 70,
+      "exitMonth": "2026-01",
+      "createdAt": "2026-01-16T12:01:40.196Z",
+      "updatedAt": "2026-01-16T12:01:40.196Z"
     }
   ],
   "duplicateCandidates": [],
@@ -5777,6 +5790,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "a5c73295-6092-4d24-8adc-9dcf0134016b",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "7af8809e-301e-4761-a945-90c2e5eddaea",
+      "details": {
+        "departure": {
+          "id": "7af8809e-301e-4761-a945-90c2e5eddaea",
+          "personId": null,
+          "fullName": "ADEM KOCA",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-11-07",
+          "exitDate": "2026-01-16",
+          "totalDays": 70,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-16T12:01:40.196Z",
+          "updatedAt": "2026-01-16T12:01:40.196Z"
+        }
+      },
+      "timestamp": "2026-01-16T12:01:40.196Z",
+      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
+    },
     {
       "id": "09935be8-824b-40d9-80f5-d3bc4512feda",
       "action": "DELETE",
