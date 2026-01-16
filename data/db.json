@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T06:31:20.001Z"
+    "lastUpdated": "2026-01-16T08:45:19.306Z"
   },
   "taxonomy": {
     "categories": [
@@ -5762,6 +5762,19 @@
       "exitMonth": "2026-01",
       "createdAt": "2026-01-16T06:30:30.200Z",
       "updatedAt": "2026-01-16T06:30:30.200Z"
+    },
+    {
+      "id": "dfabab13-f165-4495-8285-1cf36846f7a7",
+      "personId": null,
+      "fullName": "AHMET DÖNMEZ",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2025-12-07",
+      "exitDate": "2026-01-16",
+      "totalDays": 40,
+      "exitMonth": "2026-01",
+      "createdAt": "2026-01-16T08:45:19.305Z",
+      "updatedAt": "2026-01-16T08:45:19.305Z"
     }
   ],
   "duplicateCandidates": [],
@@ -5784,6 +5797,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "bdf826cc-1caa-48a7-9961-e692bb98c7fa",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "dfabab13-f165-4495-8285-1cf36846f7a7",
+      "details": {
+        "departure": {
+          "id": "dfabab13-f165-4495-8285-1cf36846f7a7",
+          "personId": null,
+          "fullName": "AHMET DÖNMEZ",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-12-07",
+          "exitDate": "2026-01-16",
+          "totalDays": 40,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-16T08:45:19.305Z",
+          "updatedAt": "2026-01-16T08:45:19.305Z"
+        }
+      },
+      "timestamp": "2026-01-16T08:45:19.306Z",
+      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
+    },
     {
       "id": "875f439e-ece5-4523-90ff-97936a968b28",
       "action": "DELETE",
