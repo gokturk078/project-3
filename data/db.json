@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:46:55.944Z"
+    "lastUpdated": "2026-01-17T08:47:26.997Z"
   },
   "taxonomy": {
     "categories": [
@@ -4062,35 +4062,6 @@
       "updatedAt": "2026-01-05T12:12:49.592Z"
     },
     {
-      "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
-      "baseKey": "MEHMET CIFTCI",
-      "fullName": "MEHMET ÇİFTÇİ",
-      "normalizedName": "MEHMET CIFTCI",
-      "category": null,
-      "role": null,
-      "jobTitle": "117458/2025",
-      "needsReview": true,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "file": "takip.xlsx",
-          "sheet": "GÜNCEL (3)",
-          "row": 20
-        }
-      ],
-      "mergedFrom": [],
-      "trackingInfo": {
-        "applicationNo": "inşaat işçisi",
-        "profession": "117458/2025",
-        "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-        "expectedDate": null,
-        "contactPerson": "MURAT ÜYÜR (İSKELE)"
-      },
-      "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
-    },
-    {
       "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
       "baseKey": "MECIT AYDOGAN",
       "fullName": "MECİT AYDOĞAN",
@@ -5753,6 +5724,45 @@
     }
   ],
   "audit": [
+    {
+      "id": "3600004f-0114-4765-984a-6cb4084c8f2f",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+      "details": {
+        "person": {
+          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+          "baseKey": "MEHMET CIFTCI",
+          "fullName": "MEHMET ÇİFTÇİ",
+          "normalizedName": "MEHMET CIFTCI",
+          "category": null,
+          "role": null,
+          "jobTitle": "117458/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 20
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117458/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR (İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:47:26.997Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "548f0808-439f-49ed-9e90-37e7ac6da447",
       "action": "UPDATE",
