@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:47:26.997Z"
+    "lastUpdated": "2026-01-17T08:48:05.595Z"
   },
   "taxonomy": {
     "categories": [
@@ -4950,7 +4950,7 @@
     },
     {
       "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
-      "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+      "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
       "applicationNo": "117458/2025",
       "profession": "İSKELE",
       "status": "ÖN İZNİ ONAYLANDI",
@@ -4958,7 +4958,7 @@
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-17T08:46:28.219Z",
-      "updatedAt": "2026-01-17T08:46:55.944Z"
+      "updatedAt": "2026-01-17T08:48:05.595Z"
     }
   ],
   "departures": [
@@ -5724,6 +5724,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "b54af76d-eff8-4a3f-8a0f-edcaaff3a514",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+      "details": {
+        "before": {
+          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+          "applicationNo": "117458/2025",
+          "profession": "İSKELE",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-17T08:46:28.219Z",
+          "updatedAt": "2026-01-17T08:46:55.944Z"
+        },
+        "after": {
+          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+          "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
+          "applicationNo": "117458/2025",
+          "profession": "İSKELE",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-17T08:46:28.219Z",
+          "updatedAt": "2026-01-17T08:48:05.595Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:48:05.595Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "3600004f-0114-4765-984a-6cb4084c8f2f",
       "action": "DELETE",
