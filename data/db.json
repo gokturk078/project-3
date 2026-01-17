@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:25:04.002Z"
+    "lastUpdated": "2026-01-17T08:25:17.241Z"
   },
   "taxonomy": {
     "categories": [
@@ -4721,8 +4721,8 @@
       "baseKey": "MUHAMMET AR",
       "applicationNo": "inşaat işçisi",
       "profession": "115670/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "source": {
@@ -4730,7 +4730,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 11
       },
-      "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a"
+      "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+      "updatedAt": "2026-01-17T08:25:17.241Z"
     },
     {
       "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
@@ -5720,6 +5721,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "2e0ec763-56df-44b2-9f1a-e33b93b742a1",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
+      "details": {
+        "before": {
+          "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "baseKey": "MUHAMMET AR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115670/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 11
+          },
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a"
+        },
+        "after": {
+          "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "baseKey": "MUHAMMET AR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115670/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 11
+          },
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+          "updatedAt": "2026-01-17T08:25:17.241Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:25:17.241Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "4f5120fb-0389-4904-8175-5e1a700ea6ee",
       "action": "UPDATE",
