@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:48:05.595Z"
+    "lastUpdated": "2026-01-17T11:20:47.466Z"
   },
   "taxonomy": {
     "categories": [
@@ -4598,7 +4598,7 @@
       "baseKey": "HALIL KAYA",
       "applicationNo": "inşaat işçisi",
       "profession": "113790/2025",
-      "status": "AKİT YÜKLENECEK",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "2025-12-21",
       "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
       "notes": "",
@@ -4608,7 +4608,7 @@
         "row": 4
       },
       "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
-      "updatedAt": "2026-01-15T10:33:19.196Z"
+      "updatedAt": "2026-01-17T11:20:47.466Z"
     },
     {
       "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
@@ -5724,6 +5724,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "f3331623-b482-4b72-901c-722d417cae0e",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "db910679-62cf-491d-af0b-6673313a6ca2",
+      "details": {
+        "before": {
+          "id": "db910679-62cf-491d-af0b-6673313a6ca2",
+          "fullName": "HALİL KAYA",
+          "normalizedName": "HALIL KAYA",
+          "baseKey": "HALIL KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "113790/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2025-12-21",
+          "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 4
+          },
+          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+          "updatedAt": "2026-01-15T10:33:19.196Z"
+        },
+        "after": {
+          "id": "db910679-62cf-491d-af0b-6673313a6ca2",
+          "fullName": "HALİL KAYA",
+          "normalizedName": "HALIL KAYA",
+          "baseKey": "HALIL KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "113790/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2025-12-21",
+          "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 4
+          },
+          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+          "updatedAt": "2026-01-17T11:20:47.466Z"
+        }
+      },
+      "timestamp": "2026-01-17T11:20:47.466Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "b54af76d-eff8-4a3f-8a0f-edcaaff3a514",
       "action": "UPDATE",
