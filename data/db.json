@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:21:02.229Z"
+    "lastUpdated": "2026-01-17T08:21:09.572Z"
   },
   "taxonomy": {
     "categories": [
@@ -4853,8 +4853,8 @@
       "baseKey": "ABDULSAMET DURU",
       "applicationNo": "inşaat işçisi",
       "profession": "117471/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "İSG(İŞÇİ)",
       "notes": "",
       "source": {
@@ -4862,7 +4862,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 23
       },
-      "personId": "8839f24f-9749-49a0-b4f9-84733601a72b"
+      "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+      "updatedAt": "2026-01-17T08:21:09.572Z"
     },
     {
       "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
@@ -5719,6 +5720,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "bc1ed769-d933-4a98-b21c-00c4dfb0c3e6",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
+      "details": {
+        "before": {
+          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "baseKey": "ABDULSAMET DURU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117471/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "İSG(İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 23
+          },
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b"
+        },
+        "after": {
+          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "baseKey": "ABDULSAMET DURU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117471/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "İSG(İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 23
+          },
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+          "updatedAt": "2026-01-17T08:21:09.572Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:21:09.572Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "db7e9737-5012-4088-9008-6d457a3010b9",
       "action": "UPDATE",
