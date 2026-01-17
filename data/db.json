@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:25:17.241Z"
+    "lastUpdated": "2026-01-17T08:45:01.588Z"
   },
   "taxonomy": {
     "categories": [
@@ -4325,6 +4325,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-14T07:49:17.429Z",
       "updatedAt": "2026-01-14T07:49:17.429Z"
+    },
+    {
+      "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
+      "baseKey": "MEHMET ÇİFTÇİ",
+      "fullName": "MEHMET ÇİFTÇİ",
+      "normalizedName": "MEHMET ÇİFTÇİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-17T08:45:01.588Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-17T08:45:01.588Z",
+      "updatedAt": "2026-01-17T08:45:01.588Z"
     }
   ],
   "leaves": [
@@ -5721,6 +5741,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "0b11015d-0127-4caf-9390-4596a1ef13d5",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
+      "details": {
+        "person": {
+          "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
+          "baseKey": "MEHMET ÇİFTÇİ",
+          "fullName": "MEHMET ÇİFTÇİ",
+          "normalizedName": "MEHMET ÇİFTÇİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-17T08:45:01.588Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-17T08:45:01.588Z",
+          "updatedAt": "2026-01-17T08:45:01.588Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:45:01.588Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "2e0ec763-56df-44b2-9f1a-e33b93b742a1",
       "action": "UPDATE",
