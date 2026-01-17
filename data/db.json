@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:21:09.572Z"
+    "lastUpdated": "2026-01-17T08:21:18.947Z"
   },
   "taxonomy": {
     "categories": [
@@ -4872,7 +4872,7 @@
       "baseKey": "BENAN UYUR",
       "applicationNo": "BÜRO MEMURU",
       "profession": "117543/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "OFİS PERSONELİ",
       "notes": "",
@@ -4882,7 +4882,7 @@
         "row": 24
       },
       "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-      "updatedAt": "2026-01-10T07:39:36.262Z"
+      "updatedAt": "2026-01-17T08:21:18.947Z"
     },
     {
       "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
@@ -5720,6 +5720,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "82b8bfab-012e-4fa0-ba6d-9f578334856c",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
+      "details": {
+        "before": {
+          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
+          "fullName": "BENAN ÜYÜR",
+          "normalizedName": "BENAN UYUR",
+          "baseKey": "BENAN UYUR",
+          "applicationNo": "BÜRO MEMURU",
+          "profession": "117543/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "OFİS PERSONELİ",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 24
+          },
+          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+          "updatedAt": "2026-01-10T07:39:36.262Z"
+        },
+        "after": {
+          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
+          "fullName": "BENAN ÜYÜR",
+          "normalizedName": "BENAN UYUR",
+          "baseKey": "BENAN UYUR",
+          "applicationNo": "BÜRO MEMURU",
+          "profession": "117543/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "OFİS PERSONELİ",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 24
+          },
+          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+          "updatedAt": "2026-01-17T08:21:18.947Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:21:18.947Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "bc1ed769-d933-4a98-b21c-00c4dfb0c3e6",
       "action": "UPDATE",
