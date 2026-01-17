@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:46:28.219Z"
+    "lastUpdated": "2026-01-17T08:46:55.944Z"
   },
   "taxonomy": {
     "categories": [
@@ -4981,13 +4981,13 @@
       "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
       "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
       "applicationNo": "117458/2025",
-      "profession": "",
+      "profession": "İSKELE",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-29",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-17T08:46:28.219Z",
-      "updatedAt": "2026-01-17T08:46:28.219Z"
+      "updatedAt": "2026-01-17T08:46:55.944Z"
     }
   ],
   "departures": [
@@ -5753,6 +5753,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "548f0808-439f-49ed-9e90-37e7ac6da447",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+      "details": {
+        "before": {
+          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+          "applicationNo": "117458/2025",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-17T08:46:28.219Z",
+          "updatedAt": "2026-01-17T08:46:28.219Z"
+        },
+        "after": {
+          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
+          "applicationNo": "117458/2025",
+          "profession": "İSKELE",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-17T08:46:28.219Z",
+          "updatedAt": "2026-01-17T08:46:55.944Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:46:55.944Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "79197aba-9a9f-4795-95e4-5bf0f1fa478d",
       "action": "CREATE",
