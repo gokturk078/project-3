@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:20:17.655Z"
+    "lastUpdated": "2026-01-17T08:20:41.481Z"
   },
   "taxonomy": {
     "categories": [
@@ -4796,8 +4796,8 @@
       "baseKey": "RIDVAN GEZER",
       "applicationNo": "inşaat işçisi",
       "profession": "117452/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR( İSKELE)",
       "notes": "",
       "source": {
@@ -4805,7 +4805,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 19
       },
-      "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf"
+      "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
+      "updatedAt": "2026-01-17T08:20:41.481Z"
     },
     {
       "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
@@ -5716,6 +5717,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "ab3e4786-17a0-4176-a05a-b1870ce6fdaf",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
+      "details": {
+        "before": {
+          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
+          "fullName": "RIDVAN GEZER",
+          "normalizedName": "RIDVAN GEZER",
+          "baseKey": "RIDVAN GEZER",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117452/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 19
+          },
+          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf"
+        },
+        "after": {
+          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
+          "fullName": "RIDVAN GEZER",
+          "normalizedName": "RIDVAN GEZER",
+          "baseKey": "RIDVAN GEZER",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117452/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 19
+          },
+          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
+          "updatedAt": "2026-01-17T08:20:41.481Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:20:41.481Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "793d3d1f-3af8-4c9d-8625-17b592d11a9b",
       "action": "UPDATE",
