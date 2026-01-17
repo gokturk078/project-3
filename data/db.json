@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:20:53.985Z"
+    "lastUpdated": "2026-01-17T08:21:02.229Z"
   },
   "taxonomy": {
     "categories": [
@@ -4834,8 +4834,8 @@
       "baseKey": "SERHAT IS",
       "applicationNo": "inşaat işçisi",
       "profession": "117470/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "İSG (İŞÇİ)",
       "notes": "",
       "source": {
@@ -4843,7 +4843,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 22
       },
-      "personId": "ea679478-0826-4468-9be1-e8081993dc5a"
+      "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+      "updatedAt": "2026-01-17T08:21:02.229Z"
     },
     {
       "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
@@ -5718,6 +5719,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "db7e9737-5012-4088-9008-6d457a3010b9",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
+      "details": {
+        "before": {
+          "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "baseKey": "SERHAT IS",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117470/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "İSG (İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 22
+          },
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a"
+        },
+        "after": {
+          "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "baseKey": "SERHAT IS",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117470/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "İSG (İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 22
+          },
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "updatedAt": "2026-01-17T08:21:02.229Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:21:02.229Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "d8e16667-49f0-40d8-b871-f50f6e9eb90f",
       "action": "UPDATE",
