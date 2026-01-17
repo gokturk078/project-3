@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:20:00.121Z"
+    "lastUpdated": "2026-01-17T08:20:08.563Z"
   },
   "taxonomy": {
     "categories": [
@@ -4758,7 +4758,7 @@
       "baseKey": "MEHMET SERIF KORKMAZ",
       "applicationNo": "inşaat işçisi",
       "profession": "117450/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR( İSKELE)",
       "notes": "",
@@ -4768,7 +4768,7 @@
         "row": 17
       },
       "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-      "updatedAt": "2026-01-06T13:03:48.343Z"
+      "updatedAt": "2026-01-17T08:20:08.563Z"
     },
     {
       "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
@@ -5716,6 +5716,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "7c6a86b2-9975-44f8-82d8-fc9b5e9fedc1",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+      "details": {
+        "before": {
+          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117450/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 17
+          },
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+          "updatedAt": "2026-01-06T13:03:48.343Z"
+        },
+        "after": {
+          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117450/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 17
+          },
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+          "updatedAt": "2026-01-17T08:20:08.563Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:20:08.563Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "7b1034af-b31d-4d7e-83ba-20102ecedca7",
       "action": "UPDATE",
