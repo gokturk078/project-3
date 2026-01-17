@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:19:44.652Z"
+    "lastUpdated": "2026-01-17T08:20:00.121Z"
   },
   "taxonomy": {
     "categories": [
@@ -4739,8 +4739,8 @@
       "baseKey": "CEMALETTIN KAPLAN",
       "applicationNo": "inşaat işçisi",
       "profession": "115668/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "source": {
@@ -4748,7 +4748,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 12
       },
-      "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a"
+      "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+      "updatedAt": "2026-01-17T08:20:00.121Z"
     },
     {
       "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
@@ -5715,6 +5716,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "7b1034af-b31d-4d7e-83ba-20102ecedca7",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "b816461c-3d15-4e63-a725-ec59255e8db2",
+      "details": {
+        "before": {
+          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115668/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 12
+          },
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a"
+        },
+        "after": {
+          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115668/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 12
+          },
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+          "updatedAt": "2026-01-17T08:20:00.121Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:20:00.121Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "d3fcbde7-10f5-4729-bf5c-27d00245f35e",
       "action": "UPDATE",
