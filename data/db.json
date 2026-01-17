@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-16T13:55:26.864Z"
+    "lastUpdated": "2026-01-17T08:19:44.652Z"
   },
   "taxonomy": {
     "categories": [
@@ -4626,7 +4626,7 @@
       "baseKey": "BARIS TUNA",
       "applicationNo": "inşaat işçisi",
       "profession": "113826/2025",
-      "status": "AKİT YÜKLENECEK",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "2025-12-21",
       "contactPerson": "YEMEKHANECİ SEDAT",
       "notes": "",
@@ -4636,7 +4636,7 @@
         "row": 5
       },
       "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
-      "updatedAt": "2026-01-15T10:33:27.438Z"
+      "updatedAt": "2026-01-17T08:19:44.652Z"
     },
     {
       "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
@@ -5715,6 +5715,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "d3fcbde7-10f5-4729-bf5c-27d00245f35e",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "d6778e87-2cb9-44dd-b3de-37bee423d628",
+      "details": {
+        "before": {
+          "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
+          "fullName": "BARIŞ TUNA",
+          "normalizedName": "BARIS TUNA",
+          "baseKey": "BARIS TUNA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "113826/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2025-12-21",
+          "contactPerson": "YEMEKHANECİ SEDAT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 5
+          },
+          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
+          "updatedAt": "2026-01-15T10:33:27.438Z"
+        },
+        "after": {
+          "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
+          "fullName": "BARIŞ TUNA",
+          "normalizedName": "BARIS TUNA",
+          "baseKey": "BARIS TUNA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "113826/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2025-12-21",
+          "contactPerson": "YEMEKHANECİ SEDAT",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 5
+          },
+          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
+          "updatedAt": "2026-01-17T08:19:44.652Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:19:44.652Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "0a95a8f6-e52b-4037-b3ae-a4fc705f0952",
       "action": "DELETE",
