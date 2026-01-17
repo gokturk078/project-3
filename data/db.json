@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:20:41.481Z"
+    "lastUpdated": "2026-01-17T08:20:53.985Z"
   },
   "taxonomy": {
     "categories": [
@@ -4815,8 +4815,8 @@
       "baseKey": "MECIT AYDOGAN",
       "applicationNo": "inşaat işçisi",
       "profession": "117468/2025",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR (İSKELE)",
       "notes": "",
       "source": {
@@ -4824,7 +4824,8 @@
         "sheet": "GÜNCEL (3)",
         "row": 21
       },
-      "personId": "0af29589-af64-4fa8-aef7-7b480090f51e"
+      "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+      "updatedAt": "2026-01-17T08:20:53.985Z"
     },
     {
       "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
@@ -5717,6 +5718,53 @@
     }
   ],
   "audit": [
+    {
+      "id": "d8e16667-49f0-40d8-b871-f50f6e9eb90f",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
+      "details": {
+        "before": {
+          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "baseKey": "MECIT AYDOGAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117468/2025",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "MURAT ÜYÜR (İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 21
+          },
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e"
+        },
+        "after": {
+          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "baseKey": "MECIT AYDOGAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117468/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR (İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 21
+          },
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+          "updatedAt": "2026-01-17T08:20:53.985Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:20:53.985Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "ab3e4786-17a0-4176-a05a-b1870ce6fdaf",
       "action": "UPDATE",
