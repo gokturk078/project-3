@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T08:21:31.737Z"
+    "lastUpdated": "2026-01-17T08:25:04.002Z"
   },
   "taxonomy": {
     "categories": [
@@ -4949,12 +4949,12 @@
       "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
       "applicationNo": "116094",
       "profession": "FORMEN",
-      "status": "ÖN İZNİ ONAYLANDI",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-01-17",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-16T13:54:33.482Z",
-      "updatedAt": "2026-01-16T13:54:33.482Z"
+      "updatedAt": "2026-01-17T08:25:04.002Z"
     }
   ],
   "departures": [
@@ -5720,6 +5720,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "4f5120fb-0389-4904-8175-5e1a700ea6ee",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
+      "details": {
+        "before": {
+          "id": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
+          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+          "applicationNo": "116094",
+          "profession": "FORMEN",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-17",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-16T13:54:33.482Z",
+          "updatedAt": "2026-01-16T13:54:33.482Z"
+        },
+        "after": {
+          "id": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
+          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+          "applicationNo": "116094",
+          "profession": "FORMEN",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-17",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-16T13:54:33.482Z",
+          "updatedAt": "2026-01-17T08:25:04.002Z"
+        }
+      },
+      "timestamp": "2026-01-17T08:25:04.002Z",
+      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
+    },
     {
       "id": "8bf9cf65-7e14-4d6a-a7f4-7d6f57e950eb",
       "action": "UPDATE",
