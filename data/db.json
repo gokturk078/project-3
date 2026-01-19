@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:22:50.358Z"
+    "lastUpdated": "2026-01-19T07:23:19.939Z"
   },
   "taxonomy": {
     "categories": [
@@ -3631,12 +3631,12 @@
       "baseKey": "HALIL KAYA",
       "fullName": "HALİL KAYA",
       "normalizedName": "HALIL KAYA",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
       "jobTitle": "113790/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -3653,7 +3653,7 @@
         "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-01-19T07:23:19.939Z"
     },
     {
       "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
@@ -6007,6 +6007,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "83498a33-cecd-411a-b71e-d26fc81c9bd4",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+      "details": {
+        "before": {
+          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+          "baseKey": "HALIL KAYA",
+          "fullName": "HALİL KAYA",
+          "normalizedName": "HALIL KAYA",
+          "category": null,
+          "role": null,
+          "jobTitle": "113790/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 4
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "113790/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": "2025-12-21",
+            "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+          "baseKey": "HALIL KAYA",
+          "fullName": "HALİL KAYA",
+          "normalizedName": "HALIL KAYA",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "113790/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 4
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "113790/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": "2025-12-21",
+            "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-19T07:23:19.939Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:23:19.939Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "bf3219f4-0ef7-454b-b6ae-ee2f3b633e8c",
       "action": "DELETE",
