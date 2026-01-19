@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T09:17:58.995Z"
+    "lastUpdated": "2026-01-19T09:18:12.147Z"
   },
   "taxonomy": {
     "categories": [
@@ -5265,11 +5265,11 @@
       "applicationNo": "119220/2026",
       "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "expectedDate": "2026-01-19",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-01-19T07:18:39.785Z",
-      "updatedAt": "2026-01-19T07:18:39.785Z"
+      "updatedAt": "2026-01-19T09:18:12.147Z"
     },
     {
       "id": "4c794d61-8133-4cc3-a210-c303d1e7b07d",
@@ -6071,6 +6071,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "e400642f-cf2b-45cc-86b7-d638aa73685d",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "f6a2cf39-162f-45de-b076-e80afac149a6",
+      "details": {
+        "before": {
+          "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
+          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
+          "applicationNo": "119220/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:18:39.785Z",
+          "updatedAt": "2026-01-19T07:18:39.785Z"
+        },
+        "after": {
+          "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
+          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
+          "applicationNo": "119220/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:18:39.785Z",
+          "updatedAt": "2026-01-19T09:18:12.147Z"
+        }
+      },
+      "timestamp": "2026-01-19T09:18:12.147Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "0917678b-dfe6-443e-b905-dd990de574ef",
       "action": "UPDATE",
