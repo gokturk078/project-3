@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:23:54.173Z"
+    "lastUpdated": "2026-01-19T09:15:09.421Z"
   },
   "taxonomy": {
     "categories": [
@@ -4517,6 +4517,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:08:35.997Z",
       "updatedAt": "2026-01-19T07:08:35.997Z"
+    },
+    {
+      "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
+      "baseKey": "SENA EKİZ",
+      "fullName": "SENA EKİZ",
+      "normalizedName": "SENA EKİZ",
+      "category": "REPSAM",
+      "role": "MİMAR",
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T09:15:09.420Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T09:15:09.420Z",
+      "updatedAt": "2026-01-19T09:15:09.420Z"
     }
   ],
   "leaves": [
@@ -6007,6 +6027,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "135f18e7-821c-4197-96ab-9b65b6ece571",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
+      "details": {
+        "person": {
+          "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
+          "baseKey": "SENA EKİZ",
+          "fullName": "SENA EKİZ",
+          "normalizedName": "SENA EKİZ",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T09:15:09.420Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T09:15:09.420Z",
+          "updatedAt": "2026-01-19T09:15:09.420Z"
+        }
+      },
+      "timestamp": "2026-01-19T09:15:09.420Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "5fa13078-38d9-4770-8071-ba9a183d32ab",
       "action": "UPDATE",
