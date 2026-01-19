@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T09:16:48.861Z"
+    "lastUpdated": "2026-01-19T09:17:39.680Z"
   },
   "taxonomy": {
     "categories": [
@@ -5294,6 +5294,18 @@
       "notes": "",
       "createdAt": "2026-01-19T09:16:48.860Z",
       "updatedAt": "2026-01-19T09:16:48.860Z"
+    },
+    {
+      "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
+      "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
+      "applicationNo": "119258",
+      "profession": "MİMAR",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-01-19",
+      "contactPerson": "MURAT ÜYÜR",
+      "notes": "",
+      "createdAt": "2026-01-19T09:17:39.679Z",
+      "updatedAt": "2026-01-19T09:17:39.679Z"
     }
   ],
   "departures": [
@@ -6059,6 +6071,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "e368666b-f313-4fed-ae80-d2a420986167",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "19eda63b-baba-4273-94bf-d1883ce6dd45",
+      "details": {
+        "tracking": {
+          "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
+          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
+          "applicationNo": "119258",
+          "profession": "MİMAR",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-19T09:17:39.679Z",
+          "updatedAt": "2026-01-19T09:17:39.679Z"
+        }
+      },
+      "timestamp": "2026-01-19T09:17:39.679Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "46bc9c36-cd58-4bd2-a79a-ccfd71379cbf",
       "action": "CREATE",
