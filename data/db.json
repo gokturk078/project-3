@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:08:35.997Z"
+    "lastUpdated": "2026-01-19T07:11:02.995Z"
   },
   "taxonomy": {
     "categories": [
@@ -5159,6 +5159,18 @@
       "notes": "",
       "createdAt": "2026-01-17T08:46:28.219Z",
       "updatedAt": "2026-01-17T08:48:05.595Z"
+    },
+    {
+      "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
+      "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+      "applicationNo": "119236",
+      "profession": "İinşaat işçisi",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "NEŞAT",
+      "notes": "",
+      "createdAt": "2026-01-19T07:11:02.995Z",
+      "updatedAt": "2026-01-19T07:11:02.995Z"
     }
   ],
   "departures": [
@@ -5924,6 +5936,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "48d98022-fd46-409f-8f6c-c0f6c3b3b741",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "172acf5d-9fae-4830-9b15-73ea03e02c99",
+      "details": {
+        "tracking": {
+          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
+          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+          "applicationNo": "119236",
+          "profession": "İinşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:02.995Z",
+          "updatedAt": "2026-01-19T07:11:02.995Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:11:02.995Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "83c912db-994f-4fef-8f4d-e625a8a1771d",
       "action": "CREATE",
