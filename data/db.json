@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:06:27.519Z"
+    "lastUpdated": "2026-01-19T07:06:50.330Z"
   },
   "taxonomy": {
     "categories": [
@@ -4396,6 +4396,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:06:27.518Z",
       "updatedAt": "2026-01-19T07:06:27.518Z"
+    },
+    {
+      "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+      "baseKey": "MAHMUT DEMİRALP",
+      "fullName": "MAHMUT DEMİRALP",
+      "normalizedName": "MAHMUT DEMİRALP",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:06:50.330Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:06:50.330Z",
+      "updatedAt": "2026-01-19T07:06:50.330Z"
     }
   ],
   "leaves": [
@@ -5804,6 +5824,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "03ec0388-8276-44c9-bbbc-45cbca8b289d",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+      "details": {
+        "person": {
+          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+          "baseKey": "MAHMUT DEMİRALP",
+          "fullName": "MAHMUT DEMİRALP",
+          "normalizedName": "MAHMUT DEMİRALP",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:50.330Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:50.330Z",
+          "updatedAt": "2026-01-19T07:06:50.330Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:06:50.330Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "0f0df0e9-c13e-4077-8e0b-d01b94012806",
       "action": "CREATE",
