@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T19:01:01.755Z"
+    "lastUpdated": "2026-01-19T19:02:17.503Z"
   },
   "taxonomy": {
     "categories": [
@@ -5108,12 +5108,12 @@
       "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
       "applicationNo": "118865/2026",
       "profession": "İSKELE",
-      "status": "ÖN İZNİ ONAYLANDI",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
       "expectedDate": "2026-01-14",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-14T07:53:21.184Z",
-      "updatedAt": "2026-01-14T07:53:21.184Z"
+      "updatedAt": "2026-01-19T19:02:17.503Z"
     },
     {
       "id": "2b2951d6-2015-4e6e-a302-c75bf6162f4c",
@@ -6047,6 +6047,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "0b9afa42-fd29-4772-b954-f3309903a6cd",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
+      "details": {
+        "before": {
+          "id": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
+          "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
+          "applicationNo": "118865/2026",
+          "profession": "İSKELE",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-14",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-14T07:53:21.184Z",
+          "updatedAt": "2026-01-14T07:53:21.184Z"
+        },
+        "after": {
+          "id": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
+          "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
+          "applicationNo": "118865/2026",
+          "profession": "İSKELE",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-14",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-14T07:53:21.184Z",
+          "updatedAt": "2026-01-19T19:02:17.503Z"
+        }
+      },
+      "timestamp": "2026-01-19T19:02:17.503Z",
+      "adminSession": "7782ddc6-6e3d-4c06-9ddd-ba793d240a17"
+    },
     {
       "id": "2129d0b4-beab-4d34-a8ad-14289635395f",
       "action": "UPDATE",
