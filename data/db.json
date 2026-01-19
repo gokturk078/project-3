@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:16:29.340Z"
+    "lastUpdated": "2026-01-19T07:17:28.400Z"
   },
   "taxonomy": {
     "categories": [
@@ -5243,6 +5243,18 @@
       "notes": "",
       "createdAt": "2026-01-19T07:16:29.340Z",
       "updatedAt": "2026-01-19T07:16:29.340Z"
+    },
+    {
+      "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
+      "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+      "applicationNo": "119221/2026",
+      "profession": "inşaat işçisi",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-01-19T07:17:28.400Z",
+      "updatedAt": "2026-01-19T07:17:28.400Z"
     }
   ],
   "departures": [
@@ -6008,6 +6020,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "69376933-718f-424a-bb1f-7e6636adae80",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
+      "details": {
+        "tracking": {
+          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
+          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+          "applicationNo": "119221/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:17:28.400Z",
+          "updatedAt": "2026-01-19T07:17:28.400Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:17:28.400Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "34a409c0-9ce2-4d12-91c1-21d46dd1381d",
       "action": "CREATE",
