@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:06:50.330Z"
+    "lastUpdated": "2026-01-19T07:07:08.513Z"
   },
   "taxonomy": {
     "categories": [
@@ -4416,6 +4416,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:06:50.330Z",
       "updatedAt": "2026-01-19T07:06:50.330Z"
+    },
+    {
+      "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
+      "baseKey": "EMRAH KARBUZ",
+      "fullName": "EMRAH KARBUZ",
+      "normalizedName": "EMRAH KARBUZ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:07:08.513Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:07:08.513Z",
+      "updatedAt": "2026-01-19T07:07:08.513Z"
     }
   ],
   "leaves": [
@@ -5824,6 +5844,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "83c51cb8-fd27-48b7-bc3a-e66655ab1ba7",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
+      "details": {
+        "person": {
+          "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
+          "baseKey": "EMRAH KARBUZ",
+          "fullName": "EMRAH KARBUZ",
+          "normalizedName": "EMRAH KARBUZ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:07:08.513Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:07:08.513Z",
+          "updatedAt": "2026-01-19T07:07:08.513Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:07:08.513Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "03ec0388-8276-44c9-bbbc-45cbca8b289d",
       "action": "CREATE",
