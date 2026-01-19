@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T09:18:35.526Z"
+    "lastUpdated": "2026-01-19T09:18:45.368Z"
   },
   "taxonomy": {
     "categories": [
@@ -5229,11 +5229,11 @@
       "applicationNo": "119223/2026",
       "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "expectedDate": "2026-01-19",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-01-19T07:15:45.447Z",
-      "updatedAt": "2026-01-19T07:15:45.447Z"
+      "updatedAt": "2026-01-19T09:18:45.368Z"
     },
     {
       "id": "0ae80ce6-32da-4225-a26f-7614a5b4c772",
@@ -6071,6 +6071,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "fe869747-f8b9-45c2-989e-a415fb6f0287",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "b1010c12-f6c8-411f-9561-5bbdc929d311",
+      "details": {
+        "before": {
+          "id": "b1010c12-f6c8-411f-9561-5bbdc929d311",
+          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+          "applicationNo": "119223/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:15:45.447Z",
+          "updatedAt": "2026-01-19T07:15:45.447Z"
+        },
+        "after": {
+          "id": "b1010c12-f6c8-411f-9561-5bbdc929d311",
+          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+          "applicationNo": "119223/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:15:45.447Z",
+          "updatedAt": "2026-01-19T09:18:45.368Z"
+        }
+      },
+      "timestamp": "2026-01-19T09:18:45.368Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "a3784110-a1e8-46b6-8661-733354be8b7c",
       "action": "UPDATE",
