@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T09:19:20.068Z"
+    "lastUpdated": "2026-01-19T09:19:29.693Z"
   },
   "taxonomy": {
     "categories": [
@@ -5181,11 +5181,11 @@
       "applicationNo": "119227/2026",
       "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "",
+      "expectedDate": "2026-01-19",
       "contactPerson": "NEŞAT",
       "notes": "",
       "createdAt": "2026-01-19T07:11:52.399Z",
-      "updatedAt": "2026-01-19T07:19:44.105Z"
+      "updatedAt": "2026-01-19T09:19:29.693Z"
     },
     {
       "id": "0239d66d-ee5c-4e4c-8295-b71dac138a96",
@@ -6071,6 +6071,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "5dcdeb18-027d-4bac-95b2-ab393bfef033",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "254d5842-78ef-4dab-8957-53670257eaa0",
+      "details": {
+        "before": {
+          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "applicationNo": "119227/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:52.399Z",
+          "updatedAt": "2026-01-19T07:19:44.105Z"
+        },
+        "after": {
+          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "applicationNo": "119227/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:52.399Z",
+          "updatedAt": "2026-01-19T09:19:29.693Z"
+        }
+      },
+      "timestamp": "2026-01-19T09:19:29.693Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "fce93ff1-936f-4605-ae48-9eb0197a40f2",
       "action": "UPDATE",
