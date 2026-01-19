@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:19:23.894Z"
+    "lastUpdated": "2026-01-19T07:19:44.106Z"
   },
   "taxonomy": {
     "categories": [
@@ -5175,14 +5175,14 @@
     {
       "id": "254d5842-78ef-4dab-8957-53670257eaa0",
       "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-      "applicationNo": "119227",
+      "applicationNo": "119227/2026",
       "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "expectedDate": "",
       "contactPerson": "NEŞAT",
       "notes": "",
       "createdAt": "2026-01-19T07:11:52.399Z",
-      "updatedAt": "2026-01-19T07:11:52.399Z"
+      "updatedAt": "2026-01-19T07:19:44.105Z"
     },
     {
       "id": "0239d66d-ee5c-4e4c-8295-b71dac138a96",
@@ -6044,6 +6044,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "2485737e-83ad-46b4-9535-84d277d417aa",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "254d5842-78ef-4dab-8957-53670257eaa0",
+      "details": {
+        "before": {
+          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "applicationNo": "119227",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:52.399Z",
+          "updatedAt": "2026-01-19T07:11:52.399Z"
+        },
+        "after": {
+          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "applicationNo": "119227/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:52.399Z",
+          "updatedAt": "2026-01-19T07:19:44.105Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:19:44.105Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "6b5966cb-cb74-43ee-b654-3401d4293ab2",
       "action": "CREATE",
