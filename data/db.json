@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:05:23.129Z"
+    "lastUpdated": "2026-01-19T07:05:46.607Z"
   },
   "taxonomy": {
     "categories": [
@@ -4336,6 +4336,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:05:23.129Z",
       "updatedAt": "2026-01-19T07:05:23.129Z"
+    },
+    {
+      "personId": "52050282-6982-4686-a995-1bd8c83b806a",
+      "baseKey": "MUHAMMET ÇALIŞKAN",
+      "fullName": "MUHAMMET ÇALIŞKAN",
+      "normalizedName": "MUHAMMET ÇALIŞKAN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:05:46.607Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:05:46.607Z",
+      "updatedAt": "2026-01-19T07:05:46.607Z"
     }
   ],
   "leaves": [
@@ -5744,6 +5764,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "6b024e60-5ac5-4d8e-a8cc-2e588792e8a0",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "52050282-6982-4686-a995-1bd8c83b806a",
+      "details": {
+        "person": {
+          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
+          "baseKey": "MUHAMMET ÇALIŞKAN",
+          "fullName": "MUHAMMET ÇALIŞKAN",
+          "normalizedName": "MUHAMMET ÇALIŞKAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:05:46.607Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:05:46.607Z",
+          "updatedAt": "2026-01-19T07:05:46.607Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:05:46.607Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "5afc7bce-902e-422a-83d3-c16b3d2e26b7",
       "action": "CREATE",
