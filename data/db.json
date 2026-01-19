@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:07:08.513Z"
+    "lastUpdated": "2026-01-19T07:07:30.342Z"
   },
   "taxonomy": {
     "categories": [
@@ -4436,6 +4436,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:07:08.513Z",
       "updatedAt": "2026-01-19T07:07:08.513Z"
+    },
+    {
+      "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
+      "baseKey": "ADİL BAŞARMAK",
+      "fullName": "ADİL BAŞARMAK",
+      "normalizedName": "ADİL BAŞARMAK",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:07:30.342Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:07:30.342Z",
+      "updatedAt": "2026-01-19T07:07:30.342Z"
     }
   ],
   "leaves": [
@@ -5844,6 +5864,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "c4ee5e2f-46c1-4b9c-9f68-3b2d2e4ffa99",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "354f6255-739b-4607-97a7-fb1da9a21c30",
+      "details": {
+        "person": {
+          "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
+          "baseKey": "ADİL BAŞARMAK",
+          "fullName": "ADİL BAŞARMAK",
+          "normalizedName": "ADİL BAŞARMAK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:07:30.342Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:07:30.342Z",
+          "updatedAt": "2026-01-19T07:07:30.342Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:07:30.342Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "83c51cb8-fd27-48b7-bc3a-e66655ab1ba7",
       "action": "CREATE",
