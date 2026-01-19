@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:06:06.954Z"
+    "lastUpdated": "2026-01-19T07:06:27.519Z"
   },
   "taxonomy": {
     "categories": [
@@ -4376,6 +4376,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:06:06.954Z",
       "updatedAt": "2026-01-19T07:06:06.954Z"
+    },
+    {
+      "personId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
+      "baseKey": "İSAK PEHLİVAN",
+      "fullName": "İSAK PEHLİVAN",
+      "normalizedName": "İSAK PEHLİVAN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:06:27.518Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:06:27.518Z",
+      "updatedAt": "2026-01-19T07:06:27.518Z"
     }
   ],
   "leaves": [
@@ -5784,6 +5804,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "0f0df0e9-c13e-4077-8e0b-d01b94012806",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
+      "details": {
+        "person": {
+          "personId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
+          "baseKey": "İSAK PEHLİVAN",
+          "fullName": "İSAK PEHLİVAN",
+          "normalizedName": "İSAK PEHLİVAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:27.518Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:27.518Z",
+          "updatedAt": "2026-01-19T07:06:27.518Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:06:27.519Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "8eb186dd-3778-42cc-bec8-83d6f7c9570a",
       "action": "CREATE",
