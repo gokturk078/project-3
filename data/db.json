@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T09:17:39.680Z"
+    "lastUpdated": "2026-01-19T09:17:58.995Z"
   },
   "taxonomy": {
     "categories": [
@@ -5277,11 +5277,11 @@
       "applicationNo": "119219/2026",
       "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "expectedDate": "2026-01-19",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-01-19T07:19:23.893Z",
-      "updatedAt": "2026-01-19T07:19:23.893Z"
+      "updatedAt": "2026-01-19T09:17:58.995Z"
     },
     {
       "id": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
@@ -6071,6 +6071,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "0917678b-dfe6-443e-b905-dd990de574ef",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "4c794d61-8133-4cc3-a210-c303d1e7b07d",
+      "details": {
+        "before": {
+          "id": "4c794d61-8133-4cc3-a210-c303d1e7b07d",
+          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+          "applicationNo": "119219/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:19:23.893Z",
+          "updatedAt": "2026-01-19T07:19:23.893Z"
+        },
+        "after": {
+          "id": "4c794d61-8133-4cc3-a210-c303d1e7b07d",
+          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+          "applicationNo": "119219/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:19:23.893Z",
+          "updatedAt": "2026-01-19T09:17:58.995Z"
+        }
+      },
+      "timestamp": "2026-01-19T09:17:58.995Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "e368666b-f313-4fed-ae80-d2a420986167",
       "action": "CREATE",
