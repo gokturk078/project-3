@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:23:19.939Z"
+    "lastUpdated": "2026-01-19T07:23:54.173Z"
   },
   "taxonomy": {
     "categories": [
@@ -3660,12 +3660,12 @@
       "baseKey": "BARIS TUNA",
       "fullName": "BARIŞ TUNA",
       "normalizedName": "BARIS TUNA",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
       "jobTitle": "113826/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -3682,7 +3682,7 @@
         "contactPerson": "YEMEKHANECİ SEDAT"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-01-19T07:23:54.173Z"
     },
     {
       "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
@@ -6007,6 +6007,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "5fa13078-38d9-4770-8071-ba9a183d32ab",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "6bd35035-1712-42c4-a5cb-6665336e328b",
+      "details": {
+        "before": {
+          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
+          "baseKey": "BARIS TUNA",
+          "fullName": "BARIŞ TUNA",
+          "normalizedName": "BARIS TUNA",
+          "category": null,
+          "role": null,
+          "jobTitle": "113826/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 5
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "113826/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": "2025-12-21",
+            "contactPerson": "YEMEKHANECİ SEDAT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
+          "baseKey": "BARIS TUNA",
+          "fullName": "BARIŞ TUNA",
+          "normalizedName": "BARIS TUNA",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "113826/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 5
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "113826/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": "2025-12-21",
+            "contactPerson": "YEMEKHANECİ SEDAT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-19T07:23:54.173Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:23:54.173Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "83498a33-cecd-411a-b71e-d26fc81c9bd4",
       "action": "UPDATE",
