@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T09:19:29.693Z"
+    "lastUpdated": "2026-01-19T09:19:44.179Z"
   },
   "taxonomy": {
     "categories": [
@@ -5169,11 +5169,11 @@
       "applicationNo": "119236/2026",
       "profession": "İinşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "",
+      "expectedDate": "2026-01-19",
       "contactPerson": "NEŞAT",
       "notes": "",
       "createdAt": "2026-01-19T07:11:02.995Z",
-      "updatedAt": "2026-01-19T07:19:54.781Z"
+      "updatedAt": "2026-01-19T09:19:44.179Z"
     },
     {
       "id": "254d5842-78ef-4dab-8957-53670257eaa0",
@@ -6071,6 +6071,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "fafa883e-0b07-4174-b6a9-14df6e0b6d95",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "172acf5d-9fae-4830-9b15-73ea03e02c99",
+      "details": {
+        "before": {
+          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
+          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+          "applicationNo": "119236/2026",
+          "profession": "İinşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:02.995Z",
+          "updatedAt": "2026-01-19T07:19:54.781Z"
+        },
+        "after": {
+          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
+          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+          "applicationNo": "119236/2026",
+          "profession": "İinşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:02.995Z",
+          "updatedAt": "2026-01-19T09:19:44.179Z"
+        }
+      },
+      "timestamp": "2026-01-19T09:19:44.179Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "5dcdeb18-027d-4bac-95b2-ab393bfef033",
       "action": "UPDATE",
