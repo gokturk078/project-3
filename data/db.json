@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:05:46.607Z"
+    "lastUpdated": "2026-01-19T07:06:06.954Z"
   },
   "taxonomy": {
     "categories": [
@@ -4356,6 +4356,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:05:46.607Z",
       "updatedAt": "2026-01-19T07:05:46.607Z"
+    },
+    {
+      "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+      "baseKey": "YUSUF GEMİCİ",
+      "fullName": "YUSUF GEMİCİ",
+      "normalizedName": "YUSUF GEMİCİ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:06:06.954Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:06:06.954Z",
+      "updatedAt": "2026-01-19T07:06:06.954Z"
     }
   ],
   "leaves": [
@@ -5764,6 +5784,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8eb186dd-3778-42cc-bec8-83d6f7c9570a",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+      "details": {
+        "person": {
+          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+          "baseKey": "YUSUF GEMİCİ",
+          "fullName": "YUSUF GEMİCİ",
+          "normalizedName": "YUSUF GEMİCİ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:06.954Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:06.954Z",
+          "updatedAt": "2026-01-19T07:06:06.954Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:06:06.954Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "6b024e60-5ac5-4d8e-a8cc-2e588792e8a0",
       "action": "CREATE",
