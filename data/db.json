@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:08:12.202Z"
+    "lastUpdated": "2026-01-19T07:08:35.997Z"
   },
   "taxonomy": {
     "categories": [
@@ -4496,6 +4496,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:08:12.202Z",
       "updatedAt": "2026-01-19T07:08:12.202Z"
+    },
+    {
+      "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+      "baseKey": "MURAT SAYĞI",
+      "fullName": "MURAT SAYĞI",
+      "normalizedName": "MURAT SAYĞI",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:08:35.997Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:08:35.997Z",
+      "updatedAt": "2026-01-19T07:08:35.997Z"
     }
   ],
   "leaves": [
@@ -5904,6 +5924,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "83c912db-994f-4fef-8f4d-e625a8a1771d",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+      "details": {
+        "person": {
+          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+          "baseKey": "MURAT SAYĞI",
+          "fullName": "MURAT SAYĞI",
+          "normalizedName": "MURAT SAYĞI",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:08:35.997Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:08:35.997Z",
+          "updatedAt": "2026-01-19T07:08:35.997Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:08:35.997Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "e86398d9-5b11-456b-b90e-4d28f57dbd10",
       "action": "CREATE",
