@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:21:12.175Z"
+    "lastUpdated": "2026-01-19T07:22:31.633Z"
   },
   "taxonomy": {
     "categories": [
@@ -4809,7 +4809,7 @@
         "row": 4
       },
       "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
-      "updatedAt": "2026-01-17T11:20:47.466Z"
+      "updatedAt": "2026-01-19T07:22:31.633Z"
     },
     {
       "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
@@ -6045,6 +6045,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "3ba5761b-7f3c-4bcb-b566-fb793e73d451",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "db910679-62cf-491d-af0b-6673313a6ca2",
+      "details": {
+        "before": {
+          "id": "db910679-62cf-491d-af0b-6673313a6ca2",
+          "fullName": "HALİL KAYA",
+          "normalizedName": "HALIL KAYA",
+          "baseKey": "HALIL KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "113790/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2025-12-21",
+          "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 4
+          },
+          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+          "updatedAt": "2026-01-17T11:20:47.466Z"
+        },
+        "after": {
+          "id": "db910679-62cf-491d-af0b-6673313a6ca2",
+          "fullName": "HALİL KAYA",
+          "normalizedName": "HALIL KAYA",
+          "baseKey": "HALIL KAYA",
+          "applicationNo": "inşaat işçisi",
+          "profession": "113790/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2025-12-21",
+          "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 4
+          },
+          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+          "updatedAt": "2026-01-19T07:22:31.633Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:22:31.633Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "e243dbda-f21c-4c56-9fce-1e8de2ac2ae7",
       "action": "UPDATE",
