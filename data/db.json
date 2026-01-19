@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T09:15:09.421Z"
+    "lastUpdated": "2026-01-19T09:15:37.661Z"
   },
   "taxonomy": {
     "categories": [
@@ -4537,6 +4537,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T09:15:09.420Z",
       "updatedAt": "2026-01-19T09:15:09.420Z"
+    },
+    {
+      "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
+      "baseKey": "KÜBRA NUR TOSUN",
+      "fullName": "KÜBRA NUR TOSUN",
+      "normalizedName": "KÜBRA NUR TOSUN",
+      "category": "REPSAM",
+      "role": "MİMAR",
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T09:15:37.660Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T09:15:37.660Z",
+      "updatedAt": "2026-01-19T09:15:37.660Z"
     }
   ],
   "leaves": [
@@ -6027,6 +6047,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "acbdba7e-4cfe-4d3d-8451-f30db162612e",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
+      "details": {
+        "person": {
+          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
+          "baseKey": "KÜBRA NUR TOSUN",
+          "fullName": "KÜBRA NUR TOSUN",
+          "normalizedName": "KÜBRA NUR TOSUN",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T09:15:37.660Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T09:15:37.660Z",
+          "updatedAt": "2026-01-19T09:15:37.660Z"
+        }
+      },
+      "timestamp": "2026-01-19T09:15:37.661Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "135f18e7-821c-4197-96ab-9b65b6ece571",
       "action": "CREATE",
