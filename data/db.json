@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-19T07:07:50.992Z"
+    "lastUpdated": "2026-01-19T07:08:12.202Z"
   },
   "taxonomy": {
     "categories": [
@@ -4476,6 +4476,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:07:50.991Z",
       "updatedAt": "2026-01-19T07:07:50.991Z"
+    },
+    {
+      "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+      "baseKey": "SADIK BARAN",
+      "fullName": "SADIK BARAN",
+      "normalizedName": "SADIK BARAN",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:08:12.202Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:08:12.202Z",
+      "updatedAt": "2026-01-19T07:08:12.202Z"
     }
   ],
   "leaves": [
@@ -5884,6 +5904,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e86398d9-5b11-456b-b90e-4d28f57dbd10",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "9295c071-83ec-4418-949a-aa274f97d98d",
+      "details": {
+        "person": {
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "baseKey": "SADIK BARAN",
+          "fullName": "SADIK BARAN",
+          "normalizedName": "SADIK BARAN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:08:12.202Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:08:12.202Z",
+          "updatedAt": "2026-01-19T07:08:12.202Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:08:12.202Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "3aac1856-00b2-4957-8a7b-29eb8d7014c7",
       "action": "CREATE",
