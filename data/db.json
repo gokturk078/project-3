@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-17T11:20:47.466Z"
+    "lastUpdated": "2026-01-19T07:05:23.129Z"
   },
   "taxonomy": {
     "categories": [
@@ -4316,6 +4316,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-17T08:45:01.588Z",
       "updatedAt": "2026-01-17T08:45:01.588Z"
+    },
+    {
+      "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+      "baseKey": "EMRULLAH BAŞARMAK",
+      "fullName": "EMRULLAH BAŞARMAK",
+      "normalizedName": "EMRULLAH BAŞARMAK",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-19T07:05:23.129Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-19T07:05:23.129Z",
+      "updatedAt": "2026-01-19T07:05:23.129Z"
     }
   ],
   "leaves": [
@@ -5724,6 +5744,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "5afc7bce-902e-422a-83d3-c16b3d2e26b7",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+      "details": {
+        "person": {
+          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+          "baseKey": "EMRULLAH BAŞARMAK",
+          "fullName": "EMRULLAH BAŞARMAK",
+          "normalizedName": "EMRULLAH BAŞARMAK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:05:23.129Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:05:23.129Z",
+          "updatedAt": "2026-01-19T07:05:23.129Z"
+        }
+      },
+      "timestamp": "2026-01-19T07:05:23.129Z",
+      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
+    },
     {
       "id": "f3331623-b482-4b72-901c-722d417cae0e",
       "action": "UPDATE",
