@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T08:43:45.256Z"
+    "lastUpdated": "2026-01-21T08:44:01.290Z"
   },
   "taxonomy": {
     "categories": [
@@ -5048,7 +5048,7 @@
       "baseKey": "ABDULSAMET DURU",
       "applicationNo": "inşaat işçisi",
       "profession": "117471/2025",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "İSG(İŞÇİ)",
       "notes": "",
@@ -5058,7 +5058,7 @@
         "row": 23
       },
       "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
-      "updatedAt": "2026-01-17T08:21:09.572Z"
+      "updatedAt": "2026-01-21T08:44:01.290Z"
     },
     {
       "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
@@ -6071,6 +6071,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "95c253b0-7ccd-4e16-a666-6f9e1c61ce2d",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
+      "details": {
+        "before": {
+          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "baseKey": "ABDULSAMET DURU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117471/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "İSG(İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 23
+          },
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+          "updatedAt": "2026-01-17T08:21:09.572Z"
+        },
+        "after": {
+          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "baseKey": "ABDULSAMET DURU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117471/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "İSG(İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 23
+          },
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+          "updatedAt": "2026-01-21T08:44:01.290Z"
+        }
+      },
+      "timestamp": "2026-01-21T08:44:01.290Z",
+      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
+    },
     {
       "id": "370b06f3-7ac7-4595-a331-e36ff6476328",
       "action": "UPDATE",
