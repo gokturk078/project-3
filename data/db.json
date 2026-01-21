@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T08:44:27.998Z"
+    "lastUpdated": "2026-01-21T08:44:50.278Z"
   },
   "taxonomy": {
     "categories": [
@@ -4991,7 +4991,7 @@
       "baseKey": "RIDVAN GEZER",
       "applicationNo": "inşaat işçisi",
       "profession": "117452/2025",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR( İSKELE)",
       "notes": "",
@@ -5001,7 +5001,7 @@
         "row": 19
       },
       "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-      "updatedAt": "2026-01-17T08:20:41.481Z"
+      "updatedAt": "2026-01-21T08:44:50.278Z"
     },
     {
       "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
@@ -6071,6 +6071,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "802251fa-bfe4-421b-9ce3-1ed8fc53e336",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
+      "details": {
+        "before": {
+          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
+          "fullName": "RIDVAN GEZER",
+          "normalizedName": "RIDVAN GEZER",
+          "baseKey": "RIDVAN GEZER",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117452/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 19
+          },
+          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
+          "updatedAt": "2026-01-17T08:20:41.481Z"
+        },
+        "after": {
+          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
+          "fullName": "RIDVAN GEZER",
+          "normalizedName": "RIDVAN GEZER",
+          "baseKey": "RIDVAN GEZER",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117452/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 19
+          },
+          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
+          "updatedAt": "2026-01-21T08:44:50.278Z"
+        }
+      },
+      "timestamp": "2026-01-21T08:44:50.278Z",
+      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
+    },
     {
       "id": "c891f660-4581-4403-b953-d42d2361e87c",
       "action": "UPDATE",
