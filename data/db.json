@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T15:26:45.494Z"
+    "lastUpdated": "2026-01-21T15:26:52.888Z"
   },
   "taxonomy": {
     "categories": [
@@ -4876,7 +4876,7 @@
       "baseKey": "SERVET OKSUZ",
       "applicationNo": "inşaat işçisi",
       "profession": "116626/2025",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "2026-01-18",
       "contactPerson": "KALMES",
       "notes": "",
@@ -4886,7 +4886,7 @@
         "row": 10
       },
       "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-      "updatedAt": "2026-01-10T10:03:29.003Z"
+      "updatedAt": "2026-01-21T15:26:52.888Z"
     },
     {
       "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
@@ -6064,6 +6064,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "23f8531f-a4ab-4c67-84f8-a614969646c1",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "21472475-0265-4a9e-9aec-66bf4bf69be8",
+      "details": {
+        "before": {
+          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
+          "fullName": "SERVET ÖKSÜZ",
+          "normalizedName": "SERVET OKSUZ",
+          "baseKey": "SERVET OKSUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116626/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 10
+          },
+          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
+          "updatedAt": "2026-01-10T10:03:29.003Z"
+        },
+        "after": {
+          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
+          "fullName": "SERVET ÖKSÜZ",
+          "normalizedName": "SERVET OKSUZ",
+          "baseKey": "SERVET OKSUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116626/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 10
+          },
+          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
+          "updatedAt": "2026-01-21T15:26:52.888Z"
+        }
+      },
+      "timestamp": "2026-01-21T15:26:52.888Z",
+      "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
+    },
     {
       "id": "8b53acf5-6ba5-419b-8539-a8c54d0c4c83",
       "action": "UPDATE",
