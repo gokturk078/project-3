@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T10:53:43.666Z"
+    "lastUpdated": "2026-01-21T10:56:06.149Z"
   },
   "taxonomy": {
     "categories": [
@@ -396,26 +396,6 @@
       "personId": "7980a677-7e82-45b9-b754-5877e81c75ed",
       "createdAt": "2026-01-05T12:12:49.580Z",
       "updatedAt": "2026-01-06T13:30:05.085Z"
-    },
-    {
-      "fullName": "ERKAN UZUN",
-      "normalizedName": "ERKAN UZUN",
-      "baseKey": "ERKAN UZUN",
-      "category": "REPSAM",
-      "role": null,
-      "jobTitle": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "active",
-      "source": {
-        "file": "on_izin.xlsx",
-        "sheet": "REPSAM",
-        "row": 17
-      },
-      "mergedFrom": [],
-      "personId": "3ca77018-2dc7-4f50-a543-1aa64f8012f4",
-      "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
     },
     {
       "fullName": "EROL KURUM",
@@ -6084,6 +6064,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "694ae55c-11c6-480a-82a8-49919148da8c",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "3ca77018-2dc7-4f50-a543-1aa64f8012f4",
+      "details": {
+        "person": {
+          "fullName": "ERKAN UZUN",
+          "normalizedName": "ERKAN UZUN",
+          "baseKey": "ERKAN UZUN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 17
+          },
+          "mergedFrom": [],
+          "personId": "3ca77018-2dc7-4f50-a543-1aa64f8012f4",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        }
+      },
+      "timestamp": "2026-01-21T10:56:06.149Z",
+      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
+    },
     {
       "id": "fa107dc2-2de7-4e9a-b0fb-9953cda6cfff",
       "action": "CREATE",
