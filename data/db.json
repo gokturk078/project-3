@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T08:43:16.299Z"
+    "lastUpdated": "2026-01-21T08:43:45.256Z"
   },
   "taxonomy": {
     "categories": [
@@ -4953,7 +4953,7 @@
       "baseKey": "MEHMET SERIF KORKMAZ",
       "applicationNo": "inşaat işçisi",
       "profession": "117450/2025",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR( İSKELE)",
       "notes": "",
@@ -4963,7 +4963,7 @@
         "row": 17
       },
       "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-      "updatedAt": "2026-01-17T08:20:08.563Z"
+      "updatedAt": "2026-01-21T08:43:45.256Z"
     },
     {
       "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
@@ -6071,6 +6071,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "370b06f3-7ac7-4595-a331-e36ff6476328",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+      "details": {
+        "before": {
+          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117450/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 17
+          },
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+          "updatedAt": "2026-01-17T08:20:08.563Z"
+        },
+        "after": {
+          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117450/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 17
+          },
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+          "updatedAt": "2026-01-21T08:43:45.256Z"
+        }
+      },
+      "timestamp": "2026-01-21T08:43:45.256Z",
+      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
+    },
     {
       "id": "135aac75-76cc-4706-861f-1816d5f80886",
       "action": "UPDATE",
