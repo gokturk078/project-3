@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T08:44:01.290Z"
+    "lastUpdated": "2026-01-21T08:44:27.998Z"
   },
   "taxonomy": {
     "categories": [
@@ -4934,7 +4934,7 @@
       "baseKey": "CEMALETTIN KAPLAN",
       "applicationNo": "inşaat işçisi",
       "profession": "115668/2025",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
@@ -4944,7 +4944,7 @@
         "row": 12
       },
       "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-      "updatedAt": "2026-01-17T08:20:00.121Z"
+      "updatedAt": "2026-01-21T08:44:27.998Z"
     },
     {
       "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
@@ -6071,6 +6071,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "c891f660-4581-4403-b953-d42d2361e87c",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "b816461c-3d15-4e63-a725-ec59255e8db2",
+      "details": {
+        "before": {
+          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115668/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 12
+          },
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+          "updatedAt": "2026-01-17T08:20:00.121Z"
+        },
+        "after": {
+          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115668/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 12
+          },
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+          "updatedAt": "2026-01-21T08:44:27.998Z"
+        }
+      },
+      "timestamp": "2026-01-21T08:44:27.998Z",
+      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
+    },
     {
       "id": "95c253b0-7ccd-4e16-a666-6f9e1c61ce2d",
       "action": "UPDATE",
