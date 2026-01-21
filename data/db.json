@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T15:26:52.888Z"
+    "lastUpdated": "2026-01-21T15:30:48.514Z"
   },
   "taxonomy": {
     "categories": [
@@ -5136,12 +5136,12 @@
       "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
       "applicationNo": "117458/2025",
       "profession": "İSKELE",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "2026-01-29",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-17T08:46:28.219Z",
-      "updatedAt": "2026-01-20T06:50:57.588Z"
+      "updatedAt": "2026-01-21T15:30:48.513Z"
     },
     {
       "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
@@ -6064,6 +6064,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "cbe728f4-5fd5-4aac-af04-0a03d9f81335",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+      "details": {
+        "before": {
+          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+          "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
+          "applicationNo": "117458/2025",
+          "profession": "İSKELE",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-17T08:46:28.219Z",
+          "updatedAt": "2026-01-21T15:30:48.485Z"
+        },
+        "after": {
+          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+          "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
+          "applicationNo": "117458/2025",
+          "profession": "İSKELE",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-17T08:46:28.219Z",
+          "updatedAt": "2026-01-21T15:30:48.513Z"
+        }
+      },
+      "timestamp": "2026-01-21T15:30:48.514Z",
+      "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
+    },
+    {
+      "id": "2992f23f-7c5a-45ee-9ac2-e3a4eadd6569",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+      "details": {
+        "before": {
+          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+          "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
+          "applicationNo": "117458/2025",
+          "profession": "İSKELE",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-17T08:46:28.219Z",
+          "updatedAt": "2026-01-20T06:50:57.588Z"
+        },
+        "after": {
+          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
+          "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
+          "applicationNo": "117458/2025",
+          "profession": "İSKELE",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-17T08:46:28.219Z",
+          "updatedAt": "2026-01-21T15:30:48.485Z"
+        }
+      },
+      "timestamp": "2026-01-21T15:30:48.485Z",
+      "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
+    },
     {
       "id": "23f8531f-a4ab-4c67-84f8-a614969646c1",
       "action": "UPDATE",
