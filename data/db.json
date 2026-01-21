@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T08:44:50.278Z"
+    "lastUpdated": "2026-01-21T10:53:43.666Z"
   },
   "taxonomy": {
     "categories": [
@@ -6049,6 +6049,19 @@
       "exitMonth": "2026-01",
       "createdAt": "2026-01-16T12:01:40.196Z",
       "updatedAt": "2026-01-16T12:01:40.196Z"
+    },
+    {
+      "id": "0a627cad-aea2-44cb-bf4c-40a0c8f4b27b",
+      "personId": null,
+      "fullName": "ERKAN UZUN",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-10-20",
+      "exitDate": "2026-01-21",
+      "totalDays": 93,
+      "exitMonth": "2026-01",
+      "createdAt": "2026-01-21T10:53:43.666Z",
+      "updatedAt": "2026-01-21T10:53:43.666Z"
     }
   ],
   "duplicateCandidates": [],
@@ -6071,6 +6084,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "fa107dc2-2de7-4e9a-b0fb-9953cda6cfff",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "0a627cad-aea2-44cb-bf4c-40a0c8f4b27b",
+      "details": {
+        "departure": {
+          "id": "0a627cad-aea2-44cb-bf4c-40a0c8f4b27b",
+          "personId": null,
+          "fullName": "ERKAN UZUN",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-10-20",
+          "exitDate": "2026-01-21",
+          "totalDays": 93,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-21T10:53:43.666Z",
+          "updatedAt": "2026-01-21T10:53:43.666Z"
+        }
+      },
+      "timestamp": "2026-01-21T10:53:43.666Z",
+      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
+    },
     {
       "id": "802251fa-bfe4-421b-9ce3-1ed8fc53e336",
       "action": "UPDATE",
