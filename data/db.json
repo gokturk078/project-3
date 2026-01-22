@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-22T11:34:47.399Z"
+    "lastUpdated": "2026-01-22T11:36:33.933Z"
   },
   "taxonomy": {
     "categories": [
@@ -3959,7 +3959,7 @@
       "baseKey": "MEHMET SERIF KORKMAZ",
       "fullName": "MEHMET ŞERİF KORKMAZ",
       "normalizedName": "MEHMET SERIF KORKMAZ",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
       "jobTitle": "117450/2025",
       "needsReview": false,
@@ -3981,7 +3981,7 @@
         "contactPerson": "MURAT ÜYÜR( İSKELE)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-22T11:34:47.399Z"
+      "updatedAt": "2026-01-22T11:36:33.933Z"
     },
     {
       "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
@@ -6082,6 +6082,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "2895b0d2-f5e5-48b1-8ec7-c6389a903be6",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+      "details": {
+        "before": {
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "category": null,
+          "role": null,
+          "jobTitle": "117450/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 17
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117450/2025",
+            "status": "SAĞLIĞA SEV EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR( İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-22T11:34:47.399Z"
+        },
+        "after": {
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117450/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 17
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117450/2025",
+            "status": "SAĞLIĞA SEV EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR( İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-22T11:36:33.933Z"
+        }
+      },
+      "timestamp": "2026-01-22T11:36:33.933Z",
+      "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
+    },
     {
       "id": "ef5e27c7-f5f4-4e20-b630-da70f2cc58a2",
       "action": "UPDATE",
