@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-22T09:06:13.431Z"
+    "lastUpdated": "2026-01-22T09:06:36.391Z"
   },
   "taxonomy": {
     "categories": [
@@ -4537,6 +4537,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-19T09:15:37.660Z",
       "updatedAt": "2026-01-19T09:15:37.660Z"
+    },
+    {
+      "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
+      "baseKey": "BURAK ERDEM",
+      "fullName": "BURAK ERDEM",
+      "normalizedName": "BURAK ERDEM",
+      "category": "CAPRA",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-22T09:06:36.391Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-22T09:06:36.391Z",
+      "updatedAt": "2026-01-22T09:06:36.391Z"
     }
   ],
   "leaves": [
@@ -6051,6 +6071,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "55c3fec1-b1a2-498c-9de8-0e251b26420a",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
+      "details": {
+        "person": {
+          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
+          "baseKey": "BURAK ERDEM",
+          "fullName": "BURAK ERDEM",
+          "normalizedName": "BURAK ERDEM",
+          "category": "CAPRA",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-22T09:06:36.391Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-22T09:06:36.391Z",
+          "updatedAt": "2026-01-22T09:06:36.391Z"
+        }
+      },
+      "timestamp": "2026-01-22T09:06:36.391Z",
+      "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
+    },
     {
       "id": "01290918-4d44-4020-a29d-ddb0e9f92620",
       "action": "DELETE",
