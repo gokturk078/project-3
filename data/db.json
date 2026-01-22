@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-21T15:31:15.659Z"
+    "lastUpdated": "2026-01-22T09:06:13.431Z"
   },
   "taxonomy": {
     "categories": [
@@ -5992,19 +5992,6 @@
       "updatedAt": "2026-01-10T06:56:31.282Z"
     },
     {
-      "id": "8e361419-79de-4734-aeff-85e4fa5869c6",
-      "personId": null,
-      "fullName": "BURAK ERDEM",
-      "category": "CAPRA",
-      "job": "",
-      "entryDate": "2025-09-12",
-      "exitDate": "2026-01-13",
-      "totalDays": 123,
-      "exitMonth": "2026-01",
-      "createdAt": "2026-01-16T06:30:30.200Z",
-      "updatedAt": "2026-01-16T06:30:30.200Z"
-    },
-    {
       "id": "dfabab13-f165-4495-8285-1cf36846f7a7",
       "personId": null,
       "fullName": "AHMET DÖNMEZ",
@@ -6064,6 +6051,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "01290918-4d44-4020-a29d-ddb0e9f92620",
+      "action": "DELETE",
+      "entityType": "departure",
+      "entityId": "8e361419-79de-4734-aeff-85e4fa5869c6",
+      "details": {
+        "departure": {
+          "id": "8e361419-79de-4734-aeff-85e4fa5869c6",
+          "personId": null,
+          "fullName": "BURAK ERDEM",
+          "category": "CAPRA",
+          "job": "",
+          "entryDate": "2025-09-12",
+          "exitDate": "2026-01-13",
+          "totalDays": 123,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-16T06:30:30.200Z",
+          "updatedAt": "2026-01-16T06:30:30.200Z"
+        }
+      },
+      "timestamp": "2026-01-22T09:06:13.431Z",
+      "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
+    },
     {
       "id": "f7f641de-43e6-496a-acb8-29e9d7745742",
       "action": "UPDATE",
