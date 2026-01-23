@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-23T09:44:48.536Z"
+    "lastUpdated": "2026-01-23T09:45:09.099Z"
   },
   "taxonomy": {
     "categories": [
@@ -4617,6 +4617,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-23T09:44:48.536Z",
       "updatedAt": "2026-01-23T09:44:48.536Z"
+    },
+    {
+      "personId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
+      "baseKey": "RAMAZAN AYDOĞAN",
+      "fullName": "RAMAZAN AYDOĞAN",
+      "normalizedName": "RAMAZAN AYDOĞAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-23T09:45:09.099Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-23T09:45:09.099Z",
+      "updatedAt": "2026-01-23T09:45:09.099Z"
     }
   ],
   "leaves": [
@@ -6142,6 +6162,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "2b75e90d-ec97-464e-85d3-0d7240cc04bd",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
+      "details": {
+        "person": {
+          "personId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
+          "baseKey": "RAMAZAN AYDOĞAN",
+          "fullName": "RAMAZAN AYDOĞAN",
+          "normalizedName": "RAMAZAN AYDOĞAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:45:09.099Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:45:09.099Z",
+          "updatedAt": "2026-01-23T09:45:09.099Z"
+        }
+      },
+      "timestamp": "2026-01-23T09:45:09.099Z",
+      "adminSession": "da618ae9-4862-4655-bd4e-aee93ccce0bd"
+    },
     {
       "id": "70bb3c2d-82e0-421f-bf69-f6d883023089",
       "action": "CREATE",
