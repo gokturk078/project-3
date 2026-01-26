@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:08:56.229Z"
+    "lastUpdated": "2026-01-26T15:09:14.645Z"
   },
   "taxonomy": {
     "categories": [
@@ -4797,6 +4797,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:08:56.229Z",
       "updatedAt": "2026-01-26T15:08:56.229Z"
+    },
+    {
+      "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
+      "baseKey": "HALİS KESER",
+      "fullName": "HALİS KESER",
+      "normalizedName": "HALİS KESER",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:09:14.645Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:09:14.645Z",
+      "updatedAt": "2026-01-26T15:09:14.645Z"
     }
   ],
   "leaves": [
@@ -6382,6 +6402,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "721ccba4-59d8-4399-9266-2fbb140c6b0e",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
+      "details": {
+        "person": {
+          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
+          "baseKey": "HALİS KESER",
+          "fullName": "HALİS KESER",
+          "normalizedName": "HALİS KESER",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:14.645Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:14.645Z",
+          "updatedAt": "2026-01-26T15:09:14.645Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:09:14.645Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "5e7a2591-f53b-4964-bf1f-ee1c8c78ef37",
       "action": "CREATE",
