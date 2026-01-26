@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:08:38.862Z"
+    "lastUpdated": "2026-01-26T15:08:56.229Z"
   },
   "taxonomy": {
     "categories": [
@@ -4777,6 +4777,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:08:38.862Z",
       "updatedAt": "2026-01-26T15:08:38.862Z"
+    },
+    {
+      "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
+      "baseKey": "ŞÜKRÜ AL",
+      "fullName": "ŞÜKRÜ AL",
+      "normalizedName": "ŞÜKRÜ AL",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:08:56.229Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:08:56.229Z",
+      "updatedAt": "2026-01-26T15:08:56.229Z"
     }
   ],
   "leaves": [
@@ -6362,6 +6382,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "5e7a2591-f53b-4964-bf1f-ee1c8c78ef37",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
+      "details": {
+        "person": {
+          "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
+          "baseKey": "ŞÜKRÜ AL",
+          "fullName": "ŞÜKRÜ AL",
+          "normalizedName": "ŞÜKRÜ AL",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:56.229Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:56.229Z",
+          "updatedAt": "2026-01-26T15:08:56.229Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:08:56.229Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "0ee71a95-2c50-448e-8059-735a87ebc282",
       "action": "CREATE",
