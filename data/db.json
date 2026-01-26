@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:09:14.645Z"
+    "lastUpdated": "2026-01-26T15:09:32.996Z"
   },
   "taxonomy": {
     "categories": [
@@ -4817,6 +4817,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:09:14.645Z",
       "updatedAt": "2026-01-26T15:09:14.645Z"
+    },
+    {
+      "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
+      "baseKey": "ZATİ KEPİR",
+      "fullName": "ZATİ KEPİR",
+      "normalizedName": "ZATİ KEPİR",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:09:32.995Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:09:32.995Z",
+      "updatedAt": "2026-01-26T15:09:32.995Z"
     }
   ],
   "leaves": [
@@ -6402,6 +6422,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "05ff9b74-7bba-4b38-a3bb-6537cf8b82cc",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
+      "details": {
+        "person": {
+          "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
+          "baseKey": "ZATİ KEPİR",
+          "fullName": "ZATİ KEPİR",
+          "normalizedName": "ZATİ KEPİR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:32.995Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:32.995Z",
+          "updatedAt": "2026-01-26T15:09:32.995Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:09:32.996Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "721ccba4-59d8-4399-9266-2fbb140c6b0e",
       "action": "CREATE",
