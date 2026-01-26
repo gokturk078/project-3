@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T09:35:44.774Z"
+    "lastUpdated": "2026-01-26T09:35:59.495Z"
   },
   "taxonomy": {
     "categories": [
@@ -5363,12 +5363,12 @@
       "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
       "applicationNo": "119221/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-01-19",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-01-19T07:17:28.400Z",
-      "updatedAt": "2026-01-26T07:24:53.044Z"
+      "updatedAt": "2026-01-26T09:35:59.495Z"
     },
     {
       "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
@@ -6242,6 +6242,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "cdcd3427-2d95-477b-92aa-087ebe88ca92",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
+      "details": {
+        "before": {
+          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
+          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+          "applicationNo": "119221/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:17:28.400Z",
+          "updatedAt": "2026-01-26T07:24:53.044Z"
+        },
+        "after": {
+          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
+          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+          "applicationNo": "119221/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:17:28.400Z",
+          "updatedAt": "2026-01-26T09:35:59.495Z"
+        }
+      },
+      "timestamp": "2026-01-26T09:35:59.495Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "37f04982-6110-481c-833d-cff28ceb1cd4",
       "action": "UPDATE",
