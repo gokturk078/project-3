@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:07:16.238Z"
+    "lastUpdated": "2026-01-26T15:07:37.203Z"
   },
   "taxonomy": {
     "categories": [
@@ -4697,6 +4697,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:07:16.238Z",
       "updatedAt": "2026-01-26T15:07:16.238Z"
+    },
+    {
+      "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+      "baseKey": "MAHMUT EMRE AKSOY",
+      "fullName": "MAHMUT EMRE AKSOY",
+      "normalizedName": "MAHMUT EMRE AKSOY",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:07:37.203Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:07:37.203Z",
+      "updatedAt": "2026-01-26T15:07:37.203Z"
     }
   ],
   "leaves": [
@@ -6282,6 +6302,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "31082905-c214-4780-9c99-b9cf2003b900",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+      "details": {
+        "person": {
+          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+          "baseKey": "MAHMUT EMRE AKSOY",
+          "fullName": "MAHMUT EMRE AKSOY",
+          "normalizedName": "MAHMUT EMRE AKSOY",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:37.203Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:37.203Z",
+          "updatedAt": "2026-01-26T15:07:37.203Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:07:37.203Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "2ebc40ba-9b4a-4609-9c57-6b41b1a90890",
       "action": "CREATE",
