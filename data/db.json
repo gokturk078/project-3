@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:09:32.996Z"
+    "lastUpdated": "2026-01-26T15:09:57.138Z"
   },
   "taxonomy": {
     "categories": [
@@ -4837,6 +4837,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:09:32.995Z",
       "updatedAt": "2026-01-26T15:09:32.995Z"
+    },
+    {
+      "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
+      "baseKey": "KEMAL KAHYAOĞLU",
+      "fullName": "KEMAL KAHYAOĞLU",
+      "normalizedName": "KEMAL KAHYAOĞLU",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:09:57.138Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:09:57.138Z",
+      "updatedAt": "2026-01-26T15:09:57.138Z"
     }
   ],
   "leaves": [
@@ -6422,6 +6442,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "eb435e1c-d92c-412e-a2ea-44ce233aad9d",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
+      "details": {
+        "person": {
+          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
+          "baseKey": "KEMAL KAHYAOĞLU",
+          "fullName": "KEMAL KAHYAOĞLU",
+          "normalizedName": "KEMAL KAHYAOĞLU",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:57.138Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:57.138Z",
+          "updatedAt": "2026-01-26T15:09:57.138Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:09:57.138Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "05ff9b74-7bba-4b38-a3bb-6537cf8b82cc",
       "action": "CREATE",
