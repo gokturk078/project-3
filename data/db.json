@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:08:17.333Z"
+    "lastUpdated": "2026-01-26T15:08:38.862Z"
   },
   "taxonomy": {
     "categories": [
@@ -4757,6 +4757,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:08:17.333Z",
       "updatedAt": "2026-01-26T15:08:17.333Z"
+    },
+    {
+      "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
+      "baseKey": "İSMAİL ÇELİK",
+      "fullName": "İSMAİL ÇELİK",
+      "normalizedName": "İSMAİL ÇELİK",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:08:38.862Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:08:38.862Z",
+      "updatedAt": "2026-01-26T15:08:38.862Z"
     }
   ],
   "leaves": [
@@ -6342,6 +6362,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "0ee71a95-2c50-448e-8059-735a87ebc282",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
+      "details": {
+        "person": {
+          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
+          "baseKey": "İSMAİL ÇELİK",
+          "fullName": "İSMAİL ÇELİK",
+          "normalizedName": "İSMAİL ÇELİK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:38.862Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:38.862Z",
+          "updatedAt": "2026-01-26T15:08:38.862Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:08:38.862Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "98403763-f18d-4e19-9fd9-f387ef0dea53",
       "action": "CREATE",
