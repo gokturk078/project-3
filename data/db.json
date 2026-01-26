@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:17:45.468Z"
+    "lastUpdated": "2026-01-26T15:18:03.452Z"
   },
   "taxonomy": {
     "categories": [
@@ -5773,14 +5773,14 @@
     {
       "id": "33ec7de8-d95f-466b-aaff-fa1476aa8375",
       "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
-      "applicationNo": "120074",
+      "applicationNo": "120074/2026",
       "profession": "",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-27",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-01-26T15:14:52.597Z",
-      "updatedAt": "2026-01-26T15:14:52.597Z"
+      "updatedAt": "2026-01-26T15:18:03.452Z"
     },
     {
       "id": "c8efac96-dddb-4dc4-a005-d0a490c81251",
@@ -6594,6 +6594,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "05ae1edc-6a66-44a4-813a-f9fdd55b19b4",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "33ec7de8-d95f-466b-aaff-fa1476aa8375",
+      "details": {
+        "before": {
+          "id": "33ec7de8-d95f-466b-aaff-fa1476aa8375",
+          "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
+          "applicationNo": "120074",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-27",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-26T15:14:52.597Z",
+          "updatedAt": "2026-01-26T15:14:52.597Z"
+        },
+        "after": {
+          "id": "33ec7de8-d95f-466b-aaff-fa1476aa8375",
+          "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
+          "applicationNo": "120074/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-27",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-26T15:14:52.597Z",
+          "updatedAt": "2026-01-26T15:18:03.452Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:18:03.452Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "65a81a8d-2ea9-4b20-a1c9-32e1e1881816",
       "action": "CREATE",
