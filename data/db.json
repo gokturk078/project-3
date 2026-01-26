@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:07:57.034Z"
+    "lastUpdated": "2026-01-26T15:08:17.333Z"
   },
   "taxonomy": {
     "categories": [
@@ -4737,6 +4737,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:07:57.034Z",
       "updatedAt": "2026-01-26T15:07:57.034Z"
+    },
+    {
+      "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
+      "baseKey": "EROL TUNUR",
+      "fullName": "EROL TUNUR",
+      "normalizedName": "EROL TUNUR",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:08:17.333Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:08:17.333Z",
+      "updatedAt": "2026-01-26T15:08:17.333Z"
     }
   ],
   "leaves": [
@@ -6322,6 +6342,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "98403763-f18d-4e19-9fd9-f387ef0dea53",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
+      "details": {
+        "person": {
+          "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
+          "baseKey": "EROL TUNUR",
+          "fullName": "EROL TUNUR",
+          "normalizedName": "EROL TUNUR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:17.333Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:17.333Z",
+          "updatedAt": "2026-01-26T15:08:17.333Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:08:17.333Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "cb75aff6-a1ed-4479-adee-dc7bb04460d6",
       "action": "CREATE",
