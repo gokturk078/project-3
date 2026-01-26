@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:09:57.138Z"
+    "lastUpdated": "2026-01-26T15:10:15.905Z"
   },
   "taxonomy": {
     "categories": [
@@ -4857,6 +4857,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:09:57.138Z",
       "updatedAt": "2026-01-26T15:09:57.138Z"
+    },
+    {
+      "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
+      "baseKey": "YASİN ÇALIŞ",
+      "fullName": "YASİN ÇALIŞ",
+      "normalizedName": "YASİN ÇALIŞ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:10:15.905Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:10:15.905Z",
+      "updatedAt": "2026-01-26T15:10:15.905Z"
     }
   ],
   "leaves": [
@@ -6442,6 +6462,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "a059b88b-6e7a-483d-b718-aadc6ed0ec5f",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "cfe0610c-d964-42a7-9916-26babc3abed7",
+      "details": {
+        "person": {
+          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
+          "baseKey": "YASİN ÇALIŞ",
+          "fullName": "YASİN ÇALIŞ",
+          "normalizedName": "YASİN ÇALIŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:10:15.905Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:10:15.905Z",
+          "updatedAt": "2026-01-26T15:10:15.905Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:10:15.905Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "eb435e1c-d92c-412e-a2ea-44ce233aad9d",
       "action": "CREATE",
