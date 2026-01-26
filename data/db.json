@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T11:39:07.493Z"
+    "lastUpdated": "2026-01-26T15:06:56.428Z"
   },
   "taxonomy": {
     "categories": [
@@ -4657,6 +4657,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-23T09:45:29.049Z",
       "updatedAt": "2026-01-23T09:45:29.049Z"
+    },
+    {
+      "personId": "3b641048-e38d-49f5-9d76-9145001d1892",
+      "baseKey": "MUSTAFA ÇOKÇETİN",
+      "fullName": "MUSTAFA ÇOKÇETİN",
+      "normalizedName": "MUSTAFA ÇOKÇETİN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:06:56.427Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:06:56.427Z",
+      "updatedAt": "2026-01-26T15:06:56.427Z"
     }
   ],
   "leaves": [
@@ -6242,6 +6262,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "507f7ec8-0f65-4bb6-b989-82a0aad47df7",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "3b641048-e38d-49f5-9d76-9145001d1892",
+      "details": {
+        "person": {
+          "personId": "3b641048-e38d-49f5-9d76-9145001d1892",
+          "baseKey": "MUSTAFA ÇOKÇETİN",
+          "fullName": "MUSTAFA ÇOKÇETİN",
+          "normalizedName": "MUSTAFA ÇOKÇETİN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:06:56.427Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:06:56.427Z",
+          "updatedAt": "2026-01-26T15:06:56.427Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:06:56.428Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "e7713dd4-317f-43a6-9749-28478ea14fd7",
       "action": "UPDATE",
