@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-26T15:06:56.428Z"
+    "lastUpdated": "2026-01-26T15:07:16.238Z"
   },
   "taxonomy": {
     "categories": [
@@ -4677,6 +4677,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:06:56.427Z",
       "updatedAt": "2026-01-26T15:06:56.427Z"
+    },
+    {
+      "personId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
+      "baseKey": "MEHMET GÜL",
+      "fullName": "MEHMET GÜL",
+      "normalizedName": "MEHMET GÜL",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-26T15:07:16.238Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-26T15:07:16.238Z",
+      "updatedAt": "2026-01-26T15:07:16.238Z"
     }
   ],
   "leaves": [
@@ -6262,6 +6282,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "2ebc40ba-9b4a-4609-9c57-6b41b1a90890",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
+      "details": {
+        "person": {
+          "personId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
+          "baseKey": "MEHMET GÜL",
+          "fullName": "MEHMET GÜL",
+          "normalizedName": "MEHMET GÜL",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:16.238Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:16.238Z",
+          "updatedAt": "2026-01-26T15:07:16.238Z"
+        }
+      },
+      "timestamp": "2026-01-26T15:07:16.238Z",
+      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
+    },
     {
       "id": "507f7ec8-0f65-4bb6-b989-82a0aad47df7",
       "action": "CREATE",
