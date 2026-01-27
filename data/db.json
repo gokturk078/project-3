@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-27T10:30:37.676Z"
+    "lastUpdated": "2026-01-27T10:30:44.204Z"
   },
   "taxonomy": {
     "categories": [
@@ -5739,13 +5739,13 @@
       "id": "4429427f-1c36-4aac-acca-2d1825f89f15",
       "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
       "applicationNo": "120030/2026",
-      "profession": "",
+      "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-01-27",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-01-26T15:13:08.194Z",
-      "updatedAt": "2026-01-26T15:18:28.661Z"
+      "updatedAt": "2026-01-27T10:30:44.204Z"
     },
     {
       "id": "607330d9-d41e-433e-8041-93ee5f84c15d",
@@ -6595,6 +6595,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "2062cad3-d8ca-4602-819a-bbe208118cc3",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "4429427f-1c36-4aac-acca-2d1825f89f15",
+      "details": {
+        "before": {
+          "id": "4429427f-1c36-4aac-acca-2d1825f89f15",
+          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
+          "applicationNo": "120030/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-27",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-26T15:13:08.194Z",
+          "updatedAt": "2026-01-26T15:18:28.661Z"
+        },
+        "after": {
+          "id": "4429427f-1c36-4aac-acca-2d1825f89f15",
+          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
+          "applicationNo": "120030/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-27",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-26T15:13:08.194Z",
+          "updatedAt": "2026-01-27T10:30:44.204Z"
+        }
+      },
+      "timestamp": "2026-01-27T10:30:44.204Z",
+      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
+    },
     {
       "id": "30de824e-67df-4593-a587-7799362a850e",
       "action": "UPDATE",
