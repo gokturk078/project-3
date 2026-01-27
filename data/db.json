@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-27T10:31:03.600Z"
+    "lastUpdated": "2026-01-27T10:50:17.872Z"
   },
   "taxonomy": {
     "categories": [
@@ -4877,6 +4877,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:10:15.905Z",
       "updatedAt": "2026-01-26T15:10:15.905Z"
+    },
+    {
+      "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+      "baseKey": "MEHMET FERİT YÜNDEMLİ",
+      "fullName": "MEHMET FERİT YÜNDEMLİ",
+      "normalizedName": "MEHMET FERİT YÜNDEMLİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-27T10:50:17.872Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-27T10:50:17.872Z",
+      "updatedAt": "2026-01-27T10:50:17.872Z"
     }
   ],
   "leaves": [
@@ -6595,6 +6615,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "399d8276-4422-4606-b860-b65170f2520f",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+      "details": {
+        "person": {
+          "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+          "baseKey": "MEHMET FERİT YÜNDEMLİ",
+          "fullName": "MEHMET FERİT YÜNDEMLİ",
+          "normalizedName": "MEHMET FERİT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:50:17.872Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:50:17.872Z",
+          "updatedAt": "2026-01-27T10:50:17.872Z"
+        }
+      },
+      "timestamp": "2026-01-27T10:50:17.872Z",
+      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
+    },
     {
       "id": "cbabe9c5-70a3-4a75-98f1-2806356ffd55",
       "action": "UPDATE",
