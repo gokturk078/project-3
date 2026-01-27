@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-27T10:50:46.447Z"
+    "lastUpdated": "2026-01-27T10:51:09.074Z"
   },
   "taxonomy": {
     "categories": [
@@ -4917,6 +4917,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-27T10:50:46.446Z",
       "updatedAt": "2026-01-27T10:50:46.446Z"
+    },
+    {
+      "personId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
+      "baseKey": "SELİM YÜNDEMLİ",
+      "fullName": "SELİM YÜNDEMLİ",
+      "normalizedName": "SELİM YÜNDEMLİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-27T10:51:09.074Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-27T10:51:09.074Z",
+      "updatedAt": "2026-01-27T10:51:09.074Z"
     }
   ],
   "leaves": [
@@ -6635,6 +6655,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "d9675769-a7c2-405f-b1c7-41abedb6b855",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
+      "details": {
+        "person": {
+          "personId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
+          "baseKey": "SELİM YÜNDEMLİ",
+          "fullName": "SELİM YÜNDEMLİ",
+          "normalizedName": "SELİM YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:51:09.074Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:51:09.074Z",
+          "updatedAt": "2026-01-27T10:51:09.074Z"
+        }
+      },
+      "timestamp": "2026-01-27T10:51:09.074Z",
+      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
+    },
     {
       "id": "e5931cbe-8e15-475d-821b-15ee98e1c767",
       "action": "CREATE",
