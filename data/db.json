@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-27T10:54:33.434Z"
+    "lastUpdated": "2026-01-27T10:55:57.007Z"
   },
   "taxonomy": {
     "categories": [
@@ -5934,6 +5934,18 @@
       "notes": "",
       "createdAt": "2026-01-27T10:54:33.434Z",
       "updatedAt": "2026-01-27T10:54:33.434Z"
+    },
+    {
+      "id": "ef88fbf0-9ab5-46b0-8654-96385aa4e768",
+      "personId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
+      "applicationNo": "120167/2026",
+      "profession": "inşaat işçisi",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-01-27",
+      "contactPerson": "MURAT ÜYÜR",
+      "notes": "",
+      "createdAt": "2026-01-27T10:55:57.007Z",
+      "updatedAt": "2026-01-27T10:55:57.007Z"
     }
   ],
   "departures": [
@@ -6699,6 +6711,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ca7f4ef3-a194-4d19-9c9b-27ccc97d44cd",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "ef88fbf0-9ab5-46b0-8654-96385aa4e768",
+      "details": {
+        "tracking": {
+          "id": "ef88fbf0-9ab5-46b0-8654-96385aa4e768",
+          "personId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
+          "applicationNo": "120167/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-27",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-27T10:55:57.007Z",
+          "updatedAt": "2026-01-27T10:55:57.007Z"
+        }
+      },
+      "timestamp": "2026-01-27T10:55:57.007Z",
+      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
+    },
     {
       "id": "d7d0d67f-3f8a-4337-9fe5-e1aa9b205331",
       "action": "CREATE",
