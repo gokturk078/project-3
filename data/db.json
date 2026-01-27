@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-27T10:50:17.872Z"
+    "lastUpdated": "2026-01-27T10:50:46.447Z"
   },
   "taxonomy": {
     "categories": [
@@ -4897,6 +4897,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-27T10:50:17.872Z",
       "updatedAt": "2026-01-27T10:50:17.872Z"
+    },
+    {
+      "personId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
+      "baseKey": "MUHAMMET MERT YÜNDEMLİ",
+      "fullName": "MUHAMMET MERT YÜNDEMLİ",
+      "normalizedName": "MUHAMMET MERT YÜNDEMLİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-27T10:50:46.446Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-27T10:50:46.446Z",
+      "updatedAt": "2026-01-27T10:50:46.446Z"
     }
   ],
   "leaves": [
@@ -6615,6 +6635,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e5931cbe-8e15-475d-821b-15ee98e1c767",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
+      "details": {
+        "person": {
+          "personId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
+          "baseKey": "MUHAMMET MERT YÜNDEMLİ",
+          "fullName": "MUHAMMET MERT YÜNDEMLİ",
+          "normalizedName": "MUHAMMET MERT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:50:46.446Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:50:46.446Z",
+          "updatedAt": "2026-01-27T10:50:46.446Z"
+        }
+      },
+      "timestamp": "2026-01-27T10:50:46.446Z",
+      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
+    },
     {
       "id": "399d8276-4422-4606-b860-b65170f2520f",
       "action": "CREATE",
