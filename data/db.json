@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-27T10:51:09.074Z"
+    "lastUpdated": "2026-01-27T10:51:32.220Z"
   },
   "taxonomy": {
     "categories": [
@@ -4937,6 +4937,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-27T10:51:09.074Z",
       "updatedAt": "2026-01-27T10:51:09.074Z"
+    },
+    {
+      "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
+      "baseKey": "UMUT YÜNDEMLİ",
+      "fullName": "UMUT YÜNDEMLİ",
+      "normalizedName": "UMUT YÜNDEMLİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-27T10:51:32.220Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-27T10:51:32.220Z",
+      "updatedAt": "2026-01-27T10:51:32.220Z"
     }
   ],
   "leaves": [
@@ -6655,6 +6675,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "4bb7c406-5fe0-42ef-bc58-f9223246b91a",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "91f26123-18f5-4756-9ce7-9a4abce89115",
+      "details": {
+        "person": {
+          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
+          "baseKey": "UMUT YÜNDEMLİ",
+          "fullName": "UMUT YÜNDEMLİ",
+          "normalizedName": "UMUT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:51:32.220Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:51:32.220Z",
+          "updatedAt": "2026-01-27T10:51:32.220Z"
+        }
+      },
+      "timestamp": "2026-01-27T10:51:32.220Z",
+      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
+    },
     {
       "id": "d9675769-a7c2-405f-b1c7-41abedb6b855",
       "action": "CREATE",
