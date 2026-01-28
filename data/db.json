@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-28T09:14:59.580Z"
+    "lastUpdated": "2026-01-28T09:15:55.195Z"
   },
   "taxonomy": {
     "categories": [
@@ -5037,6 +5037,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:13:51.392Z",
       "updatedAt": "2026-01-28T09:13:51.392Z"
+    },
+    {
+      "personId": "40e8b757-5829-4970-9818-8581db704eba",
+      "baseKey": "DİLAVER ŞAHİN",
+      "fullName": "DİLAVER ŞAHİN",
+      "normalizedName": "DİLAVER ŞAHİN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-28T09:15:55.194Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-28T09:15:55.194Z",
+      "updatedAt": "2026-01-28T09:15:55.194Z"
     }
   ],
   "leaves": [
@@ -6815,6 +6835,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "65d0d918-51d3-4c90-8bea-adf8b8e1efaf",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "40e8b757-5829-4970-9818-8581db704eba",
+      "details": {
+        "person": {
+          "personId": "40e8b757-5829-4970-9818-8581db704eba",
+          "baseKey": "DİLAVER ŞAHİN",
+          "fullName": "DİLAVER ŞAHİN",
+          "normalizedName": "DİLAVER ŞAHİN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:15:55.194Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:15:55.194Z",
+          "updatedAt": "2026-01-28T09:15:55.194Z"
+        }
+      },
+      "timestamp": "2026-01-28T09:15:55.195Z",
+      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
+    },
     {
       "id": "73bec642-b3f7-4447-a98d-594393d0e07c",
       "action": "CREATE",
