@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-28T09:13:03.272Z"
+    "lastUpdated": "2026-01-28T09:13:29.430Z"
   },
   "taxonomy": {
     "categories": [
@@ -4997,6 +4997,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:13:03.272Z",
       "updatedAt": "2026-01-28T09:13:03.272Z"
+    },
+    {
+      "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+      "baseKey": "HARUN YILDIRIMÇAKAR",
+      "fullName": "HARUN YILDIRIMÇAKAR",
+      "normalizedName": "HARUN YILDIRIMÇAKAR",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-28T09:13:29.430Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-28T09:13:29.430Z",
+      "updatedAt": "2026-01-28T09:13:29.430Z"
     }
   ],
   "leaves": [
@@ -6763,6 +6783,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "4a5d99ab-7308-41b0-8df3-5741d15acf15",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+      "details": {
+        "person": {
+          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+          "baseKey": "HARUN YILDIRIMÇAKAR",
+          "fullName": "HARUN YILDIRIMÇAKAR",
+          "normalizedName": "HARUN YILDIRIMÇAKAR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:29.430Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:29.430Z",
+          "updatedAt": "2026-01-28T09:13:29.430Z"
+        }
+      },
+      "timestamp": "2026-01-28T09:13:29.430Z",
+      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
+    },
     {
       "id": "2966d78a-74b6-4509-a384-190f819ae1ca",
       "action": "CREATE",
