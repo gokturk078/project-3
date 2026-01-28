@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-28T09:13:29.430Z"
+    "lastUpdated": "2026-01-28T09:13:51.392Z"
   },
   "taxonomy": {
     "categories": [
@@ -5017,6 +5017,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:13:29.430Z",
       "updatedAt": "2026-01-28T09:13:29.430Z"
+    },
+    {
+      "personId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
+      "baseKey": "NACİ YÜNDEMLİ",
+      "fullName": "NACİ YÜNDEMLİ",
+      "normalizedName": "NACİ YÜNDEMLİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-28T09:13:51.392Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-28T09:13:51.392Z",
+      "updatedAt": "2026-01-28T09:13:51.392Z"
     }
   ],
   "leaves": [
@@ -6783,6 +6803,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "6e01dc81-8c67-474a-a869-9bf37c50c513",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
+      "details": {
+        "person": {
+          "personId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
+          "baseKey": "NACİ YÜNDEMLİ",
+          "fullName": "NACİ YÜNDEMLİ",
+          "normalizedName": "NACİ YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:51.392Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:51.392Z",
+          "updatedAt": "2026-01-28T09:13:51.392Z"
+        }
+      },
+      "timestamp": "2026-01-28T09:13:51.392Z",
+      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
+    },
     {
       "id": "4a5d99ab-7308-41b0-8df3-5741d15acf15",
       "action": "CREATE",
