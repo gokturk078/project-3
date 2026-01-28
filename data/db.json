@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-28T09:12:38.462Z"
+    "lastUpdated": "2026-01-28T09:13:03.272Z"
   },
   "taxonomy": {
     "categories": [
@@ -4977,6 +4977,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:12:38.461Z",
       "updatedAt": "2026-01-28T09:12:38.461Z"
+    },
+    {
+      "personId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
+      "baseKey": "MAHMUT YÜNDEMLİ",
+      "fullName": "MAHMUT YÜNDEMLİ",
+      "normalizedName": "MAHMUT YÜNDEMLİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-28T09:13:03.272Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-28T09:13:03.272Z",
+      "updatedAt": "2026-01-28T09:13:03.272Z"
     }
   ],
   "leaves": [
@@ -6743,6 +6763,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "2966d78a-74b6-4509-a384-190f819ae1ca",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
+      "details": {
+        "person": {
+          "personId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
+          "baseKey": "MAHMUT YÜNDEMLİ",
+          "fullName": "MAHMUT YÜNDEMLİ",
+          "normalizedName": "MAHMUT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:03.272Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:03.272Z",
+          "updatedAt": "2026-01-28T09:13:03.272Z"
+        }
+      },
+      "timestamp": "2026-01-28T09:13:03.272Z",
+      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
+    },
     {
       "id": "42403571-5122-45b6-895e-9bc1ac806072",
       "action": "CREATE",
