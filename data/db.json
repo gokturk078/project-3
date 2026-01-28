@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-28T13:20:27.129Z"
+    "lastUpdated": "2026-01-28T13:20:51.423Z"
   },
   "taxonomy": {
     "categories": [
@@ -4504,7 +4504,7 @@
       "fullName": "SENA EKİZ",
       "normalizedName": "SENA EKİZ",
       "category": "REPSAM",
-      "role": null,
+      "role": "MİMAR",
       "needsReview": false,
       "unmappedTags": [],
       "status": "pending",
@@ -4516,7 +4516,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T09:15:09.420Z",
-      "updatedAt": "2026-01-28T13:19:04.189Z",
+      "updatedAt": "2026-01-28T13:20:51.423Z",
       "jobTitle": null
     },
     {
@@ -6885,6 +6885,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "d1570251-b28f-4ec4-b4b1-d7c435e8bf3e",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
+      "details": {
+        "before": {
+          "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
+          "baseKey": "SENA EKİZ",
+          "fullName": "SENA EKİZ",
+          "normalizedName": "SENA EKİZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T09:15:09.420Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T09:15:09.420Z",
+          "updatedAt": "2026-01-28T13:19:04.189Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
+          "baseKey": "SENA EKİZ",
+          "fullName": "SENA EKİZ",
+          "normalizedName": "SENA EKİZ",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T09:15:09.420Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T09:15:09.420Z",
+          "updatedAt": "2026-01-28T13:20:51.423Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-01-28T13:20:51.423Z",
+      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
+    },
     {
       "id": "bd5e7c7c-3379-44a4-b537-b2b4aa50cc95",
       "action": "UPDATE",
