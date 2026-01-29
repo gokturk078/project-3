@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-29T15:14:32.630Z"
+    "lastUpdated": "2026-01-29T15:15:22.268Z"
   },
   "taxonomy": {
     "categories": [
@@ -6207,6 +6207,18 @@
       "notes": "",
       "createdAt": "2026-01-29T14:19:29.185Z",
       "updatedAt": "2026-01-29T14:19:29.185Z"
+    },
+    {
+      "id": "e463dab9-5408-4cf0-a898-6d77de2e8dac",
+      "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
+      "applicationNo": "120475/2026",
+      "profession": "FORMEN",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-01-29",
+      "contactPerson": "KAAN EREN ERKAN",
+      "notes": "",
+      "createdAt": "2026-01-29T15:15:22.268Z",
+      "updatedAt": "2026-01-29T15:15:22.268Z"
     }
   ],
   "departures": [
@@ -6972,6 +6984,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "976ae700-1d20-45e3-8f75-bc86701d758e",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "e463dab9-5408-4cf0-a898-6d77de2e8dac",
+      "details": {
+        "tracking": {
+          "id": "e463dab9-5408-4cf0-a898-6d77de2e8dac",
+          "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
+          "applicationNo": "120475/2026",
+          "profession": "FORMEN",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "KAAN EREN ERKAN",
+          "notes": "",
+          "createdAt": "2026-01-29T15:15:22.268Z",
+          "updatedAt": "2026-01-29T15:15:22.268Z"
+        }
+      },
+      "timestamp": "2026-01-29T15:15:22.268Z",
+      "adminSession": "99934da9-106e-4af9-a4c4-797cab1f869c"
+    },
     {
       "id": "3fd946c4-fdab-4588-9d13-108639f233a2",
       "action": "CREATE",
