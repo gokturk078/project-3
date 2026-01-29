@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-29T12:19:57.020Z"
+    "lastUpdated": "2026-01-29T12:20:10.386Z"
   },
   "taxonomy": {
     "categories": [
@@ -5332,8 +5332,9 @@
       "endDate": "2026-01-30",
       "days": 2,
       "type": "RAPOR",
-      "note": "",
-      "createdAt": "2026-01-29T12:19:57.018Z"
+      "note": "HASTALIK",
+      "createdAt": "2026-01-29T12:19:57.018Z",
+      "updatedAt": "2026-01-29T12:20:10.385Z"
     }
   ],
   "tracking": [
@@ -6919,6 +6920,37 @@
     }
   ],
   "audit": [
+    {
+      "id": "0788360b-d62d-4b94-86e0-1136f394bac7",
+      "action": "UPDATE",
+      "entityType": "leave",
+      "entityId": "0625e8e1-3a6a-4007-b5cd-8ab13ae919c8",
+      "details": {
+        "before": {
+          "id": "0625e8e1-3a6a-4007-b5cd-8ab13ae919c8",
+          "personId": "1c4ef47e-0b08-4109-aeb0-105bb32777fd",
+          "startDate": "2026-01-29",
+          "endDate": "2026-01-30",
+          "days": 2,
+          "type": "RAPOR",
+          "note": "",
+          "createdAt": "2026-01-29T12:19:57.018Z"
+        },
+        "after": {
+          "id": "0625e8e1-3a6a-4007-b5cd-8ab13ae919c8",
+          "personId": "1c4ef47e-0b08-4109-aeb0-105bb32777fd",
+          "startDate": "2026-01-29",
+          "endDate": "2026-01-30",
+          "days": 2,
+          "type": "RAPOR",
+          "note": "HASTALIK",
+          "createdAt": "2026-01-29T12:19:57.018Z",
+          "updatedAt": "2026-01-29T12:20:10.385Z"
+        }
+      },
+      "timestamp": "2026-01-29T12:20:10.386Z",
+      "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
+    },
     {
       "id": "71eaee4d-d1c2-412f-9634-f6146a2de11f",
       "action": "CREATE",
