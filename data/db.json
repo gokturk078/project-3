@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-29T12:20:10.386Z"
+    "lastUpdated": "2026-01-29T14:18:20.133Z"
   },
   "taxonomy": {
     "categories": [
@@ -5059,6 +5059,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:15:55.194Z",
       "updatedAt": "2026-01-28T09:15:55.194Z"
+    },
+    {
+      "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+      "baseKey": "MEHMET AL",
+      "fullName": "MEHMET AL",
+      "normalizedName": "MEHMET AL",
+      "category": "REPSAM",
+      "role": "FORMEN",
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-29T14:18:20.133Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-29T14:18:20.133Z",
+      "updatedAt": "2026-01-29T14:18:20.133Z"
     }
   ],
   "leaves": [
@@ -6920,6 +6940,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "727de4ab-18d7-4571-9574-b9bebdac5847",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+      "details": {
+        "person": {
+          "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+          "baseKey": "MEHMET AL",
+          "fullName": "MEHMET AL",
+          "normalizedName": "MEHMET AL",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-29T14:18:20.133Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-29T14:18:20.133Z",
+          "updatedAt": "2026-01-29T14:18:20.133Z"
+        }
+      },
+      "timestamp": "2026-01-29T14:18:20.133Z",
+      "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
+    },
     {
       "id": "0788360b-d62d-4b94-86e0-1136f394bac7",
       "action": "UPDATE",
