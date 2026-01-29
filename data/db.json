@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-29T06:33:25.757Z"
+    "lastUpdated": "2026-01-29T06:33:33.312Z"
   },
   "taxonomy": {
     "categories": [
@@ -5850,12 +5850,12 @@
       "personId": "2304b2b4-b005-4fdd-9a85-7b46a344cb60",
       "applicationNo": "119826/2026",
       "profession": "inşaat işçisi",
-      "status": "ÖN İZNİ ONAYLANDI",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
       "expectedDate": "2026-01-23",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-23T09:49:09.143Z",
-      "updatedAt": "2026-01-23T09:49:09.143Z"
+      "updatedAt": "2026-01-29T06:33:33.312Z"
     },
     {
       "id": "e08c6403-c7c7-489d-99c0-a45b7db85a48",
@@ -6885,6 +6885,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "92564f00-0ec3-4c4a-8eb7-87b7bfd25c55",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "ad71e0c2-5876-4128-ac4a-505ea0bb1972",
+      "details": {
+        "before": {
+          "id": "ad71e0c2-5876-4128-ac4a-505ea0bb1972",
+          "personId": "2304b2b4-b005-4fdd-9a85-7b46a344cb60",
+          "applicationNo": "119826/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-23",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-23T09:49:09.143Z",
+          "updatedAt": "2026-01-23T09:49:09.143Z"
+        },
+        "after": {
+          "id": "ad71e0c2-5876-4128-ac4a-505ea0bb1972",
+          "personId": "2304b2b4-b005-4fdd-9a85-7b46a344cb60",
+          "applicationNo": "119826/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-23",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-23T09:49:09.143Z",
+          "updatedAt": "2026-01-29T06:33:33.312Z"
+        }
+      },
+      "timestamp": "2026-01-29T06:33:33.312Z",
+      "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
+    },
     {
       "id": "5b680cec-4734-4ce0-af56-5274edffc5ff",
       "action": "UPDATE",
