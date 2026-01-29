@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-29T09:04:56.265Z"
+    "lastUpdated": "2026-01-29T09:05:46.934Z"
   },
   "taxonomy": {
     "categories": [
@@ -6132,6 +6132,18 @@
       "notes": "",
       "createdAt": "2026-01-29T09:04:56.262Z",
       "updatedAt": "2026-01-29T09:04:56.262Z"
+    },
+    {
+      "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
+      "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
+      "applicationNo": "147167/2026",
+      "profession": "inşaat işçisi",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "2026-01-29",
+      "contactPerson": "UZATMA 1 YIL",
+      "notes": "",
+      "createdAt": "2026-01-29T09:05:46.934Z",
+      "updatedAt": "2026-01-29T09:05:46.934Z"
     }
   ],
   "departures": [
@@ -6897,6 +6909,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "6dd0047c-0e3c-4c75-b121-cc8f19ff44b7",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
+      "details": {
+        "tracking": {
+          "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
+          "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
+          "applicationNo": "147167/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "UZATMA 1 YIL",
+          "notes": "",
+          "createdAt": "2026-01-29T09:05:46.934Z",
+          "updatedAt": "2026-01-29T09:05:46.934Z"
+        }
+      },
+      "timestamp": "2026-01-29T09:05:46.934Z",
+      "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
+    },
     {
       "id": "7339cbc2-4373-4fe0-bfe7-8b29fb2e43b2",
       "action": "CREATE",
