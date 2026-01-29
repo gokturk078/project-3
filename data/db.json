@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-29T15:15:22.268Z"
+    "lastUpdated": "2026-01-29T15:28:46.116Z"
   },
   "taxonomy": {
     "categories": [
@@ -5385,7 +5385,7 @@
       "baseKey": "EYYUB SALIH ARIK",
       "applicationNo": "İnşaat işçisi",
       "profession": "112333/2025",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "OFİS PERSONELİ",
       "notes": "",
@@ -5395,7 +5395,7 @@
         "row": 3
       },
       "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-      "updatedAt": "2026-01-10T07:36:31.801Z"
+      "updatedAt": "2026-01-29T15:28:46.116Z"
     },
     {
       "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
@@ -6984,6 +6984,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "a68f87a6-78bf-4db2-b426-83354da77e9c",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
+      "details": {
+        "before": {
+          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "baseKey": "EYYUB SALIH ARIK",
+          "applicationNo": "İnşaat işçisi",
+          "profession": "112333/2025",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "OFİS PERSONELİ",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 3
+          },
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+          "updatedAt": "2026-01-10T07:36:31.801Z"
+        },
+        "after": {
+          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "baseKey": "EYYUB SALIH ARIK",
+          "applicationNo": "İnşaat işçisi",
+          "profession": "112333/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "OFİS PERSONELİ",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 3
+          },
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+          "updatedAt": "2026-01-29T15:28:46.116Z"
+        }
+      },
+      "timestamp": "2026-01-29T15:28:46.116Z",
+      "adminSession": "99934da9-106e-4af9-a4c4-797cab1f869c"
+    },
     {
       "id": "976ae700-1d20-45e3-8f75-bc86701d758e",
       "action": "CREATE",
