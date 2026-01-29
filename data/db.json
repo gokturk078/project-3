@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-29T14:19:29.186Z"
+    "lastUpdated": "2026-01-29T15:14:32.630Z"
   },
   "taxonomy": {
     "categories": [
@@ -5079,6 +5079,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-29T14:18:20.133Z",
       "updatedAt": "2026-01-29T14:18:20.133Z"
+    },
+    {
+      "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
+      "baseKey": "ERHAN NERGİZ",
+      "fullName": "ERHAN NERGİZ",
+      "normalizedName": "ERHAN NERGİZ",
+      "category": "REPSAM",
+      "role": "FORMEN",
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-01-29T15:14:32.630Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-01-29T15:14:32.630Z",
+      "updatedAt": "2026-01-29T15:14:32.630Z"
     }
   ],
   "leaves": [
@@ -6952,6 +6972,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "3fd946c4-fdab-4588-9d13-108639f233a2",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
+      "details": {
+        "person": {
+          "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
+          "baseKey": "ERHAN NERGİZ",
+          "fullName": "ERHAN NERGİZ",
+          "normalizedName": "ERHAN NERGİZ",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-29T15:14:32.630Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-29T15:14:32.630Z",
+          "updatedAt": "2026-01-29T15:14:32.630Z"
+        }
+      },
+      "timestamp": "2026-01-29T15:14:32.630Z",
+      "adminSession": "99934da9-106e-4af9-a4c4-797cab1f869c"
+    },
     {
       "id": "b11fd24d-9ad8-4c15-ada4-549e92e95af9",
       "action": "CREATE",
