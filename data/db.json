@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-30T08:24:09.977Z"
+    "lastUpdated": "2026-01-30T10:15:21.490Z"
   },
   "taxonomy": {
     "categories": [
@@ -1286,7 +1286,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -1295,7 +1295,7 @@
       "mergedFrom": [],
       "personId": "78108cc2-8833-4c5d-b768-f8d1fb8daa8b",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-30T10:15:21.490Z"
     },
     {
       "fullName": "EMEL TÜRKÜCÜ",
@@ -7011,6 +7011,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "a6b03432-60f8-4a21-9f57-526b7ed7050f",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "78108cc2-8833-4c5d-b768-f8d1fb8daa8b",
+      "details": {
+        "before": {
+          "fullName": "BİRKAN YILDIZ",
+          "normalizedName": "BIRKAN YILDIZ",
+          "baseKey": "BIRKAN YILDIZ",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 62
+          },
+          "mergedFrom": [],
+          "personId": "78108cc2-8833-4c5d-b768-f8d1fb8daa8b",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "BİRKAN YILDIZ",
+          "normalizedName": "BIRKAN YILDIZ",
+          "baseKey": "BIRKAN YILDIZ",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 62
+          },
+          "mergedFrom": [],
+          "personId": "78108cc2-8833-4c5d-b768-f8d1fb8daa8b",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-30T10:15:21.490Z"
+        }
+      },
+      "timestamp": "2026-01-30T10:15:21.490Z",
+      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
+    },
     {
       "id": "4eef5aee-0d70-41f9-8653-5595aa6de550",
       "action": "CREATE",
