@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-30T10:15:21.490Z"
+    "lastUpdated": "2026-01-30T10:17:13.585Z"
   },
   "taxonomy": {
     "categories": [
@@ -6989,6 +6989,19 @@
       "exitMonth": "2026-01",
       "createdAt": "2026-01-30T08:24:09.977Z",
       "updatedAt": "2026-01-30T08:24:09.977Z"
+    },
+    {
+      "id": "55c75d55-6317-4350-ac89-d8ed716041ef",
+      "personId": null,
+      "fullName": "BİRKAN YILDIZ",
+      "category": "REPSAM",
+      "job": "MİMAR",
+      "entryDate": "2025-11-12",
+      "exitDate": "2026-02-02",
+      "totalDays": 82,
+      "exitMonth": "2026-02",
+      "createdAt": "2026-01-30T10:17:13.584Z",
+      "updatedAt": "2026-01-30T10:17:13.584Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7011,6 +7024,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "632bfc5f-f5b5-4f80-aa80-e9c49695ed8e",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "55c75d55-6317-4350-ac89-d8ed716041ef",
+      "details": {
+        "departure": {
+          "id": "55c75d55-6317-4350-ac89-d8ed716041ef",
+          "personId": null,
+          "fullName": "BİRKAN YILDIZ",
+          "category": "REPSAM",
+          "job": "MİMAR",
+          "entryDate": "2025-11-12",
+          "exitDate": "2026-02-02",
+          "totalDays": 82,
+          "exitMonth": "2026-02",
+          "createdAt": "2026-01-30T10:17:13.584Z",
+          "updatedAt": "2026-01-30T10:17:13.584Z"
+        }
+      },
+      "timestamp": "2026-01-30T10:17:13.585Z",
+      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
+    },
     {
       "id": "a6b03432-60f8-4a21-9f57-526b7ed7050f",
       "action": "UPDATE",
