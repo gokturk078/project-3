@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-30T08:21:07.964Z"
+    "lastUpdated": "2026-01-30T08:21:46.660Z"
   },
   "taxonomy": {
     "categories": [
@@ -586,7 +586,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -595,7 +595,7 @@
       "mergedFrom": [],
       "personId": "305b5400-8191-48db-8b14-7733c36a4f89",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-30T08:21:46.660Z"
     },
     {
       "fullName": "KAAN EREN ERKAN",
@@ -6997,6 +6997,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "2071bed9-8390-4350-ab9f-2569fc29d59a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "305b5400-8191-48db-8b14-7733c36a4f89",
+      "details": {
+        "before": {
+          "fullName": "İSMAİL ORUL",
+          "normalizedName": "ISMAIL ORUL",
+          "baseKey": "ISMAIL ORUL",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 27
+          },
+          "mergedFrom": [],
+          "personId": "305b5400-8191-48db-8b14-7733c36a4f89",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "İSMAİL ORUL",
+          "normalizedName": "ISMAIL ORUL",
+          "baseKey": "ISMAIL ORUL",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 27
+          },
+          "mergedFrom": [],
+          "personId": "305b5400-8191-48db-8b14-7733c36a4f89",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-30T08:21:46.660Z"
+        }
+      },
+      "timestamp": "2026-01-30T08:21:46.660Z",
+      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
+    },
     {
       "id": "c6017612-84e5-4ec6-8598-af089f50ef08",
       "action": "CREATE",
