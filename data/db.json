@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-30T08:22:33.865Z"
+    "lastUpdated": "2026-01-30T08:24:09.977Z"
   },
   "taxonomy": {
     "categories": [
@@ -6976,6 +6976,19 @@
       "exitMonth": "2026-01",
       "createdAt": "2026-01-30T08:21:07.963Z",
       "updatedAt": "2026-01-30T08:21:07.963Z"
+    },
+    {
+      "id": "463f4590-6774-43a4-a352-c96967154a8b",
+      "personId": null,
+      "fullName": "BURAK ERDEM",
+      "category": "CAPRA",
+      "job": "",
+      "entryDate": "2025-09-12",
+      "exitDate": "2026-01-12",
+      "totalDays": 122,
+      "exitMonth": "2026-01",
+      "createdAt": "2026-01-30T08:24:09.977Z",
+      "updatedAt": "2026-01-30T08:24:09.977Z"
     }
   ],
   "duplicateCandidates": [],
@@ -6998,6 +7011,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "4eef5aee-0d70-41f9-8653-5595aa6de550",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "463f4590-6774-43a4-a352-c96967154a8b",
+      "details": {
+        "departure": {
+          "id": "463f4590-6774-43a4-a352-c96967154a8b",
+          "personId": null,
+          "fullName": "BURAK ERDEM",
+          "category": "CAPRA",
+          "job": "",
+          "entryDate": "2025-09-12",
+          "exitDate": "2026-01-12",
+          "totalDays": 122,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-30T08:24:09.977Z",
+          "updatedAt": "2026-01-30T08:24:09.977Z"
+        }
+      },
+      "timestamp": "2026-01-30T08:24:09.977Z",
+      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
+    },
     {
       "id": "3987e740-a1ae-4998-b533-1db506b21f78",
       "action": "UPDATE",
