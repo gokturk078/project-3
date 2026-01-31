@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-31T06:51:52.321Z"
+    "lastUpdated": "2026-01-31T06:52:41.842Z"
   },
   "taxonomy": {
     "categories": [
@@ -5308,12 +5308,13 @@
     {
       "id": "387ad07c-ae1d-4396-b449-0b034d45e9dc",
       "personId": "5144f20c-d6d7-4811-9aa2-753af4e66d36",
-      "startDate": "2026-01-17",
-      "endDate": "2026-02-01",
-      "days": 16,
+      "startDate": "2026-01-16",
+      "endDate": "2026-02-02",
+      "days": 18,
       "type": "NORMAL",
       "note": "",
-      "createdAt": "2026-01-09T09:29:01.230Z"
+      "createdAt": "2026-01-09T09:29:01.230Z",
+      "updatedAt": "2026-01-31T06:52:41.842Z"
     },
     {
       "id": "95946224-672e-4cd2-9d26-207e3000a32c",
@@ -7033,6 +7034,37 @@
     }
   ],
   "audit": [
+    {
+      "id": "29d73d61-e3eb-4b32-88f7-7f20642060c8",
+      "action": "UPDATE",
+      "entityType": "leave",
+      "entityId": "387ad07c-ae1d-4396-b449-0b034d45e9dc",
+      "details": {
+        "before": {
+          "id": "387ad07c-ae1d-4396-b449-0b034d45e9dc",
+          "personId": "5144f20c-d6d7-4811-9aa2-753af4e66d36",
+          "startDate": "2026-01-17",
+          "endDate": "2026-02-01",
+          "days": 16,
+          "type": "NORMAL",
+          "note": "",
+          "createdAt": "2026-01-09T09:29:01.230Z"
+        },
+        "after": {
+          "id": "387ad07c-ae1d-4396-b449-0b034d45e9dc",
+          "personId": "5144f20c-d6d7-4811-9aa2-753af4e66d36",
+          "startDate": "2026-01-16",
+          "endDate": "2026-02-02",
+          "days": 18,
+          "type": "NORMAL",
+          "note": "",
+          "createdAt": "2026-01-09T09:29:01.230Z",
+          "updatedAt": "2026-01-31T06:52:41.842Z"
+        }
+      },
+      "timestamp": "2026-01-31T06:52:41.842Z",
+      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
+    },
     {
       "id": "991c1a9a-63d6-4b68-a440-c3c3e70c97ae",
       "action": "CREATE",
