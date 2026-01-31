@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-31T06:46:01.981Z"
+    "lastUpdated": "2026-01-31T06:50:21.590Z"
   },
   "taxonomy": {
     "categories": [
@@ -5365,6 +5365,16 @@
       "note": "HASTALIK",
       "createdAt": "2026-01-29T12:19:57.018Z",
       "updatedAt": "2026-01-29T12:20:10.385Z"
+    },
+    {
+      "id": "2223181b-2244-4b3f-8cb9-dc69b4d0e50e",
+      "personId": "fa1c6733-43fe-4662-8629-6d7c7b5d9a23",
+      "startDate": "2026-01-14",
+      "endDate": "2026-01-25",
+      "days": 12,
+      "type": "NORMAL",
+      "note": "",
+      "createdAt": "2026-01-31T06:50:21.590Z"
     }
   ],
   "tracking": [
@@ -7013,6 +7023,26 @@
     }
   ],
   "audit": [
+    {
+      "id": "959be4bc-9f44-4322-b51c-0bdb0d61b20c",
+      "action": "CREATE",
+      "entityType": "leave",
+      "entityId": "2223181b-2244-4b3f-8cb9-dc69b4d0e50e",
+      "details": {
+        "leave": {
+          "id": "2223181b-2244-4b3f-8cb9-dc69b4d0e50e",
+          "personId": "fa1c6733-43fe-4662-8629-6d7c7b5d9a23",
+          "startDate": "2026-01-14",
+          "endDate": "2026-01-25",
+          "days": 12,
+          "type": "NORMAL",
+          "note": "",
+          "createdAt": "2026-01-31T06:50:21.590Z"
+        }
+      },
+      "timestamp": "2026-01-31T06:50:21.590Z",
+      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
+    },
     {
       "id": "1c7b2830-2ca2-432d-9837-135cdb772308",
       "action": "DELETE",
