@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-31T12:25:35.587Z"
+    "lastUpdated": "2026-01-31T12:56:01.331Z"
   },
   "taxonomy": {
     "categories": [
@@ -486,7 +486,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -495,7 +495,7 @@
       "mergedFrom": [],
       "personId": "7006cdb0-183f-47b5-ae14-724b350b483a",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-01-31T12:56:01.331Z"
     },
     {
       "fullName": "HAKAN UYDURAN",
@@ -7084,6 +7084,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "8b69ef8d-af10-4158-bf1a-507603cf2645",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "7006cdb0-183f-47b5-ae14-724b350b483a",
+      "details": {
+        "before": {
+          "fullName": "GÖKHAN YILDIZ",
+          "normalizedName": "GOKHAN YILDIZ",
+          "baseKey": "GOKHAN YILDIZ",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 22
+          },
+          "mergedFrom": [],
+          "personId": "7006cdb0-183f-47b5-ae14-724b350b483a",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "GÖKHAN YILDIZ",
+          "normalizedName": "GOKHAN YILDIZ",
+          "baseKey": "GOKHAN YILDIZ",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 22
+          },
+          "mergedFrom": [],
+          "personId": "7006cdb0-183f-47b5-ae14-724b350b483a",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-31T12:56:01.331Z"
+        }
+      },
+      "timestamp": "2026-01-31T12:56:01.331Z",
+      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
+    },
     {
       "id": "9572c045-debd-4d05-8a9b-8975d7ccf570",
       "action": "UPDATE",
