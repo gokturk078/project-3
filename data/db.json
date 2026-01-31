@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-31T12:56:01.331Z"
+    "lastUpdated": "2026-01-31T12:56:48.670Z"
   },
   "taxonomy": {
     "categories": [
@@ -7062,6 +7062,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-01-30T10:17:13.584Z",
       "updatedAt": "2026-01-30T10:17:13.584Z"
+    },
+    {
+      "id": "d0206bdb-d03e-4871-8c32-f6d2c490482e",
+      "personId": null,
+      "fullName": "GÖKHAN YILDIZ",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-10-20",
+      "exitDate": "2026-01-31",
+      "totalDays": 103,
+      "exitMonth": "2026-01",
+      "createdAt": "2026-01-31T12:56:48.670Z",
+      "updatedAt": "2026-01-31T12:56:48.670Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7084,6 +7097,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "c31635e7-8b55-4046-89fe-9686d66229ec",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "d0206bdb-d03e-4871-8c32-f6d2c490482e",
+      "details": {
+        "departure": {
+          "id": "d0206bdb-d03e-4871-8c32-f6d2c490482e",
+          "personId": null,
+          "fullName": "GÖKHAN YILDIZ",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-10-20",
+          "exitDate": "2026-01-31",
+          "totalDays": 103,
+          "exitMonth": "2026-01",
+          "createdAt": "2026-01-31T12:56:48.670Z",
+          "updatedAt": "2026-01-31T12:56:48.670Z"
+        }
+      },
+      "timestamp": "2026-01-31T12:56:48.670Z",
+      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
+    },
     {
       "id": "8b69ef8d-af10-4158-bf1a-507603cf2645",
       "action": "UPDATE",
