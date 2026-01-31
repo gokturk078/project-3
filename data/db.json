@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-31T12:58:25.164Z"
+    "lastUpdated": "2026-01-31T13:11:01.756Z"
   },
   "taxonomy": {
     "categories": [
@@ -5864,12 +5864,12 @@
       "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
       "applicationNo": "119223/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "2026-01-19",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-01-19T07:15:45.447Z",
-      "updatedAt": "2026-01-26T09:35:44.774Z"
+      "updatedAt": "2026-01-31T13:11:01.756Z"
     },
     {
       "id": "0ae80ce6-32da-4225-a26f-7614a5b4c772",
@@ -7107,6 +7107,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "6402b08a-3e9a-4fdf-b602-9c2801371705",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "b1010c12-f6c8-411f-9561-5bbdc929d311",
+      "details": {
+        "before": {
+          "id": "b1010c12-f6c8-411f-9561-5bbdc929d311",
+          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+          "applicationNo": "119223/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:15:45.447Z",
+          "updatedAt": "2026-01-26T09:35:44.774Z"
+        },
+        "after": {
+          "id": "b1010c12-f6c8-411f-9561-5bbdc929d311",
+          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+          "applicationNo": "119223/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-19T07:15:45.447Z",
+          "updatedAt": "2026-01-31T13:11:01.756Z"
+        }
+      },
+      "timestamp": "2026-01-31T13:11:01.756Z",
+      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
+    },
     {
       "id": "1c2b2fd0-c139-4a7e-a59c-6c14245f22f6",
       "action": "CREATE",
