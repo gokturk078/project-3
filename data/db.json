@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-31T06:58:56.042Z"
+    "lastUpdated": "2026-01-31T08:26:07.701Z"
   },
   "taxonomy": {
     "categories": [
@@ -5426,6 +5426,16 @@
       "type": "NORMAL",
       "note": "",
       "createdAt": "2026-01-31T06:58:56.041Z"
+    },
+    {
+      "id": "aa14e9f7-91c0-4ad4-8985-081f56ffd91b",
+      "personId": "90e2e13c-8f91-48ba-a965-9fb941fa9483",
+      "startDate": "2026-01-18",
+      "endDate": "2026-02-05",
+      "days": 19,
+      "type": "ÜCRETSİZ",
+      "note": "",
+      "createdAt": "2026-01-31T08:26:07.700Z"
     }
   ],
   "tracking": [
@@ -7074,6 +7084,26 @@
     }
   ],
   "audit": [
+    {
+      "id": "723a652e-fe29-432c-8855-285cb68114ea",
+      "action": "CREATE",
+      "entityType": "leave",
+      "entityId": "aa14e9f7-91c0-4ad4-8985-081f56ffd91b",
+      "details": {
+        "leave": {
+          "id": "aa14e9f7-91c0-4ad4-8985-081f56ffd91b",
+          "personId": "90e2e13c-8f91-48ba-a965-9fb941fa9483",
+          "startDate": "2026-01-18",
+          "endDate": "2026-02-05",
+          "days": 19,
+          "type": "ÜCRETSİZ",
+          "note": "",
+          "createdAt": "2026-01-31T08:26:07.700Z"
+        }
+      },
+      "timestamp": "2026-01-31T08:26:07.700Z",
+      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
+    },
     {
       "id": "6cd8a7fb-212e-4af2-8464-1445a7b18c6f",
       "action": "CREATE",
