@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-02T07:33:44.398Z"
+    "lastUpdated": "2026-02-02T07:34:10.806Z"
   },
   "taxonomy": {
     "categories": [
@@ -3698,12 +3698,12 @@
       "baseKey": "OGUN KARBUZ",
       "fullName": "OGÜN KARBUZ",
       "normalizedName": "OGUN KARBUZ",
-      "category": null,
+      "category": "KALMES",
       "role": null,
       "jobTitle": "115652/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -3720,7 +3720,7 @@
         "contactPerson": "MESUT"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-02T07:34:10.806Z"
     },
     {
       "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
@@ -7107,6 +7107,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "2453c0bb-4fe1-46e0-af11-d20aa255a5ad",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "37d42596-a665-48ed-8158-1299397d70e6",
+      "details": {
+        "before": {
+          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
+          "baseKey": "OGUN KARBUZ",
+          "fullName": "OGÜN KARBUZ",
+          "normalizedName": "OGUN KARBUZ",
+          "category": null,
+          "role": null,
+          "jobTitle": "115652/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 7
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115652/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
+          "baseKey": "OGUN KARBUZ",
+          "fullName": "OGÜN KARBUZ",
+          "normalizedName": "OGUN KARBUZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "115652/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 7
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115652/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-02T07:34:10.806Z"
+        }
+      },
+      "timestamp": "2026-02-02T07:34:10.806Z",
+      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
+    },
     {
       "id": "4ab47c09-a133-414a-8eb7-fcb784f74ce2",
       "action": "UPDATE",
