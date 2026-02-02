@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-01-31T14:57:57.476Z"
+    "lastUpdated": "2026-02-02T07:33:44.398Z"
   },
   "taxonomy": {
     "categories": [
@@ -3669,12 +3669,12 @@
       "baseKey": "DOGUS KARBUZ",
       "fullName": "DOĞUŞ KARBUZ",
       "normalizedName": "DOGUS KARBUZ",
-      "category": null,
+      "category": "KALMES",
       "role": null,
       "jobTitle": "115661/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -3691,7 +3691,7 @@
         "contactPerson": "MESUT"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-02T07:33:44.397Z"
     },
     {
       "personId": "37d42596-a665-48ed-8158-1299397d70e6",
@@ -7107,6 +7107,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "4ab47c09-a133-414a-8eb7-fcb784f74ce2",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
+      "details": {
+        "before": {
+          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
+          "baseKey": "DOGUS KARBUZ",
+          "fullName": "DOĞUŞ KARBUZ",
+          "normalizedName": "DOGUS KARBUZ",
+          "category": null,
+          "role": null,
+          "jobTitle": "115661/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 6
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115661/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
+          "baseKey": "DOGUS KARBUZ",
+          "fullName": "DOĞUŞ KARBUZ",
+          "normalizedName": "DOGUS KARBUZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "115661/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 6
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115661/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-02T07:33:44.397Z"
+        }
+      },
+      "timestamp": "2026-02-02T07:33:44.398Z",
+      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
+    },
     {
       "id": "a121acb9-65aa-4ade-9e59-9bab15a73578",
       "action": "UPDATE",
