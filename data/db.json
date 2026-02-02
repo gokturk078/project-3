@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-02T07:35:30.998Z"
+    "lastUpdated": "2026-02-02T07:35:49.648Z"
   },
   "taxonomy": {
     "categories": [
@@ -5471,25 +5471,6 @@
       "updatedAt": "2026-01-31T14:57:03.260Z"
     },
     {
-      "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-      "fullName": "DOĞUŞ KARBUZ",
-      "normalizedName": "DOGUS KARBUZ",
-      "baseKey": "DOGUS KARBUZ",
-      "applicationNo": "inşaat işçisi",
-      "profession": "115661/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "2026-01-18",
-      "contactPerson": "KALMES",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 6
-      },
-      "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-      "updatedAt": "2026-01-31T14:57:10.503Z"
-    },
-    {
       "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
       "fullName": "OGÜN KARBUZ",
       "normalizedName": "OGUN KARBUZ",
@@ -7109,6 +7090,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "9bfdf2ee-ca5c-400f-ae29-a580143dcf7e",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
+      "details": {
+        "tracking": {
+          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
+          "fullName": "DOĞUŞ KARBUZ",
+          "normalizedName": "DOGUS KARBUZ",
+          "baseKey": "DOGUS KARBUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115661/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 6
+          },
+          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
+          "updatedAt": "2026-01-31T14:57:10.503Z"
+        }
+      },
+      "timestamp": "2026-02-02T07:35:49.648Z",
+      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
+    },
     {
       "id": "72cd0c2f-f4d5-478a-8872-2f6954f443f7",
       "action": "UPDATE",
