@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-02T08:54:58.932Z"
+    "lastUpdated": "2026-02-02T08:55:51.682Z"
   },
   "taxonomy": {
     "categories": [
@@ -5102,6 +5102,26 @@
       "mergedFrom": [],
       "createdAt": "2026-01-29T15:14:32.630Z",
       "updatedAt": "2026-01-29T15:14:32.630Z"
+    },
+    {
+      "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
+      "baseKey": "HALİL DEMİRALP",
+      "fullName": "HALİL DEMİRALP",
+      "normalizedName": "HALİL DEMİRALP",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-02T08:55:51.681Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-02T08:55:51.681Z",
+      "updatedAt": "2026-02-02T08:55:51.681Z"
     }
   ],
   "leaves": [
@@ -7028,6 +7048,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "68ffd5cd-034d-47b2-a201-b011846d3394",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
+      "details": {
+        "person": {
+          "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
+          "baseKey": "HALİL DEMİRALP",
+          "fullName": "HALİL DEMİRALP",
+          "normalizedName": "HALİL DEMİRALP",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-02T08:55:51.681Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-02T08:55:51.681Z",
+          "updatedAt": "2026-02-02T08:55:51.681Z"
+        }
+      },
+      "timestamp": "2026-02-02T08:55:51.682Z",
+      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
+    },
     {
       "id": "85f0e1b0-d61e-47f6-945c-045bcb95d9b7",
       "action": "UPDATE",
