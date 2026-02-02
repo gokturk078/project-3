@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-02T07:35:49.648Z"
+    "lastUpdated": "2026-02-02T07:35:53.751Z"
   },
   "taxonomy": {
     "categories": [
@@ -5471,25 +5471,6 @@
       "updatedAt": "2026-01-31T14:57:03.260Z"
     },
     {
-      "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-      "fullName": "OGÜN KARBUZ",
-      "normalizedName": "OGUN KARBUZ",
-      "baseKey": "OGUN KARBUZ",
-      "applicationNo": "inşaat işçisi",
-      "profession": "115652/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "2026-01-18",
-      "contactPerson": "KALMES",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 7
-      },
-      "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-      "updatedAt": "2026-01-31T14:57:17.996Z"
-    },
-    {
       "id": "ed8327ef-b584-4603-aebc-538e089f4f77",
       "fullName": "YETİŞ KARBUZ",
       "normalizedName": "YETIS KARBUZ",
@@ -7090,6 +7071,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "169978d3-bab7-41f0-a8c1-e431f364f932",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
+      "details": {
+        "tracking": {
+          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
+          "fullName": "OGÜN KARBUZ",
+          "normalizedName": "OGUN KARBUZ",
+          "baseKey": "OGUN KARBUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115652/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 7
+          },
+          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
+          "updatedAt": "2026-01-31T14:57:17.996Z"
+        }
+      },
+      "timestamp": "2026-02-02T07:35:53.751Z",
+      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
+    },
     {
       "id": "9bfdf2ee-ca5c-400f-ae29-a580143dcf7e",
       "action": "DELETE",
