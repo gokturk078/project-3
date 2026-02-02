@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-02T07:34:35.798Z"
+    "lastUpdated": "2026-02-02T07:35:03.224Z"
   },
   "taxonomy": {
     "categories": [
@@ -4386,7 +4386,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4395,7 +4395,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:06:50.330Z",
-      "updatedAt": "2026-01-19T07:06:50.330Z"
+      "updatedAt": "2026-02-02T07:35:03.224Z",
+      "jobTitle": null
     },
     {
       "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
@@ -7107,6 +7108,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "06db5aa8-e3e0-47df-895f-1faa7248c7e8",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+      "details": {
+        "before": {
+          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+          "baseKey": "MAHMUT DEMİRALP",
+          "fullName": "MAHMUT DEMİRALP",
+          "normalizedName": "MAHMUT DEMİRALP",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:50.330Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:50.330Z",
+          "updatedAt": "2026-01-19T07:06:50.330Z"
+        },
+        "after": {
+          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
+          "baseKey": "MAHMUT DEMİRALP",
+          "fullName": "MAHMUT DEMİRALP",
+          "normalizedName": "MAHMUT DEMİRALP",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:50.330Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:50.330Z",
+          "updatedAt": "2026-02-02T07:35:03.224Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-02T07:35:03.224Z",
+      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
+    },
     {
       "id": "40186827-503f-4b61-bb2b-8627fa9cbdd4",
       "action": "UPDATE",
