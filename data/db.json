@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-02T07:35:53.751Z"
+    "lastUpdated": "2026-02-02T07:36:04.397Z"
   },
   "taxonomy": {
     "categories": [
@@ -5490,25 +5490,6 @@
       "updatedAt": "2026-01-10T10:03:19.329Z"
     },
     {
-      "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-      "fullName": "SERVET ÖKSÜZ",
-      "normalizedName": "SERVET OKSUZ",
-      "baseKey": "SERVET OKSUZ",
-      "applicationNo": "inşaat işçisi",
-      "profession": "116626/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "2026-01-18",
-      "contactPerson": "KALMES",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 10
-      },
-      "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-      "updatedAt": "2026-01-31T14:57:27.903Z"
-    },
-    {
       "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
       "fullName": "MUHAMMET AR",
       "normalizedName": "MUHAMMET AR",
@@ -7071,6 +7052,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "f19b3018-f38a-4528-a694-4e489c43d735",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "21472475-0265-4a9e-9aec-66bf4bf69be8",
+      "details": {
+        "tracking": {
+          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
+          "fullName": "SERVET ÖKSÜZ",
+          "normalizedName": "SERVET OKSUZ",
+          "baseKey": "SERVET OKSUZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "116626/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-01-18",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 10
+          },
+          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
+          "updatedAt": "2026-01-31T14:57:27.903Z"
+        }
+      },
+      "timestamp": "2026-02-02T07:36:04.397Z",
+      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
+    },
     {
       "id": "169978d3-bab7-41f0-a8c1-e431f364f932",
       "action": "DELETE",
