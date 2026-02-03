@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-03T09:19:36.268Z"
+    "lastUpdated": "2026-02-03T09:20:01.079Z"
   },
   "taxonomy": {
     "categories": [
@@ -4407,7 +4407,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4416,7 +4416,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:07:08.513Z",
-      "updatedAt": "2026-01-19T07:07:08.513Z"
+      "updatedAt": "2026-02-03T09:20:01.079Z",
+      "jobTitle": null
     },
     {
       "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
@@ -7061,6 +7062,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "8c6c2355-7065-4964-b995-97cc6e81c08f",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
+      "details": {
+        "before": {
+          "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
+          "baseKey": "EMRAH KARBUZ",
+          "fullName": "EMRAH KARBUZ",
+          "normalizedName": "EMRAH KARBUZ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:07:08.513Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:07:08.513Z",
+          "updatedAt": "2026-01-19T07:07:08.513Z"
+        },
+        "after": {
+          "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
+          "baseKey": "EMRAH KARBUZ",
+          "fullName": "EMRAH KARBUZ",
+          "normalizedName": "EMRAH KARBUZ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:07:08.513Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:07:08.513Z",
+          "updatedAt": "2026-02-03T09:20:01.079Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-03T09:20:01.079Z",
+      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
+    },
     {
       "id": "3d75f3dc-0293-4fdb-9dc3-3fc76d00c975",
       "action": "UPDATE",
