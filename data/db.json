@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-03T09:20:01.079Z"
+    "lastUpdated": "2026-02-03T09:20:38.543Z"
   },
   "taxonomy": {
     "categories": [
@@ -4428,7 +4428,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4437,7 +4437,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:07:30.342Z",
-      "updatedAt": "2026-01-19T07:21:12.175Z",
+      "updatedAt": "2026-02-03T09:20:38.543Z",
       "jobTitle": null
     },
     {
@@ -7062,6 +7062,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "04a42226-6f0c-450c-88e8-9ea169b91051",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "354f6255-739b-4607-97a7-fb1da9a21c30",
+      "details": {
+        "before": {
+          "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
+          "baseKey": "ADİL BAŞARMAK",
+          "fullName": "ADİL BAŞARMAK",
+          "normalizedName": "ADİL BAŞARMAK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:07:30.342Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:07:30.342Z",
+          "updatedAt": "2026-01-19T07:21:12.175Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
+          "baseKey": "ADİL BAŞARMAK",
+          "fullName": "ADİL BAŞARMAK",
+          "normalizedName": "ADİL BAŞARMAK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:07:30.342Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:07:30.342Z",
+          "updatedAt": "2026-02-03T09:20:38.543Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-03T09:20:38.543Z",
+      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
+    },
     {
       "id": "8c6c2355-7065-4964-b995-97cc6e81c08f",
       "action": "UPDATE",
