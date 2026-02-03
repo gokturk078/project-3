@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-03T09:20:38.543Z"
+    "lastUpdated": "2026-02-03T09:21:09.582Z"
   },
   "taxonomy": {
     "categories": [
@@ -3727,12 +3727,12 @@
       "baseKey": "YETIS KARBUZ",
       "fullName": "YETİŞ KARBUZ",
       "normalizedName": "YETIS KARBUZ",
-      "category": null,
+      "category": "KALMES",
       "role": null,
       "jobTitle": "115646/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -3749,7 +3749,7 @@
         "contactPerson": "MESUT"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-03T09:21:09.582Z"
     },
     {
       "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
@@ -7062,6 +7062,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "67368c9b-b003-42fd-81f6-bb8cdba29c1a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "42552932-7346-4a0a-9436-3edbc9774ef5",
+      "details": {
+        "before": {
+          "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
+          "baseKey": "YETIS KARBUZ",
+          "fullName": "YETİŞ KARBUZ",
+          "normalizedName": "YETIS KARBUZ",
+          "category": null,
+          "role": null,
+          "jobTitle": "115646/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 8
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115646/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
+          "baseKey": "YETIS KARBUZ",
+          "fullName": "YETİŞ KARBUZ",
+          "normalizedName": "YETIS KARBUZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "115646/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 8
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115646/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-03T09:21:09.582Z"
+        }
+      },
+      "timestamp": "2026-02-03T09:21:09.582Z",
+      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
+    },
     {
       "id": "04a42226-6f0c-450c-88e8-9ea169b91051",
       "action": "UPDATE",
