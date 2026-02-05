@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-05T11:59:20.597Z"
+    "lastUpdated": "2026-02-05T11:59:39.681Z"
   },
   "taxonomy": {
     "categories": [
@@ -4306,7 +4306,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4315,7 +4315,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:05:23.129Z",
-      "updatedAt": "2026-01-19T07:05:23.129Z"
+      "updatedAt": "2026-02-05T11:59:39.681Z",
+      "jobTitle": null
     },
     {
       "personId": "52050282-6982-4686-a995-1bd8c83b806a",
@@ -7009,6 +7010,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "5eab401f-6c94-4551-96ad-0fd49c4b9fd0",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+      "details": {
+        "before": {
+          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+          "baseKey": "EMRULLAH BAŞARMAK",
+          "fullName": "EMRULLAH BAŞARMAK",
+          "normalizedName": "EMRULLAH BAŞARMAK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:05:23.129Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:05:23.129Z",
+          "updatedAt": "2026-01-19T07:05:23.129Z"
+        },
+        "after": {
+          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+          "baseKey": "EMRULLAH BAŞARMAK",
+          "fullName": "EMRULLAH BAŞARMAK",
+          "normalizedName": "EMRULLAH BAŞARMAK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:05:23.129Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:05:23.129Z",
+          "updatedAt": "2026-02-05T11:59:39.681Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-05T11:59:39.681Z",
+      "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
+    },
     {
       "id": "75daefb5-fadc-4d70-9aae-7843723691c6",
       "action": "UPDATE",
