@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-05T11:58:53.758Z"
+    "lastUpdated": "2026-02-05T11:59:20.597Z"
   },
   "taxonomy": {
     "categories": [
@@ -4347,7 +4347,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4356,7 +4356,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:06:06.954Z",
-      "updatedAt": "2026-01-19T07:06:06.954Z"
+      "updatedAt": "2026-02-05T11:59:20.597Z",
+      "jobTitle": null
     },
     {
       "personId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
@@ -7008,6 +7009,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "75daefb5-fadc-4d70-9aae-7843723691c6",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+      "details": {
+        "before": {
+          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+          "baseKey": "YUSUF GEMİCİ",
+          "fullName": "YUSUF GEMİCİ",
+          "normalizedName": "YUSUF GEMİCİ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:06.954Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:06.954Z",
+          "updatedAt": "2026-01-19T07:06:06.954Z"
+        },
+        "after": {
+          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
+          "baseKey": "YUSUF GEMİCİ",
+          "fullName": "YUSUF GEMİCİ",
+          "normalizedName": "YUSUF GEMİCİ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:06.954Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:06.954Z",
+          "updatedAt": "2026-02-05T11:59:20.597Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-05T11:59:20.597Z",
+      "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
+    },
     {
       "id": "69864145-28ee-4d1b-b549-e189dc13ed13",
       "action": "UPDATE",
