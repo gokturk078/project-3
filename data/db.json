@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-06T06:26:48.004Z"
+    "lastUpdated": "2026-02-06T06:58:39.086Z"
   },
   "taxonomy": {
     "categories": [
@@ -6151,12 +6151,12 @@
       "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
       "applicationNo": "120612/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-02-02",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-02-02T08:56:41.586Z",
-      "updatedAt": "2026-02-06T06:26:17.866Z"
+      "updatedAt": "2026-02-06T06:58:39.086Z"
     }
   ],
   "departures": [
@@ -6974,6 +6974,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "6247e556-69de-4613-a008-d2d5d9078a1d",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "fb6095b1-5912-487f-8a86-afcbea7a3d46",
+      "details": {
+        "before": {
+          "id": "fb6095b1-5912-487f-8a86-afcbea7a3d46",
+          "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
+          "applicationNo": "120612/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-02-02",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-02-02T08:56:41.586Z",
+          "updatedAt": "2026-02-06T06:26:17.866Z"
+        },
+        "after": {
+          "id": "fb6095b1-5912-487f-8a86-afcbea7a3d46",
+          "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
+          "applicationNo": "120612/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-02-02",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-02-02T08:56:41.586Z",
+          "updatedAt": "2026-02-06T06:58:39.086Z"
+        }
+      },
+      "timestamp": "2026-02-06T06:58:39.086Z",
+      "adminSession": "3594fe4d-076a-477a-8ce4-85a710f10416"
+    },
     {
       "id": "54406325-7879-4408-83ce-eedb7011d763",
       "action": "UPDATE",
