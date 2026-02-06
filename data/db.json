@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-06T10:42:23.902Z"
+    "lastUpdated": "2026-02-06T15:36:09.152Z"
   },
   "taxonomy": {
     "categories": [
@@ -5768,12 +5768,12 @@
       "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
       "applicationNo": "119227/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "2026-01-19",
       "contactPerson": "NEŞAT",
       "notes": "",
       "createdAt": "2026-01-19T07:11:52.399Z",
-      "updatedAt": "2026-02-03T12:01:43.809Z"
+      "updatedAt": "2026-02-06T15:36:09.151Z"
     },
     {
       "id": "0ae80ce6-32da-4225-a26f-7614a5b4c772",
@@ -6963,6 +6963,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "8ce1e626-4f42-4d94-911e-90c26c006d51",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "254d5842-78ef-4dab-8957-53670257eaa0",
+      "details": {
+        "before": {
+          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "applicationNo": "119227/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:52.399Z",
+          "updatedAt": "2026-02-03T12:01:43.809Z"
+        },
+        "after": {
+          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "applicationNo": "119227/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-19",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-01-19T07:11:52.399Z",
+          "updatedAt": "2026-02-06T15:36:09.151Z"
+        }
+      },
+      "timestamp": "2026-02-06T15:36:09.152Z",
+      "adminSession": "2b71c06e-302e-472a-89b7-363d3f5a184e"
+    },
     {
       "id": "b8a982c7-e41b-4d14-a94e-5df9a836c5c4",
       "action": "DELETE",
