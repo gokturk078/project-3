@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-06T07:54:15.334Z"
+    "lastUpdated": "2026-02-06T10:41:54.132Z"
   },
   "taxonomy": {
     "categories": [
@@ -4857,7 +4857,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4866,7 +4866,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:09:57.138Z",
-      "updatedAt": "2026-01-26T15:09:57.138Z"
+      "updatedAt": "2026-02-06T10:41:54.131Z",
+      "jobTitle": null
     },
     {
       "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
@@ -6974,6 +6975,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "f004131c-e751-4368-9072-9bd6fd44612e",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
+      "details": {
+        "before": {
+          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
+          "baseKey": "KEMAL KAHYAOĞLU",
+          "fullName": "KEMAL KAHYAOĞLU",
+          "normalizedName": "KEMAL KAHYAOĞLU",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:57.138Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:57.138Z",
+          "updatedAt": "2026-01-26T15:09:57.138Z"
+        },
+        "after": {
+          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
+          "baseKey": "KEMAL KAHYAOĞLU",
+          "fullName": "KEMAL KAHYAOĞLU",
+          "normalizedName": "KEMAL KAHYAOĞLU",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:57.138Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:57.138Z",
+          "updatedAt": "2026-02-06T10:41:54.131Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-06T10:41:54.131Z",
+      "adminSession": "3594fe4d-076a-477a-8ce4-85a710f10416"
+    },
     {
       "id": "31dfec42-d464-4d3b-8d81-7e405ce9bae6",
       "action": "UPDATE",
