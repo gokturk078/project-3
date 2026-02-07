@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-07T08:31:57.749Z"
+    "lastUpdated": "2026-02-07T08:32:04.126Z"
   },
   "taxonomy": {
     "categories": [
@@ -5598,7 +5598,7 @@
       "baseKey": "MECIT AYDOGAN",
       "applicationNo": "inşaat işçisi",
       "profession": "117468/2025",
-      "status": "AKİT YÜKLENECEK",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR (İSKELE)",
       "notes": "",
@@ -5608,7 +5608,7 @@
         "row": 21
       },
       "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-      "updatedAt": "2026-01-28T14:09:10.880Z"
+      "updatedAt": "2026-02-07T08:32:04.126Z"
     },
     {
       "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
@@ -6963,6 +6963,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "8ac7b738-fa60-4641-b4fb-b1b310935aa6",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
+      "details": {
+        "before": {
+          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "baseKey": "MECIT AYDOGAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117468/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR (İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 21
+          },
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+          "updatedAt": "2026-01-28T14:09:10.880Z"
+        },
+        "after": {
+          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "baseKey": "MECIT AYDOGAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117468/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR (İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 21
+          },
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+          "updatedAt": "2026-02-07T08:32:04.126Z"
+        }
+      },
+      "timestamp": "2026-02-07T08:32:04.126Z",
+      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
+    },
     {
       "id": "f57acf2b-5262-47d5-9054-3b220169dad9",
       "action": "UPDATE",
