@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-07T08:32:33.249Z"
+    "lastUpdated": "2026-02-07T08:32:40.160Z"
   },
   "taxonomy": {
     "categories": [
@@ -5503,7 +5503,7 @@
       "baseKey": "MUHAMMET AR",
       "applicationNo": "inşaat işçisi",
       "profession": "115670/2025",
-      "status": "AKİT YÜKLENECEK",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
@@ -5513,7 +5513,7 @@
         "row": 11
       },
       "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
-      "updatedAt": "2026-01-22T12:51:03.823Z"
+      "updatedAt": "2026-02-07T08:32:40.159Z"
     },
     {
       "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
@@ -6963,6 +6963,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "3a206aea-e640-444b-80d0-ff4733c939d4",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
+      "details": {
+        "before": {
+          "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "baseKey": "MUHAMMET AR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115670/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 11
+          },
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+          "updatedAt": "2026-01-22T12:51:03.823Z"
+        },
+        "after": {
+          "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "baseKey": "MUHAMMET AR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115670/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 11
+          },
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+          "updatedAt": "2026-02-07T08:32:40.159Z"
+        }
+      },
+      "timestamp": "2026-02-07T08:32:40.160Z",
+      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
+    },
     {
       "id": "a8dbd105-cee0-487e-9a2a-673ffce579c2",
       "action": "UPDATE",
