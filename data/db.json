@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-07T08:29:17.965Z"
+    "lastUpdated": "2026-02-07T08:29:23.511Z"
   },
   "taxonomy": {
     "categories": [
@@ -6044,12 +6044,12 @@
       "personId": "40e8b757-5829-4970-9818-8581db704eba",
       "applicationNo": "120260/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-01-28",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-28T09:16:39.919Z",
-      "updatedAt": "2026-01-31T13:54:57.009Z"
+      "updatedAt": "2026-02-07T08:29:23.511Z"
     },
     {
       "id": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
@@ -6963,6 +6963,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "833f00e5-0562-48c9-8170-0b292af07cfe",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "368030aa-7a20-4c86-9c48-441503ceac00",
+      "details": {
+        "before": {
+          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
+          "personId": "40e8b757-5829-4970-9818-8581db704eba",
+          "applicationNo": "120260/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-28",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-28T09:16:39.919Z",
+          "updatedAt": "2026-01-31T13:54:57.009Z"
+        },
+        "after": {
+          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
+          "personId": "40e8b757-5829-4970-9818-8581db704eba",
+          "applicationNo": "120260/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-28",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-28T09:16:39.919Z",
+          "updatedAt": "2026-02-07T08:29:23.511Z"
+        }
+      },
+      "timestamp": "2026-02-07T08:29:23.511Z",
+      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
+    },
     {
       "id": "2d3fb9ca-7b7b-4e1f-8463-0bd5dd69e1ed",
       "action": "UPDATE",
