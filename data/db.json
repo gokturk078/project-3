@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-06T15:36:18.909Z"
+    "lastUpdated": "2026-02-07T08:28:54.455Z"
   },
   "taxonomy": {
     "categories": [
@@ -6104,12 +6104,12 @@
       "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
       "applicationNo": "147167/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-01-29",
       "contactPerson": "UZATMA 1 YIL",
       "notes": "",
       "createdAt": "2026-01-29T09:05:46.934Z",
-      "updatedAt": "2026-01-29T09:05:46.934Z"
+      "updatedAt": "2026-02-07T08:28:54.454Z"
     },
     {
       "id": "3e38a09a-582d-4172-bf77-e8130f5ad6d7",
@@ -6963,6 +6963,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "8420ab70-34e9-44b1-91de-8f13668e6971",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
+      "details": {
+        "before": {
+          "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
+          "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
+          "applicationNo": "147167/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "UZATMA 1 YIL",
+          "notes": "",
+          "createdAt": "2026-01-29T09:05:46.934Z",
+          "updatedAt": "2026-01-29T09:05:46.934Z"
+        },
+        "after": {
+          "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
+          "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
+          "applicationNo": "147167/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "UZATMA 1 YIL",
+          "notes": "",
+          "createdAt": "2026-01-29T09:05:46.934Z",
+          "updatedAt": "2026-02-07T08:28:54.454Z"
+        }
+      },
+      "timestamp": "2026-02-07T08:28:54.455Z",
+      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
+    },
     {
       "id": "c1a5c17f-3a66-425a-af10-655bd39f36de",
       "action": "UPDATE",
