@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-07T08:31:47.542Z"
+    "lastUpdated": "2026-02-07T08:31:57.749Z"
   },
   "taxonomy": {
     "categories": [
@@ -5617,7 +5617,7 @@
       "baseKey": "SERHAT IS",
       "applicationNo": "inşaat işçisi",
       "profession": "117470/2025",
-      "status": "AKİT YÜKLENECEK",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "İSG (İŞÇİ)",
       "notes": "",
@@ -5627,7 +5627,7 @@
         "row": 22
       },
       "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
-      "updatedAt": "2026-01-26T15:30:03.128Z"
+      "updatedAt": "2026-02-07T08:31:57.749Z"
     },
     {
       "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
@@ -6963,6 +6963,54 @@
     }
   ],
   "audit": [
+    {
+      "id": "f57acf2b-5262-47d5-9054-3b220169dad9",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
+      "details": {
+        "before": {
+          "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "baseKey": "SERHAT IS",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117470/2025",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "İSG (İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 22
+          },
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "updatedAt": "2026-01-26T15:30:03.128Z"
+        },
+        "after": {
+          "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "baseKey": "SERHAT IS",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117470/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "İSG (İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 22
+          },
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "updatedAt": "2026-02-07T08:31:57.749Z"
+        }
+      },
+      "timestamp": "2026-02-07T08:31:57.749Z",
+      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
+    },
     {
       "id": "e0cf98b6-3b50-4a37-96f2-32997c0d0e76",
       "action": "UPDATE",
