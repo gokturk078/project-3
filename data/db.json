@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:42.113Z"
+    "lastUpdated": "2026-02-09T08:54:45.108Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-      "fullName": "MECİT AYDOĞAN",
-      "normalizedName": "MECIT AYDOGAN",
-      "baseKey": "MECIT AYDOGAN",
-      "applicationNo": "inşaat işçisi",
-      "profession": "117468/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "MURAT ÜYÜR (İSKELE)",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 21
-      },
-      "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-      "updatedAt": "2026-02-07T08:32:04.126Z"
-    },
-    {
       "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
       "fullName": "SERHAT İŞ",
       "normalizedName": "SERHAT IS",
@@ -6849,6 +6830,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "79d7ca87-a8e4-4e93-9db0-50fc4ff2f312",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
+      "details": {
+        "tracking": {
+          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "baseKey": "MECIT AYDOGAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117468/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR (İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 21
+          },
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+          "updatedAt": "2026-02-07T08:32:04.126Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:45.108Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "b203628a-f0f9-466c-b13c-ca5d713d7943",
       "action": "DELETE",
