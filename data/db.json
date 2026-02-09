@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:36.209Z"
+    "lastUpdated": "2026-02-09T08:54:39.287Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-      "fullName": "MERTCAN ŞİMŞEK",
-      "normalizedName": "MERTCAN SIMSEK",
-      "baseKey": "MERTCAN SIMSEK",
-      "applicationNo": "inşaat işçisi",
-      "profession": "117451/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "İSG",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 18
-      },
-      "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-      "updatedAt": "2026-02-07T08:32:18.946Z"
-    },
-    {
       "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
       "fullName": "RIDVAN GEZER",
       "normalizedName": "RIDVAN GEZER",
@@ -6887,6 +6868,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "1d5b45fd-15ff-498e-a746-ad8ce72606ec",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
+      "details": {
+        "tracking": {
+          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "baseKey": "MERTCAN SIMSEK",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117451/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "İSG",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 18
+          },
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+          "updatedAt": "2026-02-07T08:32:18.946Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:39.287Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "5a2a98f3-4f3c-4ddd-8146-19576272ef27",
       "action": "DELETE",
