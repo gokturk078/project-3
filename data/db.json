@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T14:41:46.596Z"
+    "lastUpdated": "2026-02-09T14:42:07.009Z"
   },
   "taxonomy": {
     "categories": [
@@ -2086,7 +2086,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -2095,7 +2095,7 @@
       "mergedFrom": [],
       "personId": "bf80e71c-f9a4-4991-8c69-ec3021340f37",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-02-09T14:42:07.009Z"
     },
     {
       "fullName": "SALİH BİRİNCİ",
@@ -6770,6 +6770,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "bef13738-78a7-4301-acd0-d37545b6d59a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "bf80e71c-f9a4-4991-8c69-ec3021340f37",
+      "details": {
+        "before": {
+          "fullName": "RAMAZAN ÖZBEN",
+          "normalizedName": "RAMAZAN OZBEN",
+          "baseKey": "RAMAZAN OZBEN",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 40
+          },
+          "mergedFrom": [],
+          "personId": "bf80e71c-f9a4-4991-8c69-ec3021340f37",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "RAMAZAN ÖZBEN",
+          "normalizedName": "RAMAZAN OZBEN",
+          "baseKey": "RAMAZAN OZBEN",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 40
+          },
+          "mergedFrom": [],
+          "personId": "bf80e71c-f9a4-4991-8c69-ec3021340f37",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-02-09T14:42:07.009Z"
+        }
+      },
+      "timestamp": "2026-02-09T14:42:07.009Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "988d6f12-9987-48ab-ac4a-365d18118803",
       "action": "UPDATE",
