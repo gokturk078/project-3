@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:57:37.253Z"
+    "lastUpdated": "2026-02-09T08:57:45.528Z"
   },
   "taxonomy": {
     "categories": [
@@ -3865,7 +3865,7 @@
         "contactPerson": "MURAT ÜYÜR"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T08:57:37.253Z"
+      "updatedAt": "2026-02-09T08:57:45.528Z"
     },
     {
       "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
@@ -6737,6 +6737,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "9176ab71-6861-4016-8f1e-f1264f9262c3",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+      "details": {
+        "before": {
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "115668/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 12
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115668/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:57:37.253Z"
+        },
+        "after": {
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "115668/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 12
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115668/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:57:45.528Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:57:45.528Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "de4fc5d7-6089-41bc-9a39-f12b94c73908",
       "action": "UPDATE",
