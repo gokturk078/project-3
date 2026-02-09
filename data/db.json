@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:25.967Z"
+    "lastUpdated": "2026-02-09T08:54:29.616Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
-      "fullName": "MUHAMMET AR",
-      "normalizedName": "MUHAMMET AR",
-      "baseKey": "MUHAMMET AR",
-      "applicationNo": "inşaat işçisi",
-      "profession": "115670/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 11
-      },
-      "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
-      "updatedAt": "2026-02-07T08:32:40.159Z"
-    },
-    {
       "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
       "fullName": "CEMALETTİN KAPLAN",
       "normalizedName": "CEMALETTIN KAPLAN",
@@ -6944,6 +6925,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "58541cef-ca30-4977-a44c-0d448e3b5967",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
+      "details": {
+        "tracking": {
+          "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "baseKey": "MUHAMMET AR",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115670/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 11
+          },
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+          "updatedAt": "2026-02-07T08:32:40.159Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:29.616Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "0913552a-58e1-4107-87b7-fa10c4a44b0e",
       "action": "DELETE",
