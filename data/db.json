@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:39.287Z"
+    "lastUpdated": "2026-02-09T08:54:42.113Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-      "fullName": "RIDVAN GEZER",
-      "normalizedName": "RIDVAN GEZER",
-      "baseKey": "RIDVAN GEZER",
-      "applicationNo": "inşaat işçisi",
-      "profession": "117452/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "MURAT ÜYÜR( İSKELE)",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 19
-      },
-      "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-      "updatedAt": "2026-02-07T08:32:10.505Z"
-    },
-    {
       "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
       "fullName": "MECİT AYDOĞAN",
       "normalizedName": "MECIT AYDOGAN",
@@ -6868,6 +6849,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "b203628a-f0f9-466c-b13c-ca5d713d7943",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
+      "details": {
+        "tracking": {
+          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
+          "fullName": "RIDVAN GEZER",
+          "normalizedName": "RIDVAN GEZER",
+          "baseKey": "RIDVAN GEZER",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117452/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 19
+          },
+          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
+          "updatedAt": "2026-02-07T08:32:10.505Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:42.113Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "1d5b45fd-15ff-498e-a746-ad8ce72606ec",
       "action": "DELETE",
