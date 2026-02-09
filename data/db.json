@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T09:01:21.660Z"
+    "lastUpdated": "2026-02-09T09:01:45.887Z"
   },
   "taxonomy": {
     "categories": [
@@ -4133,12 +4133,12 @@
       "baseKey": "BENAN UYUR",
       "fullName": "BENAN ÜYÜR",
       "normalizedName": "BENAN UYUR",
-      "category": null,
-      "role": null,
+      "category": "REPSAM",
+      "role": "OFİS PERSONELİ",
       "jobTitle": "117543/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -4155,7 +4155,7 @@
         "contactPerson": "MURAT ÜYÜR EŞİ"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-09T09:01:45.887Z"
     },
     {
       "personId": "9735f86e-be5e-4194-9693-83629caa2a34",
@@ -6737,6 +6737,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "7156f50e-5e31-4a80-9b53-4a8432ede9ca",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+      "details": {
+        "before": {
+          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+          "baseKey": "BENAN UYUR",
+          "fullName": "BENAN ÜYÜR",
+          "normalizedName": "BENAN UYUR",
+          "category": null,
+          "role": null,
+          "jobTitle": "117543/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 24
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "BÜRO MEMURU",
+            "profession": "117543/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR EŞİ"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+          "baseKey": "BENAN UYUR",
+          "fullName": "BENAN ÜYÜR",
+          "normalizedName": "BENAN UYUR",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": "117543/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 24
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "BÜRO MEMURU",
+            "profession": "117543/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR EŞİ"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:01:45.887Z"
+        }
+      },
+      "timestamp": "2026-02-09T09:01:45.887Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "e743a310-7619-4eee-a5f0-8dd09af6d4b7",
       "action": "UPDATE",
