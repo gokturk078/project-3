@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T09:00:16.469Z"
+    "lastUpdated": "2026-02-09T09:00:42.097Z"
   },
   "taxonomy": {
     "categories": [
@@ -4075,12 +4075,12 @@
       "baseKey": "SERHAT IS",
       "fullName": "SERHAT İŞ",
       "normalizedName": "SERHAT IS",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
       "jobTitle": "117470/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -4097,7 +4097,7 @@
         "contactPerson": "İSG (İŞÇİ)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-09T09:00:42.097Z"
     },
     {
       "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
@@ -6737,6 +6737,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "fed0c719-df5b-4f82-8743-97daa3901d38",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ea679478-0826-4468-9be1-e8081993dc5a",
+      "details": {
+        "before": {
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "baseKey": "SERHAT IS",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "category": null,
+          "role": null,
+          "jobTitle": "117470/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 22
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117470/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG (İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "baseKey": "SERHAT IS",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117470/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 22
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117470/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG (İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:00:42.097Z"
+        }
+      },
+      "timestamp": "2026-02-09T09:00:42.097Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "c18da390-a6fe-4de4-84aa-580b4945f403",
       "action": "UPDATE",
