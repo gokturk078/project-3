@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T14:43:07.320Z"
+    "lastUpdated": "2026-02-09T14:43:42.654Z"
   },
   "taxonomy": {
     "categories": [
@@ -6761,6 +6761,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-02-09T14:43:07.320Z",
       "updatedAt": "2026-02-09T14:43:07.320Z"
+    },
+    {
+      "id": "c2a73cd9-2af2-4f83-84a2-a14d5ec929f7",
+      "personId": null,
+      "fullName": "YASİN YILDIRIM",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2025-10-09",
+      "exitDate": "2026-02-09",
+      "totalDays": 123,
+      "exitMonth": "2026-02",
+      "createdAt": "2026-02-09T14:43:42.654Z",
+      "updatedAt": "2026-02-09T14:43:42.654Z"
     }
   ],
   "duplicateCandidates": [],
@@ -6783,6 +6796,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "197db708-931f-498d-b9c5-288d22e3d859",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "c2a73cd9-2af2-4f83-84a2-a14d5ec929f7",
+      "details": {
+        "departure": {
+          "id": "c2a73cd9-2af2-4f83-84a2-a14d5ec929f7",
+          "personId": null,
+          "fullName": "YASİN YILDIRIM",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-10-09",
+          "exitDate": "2026-02-09",
+          "totalDays": 123,
+          "exitMonth": "2026-02",
+          "createdAt": "2026-02-09T14:43:42.654Z",
+          "updatedAt": "2026-02-09T14:43:42.654Z"
+        }
+      },
+      "timestamp": "2026-02-09T14:43:42.654Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "49292399-97ba-43fa-b6b9-ea7ab5835113",
       "action": "CREATE",
