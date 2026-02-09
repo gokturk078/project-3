@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:47.711Z"
+    "lastUpdated": "2026-02-09T08:54:49.949Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
-      "fullName": "ABDULSAMET DURU",
-      "normalizedName": "ABDULSAMET DURU",
-      "baseKey": "ABDULSAMET DURU",
-      "applicationNo": "inşaat işçisi",
-      "profession": "117471/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "İSG(İŞÇİ)",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 23
-      },
-      "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
-      "updatedAt": "2026-02-07T08:31:47.542Z"
-    },
-    {
       "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
       "fullName": "BENAN ÜYÜR",
       "normalizedName": "BENAN UYUR",
@@ -6811,6 +6792,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "a8ed50c2-70c4-4418-9008-71d67931bdf2",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
+      "details": {
+        "tracking": {
+          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "baseKey": "ABDULSAMET DURU",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117471/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "İSG(İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 23
+          },
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+          "updatedAt": "2026-02-07T08:31:47.542Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:49.949Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "ccb34f5c-4723-4cf6-8ae1-2d64031bdaaf",
       "action": "DELETE",
