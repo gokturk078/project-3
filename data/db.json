@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:59:05.420Z"
+    "lastUpdated": "2026-02-09T08:59:52.626Z"
   },
   "taxonomy": {
     "categories": [
@@ -4017,12 +4017,12 @@
       "baseKey": "RIDVAN GEZER",
       "fullName": "RIDVAN GEZER",
       "normalizedName": "RIDVAN GEZER",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
       "jobTitle": "117452/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -4039,7 +4039,7 @@
         "contactPerson": "MURAT ÜYÜR( İSKELE)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-09T08:59:52.626Z"
     },
     {
       "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
@@ -6737,6 +6737,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "8bc3ccad-1ea0-4a5e-a5c2-0734f24eb4c7",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
+      "details": {
+        "before": {
+          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
+          "baseKey": "RIDVAN GEZER",
+          "fullName": "RIDVAN GEZER",
+          "normalizedName": "RIDVAN GEZER",
+          "category": null,
+          "role": null,
+          "jobTitle": "117452/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 19
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117452/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR( İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
+          "baseKey": "RIDVAN GEZER",
+          "fullName": "RIDVAN GEZER",
+          "normalizedName": "RIDVAN GEZER",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117452/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 19
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117452/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR( İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:59:52.626Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:59:52.626Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "52e0bc41-bbc2-421e-b630-8f4927fc47f1",
       "action": "UPDATE",
