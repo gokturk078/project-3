@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-07T11:47:15.249Z"
+    "lastUpdated": "2026-02-09T08:54:25.967Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-      "fullName": "EYYÜB SALİH ARIK",
-      "normalizedName": "EYYUB SALIH ARIK",
-      "baseKey": "EYYUB SALIH ARIK",
-      "applicationNo": "İnşaat işçisi",
-      "profession": "112333/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "OFİS PERSONELİ",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 3
-      },
-      "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-      "updatedAt": "2026-02-07T08:32:53.097Z"
-    },
-    {
       "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
       "fullName": "MUHAMMET AR",
       "normalizedName": "MUHAMMET AR",
@@ -6963,6 +6944,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "0913552a-58e1-4107-87b7-fa10c4a44b0e",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
+      "details": {
+        "tracking": {
+          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "baseKey": "EYYUB SALIH ARIK",
+          "applicationNo": "İnşaat işçisi",
+          "profession": "112333/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "OFİS PERSONELİ",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 3
+          },
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+          "updatedAt": "2026-02-07T08:32:53.097Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:25.967Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "be5e7cdc-0247-4892-8d2c-4ecf3d7c54d7",
       "action": "UPDATE",
