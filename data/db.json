@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:32.461Z"
+    "lastUpdated": "2026-02-09T08:54:36.209Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
-      "fullName": "MEHMET ŞERİF KORKMAZ",
-      "normalizedName": "MEHMET SERIF KORKMAZ",
-      "baseKey": "MEHMET SERIF KORKMAZ",
-      "applicationNo": "inşaat işçisi",
-      "profession": "117450/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "MURAT ÜYÜR( İSKELE)",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 17
-      },
-      "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-      "updatedAt": "2026-02-07T08:32:25.590Z"
-    },
-    {
       "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
       "fullName": "MERTCAN ŞİMŞEK",
       "normalizedName": "MERTCAN SIMSEK",
@@ -6906,6 +6887,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "5a2a98f3-4f3c-4ddd-8146-19576272ef27",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+      "details": {
+        "tracking": {
+          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
+          "fullName": "MEHMET ŞERİF KORKMAZ",
+          "normalizedName": "MEHMET SERIF KORKMAZ",
+          "baseKey": "MEHMET SERIF KORKMAZ",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117450/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR( İSKELE)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 17
+          },
+          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
+          "updatedAt": "2026-02-07T08:32:25.590Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:36.209Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "fd7f6f0a-2631-46c2-9018-3069307db6bb",
       "action": "DELETE",
