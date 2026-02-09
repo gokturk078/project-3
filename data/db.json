@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:45.108Z"
+    "lastUpdated": "2026-02-09T08:54:47.711Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
-      "fullName": "SERHAT İŞ",
-      "normalizedName": "SERHAT IS",
-      "baseKey": "SERHAT IS",
-      "applicationNo": "inşaat işçisi",
-      "profession": "117470/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "İSG (İŞÇİ)",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 22
-      },
-      "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
-      "updatedAt": "2026-02-07T08:31:57.749Z"
-    },
-    {
       "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
       "fullName": "ABDULSAMET DURU",
       "normalizedName": "ABDULSAMET DURU",
@@ -6830,6 +6811,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "ccb34f5c-4723-4cf6-8ae1-2d64031bdaaf",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
+      "details": {
+        "tracking": {
+          "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "baseKey": "SERHAT IS",
+          "applicationNo": "inşaat işçisi",
+          "profession": "117470/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "İSG (İŞÇİ)",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 22
+          },
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "updatedAt": "2026-02-07T08:31:57.749Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:47.711Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "79d7ca87-a8e4-4e93-9db0-50fc4ff2f312",
       "action": "DELETE",
