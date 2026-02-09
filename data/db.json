@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T09:01:12.268Z"
+    "lastUpdated": "2026-02-09T09:01:21.660Z"
   },
   "taxonomy": {
     "categories": [
@@ -4109,7 +4109,7 @@
       "jobTitle": "117471/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -4126,7 +4126,7 @@
         "contactPerson": "İSG(İŞÇİ)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T09:01:12.268Z"
+      "updatedAt": "2026-02-09T09:01:21.660Z"
     },
     {
       "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
@@ -6737,6 +6737,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "e743a310-7619-4eee-a5f0-8dd09af6d4b7",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+      "details": {
+        "before": {
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+          "baseKey": "ABDULSAMET DURU",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117471/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 23
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117471/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG(İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:01:12.268Z"
+        },
+        "after": {
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+          "baseKey": "ABDULSAMET DURU",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117471/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 23
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117471/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG(İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:01:21.660Z"
+        }
+      },
+      "timestamp": "2026-02-09T09:01:21.660Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "50c199c6-24e9-4ade-9269-e2458f1d17e4",
       "action": "UPDATE",
