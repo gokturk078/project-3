@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:29.616Z"
+    "lastUpdated": "2026-02-09T08:54:32.461Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
-      "fullName": "CEMALETTİN KAPLAN",
-      "normalizedName": "CEMALETTIN KAPLAN",
-      "baseKey": "CEMALETTIN KAPLAN",
-      "applicationNo": "inşaat işçisi",
-      "profession": "115668/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 12
-      },
-      "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-      "updatedAt": "2026-02-07T08:32:33.249Z"
-    },
-    {
       "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
       "fullName": "MEHMET ŞERİF KORKMAZ",
       "normalizedName": "MEHMET SERIF KORKMAZ",
@@ -6925,6 +6906,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "fd7f6f0a-2631-46c2-9018-3069307db6bb",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "b816461c-3d15-4e63-a725-ec59255e8db2",
+      "details": {
+        "tracking": {
+          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "applicationNo": "inşaat işçisi",
+          "profession": "115668/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 12
+          },
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+          "updatedAt": "2026-02-07T08:32:33.249Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:32.461Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "58541cef-ca30-4977-a44c-0d448e3b5967",
       "action": "DELETE",
