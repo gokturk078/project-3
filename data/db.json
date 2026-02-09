@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T14:42:07.009Z"
+    "lastUpdated": "2026-02-09T14:43:07.320Z"
   },
   "taxonomy": {
     "categories": [
@@ -6748,6 +6748,19 @@
       "exitMonth": "2026-01",
       "createdAt": "2026-01-31T12:56:48.670Z",
       "updatedAt": "2026-01-31T12:56:48.670Z"
+    },
+    {
+      "id": "f8800980-51cd-4622-b9b5-d5fab7c10fd0",
+      "personId": null,
+      "fullName": "FİKRET YAZAN",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2025-10-09",
+      "exitDate": "2026-02-09",
+      "totalDays": 123,
+      "exitMonth": "2026-02",
+      "createdAt": "2026-02-09T14:43:07.320Z",
+      "updatedAt": "2026-02-09T14:43:07.320Z"
     }
   ],
   "duplicateCandidates": [],
@@ -6770,6 +6783,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "49292399-97ba-43fa-b6b9-ea7ab5835113",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "f8800980-51cd-4622-b9b5-d5fab7c10fd0",
+      "details": {
+        "departure": {
+          "id": "f8800980-51cd-4622-b9b5-d5fab7c10fd0",
+          "personId": null,
+          "fullName": "FİKRET YAZAN",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-10-09",
+          "exitDate": "2026-02-09",
+          "totalDays": 123,
+          "exitMonth": "2026-02",
+          "createdAt": "2026-02-09T14:43:07.320Z",
+          "updatedAt": "2026-02-09T14:43:07.320Z"
+        }
+      },
+      "timestamp": "2026-02-09T14:43:07.320Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "bef13738-78a7-4301-acd0-d37545b6d59a",
       "action": "UPDATE",
