@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T09:02:34.092Z"
+    "lastUpdated": "2026-02-09T09:02:59.735Z"
   },
   "taxonomy": {
     "categories": [
@@ -4718,7 +4718,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4727,7 +4727,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:07:37.203Z",
-      "updatedAt": "2026-01-26T15:07:37.203Z"
+      "updatedAt": "2026-02-09T09:02:59.735Z",
+      "jobTitle": null
     },
     {
       "personId": "ae422373-9bee-452b-899b-aee6273d30a5",
@@ -6739,6 +6740,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "caa2d392-cf18-4737-930a-af318e470e7a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+      "details": {
+        "before": {
+          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+          "baseKey": "MAHMUT EMRE AKSOY",
+          "fullName": "MAHMUT EMRE AKSOY",
+          "normalizedName": "MAHMUT EMRE AKSOY",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:37.203Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:37.203Z",
+          "updatedAt": "2026-01-26T15:07:37.203Z"
+        },
+        "after": {
+          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+          "baseKey": "MAHMUT EMRE AKSOY",
+          "fullName": "MAHMUT EMRE AKSOY",
+          "normalizedName": "MAHMUT EMRE AKSOY",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:37.203Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:37.203Z",
+          "updatedAt": "2026-02-09T09:02:59.735Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-09T09:02:59.735Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "842c6f51-6453-4257-9e38-38d88033b0cc",
       "action": "UPDATE",
