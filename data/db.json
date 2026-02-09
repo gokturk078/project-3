@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T09:29:33.094Z"
+    "lastUpdated": "2026-02-09T14:41:23.318Z"
   },
   "taxonomy": {
     "categories": [
@@ -1726,7 +1726,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -1735,7 +1735,7 @@
       "mergedFrom": [],
       "personId": "a10c619f-6dc5-4434-b361-edfbc3d0fdde",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-02-09T14:41:23.318Z"
     },
     {
       "fullName": "HABİL ÇİFTÇİ",
@@ -6770,6 +6770,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "398d4df3-3b09-40e1-a114-2be96c99a980",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "a10c619f-6dc5-4434-b361-edfbc3d0fdde",
+      "details": {
+        "before": {
+          "fullName": "FİKRET YAZAN",
+          "normalizedName": "FIKRET YAZAN",
+          "baseKey": "FIKRET YAZAN",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 21
+          },
+          "mergedFrom": [],
+          "personId": "a10c619f-6dc5-4434-b361-edfbc3d0fdde",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "FİKRET YAZAN",
+          "normalizedName": "FIKRET YAZAN",
+          "baseKey": "FIKRET YAZAN",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 21
+          },
+          "mergedFrom": [],
+          "personId": "a10c619f-6dc5-4434-b361-edfbc3d0fdde",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-02-09T14:41:23.318Z"
+        }
+      },
+      "timestamp": "2026-02-09T14:41:23.318Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "727dbd47-89c4-4d07-b3d0-d6059750611e",
       "action": "CREATE",
