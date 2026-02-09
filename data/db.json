@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T09:01:45.887Z"
+    "lastUpdated": "2026-02-09T09:02:10.181Z"
   },
   "taxonomy": {
     "categories": [
@@ -4493,7 +4493,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4502,7 +4502,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:08:35.997Z",
-      "updatedAt": "2026-01-19T07:08:35.997Z"
+      "updatedAt": "2026-02-09T09:02:10.181Z",
+      "jobTitle": null
     },
     {
       "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
@@ -6737,6 +6738,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "c795a5d5-badb-4135-96d0-5cb68856ef10",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+      "details": {
+        "before": {
+          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+          "baseKey": "MURAT SAYĞI",
+          "fullName": "MURAT SAYĞI",
+          "normalizedName": "MURAT SAYĞI",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:08:35.997Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:08:35.997Z",
+          "updatedAt": "2026-01-19T07:08:35.997Z"
+        },
+        "after": {
+          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+          "baseKey": "MURAT SAYĞI",
+          "fullName": "MURAT SAYĞI",
+          "normalizedName": "MURAT SAYĞI",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:08:35.997Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:08:35.997Z",
+          "updatedAt": "2026-02-09T09:02:10.181Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-09T09:02:10.181Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "7156f50e-5e31-4a80-9b53-4a8432ede9ca",
       "action": "UPDATE",
