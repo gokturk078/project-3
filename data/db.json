@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:54:49.949Z"
+    "lastUpdated": "2026-02-09T08:54:52.813Z"
   },
   "taxonomy": {
     "categories": [
@@ -5478,25 +5478,6 @@
   ],
   "tracking": [
     {
-      "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-      "fullName": "BENAN ÜYÜR",
-      "normalizedName": "BENAN UYUR",
-      "baseKey": "BENAN UYUR",
-      "applicationNo": "BÜRO MEMURU",
-      "profession": "117543/2025",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "OFİS PERSONELİ",
-      "notes": "",
-      "source": {
-        "file": "takip.xlsx",
-        "sheet": "GÜNCEL (3)",
-        "row": 24
-      },
-      "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-      "updatedAt": "2026-02-07T08:31:34.088Z"
-    },
-    {
       "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
       "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
       "applicationNo": "116083/2025",
@@ -6792,6 +6773,35 @@
     }
   ],
   "audit": [
+    {
+      "id": "af0037a4-17b5-4f67-9349-0b65fd4877bc",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
+      "details": {
+        "tracking": {
+          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
+          "fullName": "BENAN ÜYÜR",
+          "normalizedName": "BENAN UYUR",
+          "baseKey": "BENAN UYUR",
+          "applicationNo": "BÜRO MEMURU",
+          "profession": "117543/2025",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "OFİS PERSONELİ",
+          "notes": "",
+          "source": {
+            "file": "takip.xlsx",
+            "sheet": "GÜNCEL (3)",
+            "row": 24
+          },
+          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+          "updatedAt": "2026-02-07T08:31:34.088Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:54:52.813Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "a8ed50c2-70c4-4418-9008-71d67931bdf2",
       "action": "DELETE",
