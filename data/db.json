@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:56:44.919Z"
+    "lastUpdated": "2026-02-09T08:57:12.725Z"
   },
   "taxonomy": {
     "categories": [
@@ -3582,8 +3582,8 @@
       "baseKey": "EYYUB SALIH ARIK",
       "fullName": "EYYÜB SALİH ARIK",
       "normalizedName": "EYYUB SALIH ARIK",
-      "category": null,
-      "role": null,
+      "category": "REPSAM",
+      "role": "OFİS PERSONELİ",
       "jobTitle": "112333/2025",
       "needsReview": true,
       "unmappedTags": [],
@@ -3604,7 +3604,7 @@
         "contactPerson": "EYYÜP"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T08:56:06.738Z"
+      "updatedAt": "2026-02-09T08:57:12.725Z"
     },
     {
       "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
@@ -6737,6 +6737,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "6eb162ac-32be-4436-b02d-80ab5d8fbb02",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+      "details": {
+        "before": {
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+          "baseKey": "EYYUB SALIH ARIK",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "category": null,
+          "role": null,
+          "jobTitle": "112333/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 3
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "İnşaat işçisi",
+            "profession": "112333/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": null,
+            "contactPerson": "EYYÜP"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:56:06.738Z"
+        },
+        "after": {
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+          "baseKey": "EYYUB SALIH ARIK",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": "112333/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 3
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "İnşaat işçisi",
+            "profession": "112333/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": null,
+            "contactPerson": "EYYÜP"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:57:12.725Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:57:12.725Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "658ce6b7-d325-4f5f-809a-0f4c20c4aa41",
       "action": "UPDATE",
