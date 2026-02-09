@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T14:41:23.318Z"
+    "lastUpdated": "2026-02-09T14:41:46.596Z"
   },
   "taxonomy": {
     "categories": [
@@ -2266,7 +2266,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -2275,7 +2275,7 @@
       "mergedFrom": [],
       "personId": "d2444015-5768-4454-bccc-be393c85ed19",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-02-09T14:41:46.596Z"
     },
     {
       "fullName": "YUSUF CAN",
@@ -6770,6 +6770,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "988d6f12-9987-48ab-ac4a-365d18118803",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "d2444015-5768-4454-bccc-be393c85ed19",
+      "details": {
+        "before": {
+          "fullName": "YASİN YILDIRIM",
+          "normalizedName": "YASIN YILDIRIM",
+          "baseKey": "YASIN YILDIRIM",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 50
+          },
+          "mergedFrom": [],
+          "personId": "d2444015-5768-4454-bccc-be393c85ed19",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "YASİN YILDIRIM",
+          "normalizedName": "YASIN YILDIRIM",
+          "baseKey": "YASIN YILDIRIM",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 50
+          },
+          "mergedFrom": [],
+          "personId": "d2444015-5768-4454-bccc-be393c85ed19",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-02-09T14:41:46.596Z"
+        }
+      },
+      "timestamp": "2026-02-09T14:41:46.596Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "398d4df3-3b09-40e1-a114-2be96c99a980",
       "action": "UPDATE",
