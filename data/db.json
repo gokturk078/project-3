@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T09:02:10.181Z"
+    "lastUpdated": "2026-02-09T09:02:34.092Z"
   },
   "taxonomy": {
     "categories": [
@@ -4473,7 +4473,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4482,7 +4482,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:08:12.202Z",
-      "updatedAt": "2026-01-19T07:08:12.202Z"
+      "updatedAt": "2026-02-09T09:02:34.092Z",
+      "jobTitle": null
     },
     {
       "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
@@ -6738,6 +6739,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "842c6f51-6453-4257-9e38-38d88033b0cc",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "9295c071-83ec-4418-949a-aa274f97d98d",
+      "details": {
+        "before": {
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "baseKey": "SADIK BARAN",
+          "fullName": "SADIK BARAN",
+          "normalizedName": "SADIK BARAN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:08:12.202Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:08:12.202Z",
+          "updatedAt": "2026-01-19T07:08:12.202Z"
+        },
+        "after": {
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "baseKey": "SADIK BARAN",
+          "fullName": "SADIK BARAN",
+          "normalizedName": "SADIK BARAN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:08:12.202Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:08:12.202Z",
+          "updatedAt": "2026-02-09T09:02:34.092Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-09T09:02:34.092Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "c795a5d5-badb-4135-96d0-5cb68856ef10",
       "action": "UPDATE",
