@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:56:06.738Z"
+    "lastUpdated": "2026-02-09T08:56:44.919Z"
   },
   "taxonomy": {
     "categories": [
@@ -3814,12 +3814,12 @@
       "baseKey": "MUHAMMET AR",
       "fullName": "MUHAMMET AR",
       "normalizedName": "MUHAMMET AR",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
       "jobTitle": "115670/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -3836,7 +3836,7 @@
         "contactPerson": "MURAT ÜYÜR"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-09T08:56:44.919Z"
     },
     {
       "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
@@ -6737,6 +6737,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "658ce6b7-d325-4f5f-809a-0f4c20c4aa41",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+      "details": {
+        "before": {
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+          "baseKey": "MUHAMMET AR",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "category": null,
+          "role": null,
+          "jobTitle": "115670/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 11
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115670/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+          "baseKey": "MUHAMMET AR",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "115670/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 11
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115670/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:56:44.919Z"
+        }
+      },
+      "timestamp": "2026-02-09T08:56:44.919Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "b5e2b55e-c4c4-432a-9742-9c0d614b0438",
       "action": "UPDATE",
