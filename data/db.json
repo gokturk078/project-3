@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T08:59:52.626Z"
+    "lastUpdated": "2026-02-09T09:00:16.469Z"
   },
   "taxonomy": {
     "categories": [
@@ -4046,12 +4046,12 @@
       "baseKey": "MECIT AYDOGAN",
       "fullName": "MECİT AYDOĞAN",
       "normalizedName": "MECIT AYDOGAN",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
       "jobTitle": "117468/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -4068,7 +4068,7 @@
         "contactPerson": "MURAT ÜYÜR (İSKELE)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-09T09:00:16.469Z"
     },
     {
       "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
@@ -6737,6 +6737,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "c18da390-a6fe-4de4-84aa-580b4945f403",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+      "details": {
+        "before": {
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+          "baseKey": "MECIT AYDOGAN",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "category": null,
+          "role": null,
+          "jobTitle": "117468/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 21
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117468/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR (İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+          "baseKey": "MECIT AYDOGAN",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117468/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 21
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117468/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR (İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:00:16.469Z"
+        }
+      },
+      "timestamp": "2026-02-09T09:00:16.469Z",
+      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
+    },
     {
       "id": "8bc3ccad-1ea0-4a5e-a5c2-0734f24eb4c7",
       "action": "UPDATE",
