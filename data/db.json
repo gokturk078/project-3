@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T14:04:41.181Z"
+    "lastUpdated": "2026-02-10T14:05:31.933Z"
   },
   "taxonomy": {
     "categories": [
@@ -6121,6 +6121,18 @@
       "notes": "",
       "createdAt": "2026-02-10T14:04:41.181Z",
       "updatedAt": "2026-02-10T14:04:41.181Z"
+    },
+    {
+      "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
+      "personId": "cce49799-7ddc-4281-ba13-02e895085903",
+      "applicationNo": "121503",
+      "profession": "FORMEN",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-02-10",
+      "contactPerson": "ERCAN İŞLEK",
+      "notes": "",
+      "createdAt": "2026-02-10T14:05:31.933Z",
+      "updatedAt": "2026-02-10T14:05:31.933Z"
     }
   ],
   "departures": [
@@ -6990,6 +7002,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "8539876e-ae1f-4028-8ced-7e65a41ea8ae",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
+      "details": {
+        "tracking": {
+          "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
+          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
+          "applicationNo": "121503",
+          "profession": "FORMEN",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-02-10T14:05:31.933Z",
+          "updatedAt": "2026-02-10T14:05:31.933Z"
+        }
+      },
+      "timestamp": "2026-02-10T14:05:31.933Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "e48decf5-19c2-4599-aebe-878c0c881926",
       "action": "CREATE",
