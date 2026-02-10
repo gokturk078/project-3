@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T12:24:43.924Z"
+    "lastUpdated": "2026-02-10T12:25:28.484Z"
   },
   "taxonomy": {
     "categories": [
@@ -6883,6 +6883,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-02-09T14:44:11.909Z",
       "updatedAt": "2026-02-09T14:44:11.909Z"
+    },
+    {
+      "id": "81346b58-f890-45df-b68f-520367d001f4",
+      "personId": null,
+      "fullName": "ÖMER DOĞAN",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2025-10-28",
+      "exitDate": "2026-02-10",
+      "totalDays": 105,
+      "exitMonth": "2026-02",
+      "createdAt": "2026-02-10T12:25:28.484Z",
+      "updatedAt": "2026-02-10T12:25:28.484Z"
     }
   ],
   "duplicateCandidates": [],
@@ -6905,6 +6918,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "6b4c94c5-b879-4bbf-bb0c-aced2e08af05",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "81346b58-f890-45df-b68f-520367d001f4",
+      "details": {
+        "departure": {
+          "id": "81346b58-f890-45df-b68f-520367d001f4",
+          "personId": null,
+          "fullName": "ÖMER DOĞAN",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-10-28",
+          "exitDate": "2026-02-10",
+          "totalDays": 105,
+          "exitMonth": "2026-02",
+          "createdAt": "2026-02-10T12:25:28.484Z",
+          "updatedAt": "2026-02-10T12:25:28.484Z"
+        }
+      },
+      "timestamp": "2026-02-10T12:25:28.484Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "1c26ea05-be09-449a-aa37-85405ee57326",
       "action": "UPDATE",
