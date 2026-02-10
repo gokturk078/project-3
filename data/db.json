@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T09:14:28.424Z"
+    "lastUpdated": "2026-02-10T09:14:48.838Z"
   },
   "taxonomy": {
     "categories": [
@@ -5191,6 +5191,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-10T09:14:28.424Z",
       "updatedAt": "2026-02-10T09:14:28.424Z"
+    },
+    {
+      "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
+      "baseKey": "HASAN ARIZ",
+      "fullName": "HASAN ARIZ",
+      "normalizedName": "HASAN ARIZ",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-10T09:14:48.838Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-10T09:14:48.838Z",
+      "updatedAt": "2026-02-10T09:14:48.838Z"
     }
   ],
   "leaves": [
@@ -6849,6 +6869,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e0e3ac88-88a9-4162-867e-4f8c44dbd816",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
+      "details": {
+        "person": {
+          "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
+          "baseKey": "HASAN ARIZ",
+          "fullName": "HASAN ARIZ",
+          "normalizedName": "HASAN ARIZ",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T09:14:48.838Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T09:14:48.838Z",
+          "updatedAt": "2026-02-10T09:14:48.838Z"
+        }
+      },
+      "timestamp": "2026-02-10T09:14:48.838Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "cde85c31-c5fc-41ef-94d4-c3c1f69da46d",
       "action": "CREATE",
