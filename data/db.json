@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T14:34:22.380Z"
+    "lastUpdated": "2026-02-10T15:37:34.564Z"
   },
   "taxonomy": {
     "categories": [
@@ -6136,13 +6136,13 @@
       "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
       "personId": "cce49799-7ddc-4281-ba13-02e895085903",
       "applicationNo": "121503/2026",
-      "profession": "FORMEN",
+      "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-02-10",
       "contactPerson": "ERCAN İŞLEK",
       "notes": "",
       "createdAt": "2026-02-10T14:05:31.933Z",
-      "updatedAt": "2026-02-10T14:06:27.297Z"
+      "updatedAt": "2026-02-10T15:37:34.564Z"
     },
     {
       "id": "a855826c-a0f5-4c85-9962-cc391f4856f7",
@@ -7024,6 +7024,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "6149b081-8ee1-4dfd-bf95-8b035835f45f",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
+      "details": {
+        "before": {
+          "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
+          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
+          "applicationNo": "121503/2026",
+          "profession": "FORMEN",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-02-10T14:05:31.933Z",
+          "updatedAt": "2026-02-10T14:06:27.297Z"
+        },
+        "after": {
+          "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
+          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
+          "applicationNo": "121503/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-02-10T14:05:31.933Z",
+          "updatedAt": "2026-02-10T15:37:34.564Z"
+        }
+      },
+      "timestamp": "2026-02-10T15:37:34.564Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "d8d9bd3f-91e5-4cbb-a95a-29e85cb34757",
       "action": "CREATE",
