@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-09T14:44:11.909Z"
+    "lastUpdated": "2026-02-10T09:14:05.057Z"
   },
   "taxonomy": {
     "categories": [
@@ -5151,6 +5151,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-09T09:29:33.094Z",
       "updatedAt": "2026-02-09T09:29:33.094Z"
+    },
+    {
+      "personId": "faad9160-fd59-4c14-bfcd-75091fe70728",
+      "baseKey": "ŞÜKÜR KALINTAŞ",
+      "fullName": "ŞÜKÜR KALINTAŞ",
+      "normalizedName": "ŞÜKÜR KALINTAŞ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-10T09:14:05.057Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-10T09:14:05.057Z",
+      "updatedAt": "2026-02-10T09:14:05.057Z"
     }
   ],
   "leaves": [
@@ -6809,6 +6829,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "d230cdd0-5a71-4a13-859a-53bdad28fb32",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "faad9160-fd59-4c14-bfcd-75091fe70728",
+      "details": {
+        "person": {
+          "personId": "faad9160-fd59-4c14-bfcd-75091fe70728",
+          "baseKey": "ŞÜKÜR KALINTAŞ",
+          "fullName": "ŞÜKÜR KALINTAŞ",
+          "normalizedName": "ŞÜKÜR KALINTAŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T09:14:05.057Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T09:14:05.057Z",
+          "updatedAt": "2026-02-10T09:14:05.057Z"
+        }
+      },
+      "timestamp": "2026-02-10T09:14:05.057Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "2949e528-418d-4567-a23e-a5210a061e94",
       "action": "CREATE",
