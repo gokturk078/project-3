@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T09:17:53.184Z"
+    "lastUpdated": "2026-02-10T09:18:14.347Z"
   },
   "taxonomy": {
     "categories": [
@@ -6018,13 +6018,13 @@
       "id": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
       "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
       "applicationNo": "121346/2026",
-      "profession": "İNŞAAT İŞÇİSİ",
+      "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-02-10",
       "contactPerson": "NEŞAT",
       "notes": "",
       "createdAt": "2026-02-10T09:15:48.798Z",
-      "updatedAt": "2026-02-10T09:15:48.798Z"
+      "updatedAt": "2026-02-10T09:18:14.347Z"
     },
     {
       "id": "92eb54a5-d4f6-4562-8ee1-e30fe1ee0157",
@@ -6905,6 +6905,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "50b6ab19-1073-403c-a934-c5ba99e665dc",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
+      "details": {
+        "before": {
+          "id": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
+          "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
+          "applicationNo": "121346/2026",
+          "profession": "İNŞAAT İŞÇİSİ",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-02-10T09:15:48.798Z",
+          "updatedAt": "2026-02-10T09:15:48.798Z"
+        },
+        "after": {
+          "id": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
+          "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
+          "applicationNo": "121346/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-02-10T09:15:48.798Z",
+          "updatedAt": "2026-02-10T09:18:14.347Z"
+        }
+      },
+      "timestamp": "2026-02-10T09:18:14.347Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "8b2f9932-1452-4f4b-a3ce-31633f1301eb",
       "action": "UPDATE",
