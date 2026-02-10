@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T14:02:05.060Z"
+    "lastUpdated": "2026-02-10T14:02:32.783Z"
   },
   "taxonomy": {
     "categories": [
@@ -5231,6 +5231,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-10T14:02:05.060Z",
       "updatedAt": "2026-02-10T14:02:05.060Z"
+    },
+    {
+      "personId": "cce49799-7ddc-4281-ba13-02e895085903",
+      "baseKey": "EROL YILMAZ",
+      "fullName": "EROL YILMAZ",
+      "normalizedName": "EROL YILMAZ",
+      "category": "REPSAM",
+      "role": "FORMEN",
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-10T14:02:32.783Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-10T14:02:32.783Z",
+      "updatedAt": "2026-02-10T14:02:32.783Z"
     }
   ],
   "leaves": [
@@ -6938,6 +6958,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8639a732-0041-415d-b8fa-25ed4297d717",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "cce49799-7ddc-4281-ba13-02e895085903",
+      "details": {
+        "person": {
+          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
+          "baseKey": "EROL YILMAZ",
+          "fullName": "EROL YILMAZ",
+          "normalizedName": "EROL YILMAZ",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T14:02:32.783Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T14:02:32.783Z",
+          "updatedAt": "2026-02-10T14:02:32.783Z"
+        }
+      },
+      "timestamp": "2026-02-10T14:02:32.783Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "594ca145-75a7-4d60-8602-25ffe1befcee",
       "action": "CREATE",
