@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T15:37:34.564Z"
+    "lastUpdated": "2026-02-10T15:37:51.532Z"
   },
   "taxonomy": {
     "categories": [
@@ -6148,13 +6148,13 @@
       "id": "a855826c-a0f5-4c85-9962-cc391f4856f7",
       "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
       "applicationNo": "121508/2026",
-      "profession": "FORMEN",
+      "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-02-10",
       "contactPerson": "ERCAN İŞLEK",
       "notes": "",
       "createdAt": "2026-02-10T14:06:14.693Z",
-      "updatedAt": "2026-02-10T14:06:14.693Z"
+      "updatedAt": "2026-02-10T15:37:51.532Z"
     }
   ],
   "departures": [
@@ -7024,6 +7024,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "0e5545f8-f93e-40f9-b62e-e17f22aa8b4b",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "a855826c-a0f5-4c85-9962-cc391f4856f7",
+      "details": {
+        "before": {
+          "id": "a855826c-a0f5-4c85-9962-cc391f4856f7",
+          "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
+          "applicationNo": "121508/2026",
+          "profession": "FORMEN",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-02-10T14:06:14.693Z",
+          "updatedAt": "2026-02-10T14:06:14.693Z"
+        },
+        "after": {
+          "id": "a855826c-a0f5-4c85-9962-cc391f4856f7",
+          "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
+          "applicationNo": "121508/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-02-10T14:06:14.693Z",
+          "updatedAt": "2026-02-10T15:37:51.532Z"
+        }
+      },
+      "timestamp": "2026-02-10T15:37:51.532Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "6149b081-8ee1-4dfd-bf95-8b035835f45f",
       "action": "UPDATE",
