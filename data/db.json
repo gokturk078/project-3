@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T14:03:10.765Z"
+    "lastUpdated": "2026-02-10T14:04:41.181Z"
   },
   "taxonomy": {
     "categories": [
@@ -6109,6 +6109,18 @@
       "notes": "",
       "createdAt": "2026-02-10T09:17:35.216Z",
       "updatedAt": "2026-02-10T09:17:35.216Z"
+    },
+    {
+      "id": "5b2e364e-0698-4968-953f-556bec46a742",
+      "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+      "applicationNo": "121500",
+      "profession": "inşaat işçisi",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-02-10",
+      "contactPerson": "ADNAN ŞEF",
+      "notes": "",
+      "createdAt": "2026-02-10T14:04:41.181Z",
+      "updatedAt": "2026-02-10T14:04:41.181Z"
     }
   ],
   "departures": [
@@ -6978,6 +6990,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "e48decf5-19c2-4599-aebe-878c0c881926",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "5b2e364e-0698-4968-953f-556bec46a742",
+      "details": {
+        "tracking": {
+          "id": "5b2e364e-0698-4968-953f-556bec46a742",
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "applicationNo": "121500",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ADNAN ŞEF",
+          "notes": "",
+          "createdAt": "2026-02-10T14:04:41.181Z",
+          "updatedAt": "2026-02-10T14:04:41.181Z"
+        }
+      },
+      "timestamp": "2026-02-10T14:04:41.181Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "ee749602-4272-4be3-b2be-c23beb30b4a2",
       "action": "CREATE",
