@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T09:18:14.347Z"
+    "lastUpdated": "2026-02-10T12:24:43.924Z"
   },
   "taxonomy": {
     "categories": [
@@ -2566,7 +2566,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "NEŞAT",
@@ -2575,7 +2575,7 @@
       "mergedFrom": [],
       "personId": "bd839efc-5216-41c9-92f2-560ee78edc05",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-02-10T12:24:43.924Z"
     },
     {
       "fullName": "ORHAN ÇİTO",
@@ -6905,6 +6905,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "1c26ea05-be09-449a-aa37-85405ee57326",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "bd839efc-5216-41c9-92f2-560ee78edc05",
+      "details": {
+        "before": {
+          "fullName": "ÖMER DOĞAN",
+          "normalizedName": "OMER DOGAN",
+          "baseKey": "OMER DOGAN",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 14
+          },
+          "mergedFrom": [],
+          "personId": "bd839efc-5216-41c9-92f2-560ee78edc05",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "ÖMER DOĞAN",
+          "normalizedName": "OMER DOGAN",
+          "baseKey": "OMER DOGAN",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 14
+          },
+          "mergedFrom": [],
+          "personId": "bd839efc-5216-41c9-92f2-560ee78edc05",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-02-10T12:24:43.924Z"
+        }
+      },
+      "timestamp": "2026-02-10T12:24:43.924Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "50b6ab19-1073-403c-a934-c5ba99e665dc",
       "action": "UPDATE",
