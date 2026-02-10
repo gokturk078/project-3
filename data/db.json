@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T14:02:32.783Z"
+    "lastUpdated": "2026-02-10T14:03:10.765Z"
   },
   "taxonomy": {
     "categories": [
@@ -5251,6 +5251,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-10T14:02:32.783Z",
       "updatedAt": "2026-02-10T14:02:32.783Z"
+    },
+    {
+      "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+      "baseKey": "MUHAMMED FERHAT ÜSTÜNER",
+      "fullName": "MUHAMMED FERHAT ÜSTÜNER",
+      "normalizedName": "MUHAMMED FERHAT ÜSTÜNER",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-10T14:03:10.765Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-10T14:03:10.765Z",
+      "updatedAt": "2026-02-10T14:03:10.765Z"
     }
   ],
   "leaves": [
@@ -6958,6 +6978,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ee749602-4272-4be3-b2be-c23beb30b4a2",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+      "details": {
+        "person": {
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "baseKey": "MUHAMMED FERHAT ÜSTÜNER",
+          "fullName": "MUHAMMED FERHAT ÜSTÜNER",
+          "normalizedName": "MUHAMMED FERHAT ÜSTÜNER",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T14:03:10.765Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T14:03:10.765Z",
+          "updatedAt": "2026-02-10T14:03:10.765Z"
+        }
+      },
+      "timestamp": "2026-02-10T14:03:10.765Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "8639a732-0041-415d-b8fa-25ed4297d717",
       "action": "CREATE",
