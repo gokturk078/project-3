@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T09:17:35.216Z"
+    "lastUpdated": "2026-02-10T09:17:53.184Z"
   },
   "taxonomy": {
     "categories": [
@@ -6033,10 +6033,10 @@
       "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-02-10",
-      "contactPerson": "",
+      "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-02-10T09:16:43.680Z",
-      "updatedAt": "2026-02-10T09:16:43.680Z"
+      "updatedAt": "2026-02-10T09:17:53.184Z"
     },
     {
       "id": "90e91dbd-be5d-4c57-8fa6-eac66153ab7e",
@@ -6905,6 +6905,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "8b2f9932-1452-4f4b-a3ce-31633f1301eb",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "92eb54a5-d4f6-4562-8ee1-e30fe1ee0157",
+      "details": {
+        "before": {
+          "id": "92eb54a5-d4f6-4562-8ee1-e30fe1ee0157",
+          "personId": "faad9160-fd59-4c14-bfcd-75091fe70728",
+          "applicationNo": "121365/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-02-10T09:16:43.680Z",
+          "updatedAt": "2026-02-10T09:16:43.680Z"
+        },
+        "after": {
+          "id": "92eb54a5-d4f6-4562-8ee1-e30fe1ee0157",
+          "personId": "faad9160-fd59-4c14-bfcd-75091fe70728",
+          "applicationNo": "121365/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-02-10T09:16:43.680Z",
+          "updatedAt": "2026-02-10T09:17:53.184Z"
+        }
+      },
+      "timestamp": "2026-02-10T09:17:53.184Z",
+      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
+    },
     {
       "id": "908ebf4c-a0c6-4401-8095-52014379caad",
       "action": "CREATE",
