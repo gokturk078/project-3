@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-10T15:53:27.773Z"
+    "lastUpdated": "2026-02-11T14:21:33.048Z"
   },
   "taxonomy": {
     "categories": [
@@ -5218,7 +5218,7 @@
       "fullName": "MUSTAFA YILMAZ",
       "normalizedName": "MUSTAFA YILMAZ",
       "category": "REPSAM",
-      "role": "FORMEN",
+      "role": null,
       "needsReview": false,
       "unmappedTags": [],
       "status": "pending",
@@ -5230,7 +5230,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-10T14:02:05.060Z",
-      "updatedAt": "2026-02-10T14:02:05.060Z"
+      "updatedAt": "2026-02-11T14:21:33.048Z",
+      "jobTitle": null
     },
     {
       "personId": "cce49799-7ddc-4281-ba13-02e895085903",
@@ -7026,6 +7027,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "ba37212b-7a47-4d33-8027-4eb9c2335b0a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
+      "details": {
+        "before": {
+          "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
+          "baseKey": "MUSTAFA YILMAZ",
+          "fullName": "MUSTAFA YILMAZ",
+          "normalizedName": "MUSTAFA YILMAZ",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T14:02:05.060Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T14:02:05.060Z",
+          "updatedAt": "2026-02-10T14:02:05.060Z"
+        },
+        "after": {
+          "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
+          "baseKey": "MUSTAFA YILMAZ",
+          "fullName": "MUSTAFA YILMAZ",
+          "normalizedName": "MUSTAFA YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T14:02:05.060Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T14:02:05.060Z",
+          "updatedAt": "2026-02-11T14:21:33.048Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-11T14:21:33.048Z",
+      "adminSession": "33eef303-b0aa-4278-9304-9d4c3ad942ce"
+    },
     {
       "id": "722d7b0c-e2e0-4f27-859a-505990f9880d",
       "action": "UPDATE",
