@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-13T12:05:40.233Z"
+    "lastUpdated": "2026-02-13T12:06:55.982Z"
   },
   "taxonomy": {
     "categories": [
@@ -6164,13 +6164,13 @@
       "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
       "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
       "applicationNo": "150019/2026",
-      "profession": "",
+      "profession": "SAHA MEKANİK",
       "status": "SAĞLIĞA SEVK EDİLECEK",
       "expectedDate": "2026-02-13",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-02-13T12:05:40.233Z",
-      "updatedAt": "2026-02-13T12:05:40.233Z"
+      "updatedAt": "2026-02-13T12:06:55.981Z"
     }
   ],
   "departures": [
@@ -7040,6 +7040,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "1f8a8dcc-e0e4-4c21-a846-ab306249a95b",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
+      "details": {
+        "before": {
+          "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
+          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
+          "applicationNo": "150019/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-02-13",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-13T12:05:40.233Z",
+          "updatedAt": "2026-02-13T12:05:40.233Z"
+        },
+        "after": {
+          "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
+          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
+          "applicationNo": "150019/2026",
+          "profession": "SAHA MEKANİK",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-02-13",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-13T12:05:40.233Z",
+          "updatedAt": "2026-02-13T12:06:55.981Z"
+        }
+      },
+      "timestamp": "2026-02-13T12:06:55.981Z",
+      "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
+    },
     {
       "id": "ba742fd9-788e-4004-b968-d07b78a03b0c",
       "action": "CREATE",
