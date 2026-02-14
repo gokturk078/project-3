@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-14T11:40:34.761Z"
+    "lastUpdated": "2026-02-14T11:41:34.357Z"
   },
   "taxonomy": {
     "categories": [
@@ -7030,6 +7030,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-02-10T12:25:28.484Z",
       "updatedAt": "2026-02-10T12:25:28.484Z"
+    },
+    {
+      "id": "741f8e2b-4b14-4485-8f95-0aacbb222f5b",
+      "personId": null,
+      "fullName": "MERTCAN ŞİMŞEK",
+      "category": "REPSAM",
+      "job": "İSG",
+      "entryDate": "2026-01-11",
+      "exitDate": "2026-02-14",
+      "totalDays": 34,
+      "exitMonth": "2026-02",
+      "createdAt": "2026-02-14T11:41:34.357Z",
+      "updatedAt": "2026-02-14T11:41:34.357Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7052,6 +7065,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "ccb7eb75-1a68-48e3-a8b5-562162519a8e",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "741f8e2b-4b14-4485-8f95-0aacbb222f5b",
+      "details": {
+        "departure": {
+          "id": "741f8e2b-4b14-4485-8f95-0aacbb222f5b",
+          "personId": null,
+          "fullName": "MERTCAN ŞİMŞEK",
+          "category": "REPSAM",
+          "job": "İSG",
+          "entryDate": "2026-01-11",
+          "exitDate": "2026-02-14",
+          "totalDays": 34,
+          "exitMonth": "2026-02",
+          "createdAt": "2026-02-14T11:41:34.357Z",
+          "updatedAt": "2026-02-14T11:41:34.357Z"
+        }
+      },
+      "timestamp": "2026-02-14T11:41:34.357Z",
+      "adminSession": "b52d9794-d32c-4173-b388-9b49756c1288"
+    },
     {
       "id": "166ba4a2-87f4-444a-921c-b70822eac83d",
       "action": "UPDATE",
