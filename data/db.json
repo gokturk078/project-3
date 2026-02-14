@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-13T13:35:38.306Z"
+    "lastUpdated": "2026-02-14T11:40:34.761Z"
   },
   "taxonomy": {
     "categories": [
@@ -3993,7 +3993,7 @@
       "jobTitle": "117451/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -4010,7 +4010,7 @@
         "contactPerson": "İSG"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T08:59:05.420Z"
+      "updatedAt": "2026-02-14T11:40:34.760Z"
     },
     {
       "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
@@ -7052,6 +7052,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "166ba4a2-87f4-444a-921c-b70822eac83d",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+      "details": {
+        "before": {
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+          "baseKey": "MERTCAN SIMSEK",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "category": "REPSAM",
+          "role": "İSG",
+          "jobTitle": "117451/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 18
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117451/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-29",
+            "contactPerson": "İSG"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:59:05.420Z"
+        },
+        "after": {
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+          "baseKey": "MERTCAN SIMSEK",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "category": "REPSAM",
+          "role": "İSG",
+          "jobTitle": "117451/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 18
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117451/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-29",
+            "contactPerson": "İSG"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-14T11:40:34.760Z"
+        }
+      },
+      "timestamp": "2026-02-14T11:40:34.760Z",
+      "adminSession": "b52d9794-d32c-4173-b388-9b49756c1288"
+    },
     {
       "id": "9e5fc2fb-78b4-460f-b17a-12570732bfd7",
       "action": "CREATE",
