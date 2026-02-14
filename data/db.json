@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-14T11:41:34.357Z"
+    "lastUpdated": "2026-02-14T14:58:23.987Z"
   },
   "taxonomy": {
     "categories": [
@@ -5636,11 +5636,12 @@
       "id": "cdaec4eb-f923-49c8-8a88-29258db11f18",
       "personId": "d0be571d-8ae4-409d-8d41-1320a8931787",
       "startDate": "2026-02-09",
-      "endDate": "2026-02-15",
-      "days": 7,
+      "endDate": "2026-03-25",
+      "days": 45,
       "type": "RAPOR",
-      "note": "İŞ KAZASI HASTANEDE YATIŞ AMELİYAT",
-      "createdAt": "2026-02-10T14:34:22.380Z"
+      "note": "İŞ KAZASI RAPOR",
+      "createdAt": "2026-02-10T14:34:22.380Z",
+      "updatedAt": "2026-02-14T14:58:23.987Z"
     }
   ],
   "tracking": [
@@ -7065,6 +7066,37 @@
     }
   ],
   "audit": [
+    {
+      "id": "23a22872-4ca9-4197-ad12-f45d97873ab1",
+      "action": "UPDATE",
+      "entityType": "leave",
+      "entityId": "cdaec4eb-f923-49c8-8a88-29258db11f18",
+      "details": {
+        "before": {
+          "id": "cdaec4eb-f923-49c8-8a88-29258db11f18",
+          "personId": "d0be571d-8ae4-409d-8d41-1320a8931787",
+          "startDate": "2026-02-09",
+          "endDate": "2026-02-15",
+          "days": 7,
+          "type": "RAPOR",
+          "note": "İŞ KAZASI HASTANEDE YATIŞ AMELİYAT",
+          "createdAt": "2026-02-10T14:34:22.380Z"
+        },
+        "after": {
+          "id": "cdaec4eb-f923-49c8-8a88-29258db11f18",
+          "personId": "d0be571d-8ae4-409d-8d41-1320a8931787",
+          "startDate": "2026-02-09",
+          "endDate": "2026-03-25",
+          "days": 45,
+          "type": "RAPOR",
+          "note": "İŞ KAZASI RAPOR",
+          "createdAt": "2026-02-10T14:34:22.380Z",
+          "updatedAt": "2026-02-14T14:58:23.987Z"
+        }
+      },
+      "timestamp": "2026-02-14T14:58:23.987Z",
+      "adminSession": "b52d9794-d32c-4173-b388-9b49756c1288"
+    },
     {
       "id": "ccb7eb75-1a68-48e3-a8b5-562162519a8e",
       "action": "CREATE",
