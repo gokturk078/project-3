@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-16T13:51:59.579Z"
+    "lastUpdated": "2026-02-16T14:52:27.374Z"
   },
   "taxonomy": {
     "categories": [
@@ -2666,7 +2666,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "NEŞAT",
@@ -2675,7 +2675,7 @@
       "mergedFrom": [],
       "personId": "d89696ac-af37-450d-b94d-eed058ae2527",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-02-16T14:52:27.374Z"
     },
     {
       "fullName": "YUSUF ÇİFTÇİ",
@@ -7066,6 +7066,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "0ec80cc6-1620-46bf-9833-2e4807dd19fe",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "d89696ac-af37-450d-b94d-eed058ae2527",
+      "details": {
+        "before": {
+          "fullName": "YILMAZ ÇIRA",
+          "normalizedName": "YILMAZ CIRA",
+          "baseKey": "YILMAZ CIRA",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 19
+          },
+          "mergedFrom": [],
+          "personId": "d89696ac-af37-450d-b94d-eed058ae2527",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "YILMAZ ÇIRA",
+          "normalizedName": "YILMAZ CIRA",
+          "baseKey": "YILMAZ CIRA",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 19
+          },
+          "mergedFrom": [],
+          "personId": "d89696ac-af37-450d-b94d-eed058ae2527",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-02-16T14:52:27.374Z"
+        }
+      },
+      "timestamp": "2026-02-16T14:52:27.374Z",
+      "adminSession": "b32fe3c4-7c20-4f13-8e8e-2173463ce2a1"
+    },
     {
       "id": "0f070fac-ca1d-4836-9806-941ee37b2d57",
       "action": "UPDATE",
