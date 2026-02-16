@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-16T14:52:27.374Z"
+    "lastUpdated": "2026-02-16T14:53:14.612Z"
   },
   "taxonomy": {
     "categories": [
@@ -7044,6 +7044,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-02-14T11:41:34.357Z",
       "updatedAt": "2026-02-14T11:41:34.357Z"
+    },
+    {
+      "id": "04905d94-a80f-4adb-869c-dae97789a9b8",
+      "personId": null,
+      "fullName": "YILMAZ ÇIRA",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2025-06-13",
+      "exitDate": "2026-02-16",
+      "totalDays": 248,
+      "exitMonth": "2026-02",
+      "createdAt": "2026-02-16T14:53:14.612Z",
+      "updatedAt": "2026-02-16T14:53:14.612Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7066,6 +7079,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "f3177a8a-1ae1-4360-b4c9-e5be8c2b0bd7",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "04905d94-a80f-4adb-869c-dae97789a9b8",
+      "details": {
+        "departure": {
+          "id": "04905d94-a80f-4adb-869c-dae97789a9b8",
+          "personId": null,
+          "fullName": "YILMAZ ÇIRA",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-06-13",
+          "exitDate": "2026-02-16",
+          "totalDays": 248,
+          "exitMonth": "2026-02",
+          "createdAt": "2026-02-16T14:53:14.612Z",
+          "updatedAt": "2026-02-16T14:53:14.612Z"
+        }
+      },
+      "timestamp": "2026-02-16T14:53:14.612Z",
+      "adminSession": "b32fe3c4-7c20-4f13-8e8e-2173463ce2a1"
+    },
     {
       "id": "0ec80cc6-1620-46bf-9833-2e4807dd19fe",
       "action": "UPDATE",
