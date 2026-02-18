@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-18T06:49:46.163Z"
+    "lastUpdated": "2026-02-18T11:11:49.723Z"
   },
   "taxonomy": {
     "categories": [
@@ -5643,6 +5643,16 @@
       "note": "İŞ KAZASI RAPOR",
       "createdAt": "2026-02-10T14:34:22.380Z",
       "updatedAt": "2026-02-14T14:58:23.987Z"
+    },
+    {
+      "id": "7214455b-031e-44a7-81b8-dd00cd381e94",
+      "personId": "e642e259-2d2d-4bd2-8065-5d264b85d776",
+      "startDate": "2026-02-18",
+      "endDate": "2026-02-20",
+      "days": 3,
+      "type": "NORMAL",
+      "note": "RAPOR ",
+      "createdAt": "2026-02-18T11:11:49.722Z"
     }
   ],
   "tracking": [
@@ -7080,6 +7090,26 @@
     }
   ],
   "audit": [
+    {
+      "id": "2719b0d7-b04b-4623-9252-d80d06c80ae9",
+      "action": "CREATE",
+      "entityType": "leave",
+      "entityId": "7214455b-031e-44a7-81b8-dd00cd381e94",
+      "details": {
+        "leave": {
+          "id": "7214455b-031e-44a7-81b8-dd00cd381e94",
+          "personId": "e642e259-2d2d-4bd2-8065-5d264b85d776",
+          "startDate": "2026-02-18",
+          "endDate": "2026-02-20",
+          "days": 3,
+          "type": "NORMAL",
+          "note": "RAPOR ",
+          "createdAt": "2026-02-18T11:11:49.722Z"
+        }
+      },
+      "timestamp": "2026-02-18T11:11:49.722Z",
+      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
+    },
     {
       "id": "99d39eea-2a1e-4127-a68f-1753d58bf19d",
       "action": "UPDATE",
