@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-16T14:53:14.612Z"
+    "lastUpdated": "2026-02-18T06:44:55.335Z"
   },
   "taxonomy": {
     "categories": [
@@ -5626,11 +5626,12 @@
       "id": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
       "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
       "startDate": "2026-02-06",
-      "endDate": "2026-02-10",
-      "days": 5,
+      "endDate": "2026-03-18",
+      "days": 41,
       "type": "RAPOR",
       "note": "İŞ KAZASI",
-      "createdAt": "2026-02-09T09:08:46.145Z"
+      "createdAt": "2026-02-09T09:08:46.145Z",
+      "updatedAt": "2026-02-18T06:44:55.335Z"
     },
     {
       "id": "cdaec4eb-f923-49c8-8a88-29258db11f18",
@@ -7079,6 +7080,37 @@
     }
   ],
   "audit": [
+    {
+      "id": "f9661840-b2a3-41c7-adbc-f5977c5e5acc",
+      "action": "UPDATE",
+      "entityType": "leave",
+      "entityId": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
+      "details": {
+        "before": {
+          "id": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "startDate": "2026-02-06",
+          "endDate": "2026-02-10",
+          "days": 5,
+          "type": "RAPOR",
+          "note": "İŞ KAZASI",
+          "createdAt": "2026-02-09T09:08:46.145Z"
+        },
+        "after": {
+          "id": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
+          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
+          "startDate": "2026-02-06",
+          "endDate": "2026-03-18",
+          "days": 41,
+          "type": "RAPOR",
+          "note": "İŞ KAZASI",
+          "createdAt": "2026-02-09T09:08:46.145Z",
+          "updatedAt": "2026-02-18T06:44:55.335Z"
+        }
+      },
+      "timestamp": "2026-02-18T06:44:55.335Z",
+      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
+    },
     {
       "id": "f3177a8a-1ae1-4360-b4c9-e5be8c2b0bd7",
       "action": "CREATE",
