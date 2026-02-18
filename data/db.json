@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-18T14:46:16.335Z"
+    "lastUpdated": "2026-02-18T14:46:23.278Z"
   },
   "taxonomy": {
     "categories": [
@@ -5674,12 +5674,12 @@
       "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
       "applicationNo": "118867/2026",
       "profession": "İSKELE",
-      "status": "AKİT YÜKLENECEK",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "2026-01-14",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-01-14T07:52:24.371Z",
-      "updatedAt": "2026-01-21T15:31:15.659Z"
+      "updatedAt": "2026-02-18T14:46:23.278Z"
     },
     {
       "id": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
@@ -7091,6 +7091,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "90e4da67-83b0-46d6-886a-5a512f8a520a",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "a9a91dce-b839-46a7-b513-7cf67e14f993",
+      "details": {
+        "before": {
+          "id": "a9a91dce-b839-46a7-b513-7cf67e14f993",
+          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
+          "applicationNo": "118867/2026",
+          "profession": "İSKELE",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-14",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-14T07:52:24.371Z",
+          "updatedAt": "2026-01-21T15:31:15.659Z"
+        },
+        "after": {
+          "id": "a9a91dce-b839-46a7-b513-7cf67e14f993",
+          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
+          "applicationNo": "118867/2026",
+          "profession": "İSKELE",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-01-14",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-14T07:52:24.371Z",
+          "updatedAt": "2026-02-18T14:46:23.278Z"
+        }
+      },
+      "timestamp": "2026-02-18T14:46:23.278Z",
+      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
+    },
     {
       "id": "cc2217c2-73f0-43c0-87f6-04bad7a9adfd",
       "action": "UPDATE",
