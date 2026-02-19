@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-19T07:16:48.174Z"
+    "lastUpdated": "2026-02-19T07:16:53.834Z"
   },
   "taxonomy": {
     "categories": [
@@ -6046,12 +6046,12 @@
       "personId": "01cffcc5-d938-47d5-9bb0-3d596e00301b",
       "applicationNo": "147163/2026",
       "profession": "inşaat işçisi",
-      "status": "AKİT YÜKLENECEK",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "2026-01-29",
       "contactPerson": "UZATMA 1 YIL",
       "notes": "",
       "createdAt": "2026-01-29T09:04:56.262Z",
-      "updatedAt": "2026-02-18T06:46:03.321Z"
+      "updatedAt": "2026-02-19T07:16:53.834Z"
     },
     {
       "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
@@ -7091,6 +7091,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "cf1ddbc8-e61a-4503-bbdf-74ecfdb85c2e",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "c6e026cf-4017-4cb8-a849-2d9eb298e6f1",
+      "details": {
+        "before": {
+          "id": "c6e026cf-4017-4cb8-a849-2d9eb298e6f1",
+          "personId": "01cffcc5-d938-47d5-9bb0-3d596e00301b",
+          "applicationNo": "147163/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "UZATMA 1 YIL",
+          "notes": "",
+          "createdAt": "2026-01-29T09:04:56.262Z",
+          "updatedAt": "2026-02-18T06:46:03.321Z"
+        },
+        "after": {
+          "id": "c6e026cf-4017-4cb8-a849-2d9eb298e6f1",
+          "personId": "01cffcc5-d938-47d5-9bb0-3d596e00301b",
+          "applicationNo": "147163/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "UZATMA 1 YIL",
+          "notes": "",
+          "createdAt": "2026-01-29T09:04:56.262Z",
+          "updatedAt": "2026-02-19T07:16:53.834Z"
+        }
+      },
+      "timestamp": "2026-02-19T07:16:53.834Z",
+      "adminSession": "1cebac89-d200-4695-88d1-63a89be82cf2"
+    },
     {
       "id": "ff14e0ca-ffc7-4d71-8d58-426da938288b",
       "action": "UPDATE",
