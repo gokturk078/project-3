@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-19T15:44:55.823Z"
+    "lastUpdated": "2026-02-20T08:58:32.448Z"
   },
   "taxonomy": {
     "categories": [
@@ -6212,12 +6212,12 @@
       "personId": "45db4bd0-47fd-4963-a887-43628167b9eb",
       "applicationNo": "150864/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-02-19T11:54:38.100Z",
-      "updatedAt": "2026-02-19T11:54:38.100Z"
+      "updatedAt": "2026-02-20T08:58:32.448Z"
     }
   ],
   "departures": [
@@ -7113,6 +7113,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "24f1ec7c-d08c-4bef-bc58-6538256fceb0",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "ba83646c-0c8c-43b6-b7f5-ddf04da9e04e",
+      "details": {
+        "before": {
+          "id": "ba83646c-0c8c-43b6-b7f5-ddf04da9e04e",
+          "personId": "45db4bd0-47fd-4963-a887-43628167b9eb",
+          "applicationNo": "150864/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-19T11:54:38.100Z",
+          "updatedAt": "2026-02-19T11:54:38.100Z"
+        },
+        "after": {
+          "id": "ba83646c-0c8c-43b6-b7f5-ddf04da9e04e",
+          "personId": "45db4bd0-47fd-4963-a887-43628167b9eb",
+          "applicationNo": "150864/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-19T11:54:38.100Z",
+          "updatedAt": "2026-02-20T08:58:32.448Z"
+        }
+      },
+      "timestamp": "2026-02-20T08:58:32.448Z",
+      "adminSession": "f3e98155-f1a6-435a-89ef-adfde216cfa2"
+    },
     {
       "id": "e8745132-8a53-43a9-a87d-c92e0cf79b3e",
       "action": "CREATE",
