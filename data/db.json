@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:50:19.917Z"
+    "lastUpdated": "2026-02-21T11:50:37.983Z"
   },
   "taxonomy": {
     "categories": [
@@ -4513,7 +4513,7 @@
       "role": "MİMAR",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4522,7 +4522,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T09:15:37.660Z",
-      "updatedAt": "2026-01-28T13:20:27.129Z",
+      "updatedAt": "2026-02-21T11:50:37.983Z",
       "jobTitle": null
     },
     {
@@ -7093,6 +7093,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "d1ff4994-ba43-4a7c-b2e4-2d921cac1964",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
+      "details": {
+        "before": {
+          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
+          "baseKey": "KÜBRA NUR TOSUN",
+          "fullName": "KÜBRA NUR TOSUN",
+          "normalizedName": "KÜBRA NUR TOSUN",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T09:15:37.660Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T09:15:37.660Z",
+          "updatedAt": "2026-01-28T13:20:27.129Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
+          "baseKey": "KÜBRA NUR TOSUN",
+          "fullName": "KÜBRA NUR TOSUN",
+          "normalizedName": "KÜBRA NUR TOSUN",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T09:15:37.660Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T09:15:37.660Z",
+          "updatedAt": "2026-02-21T11:50:37.983Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:50:37.983Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "724d02d4-c318-4e66-8d03-8ab2e78d9dae",
       "action": "UPDATE",
