@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:37:31.680Z"
+    "lastUpdated": "2026-02-21T11:37:55.317Z"
   },
   "taxonomy": {
     "categories": [
@@ -3930,10 +3930,10 @@
       "baseKey": "NAZMI DEMIR",
       "fullName": "NAZMİ DEMİR",
       "normalizedName": "NAZMI DEMIR",
-      "category": null,
+      "category": "KALMES",
       "role": null,
       "jobTitle": "116390/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "pending",
       "sources": [
@@ -3952,7 +3952,7 @@
         "contactPerson": "SÜLEYMAN ORUL"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-05T12:12:49.592Z"
+      "updatedAt": "2026-02-21T11:37:55.317Z"
     },
     {
       "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
@@ -7113,6 +7113,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "0d95324a-5e1b-40ef-9d37-9637ef3e5c72",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "16281e34-9bfb-4a84-b623-319c2149edc8",
+      "details": {
+        "before": {
+          "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
+          "baseKey": "NAZMI DEMIR",
+          "fullName": "NAZMİ DEMİR",
+          "normalizedName": "NAZMI DEMIR",
+          "category": null,
+          "role": null,
+          "jobTitle": "116390/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 15
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116390/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "SÜLEYMAN ORUL"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-05T12:12:49.592Z"
+        },
+        "after": {
+          "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
+          "baseKey": "NAZMI DEMIR",
+          "fullName": "NAZMİ DEMİR",
+          "normalizedName": "NAZMI DEMIR",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "116390/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 15
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116390/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "SÜLEYMAN ORUL"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-21T11:37:55.317Z"
+        }
+      },
+      "timestamp": "2026-02-21T11:37:55.317Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "f376f6e6-e1b2-4f87-b488-ae9550f394ea",
       "action": "UPDATE",
