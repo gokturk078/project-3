@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:57:05.785Z"
+    "lastUpdated": "2026-02-21T11:57:09.026Z"
   },
   "taxonomy": {
     "categories": [
@@ -5661,18 +5661,6 @@
   ],
   "tracking": [
     {
-      "id": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
-      "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
-      "applicationNo": "118865/2026",
-      "profession": "İSKELE",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "2026-01-14",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "createdAt": "2026-01-14T07:53:21.184Z",
-      "updatedAt": "2026-02-18T14:46:29.555Z"
-    },
-    {
       "id": "2b2951d6-2015-4e6e-a302-c75bf6162f4c",
       "personId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
       "applicationNo": "118858/2026",
@@ -7082,6 +7070,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "9cb8b1b8-ab93-4ff0-ac16-537f09c33236",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
+      "details": {
+        "tracking": {
+          "id": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
+          "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
+          "applicationNo": "118865/2026",
+          "profession": "İSKELE",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-01-14",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-14T07:53:21.184Z",
+          "updatedAt": "2026-02-18T14:46:29.555Z"
+        }
+      },
+      "timestamp": "2026-02-21T11:57:09.026Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "1cf8f5a7-e8c6-4b65-9ecc-7d2ab6215065",
       "action": "DELETE",
