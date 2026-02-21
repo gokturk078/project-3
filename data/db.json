@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:41:56.238Z"
+    "lastUpdated": "2026-02-21T11:42:09.426Z"
   },
   "taxonomy": {
     "categories": [
@@ -4905,7 +4905,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4914,7 +4914,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-27T10:50:17.872Z",
-      "updatedAt": "2026-01-27T10:50:17.872Z"
+      "updatedAt": "2026-02-21T11:42:09.426Z",
+      "jobTitle": null
     },
     {
       "personId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
@@ -7117,6 +7118,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "3ed57a3b-b968-4933-a475-05c9f477108b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+      "details": {
+        "before": {
+          "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+          "baseKey": "MEHMET FERİT YÜNDEMLİ",
+          "fullName": "MEHMET FERİT YÜNDEMLİ",
+          "normalizedName": "MEHMET FERİT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:50:17.872Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:50:17.872Z",
+          "updatedAt": "2026-01-27T10:50:17.872Z"
+        },
+        "after": {
+          "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+          "baseKey": "MEHMET FERİT YÜNDEMLİ",
+          "fullName": "MEHMET FERİT YÜNDEMLİ",
+          "normalizedName": "MEHMET FERİT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:50:17.872Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:50:17.872Z",
+          "updatedAt": "2026-02-21T11:42:09.426Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:42:09.426Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "b5a93638-df14-449e-be12-b88fa4699b29",
       "action": "UPDATE",
