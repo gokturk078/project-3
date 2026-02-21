@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:51:20.392Z"
+    "lastUpdated": "2026-02-21T11:51:47.552Z"
   },
   "taxonomy": {
     "categories": [
@@ -4617,7 +4617,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4626,7 +4626,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-23T09:45:09.099Z",
-      "updatedAt": "2026-01-23T09:45:09.099Z"
+      "updatedAt": "2026-02-21T11:51:47.552Z",
+      "jobTitle": null
     },
     {
       "personId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
@@ -7095,6 +7096,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "f3b43300-dc41-49bc-a5a7-ba7fed2e71ec",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
+      "details": {
+        "before": {
+          "personId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
+          "baseKey": "RAMAZAN AYDOĞAN",
+          "fullName": "RAMAZAN AYDOĞAN",
+          "normalizedName": "RAMAZAN AYDOĞAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:45:09.099Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:45:09.099Z",
+          "updatedAt": "2026-01-23T09:45:09.099Z"
+        },
+        "after": {
+          "personId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
+          "baseKey": "RAMAZAN AYDOĞAN",
+          "fullName": "RAMAZAN AYDOĞAN",
+          "normalizedName": "RAMAZAN AYDOĞAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:45:09.099Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:45:09.099Z",
+          "updatedAt": "2026-02-21T11:51:47.552Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:51:47.552Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "b2a77fe0-fc85-4d12-affa-2e922dac5a89",
       "action": "UPDATE",
