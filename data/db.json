@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:54:04.924Z"
+    "lastUpdated": "2026-02-21T11:54:26.720Z"
   },
   "taxonomy": {
     "categories": [
@@ -5028,7 +5028,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5037,7 +5037,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:13:51.392Z",
-      "updatedAt": "2026-01-28T09:13:51.392Z"
+      "updatedAt": "2026-02-21T11:54:26.720Z",
+      "jobTitle": null
     },
     {
       "personId": "40e8b757-5829-4970-9818-8581db704eba",
@@ -7101,6 +7102,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "ff3b88ff-d58e-4429-8164-a8078db71073",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
+      "details": {
+        "before": {
+          "personId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
+          "baseKey": "NACİ YÜNDEMLİ",
+          "fullName": "NACİ YÜNDEMLİ",
+          "normalizedName": "NACİ YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:51.392Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:51.392Z",
+          "updatedAt": "2026-01-28T09:13:51.392Z"
+        },
+        "after": {
+          "personId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
+          "baseKey": "NACİ YÜNDEMLİ",
+          "fullName": "NACİ YÜNDEMLİ",
+          "normalizedName": "NACİ YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:51.392Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:51.392Z",
+          "updatedAt": "2026-02-21T11:54:26.720Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:54:26.720Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "a35e3fb0-6959-43a7-a84b-31fae7152455",
       "action": "UPDATE",
