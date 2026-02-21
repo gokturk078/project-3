@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:46:20.557Z"
+    "lastUpdated": "2026-02-21T11:46:31.531Z"
   },
   "taxonomy": {
     "categories": [
@@ -5099,7 +5099,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5108,7 +5108,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-02T08:55:51.681Z",
-      "updatedAt": "2026-02-02T08:55:51.681Z"
+      "updatedAt": "2026-02-21T11:46:31.531Z",
+      "jobTitle": null
     },
     {
       "personId": "d7d4fda2-be36-439d-a04d-655d76ae1ba0",
@@ -7091,6 +7092,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "b4fe582b-0055-4eb0-9745-f1e838ff8254",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
+      "details": {
+        "before": {
+          "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
+          "baseKey": "HALİL DEMİRALP",
+          "fullName": "HALİL DEMİRALP",
+          "normalizedName": "HALİL DEMİRALP",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-02T08:55:51.681Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-02T08:55:51.681Z",
+          "updatedAt": "2026-02-02T08:55:51.681Z"
+        },
+        "after": {
+          "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
+          "baseKey": "HALİL DEMİRALP",
+          "fullName": "HALİL DEMİRALP",
+          "normalizedName": "HALİL DEMİRALP",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-02T08:55:51.681Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-02T08:55:51.681Z",
+          "updatedAt": "2026-02-21T11:46:31.531Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:46:31.531Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "64479e00-4621-4296-a62e-6f714ce834d0",
       "action": "UPDATE",
