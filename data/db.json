@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:52:13.128Z"
+    "lastUpdated": "2026-02-21T11:52:56.438Z"
   },
   "taxonomy": {
     "categories": [
@@ -4658,7 +4658,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4667,7 +4667,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:06:56.427Z",
-      "updatedAt": "2026-01-26T15:06:56.427Z"
+      "updatedAt": "2026-02-21T11:52:56.438Z",
+      "jobTitle": null
     },
     {
       "personId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
@@ -7097,6 +7098,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "9f77241f-3d31-45a4-b97e-b85fbf9c6180",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "3b641048-e38d-49f5-9d76-9145001d1892",
+      "details": {
+        "before": {
+          "personId": "3b641048-e38d-49f5-9d76-9145001d1892",
+          "baseKey": "MUSTAFA ÇOKÇETİN",
+          "fullName": "MUSTAFA ÇOKÇETİN",
+          "normalizedName": "MUSTAFA ÇOKÇETİN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:06:56.427Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:06:56.427Z",
+          "updatedAt": "2026-01-26T15:06:56.427Z"
+        },
+        "after": {
+          "personId": "3b641048-e38d-49f5-9d76-9145001d1892",
+          "baseKey": "MUSTAFA ÇOKÇETİN",
+          "fullName": "MUSTAFA ÇOKÇETİN",
+          "normalizedName": "MUSTAFA ÇOKÇETİN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:06:56.427Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:06:56.427Z",
+          "updatedAt": "2026-02-21T11:52:56.438Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:52:56.438Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "0fd5e488-823b-4aa3-b48c-2327642ca07f",
       "action": "UPDATE",
