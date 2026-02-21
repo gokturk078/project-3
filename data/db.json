@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:51:47.552Z"
+    "lastUpdated": "2026-02-21T11:52:13.128Z"
   },
   "taxonomy": {
     "categories": [
@@ -4862,7 +4862,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4871,7 +4871,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:10:15.905Z",
-      "updatedAt": "2026-01-26T15:10:15.905Z"
+      "updatedAt": "2026-02-21T11:52:13.128Z",
+      "jobTitle": null
     },
     {
       "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
@@ -7096,6 +7097,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "0fd5e488-823b-4aa3-b48c-2327642ca07f",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "cfe0610c-d964-42a7-9916-26babc3abed7",
+      "details": {
+        "before": {
+          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
+          "baseKey": "YASİN ÇALIŞ",
+          "fullName": "YASİN ÇALIŞ",
+          "normalizedName": "YASİN ÇALIŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:10:15.905Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:10:15.905Z",
+          "updatedAt": "2026-01-26T15:10:15.905Z"
+        },
+        "after": {
+          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
+          "baseKey": "YASİN ÇALIŞ",
+          "fullName": "YASİN ÇALIŞ",
+          "normalizedName": "YASİN ÇALIŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:10:15.905Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:10:15.905Z",
+          "updatedAt": "2026-02-21T11:52:13.128Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:52:13.128Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "f3b43300-dc41-49bc-a5a7-ba7fed2e71ec",
       "action": "UPDATE",
