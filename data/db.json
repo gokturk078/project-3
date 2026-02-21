@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:54:26.720Z"
+    "lastUpdated": "2026-02-21T11:54:43.821Z"
   },
   "taxonomy": {
     "categories": [
@@ -5049,7 +5049,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5058,7 +5058,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:15:55.194Z",
-      "updatedAt": "2026-01-28T09:15:55.194Z"
+      "updatedAt": "2026-02-21T11:54:43.821Z",
+      "jobTitle": null
     },
     {
       "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
@@ -7102,6 +7103,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "64290010-e3ae-4a15-b0a2-be0d797d1fbc",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "40e8b757-5829-4970-9818-8581db704eba",
+      "details": {
+        "before": {
+          "personId": "40e8b757-5829-4970-9818-8581db704eba",
+          "baseKey": "DİLAVER ŞAHİN",
+          "fullName": "DİLAVER ŞAHİN",
+          "normalizedName": "DİLAVER ŞAHİN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:15:55.194Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:15:55.194Z",
+          "updatedAt": "2026-01-28T09:15:55.194Z"
+        },
+        "after": {
+          "personId": "40e8b757-5829-4970-9818-8581db704eba",
+          "baseKey": "DİLAVER ŞAHİN",
+          "fullName": "DİLAVER ŞAHİN",
+          "normalizedName": "DİLAVER ŞAHİN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:15:55.194Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:15:55.194Z",
+          "updatedAt": "2026-02-21T11:54:43.821Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:54:43.821Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "ff3b88ff-d58e-4429-8164-a8078db71073",
       "action": "UPDATE",
