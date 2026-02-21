@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:41:42.201Z"
+    "lastUpdated": "2026-02-21T11:41:56.238Z"
   },
   "taxonomy": {
     "categories": [
@@ -4701,7 +4701,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4710,7 +4710,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:07:16.238Z",
-      "updatedAt": "2026-01-26T15:07:16.238Z"
+      "updatedAt": "2026-02-21T11:41:56.238Z",
+      "jobTitle": null
     },
     {
       "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
@@ -7116,6 +7117,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "b5a93638-df14-449e-be12-b88fa4699b29",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
+      "details": {
+        "before": {
+          "personId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
+          "baseKey": "MEHMET GÜL",
+          "fullName": "MEHMET GÜL",
+          "normalizedName": "MEHMET GÜL",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:16.238Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:16.238Z",
+          "updatedAt": "2026-01-26T15:07:16.238Z"
+        },
+        "after": {
+          "personId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
+          "baseKey": "MEHMET GÜL",
+          "fullName": "MEHMET GÜL",
+          "normalizedName": "MEHMET GÜL",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:16.238Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:16.238Z",
+          "updatedAt": "2026-02-21T11:41:56.238Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:41:56.238Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "be08406f-70fc-467c-972c-4f2b51492ccc",
       "action": "UPDATE",
