@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:50:57.282Z"
+    "lastUpdated": "2026-02-21T11:51:20.392Z"
   },
   "taxonomy": {
     "categories": [
@@ -4596,7 +4596,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4605,7 +4605,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-23T09:44:48.536Z",
-      "updatedAt": "2026-01-23T09:44:48.536Z"
+      "updatedAt": "2026-02-21T11:51:20.392Z",
+      "jobTitle": null
     },
     {
       "personId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
@@ -7094,6 +7095,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "b2a77fe0-fc85-4d12-affa-2e922dac5a89",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "2304b2b4-b005-4fdd-9a85-7b46a344cb60",
+      "details": {
+        "before": {
+          "personId": "2304b2b4-b005-4fdd-9a85-7b46a344cb60",
+          "baseKey": "FURKAN ORAL",
+          "fullName": "FURKAN ORAL",
+          "normalizedName": "FURKAN ORAL",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:44:48.536Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:44:48.536Z",
+          "updatedAt": "2026-01-23T09:44:48.536Z"
+        },
+        "after": {
+          "personId": "2304b2b4-b005-4fdd-9a85-7b46a344cb60",
+          "baseKey": "FURKAN ORAL",
+          "fullName": "FURKAN ORAL",
+          "normalizedName": "FURKAN ORAL",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:44:48.536Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:44:48.536Z",
+          "updatedAt": "2026-02-21T11:51:20.392Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:51:20.392Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "ace7e069-8214-4b2f-a8b2-3e9c794661dd",
       "action": "UPDATE",
