@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:46:09.735Z"
+    "lastUpdated": "2026-02-21T11:46:20.557Z"
   },
   "taxonomy": {
     "categories": [
@@ -4344,7 +4344,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4353,7 +4353,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:06:27.518Z",
-      "updatedAt": "2026-01-19T07:06:27.518Z"
+      "updatedAt": "2026-02-21T11:46:20.557Z",
+      "jobTitle": null
     },
     {
       "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
@@ -7090,6 +7091,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "64479e00-4621-4296-a62e-6f714ce834d0",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
+      "details": {
+        "before": {
+          "personId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
+          "baseKey": "İSAK PEHLİVAN",
+          "fullName": "İSAK PEHLİVAN",
+          "normalizedName": "İSAK PEHLİVAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:27.518Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:27.518Z",
+          "updatedAt": "2026-01-19T07:06:27.518Z"
+        },
+        "after": {
+          "personId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
+          "baseKey": "İSAK PEHLİVAN",
+          "fullName": "İSAK PEHLİVAN",
+          "normalizedName": "İSAK PEHLİVAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:06:27.518Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:06:27.518Z",
+          "updatedAt": "2026-02-21T11:46:20.557Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:46:20.557Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "b1a2df6a-e759-4976-bab6-b4804ca9a8db",
       "action": "UPDATE",
