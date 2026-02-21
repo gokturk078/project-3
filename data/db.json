@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:41:19.372Z"
+    "lastUpdated": "2026-02-21T11:41:28.664Z"
   },
   "taxonomy": {
     "categories": [
@@ -4267,7 +4267,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4276,7 +4276,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-14T07:49:17.429Z",
-      "updatedAt": "2026-02-21T11:41:19.372Z",
+      "updatedAt": "2026-02-21T11:41:28.664Z",
       "jobTitle": null
     },
     {
@@ -7115,6 +7115,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "ed4aa9ef-41bc-440b-b88e-cf2aee1e9ac5",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
+      "details": {
+        "before": {
+          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
+          "baseKey": "MEHMET SALİM ÇAKIR",
+          "fullName": "MEHMET SALİM ÇAKIR",
+          "normalizedName": "MEHMET SALİM ÇAKIR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-14T07:49:17.429Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-14T07:49:17.429Z",
+          "updatedAt": "2026-02-21T11:41:19.372Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
+          "baseKey": "MEHMET SALİM ÇAKIR",
+          "fullName": "MEHMET SALİM ÇAKIR",
+          "normalizedName": "MEHMET SALİM ÇAKIR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-14T07:49:17.429Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-14T07:49:17.429Z",
+          "updatedAt": "2026-02-21T11:41:28.664Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:41:28.664Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "22baf64a-feb5-42b7-810d-a54d712959c4",
       "action": "UPDATE",
