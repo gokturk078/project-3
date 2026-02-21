@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:50:37.983Z"
+    "lastUpdated": "2026-02-21T11:50:57.282Z"
   },
   "taxonomy": {
     "categories": [
@@ -4555,7 +4555,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4564,7 +4564,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-23T09:44:12.654Z",
-      "updatedAt": "2026-01-23T09:44:12.654Z"
+      "updatedAt": "2026-02-21T11:50:57.282Z",
+      "jobTitle": null
     },
     {
       "personId": "540a91e2-2d51-4521-b98d-3d61d79ea51e",
@@ -7093,6 +7094,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "ace7e069-8214-4b2f-a8b2-3e9c794661dd",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
+      "details": {
+        "before": {
+          "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
+          "baseKey": "ERSİN ŞEN",
+          "fullName": "ERSİN ŞEN",
+          "normalizedName": "ERSİN ŞEN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:44:12.654Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:44:12.654Z",
+          "updatedAt": "2026-01-23T09:44:12.654Z"
+        },
+        "after": {
+          "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
+          "baseKey": "ERSİN ŞEN",
+          "fullName": "ERSİN ŞEN",
+          "normalizedName": "ERSİN ŞEN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:44:12.654Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:44:12.654Z",
+          "updatedAt": "2026-02-21T11:50:57.282Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:50:57.282Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "d1ff4994-ba43-4a7c-b2e4-2d921cac1964",
       "action": "UPDATE",
