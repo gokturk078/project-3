@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:42:09.426Z"
+    "lastUpdated": "2026-02-21T11:43:58.755Z"
   },
   "taxonomy": {
     "categories": [
@@ -3752,35 +3752,6 @@
       "updatedAt": "2026-02-03T09:21:09.582Z"
     },
     {
-      "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
-      "baseKey": "FEREMEZ ANUCUR",
-      "fullName": "FEREMEZ ANUCUR",
-      "normalizedName": "FEREMEZ ANUCUR",
-      "category": "KALMES",
-      "role": null,
-      "jobTitle": "115639/2025",
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "file": "takip.xlsx",
-          "sheet": "GÜNCEL (3)",
-          "row": 9
-        }
-      ],
-      "mergedFrom": [],
-      "trackingInfo": {
-        "applicationNo": "inşaat işçisi",
-        "profession": "115639/2025",
-        "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-        "expectedDate": "2026-01-18",
-        "contactPerson": "MESUT"
-      },
-      "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-21T11:37:31.680Z"
-    },
-    {
       "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
       "baseKey": "SERVET OKSUZ",
       "fullName": "SERVET ÖKSÜZ",
@@ -7118,6 +7089,45 @@
     }
   ],
   "audit": [
+    {
+      "id": "e4076531-1e76-4398-891e-32129ee1b219",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
+      "details": {
+        "person": {
+          "personId": "41bb8f8c-a5be-48f7-9d7a-a6136905c231",
+          "baseKey": "FEREMEZ ANUCUR",
+          "fullName": "FEREMEZ ANUCUR",
+          "normalizedName": "FEREMEZ ANUCUR",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "115639/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 9
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115639/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-21T11:37:31.680Z"
+        }
+      },
+      "timestamp": "2026-02-21T11:43:58.755Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "3ed57a3b-b968-4933-a475-05c9f477108b",
       "action": "UPDATE",
