@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:57:44.673Z"
+    "lastUpdated": "2026-02-21T11:57:47.884Z"
   },
   "taxonomy": {
     "categories": [
@@ -5673,18 +5673,6 @@
       "updatedAt": "2026-01-19T07:20:16.644Z"
     },
     {
-      "id": "4713652a-775c-41b0-b0cc-b05587423fe6",
-      "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
-      "applicationNo": "119823/2026",
-      "profession": "inşaat işçisi",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "2026-01-23",
-      "contactPerson": "KALMES",
-      "notes": "",
-      "createdAt": "2026-01-23T09:46:24.597Z",
-      "updatedAt": "2026-02-18T14:47:11.034Z"
-    },
-    {
       "id": "4147ebaf-5b4a-4823-96d9-e2669733265e",
       "personId": "540a91e2-2d51-4521-b98d-3d61d79ea51e",
       "applicationNo": "119824/2026",
@@ -6998,6 +6986,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "97e1b6c1-8054-48c9-8c73-444f3920a436",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "4713652a-775c-41b0-b0cc-b05587423fe6",
+      "details": {
+        "tracking": {
+          "id": "4713652a-775c-41b0-b0cc-b05587423fe6",
+          "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
+          "applicationNo": "119823/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-01-23",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-01-23T09:46:24.597Z",
+          "updatedAt": "2026-02-18T14:47:11.034Z"
+        }
+      },
+      "timestamp": "2026-02-21T11:57:47.884Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "585f172f-e3af-41f9-8ac1-ed98209e158d",
       "action": "DELETE",
