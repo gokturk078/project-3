@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:40:13.466Z"
+    "lastUpdated": "2026-02-21T11:41:06.634Z"
   },
   "taxonomy": {
     "categories": [
@@ -4206,7 +4206,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4215,7 +4215,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-14T07:48:19.149Z",
-      "updatedAt": "2026-01-14T07:48:19.149Z"
+      "updatedAt": "2026-02-21T11:41:06.634Z",
+      "jobTitle": null
     },
     {
       "personId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
@@ -7113,6 +7114,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "15315c6b-a48b-40dc-8f00-f35c971a3f10",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
+      "details": {
+        "before": {
+          "personId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
+          "baseKey": "MEHMET TURAN",
+          "fullName": "MEHMET TURAN",
+          "normalizedName": "MEHMET TURAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-14T07:48:19.149Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-14T07:48:19.149Z",
+          "updatedAt": "2026-01-14T07:48:19.149Z"
+        },
+        "after": {
+          "personId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
+          "baseKey": "MEHMET TURAN",
+          "fullName": "MEHMET TURAN",
+          "normalizedName": "MEHMET TURAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-14T07:48:19.149Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-14T07:48:19.149Z",
+          "updatedAt": "2026-02-21T11:41:06.634Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:41:06.634Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "68c080b1-cbf9-47f5-9a0a-2e30d883f0f8",
       "action": "UPDATE",
