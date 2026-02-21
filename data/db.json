@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:43:58.755Z"
+    "lastUpdated": "2026-02-21T11:45:26.722Z"
   },
   "taxonomy": {
     "categories": [
@@ -3759,7 +3759,7 @@
       "category": "KALMES",
       "role": null,
       "jobTitle": "116626/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -3778,7 +3778,7 @@
         "contactPerson": "MESUT"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-02T07:34:35.798Z"
+      "updatedAt": "2026-02-21T11:45:26.722Z"
     },
     {
       "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
@@ -7089,6 +7089,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "fbc69d31-0535-4f07-bd36-c09833198ac9",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "5b473275-73f5-43bf-9337-084a8f4d15af",
+      "details": {
+        "before": {
+          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
+          "baseKey": "SERVET OKSUZ",
+          "fullName": "SERVET ÖKSÜZ",
+          "normalizedName": "SERVET OKSUZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "116626/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 10
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116626/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-02T07:34:35.798Z"
+        },
+        "after": {
+          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
+          "baseKey": "SERVET OKSUZ",
+          "fullName": "SERVET ÖKSÜZ",
+          "normalizedName": "SERVET OKSUZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "116626/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 10
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116626/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-21T11:45:26.722Z"
+        }
+      },
+      "timestamp": "2026-02-21T11:45:26.722Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "e4076531-1e76-4398-891e-32129ee1b219",
       "action": "DELETE",
