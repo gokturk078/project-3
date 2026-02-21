@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:45:26.722Z"
+    "lastUpdated": "2026-02-21T11:45:47.654Z"
   },
   "taxonomy": {
     "categories": [
@@ -3817,7 +3817,7 @@
       "category": "REPSAM",
       "role": null,
       "jobTitle": "115668/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -3836,7 +3836,7 @@
         "contactPerson": "MURAT ÜYÜR"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T08:57:45.528Z"
+      "updatedAt": "2026-02-21T11:45:47.654Z"
     },
     {
       "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
@@ -7089,6 +7089,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "c58cf7ee-003f-46c6-aadd-3c4083136782",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+      "details": {
+        "before": {
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "115668/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 12
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115668/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:57:45.528Z"
+        },
+        "after": {
+          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
+          "baseKey": "CEMALETTIN KAPLAN",
+          "fullName": "CEMALETTİN KAPLAN",
+          "normalizedName": "CEMALETTIN KAPLAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "115668/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 12
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115668/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-21T11:45:47.654Z"
+        }
+      },
+      "timestamp": "2026-02-21T11:45:47.654Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "fbc69d31-0535-4f07-bd36-c09833198ac9",
       "action": "UPDATE",
