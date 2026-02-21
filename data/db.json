@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:54:43.821Z"
+    "lastUpdated": "2026-02-21T11:55:11.545Z"
   },
   "taxonomy": {
     "categories": [
@@ -5008,7 +5008,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5017,7 +5017,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:13:29.430Z",
-      "updatedAt": "2026-01-28T09:13:29.430Z"
+      "updatedAt": "2026-02-21T11:55:11.545Z",
+      "jobTitle": null
     },
     {
       "personId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
@@ -7103,6 +7104,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "ae4c0971-a46a-4a60-b426-31ed3cf0b9b3",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+      "details": {
+        "before": {
+          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+          "baseKey": "HARUN YILDIRIMÇAKAR",
+          "fullName": "HARUN YILDIRIMÇAKAR",
+          "normalizedName": "HARUN YILDIRIMÇAKAR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:29.430Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:29.430Z",
+          "updatedAt": "2026-01-28T09:13:29.430Z"
+        },
+        "after": {
+          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+          "baseKey": "HARUN YILDIRIMÇAKAR",
+          "fullName": "HARUN YILDIRIMÇAKAR",
+          "normalizedName": "HARUN YILDIRIMÇAKAR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:29.430Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:29.430Z",
+          "updatedAt": "2026-02-21T11:55:11.545Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-02-21T11:55:11.545Z",
+      "adminSession": "93082995-0d2d-43f7-bd53-7872726e1f50"
+    },
     {
       "id": "64290010-e3ae-4a15-b0a2-be0d797d1fbc",
       "action": "UPDATE",
