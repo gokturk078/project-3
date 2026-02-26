@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-21T11:59:56.978Z"
+    "lastUpdated": "2026-02-26T07:31:43.410Z"
   },
   "taxonomy": {
     "categories": [
@@ -5266,6 +5266,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-10T14:03:10.765Z",
       "updatedAt": "2026-02-10T14:03:10.765Z"
+    },
+    {
+      "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+      "baseKey": "MUSTAFA GÜNGÖR",
+      "fullName": "MUSTAFA GÜNGÖR",
+      "normalizedName": "MUSTAFA GÜNGÖR",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-26T07:31:43.410Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-26T07:31:43.410Z",
+      "updatedAt": "2026-02-26T07:31:43.410Z"
     }
   ],
   "leaves": [
@@ -6770,6 +6790,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "7233e4f8-4e85-44cc-ba57-7e8de4342b82",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+      "details": {
+        "person": {
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "baseKey": "MUSTAFA GÜNGÖR",
+          "fullName": "MUSTAFA GÜNGÖR",
+          "normalizedName": "MUSTAFA GÜNGÖR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-26T07:31:43.410Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-26T07:31:43.410Z",
+          "updatedAt": "2026-02-26T07:31:43.410Z"
+        }
+      },
+      "timestamp": "2026-02-26T07:31:43.410Z",
+      "adminSession": "890aec52-4239-4b36-ab72-3a18d0d9d62a"
+    },
     {
       "id": "d1221b57-1c7d-4f6f-9f1a-799056864592",
       "action": "DELETE",
