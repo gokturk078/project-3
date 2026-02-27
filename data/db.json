@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-27T08:15:36.872Z"
+    "lastUpdated": "2026-02-27T08:16:06.212Z"
   },
   "taxonomy": {
     "categories": [
@@ -5306,6 +5306,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-27T08:15:36.872Z",
       "updatedAt": "2026-02-27T08:15:36.872Z"
+    },
+    {
+      "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+      "baseKey": "ÖZCAN TERCAN",
+      "fullName": "ÖZCAN TERCAN",
+      "normalizedName": "ÖZCAN TERCAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-27T08:16:06.211Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-27T08:16:06.211Z",
+      "updatedAt": "2026-02-27T08:16:06.211Z"
     }
   ],
   "leaves": [
@@ -6822,6 +6842,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ebf4fd9e-1745-4022-9b71-9fa64d71930c",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+      "details": {
+        "person": {
+          "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+          "baseKey": "ÖZCAN TERCAN",
+          "fullName": "ÖZCAN TERCAN",
+          "normalizedName": "ÖZCAN TERCAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:16:06.211Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:16:06.211Z",
+          "updatedAt": "2026-02-27T08:16:06.211Z"
+        }
+      },
+      "timestamp": "2026-02-27T08:16:06.212Z",
+      "adminSession": "b5c46335-3547-4e4b-b1b5-7005473c44be"
+    },
     {
       "id": "d8da11af-2d48-4787-9b35-1707e5925f76",
       "action": "CREATE",
