@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-27T08:18:10.827Z"
+    "lastUpdated": "2026-02-27T08:18:27.162Z"
   },
   "taxonomy": {
     "categories": [
@@ -5326,6 +5326,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-27T08:16:30.371Z",
       "updatedAt": "2026-02-27T08:16:30.371Z"
+    },
+    {
+      "personId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
+      "baseKey": "SÜLEYMAN TATAR",
+      "fullName": "SÜLEYMAN TATAR",
+      "normalizedName": "SÜLEYMAN TATAR",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-27T08:18:27.162Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-27T08:18:27.162Z",
+      "updatedAt": "2026-02-27T08:18:27.162Z"
     }
   ],
   "leaves": [
@@ -6842,6 +6862,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "2db24dfd-8e2e-4453-95b2-18b08449a063",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
+      "details": {
+        "person": {
+          "personId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
+          "baseKey": "SÜLEYMAN TATAR",
+          "fullName": "SÜLEYMAN TATAR",
+          "normalizedName": "SÜLEYMAN TATAR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:18:27.162Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:18:27.162Z",
+          "updatedAt": "2026-02-27T08:18:27.162Z"
+        }
+      },
+      "timestamp": "2026-02-27T08:18:27.162Z",
+      "adminSession": "b5c46335-3547-4e4b-b1b5-7005473c44be"
+    },
     {
       "id": "43a364c5-b386-4e1e-af8f-ddd3c7def7fe",
       "action": "DELETE",
