@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-26T07:33:08.014Z"
+    "lastUpdated": "2026-02-27T06:15:17.580Z"
   },
   "taxonomy": {
     "categories": [
@@ -5829,12 +5829,12 @@
       "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
       "applicationNo": "121500/2026",
       "profession": "inşaat işçisi",
-      "status": "ÖN İZNİ ONAYLANDI",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
       "expectedDate": "2026-02-10",
       "contactPerson": "ADNAN ŞEF",
       "notes": "",
       "createdAt": "2026-02-10T14:04:41.181Z",
-      "updatedAt": "2026-02-10T14:06:42.267Z"
+      "updatedAt": "2026-02-27T06:15:17.579Z"
     },
     {
       "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
@@ -6802,6 +6802,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "6c71cd73-d032-49a4-8fab-38c57de730e6",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "5b2e364e-0698-4968-953f-556bec46a742",
+      "details": {
+        "before": {
+          "id": "5b2e364e-0698-4968-953f-556bec46a742",
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "applicationNo": "121500/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ADNAN ŞEF",
+          "notes": "",
+          "createdAt": "2026-02-10T14:04:41.181Z",
+          "updatedAt": "2026-02-10T14:06:42.267Z"
+        },
+        "after": {
+          "id": "5b2e364e-0698-4968-953f-556bec46a742",
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "applicationNo": "121500/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ADNAN ŞEF",
+          "notes": "",
+          "createdAt": "2026-02-10T14:04:41.181Z",
+          "updatedAt": "2026-02-27T06:15:17.579Z"
+        }
+      },
+      "timestamp": "2026-02-27T06:15:17.579Z",
+      "adminSession": "b5c46335-3547-4e4b-b1b5-7005473c44be"
+    },
     {
       "id": "5a4b3f26-08b0-47a7-bf4f-2de612bbd37a",
       "action": "CREATE",
