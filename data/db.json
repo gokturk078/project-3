@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-27T08:16:30.372Z"
+    "lastUpdated": "2026-02-27T08:18:10.827Z"
   },
   "taxonomy": {
     "categories": [
@@ -5288,26 +5288,6 @@
       "updatedAt": "2026-02-26T07:31:43.410Z"
     },
     {
-      "personId": "3d836b2f-49f8-4d47-8d8d-93c06917f627",
-      "baseKey": "SÜLEYMAN TATR",
-      "fullName": "SÜLEYMAN TATR",
-      "normalizedName": "SÜLEYMAN TATR",
-      "category": "REPSAM",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-02-27T08:15:36.872Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-02-27T08:15:36.872Z",
-      "updatedAt": "2026-02-27T08:15:36.872Z"
-    },
-    {
       "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
       "baseKey": "ÖZCAN TERCAN",
       "fullName": "ÖZCAN TERCAN",
@@ -6862,6 +6842,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "43a364c5-b386-4e1e-af8f-ddd3c7def7fe",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "3d836b2f-49f8-4d47-8d8d-93c06917f627",
+      "details": {
+        "person": {
+          "personId": "3d836b2f-49f8-4d47-8d8d-93c06917f627",
+          "baseKey": "SÜLEYMAN TATR",
+          "fullName": "SÜLEYMAN TATR",
+          "normalizedName": "SÜLEYMAN TATR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:15:36.872Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:15:36.872Z",
+          "updatedAt": "2026-02-27T08:15:36.872Z"
+        }
+      },
+      "timestamp": "2026-02-27T08:18:10.826Z",
+      "adminSession": "b5c46335-3547-4e4b-b1b5-7005473c44be"
+    },
     {
       "id": "19ba3873-a6ca-44ba-8f2b-36913702e393",
       "action": "CREATE",
