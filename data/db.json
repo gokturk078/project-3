@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-27T08:16:06.212Z"
+    "lastUpdated": "2026-02-27T08:16:30.372Z"
   },
   "taxonomy": {
     "categories": [
@@ -5326,6 +5326,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-27T08:16:06.211Z",
       "updatedAt": "2026-02-27T08:16:06.211Z"
+    },
+    {
+      "personId": "f7236f88-c90e-44ab-b752-b5c1d8a4a28d",
+      "baseKey": "CEMALETTİN TERCAN",
+      "fullName": "CEMALETTİN TERCAN",
+      "normalizedName": "CEMALETTİN TERCAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-27T08:16:30.371Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-27T08:16:30.371Z",
+      "updatedAt": "2026-02-27T08:16:30.371Z"
     }
   ],
   "leaves": [
@@ -6842,6 +6862,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "19ba3873-a6ca-44ba-8f2b-36913702e393",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "f7236f88-c90e-44ab-b752-b5c1d8a4a28d",
+      "details": {
+        "person": {
+          "personId": "f7236f88-c90e-44ab-b752-b5c1d8a4a28d",
+          "baseKey": "CEMALETTİN TERCAN",
+          "fullName": "CEMALETTİN TERCAN",
+          "normalizedName": "CEMALETTİN TERCAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:16:30.371Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:16:30.371Z",
+          "updatedAt": "2026-02-27T08:16:30.371Z"
+        }
+      },
+      "timestamp": "2026-02-27T08:16:30.371Z",
+      "adminSession": "b5c46335-3547-4e4b-b1b5-7005473c44be"
+    },
     {
       "id": "ebf4fd9e-1745-4022-9b71-9fa64d71930c",
       "action": "CREATE",
