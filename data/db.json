@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-27T06:16:49.943Z"
+    "lastUpdated": "2026-02-27T08:15:36.872Z"
   },
   "taxonomy": {
     "categories": [
@@ -5286,6 +5286,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-26T07:31:43.410Z",
       "updatedAt": "2026-02-26T07:31:43.410Z"
+    },
+    {
+      "personId": "3d836b2f-49f8-4d47-8d8d-93c06917f627",
+      "baseKey": "SÜLEYMAN TATR",
+      "fullName": "SÜLEYMAN TATR",
+      "normalizedName": "SÜLEYMAN TATR",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-02-27T08:15:36.872Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-02-27T08:15:36.872Z",
+      "updatedAt": "2026-02-27T08:15:36.872Z"
     }
   ],
   "leaves": [
@@ -6802,6 +6822,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "d8da11af-2d48-4787-9b35-1707e5925f76",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "3d836b2f-49f8-4d47-8d8d-93c06917f627",
+      "details": {
+        "person": {
+          "personId": "3d836b2f-49f8-4d47-8d8d-93c06917f627",
+          "baseKey": "SÜLEYMAN TATR",
+          "fullName": "SÜLEYMAN TATR",
+          "normalizedName": "SÜLEYMAN TATR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:15:36.872Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:15:36.872Z",
+          "updatedAt": "2026-02-27T08:15:36.872Z"
+        }
+      },
+      "timestamp": "2026-02-27T08:15:36.872Z",
+      "adminSession": "b5c46335-3547-4e4b-b1b5-7005473c44be"
+    },
     {
       "id": "ebb079c4-0cf2-4d1c-b18b-263aa52ff1b4",
       "action": "UPDATE",
