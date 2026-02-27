@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-27T06:15:17.580Z"
+    "lastUpdated": "2026-02-27T06:15:36.127Z"
   },
   "taxonomy": {
     "categories": [
@@ -5865,12 +5865,12 @@
       "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
       "applicationNo": "150019/2026",
       "profession": "SAHA MEKANİK",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "2026-02-13",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-02-13T12:05:40.233Z",
-      "updatedAt": "2026-02-18T14:48:48.359Z"
+      "updatedAt": "2026-02-27T06:15:36.127Z"
     },
     {
       "id": "777c9c10-6a5d-4e06-ab98-cb95c24a6490",
@@ -6802,6 +6802,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "59c39214-1357-4d5a-b5ef-976f2409c208",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
+      "details": {
+        "before": {
+          "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
+          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
+          "applicationNo": "150019/2026",
+          "profession": "SAHA MEKANİK",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-02-13",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-13T12:05:40.233Z",
+          "updatedAt": "2026-02-18T14:48:48.359Z"
+        },
+        "after": {
+          "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
+          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
+          "applicationNo": "150019/2026",
+          "profession": "SAHA MEKANİK",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-02-13",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-13T12:05:40.233Z",
+          "updatedAt": "2026-02-27T06:15:36.127Z"
+        }
+      },
+      "timestamp": "2026-02-27T06:15:36.127Z",
+      "adminSession": "b5c46335-3547-4e4b-b1b5-7005473c44be"
+    },
     {
       "id": "6c71cd73-d032-49a4-8fab-38c57de730e6",
       "action": "UPDATE",
