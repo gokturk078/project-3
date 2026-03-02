@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-02-28T14:34:28.441Z"
+    "lastUpdated": "2026-03-02T11:33:50.353Z"
   },
   "taxonomy": {
     "categories": [
@@ -5961,12 +5961,12 @@
       "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
       "applicationNo": "122944/2026",
       "profession": "KULE VİNÇ OPERATÖRÜ",
-      "status": "ÖN İZNİ ONAYLANDI",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
       "expectedDate": "2026-03-28",
       "contactPerson": "AYHAN DÖNER",
       "notes": "",
       "createdAt": "2026-02-26T07:33:08.014Z",
-      "updatedAt": "2026-02-26T07:33:08.014Z"
+      "updatedAt": "2026-03-02T11:33:50.352Z"
     },
     {
       "id": "db4bfbe3-74a8-48e7-bc18-307894dfce72",
@@ -6898,6 +6898,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "e5e058e3-5e11-4a92-89b3-ffa0109b7907",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+      "details": {
+        "before": {
+          "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "applicationNo": "122944/2026",
+          "profession": "KULE VİNÇ OPERATÖRÜ",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-28",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-02-26T07:33:08.014Z",
+          "updatedAt": "2026-02-26T07:33:08.014Z"
+        },
+        "after": {
+          "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "applicationNo": "122944/2026",
+          "profession": "KULE VİNÇ OPERATÖRÜ",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-03-28",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-02-26T07:33:08.014Z",
+          "updatedAt": "2026-03-02T11:33:50.352Z"
+        }
+      },
+      "timestamp": "2026-03-02T11:33:50.352Z",
+      "adminSession": "bbcb4ca9-b8b6-4111-9152-36b78b8ffd2f"
+    },
     {
       "id": "87450b6f-6c32-4d40-9dfa-d1343134981b",
       "action": "UPDATE",
