@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T09:51:11.786Z"
+    "lastUpdated": "2026-03-03T10:48:19.762Z"
   },
   "taxonomy": {
     "categories": [
@@ -5426,6 +5426,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:50:29.661Z",
       "updatedAt": "2026-03-03T09:50:29.661Z"
+    },
+    {
+      "personId": "ab814877-1f0b-4bd4-bc58-7b9a93a745be",
+      "baseKey": "İSMAİL ŞAHİN",
+      "fullName": "İSMAİL ŞAHİN",
+      "normalizedName": "İSMAİL ŞAHİN",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-03T10:48:19.761Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-03T10:48:19.761Z",
+      "updatedAt": "2026-03-03T10:48:19.761Z"
     }
   ],
   "leaves": [
@@ -7026,6 +7046,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "d203f0d2-66a8-44bc-8ac8-652b8ee5ce9a",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "ab814877-1f0b-4bd4-bc58-7b9a93a745be",
+      "details": {
+        "person": {
+          "personId": "ab814877-1f0b-4bd4-bc58-7b9a93a745be",
+          "baseKey": "İSMAİL ŞAHİN",
+          "fullName": "İSMAİL ŞAHİN",
+          "normalizedName": "İSMAİL ŞAHİN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T10:48:19.761Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T10:48:19.761Z",
+          "updatedAt": "2026-03-03T10:48:19.761Z"
+        }
+      },
+      "timestamp": "2026-03-03T10:48:19.761Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "c7140598-915d-408c-a8b7-3fee929144ee",
       "action": "CREATE",
