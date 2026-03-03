@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T09:30:35.611Z"
+    "lastUpdated": "2026-03-03T09:31:33.523Z"
   },
   "taxonomy": {
     "categories": [
@@ -6063,6 +6063,18 @@
       "notes": "",
       "createdAt": "2026-02-27T08:21:40.748Z",
       "updatedAt": "2026-02-27T08:21:40.748Z"
+    },
+    {
+      "id": "22261571-7fae-4ea2-b0c0-95682f473390",
+      "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+      "applicationNo": "123239/2026",
+      "profession": "inşaat işçisi",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-03-03",
+      "contactPerson": "AYHAN DÖNER",
+      "notes": "",
+      "createdAt": "2026-03-03T09:31:33.523Z",
+      "updatedAt": "2026-03-03T09:31:33.523Z"
     }
   ],
   "departures": [
@@ -6958,6 +6970,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "c62fdc87-16bd-4cd3-abc4-3aebf09931e1",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "22261571-7fae-4ea2-b0c0-95682f473390",
+      "details": {
+        "tracking": {
+          "id": "22261571-7fae-4ea2-b0c0-95682f473390",
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "applicationNo": "123239/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-03",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-03-03T09:31:33.523Z",
+          "updatedAt": "2026-03-03T09:31:33.523Z"
+        }
+      },
+      "timestamp": "2026-03-03T09:31:33.523Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "ca7dd03c-2e67-4194-9f12-0fae733dc3e5",
       "action": "CREATE",
