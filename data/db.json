@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T11:46:34.988Z"
+    "lastUpdated": "2026-03-03T13:08:31.369Z"
   },
   "taxonomy": {
     "categories": [
@@ -5446,6 +5446,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-03T10:48:19.761Z",
       "updatedAt": "2026-03-03T10:48:19.761Z"
+    },
+    {
+      "personId": "a1ff43da-ff09-4fae-8461-0c66a7c163e3",
+      "baseKey": "İLYAS BALTA",
+      "fullName": "İLYAS BALTA",
+      "normalizedName": "İLYAS BALTA",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-03T13:08:31.369Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-03T13:08:31.369Z",
+      "updatedAt": "2026-03-03T13:08:31.369Z"
     }
   ],
   "leaves": [
@@ -7071,6 +7091,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "0388a63f-afaa-444d-918c-73282595c9c5",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "a1ff43da-ff09-4fae-8461-0c66a7c163e3",
+      "details": {
+        "person": {
+          "personId": "a1ff43da-ff09-4fae-8461-0c66a7c163e3",
+          "baseKey": "İLYAS BALTA",
+          "fullName": "İLYAS BALTA",
+          "normalizedName": "İLYAS BALTA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T13:08:31.369Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T13:08:31.369Z",
+          "updatedAt": "2026-03-03T13:08:31.369Z"
+        }
+      },
+      "timestamp": "2026-03-03T13:08:31.369Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "b335796d-25a4-42c8-8397-6ed5a767b910",
       "action": "CREATE",
