@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T09:30:12.033Z"
+    "lastUpdated": "2026-03-03T09:30:35.611Z"
   },
   "taxonomy": {
     "categories": [
@@ -5386,6 +5386,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:30:12.033Z",
       "updatedAt": "2026-03-03T09:30:12.033Z"
+    },
+    {
+      "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+      "baseKey": "YAKUP SEZEN",
+      "fullName": "YAKUP SEZEN",
+      "normalizedName": "YAKUP SEZEN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-03T09:30:35.611Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-03T09:30:35.611Z",
+      "updatedAt": "2026-03-03T09:30:35.611Z"
     }
   ],
   "leaves": [
@@ -6938,6 +6958,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ca7dd03c-2e67-4194-9f12-0fae733dc3e5",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+      "details": {
+        "person": {
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "baseKey": "YAKUP SEZEN",
+          "fullName": "YAKUP SEZEN",
+          "normalizedName": "YAKUP SEZEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:30:35.611Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:30:35.611Z",
+          "updatedAt": "2026-03-03T09:30:35.611Z"
+        }
+      },
+      "timestamp": "2026-03-03T09:30:35.611Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "01daeef5-a11a-43ee-b240-196f7a5d7b39",
       "action": "CREATE",
