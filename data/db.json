@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T09:29:24.744Z"
+    "lastUpdated": "2026-03-03T09:30:12.033Z"
   },
   "taxonomy": {
     "categories": [
@@ -5366,6 +5366,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:29:24.744Z",
       "updatedAt": "2026-03-03T09:29:24.744Z"
+    },
+    {
+      "personId": "51892e26-f824-4885-be71-a11f6d5103c3",
+      "baseKey": "HATİCE KÜBRA AYKUTOĞLU",
+      "fullName": "HATİCE KÜBRA AYKUTOĞLU",
+      "normalizedName": "HATİCE KÜBRA AYKUTOĞLU",
+      "category": "REPSAM",
+      "role": "İSG",
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-03T09:30:12.033Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-03T09:30:12.033Z",
+      "updatedAt": "2026-03-03T09:30:12.033Z"
     }
   ],
   "leaves": [
@@ -6918,6 +6938,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "01daeef5-a11a-43ee-b240-196f7a5d7b39",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "51892e26-f824-4885-be71-a11f6d5103c3",
+      "details": {
+        "person": {
+          "personId": "51892e26-f824-4885-be71-a11f6d5103c3",
+          "baseKey": "HATİCE KÜBRA AYKUTOĞLU",
+          "fullName": "HATİCE KÜBRA AYKUTOĞLU",
+          "normalizedName": "HATİCE KÜBRA AYKUTOĞLU",
+          "category": "REPSAM",
+          "role": "İSG",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:30:12.033Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:30:12.033Z",
+          "updatedAt": "2026-03-03T09:30:12.033Z"
+        }
+      },
+      "timestamp": "2026-03-03T09:30:12.033Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "e5c415a4-57c7-4330-966d-d907ab797a62",
       "action": "CREATE",
