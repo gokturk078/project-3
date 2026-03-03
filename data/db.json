@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T11:45:25.271Z"
+    "lastUpdated": "2026-03-03T11:46:34.988Z"
   },
   "taxonomy": {
     "categories": [
@@ -7036,6 +7036,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-02-16T14:53:14.612Z",
       "updatedAt": "2026-02-16T14:53:14.612Z"
+    },
+    {
+      "id": "10667d6c-d1e8-47ec-a365-8445db187228",
+      "personId": null,
+      "fullName": "DAVUT SEZEN",
+      "category": "CAPRA",
+      "job": "",
+      "entryDate": "2025-10-18",
+      "exitDate": "2026-03-02",
+      "totalDays": 135,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-03-03T11:46:34.988Z",
+      "updatedAt": "2026-03-03T11:46:34.988Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7058,6 +7071,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "b335796d-25a4-42c8-8397-6ed5a767b910",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "10667d6c-d1e8-47ec-a365-8445db187228",
+      "details": {
+        "departure": {
+          "id": "10667d6c-d1e8-47ec-a365-8445db187228",
+          "personId": null,
+          "fullName": "DAVUT SEZEN",
+          "category": "CAPRA",
+          "job": "",
+          "entryDate": "2025-10-18",
+          "exitDate": "2026-03-02",
+          "totalDays": 135,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-03T11:46:34.988Z",
+          "updatedAt": "2026-03-03T11:46:34.988Z"
+        }
+      },
+      "timestamp": "2026-03-03T11:46:34.988Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "229ab4f3-f5a7-4403-85fa-cc3b3611d814",
       "action": "UPDATE",
