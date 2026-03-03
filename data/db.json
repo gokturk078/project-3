@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T09:32:22.028Z"
+    "lastUpdated": "2026-03-03T09:33:10.017Z"
   },
   "taxonomy": {
     "categories": [
@@ -6087,6 +6087,18 @@
       "notes": "",
       "createdAt": "2026-03-03T09:32:22.028Z",
       "updatedAt": "2026-03-03T09:32:22.028Z"
+    },
+    {
+      "id": "6edec4f2-a437-4216-8f31-c42c352b182f",
+      "personId": "51892e26-f824-4885-be71-a11f6d5103c3",
+      "applicationNo": "123233/2026",
+      "profession": "İSG",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-03-03",
+      "contactPerson": "İSG",
+      "notes": "",
+      "createdAt": "2026-03-03T09:33:10.016Z",
+      "updatedAt": "2026-03-03T09:33:10.016Z"
     }
   ],
   "departures": [
@@ -6982,6 +6994,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "6078fed6-75e4-4803-820d-e056c37331c4",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "6edec4f2-a437-4216-8f31-c42c352b182f",
+      "details": {
+        "tracking": {
+          "id": "6edec4f2-a437-4216-8f31-c42c352b182f",
+          "personId": "51892e26-f824-4885-be71-a11f6d5103c3",
+          "applicationNo": "123233/2026",
+          "profession": "İSG",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-03",
+          "contactPerson": "İSG",
+          "notes": "",
+          "createdAt": "2026-03-03T09:33:10.016Z",
+          "updatedAt": "2026-03-03T09:33:10.016Z"
+        }
+      },
+      "timestamp": "2026-03-03T09:33:10.017Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "f2a94be0-6952-46cd-99ae-c5d17f0fa60d",
       "action": "CREATE",
