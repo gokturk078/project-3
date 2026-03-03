@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T13:09:12.530Z"
+    "lastUpdated": "2026-03-03T14:38:57.458Z"
   },
   "taxonomy": {
     "categories": [
@@ -6105,12 +6105,12 @@
       "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
       "applicationNo": "122898/2026",
       "profession": "İSG",
-      "status": "ÖN İZNİ ONAYLANDI",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
       "expectedDate": "2026-01-27",
       "contactPerson": "İSG",
       "notes": "",
       "createdAt": "2026-02-27T08:20:53.142Z",
-      "updatedAt": "2026-02-27T08:20:53.142Z"
+      "updatedAt": "2026-03-03T14:38:57.457Z"
     },
     {
       "id": "2ce53afc-bfe7-4d9c-b5d3-8af544f51597",
@@ -7103,6 +7103,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "8055c7fc-7078-442a-8dd0-2ba6481db816",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
+      "details": {
+        "before": {
+          "id": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
+          "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+          "applicationNo": "122898/2026",
+          "profession": "İSG",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-01-27",
+          "contactPerson": "İSG",
+          "notes": "",
+          "createdAt": "2026-02-27T08:20:53.142Z",
+          "updatedAt": "2026-02-27T08:20:53.142Z"
+        },
+        "after": {
+          "id": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
+          "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+          "applicationNo": "122898/2026",
+          "profession": "İSG",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-01-27",
+          "contactPerson": "İSG",
+          "notes": "",
+          "createdAt": "2026-02-27T08:20:53.142Z",
+          "updatedAt": "2026-03-03T14:38:57.457Z"
+        }
+      },
+      "timestamp": "2026-03-03T14:38:57.458Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "7115831a-0046-46c2-b9ce-641f470a6f16",
       "action": "CREATE",
