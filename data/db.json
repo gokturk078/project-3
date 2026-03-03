@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-02T15:23:17.806Z"
+    "lastUpdated": "2026-03-03T09:29:24.744Z"
   },
   "taxonomy": {
     "categories": [
@@ -5346,6 +5346,26 @@
       "mergedFrom": [],
       "createdAt": "2026-02-27T08:18:27.162Z",
       "updatedAt": "2026-02-27T08:18:27.162Z"
+    },
+    {
+      "personId": "e99b037f-445e-4bed-a838-eddf21fac638",
+      "baseKey": "ZEYNEL SULTAN",
+      "fullName": "zeynel sultan",
+      "normalizedName": "ZEYNEL SULTAN",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-03T09:29:24.744Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-03T09:29:24.744Z",
+      "updatedAt": "2026-03-03T09:29:24.744Z"
     }
   ],
   "leaves": [
@@ -6898,6 +6918,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e5c415a4-57c7-4330-966d-d907ab797a62",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "e99b037f-445e-4bed-a838-eddf21fac638",
+      "details": {
+        "person": {
+          "personId": "e99b037f-445e-4bed-a838-eddf21fac638",
+          "baseKey": "ZEYNEL SULTAN",
+          "fullName": "zeynel sultan",
+          "normalizedName": "ZEYNEL SULTAN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:29:24.744Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:29:24.744Z",
+          "updatedAt": "2026-03-03T09:29:24.744Z"
+        }
+      },
+      "timestamp": "2026-03-03T09:29:24.744Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "d8f43f0f-1058-4a88-95fe-b7f0b23c17ab",
       "action": "UPDATE",
