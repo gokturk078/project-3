@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T09:33:10.017Z"
+    "lastUpdated": "2026-03-03T09:50:29.661Z"
   },
   "taxonomy": {
     "categories": [
@@ -5406,6 +5406,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:30:35.611Z",
       "updatedAt": "2026-03-03T09:30:35.611Z"
+    },
+    {
+      "personId": "499f792c-5bd6-47ff-8a6d-fa307ed07cf5",
+      "baseKey": "OSMAN TAŞAR",
+      "fullName": "OSMAN TAŞAR",
+      "normalizedName": "OSMAN TAŞAR",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-03T09:50:29.661Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-03T09:50:29.661Z",
+      "updatedAt": "2026-03-03T09:50:29.661Z"
     }
   ],
   "leaves": [
@@ -6994,6 +7014,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "cee413dd-a018-4248-b8c3-9d92256b8ea0",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "499f792c-5bd6-47ff-8a6d-fa307ed07cf5",
+      "details": {
+        "person": {
+          "personId": "499f792c-5bd6-47ff-8a6d-fa307ed07cf5",
+          "baseKey": "OSMAN TAŞAR",
+          "fullName": "OSMAN TAŞAR",
+          "normalizedName": "OSMAN TAŞAR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:50:29.661Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:50:29.661Z",
+          "updatedAt": "2026-03-03T09:50:29.661Z"
+        }
+      },
+      "timestamp": "2026-03-03T09:50:29.661Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "6078fed6-75e4-4803-820d-e056c37331c4",
       "action": "CREATE",
