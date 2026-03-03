@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-03T10:49:27.996Z"
+    "lastUpdated": "2026-03-03T11:45:25.271Z"
   },
   "taxonomy": {
     "categories": [
@@ -3506,7 +3506,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "CAPRA",
@@ -3515,7 +3515,7 @@
       "mergedFrom": [],
       "personId": "fa1c6733-43fe-4662-8629-6d7c7b5d9a23",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-03-03T11:45:25.270Z"
     },
     {
       "fullName": "MUSTAFA ŞEN",
@@ -7058,6 +7058,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "229ab4f3-f5a7-4403-85fa-cc3b3611d814",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "fa1c6733-43fe-4662-8629-6d7c7b5d9a23",
+      "details": {
+        "before": {
+          "fullName": "DAVUT SEZEN",
+          "normalizedName": "DAVUT SEZEN",
+          "baseKey": "DAVUT SEZEN",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 3
+          },
+          "mergedFrom": [],
+          "personId": "fa1c6733-43fe-4662-8629-6d7c7b5d9a23",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "DAVUT SEZEN",
+          "normalizedName": "DAVUT SEZEN",
+          "baseKey": "DAVUT SEZEN",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 3
+          },
+          "mergedFrom": [],
+          "personId": "fa1c6733-43fe-4662-8629-6d7c7b5d9a23",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-03-03T11:45:25.270Z"
+        }
+      },
+      "timestamp": "2026-03-03T11:45:25.271Z",
+      "adminSession": "ade7a804-08bb-4b17-ad76-40d578d56437"
+    },
     {
       "id": "de0bc10c-4db5-40a0-9ffd-603d60dd1146",
       "action": "CREATE",
