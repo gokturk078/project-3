@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-04T07:59:57.002Z"
+    "lastUpdated": "2026-03-04T08:00:17.134Z"
   },
   "taxonomy": {
     "categories": [
@@ -5566,6 +5566,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-04T07:59:57.002Z",
       "updatedAt": "2026-03-04T07:59:57.002Z"
+    },
+    {
+      "personId": "ef96428d-4f10-4b3f-b840-c57dbf0bb014",
+      "baseKey": "REZZAN KAYA",
+      "fullName": "REZZAN KAYA",
+      "normalizedName": "REZZAN KAYA",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-04T08:00:17.133Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-04T08:00:17.133Z",
+      "updatedAt": "2026-03-04T08:00:17.133Z"
     }
   ],
   "leaves": [
@@ -7203,6 +7223,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "3766c4cc-13de-448a-bc1a-cfe6b6301b9c",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "ef96428d-4f10-4b3f-b840-c57dbf0bb014",
+      "details": {
+        "person": {
+          "personId": "ef96428d-4f10-4b3f-b840-c57dbf0bb014",
+          "baseKey": "REZZAN KAYA",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T08:00:17.133Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T08:00:17.133Z",
+          "updatedAt": "2026-03-04T08:00:17.133Z"
+        }
+      },
+      "timestamp": "2026-03-04T08:00:17.133Z",
+      "adminSession": "b36e4e60-affc-4861-a19e-9b85c5d6f486"
+    },
     {
       "id": "49d9eebf-cd45-4b7a-ac97-81a44b9041cc",
       "action": "CREATE",
