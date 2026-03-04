@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-04T06:21:56.091Z"
+    "lastUpdated": "2026-03-04T07:58:27.436Z"
   },
   "taxonomy": {
     "categories": [
@@ -5466,6 +5466,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-03T13:08:31.369Z",
       "updatedAt": "2026-03-03T13:08:31.369Z"
+    },
+    {
+      "personId": "0fc52e5b-a36a-490a-a6f7-2377c151e1ba",
+      "baseKey": "İSA ÖZÇELİK",
+      "fullName": "İSA ÖZÇELİK",
+      "normalizedName": "İSA ÖZÇELİK",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-04T07:58:27.436Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-04T07:58:27.436Z",
+      "updatedAt": "2026-03-04T07:58:27.436Z"
     }
   ],
   "leaves": [
@@ -7103,6 +7123,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "570fc1ca-0cfc-4c71-9b81-821ba9a3873e",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "0fc52e5b-a36a-490a-a6f7-2377c151e1ba",
+      "details": {
+        "person": {
+          "personId": "0fc52e5b-a36a-490a-a6f7-2377c151e1ba",
+          "baseKey": "İSA ÖZÇELİK",
+          "fullName": "İSA ÖZÇELİK",
+          "normalizedName": "İSA ÖZÇELİK",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:58:27.436Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:58:27.436Z",
+          "updatedAt": "2026-03-04T07:58:27.436Z"
+        }
+      },
+      "timestamp": "2026-03-04T07:58:27.436Z",
+      "adminSession": "b36e4e60-affc-4861-a19e-9b85c5d6f486"
+    },
     {
       "id": "d30326a7-c2f6-4caa-9ac7-b0fa251bccba",
       "action": "UPDATE",
