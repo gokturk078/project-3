@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-04T11:48:38.523Z"
+    "lastUpdated": "2026-03-04T11:48:56.955Z"
   },
   "taxonomy": {
     "categories": [
@@ -5626,6 +5626,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-04T11:48:38.523Z",
       "updatedAt": "2026-03-04T11:48:38.523Z"
+    },
+    {
+      "personId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
+      "baseKey": "MUSTAFA YANAR",
+      "fullName": "MUSTAFA YANAR",
+      "normalizedName": "MUSTAFA YANAR",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-04T11:48:56.955Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-04T11:48:56.955Z",
+      "updatedAt": "2026-03-04T11:48:56.955Z"
     }
   ],
   "leaves": [
@@ -7335,6 +7355,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "3f1d1637-0350-4d92-bd90-6264b26ec3f3",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
+      "details": {
+        "person": {
+          "personId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
+          "baseKey": "MUSTAFA YANAR",
+          "fullName": "MUSTAFA YANAR",
+          "normalizedName": "MUSTAFA YANAR",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T11:48:56.955Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T11:48:56.955Z",
+          "updatedAt": "2026-03-04T11:48:56.955Z"
+        }
+      },
+      "timestamp": "2026-03-04T11:48:56.955Z",
+      "adminSession": "b36e4e60-affc-4861-a19e-9b85c5d6f486"
+    },
     {
       "id": "f652affc-7db7-4368-b33e-5d3b9ee3aeab",
       "action": "CREATE",
