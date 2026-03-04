@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-04T08:04:55.324Z"
+    "lastUpdated": "2026-03-04T11:48:19.674Z"
   },
   "taxonomy": {
     "categories": [
@@ -5586,6 +5586,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-04T08:00:17.133Z",
       "updatedAt": "2026-03-04T08:00:17.133Z"
+    },
+    {
+      "personId": "9cf42ffb-0ef6-475b-ac9e-d064feafff1e",
+      "baseKey": "MEHMET KEKİK",
+      "fullName": "MEHMET KEKİK",
+      "normalizedName": "MEHMET KEKİK",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-04T11:48:19.674Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-04T11:48:19.674Z",
+      "updatedAt": "2026-03-04T11:48:19.674Z"
     }
   ],
   "leaves": [
@@ -7295,6 +7315,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "18261c13-f3fe-4cea-92c5-7d4a09a8dc22",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "9cf42ffb-0ef6-475b-ac9e-d064feafff1e",
+      "details": {
+        "person": {
+          "personId": "9cf42ffb-0ef6-475b-ac9e-d064feafff1e",
+          "baseKey": "MEHMET KEKİK",
+          "fullName": "MEHMET KEKİK",
+          "normalizedName": "MEHMET KEKİK",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T11:48:19.674Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T11:48:19.674Z",
+          "updatedAt": "2026-03-04T11:48:19.674Z"
+        }
+      },
+      "timestamp": "2026-03-04T11:48:19.674Z",
+      "adminSession": "b36e4e60-affc-4861-a19e-9b85c5d6f486"
+    },
     {
       "id": "82fe24ac-a972-4842-ac0b-7f59bf4ea044",
       "action": "UPDATE",
