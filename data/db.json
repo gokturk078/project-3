@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-04T07:58:27.436Z"
+    "lastUpdated": "2026-03-04T07:58:52.196Z"
   },
   "taxonomy": {
     "categories": [
@@ -5486,6 +5486,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-04T07:58:27.436Z",
       "updatedAt": "2026-03-04T07:58:27.436Z"
+    },
+    {
+      "personId": "333fa41a-5a4f-41e2-9d8b-bc31aa4b12a0",
+      "baseKey": "MAHSUN ALTINKALEM",
+      "fullName": "MAHSUN ALTINKALEM",
+      "normalizedName": "MAHSUN ALTINKALEM",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-04T07:58:52.196Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-04T07:58:52.196Z",
+      "updatedAt": "2026-03-04T07:58:52.196Z"
     }
   ],
   "leaves": [
@@ -7123,6 +7143,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "72fc8337-cc59-4c4b-95c0-729d76184801",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "333fa41a-5a4f-41e2-9d8b-bc31aa4b12a0",
+      "details": {
+        "person": {
+          "personId": "333fa41a-5a4f-41e2-9d8b-bc31aa4b12a0",
+          "baseKey": "MAHSUN ALTINKALEM",
+          "fullName": "MAHSUN ALTINKALEM",
+          "normalizedName": "MAHSUN ALTINKALEM",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:58:52.196Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:58:52.196Z",
+          "updatedAt": "2026-03-04T07:58:52.196Z"
+        }
+      },
+      "timestamp": "2026-03-04T07:58:52.196Z",
+      "adminSession": "b36e4e60-affc-4861-a19e-9b85c5d6f486"
+    },
     {
       "id": "570fc1ca-0cfc-4c71-9b81-821ba9a3873e",
       "action": "CREATE",
