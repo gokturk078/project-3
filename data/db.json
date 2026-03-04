@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-04T07:58:52.196Z"
+    "lastUpdated": "2026-03-04T07:59:11.179Z"
   },
   "taxonomy": {
     "categories": [
@@ -5506,6 +5506,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-04T07:58:52.196Z",
       "updatedAt": "2026-03-04T07:58:52.196Z"
+    },
+    {
+      "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+      "baseKey": "OĞUZHAN BABAYİĞİT",
+      "fullName": "OĞUZHAN BABAYİĞİT",
+      "normalizedName": "OĞUZHAN BABAYİĞİT",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-04T07:59:11.179Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-04T07:59:11.179Z",
+      "updatedAt": "2026-03-04T07:59:11.179Z"
     }
   ],
   "leaves": [
@@ -7143,6 +7163,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "42feba1d-bc36-41fa-a54e-3a82cbf2da0e",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+      "details": {
+        "person": {
+          "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+          "baseKey": "OĞUZHAN BABAYİĞİT",
+          "fullName": "OĞUZHAN BABAYİĞİT",
+          "normalizedName": "OĞUZHAN BABAYİĞİT",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:11.179Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:11.179Z",
+          "updatedAt": "2026-03-04T07:59:11.179Z"
+        }
+      },
+      "timestamp": "2026-03-04T07:59:11.179Z",
+      "adminSession": "b36e4e60-affc-4861-a19e-9b85c5d6f486"
+    },
     {
       "id": "72fc8337-cc59-4c4b-95c0-729d76184801",
       "action": "CREATE",
