@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-06T08:18:33.398Z"
+    "lastUpdated": "2026-03-06T08:19:56.669Z"
   },
   "taxonomy": {
     "categories": [
@@ -6479,6 +6479,18 @@
       "notes": "",
       "createdAt": "2026-03-06T08:18:33.398Z",
       "updatedAt": "2026-03-06T08:18:33.398Z"
+    },
+    {
+      "id": "31761183-f605-4ad9-ab92-5cf809316e10",
+      "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
+      "applicationNo": "153486/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-03-06T08:19:56.669Z",
+      "updatedAt": "2026-03-06T08:19:56.669Z"
     }
   ],
   "departures": [
@@ -7387,6 +7399,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "35ef99f6-71ff-42b7-9919-2b01e7c4cb95",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "31761183-f605-4ad9-ab92-5cf809316e10",
+      "details": {
+        "tracking": {
+          "id": "31761183-f605-4ad9-ab92-5cf809316e10",
+          "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
+          "applicationNo": "153486/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-06T08:19:56.669Z",
+          "updatedAt": "2026-03-06T08:19:56.669Z"
+        }
+      },
+      "timestamp": "2026-03-06T08:19:56.669Z",
+      "adminSession": "516b3ae4-d0e2-41b3-9b66-bc5ffa361660"
+    },
     {
       "id": "968e8b8f-7a47-4b68-926d-7abc23b6bcab",
       "action": "CREATE",
