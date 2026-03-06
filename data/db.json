@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-06T11:21:47.722Z"
+    "lastUpdated": "2026-03-06T11:22:28.516Z"
   },
   "taxonomy": {
     "categories": [
@@ -6511,6 +6511,18 @@
       "notes": "",
       "createdAt": "2026-03-06T08:19:56.669Z",
       "updatedAt": "2026-03-06T08:19:56.669Z"
+    },
+    {
+      "id": "88ae077f-96b9-403e-a72b-e512a51cb936",
+      "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+      "applicationNo": "123765",
+      "profession": "inşaat işçisi",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-03-06",
+      "contactPerson": "SEDAT GÜNEŞ",
+      "notes": "",
+      "createdAt": "2026-03-06T11:22:28.516Z",
+      "updatedAt": "2026-03-06T11:22:28.516Z"
     }
   ],
   "departures": [
@@ -7419,6 +7431,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "544eccf1-3436-49fb-8fdf-a0e28cbebfac",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "88ae077f-96b9-403e-a72b-e512a51cb936",
+      "details": {
+        "tracking": {
+          "id": "88ae077f-96b9-403e-a72b-e512a51cb936",
+          "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+          "applicationNo": "123765",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-06",
+          "contactPerson": "SEDAT GÜNEŞ",
+          "notes": "",
+          "createdAt": "2026-03-06T11:22:28.516Z",
+          "updatedAt": "2026-03-06T11:22:28.516Z"
+        }
+      },
+      "timestamp": "2026-03-06T11:22:28.516Z",
+      "adminSession": "516b3ae4-d0e2-41b3-9b66-bc5ffa361660"
+    },
     {
       "id": "7cb9fb78-0685-4e9a-a57e-c72d397ccb79",
       "action": "CREATE",
