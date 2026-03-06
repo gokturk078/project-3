@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-06T08:19:56.669Z"
+    "lastUpdated": "2026-03-06T11:21:47.722Z"
   },
   "taxonomy": {
     "categories": [
@@ -5666,6 +5666,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-04T11:49:17.751Z",
       "updatedAt": "2026-03-04T11:49:17.751Z"
+    },
+    {
+      "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+      "baseKey": "OĞUZHAN ALKAN",
+      "fullName": "OĞUZHAN ALKAN",
+      "normalizedName": "OĞUZHAN ALKAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-06T11:21:47.721Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-06T11:21:47.721Z",
+      "updatedAt": "2026-03-06T11:21:47.721Z"
     }
   ],
   "leaves": [
@@ -7399,6 +7419,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "7cb9fb78-0685-4e9a-a57e-c72d397ccb79",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+      "details": {
+        "person": {
+          "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+          "baseKey": "OĞUZHAN ALKAN",
+          "fullName": "OĞUZHAN ALKAN",
+          "normalizedName": "OĞUZHAN ALKAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-06T11:21:47.721Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-06T11:21:47.721Z",
+          "updatedAt": "2026-03-06T11:21:47.721Z"
+        }
+      },
+      "timestamp": "2026-03-06T11:21:47.722Z",
+      "adminSession": "516b3ae4-d0e2-41b3-9b66-bc5ffa361660"
+    },
     {
       "id": "35ef99f6-71ff-42b7-9919-2b01e7c4cb95",
       "action": "CREATE",
