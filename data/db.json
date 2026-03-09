@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T11:29:13.217Z"
+    "lastUpdated": "2026-03-09T11:29:31.800Z"
   },
   "taxonomy": {
     "categories": [
@@ -4823,7 +4823,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4832,7 +4832,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:09:32.995Z",
-      "updatedAt": "2026-01-26T15:09:32.995Z"
+      "updatedAt": "2026-03-09T11:29:31.800Z",
+      "jobTitle": null
     },
     {
       "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
@@ -7416,6 +7417,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "5bad8fb3-6529-482c-b083-f82f0808a42d",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
+      "details": {
+        "before": {
+          "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
+          "baseKey": "ZATİ KEPİR",
+          "fullName": "ZATİ KEPİR",
+          "normalizedName": "ZATİ KEPİR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:32.995Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:32.995Z",
+          "updatedAt": "2026-01-26T15:09:32.995Z"
+        },
+        "after": {
+          "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
+          "baseKey": "ZATİ KEPİR",
+          "fullName": "ZATİ KEPİR",
+          "normalizedName": "ZATİ KEPİR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:32.995Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:32.995Z",
+          "updatedAt": "2026-03-09T11:29:31.800Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-09T11:29:31.800Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "bde3f094-76e5-4ed7-b660-50e86f003996",
       "action": "UPDATE",
