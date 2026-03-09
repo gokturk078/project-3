@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T12:02:06.313Z"
+    "lastUpdated": "2026-03-09T12:02:19.560Z"
   },
   "taxonomy": {
     "categories": [
@@ -6458,12 +6458,12 @@
       "personId": "88cc94a6-e246-4047-9ad6-a909568a8a30",
       "applicationNo": "153480/2026",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-03-06T08:18:33.398Z",
-      "updatedAt": "2026-03-06T08:18:33.398Z"
+      "updatedAt": "2026-03-09T12:02:19.560Z"
     },
     {
       "id": "31761183-f605-4ad9-ab92-5cf809316e10",
@@ -7408,6 +7408,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "56dab421-d896-47bb-9e29-ecfc94a5bb77",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "eef53261-6bcb-450e-a823-9bcb15f84206",
+      "details": {
+        "before": {
+          "id": "eef53261-6bcb-450e-a823-9bcb15f84206",
+          "personId": "88cc94a6-e246-4047-9ad6-a909568a8a30",
+          "applicationNo": "153480/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-06T08:18:33.398Z",
+          "updatedAt": "2026-03-06T08:18:33.398Z"
+        },
+        "after": {
+          "id": "eef53261-6bcb-450e-a823-9bcb15f84206",
+          "personId": "88cc94a6-e246-4047-9ad6-a909568a8a30",
+          "applicationNo": "153480/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-06T08:18:33.398Z",
+          "updatedAt": "2026-03-09T12:02:19.560Z"
+        }
+      },
+      "timestamp": "2026-03-09T12:02:19.560Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "f61c611e-ac92-4fa0-87c9-9eaf4f7b36d7",
       "action": "DELETE",
