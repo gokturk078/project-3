@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T08:22:09.561Z"
+    "lastUpdated": "2026-03-09T08:22:14.887Z"
   },
   "taxonomy": {
     "categories": [
@@ -6189,18 +6189,6 @@
       "updatedAt": "2026-02-18T14:48:56.335Z"
     },
     {
-      "id": "ba83646c-0c8c-43b6-b7f5-ddf04da9e04e",
-      "personId": "45db4bd0-47fd-4963-a887-43628167b9eb",
-      "applicationNo": "150864/2026",
-      "profession": "",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-02-19T11:54:38.100Z",
-      "updatedAt": "2026-03-04T06:21:38.140Z"
-    },
-    {
       "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
       "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
       "applicationNo": "122944/2026",
@@ -7395,6 +7383,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "16a9f331-46fa-496e-b581-03d920f57ae0",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "ba83646c-0c8c-43b6-b7f5-ddf04da9e04e",
+      "details": {
+        "tracking": {
+          "id": "ba83646c-0c8c-43b6-b7f5-ddf04da9e04e",
+          "personId": "45db4bd0-47fd-4963-a887-43628167b9eb",
+          "applicationNo": "150864/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-19T11:54:38.100Z",
+          "updatedAt": "2026-03-04T06:21:38.140Z"
+        }
+      },
+      "timestamp": "2026-03-09T08:22:14.886Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "31b91a2b-967c-4cad-951a-0b6b78207b9d",
       "action": "DELETE",
