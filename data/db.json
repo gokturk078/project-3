@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T08:23:09.673Z"
+    "lastUpdated": "2026-03-09T08:23:15.834Z"
   },
   "taxonomy": {
     "categories": [
@@ -6241,12 +6241,12 @@
       "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
       "applicationNo": "123239/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-03-03",
       "contactPerson": "AYHAN DÖNER",
       "notes": "",
       "createdAt": "2026-03-03T09:31:33.523Z",
-      "updatedAt": "2026-03-05T12:21:26.370Z"
+      "updatedAt": "2026-03-09T08:23:15.834Z"
     },
     {
       "id": "18fb6856-3634-44c1-8914-0dc79b172708",
@@ -7383,6 +7383,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "fc7d1f7d-e649-4d50-8e2a-3a61489de223",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "22261571-7fae-4ea2-b0c0-95682f473390",
+      "details": {
+        "before": {
+          "id": "22261571-7fae-4ea2-b0c0-95682f473390",
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "applicationNo": "123239/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-03-03",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-03-03T09:31:33.523Z",
+          "updatedAt": "2026-03-05T12:21:26.370Z"
+        },
+        "after": {
+          "id": "22261571-7fae-4ea2-b0c0-95682f473390",
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "applicationNo": "123239/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-03-03",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-03-03T09:31:33.523Z",
+          "updatedAt": "2026-03-09T08:23:15.834Z"
+        }
+      },
+      "timestamp": "2026-03-09T08:23:15.834Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "64e72811-651a-409a-9fae-13573207256e",
       "action": "UPDATE",
