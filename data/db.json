@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T08:21:23.859Z"
+    "lastUpdated": "2026-03-09T08:21:36.094Z"
   },
   "taxonomy": {
     "categories": [
@@ -6145,12 +6145,12 @@
       "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
       "applicationNo": "121500/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-02-10",
       "contactPerson": "ADNAN ŞEF",
       "notes": "",
       "createdAt": "2026-02-10T14:04:41.181Z",
-      "updatedAt": "2026-02-27T06:15:17.579Z"
+      "updatedAt": "2026-03-09T08:21:36.094Z"
     },
     {
       "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
@@ -7407,6 +7407,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "4edf3e5c-619e-4c7c-af41-af028783daf6",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "5b2e364e-0698-4968-953f-556bec46a742",
+      "details": {
+        "before": {
+          "id": "5b2e364e-0698-4968-953f-556bec46a742",
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "applicationNo": "121500/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ADNAN ŞEF",
+          "notes": "",
+          "createdAt": "2026-02-10T14:04:41.181Z",
+          "updatedAt": "2026-02-27T06:15:17.579Z"
+        },
+        "after": {
+          "id": "5b2e364e-0698-4968-953f-556bec46a742",
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "applicationNo": "121500/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ADNAN ŞEF",
+          "notes": "",
+          "createdAt": "2026-02-10T14:04:41.181Z",
+          "updatedAt": "2026-03-09T08:21:36.094Z"
+        }
+      },
+      "timestamp": "2026-03-09T08:21:36.094Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "2862688c-dbcc-4511-b65e-5ae68e1dc6d3",
       "action": "DELETE",
