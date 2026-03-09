@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T06:42:46.921Z"
+    "lastUpdated": "2026-03-09T08:20:57.617Z"
   },
   "taxonomy": {
     "categories": [
@@ -6081,18 +6081,6 @@
   ],
   "tracking": [
     {
-      "id": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
-      "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
-      "applicationNo": "116094/2025",
-      "profession": "FORMEN",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-01-17",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "createdAt": "2026-01-16T13:54:33.482Z",
-      "updatedAt": "2026-02-27T06:16:49.943Z"
-    },
-    {
       "id": "6cab3662-85b0-4731-8293-0063e6f6b1ff",
       "personId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
       "applicationNo": "119832/2026",
@@ -7431,6 +7419,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "37c5c027-0bed-4e33-ae04-3e9d36d13ac3",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
+      "details": {
+        "tracking": {
+          "id": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
+          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+          "applicationNo": "116094/2025",
+          "profession": "FORMEN",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-17",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-01-16T13:54:33.482Z",
+          "updatedAt": "2026-02-27T06:16:49.943Z"
+        }
+      },
+      "timestamp": "2026-03-09T08:20:57.617Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "908a70db-aec7-47fc-a85d-bcd4ed95e4fa",
       "action": "UPDATE",
