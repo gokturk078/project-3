@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T08:21:36.094Z"
+    "lastUpdated": "2026-03-09T08:22:09.561Z"
   },
   "taxonomy": {
     "categories": [
@@ -6177,18 +6177,6 @@
       "updatedAt": "2026-02-10T15:37:51.532Z"
     },
     {
-      "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
-      "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
-      "applicationNo": "150019/2026",
-      "profession": "SAHA MEKANİK",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-02-13",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-02-13T12:05:40.233Z",
-      "updatedAt": "2026-02-27T06:15:36.127Z"
-    },
-    {
       "id": "777c9c10-6a5d-4e06-ab98-cb95c24a6490",
       "personId": "8c97aeb9-2649-450e-bf67-63cf5e5272ea",
       "applicationNo": "150046/2026",
@@ -7407,6 +7395,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "31b91a2b-967c-4cad-951a-0b6b78207b9d",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
+      "details": {
+        "tracking": {
+          "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
+          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
+          "applicationNo": "150019/2026",
+          "profession": "SAHA MEKANİK",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-02-13",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-13T12:05:40.233Z",
+          "updatedAt": "2026-02-27T06:15:36.127Z"
+        }
+      },
+      "timestamp": "2026-03-09T08:22:09.561Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "4edf3e5c-619e-4c7c-af41-af028783daf6",
       "action": "UPDATE",
