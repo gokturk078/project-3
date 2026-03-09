@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T11:29:49.951Z"
+    "lastUpdated": "2026-03-09T11:30:08.283Z"
   },
   "taxonomy": {
     "categories": [
@@ -4742,7 +4742,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4751,7 +4751,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:08:17.333Z",
-      "updatedAt": "2026-01-26T15:08:17.333Z"
+      "updatedAt": "2026-03-09T11:30:08.282Z",
+      "jobTitle": null
     },
     {
       "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
@@ -7418,6 +7419,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "c80424b8-2e47-439f-81fd-6462b75a25c6",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
+      "details": {
+        "before": {
+          "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
+          "baseKey": "EROL TUNUR",
+          "fullName": "EROL TUNUR",
+          "normalizedName": "EROL TUNUR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:17.333Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:17.333Z",
+          "updatedAt": "2026-01-26T15:08:17.333Z"
+        },
+        "after": {
+          "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
+          "baseKey": "EROL TUNUR",
+          "fullName": "EROL TUNUR",
+          "normalizedName": "EROL TUNUR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:17.333Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:17.333Z",
+          "updatedAt": "2026-03-09T11:30:08.282Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-09T11:30:08.283Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "00ba422d-1090-467b-a435-76982b1b9927",
       "action": "UPDATE",
