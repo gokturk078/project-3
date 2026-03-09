@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T08:23:25.375Z"
+    "lastUpdated": "2026-03-09T09:35:34.128Z"
   },
   "taxonomy": {
     "categories": [
@@ -5686,6 +5686,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-06T11:21:47.721Z",
       "updatedAt": "2026-03-06T11:21:47.721Z"
+    },
+    {
+      "personId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
+      "baseKey": "MAHMUT KIZILTAŞ",
+      "fullName": "MAHMUT KIZILTAŞ",
+      "normalizedName": "MAHMUT KIZILTAŞ",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-09T09:35:34.127Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-09T09:35:34.127Z",
+      "updatedAt": "2026-03-09T09:35:34.127Z"
     }
   ],
   "leaves": [
@@ -7383,6 +7403,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "62426d3e-e770-4a41-9e35-451a0ffaa7f6",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
+      "details": {
+        "person": {
+          "personId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
+          "baseKey": "MAHMUT KIZILTAŞ",
+          "fullName": "MAHMUT KIZILTAŞ",
+          "normalizedName": "MAHMUT KIZILTAŞ",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-09T09:35:34.127Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-09T09:35:34.127Z",
+          "updatedAt": "2026-03-09T09:35:34.127Z"
+        }
+      },
+      "timestamp": "2026-03-09T09:35:34.128Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "b59674f1-141a-4c7c-b724-de13cb99839c",
       "action": "UPDATE",
