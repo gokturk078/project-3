@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T12:02:35.860Z"
+    "lastUpdated": "2026-03-09T12:28:47.758Z"
   },
   "taxonomy": {
     "categories": [
@@ -5341,7 +5341,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -5350,7 +5350,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-27T08:18:27.162Z",
-      "updatedAt": "2026-02-27T08:18:27.162Z"
+      "updatedAt": "2026-03-09T12:28:47.758Z",
+      "jobTitle": null
     },
     {
       "personId": "e99b037f-445e-4bed-a838-eddf21fac638",
@@ -7408,6 +7409,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "613a23fd-cf7a-4ec8-adcc-1107d41ca46a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
+      "details": {
+        "before": {
+          "personId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
+          "baseKey": "SÜLEYMAN TATAR",
+          "fullName": "SÜLEYMAN TATAR",
+          "normalizedName": "SÜLEYMAN TATAR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:18:27.162Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:18:27.162Z",
+          "updatedAt": "2026-02-27T08:18:27.162Z"
+        },
+        "after": {
+          "personId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
+          "baseKey": "SÜLEYMAN TATAR",
+          "fullName": "SÜLEYMAN TATAR",
+          "normalizedName": "SÜLEYMAN TATAR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:18:27.162Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:18:27.162Z",
+          "updatedAt": "2026-03-09T12:28:47.758Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-09T12:28:47.758Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "5e398fa7-67d9-4ffa-b7d0-9543092a0d8a",
       "action": "UPDATE",
