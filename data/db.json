@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T11:30:26.715Z"
+    "lastUpdated": "2026-03-09T12:02:06.313Z"
   },
   "taxonomy": {
     "categories": [
@@ -6226,18 +6226,6 @@
       "updatedAt": "2026-03-09T08:22:24.132Z"
     },
     {
-      "id": "db4bfbe3-74a8-48e7-bc18-307894dfce72",
-      "personId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
-      "applicationNo": "122912/2026",
-      "profession": "inşaat işçisi",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-02-27",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "createdAt": "2026-02-27T08:19:25.823Z",
-      "updatedAt": "2026-03-09T10:39:13.471Z"
-    },
-    {
       "id": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
       "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
       "applicationNo": "122898/2026",
@@ -7420,6 +7408,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "f61c611e-ac92-4fa0-87c9-9eaf4f7b36d7",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "db4bfbe3-74a8-48e7-bc18-307894dfce72",
+      "details": {
+        "tracking": {
+          "id": "db4bfbe3-74a8-48e7-bc18-307894dfce72",
+          "personId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
+          "applicationNo": "122912/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-02-27",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-02-27T08:19:25.823Z",
+          "updatedAt": "2026-03-09T10:39:13.471Z"
+        }
+      },
+      "timestamp": "2026-03-09T12:02:06.313Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "6851e385-908c-42ff-9995-bfa7854292c7",
       "action": "UPDATE",
