@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T10:39:13.471Z"
+    "lastUpdated": "2026-03-09T11:29:13.217Z"
   },
   "taxonomy": {
     "categories": [
@@ -4576,7 +4576,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4585,7 +4585,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-23T09:44:31.369Z",
-      "updatedAt": "2026-01-23T09:44:31.369Z"
+      "updatedAt": "2026-03-09T11:29:13.217Z",
+      "jobTitle": null
     },
     {
       "personId": "2304b2b4-b005-4fdd-9a85-7b46a344cb60",
@@ -7415,6 +7416,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "bde3f094-76e5-4ed7-b660-50e86f003996",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "540a91e2-2d51-4521-b98d-3d61d79ea51e",
+      "details": {
+        "before": {
+          "personId": "540a91e2-2d51-4521-b98d-3d61d79ea51e",
+          "baseKey": "SEFA AKDENİZ",
+          "fullName": "SEFA AKDENİZ",
+          "normalizedName": "SEFA AKDENİZ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:44:31.369Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:44:31.369Z",
+          "updatedAt": "2026-01-23T09:44:31.369Z"
+        },
+        "after": {
+          "personId": "540a91e2-2d51-4521-b98d-3d61d79ea51e",
+          "baseKey": "SEFA AKDENİZ",
+          "fullName": "SEFA AKDENİZ",
+          "normalizedName": "SEFA AKDENİZ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:44:31.369Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:44:31.369Z",
+          "updatedAt": "2026-03-09T11:29:13.217Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-09T11:29:13.217Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "a02d4cc8-e085-4602-b7bf-a2d8a3026070",
       "action": "UPDATE",
