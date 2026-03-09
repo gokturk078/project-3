@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T08:22:14.887Z"
+    "lastUpdated": "2026-03-09T08:22:24.132Z"
   },
   "taxonomy": {
     "categories": [
@@ -6193,12 +6193,12 @@
       "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
       "applicationNo": "122944/2026",
       "profession": "KULE VİNÇ OPERATÖRÜ",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "2026-03-28",
       "contactPerson": "AYHAN DÖNER",
       "notes": "",
       "createdAt": "2026-02-26T07:33:08.014Z",
-      "updatedAt": "2026-03-02T11:33:50.352Z"
+      "updatedAt": "2026-03-09T08:22:24.132Z"
     },
     {
       "id": "db4bfbe3-74a8-48e7-bc18-307894dfce72",
@@ -7383,6 +7383,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "b5c13c71-612d-4ff3-bbd6-2a4dce91947b",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+      "details": {
+        "before": {
+          "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "applicationNo": "122944/2026",
+          "profession": "KULE VİNÇ OPERATÖRÜ",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "2026-03-28",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-02-26T07:33:08.014Z",
+          "updatedAt": "2026-03-02T11:33:50.352Z"
+        },
+        "after": {
+          "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "applicationNo": "122944/2026",
+          "profession": "KULE VİNÇ OPERATÖRÜ",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-03-28",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-02-26T07:33:08.014Z",
+          "updatedAt": "2026-03-09T08:22:24.132Z"
+        }
+      },
+      "timestamp": "2026-03-09T08:22:24.132Z",
+      "adminSession": "dba46ceb-1eeb-4da6-ad16-b21eda711eb4"
+    },
     {
       "id": "16a9f331-46fa-496e-b581-03d920f57ae0",
       "action": "DELETE",
