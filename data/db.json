@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-10T06:36:10.387Z"
+    "lastUpdated": "2026-03-10T06:36:26.287Z"
   },
   "taxonomy": {
     "categories": [
@@ -5098,7 +5098,7 @@
       "role": "FORMEN",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5107,7 +5107,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-29T15:14:32.630Z",
-      "updatedAt": "2026-01-29T15:14:32.630Z"
+      "updatedAt": "2026-03-10T06:36:26.287Z",
+      "jobTitle": null
     },
     {
       "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
@@ -7422,6 +7423,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "9904f1cc-7add-4b22-b151-d3503aa2dccc",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
+      "details": {
+        "before": {
+          "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
+          "baseKey": "ERHAN NERGİZ",
+          "fullName": "ERHAN NERGİZ",
+          "normalizedName": "ERHAN NERGİZ",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-29T15:14:32.630Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-29T15:14:32.630Z",
+          "updatedAt": "2026-01-29T15:14:32.630Z"
+        },
+        "after": {
+          "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
+          "baseKey": "ERHAN NERGİZ",
+          "fullName": "ERHAN NERGİZ",
+          "normalizedName": "ERHAN NERGİZ",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-29T15:14:32.630Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-29T15:14:32.630Z",
+          "updatedAt": "2026-03-10T06:36:26.287Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-10T06:36:26.287Z",
+      "adminSession": "e8fdac41-bfa1-4dd4-a20b-c1ac570cd211"
+    },
     {
       "id": "f6c02918-f7df-4d59-9a3f-976ea125da1b",
       "action": "UPDATE",
