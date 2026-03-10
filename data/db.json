@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-09T12:30:18.025Z"
+    "lastUpdated": "2026-03-10T06:36:10.387Z"
   },
   "taxonomy": {
     "categories": [
@@ -3877,7 +3877,7 @@
       "jobTitle": "116094/2025",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -3894,7 +3894,7 @@
         "contactPerson": "MURAT ÜYÜR"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-21T11:37:27.505Z"
+      "updatedAt": "2026-03-10T06:36:10.386Z"
     },
     {
       "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
@@ -7422,6 +7422,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "f6c02918-f7df-4d59-9a3f-976ea125da1b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+      "details": {
+        "before": {
+          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+          "baseKey": "HARUN DURDU",
+          "fullName": "HARUN DURDU",
+          "normalizedName": "HARUN DURDU",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "116094/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 14
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116094/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-21T11:37:27.505Z"
+        },
+        "after": {
+          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
+          "baseKey": "HARUN DURDU",
+          "fullName": "HARUN DURDU",
+          "normalizedName": "HARUN DURDU",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "116094/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 14
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116094/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-03-10T06:36:10.386Z"
+        }
+      },
+      "timestamp": "2026-03-10T06:36:10.386Z",
+      "adminSession": "e8fdac41-bfa1-4dd4-a20b-c1ac570cd211"
+    },
     {
       "id": "c4a9d746-9b3b-432d-8f76-0450439db47e",
       "action": "CREATE",
