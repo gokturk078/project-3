@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-10T06:36:26.287Z"
+    "lastUpdated": "2026-03-13T10:23:49.800Z"
   },
   "taxonomy": {
     "categories": [
@@ -6136,12 +6136,12 @@
       "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
       "applicationNo": "120469/2026",
       "profession": "FORMEN",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "2026-01-29",
       "contactPerson": "KAAN EREN ERKAN",
       "notes": "",
       "createdAt": "2026-01-29T14:19:29.185Z",
-      "updatedAt": "2026-02-20T09:31:20.392Z"
+      "updatedAt": "2026-03-13T10:23:49.800Z"
     },
     {
       "id": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
@@ -7423,6 +7423,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "5e82eeeb-b2f2-4345-b0de-27294fa73563",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "3e38a09a-582d-4172-bf77-e8130f5ad6d7",
+      "details": {
+        "before": {
+          "id": "3e38a09a-582d-4172-bf77-e8130f5ad6d7",
+          "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+          "applicationNo": "120469/2026",
+          "profession": "FORMEN",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "KAAN EREN ERKAN",
+          "notes": "",
+          "createdAt": "2026-01-29T14:19:29.185Z",
+          "updatedAt": "2026-02-20T09:31:20.392Z"
+        },
+        "after": {
+          "id": "3e38a09a-582d-4172-bf77-e8130f5ad6d7",
+          "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+          "applicationNo": "120469/2026",
+          "profession": "FORMEN",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "KAAN EREN ERKAN",
+          "notes": "",
+          "createdAt": "2026-01-29T14:19:29.185Z",
+          "updatedAt": "2026-03-13T10:23:49.800Z"
+        }
+      },
+      "timestamp": "2026-03-13T10:23:49.800Z",
+      "adminSession": "d9429226-c16f-4435-833a-0d4066109008"
+    },
     {
       "id": "9904f1cc-7add-4b22-b151-d3503aa2dccc",
       "action": "UPDATE",
