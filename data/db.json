@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-14T11:41:43.824Z"
+    "lastUpdated": "2026-03-14T11:42:11.598Z"
   },
   "taxonomy": {
     "categories": [
@@ -6220,12 +6220,12 @@
       "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
       "applicationNo": "122944/2026",
       "profession": "KULE VİNÇ OPERATÖRÜ",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "2026-03-28",
       "contactPerson": "AYHAN DÖNER",
       "notes": "",
       "createdAt": "2026-02-26T07:33:08.014Z",
-      "updatedAt": "2026-03-09T08:22:24.132Z"
+      "updatedAt": "2026-03-14T11:42:11.598Z"
     },
     {
       "id": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
@@ -7423,6 +7423,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "48e38fb4-da39-4590-a435-a4f050941d4a",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+      "details": {
+        "before": {
+          "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "applicationNo": "122944/2026",
+          "profession": "KULE VİNÇ OPERATÖRÜ",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-03-28",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-02-26T07:33:08.014Z",
+          "updatedAt": "2026-03-09T08:22:24.132Z"
+        },
+        "after": {
+          "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "applicationNo": "122944/2026",
+          "profession": "KULE VİNÇ OPERATÖRÜ",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-03-28",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-02-26T07:33:08.014Z",
+          "updatedAt": "2026-03-14T11:42:11.598Z"
+        }
+      },
+      "timestamp": "2026-03-14T11:42:11.598Z",
+      "adminSession": "4bf82694-f28b-4cac-8f0b-68b810ea8f6a"
+    },
     {
       "id": "eca0f87a-ec12-409a-9785-2f036322b89e",
       "action": "UPDATE",
