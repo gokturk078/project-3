@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-16T11:23:50.062Z"
+    "lastUpdated": "2026-03-16T11:24:04.831Z"
   },
   "taxonomy": {
     "categories": [
@@ -5212,27 +5212,6 @@
       "updatedAt": "2026-02-10T09:14:48.838Z"
     },
     {
-      "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
-      "baseKey": "MUSTAFA YILMAZ",
-      "fullName": "MUSTAFA YILMAZ",
-      "normalizedName": "MUSTAFA YILMAZ",
-      "category": "REPSAM",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-02-10T14:02:05.060Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-02-10T14:02:05.060Z",
-      "updatedAt": "2026-02-11T14:21:33.048Z",
-      "jobTitle": null
-    },
-    {
       "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
       "baseKey": "MUHAMMED FERHAT ÜSTÜNER",
       "fullName": "MUHAMMED FERHAT ÜSTÜNER",
@@ -7378,6 +7357,37 @@
     }
   ],
   "audit": [
+    {
+      "id": "9204eada-1e0e-4bdd-b25e-dc9f69cec831",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
+      "details": {
+        "person": {
+          "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
+          "baseKey": "MUSTAFA YILMAZ",
+          "fullName": "MUSTAFA YILMAZ",
+          "normalizedName": "MUSTAFA YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T14:02:05.060Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T14:02:05.060Z",
+          "updatedAt": "2026-02-11T14:21:33.048Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-16T11:24:04.831Z",
+      "adminSession": "ab85d7e9-17c5-4f17-b69c-0855d37dc363"
+    },
     {
       "id": "bc97752e-54bf-4678-9b02-6ba8cfd947bf",
       "action": "DELETE",
