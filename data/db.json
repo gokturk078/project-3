@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-16T11:23:23.149Z"
+    "lastUpdated": "2026-03-16T11:23:50.062Z"
   },
   "taxonomy": {
     "categories": [
@@ -5233,27 +5233,6 @@
       "jobTitle": null
     },
     {
-      "personId": "cce49799-7ddc-4281-ba13-02e895085903",
-      "baseKey": "EROL YILMAZ",
-      "fullName": "EROL YILMAZ",
-      "normalizedName": "EROL YILMAZ",
-      "category": "REPSAM",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-02-10T14:02:32.783Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-02-10T14:02:32.783Z",
-      "updatedAt": "2026-02-11T14:21:53.478Z",
-      "jobTitle": null
-    },
-    {
       "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
       "baseKey": "MUHAMMED FERHAT ÜSTÜNER",
       "fullName": "MUHAMMED FERHAT ÜSTÜNER",
@@ -7399,6 +7378,37 @@
     }
   ],
   "audit": [
+    {
+      "id": "bc97752e-54bf-4678-9b02-6ba8cfd947bf",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "cce49799-7ddc-4281-ba13-02e895085903",
+      "details": {
+        "person": {
+          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
+          "baseKey": "EROL YILMAZ",
+          "fullName": "EROL YILMAZ",
+          "normalizedName": "EROL YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T14:02:32.783Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T14:02:32.783Z",
+          "updatedAt": "2026-02-11T14:21:53.478Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-16T11:23:50.062Z",
+      "adminSession": "ab85d7e9-17c5-4f17-b69c-0855d37dc363"
+    },
     {
       "id": "9940fb02-a954-421b-86fd-3dacf1a20da7",
       "action": "DELETE",
