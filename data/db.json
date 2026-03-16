@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-14T11:42:41.420Z"
+    "lastUpdated": "2026-03-16T11:23:18.259Z"
   },
   "taxonomy": {
     "categories": [
@@ -6180,18 +6180,6 @@
       "updatedAt": "2026-03-14T11:42:41.420Z"
     },
     {
-      "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
-      "personId": "cce49799-7ddc-4281-ba13-02e895085903",
-      "applicationNo": "121503/2026",
-      "profession": "inşaat işçisi",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-02-10",
-      "contactPerson": "ERCAN İŞLEK",
-      "notes": "",
-      "createdAt": "2026-02-10T14:05:31.933Z",
-      "updatedAt": "2026-02-10T15:37:34.564Z"
-    },
-    {
       "id": "a855826c-a0f5-4c85-9962-cc391f4856f7",
       "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
       "applicationNo": "121508/2026",
@@ -7423,6 +7411,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "2ff5423b-96e5-4503-9b7b-b93f40e4effd",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
+      "details": {
+        "tracking": {
+          "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
+          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
+          "applicationNo": "121503/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-02-10T14:05:31.933Z",
+          "updatedAt": "2026-02-10T15:37:34.564Z"
+        }
+      },
+      "timestamp": "2026-03-16T11:23:18.259Z",
+      "adminSession": "ab85d7e9-17c5-4f17-b69c-0855d37dc363"
+    },
     {
       "id": "60257791-299f-4c16-8e57-4662d7af550a",
       "action": "UPDATE",
