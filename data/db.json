@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-17T06:31:16.811Z"
+    "lastUpdated": "2026-03-17T06:31:24.868Z"
   },
   "taxonomy": {
     "categories": [
@@ -6382,12 +6382,12 @@
       "personId": "5977c057-3d9e-494e-900d-21cfff97afa6",
       "applicationNo": "153471/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-03-06T08:17:53.602Z",
-      "updatedAt": "2026-03-09T12:02:28.552Z"
+      "updatedAt": "2026-03-17T06:31:24.868Z"
     },
     {
       "id": "eef53261-6bcb-450e-a823-9bcb15f84206",
@@ -7357,6 +7357,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "77c66dda-e1ef-4568-b644-635a43e71d7d",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "fdc438ca-97d0-4a40-8387-4fe853c83003",
+      "details": {
+        "before": {
+          "id": "fdc438ca-97d0-4a40-8387-4fe853c83003",
+          "personId": "5977c057-3d9e-494e-900d-21cfff97afa6",
+          "applicationNo": "153471/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-06T08:17:53.602Z",
+          "updatedAt": "2026-03-09T12:02:28.552Z"
+        },
+        "after": {
+          "id": "fdc438ca-97d0-4a40-8387-4fe853c83003",
+          "personId": "5977c057-3d9e-494e-900d-21cfff97afa6",
+          "applicationNo": "153471/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-06T08:17:53.602Z",
+          "updatedAt": "2026-03-17T06:31:24.868Z"
+        }
+      },
+      "timestamp": "2026-03-17T06:31:24.868Z",
+      "adminSession": "3dff596a-54a2-4882-a01a-1dfeb6f63394"
+    },
     {
       "id": "4cda4716-6ece-4cfc-885e-09d2e1bc9277",
       "action": "UPDATE",
