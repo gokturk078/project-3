@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-17T06:31:24.868Z"
+    "lastUpdated": "2026-03-17T12:35:47.316Z"
   },
   "taxonomy": {
     "categories": [
@@ -5671,6 +5671,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-09T09:35:34.127Z",
       "updatedAt": "2026-03-09T09:35:34.127Z"
+    },
+    {
+      "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+      "baseKey": "BAKİ CİVELEK",
+      "fullName": "BAKİ CİVELEK",
+      "normalizedName": "BAKİ CİVELEK",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-17T12:35:47.315Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-17T12:35:47.315Z",
+      "updatedAt": "2026-03-17T12:35:47.315Z"
     }
   ],
   "leaves": [
@@ -7357,6 +7377,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "09b27455-7481-4111-b386-1c1b47d1ded6",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+      "details": {
+        "person": {
+          "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+          "baseKey": "BAKİ CİVELEK",
+          "fullName": "BAKİ CİVELEK",
+          "normalizedName": "BAKİ CİVELEK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:35:47.315Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:35:47.315Z",
+          "updatedAt": "2026-03-17T12:35:47.315Z"
+        }
+      },
+      "timestamp": "2026-03-17T12:35:47.316Z",
+      "adminSession": "3dff596a-54a2-4882-a01a-1dfeb6f63394"
+    },
     {
       "id": "77c66dda-e1ef-4568-b644-635a43e71d7d",
       "action": "UPDATE",
