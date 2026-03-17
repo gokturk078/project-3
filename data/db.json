@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-16T11:24:04.831Z"
+    "lastUpdated": "2026-03-17T06:31:08.654Z"
   },
   "taxonomy": {
     "categories": [
@@ -6406,12 +6406,12 @@
       "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
       "applicationNo": "153486/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-03-06T08:19:56.669Z",
-      "updatedAt": "2026-03-09T12:02:35.860Z"
+      "updatedAt": "2026-03-17T06:31:08.654Z"
     },
     {
       "id": "88ae077f-96b9-403e-a72b-e512a51cb936",
@@ -7357,6 +7357,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "f9b51f81-3199-4633-a04b-d11f27d6cd6d",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "31761183-f605-4ad9-ab92-5cf809316e10",
+      "details": {
+        "before": {
+          "id": "31761183-f605-4ad9-ab92-5cf809316e10",
+          "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
+          "applicationNo": "153486/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-06T08:19:56.669Z",
+          "updatedAt": "2026-03-09T12:02:35.860Z"
+        },
+        "after": {
+          "id": "31761183-f605-4ad9-ab92-5cf809316e10",
+          "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
+          "applicationNo": "153486/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-06T08:19:56.669Z",
+          "updatedAt": "2026-03-17T06:31:08.654Z"
+        }
+      },
+      "timestamp": "2026-03-17T06:31:08.654Z",
+      "adminSession": "3dff596a-54a2-4882-a01a-1dfeb6f63394"
+    },
     {
       "id": "9204eada-1e0e-4bdd-b25e-dc9f69cec831",
       "action": "DELETE",
