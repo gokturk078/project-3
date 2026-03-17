@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-17T12:36:22.816Z"
+    "lastUpdated": "2026-03-17T12:36:42.265Z"
   },
   "taxonomy": {
     "categories": [
@@ -5711,6 +5711,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-17T12:36:22.816Z",
       "updatedAt": "2026-03-17T12:36:22.816Z"
+    },
+    {
+      "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
+      "baseKey": "MEHMET KESKİN",
+      "fullName": "MEHMET KESKİN",
+      "normalizedName": "MEHMET KESKİN",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-17T12:36:42.265Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-17T12:36:42.265Z",
+      "updatedAt": "2026-03-17T12:36:42.265Z"
     }
   ],
   "leaves": [
@@ -7397,6 +7417,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "79527fde-3a5e-447d-a2da-2b8a9704efdb",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "f971840a-b753-49e1-8ba3-1641e8924691",
+      "details": {
+        "person": {
+          "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
+          "baseKey": "MEHMET KESKİN",
+          "fullName": "MEHMET KESKİN",
+          "normalizedName": "MEHMET KESKİN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:36:42.265Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:36:42.265Z",
+          "updatedAt": "2026-03-17T12:36:42.265Z"
+        }
+      },
+      "timestamp": "2026-03-17T12:36:42.265Z",
+      "adminSession": "3dff596a-54a2-4882-a01a-1dfeb6f63394"
+    },
     {
       "id": "9a564a32-c263-4cba-b296-f2b7abdcd501",
       "action": "CREATE",
