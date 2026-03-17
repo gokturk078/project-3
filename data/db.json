@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-17T12:36:42.265Z"
+    "lastUpdated": "2026-03-17T15:02:19.618Z"
   },
   "taxonomy": {
     "categories": [
@@ -5731,6 +5731,27 @@
       "mergedFrom": [],
       "createdAt": "2026-03-17T12:36:42.265Z",
       "updatedAt": "2026-03-17T12:36:42.265Z"
+    },
+    {
+      "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+      "baseKey": "MÜNİR AYDIN ÇOLAK",
+      "fullName": "MÜNİR AYDIN ÇOLAK",
+      "normalizedName": "MÜNİR AYDIN ÇOLAK",
+      "category": "REPSAM",
+      "role": "İSG",
+      "needsReview": true,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-17T15:00:47.185Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-17T15:00:47.185Z",
+      "updatedAt": "2026-03-17T15:02:19.617Z",
+      "jobTitle": null
     }
   ],
   "leaves": [
@@ -7417,6 +7438,87 @@
     }
   ],
   "audit": [
+    {
+      "id": "30023803-e27f-43bd-94fd-4c2cc5a1bc73",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+      "details": {
+        "before": {
+          "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+          "baseKey": "MÜNİR AYDIN ÇOLAK",
+          "fullName": "MÜNİR AYDIN ÇOLAK",
+          "normalizedName": "MÜNİR AYDIN ÇOLAK",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T15:00:47.185Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T15:00:47.185Z",
+          "updatedAt": "2026-03-17T15:00:47.185Z"
+        },
+        "after": {
+          "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+          "baseKey": "MÜNİR AYDIN ÇOLAK",
+          "fullName": "MÜNİR AYDIN ÇOLAK",
+          "normalizedName": "MÜNİR AYDIN ÇOLAK",
+          "category": "REPSAM",
+          "role": "İSG",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T15:00:47.185Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T15:00:47.185Z",
+          "updatedAt": "2026-03-17T15:02:19.617Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-17T15:02:19.617Z",
+      "adminSession": "aa937cee-7010-4b2e-ba00-3e16b4c172c2"
+    },
+    {
+      "id": "9d545a7f-bf3b-4c59-b926-ad6394e37689",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+      "details": {
+        "person": {
+          "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+          "baseKey": "MÜNİR AYDIN ÇOLAK",
+          "fullName": "MÜNİR AYDIN ÇOLAK",
+          "normalizedName": "MÜNİR AYDIN ÇOLAK",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T15:00:47.185Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T15:00:47.185Z",
+          "updatedAt": "2026-03-17T15:00:47.185Z"
+        }
+      },
+      "timestamp": "2026-03-17T15:00:47.185Z",
+      "adminSession": "3dff596a-54a2-4882-a01a-1dfeb6f63394"
+    },
     {
       "id": "79527fde-3a5e-447d-a2da-2b8a9704efdb",
       "action": "CREATE",
