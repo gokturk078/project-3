@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-17T15:02:19.618Z"
+    "lastUpdated": "2026-03-17T15:16:40.914Z"
   },
   "taxonomy": {
     "categories": [
@@ -5752,6 +5752,26 @@
       "createdAt": "2026-03-17T15:00:47.185Z",
       "updatedAt": "2026-03-17T15:02:19.617Z",
       "jobTitle": null
+    },
+    {
+      "personId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+      "baseKey": "SEVİM KÜÇÜKBİNGÖL",
+      "fullName": "SEVİM KÜÇÜKBİNGÖL",
+      "normalizedName": "SEVİM KÜÇÜKBİNGÖL",
+      "category": "REPSAM",
+      "role": "OFİS PERSONELİ",
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-17T15:16:40.913Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-17T15:16:40.913Z",
+      "updatedAt": "2026-03-17T15:16:40.913Z"
     }
   ],
   "leaves": [
@@ -7438,6 +7458,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "26b0ffc0-5012-4fc2-9030-c4b78fd58c66",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+      "details": {
+        "person": {
+          "personId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+          "baseKey": "SEVİM KÜÇÜKBİNGÖL",
+          "fullName": "SEVİM KÜÇÜKBİNGÖL",
+          "normalizedName": "SEVİM KÜÇÜKBİNGÖL",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T15:16:40.913Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T15:16:40.913Z",
+          "updatedAt": "2026-03-17T15:16:40.913Z"
+        }
+      },
+      "timestamp": "2026-03-17T15:16:40.914Z",
+      "adminSession": "aa937cee-7010-4b2e-ba00-3e16b4c172c2"
+    },
     {
       "id": "30023803-e27f-43bd-94fd-4c2cc5a1bc73",
       "action": "UPDATE",
