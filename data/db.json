@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-17T15:16:40.914Z"
+    "lastUpdated": "2026-03-17T15:17:37.794Z"
   },
   "taxonomy": {
     "categories": [
@@ -6537,6 +6537,18 @@
       "notes": "",
       "createdAt": "2026-03-09T09:36:31.091Z",
       "updatedAt": "2026-03-09T09:36:31.091Z"
+    },
+    {
+      "id": "1685fc27-bc29-4a72-ac6f-a5c9682cb59a",
+      "personId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+      "applicationNo": "124679/2026",
+      "profession": "OFİS PERSONELİ",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-03-17",
+      "contactPerson": "TALİP BEY",
+      "notes": "",
+      "createdAt": "2026-03-17T15:17:37.794Z",
+      "updatedAt": "2026-03-17T15:17:37.794Z"
     }
   ],
   "departures": [
@@ -7458,6 +7470,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "de0fc77e-ca77-4d5a-b7f6-c05a9887405e",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "1685fc27-bc29-4a72-ac6f-a5c9682cb59a",
+      "details": {
+        "tracking": {
+          "id": "1685fc27-bc29-4a72-ac6f-a5c9682cb59a",
+          "personId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+          "applicationNo": "124679/2026",
+          "profession": "OFİS PERSONELİ",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-17",
+          "contactPerson": "TALİP BEY",
+          "notes": "",
+          "createdAt": "2026-03-17T15:17:37.794Z",
+          "updatedAt": "2026-03-17T15:17:37.794Z"
+        }
+      },
+      "timestamp": "2026-03-17T15:17:37.794Z",
+      "adminSession": "aa937cee-7010-4b2e-ba00-3e16b4c172c2"
+    },
     {
       "id": "26b0ffc0-5012-4fc2-9030-c4b78fd58c66",
       "action": "CREATE",
