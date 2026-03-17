@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-17T12:35:47.316Z"
+    "lastUpdated": "2026-03-17T12:36:22.816Z"
   },
   "taxonomy": {
     "categories": [
@@ -5691,6 +5691,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-17T12:35:47.315Z",
       "updatedAt": "2026-03-17T12:35:47.315Z"
+    },
+    {
+      "personId": "9ceef985-955b-48a0-8466-aefc743db103",
+      "baseKey": "SABRİ GÜLEKEN",
+      "fullName": "SABRİ GÜLEKEN",
+      "normalizedName": "SABRİ GÜLEKEN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-17T12:36:22.816Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-17T12:36:22.816Z",
+      "updatedAt": "2026-03-17T12:36:22.816Z"
     }
   ],
   "leaves": [
@@ -7377,6 +7397,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "9a564a32-c263-4cba-b296-f2b7abdcd501",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "9ceef985-955b-48a0-8466-aefc743db103",
+      "details": {
+        "person": {
+          "personId": "9ceef985-955b-48a0-8466-aefc743db103",
+          "baseKey": "SABRİ GÜLEKEN",
+          "fullName": "SABRİ GÜLEKEN",
+          "normalizedName": "SABRİ GÜLEKEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:36:22.816Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:36:22.816Z",
+          "updatedAt": "2026-03-17T12:36:22.816Z"
+        }
+      },
+      "timestamp": "2026-03-17T12:36:22.816Z",
+      "adminSession": "3dff596a-54a2-4882-a01a-1dfeb6f63394"
+    },
     {
       "id": "09b27455-7481-4111-b386-1c1b47d1ded6",
       "action": "CREATE",
