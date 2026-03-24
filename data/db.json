@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T07:21:47.942Z"
+    "lastUpdated": "2026-03-24T07:22:05.375Z"
   },
   "taxonomy": {
     "categories": [
@@ -7513,7 +7513,7 @@
     {
       "id": "7314a5dc-98c8-4a6f-8c23-2051a68deb7a",
       "personId": null,
-      "fullName": "izzet iğde",
+      "fullName": "İZZET İĞDE",
       "category": "NEŞAT",
       "job": "",
       "entryDate": "2025-10-10",
@@ -7521,7 +7521,7 @@
       "totalDays": 165,
       "exitMonth": "2026-03",
       "createdAt": "2026-03-24T07:20:47.665Z",
-      "updatedAt": "2026-03-24T07:20:47.665Z"
+      "updatedAt": "2026-03-24T07:22:05.375Z"
     },
     {
       "id": "65e73003-f222-4b15-ad5b-5024378643a1",
@@ -7570,6 +7570,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "f90d3d58-a1e3-458d-96a7-88dbc3ae12d6",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "7314a5dc-98c8-4a6f-8c23-2051a68deb7a",
+      "details": {
+        "before": {
+          "id": "7314a5dc-98c8-4a6f-8c23-2051a68deb7a",
+          "personId": null,
+          "fullName": "izzet iğde",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-24",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:20:47.665Z",
+          "updatedAt": "2026-03-24T07:20:47.665Z"
+        },
+        "after": {
+          "id": "7314a5dc-98c8-4a6f-8c23-2051a68deb7a",
+          "personId": null,
+          "fullName": "İZZET İĞDE",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-24",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:20:47.665Z",
+          "updatedAt": "2026-03-24T07:22:05.375Z"
+        }
+      },
+      "timestamp": "2026-03-24T07:22:05.375Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "3eb430eb-f097-4e1a-bf71-2ac15a3e0865",
       "action": "CREATE",
