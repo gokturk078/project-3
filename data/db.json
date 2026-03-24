@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T11:40:07.671Z"
+    "lastUpdated": "2026-03-24T11:40:39.741Z"
   },
   "taxonomy": {
     "categories": [
@@ -6722,6 +6722,18 @@
       "notes": "",
       "createdAt": "2026-03-24T11:40:07.671Z",
       "updatedAt": "2026-03-24T11:40:07.671Z"
+    },
+    {
+      "id": "18603a9e-67d7-4015-a35d-7bd4e978f7da",
+      "personId": "1285cfa6-7756-4c32-8eb2-2feef8d033e2",
+      "applicationNo": "125130/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "2026-03-24",
+      "contactPerson": "",
+      "notes": "",
+      "createdAt": "2026-03-24T11:40:39.741Z",
+      "updatedAt": "2026-03-24T11:40:39.741Z"
     }
   ],
   "departures": [
@@ -7695,6 +7707,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "47e46f11-b3bb-403f-8db9-0edbb915c613",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "18603a9e-67d7-4015-a35d-7bd4e978f7da",
+      "details": {
+        "tracking": {
+          "id": "18603a9e-67d7-4015-a35d-7bd4e978f7da",
+          "personId": "1285cfa6-7756-4c32-8eb2-2feef8d033e2",
+          "applicationNo": "125130/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-24",
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-03-24T11:40:39.741Z",
+          "updatedAt": "2026-03-24T11:40:39.741Z"
+        }
+      },
+      "timestamp": "2026-03-24T11:40:39.741Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "c324fbe7-6a33-4dca-a9e1-323c9ab9c034",
       "action": "CREATE",
