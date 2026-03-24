@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T11:29:51.231Z"
+    "lastUpdated": "2026-03-24T11:30:12.144Z"
   },
   "taxonomy": {
     "categories": [
@@ -5852,6 +5852,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-24T11:29:51.230Z",
       "updatedAt": "2026-03-24T11:29:51.230Z"
+    },
+    {
+      "personId": "9e622566-98ad-4d28-bcdc-0d04b056892c",
+      "baseKey": "MEHMET AYDOĞAN",
+      "fullName": "MEHMET AYDOĞAN",
+      "normalizedName": "MEHMET AYDOĞAN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-24T11:30:12.144Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-24T11:30:12.144Z",
+      "updatedAt": "2026-03-24T11:30:12.144Z"
     }
   ],
   "leaves": [
@@ -7650,6 +7670,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "2a23064c-0eb8-427b-a944-8178d2210aff",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "9e622566-98ad-4d28-bcdc-0d04b056892c",
+      "details": {
+        "person": {
+          "personId": "9e622566-98ad-4d28-bcdc-0d04b056892c",
+          "baseKey": "MEHMET AYDOĞAN",
+          "fullName": "MEHMET AYDOĞAN",
+          "normalizedName": "MEHMET AYDOĞAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:30:12.144Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:30:12.144Z",
+          "updatedAt": "2026-03-24T11:30:12.144Z"
+        }
+      },
+      "timestamp": "2026-03-24T11:30:12.144Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "4dd8a95d-512f-45f0-aa02-0c360a15b332",
       "action": "CREATE",
