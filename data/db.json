@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T11:29:13.582Z"
+    "lastUpdated": "2026-03-24T11:29:30.964Z"
   },
   "taxonomy": {
     "categories": [
@@ -5812,6 +5812,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-24T11:29:13.582Z",
       "updatedAt": "2026-03-24T11:29:13.582Z"
+    },
+    {
+      "personId": "bd01d5b7-e367-4ca6-9a75-5ed93bc42bc6",
+      "baseKey": "MEHMET KAYA",
+      "fullName": "MEHMET KAYA",
+      "normalizedName": "MEHMET KAYA",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-24T11:29:30.964Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-24T11:29:30.964Z",
+      "updatedAt": "2026-03-24T11:29:30.964Z"
     }
   ],
   "leaves": [
@@ -7610,6 +7630,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "7891b256-1e60-4955-adb7-8d7e95e1a593",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "bd01d5b7-e367-4ca6-9a75-5ed93bc42bc6",
+      "details": {
+        "person": {
+          "personId": "bd01d5b7-e367-4ca6-9a75-5ed93bc42bc6",
+          "baseKey": "MEHMET KAYA",
+          "fullName": "MEHMET KAYA",
+          "normalizedName": "MEHMET KAYA",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:29:30.964Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:29:30.964Z",
+          "updatedAt": "2026-03-24T11:29:30.964Z"
+        }
+      },
+      "timestamp": "2026-03-24T11:29:30.964Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "0ad1ddea-dfda-4bee-a0eb-cada23b98242",
       "action": "CREATE",
