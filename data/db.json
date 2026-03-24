@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T07:22:05.375Z"
+    "lastUpdated": "2026-03-24T07:22:22.059Z"
   },
   "taxonomy": {
     "categories": [
@@ -7526,7 +7526,7 @@
     {
       "id": "65e73003-f222-4b15-ad5b-5024378643a1",
       "personId": null,
-      "fullName": "ali aksoy",
+      "fullName": "ALİ AKSOY",
       "category": "NEŞAT",
       "job": "",
       "entryDate": "2025-10-10",
@@ -7534,7 +7534,7 @@
       "totalDays": 165,
       "exitMonth": "2026-03",
       "createdAt": "2026-03-24T07:21:15.388Z",
-      "updatedAt": "2026-03-24T07:21:15.388Z"
+      "updatedAt": "2026-03-24T07:22:22.059Z"
     },
     {
       "id": "a86a1d57-c9f5-4569-b056-8df6d261727f",
@@ -7570,6 +7570,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "2b0781ed-c045-435b-b2f2-9da71c1d281d",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "65e73003-f222-4b15-ad5b-5024378643a1",
+      "details": {
+        "before": {
+          "id": "65e73003-f222-4b15-ad5b-5024378643a1",
+          "personId": null,
+          "fullName": "ali aksoy",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-24",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:21:15.388Z",
+          "updatedAt": "2026-03-24T07:21:15.388Z"
+        },
+        "after": {
+          "id": "65e73003-f222-4b15-ad5b-5024378643a1",
+          "personId": null,
+          "fullName": "ALİ AKSOY",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-24",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:21:15.388Z",
+          "updatedAt": "2026-03-24T07:22:22.059Z"
+        }
+      },
+      "timestamp": "2026-03-24T07:22:22.059Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "f90d3d58-a1e3-458d-96a7-88dbc3ae12d6",
       "action": "UPDATE",
