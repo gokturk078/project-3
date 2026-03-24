@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-17T15:21:28.529Z"
+    "lastUpdated": "2026-03-24T07:18:30.643Z"
   },
   "taxonomy": {
     "categories": [
@@ -1826,7 +1826,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -1835,7 +1835,7 @@
       "mergedFrom": [],
       "personId": "bb8afefe-3e7c-45d2-b99d-8c0c227f12fe",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-03-24T07:18:30.643Z"
     },
     {
       "fullName": "İSA YILMAZ",
@@ -7518,6 +7518,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "49a47277-25a9-4b05-a783-eea252cd82bf",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "bb8afefe-3e7c-45d2-b99d-8c0c227f12fe",
+      "details": {
+        "before": {
+          "fullName": "HİCABİ KOSKAR",
+          "normalizedName": "HICABI KOSKAR",
+          "baseKey": "HICABI KOSKAR",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 26
+          },
+          "mergedFrom": [],
+          "personId": "bb8afefe-3e7c-45d2-b99d-8c0c227f12fe",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "HİCABİ KOSKAR",
+          "normalizedName": "HICABI KOSKAR",
+          "baseKey": "HICABI KOSKAR",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 26
+          },
+          "mergedFrom": [],
+          "personId": "bb8afefe-3e7c-45d2-b99d-8c0c227f12fe",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-03-24T07:18:30.643Z"
+        }
+      },
+      "timestamp": "2026-03-24T07:18:30.643Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "5ed2d94c-6601-4fa7-803c-1b56cd3590bf",
       "action": "CREATE",
