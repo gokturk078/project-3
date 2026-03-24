@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T07:22:48.251Z"
+    "lastUpdated": "2026-03-24T07:22:57.793Z"
   },
   "taxonomy": {
     "categories": [
@@ -7487,7 +7487,7 @@
     {
       "id": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
       "personId": null,
-      "fullName": "SÜLEYMAN TATR",
+      "fullName": "SÜLEYMAN TATAR",
       "category": "REPSAM",
       "job": "BAŞVURU İPTAL",
       "entryDate": "2026-03-03",
@@ -7495,7 +7495,7 @@
       "totalDays": 6,
       "exitMonth": "2026-03",
       "createdAt": "2026-03-09T12:30:18.025Z",
-      "updatedAt": "2026-03-09T12:30:18.025Z"
+      "updatedAt": "2026-03-24T07:22:57.793Z"
     },
     {
       "id": "9262f3c4-e429-45c5-a59a-da50fe8c61a8",
@@ -7570,6 +7570,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "bb869125-3d55-4f94-9451-5a60a0be5982",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+      "details": {
+        "before": {
+          "id": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+          "personId": null,
+          "fullName": "SÜLEYMAN TATR",
+          "category": "REPSAM",
+          "job": "BAŞVURU İPTAL",
+          "entryDate": "2026-03-03",
+          "exitDate": "2026-03-09",
+          "totalDays": 6,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-09T12:30:18.025Z",
+          "updatedAt": "2026-03-09T12:30:18.025Z"
+        },
+        "after": {
+          "id": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+          "personId": null,
+          "fullName": "SÜLEYMAN TATAR",
+          "category": "REPSAM",
+          "job": "BAŞVURU İPTAL",
+          "entryDate": "2026-03-03",
+          "exitDate": "2026-03-09",
+          "totalDays": 6,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-09T12:30:18.025Z",
+          "updatedAt": "2026-03-24T07:22:57.793Z"
+        }
+      },
+      "timestamp": "2026-03-24T07:22:57.793Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "4e4c5e25-d400-4852-a35d-8fb9791acfef",
       "action": "UPDATE",
