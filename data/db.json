@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T07:22:22.059Z"
+    "lastUpdated": "2026-03-24T07:22:48.251Z"
   },
   "taxonomy": {
     "categories": [
@@ -7539,15 +7539,15 @@
     {
       "id": "a86a1d57-c9f5-4569-b056-8df6d261727f",
       "personId": null,
-      "fullName": "özgür aksoy",
-      "category": null,
+      "fullName": "ÖZGÜR AKSOY",
+      "category": "",
       "job": "",
       "entryDate": "2025-10-10",
       "exitDate": "2026-03-24",
       "totalDays": 165,
       "exitMonth": "2026-03",
       "createdAt": "2026-03-24T07:21:47.942Z",
-      "updatedAt": "2026-03-24T07:21:47.942Z"
+      "updatedAt": "2026-03-24T07:22:48.251Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7570,6 +7570,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "4e4c5e25-d400-4852-a35d-8fb9791acfef",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "a86a1d57-c9f5-4569-b056-8df6d261727f",
+      "details": {
+        "before": {
+          "id": "a86a1d57-c9f5-4569-b056-8df6d261727f",
+          "personId": null,
+          "fullName": "özgür aksoy",
+          "category": null,
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-24",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:21:47.942Z",
+          "updatedAt": "2026-03-24T07:21:47.942Z"
+        },
+        "after": {
+          "id": "a86a1d57-c9f5-4569-b056-8df6d261727f",
+          "personId": null,
+          "fullName": "ÖZGÜR AKSOY",
+          "category": "",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-24",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:21:47.942Z",
+          "updatedAt": "2026-03-24T07:22:48.251Z"
+        }
+      },
+      "timestamp": "2026-03-24T07:22:48.251Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "2b0781ed-c045-435b-b2f2-9da71c1d281d",
       "action": "UPDATE",
