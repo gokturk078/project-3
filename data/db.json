@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T11:41:29.411Z"
+    "lastUpdated": "2026-03-24T12:00:31.443Z"
   },
   "taxonomy": {
     "categories": [
@@ -6746,6 +6746,18 @@
       "notes": "",
       "createdAt": "2026-03-24T11:41:29.411Z",
       "updatedAt": "2026-03-24T11:41:29.411Z"
+    },
+    {
+      "id": "2e629985-e8aa-42ed-b2fd-837aabf89e3c",
+      "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
+      "applicationNo": "120032",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-03-24T12:00:31.442Z",
+      "updatedAt": "2026-03-24T12:00:31.442Z"
     }
   ],
   "departures": [
@@ -7719,6 +7731,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "f14f70b7-6051-4f11-8276-aec66755de49",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "2e629985-e8aa-42ed-b2fd-837aabf89e3c",
+      "details": {
+        "tracking": {
+          "id": "2e629985-e8aa-42ed-b2fd-837aabf89e3c",
+          "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
+          "applicationNo": "120032",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-03-24T12:00:31.442Z",
+          "updatedAt": "2026-03-24T12:00:31.442Z"
+        }
+      },
+      "timestamp": "2026-03-24T12:00:31.443Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "87a74326-a2d8-469d-ab9b-3d3915ee7767",
       "action": "CREATE",
