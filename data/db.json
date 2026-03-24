@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T11:28:39.714Z"
+    "lastUpdated": "2026-03-24T11:29:13.582Z"
   },
   "taxonomy": {
     "categories": [
@@ -5792,6 +5792,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-24T11:28:39.714Z",
       "updatedAt": "2026-03-24T11:28:39.714Z"
+    },
+    {
+      "personId": "1285cfa6-7756-4c32-8eb2-2feef8d033e2",
+      "baseKey": "MAHMUT KUTLUCA",
+      "fullName": "MAHMUT KUTLUCA",
+      "normalizedName": "MAHMUT KUTLUCA",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-24T11:29:13.582Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-24T11:29:13.582Z",
+      "updatedAt": "2026-03-24T11:29:13.582Z"
     }
   ],
   "leaves": [
@@ -7590,6 +7610,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "0ad1ddea-dfda-4bee-a0eb-cada23b98242",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "1285cfa6-7756-4c32-8eb2-2feef8d033e2",
+      "details": {
+        "person": {
+          "personId": "1285cfa6-7756-4c32-8eb2-2feef8d033e2",
+          "baseKey": "MAHMUT KUTLUCA",
+          "fullName": "MAHMUT KUTLUCA",
+          "normalizedName": "MAHMUT KUTLUCA",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:29:13.582Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:29:13.582Z",
+          "updatedAt": "2026-03-24T11:29:13.582Z"
+        }
+      },
+      "timestamp": "2026-03-24T11:29:13.582Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "e953b9c9-2870-4672-9c9c-add87494769e",
       "action": "CREATE",
