@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T07:20:47.666Z"
+    "lastUpdated": "2026-03-24T07:21:15.388Z"
   },
   "taxonomy": {
     "categories": [
@@ -7522,6 +7522,19 @@
       "exitMonth": "2026-03",
       "createdAt": "2026-03-24T07:20:47.665Z",
       "updatedAt": "2026-03-24T07:20:47.665Z"
+    },
+    {
+      "id": "65e73003-f222-4b15-ad5b-5024378643a1",
+      "personId": null,
+      "fullName": "ali aksoy",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2025-10-10",
+      "exitDate": "2026-03-24",
+      "totalDays": 165,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-03-24T07:21:15.388Z",
+      "updatedAt": "2026-03-24T07:21:15.388Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7544,6 +7557,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "f3a54aec-c5a8-43a6-853d-e606089f85da",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "65e73003-f222-4b15-ad5b-5024378643a1",
+      "details": {
+        "departure": {
+          "id": "65e73003-f222-4b15-ad5b-5024378643a1",
+          "personId": null,
+          "fullName": "ali aksoy",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-24",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:21:15.388Z",
+          "updatedAt": "2026-03-24T07:21:15.388Z"
+        }
+      },
+      "timestamp": "2026-03-24T07:21:15.388Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "596a0c98-9d8e-4c99-8879-5620e6fc42eb",
       "action": "CREATE",
