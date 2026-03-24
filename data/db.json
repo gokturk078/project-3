@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T07:19:06.357Z"
+    "lastUpdated": "2026-03-24T07:19:19.928Z"
   },
   "taxonomy": {
     "categories": [
@@ -3566,7 +3566,7 @@
       "jobTitle": "inşaat işçisi",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "CAPRA",
@@ -3575,7 +3575,7 @@
       "mergedFrom": [],
       "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-06T12:46:35.475Z"
+      "updatedAt": "2026-03-24T07:19:19.928Z"
     },
     {
       "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
@@ -7518,6 +7518,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "d7072d75-be01-4666-b261-d07f47e70ce2",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
+      "details": {
+        "before": {
+          "fullName": "İZZET İĞDE",
+          "normalizedName": "IZZET IGDE",
+          "baseKey": "IZZET IGDE",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": "inşaat işçisi",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 6
+          },
+          "mergedFrom": [],
+          "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-06T12:46:35.475Z"
+        },
+        "after": {
+          "fullName": "İZZET İĞDE",
+          "normalizedName": "IZZET IGDE",
+          "baseKey": "IZZET IGDE",
+          "category": "CAPRA",
+          "role": null,
+          "jobTitle": "inşaat işçisi",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "CAPRA",
+            "row": 6
+          },
+          "mergedFrom": [],
+          "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-03-24T07:19:19.928Z"
+        }
+      },
+      "timestamp": "2026-03-24T07:19:19.928Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "9912b0fe-6e03-4343-a21c-27ada9582f70",
       "action": "UPDATE",
