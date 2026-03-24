@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T11:31:30.120Z"
+    "lastUpdated": "2026-03-24T11:31:40.445Z"
   },
   "taxonomy": {
     "categories": [
@@ -6344,12 +6344,12 @@
       "personId": "8c97aeb9-2649-450e-bf67-63cf5e5272ea",
       "applicationNo": "150046/2026",
       "profession": "NEŞAT",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-02-13T13:35:38.306Z",
-      "updatedAt": "2026-02-18T14:48:56.335Z"
+      "updatedAt": "2026-03-24T11:31:40.445Z"
     },
     {
       "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
@@ -7671,6 +7671,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "35cfe251-7f43-4db4-afa2-f92fe57228b2",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "777c9c10-6a5d-4e06-ab98-cb95c24a6490",
+      "details": {
+        "before": {
+          "id": "777c9c10-6a5d-4e06-ab98-cb95c24a6490",
+          "personId": "8c97aeb9-2649-450e-bf67-63cf5e5272ea",
+          "applicationNo": "150046/2026",
+          "profession": "NEŞAT",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-13T13:35:38.306Z",
+          "updatedAt": "2026-02-18T14:48:56.335Z"
+        },
+        "after": {
+          "id": "777c9c10-6a5d-4e06-ab98-cb95c24a6490",
+          "personId": "8c97aeb9-2649-450e-bf67-63cf5e5272ea",
+          "applicationNo": "150046/2026",
+          "profession": "NEŞAT",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-02-13T13:35:38.306Z",
+          "updatedAt": "2026-03-24T11:31:40.445Z"
+        }
+      },
+      "timestamp": "2026-03-24T11:31:40.445Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "7998459b-cf15-4cbd-b71c-eca907d3c8ce",
       "action": "UPDATE",
