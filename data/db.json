@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T07:22:57.793Z"
+    "lastUpdated": "2026-03-24T11:28:39.714Z"
   },
   "taxonomy": {
     "categories": [
@@ -5772,6 +5772,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-17T15:16:40.913Z",
       "updatedAt": "2026-03-17T15:16:40.913Z"
+    },
+    {
+      "personId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
+      "baseKey": "MUSTAFA KUŞ",
+      "fullName": "MUSTAFA KUŞ",
+      "normalizedName": "MUSTAFA KUŞ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-24T11:28:39.714Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-24T11:28:39.714Z",
+      "updatedAt": "2026-03-24T11:28:39.714Z"
     }
   ],
   "leaves": [
@@ -7570,6 +7590,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e953b9c9-2870-4672-9c9c-add87494769e",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
+      "details": {
+        "person": {
+          "personId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
+          "baseKey": "MUSTAFA KUŞ",
+          "fullName": "MUSTAFA KUŞ",
+          "normalizedName": "MUSTAFA KUŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:28:39.714Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:28:39.714Z",
+          "updatedAt": "2026-03-24T11:28:39.714Z"
+        }
+      },
+      "timestamp": "2026-03-24T11:28:39.714Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "bb869125-3d55-4f94-9451-5a60a0be5982",
       "action": "UPDATE",
