@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T11:29:30.964Z"
+    "lastUpdated": "2026-03-24T11:29:51.231Z"
   },
   "taxonomy": {
     "categories": [
@@ -5832,6 +5832,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-24T11:29:30.964Z",
       "updatedAt": "2026-03-24T11:29:30.964Z"
+    },
+    {
+      "personId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
+      "baseKey": "RÜSTEM KARAKUŞ",
+      "fullName": "RÜSTEM KARAKUŞ",
+      "normalizedName": "RÜSTEM KARAKUŞ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-03-24T11:29:51.230Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-03-24T11:29:51.230Z",
+      "updatedAt": "2026-03-24T11:29:51.230Z"
     }
   ],
   "leaves": [
@@ -7630,6 +7650,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "4dd8a95d-512f-45f0-aa02-0c360a15b332",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
+      "details": {
+        "person": {
+          "personId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
+          "baseKey": "RÜSTEM KARAKUŞ",
+          "fullName": "RÜSTEM KARAKUŞ",
+          "normalizedName": "RÜSTEM KARAKUŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:29:51.230Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:29:51.230Z",
+          "updatedAt": "2026-03-24T11:29:51.230Z"
+        }
+      },
+      "timestamp": "2026-03-24T11:29:51.231Z",
+      "adminSession": "a83162e1-133b-4250-bc0a-efad6d7dafee"
+    },
     {
       "id": "7891b256-1e60-4955-adb7-8d7e95e1a593",
       "action": "CREATE",
