@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T10:46:14.906Z"
+    "lastUpdated": "2026-03-25T10:46:34.871Z"
   },
   "taxonomy": {
     "categories": [
@@ -5079,7 +5079,7 @@
       "role": "FORMEN",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5088,7 +5088,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-29T14:18:20.133Z",
-      "updatedAt": "2026-01-29T14:18:20.133Z"
+      "updatedAt": "2026-03-25T10:46:34.871Z",
+      "jobTitle": null
     },
     {
       "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
@@ -7732,6 +7733,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "9956aaed-d5f0-4802-83c8-cb7ada0415ad",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+      "details": {
+        "before": {
+          "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+          "baseKey": "MEHMET AL",
+          "fullName": "MEHMET AL",
+          "normalizedName": "MEHMET AL",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-29T14:18:20.133Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-29T14:18:20.133Z",
+          "updatedAt": "2026-01-29T14:18:20.133Z"
+        },
+        "after": {
+          "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+          "baseKey": "MEHMET AL",
+          "fullName": "MEHMET AL",
+          "normalizedName": "MEHMET AL",
+          "category": "REPSAM",
+          "role": "FORMEN",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-29T14:18:20.133Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-29T14:18:20.133Z",
+          "updatedAt": "2026-03-25T10:46:34.871Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-25T10:46:34.871Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "46b861a3-5201-40f1-9ec9-256ac5c41017",
       "action": "UPDATE",
