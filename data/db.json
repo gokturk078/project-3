@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T11:21:42.616Z"
+    "lastUpdated": "2026-03-25T11:21:46.136Z"
   },
   "taxonomy": {
     "categories": [
@@ -6275,18 +6275,6 @@
   ],
   "tracking": [
     {
-      "id": "3e38a09a-582d-4172-bf77-e8130f5ad6d7",
-      "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
-      "applicationNo": "120469/2026",
-      "profession": "FORMEN",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-01-29",
-      "contactPerson": "KAAN EREN ERKAN",
-      "notes": "",
-      "createdAt": "2026-01-29T14:19:29.185Z",
-      "updatedAt": "2026-03-13T10:23:49.800Z"
-    },
-    {
       "id": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
       "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
       "applicationNo": "121346/2026",
@@ -7726,6 +7714,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "63afbb45-1425-46d7-90b3-59d16402c3e1",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "3e38a09a-582d-4172-bf77-e8130f5ad6d7",
+      "details": {
+        "tracking": {
+          "id": "3e38a09a-582d-4172-bf77-e8130f5ad6d7",
+          "personId": "52e2da84-2c79-4e85-869c-21e62c91e179",
+          "applicationNo": "120469/2026",
+          "profession": "FORMEN",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-29",
+          "contactPerson": "KAAN EREN ERKAN",
+          "notes": "",
+          "createdAt": "2026-01-29T14:19:29.185Z",
+          "updatedAt": "2026-03-13T10:23:49.800Z"
+        }
+      },
+      "timestamp": "2026-03-25T11:21:46.136Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "9078e826-d592-4155-9493-47db3db3335a",
       "action": "DELETE",
