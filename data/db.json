@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T11:21:54.887Z"
+    "lastUpdated": "2026-03-25T11:21:58.923Z"
   },
   "taxonomy": {
     "categories": [
@@ -6275,18 +6275,6 @@
   ],
   "tracking": [
     {
-      "id": "5b2e364e-0698-4968-953f-556bec46a742",
-      "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
-      "applicationNo": "121500/2026",
-      "profession": "inşaat işçisi",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-02-10",
-      "contactPerson": "ADNAN ŞEF",
-      "notes": "",
-      "createdAt": "2026-02-10T14:04:41.181Z",
-      "updatedAt": "2026-03-14T11:42:41.420Z"
-    },
-    {
       "id": "777c9c10-6a5d-4e06-ab98-cb95c24a6490",
       "personId": "8c97aeb9-2649-450e-bf67-63cf5e5272ea",
       "applicationNo": "150046/2026",
@@ -7690,6 +7678,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "dde5438e-df9a-4bc2-8034-3b04de02b495",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "5b2e364e-0698-4968-953f-556bec46a742",
+      "details": {
+        "tracking": {
+          "id": "5b2e364e-0698-4968-953f-556bec46a742",
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "applicationNo": "121500/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-02-10",
+          "contactPerson": "ADNAN ŞEF",
+          "notes": "",
+          "createdAt": "2026-02-10T14:04:41.181Z",
+          "updatedAt": "2026-03-14T11:42:41.420Z"
+        }
+      },
+      "timestamp": "2026-03-25T11:21:58.923Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "0909d594-08dc-49af-b6a4-246251c4623d",
       "action": "DELETE",
