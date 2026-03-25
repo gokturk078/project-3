@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-24T12:00:31.443Z"
+    "lastUpdated": "2026-03-25T10:46:14.906Z"
   },
   "taxonomy": {
     "categories": [
@@ -4639,7 +4639,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4648,7 +4648,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-23T09:45:29.049Z",
-      "updatedAt": "2026-01-23T09:45:29.049Z"
+      "updatedAt": "2026-03-25T10:46:14.906Z",
+      "jobTitle": null
     },
     {
       "personId": "3b641048-e38d-49f5-9d76-9145001d1892",
@@ -7731,6 +7732,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "46b861a3-5201-40f1-9ec9-256ac5c41017",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
+      "details": {
+        "before": {
+          "personId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
+          "baseKey": "İBRAHİM ÇAVUŞLU",
+          "fullName": "İBRAHİM ÇAVUŞLU",
+          "normalizedName": "İBRAHİM ÇAVUŞLU",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:45:29.049Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:45:29.049Z",
+          "updatedAt": "2026-01-23T09:45:29.049Z"
+        },
+        "after": {
+          "personId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
+          "baseKey": "İBRAHİM ÇAVUŞLU",
+          "fullName": "İBRAHİM ÇAVUŞLU",
+          "normalizedName": "İBRAHİM ÇAVUŞLU",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-23T09:45:29.049Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-23T09:45:29.049Z",
+          "updatedAt": "2026-03-25T10:46:14.906Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-25T10:46:14.906Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "f14f70b7-6051-4f11-8276-aec66755de49",
       "action": "CREATE",
