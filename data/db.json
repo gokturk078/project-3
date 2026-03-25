@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T11:20:20.942Z"
+    "lastUpdated": "2026-03-25T11:20:40.874Z"
   },
   "taxonomy": {
     "categories": [
@@ -5344,7 +5344,7 @@
       "role": "İSG",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5353,7 +5353,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:30:12.033Z",
-      "updatedAt": "2026-03-03T09:30:12.033Z"
+      "updatedAt": "2026-03-25T11:20:40.874Z",
+      "jobTitle": null
     },
     {
       "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
@@ -7734,6 +7735,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "a7671a2e-92e1-4e1b-aad3-7bef6267ebd9",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "51892e26-f824-4885-be71-a11f6d5103c3",
+      "details": {
+        "before": {
+          "personId": "51892e26-f824-4885-be71-a11f6d5103c3",
+          "baseKey": "HATİCE KÜBRA AYKUTOĞLU",
+          "fullName": "HATİCE KÜBRA AYKUTOĞLU",
+          "normalizedName": "HATİCE KÜBRA AYKUTOĞLU",
+          "category": "REPSAM",
+          "role": "İSG",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:30:12.033Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:30:12.033Z",
+          "updatedAt": "2026-03-03T09:30:12.033Z"
+        },
+        "after": {
+          "personId": "51892e26-f824-4885-be71-a11f6d5103c3",
+          "baseKey": "HATİCE KÜBRA AYKUTOĞLU",
+          "fullName": "HATİCE KÜBRA AYKUTOĞLU",
+          "normalizedName": "HATİCE KÜBRA AYKUTOĞLU",
+          "category": "REPSAM",
+          "role": "İSG",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:30:12.033Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:30:12.033Z",
+          "updatedAt": "2026-03-25T11:20:40.874Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-25T11:20:40.874Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "4aeecd3c-d665-4a50-b182-5aa50f6d3d12",
       "action": "UPDATE",
