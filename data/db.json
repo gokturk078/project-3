@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T10:47:14.767Z"
+    "lastUpdated": "2026-03-25T11:20:20.942Z"
   },
   "taxonomy": {
     "categories": [
@@ -5364,7 +5364,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5373,7 +5373,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:30:35.611Z",
-      "updatedAt": "2026-03-03T09:30:35.611Z"
+      "updatedAt": "2026-03-25T11:20:20.942Z",
+      "jobTitle": null
     },
     {
       "personId": "499f792c-5bd6-47ff-8a6d-fa307ed07cf5",
@@ -7733,6 +7734,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "4aeecd3c-d665-4a50-b182-5aa50f6d3d12",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+      "details": {
+        "before": {
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "baseKey": "YAKUP SEZEN",
+          "fullName": "YAKUP SEZEN",
+          "normalizedName": "YAKUP SEZEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:30:35.611Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:30:35.611Z",
+          "updatedAt": "2026-03-03T09:30:35.611Z"
+        },
+        "after": {
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "baseKey": "YAKUP SEZEN",
+          "fullName": "YAKUP SEZEN",
+          "normalizedName": "YAKUP SEZEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:30:35.611Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:30:35.611Z",
+          "updatedAt": "2026-03-25T11:20:20.942Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-25T11:20:20.942Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "aefc563b-7607-4f9b-844c-914359adbdd0",
       "action": "UPDATE",
