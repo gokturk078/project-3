@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T11:21:58.923Z"
+    "lastUpdated": "2026-03-25T11:22:06.523Z"
   },
   "taxonomy": {
     "categories": [
@@ -6323,18 +6323,6 @@
       "updatedAt": "2026-03-24T11:32:03.938Z"
     },
     {
-      "id": "22261571-7fae-4ea2-b0c0-95682f473390",
-      "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
-      "applicationNo": "123239/2026",
-      "profession": "inşaat işçisi",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-03-03",
-      "contactPerson": "AYHAN DÖNER",
-      "notes": "",
-      "createdAt": "2026-03-03T09:31:33.523Z",
-      "updatedAt": "2026-03-14T11:41:07.408Z"
-    },
-    {
       "id": "18fb6856-3634-44c1-8914-0dc79b172708",
       "personId": "e99b037f-445e-4bed-a838-eddf21fac638",
       "applicationNo": "123245/2026",
@@ -7678,6 +7666,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "4e8e8ad8-3bcc-4dd1-beac-3ba905ae7ee9",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "22261571-7fae-4ea2-b0c0-95682f473390",
+      "details": {
+        "tracking": {
+          "id": "22261571-7fae-4ea2-b0c0-95682f473390",
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "applicationNo": "123239/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-03-03",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-03-03T09:31:33.523Z",
+          "updatedAt": "2026-03-14T11:41:07.408Z"
+        }
+      },
+      "timestamp": "2026-03-25T11:22:06.523Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "dde5438e-df9a-4bc2-8034-3b04de02b495",
       "action": "DELETE",
