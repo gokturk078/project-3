@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T11:21:16.175Z"
+    "lastUpdated": "2026-03-25T11:21:33.308Z"
   },
   "taxonomy": {
     "categories": [
@@ -5224,7 +5224,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5233,7 +5233,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-10T14:03:10.765Z",
-      "updatedAt": "2026-02-10T14:03:10.765Z"
+      "updatedAt": "2026-03-25T11:21:33.308Z",
+      "jobTitle": null
     },
     {
       "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
@@ -7737,6 +7738,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "4846bf19-9bbe-483b-aa96-f4f018a026e6",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+      "details": {
+        "before": {
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "baseKey": "MUHAMMED FERHAT ÜSTÜNER",
+          "fullName": "MUHAMMED FERHAT ÜSTÜNER",
+          "normalizedName": "MUHAMMED FERHAT ÜSTÜNER",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T14:03:10.765Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T14:03:10.765Z",
+          "updatedAt": "2026-02-10T14:03:10.765Z"
+        },
+        "after": {
+          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
+          "baseKey": "MUHAMMED FERHAT ÜSTÜNER",
+          "fullName": "MUHAMMED FERHAT ÜSTÜNER",
+          "normalizedName": "MUHAMMED FERHAT ÜSTÜNER",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T14:03:10.765Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T14:03:10.765Z",
+          "updatedAt": "2026-03-25T11:21:33.308Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-25T11:21:33.308Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "5ac8f5ca-2704-4b27-b38a-668ba92db90b",
       "action": "UPDATE",
