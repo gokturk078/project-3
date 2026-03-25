@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T11:20:59.457Z"
+    "lastUpdated": "2026-03-25T11:21:16.175Z"
   },
   "taxonomy": {
     "categories": [
@@ -5203,7 +5203,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5212,7 +5212,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-10T09:14:48.838Z",
-      "updatedAt": "2026-02-10T09:14:48.838Z"
+      "updatedAt": "2026-03-25T11:21:16.175Z",
+      "jobTitle": null
     },
     {
       "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
@@ -7736,6 +7737,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "5ac8f5ca-2704-4b27-b38a-668ba92db90b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
+      "details": {
+        "before": {
+          "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
+          "baseKey": "HASAN ARIZ",
+          "fullName": "HASAN ARIZ",
+          "normalizedName": "HASAN ARIZ",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T09:14:48.838Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T09:14:48.838Z",
+          "updatedAt": "2026-02-10T09:14:48.838Z"
+        },
+        "after": {
+          "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
+          "baseKey": "HASAN ARIZ",
+          "fullName": "HASAN ARIZ",
+          "normalizedName": "HASAN ARIZ",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T09:14:48.838Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T09:14:48.838Z",
+          "updatedAt": "2026-03-25T11:21:16.175Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-25T11:21:16.175Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "f9560d28-d495-440b-b4f6-e111b8439a60",
       "action": "UPDATE",
