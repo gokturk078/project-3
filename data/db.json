@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T11:20:40.874Z"
+    "lastUpdated": "2026-03-25T11:20:59.457Z"
   },
   "taxonomy": {
     "categories": [
@@ -5386,7 +5386,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5395,7 +5395,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:50:29.661Z",
-      "updatedAt": "2026-03-03T09:50:29.661Z"
+      "updatedAt": "2026-03-25T11:20:59.457Z",
+      "jobTitle": null
     },
     {
       "personId": "ab814877-1f0b-4bd4-bc58-7b9a93a745be",
@@ -7735,6 +7736,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "f9560d28-d495-440b-b4f6-e111b8439a60",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "499f792c-5bd6-47ff-8a6d-fa307ed07cf5",
+      "details": {
+        "before": {
+          "personId": "499f792c-5bd6-47ff-8a6d-fa307ed07cf5",
+          "baseKey": "OSMAN TAŞAR",
+          "fullName": "OSMAN TAŞAR",
+          "normalizedName": "OSMAN TAŞAR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:50:29.661Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:50:29.661Z",
+          "updatedAt": "2026-03-03T09:50:29.661Z"
+        },
+        "after": {
+          "personId": "499f792c-5bd6-47ff-8a6d-fa307ed07cf5",
+          "baseKey": "OSMAN TAŞAR",
+          "fullName": "OSMAN TAŞAR",
+          "normalizedName": "OSMAN TAŞAR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:50:29.661Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:50:29.661Z",
+          "updatedAt": "2026-03-25T11:20:59.457Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-03-25T11:20:59.457Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "a7671a2e-92e1-4e1b-aad3-7bef6267ebd9",
       "action": "UPDATE",
