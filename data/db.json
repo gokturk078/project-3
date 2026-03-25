@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-25T12:14:29.420Z"
+    "lastUpdated": "2026-03-25T12:15:08.530Z"
   },
   "taxonomy": {
     "categories": [
@@ -6287,18 +6287,6 @@
       "updatedAt": "2026-03-24T11:31:40.445Z"
     },
     {
-      "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
-      "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
-      "applicationNo": "122944/2026",
-      "profession": "KULE VİNÇ OPERATÖRÜ",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-03-28",
-      "contactPerson": "AYHAN DÖNER",
-      "notes": "",
-      "createdAt": "2026-02-26T07:33:08.014Z",
-      "updatedAt": "2026-03-14T11:42:11.598Z"
-    },
-    {
       "id": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
       "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
       "applicationNo": "122898/2026",
@@ -7606,6 +7594,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "3647ebb2-7504-4733-a467-8710f8291790",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+      "details": {
+        "tracking": {
+          "id": "7356c009-8f80-4262-8d7d-c0815f1522c0",
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "applicationNo": "122944/2026",
+          "profession": "KULE VİNÇ OPERATÖRÜ",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-03-28",
+          "contactPerson": "AYHAN DÖNER",
+          "notes": "",
+          "createdAt": "2026-02-26T07:33:08.014Z",
+          "updatedAt": "2026-03-14T11:42:11.598Z"
+        }
+      },
+      "timestamp": "2026-03-25T12:15:08.530Z",
+      "adminSession": "9ccaeb0e-8428-4eba-9d1b-29f6a60dc837"
+    },
     {
       "id": "b29e4cf3-ccd4-4f77-ae02-464c3ffa68bb",
       "action": "DELETE",
