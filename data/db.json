@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-26T06:54:33.017Z"
+    "lastUpdated": "2026-03-26T06:54:57.629Z"
   },
   "taxonomy": {
     "categories": [
@@ -6669,6 +6669,18 @@
       "notes": "",
       "createdAt": "2026-03-26T06:54:33.017Z",
       "updatedAt": "2026-03-26T06:54:33.017Z"
+    },
+    {
+      "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
+      "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
+      "applicationNo": "155849",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-03-26T06:54:57.629Z",
+      "updatedAt": "2026-03-26T06:54:57.629Z"
     }
   ],
   "departures": [
@@ -7642,6 +7654,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "52da7f08-6a8a-4b94-958c-d457f14ad9c6",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
+      "details": {
+        "tracking": {
+          "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
+          "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
+          "applicationNo": "155849",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:54:57.629Z",
+          "updatedAt": "2026-03-26T06:54:57.629Z"
+        }
+      },
+      "timestamp": "2026-03-26T06:54:57.629Z",
+      "adminSession": "d04cb7e4-be3a-4933-8d45-25aca631b674"
+    },
     {
       "id": "d293f371-9410-41b5-b91d-8da96e589430",
       "action": "CREATE",
