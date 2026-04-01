@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-01T07:11:00.322Z"
+    "lastUpdated": "2026-04-01T07:11:09.362Z"
   },
   "taxonomy": {
     "categories": [
@@ -6763,12 +6763,12 @@
       "personId": "de04b1ac-ae4c-4447-be4a-fb0bc8666c43",
       "applicationNo": "156344",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-03-26T06:57:05.492Z",
-      "updatedAt": "2026-03-26T06:57:05.492Z"
+      "updatedAt": "2026-04-01T07:11:09.362Z"
     }
   ],
   "departures": [
@@ -7742,6 +7742,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "431b0fdf-1cf2-4c9e-bdf1-e2ccc4abbd98",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "35f5a88a-67ed-4d00-ab67-4c6c8436c74c",
+      "details": {
+        "before": {
+          "id": "35f5a88a-67ed-4d00-ab67-4c6c8436c74c",
+          "personId": "de04b1ac-ae4c-4447-be4a-fb0bc8666c43",
+          "applicationNo": "156344",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:57:05.492Z",
+          "updatedAt": "2026-03-26T06:57:05.492Z"
+        },
+        "after": {
+          "id": "35f5a88a-67ed-4d00-ab67-4c6c8436c74c",
+          "personId": "de04b1ac-ae4c-4447-be4a-fb0bc8666c43",
+          "applicationNo": "156344",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:57:05.492Z",
+          "updatedAt": "2026-04-01T07:11:09.362Z"
+        }
+      },
+      "timestamp": "2026-04-01T07:11:09.362Z",
+      "adminSession": "381921de-a560-47e4-940a-342ef8c79163"
+    },
     {
       "id": "9b6fb318-913a-4bc6-b106-e2f7063b6833",
       "action": "UPDATE",
