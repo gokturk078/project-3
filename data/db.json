@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-03-27T07:26:19.271Z"
+    "lastUpdated": "2026-04-01T07:08:48.029Z"
   },
   "taxonomy": {
     "categories": [
@@ -5880,6 +5880,26 @@
       "mergedFrom": [],
       "createdAt": "2026-03-24T11:30:12.144Z",
       "updatedAt": "2026-03-24T11:30:12.144Z"
+    },
+    {
+      "personId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
+      "baseKey": "YILMAZ UMUT ZENEZ",
+      "fullName": "YILMAZ UMUT ZENEZ",
+      "normalizedName": "YILMAZ UMUT ZENEZ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-01T07:08:48.028Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-01T07:08:48.028Z",
+      "updatedAt": "2026-04-01T07:08:48.028Z"
     }
   ],
   "leaves": [
@@ -7702,6 +7722,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "75885fac-0fcd-4602-b8e8-7ca2ec58adea",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
+      "details": {
+        "person": {
+          "personId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
+          "baseKey": "YILMAZ UMUT ZENEZ",
+          "fullName": "YILMAZ UMUT ZENEZ",
+          "normalizedName": "YILMAZ UMUT ZENEZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-01T07:08:48.028Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-01T07:08:48.028Z",
+          "updatedAt": "2026-04-01T07:08:48.028Z"
+        }
+      },
+      "timestamp": "2026-04-01T07:08:48.029Z",
+      "adminSession": "381921de-a560-47e4-940a-342ef8c79163"
+    },
     {
       "id": "2f9d53a3-e31a-4b94-a6e1-5f6518c08bfd",
       "action": "UPDATE",
