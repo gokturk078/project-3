@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-01T07:13:16.013Z"
+    "lastUpdated": "2026-04-01T07:14:01.651Z"
   },
   "taxonomy": {
     "categories": [
@@ -7685,13 +7685,13 @@
       "personId": null,
       "fullName": "SÜLEYMAN TATAR",
       "category": "REPSAM",
-      "job": "BAŞVURU İPTAL",
+      "job": "",
       "entryDate": "2026-03-03",
       "exitDate": "2026-03-09",
       "totalDays": 6,
       "exitMonth": "2026-03",
       "createdAt": "2026-03-09T12:30:18.025Z",
-      "updatedAt": "2026-03-24T07:22:57.793Z"
+      "updatedAt": "2026-04-01T07:14:01.651Z"
     },
     {
       "id": "9262f3c4-e429-45c5-a59a-da50fe8c61a8",
@@ -7766,6 +7766,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "b85c8a98-707d-4037-b0dc-24039454c326",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+      "details": {
+        "before": {
+          "id": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+          "personId": null,
+          "fullName": "SÜLEYMAN TATAR",
+          "category": "REPSAM",
+          "job": "BAŞVURU İPTAL",
+          "entryDate": "2026-03-03",
+          "exitDate": "2026-03-09",
+          "totalDays": 6,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-09T12:30:18.025Z",
+          "updatedAt": "2026-03-24T07:22:57.793Z"
+        },
+        "after": {
+          "id": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+          "personId": null,
+          "fullName": "SÜLEYMAN TATAR",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-03-03",
+          "exitDate": "2026-03-09",
+          "totalDays": 6,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-09T12:30:18.025Z",
+          "updatedAt": "2026-04-01T07:14:01.651Z"
+        }
+      },
+      "timestamp": "2026-04-01T07:14:01.651Z",
+      "adminSession": "381921de-a560-47e4-940a-342ef8c79163"
+    },
     {
       "id": "4d232f9f-db89-42ba-b7ee-31b20834b044",
       "action": "CREATE",
