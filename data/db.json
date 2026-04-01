@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-01T07:14:01.651Z"
+    "lastUpdated": "2026-04-01T09:36:40.653Z"
   },
   "taxonomy": {
     "categories": [
@@ -5920,6 +5920,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-01T07:09:18.301Z",
       "updatedAt": "2026-04-01T07:09:18.301Z"
+    },
+    {
+      "personId": "d83ae53b-3f25-4573-8f72-f7c7a0674ac5",
+      "baseKey": "HAMZA AL",
+      "fullName": "HAMZA AL",
+      "normalizedName": "HAMZA AL",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-01T09:36:40.652Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-01T09:36:40.652Z",
+      "updatedAt": "2026-04-01T09:36:40.652Z"
     }
   ],
   "leaves": [
@@ -7766,6 +7786,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "2499c956-79b5-4735-97bd-4d3886759e52",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "d83ae53b-3f25-4573-8f72-f7c7a0674ac5",
+      "details": {
+        "person": {
+          "personId": "d83ae53b-3f25-4573-8f72-f7c7a0674ac5",
+          "baseKey": "HAMZA AL",
+          "fullName": "HAMZA AL",
+          "normalizedName": "HAMZA AL",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-01T09:36:40.652Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-01T09:36:40.652Z",
+          "updatedAt": "2026-04-01T09:36:40.652Z"
+        }
+      },
+      "timestamp": "2026-04-01T09:36:40.653Z",
+      "adminSession": "381921de-a560-47e4-940a-342ef8c79163"
+    },
     {
       "id": "b85c8a98-707d-4037-b0dc-24039454c326",
       "action": "UPDATE",
