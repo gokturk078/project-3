@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-01T07:08:48.029Z"
+    "lastUpdated": "2026-04-01T07:09:18.301Z"
   },
   "taxonomy": {
     "categories": [
@@ -5900,6 +5900,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-01T07:08:48.028Z",
       "updatedAt": "2026-04-01T07:08:48.028Z"
+    },
+    {
+      "personId": "d49157b2-80fb-4188-ba9b-41b2e93af453",
+      "baseKey": "BARAN KÖROĞLU",
+      "fullName": "BARAN KÖROĞLU",
+      "normalizedName": "BARAN KÖROĞLU",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-01T07:09:18.301Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-01T07:09:18.301Z",
+      "updatedAt": "2026-04-01T07:09:18.301Z"
     }
   ],
   "leaves": [
@@ -7722,6 +7742,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "f9fb34f7-744b-427b-a775-5ca29e626ecb",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "d49157b2-80fb-4188-ba9b-41b2e93af453",
+      "details": {
+        "person": {
+          "personId": "d49157b2-80fb-4188-ba9b-41b2e93af453",
+          "baseKey": "BARAN KÖROĞLU",
+          "fullName": "BARAN KÖROĞLU",
+          "normalizedName": "BARAN KÖROĞLU",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-01T07:09:18.301Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-01T07:09:18.301Z",
+          "updatedAt": "2026-04-01T07:09:18.301Z"
+        }
+      },
+      "timestamp": "2026-04-01T07:09:18.301Z",
+      "adminSession": "381921de-a560-47e4-940a-342ef8c79163"
+    },
     {
       "id": "75885fac-0fcd-4602-b8e8-7ca2ec58adea",
       "action": "CREATE",
