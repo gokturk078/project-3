@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T14:16:47.595Z"
+    "lastUpdated": "2026-04-03T14:17:48.357Z"
   },
   "taxonomy": {
     "categories": [
@@ -746,7 +746,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -755,7 +755,7 @@
       "mergedFrom": [],
       "personId": "94feaec9-a6e8-42de-aa8a-79e9ebeba95a",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-03T14:17:48.356Z"
     },
     {
       "fullName": "MERTCAN SALMAN",
@@ -8114,6 +8114,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "276fda95-49c4-4cde-9419-40d24c169f97",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "94feaec9-a6e8-42de-aa8a-79e9ebeba95a",
+      "details": {
+        "before": {
+          "fullName": "MEHMET SALİH ÖNEN",
+          "normalizedName": "MEHMET SALIH ONEN",
+          "baseKey": "MEHMET SALIH ONEN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 35
+          },
+          "mergedFrom": [],
+          "personId": "94feaec9-a6e8-42de-aa8a-79e9ebeba95a",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MEHMET SALİH ÖNEN",
+          "normalizedName": "MEHMET SALIH ONEN",
+          "baseKey": "MEHMET SALIH ONEN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 35
+          },
+          "mergedFrom": [],
+          "personId": "94feaec9-a6e8-42de-aa8a-79e9ebeba95a",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-03T14:17:48.356Z"
+        }
+      },
+      "timestamp": "2026-04-03T14:17:48.356Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "8285c076-c983-4ce8-9fad-be9b8c7d10fa",
       "action": "CREATE",
