@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T08:34:03.214Z"
+    "lastUpdated": "2026-04-03T08:34:19.616Z"
   },
   "taxonomy": {
     "categories": [
@@ -1646,7 +1646,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -1655,7 +1655,7 @@
       "mergedFrom": [],
       "personId": "2b5336af-08e0-4411-92b0-7f530da39295",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-03T08:34:19.616Z"
     },
     {
       "fullName": "ERCAN ÖKSÜZ",
@@ -7863,6 +7863,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "9b8a73c7-dbf6-4f4c-91ce-f483418b2ac5",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "2b5336af-08e0-4411-92b0-7f530da39295",
+      "details": {
+        "before": {
+          "fullName": "EMRULLAH TARIM",
+          "normalizedName": "EMRULLAH TARIM",
+          "baseKey": "EMRULLAH TARIM",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 17
+          },
+          "mergedFrom": [],
+          "personId": "2b5336af-08e0-4411-92b0-7f530da39295",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "EMRULLAH TARIM",
+          "normalizedName": "EMRULLAH TARIM",
+          "baseKey": "EMRULLAH TARIM",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 17
+          },
+          "mergedFrom": [],
+          "personId": "2b5336af-08e0-4411-92b0-7f530da39295",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-03T08:34:19.616Z"
+        }
+      },
+      "timestamp": "2026-04-03T08:34:19.616Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "4448708d-9acf-4bc7-a162-5c09d3ae68ac",
       "action": "UPDATE",
