@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T10:28:18.798Z"
+    "lastUpdated": "2026-04-03T10:28:38.146Z"
   },
   "taxonomy": {
     "categories": [
@@ -5960,6 +5960,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-03T10:28:18.798Z",
       "updatedAt": "2026-04-03T10:28:18.798Z"
+    },
+    {
+      "personId": "4a1209dc-fb1b-492b-be7c-42155835a2f4",
+      "baseKey": "MURAT AYDINLI",
+      "fullName": "MURAT AYDINLI",
+      "normalizedName": "MURAT AYDINLI",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-03T10:28:38.146Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-03T10:28:38.146Z",
+      "updatedAt": "2026-04-03T10:28:38.146Z"
     }
   ],
   "leaves": [
@@ -7883,6 +7903,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "54edbe70-8c28-4a71-a57b-f53be5af2240",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "4a1209dc-fb1b-492b-be7c-42155835a2f4",
+      "details": {
+        "person": {
+          "personId": "4a1209dc-fb1b-492b-be7c-42155835a2f4",
+          "baseKey": "MURAT AYDINLI",
+          "fullName": "MURAT AYDINLI",
+          "normalizedName": "MURAT AYDINLI",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:28:38.146Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:28:38.146Z",
+          "updatedAt": "2026-04-03T10:28:38.146Z"
+        }
+      },
+      "timestamp": "2026-04-03T10:28:38.146Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "587c4b66-1ef5-4cc1-ac26-2c66a259c1cd",
       "action": "CREATE",
