@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T08:34:19.616Z"
+    "lastUpdated": "2026-04-03T10:28:18.798Z"
   },
   "taxonomy": {
     "categories": [
@@ -5940,6 +5940,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-01T09:36:40.652Z",
       "updatedAt": "2026-04-01T09:36:40.652Z"
+    },
+    {
+      "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+      "baseKey": "HACI METİN",
+      "fullName": "HACI METİN",
+      "normalizedName": "HACI METİN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-03T10:28:18.798Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-03T10:28:18.798Z",
+      "updatedAt": "2026-04-03T10:28:18.798Z"
     }
   ],
   "leaves": [
@@ -7863,6 +7883,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "587c4b66-1ef5-4cc1-ac26-2c66a259c1cd",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+      "details": {
+        "person": {
+          "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+          "baseKey": "HACI METİN",
+          "fullName": "HACI METİN",
+          "normalizedName": "HACI METİN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:28:18.798Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:28:18.798Z",
+          "updatedAt": "2026-04-03T10:28:18.798Z"
+        }
+      },
+      "timestamp": "2026-04-03T10:28:18.798Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "9b8a73c7-dbf6-4f4c-91ce-f483418b2ac5",
       "action": "UPDATE",
