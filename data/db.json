@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T10:32:28.881Z"
+    "lastUpdated": "2026-04-03T10:33:10.177Z"
   },
   "taxonomy": {
     "categories": [
@@ -6010,7 +6010,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "pending",
       "sources": [
         {
           "type": "manual",
@@ -6019,7 +6019,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-03T10:29:35.860Z",
-      "updatedAt": "2026-04-03T10:29:35.860Z"
+      "updatedAt": "2026-04-03T10:33:10.177Z",
+      "jobTitle": null
     },
     {
       "personId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
@@ -8039,6 +8040,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "bdd33df6-2378-4e06-89d0-f43d18ce9b3e",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+      "details": {
+        "before": {
+          "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+          "baseKey": "MEHMET SEVİM",
+          "fullName": "MEHMET SEVİM",
+          "normalizedName": "MEHMET SEVİM",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:29:35.860Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:29:35.860Z",
+          "updatedAt": "2026-04-03T10:29:35.860Z"
+        },
+        "after": {
+          "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+          "baseKey": "MEHMET SEVİM",
+          "fullName": "MEHMET SEVİM",
+          "normalizedName": "MEHMET SEVİM",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:29:35.860Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:29:35.860Z",
+          "updatedAt": "2026-04-03T10:33:10.177Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-03T10:33:10.177Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "c8a6efd7-228c-4390-888e-15caf12fda59",
       "action": "CREATE",
