@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T07:52:15.291Z"
+    "lastUpdated": "2026-04-03T07:53:51.185Z"
   },
   "taxonomy": {
     "categories": [
@@ -7802,6 +7802,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-04-03T07:52:15.291Z",
       "updatedAt": "2026-04-03T07:52:15.291Z"
+    },
+    {
+      "id": "d1b522c6-9231-454d-8e0f-f2bb1ade416d",
+      "personId": null,
+      "fullName": "İBRAHİM AYDIN",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2025-09-20",
+      "exitDate": "2026-03-17",
+      "totalDays": 178,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-04-03T07:53:51.185Z",
+      "updatedAt": "2026-04-03T07:53:51.185Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7824,6 +7837,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "b173aaf4-b0b8-4d70-90bb-13293285f197",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "d1b522c6-9231-454d-8e0f-f2bb1ade416d",
+      "details": {
+        "departure": {
+          "id": "d1b522c6-9231-454d-8e0f-f2bb1ade416d",
+          "personId": null,
+          "fullName": "İBRAHİM AYDIN",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2025-09-20",
+          "exitDate": "2026-03-17",
+          "totalDays": 178,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T07:53:51.185Z",
+          "updatedAt": "2026-04-03T07:53:51.185Z"
+        }
+      },
+      "timestamp": "2026-04-03T07:53:51.185Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "c80bd1e0-5001-4571-a5fc-d64cbce6e595",
       "action": "CREATE",
