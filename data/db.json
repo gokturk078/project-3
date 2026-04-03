@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T08:32:28.936Z"
+    "lastUpdated": "2026-04-03T08:32:53.479Z"
   },
   "taxonomy": {
     "categories": [
@@ -3848,7 +3848,7 @@
       "jobTitle": "116083/2025",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -3865,7 +3865,7 @@
         "contactPerson": "MURAT ÜYÜR"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-21T11:40:13.466Z"
+      "updatedAt": "2026-04-03T08:32:53.479Z"
     },
     {
       "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
@@ -7863,6 +7863,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "61e105cb-1047-4c0a-9a03-ed07cf210a22",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+      "details": {
+        "before": {
+          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+          "baseKey": "SAKIP YILDIZOGLU",
+          "fullName": "ŞAKİP YILDIZOĞLU",
+          "normalizedName": "SAKIP YILDIZOGLU",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "116083/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 13
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116083/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-21T11:40:13.466Z"
+        },
+        "after": {
+          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
+          "baseKey": "SAKIP YILDIZOGLU",
+          "fullName": "ŞAKİP YILDIZOĞLU",
+          "normalizedName": "SAKIP YILDIZOGLU",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "116083/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 13
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "116083/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-04-03T08:32:53.479Z"
+        }
+      },
+      "timestamp": "2026-04-03T08:32:53.479Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "f1273c3f-426e-4a94-a381-586eca566a4b",
       "action": "UPDATE",
