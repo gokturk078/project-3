@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T07:51:19.711Z"
+    "lastUpdated": "2026-04-03T07:52:15.291Z"
   },
   "taxonomy": {
     "categories": [
@@ -7789,6 +7789,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-04-03T07:51:19.710Z",
       "updatedAt": "2026-04-03T07:51:19.710Z"
+    },
+    {
+      "id": "5b4a3f28-4875-4d62-8ee9-c5aa2966fd05",
+      "personId": null,
+      "fullName": "MURAT KALINTAŞ",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2025-07-21",
+      "exitDate": "2026-02-14",
+      "totalDays": 208,
+      "exitMonth": "2026-02",
+      "createdAt": "2026-04-03T07:52:15.291Z",
+      "updatedAt": "2026-04-03T07:52:15.291Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7811,6 +7824,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "c80bd1e0-5001-4571-a5fc-d64cbce6e595",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "5b4a3f28-4875-4d62-8ee9-c5aa2966fd05",
+      "details": {
+        "departure": {
+          "id": "5b4a3f28-4875-4d62-8ee9-c5aa2966fd05",
+          "personId": null,
+          "fullName": "MURAT KALINTAŞ",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-07-21",
+          "exitDate": "2026-02-14",
+          "totalDays": 208,
+          "exitMonth": "2026-02",
+          "createdAt": "2026-04-03T07:52:15.291Z",
+          "updatedAt": "2026-04-03T07:52:15.291Z"
+        }
+      },
+      "timestamp": "2026-04-03T07:52:15.291Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "5d455bc1-aede-43f0-8f6b-a9a8af3f54cc",
       "action": "CREATE",
