@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T10:30:12.175Z"
+    "lastUpdated": "2026-04-03T10:30:35.620Z"
   },
   "taxonomy": {
     "categories": [
@@ -6060,6 +6060,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-03T10:30:12.175Z",
       "updatedAt": "2026-04-03T10:30:12.175Z"
+    },
+    {
+      "personId": "548b56e9-2a6a-43b6-b78f-10ee0f37f5b1",
+      "baseKey": "SEZER BAKIR",
+      "fullName": "SEZER BAKIR",
+      "normalizedName": "SEZER BAKIR",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-03T10:30:35.620Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-03T10:30:35.620Z",
+      "updatedAt": "2026-04-03T10:30:35.620Z"
     }
   ],
   "leaves": [
@@ -7983,6 +8003,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ce9300c1-43e6-4ef5-ba5a-645da8c4f8de",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "548b56e9-2a6a-43b6-b78f-10ee0f37f5b1",
+      "details": {
+        "person": {
+          "personId": "548b56e9-2a6a-43b6-b78f-10ee0f37f5b1",
+          "baseKey": "SEZER BAKIR",
+          "fullName": "SEZER BAKIR",
+          "normalizedName": "SEZER BAKIR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:30:35.620Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:30:35.620Z",
+          "updatedAt": "2026-04-03T10:30:35.620Z"
+        }
+      },
+      "timestamp": "2026-04-03T10:30:35.620Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "34b3448d-80b0-46d4-9509-e323cd809938",
       "action": "CREATE",
