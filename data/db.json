@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T08:32:53.479Z"
+    "lastUpdated": "2026-04-03T08:33:28.230Z"
   },
   "taxonomy": {
     "categories": [
@@ -2446,7 +2446,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "NEŞAT",
@@ -2455,7 +2455,7 @@
       "mergedFrom": [],
       "personId": "55dc1c4c-50e6-4700-9bc4-4c263fb46591",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-03T08:33:28.230Z"
     },
     {
       "fullName": "MEHMET AKSOY",
@@ -7863,6 +7863,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "efd73237-74a1-49ed-a41c-f3768e273950",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "55dc1c4c-50e6-4700-9bc4-4c263fb46591",
+      "details": {
+        "before": {
+          "fullName": "İBRAHİM AYDIN",
+          "normalizedName": "IBRAHIM AYDIN",
+          "baseKey": "IBRAHIM AYDIN",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 8
+          },
+          "mergedFrom": [],
+          "personId": "55dc1c4c-50e6-4700-9bc4-4c263fb46591",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "İBRAHİM AYDIN",
+          "normalizedName": "IBRAHIM AYDIN",
+          "baseKey": "IBRAHIM AYDIN",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 8
+          },
+          "mergedFrom": [],
+          "personId": "55dc1c4c-50e6-4700-9bc4-4c263fb46591",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-03T08:33:28.230Z"
+        }
+      },
+      "timestamp": "2026-04-03T08:33:28.230Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "61e105cb-1047-4c0a-9a03-ed07cf210a22",
       "action": "UPDATE",
