@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T10:29:56.457Z"
+    "lastUpdated": "2026-04-03T10:30:12.175Z"
   },
   "taxonomy": {
     "categories": [
@@ -6040,6 +6040,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-03T10:29:56.457Z",
       "updatedAt": "2026-04-03T10:29:56.457Z"
+    },
+    {
+      "personId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
+      "baseKey": "EROL DAĞ",
+      "fullName": "EROL DAĞ",
+      "normalizedName": "EROL DAĞ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-03T10:30:12.175Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-03T10:30:12.175Z",
+      "updatedAt": "2026-04-03T10:30:12.175Z"
     }
   ],
   "leaves": [
@@ -7963,6 +7983,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "34b3448d-80b0-46d4-9509-e323cd809938",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
+      "details": {
+        "person": {
+          "personId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
+          "baseKey": "EROL DAĞ",
+          "fullName": "EROL DAĞ",
+          "normalizedName": "EROL DAĞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:30:12.175Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:30:12.175Z",
+          "updatedAt": "2026-04-03T10:30:12.175Z"
+        }
+      },
+      "timestamp": "2026-04-03T10:30:12.175Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "b26fcdba-e4c9-47ea-a475-a2f7f07b195c",
       "action": "CREATE",
