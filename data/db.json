@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T07:49:21.904Z"
+    "lastUpdated": "2026-04-03T07:49:56.636Z"
   },
   "taxonomy": {
     "categories": [
@@ -7719,11 +7719,11 @@
       "category": "REPSAM",
       "job": "",
       "entryDate": "2026-03-03",
-      "exitDate": "2026-03-27",
+      "exitDate": "2026-03-28",
       "totalDays": 6,
       "exitMonth": "2026-03",
       "createdAt": "2026-03-09T12:30:18.025Z",
-      "updatedAt": "2026-04-03T07:48:37.044Z"
+      "updatedAt": "2026-04-03T07:49:56.636Z"
     },
     {
       "id": "9262f3c4-e429-45c5-a59a-da50fe8c61a8",
@@ -7798,6 +7798,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "d538eba7-7072-4142-b7ea-14b68c6d6372",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+      "details": {
+        "before": {
+          "id": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+          "personId": null,
+          "fullName": "SÜLEYMAN TATAR",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-03-03",
+          "exitDate": "2026-03-27",
+          "totalDays": 6,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-09T12:30:18.025Z",
+          "updatedAt": "2026-04-03T07:48:37.044Z"
+        },
+        "after": {
+          "id": "8df9c886-525b-4caa-bc21-2c687ded8ff6",
+          "personId": null,
+          "fullName": "SÜLEYMAN TATAR",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-03-03",
+          "exitDate": "2026-03-28",
+          "totalDays": 6,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-09T12:30:18.025Z",
+          "updatedAt": "2026-04-03T07:49:56.636Z"
+        }
+      },
+      "timestamp": "2026-04-03T07:49:56.636Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "6b4908fd-1a74-42b6-b59d-2575d080702b",
       "action": "UPDATE",
