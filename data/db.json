@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T08:33:28.230Z"
+    "lastUpdated": "2026-04-03T08:34:03.214Z"
   },
   "taxonomy": {
     "categories": [
@@ -1986,7 +1986,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -1995,7 +1995,7 @@
       "mergedFrom": [],
       "personId": "cf5bf79d-70e7-4cd8-b6c1-7a1527776e25",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-03T08:34:03.214Z"
     },
     {
       "fullName": "MUSA KURT",
@@ -7863,6 +7863,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "4448708d-9acf-4bc7-a162-5c09d3ae68ac",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "cf5bf79d-70e7-4cd8-b6c1-7a1527776e25",
+      "details": {
+        "before": {
+          "fullName": "MURAT KALINTAŞ",
+          "normalizedName": "MURAT KALINTAS",
+          "baseKey": "MURAT KALINTAS",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 34
+          },
+          "mergedFrom": [],
+          "personId": "cf5bf79d-70e7-4cd8-b6c1-7a1527776e25",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MURAT KALINTAŞ",
+          "normalizedName": "MURAT KALINTAS",
+          "baseKey": "MURAT KALINTAS",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 34
+          },
+          "mergedFrom": [],
+          "personId": "cf5bf79d-70e7-4cd8-b6c1-7a1527776e25",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-03T08:34:03.214Z"
+        }
+      },
+      "timestamp": "2026-04-03T08:34:03.214Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "efd73237-74a1-49ed-a41c-f3768e273950",
       "action": "UPDATE",
