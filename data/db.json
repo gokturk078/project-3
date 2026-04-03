@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T07:48:37.044Z"
+    "lastUpdated": "2026-04-03T07:49:04.437Z"
   },
   "taxonomy": {
     "categories": [
@@ -7771,11 +7771,11 @@
       "category": "",
       "job": "",
       "entryDate": "2025-10-10",
-      "exitDate": "2026-03-24",
+      "exitDate": "2026-03-14",
       "totalDays": 165,
       "exitMonth": "2026-03",
       "createdAt": "2026-03-24T07:21:47.942Z",
-      "updatedAt": "2026-03-24T07:22:48.251Z"
+      "updatedAt": "2026-04-03T07:49:04.437Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7798,6 +7798,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "762e6587-1f39-4500-b4e2-ef3b206293fc",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "a86a1d57-c9f5-4569-b056-8df6d261727f",
+      "details": {
+        "before": {
+          "id": "a86a1d57-c9f5-4569-b056-8df6d261727f",
+          "personId": null,
+          "fullName": "ÖZGÜR AKSOY",
+          "category": "",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-24",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:21:47.942Z",
+          "updatedAt": "2026-03-24T07:22:48.251Z"
+        },
+        "after": {
+          "id": "a86a1d57-c9f5-4569-b056-8df6d261727f",
+          "personId": null,
+          "fullName": "ÖZGÜR AKSOY",
+          "category": "",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-03-14",
+          "totalDays": 165,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-03-24T07:21:47.942Z",
+          "updatedAt": "2026-04-03T07:49:04.437Z"
+        }
+      },
+      "timestamp": "2026-04-03T07:49:04.437Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "b51d12ea-6711-44f0-a5db-03ba5958a677",
       "action": "UPDATE",
