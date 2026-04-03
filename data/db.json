@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T07:53:51.185Z"
+    "lastUpdated": "2026-04-03T07:55:00.571Z"
   },
   "taxonomy": {
     "categories": [
@@ -7815,6 +7815,19 @@
       "exitMonth": "2026-03",
       "createdAt": "2026-04-03T07:53:51.185Z",
       "updatedAt": "2026-04-03T07:53:51.185Z"
+    },
+    {
+      "id": "b212ffc6-ddaa-4d54-992d-b2f79d55f818",
+      "personId": null,
+      "fullName": "DAVUT SEZEN",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2025-10-18",
+      "exitDate": "2026-03-01",
+      "totalDays": 134,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-04-03T07:55:00.570Z",
+      "updatedAt": "2026-04-03T07:55:00.570Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7837,6 +7850,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "744c5e99-00ff-4017-82a8-744078c40cac",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "b212ffc6-ddaa-4d54-992d-b2f79d55f818",
+      "details": {
+        "departure": {
+          "id": "b212ffc6-ddaa-4d54-992d-b2f79d55f818",
+          "personId": null,
+          "fullName": "DAVUT SEZEN",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-10-18",
+          "exitDate": "2026-03-01",
+          "totalDays": 134,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T07:55:00.570Z",
+          "updatedAt": "2026-04-03T07:55:00.570Z"
+        }
+      },
+      "timestamp": "2026-04-03T07:55:00.571Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "b173aaf4-b0b8-4d70-90bb-13293285f197",
       "action": "CREATE",
