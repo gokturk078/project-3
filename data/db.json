@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T14:16:24.719Z"
+    "lastUpdated": "2026-04-03T14:16:47.595Z"
   },
   "taxonomy": {
     "categories": [
@@ -8079,6 +8079,19 @@
       "exitMonth": "2026-03",
       "createdAt": "2026-04-03T14:16:24.719Z",
       "updatedAt": "2026-04-03T14:16:24.719Z"
+    },
+    {
+      "id": "724ffe19-1509-4eac-bc3c-e5bac2e51d4c",
+      "personId": null,
+      "fullName": "MEHMET ARTAN",
+      "category": null,
+      "job": "",
+      "entryDate": "2025-04-10",
+      "exitDate": "2026-03-19",
+      "totalDays": 343,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-04-03T14:16:47.595Z",
+      "updatedAt": "2026-04-03T14:16:47.595Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8101,6 +8114,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "8285c076-c983-4ce8-9fad-be9b8c7d10fa",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "724ffe19-1509-4eac-bc3c-e5bac2e51d4c",
+      "details": {
+        "departure": {
+          "id": "724ffe19-1509-4eac-bc3c-e5bac2e51d4c",
+          "personId": null,
+          "fullName": "MEHMET ARTAN",
+          "category": null,
+          "job": "",
+          "entryDate": "2025-04-10",
+          "exitDate": "2026-03-19",
+          "totalDays": 343,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T14:16:47.595Z",
+          "updatedAt": "2026-04-03T14:16:47.595Z"
+        }
+      },
+      "timestamp": "2026-04-03T14:16:47.595Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "b0fa10e0-bb7f-4fba-acc5-bc67f77ce10f",
       "action": "CREATE",
