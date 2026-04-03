@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T10:29:07.386Z"
+    "lastUpdated": "2026-04-03T10:29:35.860Z"
   },
   "taxonomy": {
     "categories": [
@@ -6000,6 +6000,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-03T10:29:07.386Z",
       "updatedAt": "2026-04-03T10:29:07.386Z"
+    },
+    {
+      "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+      "baseKey": "MEHMET SEVİM",
+      "fullName": "MEHMET SEVİM",
+      "normalizedName": "MEHMET SEVİM",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-03T10:29:35.860Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-03T10:29:35.860Z",
+      "updatedAt": "2026-04-03T10:29:35.860Z"
     }
   ],
   "leaves": [
@@ -7923,6 +7943,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "18191352-70fc-41f8-8252-13fd82182330",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+      "details": {
+        "person": {
+          "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+          "baseKey": "MEHMET SEVİM",
+          "fullName": "MEHMET SEVİM",
+          "normalizedName": "MEHMET SEVİM",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:29:35.860Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:29:35.860Z",
+          "updatedAt": "2026-04-03T10:29:35.860Z"
+        }
+      },
+      "timestamp": "2026-04-03T10:29:35.860Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "0f8ae70e-f162-461f-8bb8-efec88f92eee",
       "action": "CREATE",
