@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T14:17:48.357Z"
+    "lastUpdated": "2026-04-03T14:18:01.477Z"
   },
   "taxonomy": {
     "categories": [
@@ -686,7 +686,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -695,7 +695,7 @@
       "mergedFrom": [],
       "personId": "20a6d9e1-3c08-4964-93cf-ca6af919af0f",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-03T14:18:01.477Z"
     },
     {
       "fullName": "MEHMET ERSİN AKBABA",
@@ -8114,6 +8114,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "50b7b6f0-2b81-4a25-96d9-1e25d0e59ccd",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "20a6d9e1-3c08-4964-93cf-ca6af919af0f",
+      "details": {
+        "before": {
+          "fullName": "MEHMET ARTAN",
+          "normalizedName": "MEHMET ARTAN",
+          "baseKey": "MEHMET ARTAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 32
+          },
+          "mergedFrom": [],
+          "personId": "20a6d9e1-3c08-4964-93cf-ca6af919af0f",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MEHMET ARTAN",
+          "normalizedName": "MEHMET ARTAN",
+          "baseKey": "MEHMET ARTAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 32
+          },
+          "mergedFrom": [],
+          "personId": "20a6d9e1-3c08-4964-93cf-ca6af919af0f",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-03T14:18:01.477Z"
+        }
+      },
+      "timestamp": "2026-04-03T14:18:01.477Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "276fda95-49c4-4cde-9419-40d24c169f97",
       "action": "UPDATE",
