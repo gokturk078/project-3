@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T07:55:00.571Z"
+    "lastUpdated": "2026-04-03T07:58:49.972Z"
   },
   "taxonomy": {
     "categories": [
@@ -7828,6 +7828,19 @@
       "exitMonth": "2026-03",
       "createdAt": "2026-04-03T07:55:00.570Z",
       "updatedAt": "2026-04-03T07:55:00.570Z"
+    },
+    {
+      "id": "e804a760-dd0b-4f25-bfb6-b78d9153f149",
+      "personId": null,
+      "fullName": "ŞAKİP YILDIZOĞLU",
+      "category": null,
+      "job": "",
+      "entryDate": "2026-01-05",
+      "exitDate": "2026-03-30",
+      "totalDays": 84,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-04-03T07:58:49.972Z",
+      "updatedAt": "2026-04-03T07:58:49.972Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7850,6 +7863,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "98216977-7ea7-496a-aa51-b0bbe66fb49f",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "e804a760-dd0b-4f25-bfb6-b78d9153f149",
+      "details": {
+        "departure": {
+          "id": "e804a760-dd0b-4f25-bfb6-b78d9153f149",
+          "personId": null,
+          "fullName": "ŞAKİP YILDIZOĞLU",
+          "category": null,
+          "job": "",
+          "entryDate": "2026-01-05",
+          "exitDate": "2026-03-30",
+          "totalDays": 84,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T07:58:49.972Z",
+          "updatedAt": "2026-04-03T07:58:49.972Z"
+        }
+      },
+      "timestamp": "2026-04-03T07:58:49.972Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "744c5e99-00ff-4017-82a8-744078c40cac",
       "action": "CREATE",
