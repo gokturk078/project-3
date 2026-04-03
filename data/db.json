@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T10:35:26.366Z"
+    "lastUpdated": "2026-04-03T10:35:58.603Z"
   },
   "taxonomy": {
     "categories": [
@@ -7038,6 +7038,18 @@
       "notes": "",
       "createdAt": "2026-04-03T10:35:26.366Z",
       "updatedAt": "2026-04-03T10:35:26.366Z"
+    },
+    {
+      "id": "518738dd-6ab3-4d77-96e9-387f44a2236e",
+      "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+      "applicationNo": "126214/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-04-03T10:35:58.603Z",
+      "updatedAt": "2026-04-03T10:35:58.603Z"
     }
   ],
   "departures": [
@@ -8076,6 +8088,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ce7b78f8-4b5c-4c98-9693-c843fb13edd4",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "518738dd-6ab3-4d77-96e9-387f44a2236e",
+      "details": {
+        "tracking": {
+          "id": "518738dd-6ab3-4d77-96e9-387f44a2236e",
+          "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+          "applicationNo": "126214/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-04-03T10:35:58.603Z",
+          "updatedAt": "2026-04-03T10:35:58.603Z"
+        }
+      },
+      "timestamp": "2026-04-03T10:35:58.603Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "9481c382-0547-4d87-8b2f-3c503dede1a5",
       "action": "CREATE",
