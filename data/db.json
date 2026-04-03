@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-03T10:35:58.603Z"
+    "lastUpdated": "2026-04-03T14:16:24.719Z"
   },
   "taxonomy": {
     "categories": [
@@ -8066,6 +8066,19 @@
       "exitMonth": "2026-03",
       "createdAt": "2026-04-03T07:58:49.972Z",
       "updatedAt": "2026-04-03T07:58:49.972Z"
+    },
+    {
+      "id": "811a3a43-d906-4d5f-9856-14b445341cda",
+      "personId": null,
+      "fullName": "MEHMET SALİH ÖNEN",
+      "category": null,
+      "job": "",
+      "entryDate": "2025-04-08",
+      "exitDate": "2026-03-19",
+      "totalDays": 345,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-04-03T14:16:24.719Z",
+      "updatedAt": "2026-04-03T14:16:24.719Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8088,6 +8101,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "b0fa10e0-bb7f-4fba-acc5-bc67f77ce10f",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "811a3a43-d906-4d5f-9856-14b445341cda",
+      "details": {
+        "departure": {
+          "id": "811a3a43-d906-4d5f-9856-14b445341cda",
+          "personId": null,
+          "fullName": "MEHMET SALİH ÖNEN",
+          "category": null,
+          "job": "",
+          "entryDate": "2025-04-08",
+          "exitDate": "2026-03-19",
+          "totalDays": 345,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T14:16:24.719Z",
+          "updatedAt": "2026-04-03T14:16:24.719Z"
+        }
+      },
+      "timestamp": "2026-04-03T14:16:24.719Z",
+      "adminSession": "79d32403-11ed-493e-90fd-f443918ea613"
+    },
     {
       "id": "ce7b78f8-4b5c-4c98-9693-c843fb13edd4",
       "action": "CREATE",
