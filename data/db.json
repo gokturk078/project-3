@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:09:40.257Z"
+    "lastUpdated": "2026-04-08T08:41:41.294Z"
   },
   "taxonomy": {
     "categories": [
@@ -6081,6 +6081,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-03T10:30:35.620Z",
       "updatedAt": "2026-04-03T10:30:35.620Z"
+    },
+    {
+      "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+      "baseKey": "AZİZ İLTER",
+      "fullName": "AZİZ İLTER",
+      "normalizedName": "AZİZ İLTER",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-08T08:41:41.294Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-08T08:41:41.294Z",
+      "updatedAt": "2026-04-08T08:41:41.294Z"
     }
   ],
   "leaves": [
@@ -8114,6 +8134,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "568efa0d-6d64-4f8d-9c0b-0dfb41e531ab",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+      "details": {
+        "person": {
+          "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+          "baseKey": "AZİZ İLTER",
+          "fullName": "AZİZ İLTER",
+          "normalizedName": "AZİZ İLTER",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-08T08:41:41.294Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-08T08:41:41.294Z",
+          "updatedAt": "2026-04-08T08:41:41.294Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:41:41.294Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "1423f318-dad8-4854-93c5-94798e8f80e2",
       "action": "UPDATE",
