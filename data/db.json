@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:05:18.634Z"
+    "lastUpdated": "2026-04-08T08:05:42.711Z"
   },
   "taxonomy": {
     "categories": [
@@ -6674,10 +6674,10 @@
       "profession": "inşaat işçisi",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-03-09",
-      "contactPerson": "NEŞAT",
+      "contactPerson": "iptal gelmiycek",
       "notes": "",
       "createdAt": "2026-03-09T09:36:31.091Z",
-      "updatedAt": "2026-03-09T09:36:31.091Z"
+      "updatedAt": "2026-04-08T08:05:42.711Z"
     },
     {
       "id": "1685fc27-bc29-4a72-ac6f-a5c9682cb59a",
@@ -8114,6 +8114,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "7a13572d-beb1-47d5-9898-0a817583c155",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "bbbf3925-0ab0-4f7e-8732-cad4b1ce80ea",
+      "details": {
+        "before": {
+          "id": "bbbf3925-0ab0-4f7e-8732-cad4b1ce80ea",
+          "personId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
+          "applicationNo": "123540/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-09",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-03-09T09:36:31.091Z",
+          "updatedAt": "2026-03-09T09:36:31.091Z"
+        },
+        "after": {
+          "id": "bbbf3925-0ab0-4f7e-8732-cad4b1ce80ea",
+          "personId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
+          "applicationNo": "123540/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-09",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-03-09T09:36:31.091Z",
+          "updatedAt": "2026-04-08T08:05:42.711Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:05:42.711Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "27c745c2-4252-49bf-a4d5-1ec45eb82fe8",
       "action": "UPDATE",
