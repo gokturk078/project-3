@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:08:42.876Z"
+    "lastUpdated": "2026-04-08T08:08:55.648Z"
   },
   "taxonomy": {
     "categories": [
@@ -6997,11 +6997,11 @@
       "applicationNo": "126231/2026",
       "profession": "",
       "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
-      "contactPerson": "KALMES",
+      "expectedDate": "",
+      "contactPerson": "iptal gelmiycek",
       "notes": "",
       "createdAt": "2026-04-03T10:32:28.881Z",
-      "updatedAt": "2026-04-03T10:32:28.881Z"
+      "updatedAt": "2026-04-08T08:08:55.648Z"
     },
     {
       "id": "a417f3c9-8405-4b0d-a0de-078b5ed35725",
@@ -8114,6 +8114,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "af163713-2300-45cb-a42b-c07ffa56b0db",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "c4f8f768-f69d-4efc-a889-26154798a853",
+      "details": {
+        "before": {
+          "id": "c4f8f768-f69d-4efc-a889-26154798a853",
+          "personId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
+          "applicationNo": "126231/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-04-03T10:32:28.881Z",
+          "updatedAt": "2026-04-03T10:32:28.881Z"
+        },
+        "after": {
+          "id": "c4f8f768-f69d-4efc-a889-26154798a853",
+          "personId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
+          "applicationNo": "126231/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-04-03T10:32:28.881Z",
+          "updatedAt": "2026-04-08T08:08:55.648Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:08:55.648Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "27449a97-26c7-437e-9c32-d412239e8620",
       "action": "UPDATE",
