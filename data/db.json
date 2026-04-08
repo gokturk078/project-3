@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:50:25.870Z"
+    "lastUpdated": "2026-04-08T10:45:38.670Z"
   },
   "taxonomy": {
     "categories": [
@@ -4534,7 +4534,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "departed",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4543,7 +4543,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-22T09:06:36.391Z",
-      "updatedAt": "2026-01-30T08:22:33.865Z",
+      "updatedAt": "2026-04-08T10:45:38.670Z",
       "jobTitle": null
     },
     {
@@ -8098,6 +8098,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "ceaaab22-04a1-4c99-bb16-9b9d8dc24d68",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
+      "details": {
+        "before": {
+          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
+          "baseKey": "BURAK ERDEM",
+          "fullName": "BURAK ERDEM",
+          "normalizedName": "BURAK ERDEM",
+          "category": "CAPRA",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-22T09:06:36.391Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-22T09:06:36.391Z",
+          "updatedAt": "2026-01-30T08:22:33.865Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
+          "baseKey": "BURAK ERDEM",
+          "fullName": "BURAK ERDEM",
+          "normalizedName": "BURAK ERDEM",
+          "category": "CAPRA",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-22T09:06:36.391Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-22T09:06:36.391Z",
+          "updatedAt": "2026-04-08T10:45:38.670Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-08T10:45:38.670Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "6b0157e7-5ef7-4cd9-ada0-2c541fb4f0c7",
       "action": "UPDATE",
