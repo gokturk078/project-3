@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:09:09.686Z"
+    "lastUpdated": "2026-04-08T08:09:40.257Z"
   },
   "taxonomy": {
     "categories": [
@@ -7045,11 +7045,11 @@
       "applicationNo": "126214/2026",
       "profession": "",
       "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
-      "contactPerson": "KALMES",
+      "expectedDate": "",
+      "contactPerson": "iptal gelmiycek",
       "notes": "",
       "createdAt": "2026-04-03T10:35:58.603Z",
-      "updatedAt": "2026-04-03T10:35:58.603Z"
+      "updatedAt": "2026-04-08T08:09:40.257Z"
     }
   ],
   "departures": [
@@ -8114,6 +8114,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "1423f318-dad8-4854-93c5-94798e8f80e2",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "518738dd-6ab3-4d77-96e9-387f44a2236e",
+      "details": {
+        "before": {
+          "id": "518738dd-6ab3-4d77-96e9-387f44a2236e",
+          "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+          "applicationNo": "126214/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-04-03T10:35:58.603Z",
+          "updatedAt": "2026-04-03T10:35:58.603Z"
+        },
+        "after": {
+          "id": "518738dd-6ab3-4d77-96e9-387f44a2236e",
+          "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+          "applicationNo": "126214/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-04-03T10:35:58.603Z",
+          "updatedAt": "2026-04-08T08:09:40.257Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:09:40.257Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "30b2f5e4-a5b3-4a4b-afd3-1c6947c99bbc",
       "action": "UPDATE",
