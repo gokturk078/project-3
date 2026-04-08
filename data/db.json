@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:47:49.299Z"
+    "lastUpdated": "2026-04-08T08:50:25.870Z"
   },
   "taxonomy": {
     "categories": [
@@ -6884,12 +6884,12 @@
       "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
       "applicationNo": "156339",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "DURUŞ YAPILACAK",
       "notes": "",
       "createdAt": "2026-03-26T06:56:40.533Z",
-      "updatedAt": "2026-04-08T08:44:29.472Z"
+      "updatedAt": "2026-04-08T08:50:25.870Z"
     },
     {
       "id": "35f5a88a-67ed-4d00-ab67-4c6c8436c74c",
@@ -8098,6 +8098,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "6b0157e7-5ef7-4cd9-ada0-2c541fb4f0c7",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "9fe96ce5-ce97-4964-bb32-0922a1c4a4aa",
+      "details": {
+        "before": {
+          "id": "9fe96ce5-ce97-4964-bb32-0922a1c4a4aa",
+          "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
+          "applicationNo": "156339",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "DURUŞ YAPILACAK",
+          "notes": "",
+          "createdAt": "2026-03-26T06:56:40.533Z",
+          "updatedAt": "2026-04-08T08:44:29.472Z"
+        },
+        "after": {
+          "id": "9fe96ce5-ce97-4964-bb32-0922a1c4a4aa",
+          "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
+          "applicationNo": "156339",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "DURUŞ YAPILACAK",
+          "notes": "",
+          "createdAt": "2026-03-26T06:56:40.533Z",
+          "updatedAt": "2026-04-08T08:50:25.870Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:50:25.870Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "59c6db08-d8e1-454c-b4a7-1e9c91446d7a",
       "action": "UPDATE",
