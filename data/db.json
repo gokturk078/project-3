@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:43:36.831Z"
+    "lastUpdated": "2026-04-08T08:43:41.080Z"
   },
   "taxonomy": {
     "categories": [
@@ -6700,18 +6700,6 @@
       "updatedAt": "2026-04-08T08:06:06.723Z"
     },
     {
-      "id": "8ab7eb75-299f-4209-b153-41bfc6bd8a2e",
-      "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
-      "applicationNo": "124574/2026",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "2026-03-17",
-      "contactPerson": "İSG",
-      "notes": "",
-      "createdAt": "2026-03-17T15:20:37.991Z",
-      "updatedAt": "2026-04-01T07:10:07.188Z"
-    },
-    {
       "id": "20f0e69a-7b6d-4320-9116-77fb6e4d1a04",
       "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
       "applicationNo": "124610/2026",
@@ -8110,6 +8098,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "0978e162-9c6f-41d1-ad45-97d479a15a86",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "8ab7eb75-299f-4209-b153-41bfc6bd8a2e",
+      "details": {
+        "tracking": {
+          "id": "8ab7eb75-299f-4209-b153-41bfc6bd8a2e",
+          "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+          "applicationNo": "124574/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-03-17",
+          "contactPerson": "İSG",
+          "notes": "",
+          "createdAt": "2026-03-17T15:20:37.991Z",
+          "updatedAt": "2026-04-01T07:10:07.188Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:43:41.080Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "90f87ef0-247c-4ccc-bdbb-f951421f0add",
       "action": "DELETE",
