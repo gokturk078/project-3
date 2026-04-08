@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:47:27.669Z"
+    "lastUpdated": "2026-04-08T08:47:49.299Z"
   },
   "taxonomy": {
     "categories": [
@@ -6766,10 +6766,10 @@
       "profession": "",
       "status": "ÖN İZNİ ONAYLANDI",
       "expectedDate": "2026-03-24",
-      "contactPerson": "KALMES",
+      "contactPerson": "İPTAL GELMEYECEK",
       "notes": "",
       "createdAt": "2026-03-24T11:41:29.411Z",
-      "updatedAt": "2026-03-24T11:41:29.411Z"
+      "updatedAt": "2026-04-08T08:47:49.299Z"
     },
     {
       "id": "2e629985-e8aa-42ed-b2fd-837aabf89e3c",
@@ -8098,6 +8098,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "59c6db08-d8e1-454c-b4a7-1e9c91446d7a",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "08c25776-b8d9-46ae-9b70-1f95a213c92b",
+      "details": {
+        "before": {
+          "id": "08c25776-b8d9-46ae-9b70-1f95a213c92b",
+          "personId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
+          "applicationNo": "125149/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-24",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-03-24T11:41:29.411Z",
+          "updatedAt": "2026-03-24T11:41:29.411Z"
+        },
+        "after": {
+          "id": "08c25776-b8d9-46ae-9b70-1f95a213c92b",
+          "personId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
+          "applicationNo": "125149/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-24",
+          "contactPerson": "İPTAL GELMEYECEK",
+          "notes": "",
+          "createdAt": "2026-03-24T11:41:29.411Z",
+          "updatedAt": "2026-04-08T08:47:49.299Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:47:49.299Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "08a86007-6c3f-4b41-a20f-096f5095f297",
       "action": "UPDATE",
