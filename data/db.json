@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:43:18.442Z"
+    "lastUpdated": "2026-04-08T08:43:28.121Z"
   },
   "taxonomy": {
     "categories": [
@@ -6688,18 +6688,6 @@
       "updatedAt": "2026-04-08T08:05:42.711Z"
     },
     {
-      "id": "1685fc27-bc29-4a72-ac6f-a5c9682cb59a",
-      "personId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
-      "applicationNo": "124679/2026",
-      "profession": "OFİS PERSONELİ",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "2026-03-17",
-      "contactPerson": "TALİP BEY",
-      "notes": "",
-      "createdAt": "2026-03-17T15:17:37.794Z",
-      "updatedAt": "2026-03-26T06:46:21.261Z"
-    },
-    {
       "id": "da5a1e9b-f0e8-4eb9-a00e-d91dfedba8b0",
       "personId": "9ceef985-955b-48a0-8466-aefc743db103",
       "applicationNo": "124602/2026",
@@ -8134,6 +8122,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "2a555f9a-4c2d-4943-b219-e500b6b559bc",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "1685fc27-bc29-4a72-ac6f-a5c9682cb59a",
+      "details": {
+        "tracking": {
+          "id": "1685fc27-bc29-4a72-ac6f-a5c9682cb59a",
+          "personId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+          "applicationNo": "124679/2026",
+          "profession": "OFİS PERSONELİ",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-03-17",
+          "contactPerson": "TALİP BEY",
+          "notes": "",
+          "createdAt": "2026-03-17T15:17:37.794Z",
+          "updatedAt": "2026-03-26T06:46:21.261Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:43:28.121Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "05320be5-7bbd-46cf-83d5-e0ae311c110f",
       "action": "DELETE",
