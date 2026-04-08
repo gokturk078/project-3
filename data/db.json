@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T08:43:28.121Z"
+    "lastUpdated": "2026-04-08T08:43:36.831Z"
   },
   "taxonomy": {
     "categories": [
@@ -6700,18 +6700,6 @@
       "updatedAt": "2026-04-08T08:06:06.723Z"
     },
     {
-      "id": "cdd4f788-68b3-407a-a369-9f1fcc01632a",
-      "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
-      "applicationNo": "124622/2026",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "2026-03-17",
-      "contactPerson": "KALMES",
-      "notes": "",
-      "createdAt": "2026-03-17T15:19:54.249Z",
-      "updatedAt": "2026-04-01T07:10:00.478Z"
-    },
-    {
       "id": "8ab7eb75-299f-4209-b153-41bfc6bd8a2e",
       "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
       "applicationNo": "124574/2026",
@@ -8122,6 +8110,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "90f87ef0-247c-4ccc-bdbb-f951421f0add",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "cdd4f788-68b3-407a-a369-9f1fcc01632a",
+      "details": {
+        "tracking": {
+          "id": "cdd4f788-68b3-407a-a369-9f1fcc01632a",
+          "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+          "applicationNo": "124622/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-03-17",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-03-17T15:19:54.249Z",
+          "updatedAt": "2026-04-01T07:10:00.478Z"
+        }
+      },
+      "timestamp": "2026-04-08T08:43:36.831Z",
+      "adminSession": "0845391e-02d3-4bb8-9bf3-d049af9f3640"
+    },
     {
       "id": "2a555f9a-4c2d-4943-b219-e500b6b559bc",
       "action": "DELETE",
