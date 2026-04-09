@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T06:22:47.141Z"
+    "lastUpdated": "2026-04-09T06:24:44.847Z"
   },
   "taxonomy": {
     "categories": [
@@ -5770,7 +5770,7 @@
       "role": "OFİS PERSONELİ",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5779,7 +5779,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-17T15:16:40.913Z",
-      "updatedAt": "2026-03-17T15:16:40.913Z"
+      "updatedAt": "2026-04-09T06:24:44.847Z",
+      "jobTitle": null
     },
     {
       "personId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
@@ -8074,6 +8075,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "5256aedf-b14e-470d-b457-c6e9fe9a339b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+      "details": {
+        "before": {
+          "personId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+          "baseKey": "SEVİM KÜÇÜKBİNGÖL",
+          "fullName": "SEVİM KÜÇÜKBİNGÖL",
+          "normalizedName": "SEVİM KÜÇÜKBİNGÖL",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T15:16:40.913Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T15:16:40.913Z",
+          "updatedAt": "2026-03-17T15:16:40.913Z"
+        },
+        "after": {
+          "personId": "86e3854c-56f9-49fe-a9e1-feabf353f921",
+          "baseKey": "SEVİM KÜÇÜKBİNGÖL",
+          "fullName": "SEVİM KÜÇÜKBİNGÖL",
+          "normalizedName": "SEVİM KÜÇÜKBİNGÖL",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T15:16:40.913Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T15:16:40.913Z",
+          "updatedAt": "2026-04-09T06:24:44.847Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-09T06:24:44.847Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "a4e3dc64-2f88-4fbd-b04e-a25cc28ee753",
       "action": "UPDATE",
