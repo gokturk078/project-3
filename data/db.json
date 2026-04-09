@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T08:19:38.472Z"
+    "lastUpdated": "2026-04-09T08:20:07.810Z"
   },
   "taxonomy": {
     "categories": [
@@ -5512,7 +5512,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5521,7 +5521,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-04T07:59:34.806Z",
-      "updatedAt": "2026-03-04T07:59:34.806Z"
+      "updatedAt": "2026-04-09T08:20:07.810Z",
+      "jobTitle": null
     },
     {
       "personId": "5f742c1c-6b8c-42f5-9b47-d76f5f7b0d9b",
@@ -8080,6 +8081,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "6972a604-7131-4df9-ba6a-40a265d468e4",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "1e975231-883a-4473-a16f-c0401a5a93e7",
+      "details": {
+        "before": {
+          "personId": "1e975231-883a-4473-a16f-c0401a5a93e7",
+          "baseKey": "BESTAMİ KARAYULUK",
+          "fullName": "BESTAMİ KARAYULUK",
+          "normalizedName": "BESTAMİ KARAYULUK",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:34.806Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:34.806Z",
+          "updatedAt": "2026-03-04T07:59:34.806Z"
+        },
+        "after": {
+          "personId": "1e975231-883a-4473-a16f-c0401a5a93e7",
+          "baseKey": "BESTAMİ KARAYULUK",
+          "fullName": "BESTAMİ KARAYULUK",
+          "normalizedName": "BESTAMİ KARAYULUK",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:34.806Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:34.806Z",
+          "updatedAt": "2026-04-09T08:20:07.810Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-09T08:20:07.810Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "27d440ea-17b1-4b05-8db4-78cfaca46bb1",
       "action": "UPDATE",
