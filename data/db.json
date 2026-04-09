@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T06:25:10.974Z"
+    "lastUpdated": "2026-04-09T06:25:40.279Z"
   },
   "taxonomy": {
     "categories": [
@@ -5750,7 +5750,7 @@
       "role": "İSG",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5759,7 +5759,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-17T15:00:47.185Z",
-      "updatedAt": "2026-03-17T15:02:19.617Z",
+      "updatedAt": "2026-04-09T06:25:40.279Z",
       "jobTitle": null
     },
     {
@@ -8076,6 +8076,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "7cd952ed-709d-402d-8cb3-11c8bc370f26",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+      "details": {
+        "before": {
+          "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+          "baseKey": "MÜNİR AYDIN ÇOLAK",
+          "fullName": "MÜNİR AYDIN ÇOLAK",
+          "normalizedName": "MÜNİR AYDIN ÇOLAK",
+          "category": "REPSAM",
+          "role": "İSG",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T15:00:47.185Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T15:00:47.185Z",
+          "updatedAt": "2026-03-17T15:02:19.617Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
+          "baseKey": "MÜNİR AYDIN ÇOLAK",
+          "fullName": "MÜNİR AYDIN ÇOLAK",
+          "normalizedName": "MÜNİR AYDIN ÇOLAK",
+          "category": "REPSAM",
+          "role": "İSG",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T15:00:47.185Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T15:00:47.185Z",
+          "updatedAt": "2026-04-09T06:25:40.279Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-09T06:25:40.279Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "d84e89d1-4cb7-4f59-82e9-1ad8a50c0d31",
       "action": "UPDATE",
