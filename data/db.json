@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-08T11:46:52.318Z"
+    "lastUpdated": "2026-04-09T06:20:52.548Z"
   },
   "taxonomy": {
     "categories": [
@@ -906,7 +906,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -915,7 +915,7 @@
       "mergedFrom": [],
       "personId": "3922e9e2-1f4c-4f11-a984-2bc3ab4c8d61",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-09T06:20:52.548Z"
     },
     {
       "fullName": "RAMAZAN ÇELİK",
@@ -8074,6 +8074,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "27cf8991-5de0-4e14-983c-726a76012474",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "3922e9e2-1f4c-4f11-a984-2bc3ab4c8d61",
+      "details": {
+        "before": {
+          "fullName": "ORHAN ÖZCAN",
+          "normalizedName": "ORHAN OZCAN",
+          "baseKey": "ORHAN OZCAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 43
+          },
+          "mergedFrom": [],
+          "personId": "3922e9e2-1f4c-4f11-a984-2bc3ab4c8d61",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "ORHAN ÖZCAN",
+          "normalizedName": "ORHAN OZCAN",
+          "baseKey": "ORHAN OZCAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 43
+          },
+          "mergedFrom": [],
+          "personId": "3922e9e2-1f4c-4f11-a984-2bc3ab4c8d61",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-09T06:20:52.548Z"
+        }
+      },
+      "timestamp": "2026-04-09T06:20:52.548Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "46f3b7b7-32b7-44b0-a7f0-cdcd6b022ae9",
       "action": "DELETE",
