@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T06:26:35.743Z"
+    "lastUpdated": "2026-04-09T06:26:52.961Z"
   },
   "taxonomy": {
     "categories": [
@@ -4786,7 +4786,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -4795,7 +4795,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:08:56.229Z",
-      "updatedAt": "2026-01-26T15:08:56.229Z"
+      "updatedAt": "2026-04-09T06:26:52.961Z",
+      "jobTitle": null
     },
     {
       "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
@@ -8078,6 +8079,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "fcfb4875-6c66-4f90-ad4d-b1282619a99d",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
+      "details": {
+        "before": {
+          "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
+          "baseKey": "ŞÜKRÜ AL",
+          "fullName": "ŞÜKRÜ AL",
+          "normalizedName": "ŞÜKRÜ AL",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:56.229Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:56.229Z",
+          "updatedAt": "2026-01-26T15:08:56.229Z"
+        },
+        "after": {
+          "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
+          "baseKey": "ŞÜKRÜ AL",
+          "fullName": "ŞÜKRÜ AL",
+          "normalizedName": "ŞÜKRÜ AL",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:56.229Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:56.229Z",
+          "updatedAt": "2026-04-09T06:26:52.961Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-09T06:26:52.961Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "b4c0def9-22c9-4d22-b7f1-8bac9c37a352",
       "action": "UPDATE",
