@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T06:25:57.645Z"
+    "lastUpdated": "2026-04-09T06:26:16.329Z"
   },
   "taxonomy": {
     "categories": [
@@ -5549,7 +5549,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5558,7 +5558,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-04T08:00:17.133Z",
-      "updatedAt": "2026-03-04T08:00:17.133Z"
+      "updatedAt": "2026-04-09T06:26:16.329Z",
+      "jobTitle": null
     },
     {
       "personId": "9cf42ffb-0ef6-475b-ac9e-d064feafff1e",
@@ -8076,6 +8077,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "962b4b1f-c4ff-425b-8594-91ef64df958a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ef96428d-4f10-4b3f-b840-c57dbf0bb014",
+      "details": {
+        "before": {
+          "personId": "ef96428d-4f10-4b3f-b840-c57dbf0bb014",
+          "baseKey": "REZZAN KAYA",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T08:00:17.133Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T08:00:17.133Z",
+          "updatedAt": "2026-03-04T08:00:17.133Z"
+        },
+        "after": {
+          "personId": "ef96428d-4f10-4b3f-b840-c57dbf0bb014",
+          "baseKey": "REZZAN KAYA",
+          "fullName": "REZZAN KAYA",
+          "normalizedName": "REZZAN KAYA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T08:00:17.133Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T08:00:17.133Z",
+          "updatedAt": "2026-04-09T06:26:16.329Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-09T06:26:16.329Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "fa030dcc-050a-46cd-83ca-1d4d8da50244",
       "action": "UPDATE",
