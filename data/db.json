@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T06:26:16.329Z"
+    "lastUpdated": "2026-04-09T06:26:35.743Z"
   },
   "taxonomy": {
     "categories": [
@@ -5326,7 +5326,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5335,7 +5335,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:29:24.744Z",
-      "updatedAt": "2026-03-03T09:29:24.744Z"
+      "updatedAt": "2026-04-09T06:26:35.743Z",
+      "jobTitle": null
     },
     {
       "personId": "51892e26-f824-4885-be71-a11f6d5103c3",
@@ -8077,6 +8078,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "b4c0def9-22c9-4d22-b7f1-8bac9c37a352",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "e99b037f-445e-4bed-a838-eddf21fac638",
+      "details": {
+        "before": {
+          "personId": "e99b037f-445e-4bed-a838-eddf21fac638",
+          "baseKey": "ZEYNEL SULTAN",
+          "fullName": "zeynel sultan",
+          "normalizedName": "ZEYNEL SULTAN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:29:24.744Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:29:24.744Z",
+          "updatedAt": "2026-03-03T09:29:24.744Z"
+        },
+        "after": {
+          "personId": "e99b037f-445e-4bed-a838-eddf21fac638",
+          "baseKey": "ZEYNEL SULTAN",
+          "fullName": "zeynel sultan",
+          "normalizedName": "ZEYNEL SULTAN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:29:24.744Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:29:24.744Z",
+          "updatedAt": "2026-04-09T06:26:35.743Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-09T06:26:35.743Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "962b4b1f-c4ff-425b-8594-91ef64df958a",
       "action": "UPDATE",
