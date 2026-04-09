@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T08:20:07.810Z"
+    "lastUpdated": "2026-04-09T08:20:21.364Z"
   },
   "taxonomy": {
     "categories": [
@@ -5533,7 +5533,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5542,7 +5542,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-04T07:59:57.002Z",
-      "updatedAt": "2026-03-04T07:59:57.002Z"
+      "updatedAt": "2026-04-09T08:20:21.364Z",
+      "jobTitle": null
     },
     {
       "personId": "ef96428d-4f10-4b3f-b840-c57dbf0bb014",
@@ -8081,6 +8082,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "3181c9ea-ffdc-4f29-8089-64808c46bf4b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "5f742c1c-6b8c-42f5-9b47-d76f5f7b0d9b",
+      "details": {
+        "before": {
+          "personId": "5f742c1c-6b8c-42f5-9b47-d76f5f7b0d9b",
+          "baseKey": "VEYSEL AKDEMİR",
+          "fullName": "VEYSEL AKDEMİR",
+          "normalizedName": "VEYSEL AKDEMİR",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:57.002Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:57.002Z",
+          "updatedAt": "2026-03-04T07:59:57.002Z"
+        },
+        "after": {
+          "personId": "5f742c1c-6b8c-42f5-9b47-d76f5f7b0d9b",
+          "baseKey": "VEYSEL AKDEMİR",
+          "fullName": "VEYSEL AKDEMİR",
+          "normalizedName": "VEYSEL AKDEMİR",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:57.002Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:57.002Z",
+          "updatedAt": "2026-04-09T08:20:21.364Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-09T08:20:21.364Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "6972a604-7131-4df9-ba6a-40a265d468e4",
       "action": "UPDATE",
