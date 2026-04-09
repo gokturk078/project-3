@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T06:24:44.847Z"
+    "lastUpdated": "2026-04-09T06:25:10.974Z"
   },
   "taxonomy": {
     "categories": [
@@ -5689,7 +5689,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5698,7 +5698,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-17T12:35:47.315Z",
-      "updatedAt": "2026-03-17T12:35:47.315Z"
+      "updatedAt": "2026-04-09T06:25:10.973Z",
+      "jobTitle": null
     },
     {
       "personId": "9ceef985-955b-48a0-8466-aefc743db103",
@@ -8075,6 +8076,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "d84e89d1-4cb7-4f59-82e9-1ad8a50c0d31",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+      "details": {
+        "before": {
+          "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+          "baseKey": "BAKİ CİVELEK",
+          "fullName": "BAKİ CİVELEK",
+          "normalizedName": "BAKİ CİVELEK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:35:47.315Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:35:47.315Z",
+          "updatedAt": "2026-03-17T12:35:47.315Z"
+        },
+        "after": {
+          "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+          "baseKey": "BAKİ CİVELEK",
+          "fullName": "BAKİ CİVELEK",
+          "normalizedName": "BAKİ CİVELEK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:35:47.315Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:35:47.315Z",
+          "updatedAt": "2026-04-09T06:25:10.973Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-09T06:25:10.973Z",
+      "adminSession": "9d74dc80-17fd-441c-a4fa-91601920c92a"
+    },
     {
       "id": "5256aedf-b14e-470d-b457-c6e9fe9a339b",
       "action": "UPDATE",
