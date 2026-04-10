@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-09T08:20:44.668Z"
+    "lastUpdated": "2026-04-10T11:42:27.177Z"
   },
   "taxonomy": {
     "categories": [
@@ -6976,12 +6976,12 @@
       "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
       "applicationNo": "",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "",
       "notes": "",
       "createdAt": "2026-04-08T08:42:21.057Z",
-      "updatedAt": "2026-04-08T08:42:21.057Z"
+      "updatedAt": "2026-04-10T11:42:27.177Z"
     }
   ],
   "departures": [
@@ -8046,6 +8046,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "be7ea0d3-9cb0-48e7-b66c-04db71de8be9",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
+      "details": {
+        "before": {
+          "id": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
+          "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-08T08:42:21.057Z",
+          "updatedAt": "2026-04-08T08:42:21.057Z"
+        },
+        "after": {
+          "id": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
+          "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-08T08:42:21.057Z",
+          "updatedAt": "2026-04-10T11:42:27.177Z"
+        }
+      },
+      "timestamp": "2026-04-10T11:42:27.177Z",
+      "adminSession": "e7aeb35a-2719-4164-aa51-87f86c001f73"
+    },
     {
       "id": "197520c9-158e-43fe-b0ac-2b5841da6f9c",
       "action": "DELETE",
