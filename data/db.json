@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-13T15:09:35.937Z"
+    "lastUpdated": "2026-04-13T15:09:47.244Z"
   },
   "taxonomy": {
     "categories": [
@@ -6892,12 +6892,12 @@
       "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "",
       "notes": "",
       "createdAt": "2026-04-08T08:42:21.057Z",
-      "updatedAt": "2026-04-10T11:42:27.177Z"
+      "updatedAt": "2026-04-13T15:09:47.244Z"
     }
   ],
   "departures": [
@@ -7962,6 +7962,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "ab6f5e00-cf37-4860-8c3a-acad62e1adaa",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
+      "details": {
+        "before": {
+          "id": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
+          "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-08T08:42:21.057Z",
+          "updatedAt": "2026-04-10T11:42:27.177Z"
+        },
+        "after": {
+          "id": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
+          "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-08T08:42:21.057Z",
+          "updatedAt": "2026-04-13T15:09:47.244Z"
+        }
+      },
+      "timestamp": "2026-04-13T15:09:47.244Z",
+      "adminSession": "ef760a10-42b5-486a-b95b-adcfb10170ed"
+    },
     {
       "id": "c6771b64-6a55-4b5a-90c7-504a08efa081",
       "action": "UPDATE",
