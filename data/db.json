@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-10T11:42:27.177Z"
+    "lastUpdated": "2026-04-13T07:04:44.947Z"
   },
   "taxonomy": {
     "categories": [
@@ -6504,18 +6504,6 @@
   ],
   "tracking": [
     {
-      "id": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
-      "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
-      "applicationNo": "122898/2026",
-      "profession": "İSG",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-01-27",
-      "contactPerson": "İSG",
-      "notes": "",
-      "createdAt": "2026-02-27T08:20:53.142Z",
-      "updatedAt": "2026-03-24T11:31:58.643Z"
-    },
-    {
       "id": "2ce53afc-bfe7-4d9c-b5d3-8af544f51597",
       "personId": "f7236f88-c90e-44ab-b752-b5c1d8a4a28d",
       "applicationNo": "122900/2026",
@@ -8046,6 +8034,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "fb2d0ff2-be72-49f8-907d-63a2b3e4a091",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
+      "details": {
+        "tracking": {
+          "id": "ec76bf11-c4de-4870-98ae-935ce49e1b6e",
+          "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+          "applicationNo": "122898/2026",
+          "profession": "İSG",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-01-27",
+          "contactPerson": "İSG",
+          "notes": "",
+          "createdAt": "2026-02-27T08:20:53.142Z",
+          "updatedAt": "2026-03-24T11:31:58.643Z"
+        }
+      },
+      "timestamp": "2026-04-13T07:04:44.946Z",
+      "adminSession": "ef760a10-42b5-486a-b95b-adcfb10170ed"
+    },
     {
       "id": "be7ea0d3-9cb0-48e7-b66c-04db71de8be9",
       "action": "UPDATE",
