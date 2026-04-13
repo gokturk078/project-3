@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-13T07:05:41.069Z"
+    "lastUpdated": "2026-04-13T07:05:53.081Z"
   },
   "taxonomy": {
     "categories": [
@@ -6720,18 +6720,6 @@
       "updatedAt": "2026-03-26T06:53:47.245Z"
     },
     {
-      "id": "b9943587-5b81-47bc-8f95-74aef3509936",
-      "personId": "88071a00-74de-47aa-ae5c-998946cdf3a4",
-      "applicationNo": "156320",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-03-26T06:54:33.017Z",
-      "updatedAt": "2026-04-01T07:10:45.385Z"
-    },
-    {
       "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
       "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
       "applicationNo": "155849",
@@ -7986,6 +7974,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "2c55ef09-4aa4-49a2-9d4e-4e8fe686c86e",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "b9943587-5b81-47bc-8f95-74aef3509936",
+      "details": {
+        "tracking": {
+          "id": "b9943587-5b81-47bc-8f95-74aef3509936",
+          "personId": "88071a00-74de-47aa-ae5c-998946cdf3a4",
+          "applicationNo": "156320",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:54:33.017Z",
+          "updatedAt": "2026-04-01T07:10:45.385Z"
+        }
+      },
+      "timestamp": "2026-04-13T07:05:53.081Z",
+      "adminSession": "ef760a10-42b5-486a-b95b-adcfb10170ed"
+    },
     {
       "id": "1cbdd95f-dd81-40e3-a364-d130d0d4263b",
       "action": "DELETE",
