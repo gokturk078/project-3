@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:53:14.527Z"
+    "lastUpdated": "2026-04-15T12:53:18.355Z"
   },
   "taxonomy": {
     "categories": [
@@ -6588,18 +6588,6 @@
       "updatedAt": "2026-04-08T08:47:07.589Z"
     },
     {
-      "id": "03e36c8a-308e-4870-a267-0d08f63c4093",
-      "personId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
-      "applicationNo": "125115/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-03-24",
-      "contactPerson": "iptal gelmiycek",
-      "notes": "",
-      "createdAt": "2026-03-24T11:39:22.896Z",
-      "updatedAt": "2026-04-08T08:06:47.285Z"
-    },
-    {
       "id": "b9bba7a9-c6ee-4624-bb44-cee4f54f98f1",
       "personId": "bd01d5b7-e367-4ca6-9a75-5ed93bc42bc6",
       "applicationNo": "125120/2026",
@@ -7902,6 +7890,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "19d542cb-8f80-4cf3-8245-9ee97b9fb5e6",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "03e36c8a-308e-4870-a267-0d08f63c4093",
+      "details": {
+        "tracking": {
+          "id": "03e36c8a-308e-4870-a267-0d08f63c4093",
+          "personId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
+          "applicationNo": "125115/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-24",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-03-24T11:39:22.896Z",
+          "updatedAt": "2026-04-08T08:06:47.285Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:53:18.355Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "808f3827-577e-42a0-a7e8-ff41ded88ac8",
       "action": "DELETE",
