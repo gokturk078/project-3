@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:53:30.319Z"
+    "lastUpdated": "2026-04-15T12:54:09.268Z"
   },
   "taxonomy": {
     "categories": [
@@ -6648,18 +6648,6 @@
       "updatedAt": "2026-04-13T15:09:19.419Z"
     },
     {
-      "id": "9fe96ce5-ce97-4964-bb32-0922a1c4a4aa",
-      "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
-      "applicationNo": "156339",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "DURUŞ YAPILACAK",
-      "notes": "",
-      "createdAt": "2026-03-26T06:56:40.533Z",
-      "updatedAt": "2026-04-08T08:50:25.870Z"
-    },
-    {
       "id": "3e8daa41-72b3-4a50-9f9a-1d14aedb6743",
       "personId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
       "applicationNo": "125830/2026",
@@ -7854,6 +7842,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "51801770-ee13-4309-8241-5158d20f4fc5",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "9fe96ce5-ce97-4964-bb32-0922a1c4a4aa",
+      "details": {
+        "tracking": {
+          "id": "9fe96ce5-ce97-4964-bb32-0922a1c4a4aa",
+          "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
+          "applicationNo": "156339",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "DURUŞ YAPILACAK",
+          "notes": "",
+          "createdAt": "2026-03-26T06:56:40.533Z",
+          "updatedAt": "2026-04-08T08:50:25.870Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:54:09.268Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "d48bd378-c4ca-423d-b0ac-db495dce7a9e",
       "action": "DELETE",
@@ -42200,56 +42210,6 @@
       },
       "timestamp": "2026-01-05T13:25:39.199Z",
       "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
-    },
-    {
-      "id": "2d295678-096c-46fe-8da7-17f399a9a07b",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
-      "details": {
-        "before": {
-          "fullName": "FERİT KAHRİMAN",
-          "normalizedName": "FERIT KAHRIMAN",
-          "baseKey": "FERIT KAHRIMAN",
-          "category": "REPSAM",
-          "role": "MÜHENDİS",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 20
-          },
-          "mergedFrom": [],
-          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T13:17:38.611Z"
-        },
-        "after": {
-          "fullName": "FERİT KAHRİMAN",
-          "normalizedName": "FERIT KAHRIMAN",
-          "baseKey": "FERIT KAHRIMAN",
-          "category": "REPSAM",
-          "role": "MÜHENDİS",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 20
-          },
-          "mergedFrom": [],
-          "personId": "44606265-2c14-47ff-8d63-b93eea8a18a9",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T13:17:42.324Z"
-        }
-      },
-      "timestamp": "2026-01-05T13:17:42.324Z",
-      "adminSession": "3a91e54d-07f0-48bb-a64c-e215e32c2d3b"
     }
   ]
 }
