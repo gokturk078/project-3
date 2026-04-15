@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:54:44.117Z"
+    "lastUpdated": "2026-04-15T12:55:01.109Z"
   },
   "taxonomy": {
     "categories": [
@@ -6696,18 +6696,6 @@
       "updatedAt": "2026-04-03T10:35:26.366Z"
     },
     {
-      "id": "518738dd-6ab3-4d77-96e9-387f44a2236e",
-      "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
-      "applicationNo": "126214/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "",
-      "contactPerson": "iptal gelmiycek",
-      "notes": "",
-      "createdAt": "2026-04-03T10:35:58.603Z",
-      "updatedAt": "2026-04-08T08:09:40.257Z"
-    },
-    {
       "id": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
       "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
       "applicationNo": "",
@@ -7782,6 +7770,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "08c08919-3204-4999-8cf1-2123050b1232",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "518738dd-6ab3-4d77-96e9-387f44a2236e",
+      "details": {
+        "tracking": {
+          "id": "518738dd-6ab3-4d77-96e9-387f44a2236e",
+          "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+          "applicationNo": "126214/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-04-03T10:35:58.603Z",
+          "updatedAt": "2026-04-08T08:09:40.257Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:55:01.109Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "d124f146-2334-4713-a432-d85ed79b1e85",
       "action": "DELETE",
@@ -41979,36 +41989,6 @@
         }
       },
       "timestamp": "2026-01-05T19:09:50.666Z",
-      "adminSession": "550e79c9-6090-4ba9-9f9b-278cab9f1d05"
-    },
-    {
-      "id": "78181d08-1cbc-4ef2-8fd4-415ec54e5e1e",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "37b34272-736f-453f-ab71-fa68dd1a5e87",
-      "details": {
-        "person": {
-          "personId": "37b34272-736f-453f-ab71-fa68dd1a5e87",
-          "baseKey": "ALI ULMASOV",
-          "fullName": "ali ulmasov",
-          "normalizedName": "ALI ULMASOV",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-05T19:09:34.218Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-05T19:09:34.218Z",
-          "updatedAt": "2026-01-05T19:09:34.218Z"
-        }
-      },
-      "timestamp": "2026-01-05T19:09:34.218Z",
       "adminSession": "550e79c9-6090-4ba9-9f9b-278cab9f1d05"
     }
   ]
