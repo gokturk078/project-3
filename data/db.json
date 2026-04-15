@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:52:59.030Z"
+    "lastUpdated": "2026-04-15T12:53:03.972Z"
   },
   "taxonomy": {
     "categories": [
@@ -6576,18 +6576,6 @@
       "updatedAt": "2026-04-15T12:52:59.030Z"
     },
     {
-      "id": "bbbf3925-0ab0-4f7e-8732-cad4b1ce80ea",
-      "personId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
-      "applicationNo": "123540/2026",
-      "profession": "inşaat işçisi",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-03-09",
-      "contactPerson": "iptal gelmiycek",
-      "notes": "",
-      "createdAt": "2026-03-09T09:36:31.091Z",
-      "updatedAt": "2026-04-08T08:05:42.711Z"
-    },
-    {
       "id": "da5a1e9b-f0e8-4eb9-a00e-d91dfedba8b0",
       "personId": "9ceef985-955b-48a0-8466-aefc743db103",
       "applicationNo": "124602/2026",
@@ -7938,6 +7926,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "cdfb98ab-669e-4381-9943-fc066e76015f",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "bbbf3925-0ab0-4f7e-8732-cad4b1ce80ea",
+      "details": {
+        "tracking": {
+          "id": "bbbf3925-0ab0-4f7e-8732-cad4b1ce80ea",
+          "personId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
+          "applicationNo": "123540/2026",
+          "profession": "inşaat işçisi",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-09",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-03-09T09:36:31.091Z",
+          "updatedAt": "2026-04-08T08:05:42.711Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:53:03.972Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "d03a43f8-3927-4f5a-95c4-77b639c9549e",
       "action": "UPDATE",
