@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T13:42:06.131Z"
+    "lastUpdated": "2026-04-15T13:42:47.408Z"
   },
   "taxonomy": {
     "categories": [
@@ -6727,6 +6727,18 @@
       "notes": "",
       "createdAt": "2026-04-08T08:42:21.057Z",
       "updatedAt": "2026-04-13T15:09:47.244Z"
+    },
+    {
+      "id": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
+      "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+      "applicationNo": "126778/2026",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": null,
+      "contactPerson": "",
+      "notes": "",
+      "createdAt": "2026-04-15T13:42:47.408Z",
+      "updatedAt": "2026-04-15T13:42:47.408Z"
     }
   ],
   "departures": [
@@ -7791,6 +7803,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "8b58ed4e-ec1a-4ffe-846f-c092d596832f",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
+      "details": {
+        "tracking": {
+          "id": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
+          "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+          "applicationNo": "126778/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": null,
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-15T13:42:47.408Z",
+          "updatedAt": "2026-04-15T13:42:47.408Z"
+        }
+      },
+      "timestamp": "2026-04-15T13:42:47.408Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "09dde9ac-c496-46b4-8e7e-38550e53e6df",
       "action": "UPDATE",
@@ -42001,36 +42035,6 @@
         }
       },
       "timestamp": "2026-01-05T19:41:25.863Z",
-      "adminSession": "a3732936-caf6-4029-a888-de603ebf0763"
-    },
-    {
-      "id": "cbf0ec74-0303-4f1e-8965-d36eb27487f6",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "74f0df13-1be3-45f9-b79b-9a8214355867",
-      "details": {
-        "person": {
-          "personId": "74f0df13-1be3-45f9-b79b-9a8214355867",
-          "baseKey": "ALI ULMASOV",
-          "fullName": "ali Ulmasov",
-          "normalizedName": "ALI ULMASOV",
-          "category": null,
-          "role": null,
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-05T19:39:38.596Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-05T19:39:38.596Z",
-          "updatedAt": "2026-01-05T19:39:38.596Z"
-        }
-      },
-      "timestamp": "2026-01-05T19:40:06.447Z",
       "adminSession": "a3732936-caf6-4029-a888-de603ebf0763"
     }
   ]
