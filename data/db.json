@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:55:01.109Z"
+    "lastUpdated": "2026-04-15T13:41:09.750Z"
   },
   "taxonomy": {
     "categories": [
@@ -6109,6 +6109,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-08T08:41:41.294Z",
       "updatedAt": "2026-04-08T08:41:41.294Z"
+    },
+    {
+      "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+      "baseKey": "SEDAT ŞEREBET",
+      "fullName": "SEDAT ŞEREBET",
+      "normalizedName": "SEDAT ŞEREBET",
+      "category": null,
+      "role": null,
+      "needsReview": true,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-15T13:41:09.750Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-15T13:41:09.750Z",
+      "updatedAt": "2026-04-15T13:41:09.750Z"
     }
   ],
   "leaves": [
@@ -7770,6 +7790,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ed4759c7-3794-45b9-bb86-ad9488231719",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+      "details": {
+        "person": {
+          "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+          "baseKey": "SEDAT ŞEREBET",
+          "fullName": "SEDAT ŞEREBET",
+          "normalizedName": "SEDAT ŞEREBET",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-15T13:41:09.750Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-15T13:41:09.750Z",
+          "updatedAt": "2026-04-15T13:41:09.750Z"
+        }
+      },
+      "timestamp": "2026-04-15T13:41:09.750Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "08c08919-3204-4999-8cf1-2123050b1232",
       "action": "DELETE",
@@ -41960,36 +42010,6 @@
       },
       "timestamp": "2026-01-05T19:39:38.596Z",
       "adminSession": "a3732936-caf6-4029-a888-de603ebf0763"
-    },
-    {
-      "id": "15dc04a4-a23b-465f-b988-61ae73bf23ce",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "37b34272-736f-453f-ab71-fa68dd1a5e87",
-      "details": {
-        "person": {
-          "personId": "37b34272-736f-453f-ab71-fa68dd1a5e87",
-          "baseKey": "ALI ULMASOV",
-          "fullName": "ali ulmasov",
-          "normalizedName": "ALI ULMASOV",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-05T19:09:34.218Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-05T19:09:34.218Z",
-          "updatedAt": "2026-01-05T19:09:34.218Z"
-        }
-      },
-      "timestamp": "2026-01-05T19:09:50.666Z",
-      "adminSession": "550e79c9-6090-4ba9-9f9b-278cab9f1d05"
     }
   ]
 }
