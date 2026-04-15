@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T13:43:43.506Z"
+    "lastUpdated": "2026-04-15T13:44:51.210Z"
   },
   "taxonomy": {
     "categories": [
@@ -6771,6 +6771,18 @@
       "notes": "",
       "createdAt": "2026-04-15T13:43:20.944Z",
       "updatedAt": "2026-04-15T13:43:20.944Z"
+    },
+    {
+      "id": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
+      "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+      "applicationNo": "",
+      "profession": "TEMİNAT YATIRILACAK",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "",
+      "notes": "",
+      "createdAt": "2026-04-15T13:44:51.209Z",
+      "updatedAt": "2026-04-15T13:44:51.209Z"
     }
   ],
   "departures": [
@@ -7835,6 +7847,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "a1578ea5-175c-41a1-b216-c415d4220e77",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
+      "details": {
+        "tracking": {
+          "id": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
+          "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+          "applicationNo": "",
+          "profession": "TEMİNAT YATIRILACAK",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-15T13:44:51.209Z",
+          "updatedAt": "2026-04-15T13:44:51.209Z"
+        }
+      },
+      "timestamp": "2026-04-15T13:44:51.210Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "8aff34c6-b8fa-464a-8336-9dac89dbb9f1",
       "action": "CREATE",
@@ -42009,56 +42043,6 @@
         }
       },
       "timestamp": "2026-01-06T05:53:43.244Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "d00448be-a1ee-4d24-943a-d2838c38a445",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
-      "details": {
-        "before": {
-          "fullName": "MAHMUT BUDAK",
-          "normalizedName": "MAHMUT BUDAK",
-          "baseKey": "MAHMUT BUDAK",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 30
-          },
-          "mergedFrom": [],
-          "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "MAHMUT BUDAK",
-          "normalizedName": "MAHMUT BUDAK",
-          "baseKey": "MAHMUT BUDAK",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 30
-          },
-          "mergedFrom": [],
-          "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T05:52:12.645Z"
-        }
-      },
-      "timestamp": "2026-01-06T05:52:12.645Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
