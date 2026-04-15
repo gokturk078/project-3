@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:53:09.106Z"
+    "lastUpdated": "2026-04-15T12:53:14.527Z"
   },
   "taxonomy": {
     "categories": [
@@ -6588,18 +6588,6 @@
       "updatedAt": "2026-04-08T08:47:07.589Z"
     },
     {
-      "id": "50fa3acf-ba12-43b1-865e-09ac64835618",
-      "personId": "9e622566-98ad-4d28-bcdc-0d04b056892c",
-      "applicationNo": "125117/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-03-24",
-      "contactPerson": "İPTAL GELMİYECEK",
-      "notes": "",
-      "createdAt": "2026-03-24T11:38:48.894Z",
-      "updatedAt": "2026-04-08T08:47:27.669Z"
-    },
-    {
       "id": "03e36c8a-308e-4870-a267-0d08f63c4093",
       "personId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
       "applicationNo": "125115/2026",
@@ -7914,6 +7902,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "808f3827-577e-42a0-a7e8-ff41ded88ac8",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "50fa3acf-ba12-43b1-865e-09ac64835618",
+      "details": {
+        "tracking": {
+          "id": "50fa3acf-ba12-43b1-865e-09ac64835618",
+          "personId": "9e622566-98ad-4d28-bcdc-0d04b056892c",
+          "applicationNo": "125117/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-03-24",
+          "contactPerson": "İPTAL GELMİYECEK",
+          "notes": "",
+          "createdAt": "2026-03-24T11:38:48.894Z",
+          "updatedAt": "2026-04-08T08:47:27.669Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:53:14.527Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "d7e89405-3595-48b6-80b1-72b412e35750",
       "action": "DELETE",
