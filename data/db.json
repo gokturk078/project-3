@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:54:39.269Z"
+    "lastUpdated": "2026-04-15T12:54:44.117Z"
   },
   "taxonomy": {
     "categories": [
@@ -6672,18 +6672,6 @@
       "updatedAt": "2026-04-01T07:13:16.013Z"
     },
     {
-      "id": "a417f3c9-8405-4b0d-a0de-078b5ed35725",
-      "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
-      "applicationNo": "126226/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "",
-      "contactPerson": "iptal gelmiycek",
-      "notes": "",
-      "createdAt": "2026-04-03T10:33:42.447Z",
-      "updatedAt": "2026-04-08T08:09:09.686Z"
-    },
-    {
       "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
       "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
       "applicationNo": "126220/2026",
@@ -7794,6 +7782,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "d124f146-2334-4713-a432-d85ed79b1e85",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "a417f3c9-8405-4b0d-a0de-078b5ed35725",
+      "details": {
+        "tracking": {
+          "id": "a417f3c9-8405-4b0d-a0de-078b5ed35725",
+          "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+          "applicationNo": "126226/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-04-03T10:33:42.447Z",
+          "updatedAt": "2026-04-08T08:09:09.686Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:54:44.117Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "df8d3306-d1be-44e5-8f3d-19eda428746e",
       "action": "DELETE",
@@ -42000,56 +42010,6 @@
       },
       "timestamp": "2026-01-05T19:09:34.218Z",
       "adminSession": "550e79c9-6090-4ba9-9f9b-278cab9f1d05"
-    },
-    {
-      "id": "004df557-65cb-4be3-8828-f3e48944ebde",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "7c403519-f4af-4c36-9ff8-74914313c288",
-      "details": {
-        "before": {
-          "fullName": "BATUHAN GÜNEŞ",
-          "normalizedName": "BATUHAN GUNES",
-          "baseKey": "BATUHAN GUNES",
-          "category": "REPSAM",
-          "role": "FORMEN",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 10
-          },
-          "mergedFrom": [],
-          "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "BATUHAN GÜNEŞ",
-          "normalizedName": "BATUHAN GUNES",
-          "baseKey": "BATUHAN GUNES",
-          "category": "REPSAM",
-          "role": "MÜHENDİS",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 10
-          },
-          "mergedFrom": [],
-          "personId": "7c403519-f4af-4c36-9ff8-74914313c288",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T13:28:28.407Z"
-        }
-      },
-      "timestamp": "2026-01-05T13:28:28.407Z",
-      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
     }
   ]
 }
