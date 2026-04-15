@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:54:28.349Z"
+    "lastUpdated": "2026-04-15T12:54:34.161Z"
   },
   "taxonomy": {
     "categories": [
@@ -6672,18 +6672,6 @@
       "updatedAt": "2026-04-01T07:13:16.013Z"
     },
     {
-      "id": "eac5a193-5146-443b-a44b-3a3794b38d54",
-      "personId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
-      "applicationNo": "126233/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "",
-      "contactPerson": "iptal gelmiycek",
-      "notes": "",
-      "createdAt": "2026-04-03T10:31:55.163Z",
-      "updatedAt": "2026-04-08T08:08:42.876Z"
-    },
-    {
       "id": "c4f8f768-f69d-4efc-a889-26154798a853",
       "personId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
       "applicationNo": "126231/2026",
@@ -7818,6 +7806,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "3e57296b-1142-4c1e-b76e-ef7ab9a3d5cb",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "eac5a193-5146-443b-a44b-3a3794b38d54",
+      "details": {
+        "tracking": {
+          "id": "eac5a193-5146-443b-a44b-3a3794b38d54",
+          "personId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
+          "applicationNo": "126233/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-04-03T10:31:55.163Z",
+          "updatedAt": "2026-04-08T08:08:42.876Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:54:34.161Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "dd36a4ca-a860-4b63-a13c-d7d6c5aebdb7",
       "action": "DELETE",
@@ -42079,56 +42089,6 @@
         }
       },
       "timestamp": "2026-01-05T13:27:36.556Z",
-      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
-    },
-    {
-      "id": "357f4a41-3d72-4970-95b7-95130bca6b56",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "3ec54910-e9bd-4534-a791-554c6163c913",
-      "details": {
-        "before": {
-          "fullName": "ABDULHAMİT ŞANVERDİ",
-          "normalizedName": "ABDULHAMIT SANVERDI",
-          "baseKey": "ABDULHAMIT SANVERDI",
-          "category": "CAPRA",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 2
-          },
-          "mergedFrom": [],
-          "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "ABDULHAMİT ŞANVERDİ",
-          "normalizedName": "ABDULHAMIT SANVERDI",
-          "baseKey": "ABDULHAMIT SANVERDI",
-          "category": "CAPRA",
-          "role": "CAPRA DİREKTÖR",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 2
-          },
-          "mergedFrom": [],
-          "personId": "3ec54910-e9bd-4534-a791-554c6163c913",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T13:26:29.568Z"
-        }
-      },
-      "timestamp": "2026-01-05T13:26:29.568Z",
       "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
     }
   ]
