@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:54:24.885Z"
+    "lastUpdated": "2026-04-15T12:54:28.349Z"
   },
   "taxonomy": {
     "categories": [
@@ -6672,18 +6672,6 @@
       "updatedAt": "2026-04-01T07:13:16.013Z"
     },
     {
-      "id": "1ed24a86-c4f1-42b3-b117-8a0c77333c7a",
-      "personId": "548b56e9-2a6a-43b6-b78f-10ee0f37f5b1",
-      "applicationNo": "126208/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "",
-      "contactPerson": "iptal gelmiycek",
-      "notes": "",
-      "createdAt": "2026-04-03T10:31:19.445Z",
-      "updatedAt": "2026-04-08T08:08:24.710Z"
-    },
-    {
       "id": "eac5a193-5146-443b-a44b-3a3794b38d54",
       "personId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
       "applicationNo": "126233/2026",
@@ -7830,6 +7818,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "dd36a4ca-a860-4b63-a13c-d7d6c5aebdb7",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "1ed24a86-c4f1-42b3-b117-8a0c77333c7a",
+      "details": {
+        "tracking": {
+          "id": "1ed24a86-c4f1-42b3-b117-8a0c77333c7a",
+          "personId": "548b56e9-2a6a-43b6-b78f-10ee0f37f5b1",
+          "applicationNo": "126208/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-04-03T10:31:19.445Z",
+          "updatedAt": "2026-04-08T08:08:24.710Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:54:28.349Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "22ae2722-e516-4dc3-bdae-1deed5b1249c",
       "action": "DELETE",
@@ -42119,56 +42129,6 @@
         }
       },
       "timestamp": "2026-01-05T13:26:29.568Z",
-      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
-    },
-    {
-      "id": "fc16a33f-0a29-47c1-829d-9fa01e38ff96",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
-      "details": {
-        "before": {
-          "fullName": "AHMET ŞAHİN",
-          "normalizedName": "AHMET SAHIN",
-          "baseKey": "AHMET SAHIN",
-          "category": "CAPRA",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 1
-          },
-          "mergedFrom": [],
-          "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "AHMET ŞAHİN",
-          "normalizedName": "AHMET SAHIN",
-          "baseKey": "AHMET SAHIN",
-          "category": "CAPRA",
-          "role": "CAPRA İŞVEREN",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 1
-          },
-          "mergedFrom": [],
-          "personId": "8c7f0cf2-cde4-427c-b745-eecd5e911aeb",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T13:26:09.853Z"
-        }
-      },
-      "timestamp": "2026-01-05T13:26:09.853Z",
       "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
     }
   ]
