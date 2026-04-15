@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T13:45:33.055Z"
+    "lastUpdated": "2026-04-15T13:45:48.621Z"
   },
   "taxonomy": {
     "categories": [
@@ -6607,14 +6607,14 @@
     {
       "id": "88ae077f-96b9-403e-a72b-e512a51cb936",
       "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
-      "applicationNo": "123765",
+      "applicationNo": "123765/2026",
       "profession": "inşaat işçisi",
       "status": "AKİT YÜKLENDİ",
       "expectedDate": "2026-03-06",
       "contactPerson": "SEDAT GÜNEŞ",
       "notes": "",
       "createdAt": "2026-03-06T11:22:28.516Z",
-      "updatedAt": "2026-04-15T12:52:59.030Z"
+      "updatedAt": "2026-04-15T13:45:48.621Z"
     },
     {
       "id": "20f0e69a-7b6d-4320-9116-77fb6e4d1a04",
@@ -7847,6 +7847,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "f7987eb4-c025-4b9f-81bc-f164b3ea9134",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "88ae077f-96b9-403e-a72b-e512a51cb936",
+      "details": {
+        "before": {
+          "id": "88ae077f-96b9-403e-a72b-e512a51cb936",
+          "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+          "applicationNo": "123765",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-03-06",
+          "contactPerson": "SEDAT GÜNEŞ",
+          "notes": "",
+          "createdAt": "2026-03-06T11:22:28.516Z",
+          "updatedAt": "2026-04-15T12:52:59.030Z"
+        },
+        "after": {
+          "id": "88ae077f-96b9-403e-a72b-e512a51cb936",
+          "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+          "applicationNo": "123765/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-03-06",
+          "contactPerson": "SEDAT GÜNEŞ",
+          "notes": "",
+          "createdAt": "2026-03-06T11:22:28.516Z",
+          "updatedAt": "2026-04-15T13:45:48.621Z"
+        }
+      },
+      "timestamp": "2026-04-15T13:45:48.621Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "bfbfa733-bc9b-48fe-babf-b41916f3c8d3",
       "action": "UPDATE",
@@ -41997,36 +42031,6 @@
         }
       },
       "timestamp": "2026-01-06T05:58:13.645Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "5e80f509-e03d-41c7-b2ef-3b77fa16b346",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "706f5e92-0f6f-4565-a1b8-d647e632a968",
-      "details": {
-        "person": {
-          "personId": "706f5e92-0f6f-4565-a1b8-d647e632a968",
-          "baseKey": "ALI ULMASOV",
-          "fullName": "ali ulmasov",
-          "normalizedName": "ALI ULMASOV",
-          "category": null,
-          "role": null,
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-05T19:41:25.863Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-05T19:41:25.863Z",
-          "updatedAt": "2026-01-05T19:41:25.863Z"
-        }
-      },
-      "timestamp": "2026-01-06T05:54:55.808Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
