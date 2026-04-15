@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T13:43:20.945Z"
+    "lastUpdated": "2026-04-15T13:43:43.506Z"
   },
   "taxonomy": {
     "categories": [
@@ -6130,6 +6130,26 @@
       "createdAt": "2026-04-15T13:41:09.750Z",
       "updatedAt": "2026-04-15T13:42:06.131Z",
       "jobTitle": null
+    },
+    {
+      "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+      "baseKey": "RUSLAN OMİROW",
+      "fullName": "RUSLAN OMİROW",
+      "normalizedName": "RUSLAN OMİROW",
+      "category": "TÜRKMEN",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-15T13:43:43.506Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-15T13:43:43.506Z",
+      "updatedAt": "2026-04-15T13:43:43.506Z"
     }
   ],
   "leaves": [
@@ -7815,6 +7835,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8aff34c6-b8fa-464a-8336-9dac89dbb9f1",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+      "details": {
+        "person": {
+          "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+          "baseKey": "RUSLAN OMİROW",
+          "fullName": "RUSLAN OMİROW",
+          "normalizedName": "RUSLAN OMİROW",
+          "category": "TÜRKMEN",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-15T13:43:43.506Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-15T13:43:43.506Z",
+          "updatedAt": "2026-04-15T13:43:43.506Z"
+        }
+      },
+      "timestamp": "2026-04-15T13:43:43.506Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "a8980133-0abf-4ebf-af20-f92e2c7bc71d",
       "action": "CREATE",
@@ -42009,36 +42059,6 @@
         }
       },
       "timestamp": "2026-01-06T05:52:12.645Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "bc2b3771-5ca3-45d0-86ef-d93510af1483",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
-      "details": {
-        "person": {
-          "personId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
-          "baseKey": "HIKMET TIRYAKI",
-          "fullName": "hikmet tiryaki",
-          "normalizedName": "HIKMET TIRYAKI",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-06T05:51:36.062Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-06T05:51:36.062Z",
-          "updatedAt": "2026-01-06T05:51:36.062Z"
-        }
-      },
-      "timestamp": "2026-01-06T05:51:36.063Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
