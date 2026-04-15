@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T12:54:34.161Z"
+    "lastUpdated": "2026-04-15T12:54:39.269Z"
   },
   "taxonomy": {
     "categories": [
@@ -6672,18 +6672,6 @@
       "updatedAt": "2026-04-01T07:13:16.013Z"
     },
     {
-      "id": "c4f8f768-f69d-4efc-a889-26154798a853",
-      "personId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
-      "applicationNo": "126231/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "",
-      "contactPerson": "iptal gelmiycek",
-      "notes": "",
-      "createdAt": "2026-04-03T10:32:28.881Z",
-      "updatedAt": "2026-04-08T08:08:55.648Z"
-    },
-    {
       "id": "a417f3c9-8405-4b0d-a0de-078b5ed35725",
       "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
       "applicationNo": "126226/2026",
@@ -7806,6 +7794,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "df8d3306-d1be-44e5-8f3d-19eda428746e",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "c4f8f768-f69d-4efc-a889-26154798a853",
+      "details": {
+        "tracking": {
+          "id": "c4f8f768-f69d-4efc-a889-26154798a853",
+          "personId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
+          "applicationNo": "126231/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "iptal gelmiycek",
+          "notes": "",
+          "createdAt": "2026-04-03T10:32:28.881Z",
+          "updatedAt": "2026-04-08T08:08:55.648Z"
+        }
+      },
+      "timestamp": "2026-04-15T12:54:39.269Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "3e57296b-1142-4c1e-b76e-ef7ab9a3d5cb",
       "action": "DELETE",
@@ -42039,56 +42049,6 @@
         }
       },
       "timestamp": "2026-01-05T13:28:28.407Z",
-      "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
-    },
-    {
-      "id": "b0e0568d-c8ed-4ced-816d-72c34144ef67",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
-      "details": {
-        "before": {
-          "fullName": "MUSTAFA BAYRAKTAR",
-          "normalizedName": "MUSTAFA BAYRAKTAR",
-          "baseKey": "MUSTAFA BAYRAKTAR",
-          "category": "REPSAM",
-          "role": "PROJE MÜDÜRÜ",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 40
-          },
-          "mergedFrom": [],
-          "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "MUSTAFA BAYRAKTAR",
-          "normalizedName": "MUSTAFA BAYRAKTAR",
-          "baseKey": "MUSTAFA BAYRAKTAR",
-          "category": "REPSAM",
-          "role": "ÜLKE KOORDİNATÖRÜ",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 40
-          },
-          "mergedFrom": [],
-          "personId": "0ff1dcd5-2b29-477d-9ced-33430cffc6d3",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T13:27:36.556Z"
-        }
-      },
-      "timestamp": "2026-01-05T13:27:36.556Z",
       "adminSession": "08ed7ee6-7e87-422c-b6bc-f73b6ee2bb72"
     }
   ]
