@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T13:41:09.750Z"
+    "lastUpdated": "2026-04-15T13:42:06.131Z"
   },
   "taxonomy": {
     "categories": [
@@ -6117,9 +6117,9 @@
       "normalizedName": "SEDAT ŞEREBET",
       "category": null,
       "role": null,
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "pending",
       "sources": [
         {
           "type": "manual",
@@ -6128,7 +6128,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-15T13:41:09.750Z",
-      "updatedAt": "2026-04-15T13:41:09.750Z"
+      "updatedAt": "2026-04-15T13:42:06.131Z",
+      "jobTitle": null
     }
   ],
   "leaves": [
@@ -7790,6 +7791,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "09dde9ac-c496-46b4-8e7e-38550e53e6df",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+      "details": {
+        "before": {
+          "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+          "baseKey": "SEDAT ŞEREBET",
+          "fullName": "SEDAT ŞEREBET",
+          "normalizedName": "SEDAT ŞEREBET",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-15T13:41:09.750Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-15T13:41:09.750Z",
+          "updatedAt": "2026-04-15T13:41:09.750Z"
+        },
+        "after": {
+          "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+          "baseKey": "SEDAT ŞEREBET",
+          "fullName": "SEDAT ŞEREBET",
+          "normalizedName": "SEDAT ŞEREBET",
+          "category": null,
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-15T13:41:09.750Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-15T13:41:09.750Z",
+          "updatedAt": "2026-04-15T13:42:06.131Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-15T13:42:06.131Z",
+      "adminSession": "fea71c14-03fd-4cb9-a7b3-bcbac57e6300"
+    },
     {
       "id": "ed4759c7-3794-45b9-bb86-ad9488231719",
       "action": "CREATE",
@@ -41979,36 +42031,6 @@
         }
       },
       "timestamp": "2026-01-05T19:40:06.447Z",
-      "adminSession": "a3732936-caf6-4029-a888-de603ebf0763"
-    },
-    {
-      "id": "b14cc9a4-fd33-42a3-bad3-ca93b3af464c",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "74f0df13-1be3-45f9-b79b-9a8214355867",
-      "details": {
-        "person": {
-          "personId": "74f0df13-1be3-45f9-b79b-9a8214355867",
-          "baseKey": "ALI ULMASOV",
-          "fullName": "ali Ulmasov",
-          "normalizedName": "ALI ULMASOV",
-          "category": null,
-          "role": null,
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-05T19:39:38.596Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-05T19:39:38.596Z",
-          "updatedAt": "2026-01-05T19:39:38.596Z"
-        }
-      },
-      "timestamp": "2026-01-05T19:39:38.596Z",
       "adminSession": "a3732936-caf6-4029-a888-de603ebf0763"
     }
   ]
