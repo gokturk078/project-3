@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-15T13:45:48.621Z"
+    "lastUpdated": "2026-04-16T09:49:31.785Z"
   },
   "taxonomy": {
     "categories": [
@@ -6605,18 +6605,6 @@
       "updatedAt": "2026-04-08T08:46:25.628Z"
     },
     {
-      "id": "88ae077f-96b9-403e-a72b-e512a51cb936",
-      "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
-      "applicationNo": "123765/2026",
-      "profession": "inşaat işçisi",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "2026-03-06",
-      "contactPerson": "SEDAT GÜNEŞ",
-      "notes": "",
-      "createdAt": "2026-03-06T11:22:28.516Z",
-      "updatedAt": "2026-04-15T13:45:48.621Z"
-    },
-    {
       "id": "20f0e69a-7b6d-4320-9116-77fb6e4d1a04",
       "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
       "applicationNo": "124610/2026",
@@ -7847,6 +7835,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "49703738-6124-4f8b-b7a7-2336d00c8ef3",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "88ae077f-96b9-403e-a72b-e512a51cb936",
+      "details": {
+        "tracking": {
+          "id": "88ae077f-96b9-403e-a72b-e512a51cb936",
+          "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+          "applicationNo": "123765/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-03-06",
+          "contactPerson": "SEDAT GÜNEŞ",
+          "notes": "",
+          "createdAt": "2026-03-06T11:22:28.516Z",
+          "updatedAt": "2026-04-15T13:45:48.621Z"
+        }
+      },
+      "timestamp": "2026-04-16T09:49:31.785Z",
+      "adminSession": "daca0662-460b-49df-86ee-c437ff3d73e5"
+    },
     {
       "id": "f7987eb4-c025-4b9f-81bc-f164b3ea9134",
       "action": "UPDATE",
@@ -42003,34 +42013,6 @@
         }
       },
       "timestamp": "2026-01-06T05:59:10.238Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "64981df3-856d-4e7c-aa87-cf999f15ab46",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "44bedf53-3c24-43ed-bd65-57c7fcbf2821",
-      "details": {
-        "tracking": {
-          "id": "44bedf53-3c24-43ed-bd65-57c7fcbf2821",
-          "fullName": "ŞAKİP YILDIZOĞLU",
-          "normalizedName": "SAKIP YILDIZOGLU",
-          "baseKey": "SAKIP YILDIZOGLU",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116083/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 13
-          },
-          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0"
-        }
-      },
-      "timestamp": "2026-01-06T05:58:13.645Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
