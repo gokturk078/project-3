@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-20T14:38:01.399Z"
+    "lastUpdated": "2026-04-20T14:38:36.983Z"
   },
   "taxonomy": {
     "categories": [
@@ -6811,6 +6811,18 @@
       "notes": "",
       "createdAt": "2026-04-20T12:51:18.245Z",
       "updatedAt": "2026-04-20T12:51:18.245Z"
+    },
+    {
+      "id": "861ead1b-7a7a-4706-8d58-8e02112373c7",
+      "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-04-20T14:38:36.983Z",
+      "updatedAt": "2026-04-20T14:38:36.983Z"
     }
   ],
   "departures": [
@@ -7875,6 +7887,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "0a6ad49b-4c7f-4e82-9454-39e2e5e084f0",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "861ead1b-7a7a-4706-8d58-8e02112373c7",
+      "details": {
+        "tracking": {
+          "id": "861ead1b-7a7a-4706-8d58-8e02112373c7",
+          "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-20T14:38:36.983Z",
+          "updatedAt": "2026-04-20T14:38:36.983Z"
+        }
+      },
+      "timestamp": "2026-04-20T14:38:36.983Z",
+      "adminSession": "482e9ba5-1465-41bf-9cb2-06aec84f8a2a"
+    },
     {
       "id": "7ca721ab-2573-452d-ae39-0900a69aef62",
       "action": "CREATE",
@@ -41935,56 +41969,6 @@
         }
       },
       "timestamp": "2026-01-06T12:41:26.865Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "b8fdc063-6272-4514-aca7-c59bf5df2038",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
-      "details": {
-        "before": {
-          "fullName": "İZZET İĞDE",
-          "normalizedName": "IZZET IGDE",
-          "baseKey": "IZZET IGDE",
-          "category": "CAPRA",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 6
-          },
-          "mergedFrom": [],
-          "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "İZZET İĞDE",
-          "normalizedName": "IZZET IGDE",
-          "baseKey": "IZZET IGDE",
-          "category": "NEŞAT",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 6
-          },
-          "mergedFrom": [],
-          "personId": "840bcb69-0f04-4dd9-b5a7-8113d70e1f35",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T12:38:18.490Z"
-        }
-      },
-      "timestamp": "2026-01-06T12:38:18.490Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
