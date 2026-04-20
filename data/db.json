@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-20T12:51:18.245Z"
+    "lastUpdated": "2026-04-20T12:51:41.881Z"
   },
   "taxonomy": {
     "categories": [
@@ -6673,18 +6673,6 @@
       "updatedAt": "2026-04-01T07:10:50.598Z"
     },
     {
-      "id": "80390670-9d02-47a1-9499-6be7deabbe18",
-      "personId": "b349e8bb-e6a6-4849-b49b-3462a26d100f",
-      "applicationNo": "156327",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-03-26T06:55:26.136Z",
-      "updatedAt": "2026-04-13T15:09:13.825Z"
-    },
-    {
       "id": "288d556f-85e0-4cf5-8be7-715403512c8a",
       "personId": "41f4f8b0-9045-4bf3-bad8-698b9d25a86f",
       "applicationNo": "156403",
@@ -7867,6 +7855,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "4aaba5a7-287c-482a-ab8c-4ed759ce1ec0",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "80390670-9d02-47a1-9499-6be7deabbe18",
+      "details": {
+        "tracking": {
+          "id": "80390670-9d02-47a1-9499-6be7deabbe18",
+          "personId": "b349e8bb-e6a6-4849-b49b-3462a26d100f",
+          "applicationNo": "156327",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:55:26.136Z",
+          "updatedAt": "2026-04-13T15:09:13.825Z"
+        }
+      },
+      "timestamp": "2026-04-20T12:51:41.881Z",
+      "adminSession": "482e9ba5-1465-41bf-9cb2-06aec84f8a2a"
+    },
     {
       "id": "5b8bbcab-8d05-41cc-bf82-d27c06153caf",
       "action": "CREATE",
@@ -41975,56 +41985,6 @@
         }
       },
       "timestamp": "2026-01-06T12:37:38.778Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "ac60f60a-c9ba-4197-bb62-59e58a7498f5",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
-      "details": {
-        "before": {
-          "fullName": "CELALETTİN GARİP",
-          "normalizedName": "CELALETTIN GARIP",
-          "baseKey": "CELALETTIN GARIP",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 13
-          },
-          "mergedFrom": [],
-          "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T06:08:09.384Z"
-        },
-        "after": {
-          "fullName": "CELALETTİN GARİP",
-          "normalizedName": "CELALETTIN GARIP",
-          "baseKey": "CELALETTIN GARIP",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 13
-          },
-          "mergedFrom": [],
-          "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T09:23:12.805Z"
-        }
-      },
-      "timestamp": "2026-01-06T09:23:12.805Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
