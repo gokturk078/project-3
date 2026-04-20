@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-20T12:50:25.843Z"
+    "lastUpdated": "2026-04-20T12:51:18.245Z"
   },
   "taxonomy": {
     "categories": [
@@ -6791,6 +6791,18 @@
       "notes": "",
       "createdAt": "2026-04-15T13:44:51.209Z",
       "updatedAt": "2026-04-15T13:44:51.209Z"
+    },
+    {
+      "id": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
+      "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
+      "applicationNo": "127767/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "NEŞAT",
+      "notes": "",
+      "createdAt": "2026-04-20T12:51:18.245Z",
+      "updatedAt": "2026-04-20T12:51:18.245Z"
     }
   ],
   "departures": [
@@ -7855,6 +7867,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "5b8bbcab-8d05-41cc-bf82-d27c06153caf",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
+      "details": {
+        "tracking": {
+          "id": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
+          "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
+          "applicationNo": "127767/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-20T12:51:18.245Z",
+          "updatedAt": "2026-04-20T12:51:18.245Z"
+        }
+      },
+      "timestamp": "2026-04-20T12:51:18.245Z",
+      "adminSession": "482e9ba5-1465-41bf-9cb2-06aec84f8a2a"
+    },
     {
       "id": "b4a0c5d5-1e72-4aca-8f89-4f9ddba70c5f",
       "action": "CREATE",
@@ -41991,56 +42025,6 @@
         }
       },
       "timestamp": "2026-01-06T09:23:12.805Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "566929dd-f9c5-4b02-88b4-e7b86c77a264",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
-      "details": {
-        "before": {
-          "fullName": "CELALETTİN GARİP",
-          "normalizedName": "CELALETTIN GARIP",
-          "baseKey": "CELALETTIN GARIP",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 13
-          },
-          "mergedFrom": [],
-          "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "CELALETTİN GARİP",
-          "normalizedName": "CELALETTIN GARIP",
-          "baseKey": "CELALETTIN GARIP",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 13
-          },
-          "mergedFrom": [],
-          "personId": "9a016c66-4a29-41ed-9e0c-770ab3205fa2",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T06:08:09.384Z"
-        }
-      },
-      "timestamp": "2026-01-06T06:08:09.385Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
