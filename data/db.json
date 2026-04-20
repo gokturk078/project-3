@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-20T12:51:41.881Z"
+    "lastUpdated": "2026-04-20T14:38:01.399Z"
   },
   "taxonomy": {
     "categories": [
@@ -6170,6 +6170,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-20T12:50:25.843Z",
       "updatedAt": "2026-04-20T12:50:25.843Z"
+    },
+    {
+      "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
+      "baseKey": "MUHAMMED EMİN BUCAK",
+      "fullName": "MUHAMMED EMİN BUCAK",
+      "normalizedName": "MUHAMMED EMİN BUCAK",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-20T14:38:01.398Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-20T14:38:01.398Z",
+      "updatedAt": "2026-04-20T14:38:01.398Z"
     }
   ],
   "leaves": [
@@ -7855,6 +7875,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "7ca721ab-2573-452d-ae39-0900a69aef62",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
+      "details": {
+        "person": {
+          "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
+          "baseKey": "MUHAMMED EMİN BUCAK",
+          "fullName": "MUHAMMED EMİN BUCAK",
+          "normalizedName": "MUHAMMED EMİN BUCAK",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-20T14:38:01.398Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-20T14:38:01.398Z",
+          "updatedAt": "2026-04-20T14:38:01.398Z"
+        }
+      },
+      "timestamp": "2026-04-20T14:38:01.399Z",
+      "adminSession": "482e9ba5-1465-41bf-9cb2-06aec84f8a2a"
+    },
     {
       "id": "4aaba5a7-287c-482a-ab8c-4ed759ce1ec0",
       "action": "DELETE",
@@ -41935,56 +41985,6 @@
         }
       },
       "timestamp": "2026-01-06T12:38:18.490Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "f870920a-4e07-49f8-83a2-333a57059829",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "f5b12062-277b-4544-bbc5-db9966c05ca8",
-      "details": {
-        "before": {
-          "fullName": "ADEM AKSOY",
-          "normalizedName": "ADEM AKSOY",
-          "baseKey": "ADEM AKSOY",
-          "category": "NEŞAT",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "NEŞAT",
-            "row": 1
-          },
-          "mergedFrom": [],
-          "personId": "f5b12062-277b-4544-bbc5-db9966c05ca8",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "ADEM AKSOY",
-          "normalizedName": "ADEM AKSOY",
-          "baseKey": "ADEM AKSOY",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "NEŞAT",
-            "row": 1
-          },
-          "mergedFrom": [],
-          "personId": "f5b12062-277b-4544-bbc5-db9966c05ca8",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T12:37:38.778Z"
-        }
-      },
-      "timestamp": "2026-01-06T12:37:38.778Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
