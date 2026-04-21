@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-21T12:58:24.981Z"
+    "lastUpdated": "2026-04-21T12:58:43.414Z"
   },
   "taxonomy": {
     "categories": [
@@ -6757,12 +6757,12 @@
       "personId": "1d87d37c-ab31-439d-99b0-0ece1f4bac32",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": null,
+      "status": "AKİT YÜKLENDİ",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-15T13:43:20.944Z",
-      "updatedAt": "2026-04-15T13:43:20.944Z"
+      "updatedAt": "2026-04-21T12:58:43.414Z"
     },
     {
       "id": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
@@ -7863,6 +7863,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "befc416b-b0e0-4ff0-b212-284aa4eadbd9",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "c9091c3f-d9a5-4973-ace0-f670137f8929",
+      "details": {
+        "before": {
+          "id": "c9091c3f-d9a5-4973-ace0-f670137f8929",
+          "personId": "1d87d37c-ab31-439d-99b0-0ece1f4bac32",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-15T13:43:20.944Z",
+          "updatedAt": "2026-04-15T13:43:20.944Z"
+        },
+        "after": {
+          "id": "c9091c3f-d9a5-4973-ace0-f670137f8929",
+          "personId": "1d87d37c-ab31-439d-99b0-0ece1f4bac32",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-15T13:43:20.944Z",
+          "updatedAt": "2026-04-21T12:58:43.414Z"
+        }
+      },
+      "timestamp": "2026-04-21T12:58:43.414Z",
+      "adminSession": "3aeaa8f8-e84a-446d-82ee-cbf054c3fd2d"
+    },
     {
       "id": "2ba0de7e-a325-4dbf-8554-ff4fb20627ab",
       "action": "UPDATE",
@@ -41810,53 +41844,6 @@
         }
       },
       "timestamp": "2026-01-06T13:04:17.615Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "31b310b4-af94-4661-a202-14a2e71e9fa8",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "f47a162f-7130-47ef-bd9d-5db5b8858552",
-      "details": {
-        "before": {
-          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
-          "fullName": "MEHMET ŞERİF KORKMAZ",
-          "normalizedName": "MEHMET SERIF KORKMAZ",
-          "baseKey": "MEHMET SERIF KORKMAZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117450/2025",
-          "status": "SAĞLIĞA SEV EDİLECEK",
-          "expectedDate": null,
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 17
-          },
-          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd"
-        },
-        "after": {
-          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
-          "fullName": "MEHMET ŞERİF KORKMAZ",
-          "normalizedName": "MEHMET SERIF KORKMAZ",
-          "baseKey": "MEHMET SERIF KORKMAZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117450/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 17
-          },
-          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-          "updatedAt": "2026-01-06T13:03:48.343Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:03:48.344Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
