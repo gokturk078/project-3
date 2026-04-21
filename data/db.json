@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-21T12:58:43.414Z"
+    "lastUpdated": "2026-04-21T13:58:32.097Z"
   },
   "taxonomy": {
     "categories": [
@@ -6709,12 +6709,12 @@
       "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
       "applicationNo": "126220/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "ELEKTRİK ERHAN FORMEN",
       "notes": "",
       "createdAt": "2026-04-03T10:34:16.081Z",
-      "updatedAt": "2026-04-13T15:09:35.937Z"
+      "updatedAt": "2026-04-21T13:58:32.096Z"
     },
     {
       "id": "00685b98-afa3-49cf-a3eb-dd67760020bf",
@@ -7863,6 +7863,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "3b8a0b88-5706-4ca5-8683-11bfb51ee0b7",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
+      "details": {
+        "before": {
+          "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
+          "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
+          "applicationNo": "126220/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "ELEKTRİK ERHAN FORMEN",
+          "notes": "",
+          "createdAt": "2026-04-03T10:34:16.081Z",
+          "updatedAt": "2026-04-13T15:09:35.937Z"
+        },
+        "after": {
+          "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
+          "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
+          "applicationNo": "126220/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "ELEKTRİK ERHAN FORMEN",
+          "notes": "",
+          "createdAt": "2026-04-03T10:34:16.081Z",
+          "updatedAt": "2026-04-21T13:58:32.096Z"
+        }
+      },
+      "timestamp": "2026-04-21T13:58:32.097Z",
+      "adminSession": "3aeaa8f8-e84a-446d-82ee-cbf054c3fd2d"
+    },
     {
       "id": "befc416b-b0e0-4ff0-b212-284aa4eadbd9",
       "action": "UPDATE",
@@ -41797,53 +41831,6 @@
         }
       },
       "timestamp": "2026-01-06T13:04:31.070Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "fd5af17c-4de5-4617-9f87-538b1f370e24",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-      "details": {
-        "before": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb"
-        },
-        "after": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "updatedAt": "2026-01-06T13:04:17.615Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:04:17.615Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
