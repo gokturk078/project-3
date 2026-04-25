@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:21:12.725Z"
+    "lastUpdated": "2026-04-25T09:24:51.071Z"
   },
   "taxonomy": {
     "categories": [
@@ -8167,6 +8167,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T09:21:12.725Z",
       "updatedAt": "2026-04-25T09:21:12.725Z"
+    },
+    {
+      "id": "5de238e4-3c8a-4c1f-90e0-2c02d77f08a3",
+      "personId": null,
+      "fullName": "KHAYOTJON MINBOEV",
+      "category": "ÖZBEK",
+      "job": "",
+      "entryDate": "2025-07-19",
+      "exitDate": "2026-03-17",
+      "totalDays": 241,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-04-25T09:24:51.071Z",
+      "updatedAt": "2026-04-25T09:24:51.071Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8189,6 +8202,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "4f6276e6-18c3-4958-a83a-ee40fa35e967",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "5de238e4-3c8a-4c1f-90e0-2c02d77f08a3",
+      "details": {
+        "departure": {
+          "id": "5de238e4-3c8a-4c1f-90e0-2c02d77f08a3",
+          "personId": null,
+          "fullName": "KHAYOTJON MINBOEV",
+          "category": "ÖZBEK",
+          "job": "",
+          "entryDate": "2025-07-19",
+          "exitDate": "2026-03-17",
+          "totalDays": 241,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-25T09:24:51.071Z",
+          "updatedAt": "2026-04-25T09:24:51.071Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:24:51.071Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "8f7c30ac-4075-4846-a385-66599ad00331",
       "action": "CREATE",
@@ -41873,28 +41909,6 @@
         }
       },
       "timestamp": "2026-01-14T07:53:21.184Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "6e43c966-1e18-4fa9-9a3f-4219f8fe64f5",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "a9a91dce-b839-46a7-b513-7cf67e14f993",
-      "details": {
-        "tracking": {
-          "id": "a9a91dce-b839-46a7-b513-7cf67e14f993",
-          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
-          "applicationNo": "118867/2026",
-          "profession": "İSKELE",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:52:24.371Z",
-          "updatedAt": "2026-01-14T07:52:24.371Z"
-        }
-      },
-      "timestamp": "2026-01-14T07:52:24.371Z",
       "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
     }
   ]
