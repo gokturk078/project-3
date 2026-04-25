@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:20:59.479Z"
+    "lastUpdated": "2026-04-25T08:21:21.975Z"
   },
   "taxonomy": {
     "categories": [
@@ -4954,7 +4954,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4963,7 +4963,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-27T10:51:32.220Z",
-      "updatedAt": "2026-02-21T11:53:16.036Z",
+      "updatedAt": "2026-04-25T08:21:21.975Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "302a97f1-bd5c-4a08-be99-d10c2175e824",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "91f26123-18f5-4756-9ce7-9a4abce89115",
+      "details": {
+        "before": {
+          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
+          "baseKey": "UMUT YÜNDEMLİ",
+          "fullName": "UMUT YÜNDEMLİ",
+          "normalizedName": "UMUT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:51:32.220Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:51:32.220Z",
+          "updatedAt": "2026-02-21T11:53:16.036Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
+          "baseKey": "UMUT YÜNDEMLİ",
+          "fullName": "UMUT YÜNDEMLİ",
+          "normalizedName": "UMUT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:51:32.220Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:51:32.220Z",
+          "updatedAt": "2026-04-25T08:21:21.975Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:21:21.975Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "f5e738d9-8186-45e6-9fc3-3fa53b0fc218",
       "action": "UPDATE",
@@ -41542,36 +41594,6 @@
         }
       },
       "timestamp": "2026-01-08T11:52:09.461Z",
-      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
-    },
-    {
-      "id": "8f089aaa-c95b-4f03-80b4-8e97c465b86e",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
-      "details": {
-        "person": {
-          "personId": "af13e402-8a38-4177-b8cd-d50acdc3bb4a",
-          "baseKey": "HIKMET TIRYAKI",
-          "fullName": "hikmet tiryaki",
-          "normalizedName": "HIKMET TIRYAKI",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-06T05:51:36.062Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-06T05:51:36.062Z",
-          "updatedAt": "2026-01-06T05:51:36.062Z"
-        }
-      },
-      "timestamp": "2026-01-08T11:51:43.585Z",
       "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
     }
   ]
