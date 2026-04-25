@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:17:56.556Z"
+    "lastUpdated": "2026-04-25T09:18:32.857Z"
   },
   "taxonomy": {
     "categories": [
@@ -8115,6 +8115,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T09:17:56.556Z",
       "updatedAt": "2026-04-25T09:17:56.556Z"
+    },
+    {
+      "id": "a80db4c6-5ac7-4d33-930c-15315104d6d5",
+      "personId": null,
+      "fullName": "İSMAİL ÇELİK",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2026-01-31",
+      "exitDate": "2026-04-06",
+      "totalDays": 65,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T09:18:32.857Z",
+      "updatedAt": "2026-04-25T09:18:32.857Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8137,6 +8150,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "f61c2229-1497-4c5d-8086-7ee76ee240b0",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "a80db4c6-5ac7-4d33-930c-15315104d6d5",
+      "details": {
+        "departure": {
+          "id": "a80db4c6-5ac7-4d33-930c-15315104d6d5",
+          "personId": null,
+          "fullName": "İSMAİL ÇELİK",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-06",
+          "totalDays": 65,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T09:18:32.857Z",
+          "updatedAt": "2026-04-25T09:18:32.857Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:18:32.857Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "e8f48535-e3cf-4a69-8938-67415d7ef16c",
       "action": "CREATE",
@@ -41841,36 +41877,6 @@
         }
       },
       "timestamp": "2026-01-14T07:48:36.950Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "0ec55378-1a07-4ffb-a7dd-7c65c4a16ad0",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
-      "details": {
-        "person": {
-          "personId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
-          "baseKey": "MEHMET TURAN",
-          "fullName": "MEHMET TURAN",
-          "normalizedName": "MEHMET TURAN",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-14T07:48:19.149Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-14T07:48:19.149Z",
-          "updatedAt": "2026-01-14T07:48:19.149Z"
-        }
-      },
-      "timestamp": "2026-01-14T07:48:19.149Z",
       "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
     }
   ]
