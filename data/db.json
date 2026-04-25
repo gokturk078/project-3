@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:52:05.061Z"
+    "lastUpdated": "2026-04-25T09:54:17.588Z"
   },
   "taxonomy": {
     "categories": [
@@ -5899,6 +5899,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-25T09:51:21.053Z",
       "updatedAt": "2026-04-25T09:51:21.053Z"
+    },
+    {
+      "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
+      "baseKey": "BEKİR ORHAN",
+      "fullName": "BEKİR ORHAN",
+      "normalizedName": "BEKİR ORHAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-25T09:54:17.588Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-25T09:54:17.588Z",
+      "updatedAt": "2026-04-25T09:54:17.588Z"
     }
   ],
   "leaves": [
@@ -7903,6 +7923,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e59fd164-f43d-47f4-9639-27f67f1281fa",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
+      "details": {
+        "person": {
+          "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
+          "baseKey": "BEKİR ORHAN",
+          "fullName": "BEKİR ORHAN",
+          "normalizedName": "BEKİR ORHAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T09:54:17.588Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T09:54:17.588Z",
+          "updatedAt": "2026-04-25T09:54:17.588Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:54:17.588Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "d321ace4-8ec4-4d85-a36c-933797fd21f3",
       "action": "CREATE",
@@ -41602,45 +41652,6 @@
         }
       },
       "timestamp": "2026-01-17T08:48:05.595Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "3600004f-0114-4765-984a-6cb4084c8f2f",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
-      "details": {
-        "person": {
-          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
-          "baseKey": "MEHMET CIFTCI",
-          "fullName": "MEHMET ÇİFTÇİ",
-          "normalizedName": "MEHMET CIFTCI",
-          "category": null,
-          "role": null,
-          "jobTitle": "117458/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 20
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117458/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR (İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:47:26.997Z",
       "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
     }
   ]
