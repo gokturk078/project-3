@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:46:49.601Z"
+    "lastUpdated": "2026-04-25T08:47:34.009Z"
   },
   "taxonomy": {
     "categories": [
@@ -8050,6 +8050,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:46:49.600Z",
       "updatedAt": "2026-04-25T08:46:49.600Z"
+    },
+    {
+      "id": "7ed43b4d-3d6b-4d9a-b3b9-cedb89b263e6",
+      "personId": null,
+      "fullName": "MAHMUT EMRE AKSOY",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2026-01-30",
+      "exitDate": "2026-04-03",
+      "totalDays": 63,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:47:34.008Z",
+      "updatedAt": "2026-04-25T08:47:34.008Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8072,6 +8085,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "d8b7c48b-8e9d-4262-aa42-166733e1dcb7",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "7ed43b4d-3d6b-4d9a-b3b9-cedb89b263e6",
+      "details": {
+        "departure": {
+          "id": "7ed43b4d-3d6b-4d9a-b3b9-cedb89b263e6",
+          "personId": null,
+          "fullName": "MAHMUT EMRE AKSOY",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2026-01-30",
+          "exitDate": "2026-04-03",
+          "totalDays": 63,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:47:34.008Z",
+          "updatedAt": "2026-04-25T08:47:34.008Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:47:34.008Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "f9ce071f-d0dc-4ac3-bf11-f39552094d6c",
       "action": "CREATE",
@@ -41827,40 +41863,6 @@
       },
       "timestamp": "2026-01-14T07:43:29.336Z",
       "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "dfcded0f-b8cd-4ec9-b37a-64d5a3b4e144",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-      "details": {
-        "before": {
-          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
-          "applicationNo": "116083/2025",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-05",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-06T05:59:10.238Z",
-          "updatedAt": "2026-01-10T07:40:23.301Z"
-        },
-        "after": {
-          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
-          "applicationNo": "116083/2025",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-06T05:59:10.238Z",
-          "updatedAt": "2026-01-12T11:25:05.139Z"
-        }
-      },
-      "timestamp": "2026-01-12T11:25:05.139Z",
-      "adminSession": "d7371b5e-dedf-4aaf-94c7-45031b9c1007"
     }
   ]
 }
