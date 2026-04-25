@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:37:41.163Z"
+    "lastUpdated": "2026-04-25T08:38:32.064Z"
   },
   "taxonomy": {
     "categories": [
@@ -7920,6 +7920,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:37:41.163Z",
       "updatedAt": "2026-04-25T08:37:41.163Z"
+    },
+    {
+      "id": "e0b4c4a5-84ef-409e-8ffe-7625a117a824",
+      "personId": null,
+      "fullName": "ORHAN ÖZCAN",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-04-30",
+      "exitDate": "2026-04-04",
+      "totalDays": 339,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:38:32.064Z",
+      "updatedAt": "2026-04-25T08:38:32.064Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7942,6 +7955,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "fcf7b10f-694c-4146-8227-448b71a488c6",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "e0b4c4a5-84ef-409e-8ffe-7625a117a824",
+      "details": {
+        "departure": {
+          "id": "e0b4c4a5-84ef-409e-8ffe-7625a117a824",
+          "personId": null,
+          "fullName": "ORHAN ÖZCAN",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-04-30",
+          "exitDate": "2026-04-04",
+          "totalDays": 339,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:38:32.064Z",
+          "updatedAt": "2026-04-25T08:38:32.064Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:38:32.064Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "52b06b17-e50c-47fc-8aaa-f7f3a2f834d9",
       "action": "CREATE",
@@ -41888,54 +41924,6 @@
         }
       },
       "timestamp": "2026-01-10T09:39:19.426Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "06522f26-fe69-471c-90e9-16a19f3811e7",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ed8327ef-b584-4603-aebc-538e089f4f77",
-      "details": {
-        "before": {
-          "id": "ed8327ef-b584-4603-aebc-538e089f4f77",
-          "fullName": "YETİŞ KARBUZ",
-          "normalizedName": "YETIS KARBUZ",
-          "baseKey": "YETIS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115646/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 8
-          },
-          "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
-          "updatedAt": "2026-01-10T07:37:12.381Z"
-        },
-        "after": {
-          "id": "ed8327ef-b584-4603-aebc-538e089f4f77",
-          "fullName": "YETİŞ KARBUZ",
-          "normalizedName": "YETIS KARBUZ",
-          "baseKey": "YETIS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115646/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 8
-          },
-          "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
-          "updatedAt": "2026-01-10T09:39:01.425Z"
-        }
-      },
-      "timestamp": "2026-01-10T09:39:01.425Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
