@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:20:07.435Z"
+    "lastUpdated": "2026-04-25T09:21:12.725Z"
   },
   "taxonomy": {
     "categories": [
@@ -8154,6 +8154,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T09:20:07.435Z",
       "updatedAt": "2026-04-25T09:20:07.435Z"
+    },
+    {
+      "id": "6f3b5977-eca8-4a28-a576-d3948d921941",
+      "personId": null,
+      "fullName": "YAKUP SEZEN",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-03-05",
+      "exitDate": "2026-04-14",
+      "totalDays": 40,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T09:21:12.725Z",
+      "updatedAt": "2026-04-25T09:21:12.725Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8176,6 +8189,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "8f7c30ac-4075-4846-a385-66599ad00331",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "6f3b5977-eca8-4a28-a576-d3948d921941",
+      "details": {
+        "departure": {
+          "id": "6f3b5977-eca8-4a28-a576-d3948d921941",
+          "personId": null,
+          "fullName": "YAKUP SEZEN",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-03-05",
+          "exitDate": "2026-04-14",
+          "totalDays": 40,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T09:21:12.725Z",
+          "updatedAt": "2026-04-25T09:21:12.725Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:21:12.725Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "57d823e9-863c-49f3-a664-668e8ad470a0",
       "action": "CREATE",
@@ -41859,36 +41895,6 @@
         }
       },
       "timestamp": "2026-01-14T07:52:24.371Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "eb06832c-4fd3-4a20-8030-40bf05134f9c",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
-      "details": {
-        "person": {
-          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
-          "baseKey": "MEHMET SALİM ÇAKIR",
-          "fullName": "MEHMET SALİM ÇAKIR",
-          "normalizedName": "MEHMET SALİM ÇAKIR",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-14T07:49:17.429Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-14T07:49:17.429Z",
-          "updatedAt": "2026-01-14T07:49:17.429Z"
-        }
-      },
-      "timestamp": "2026-01-14T07:49:17.429Z",
       "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
     }
   ]
