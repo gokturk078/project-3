@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:27:54.227Z"
+    "lastUpdated": "2026-04-25T08:28:19.005Z"
   },
   "taxonomy": {
     "categories": [
@@ -5017,7 +5017,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -5026,7 +5026,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:13:29.430Z",
-      "updatedAt": "2026-02-21T11:55:11.545Z",
+      "updatedAt": "2026-04-25T08:28:19.004Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "8d5affc0-304f-449a-9e3e-369b2e73f3a7",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+      "details": {
+        "before": {
+          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+          "baseKey": "HARUN YILDIRIMÇAKAR",
+          "fullName": "HARUN YILDIRIMÇAKAR",
+          "normalizedName": "HARUN YILDIRIMÇAKAR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:29.430Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:29.430Z",
+          "updatedAt": "2026-02-21T11:55:11.545Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
+          "baseKey": "HARUN YILDIRIMÇAKAR",
+          "fullName": "HARUN YILDIRIMÇAKAR",
+          "normalizedName": "HARUN YILDIRIMÇAKAR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:29.430Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:29.430Z",
+          "updatedAt": "2026-04-25T08:28:19.004Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:28:19.005Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "96b2e533-eb1e-4fe6-b543-06d26efcd95a",
       "action": "UPDATE",
@@ -41936,36 +41988,6 @@
       },
       "timestamp": "2026-01-10T06:56:31.282Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "fc8ca28c-a022-4509-85d6-4d21e9936d4b",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "4c6843e4-b45a-437b-a744-10d77fc9b73f",
-      "details": {
-        "person": {
-          "fullName": "MUSTAFA KUŞ",
-          "normalizedName": "MUSTAFA KUS",
-          "baseKey": "MUSTAFA KUS",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 36
-          },
-          "mergedFrom": [],
-          "personId": "4c6843e4-b45a-437b-a744-10d77fc9b73f",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        }
-      },
-      "timestamp": "2026-01-09T12:23:47.259Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
 }
