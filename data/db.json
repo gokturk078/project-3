@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:33:35.842Z"
+    "lastUpdated": "2026-04-25T08:34:17.568Z"
   },
   "taxonomy": {
     "categories": [
@@ -7868,6 +7868,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:33:35.842Z",
       "updatedAt": "2026-04-25T08:33:35.842Z"
+    },
+    {
+      "id": "c44dcb5f-c3ad-40aa-b631-74c2a1adc762",
+      "personId": null,
+      "fullName": "HARUN YILDIRIM ÇAKAR",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-01-31",
+      "exitDate": "2026-04-15",
+      "totalDays": 74,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:34:17.568Z",
+      "updatedAt": "2026-04-25T08:34:17.568Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7890,6 +7903,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "60859176-acd8-48ae-bb05-fc8496868b46",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "c44dcb5f-c3ad-40aa-b631-74c2a1adc762",
+      "details": {
+        "departure": {
+          "id": "c44dcb5f-c3ad-40aa-b631-74c2a1adc762",
+          "personId": null,
+          "fullName": "HARUN YILDIRIM ÇAKAR",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-15",
+          "totalDays": 74,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:34:17.568Z",
+          "updatedAt": "2026-04-25T08:34:17.568Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:34:17.568Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "9cdd1a86-3498-4f62-892a-9f9803c3ef82",
       "action": "CREATE",
@@ -41922,53 +41958,6 @@
         }
       },
       "timestamp": "2026-01-10T07:40:23.301Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "bb6894a5-59da-4d72-8ef4-d107456e7cf7",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-      "details": {
-        "before": {
-          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "baseKey": "BENAN UYUR",
-          "applicationNo": "BÜRO MEMURU",
-          "profession": "117543/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": null,
-          "contactPerson": "MURAT ÜYÜR EŞİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 24
-          },
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220"
-        },
-        "after": {
-          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "baseKey": "BENAN UYUR",
-          "applicationNo": "BÜRO MEMURU",
-          "profession": "117543/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 24
-          },
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-          "updatedAt": "2026-01-10T07:39:36.262Z"
-        }
-      },
-      "timestamp": "2026-01-10T07:39:36.262Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
