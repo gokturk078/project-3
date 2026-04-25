@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:25:15.293Z"
+    "lastUpdated": "2026-04-25T08:25:37.289Z"
   },
   "taxonomy": {
     "categories": [
@@ -4891,7 +4891,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4900,7 +4900,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-27T10:50:17.872Z",
-      "updatedAt": "2026-02-21T11:42:09.426Z",
+      "updatedAt": "2026-04-25T08:25:37.288Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "51087e4a-8230-4696-abd4-ca1680020ca5",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+      "details": {
+        "before": {
+          "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+          "baseKey": "MEHMET FERİT YÜNDEMLİ",
+          "fullName": "MEHMET FERİT YÜNDEMLİ",
+          "normalizedName": "MEHMET FERİT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:50:17.872Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:50:17.872Z",
+          "updatedAt": "2026-02-21T11:42:09.426Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
+          "baseKey": "MEHMET FERİT YÜNDEMLİ",
+          "fullName": "MEHMET FERİT YÜNDEMLİ",
+          "normalizedName": "MEHMET FERİT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-27T10:50:17.872Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-27T10:50:17.872Z",
+          "updatedAt": "2026-04-25T08:25:37.288Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:25:37.289Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "7e4cfe8f-084f-411d-a5a8-a0e98a5fd2aa",
       "action": "UPDATE",
@@ -41777,26 +41829,6 @@
         }
       },
       "timestamp": "2026-01-09T10:05:39.008Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "5700f471-9bbb-4df7-b7c3-3e2945b7333a",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "95946224-672e-4cd2-9d26-207e3000a32c",
-      "details": {
-        "leave": {
-          "id": "95946224-672e-4cd2-9d26-207e3000a32c",
-          "personId": "674a0c7f-bfbe-40aa-8d55-19dacfa49179",
-          "startDate": "2026-01-05",
-          "endDate": "2026-01-15",
-          "days": 11,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-09T09:30:16.809Z"
-        }
-      },
-      "timestamp": "2026-01-09T09:30:16.809Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
