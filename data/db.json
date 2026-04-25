@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:27:34.163Z"
+    "lastUpdated": "2026-04-25T08:27:54.227Z"
   },
   "taxonomy": {
     "categories": [
@@ -226,7 +226,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -235,7 +235,7 @@
       "mergedFrom": [],
       "personId": "0ae4bc3b-83f1-4f50-adca-c751d700f0a6",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:27:54.227Z"
     },
     {
       "fullName": "AYHAN DÖNER",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "96b2e533-eb1e-4fe6-b543-06d26efcd95a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0ae4bc3b-83f1-4f50-adca-c751d700f0a6",
+      "details": {
+        "before": {
+          "fullName": "ASUMAN GÜLALİOĞLU",
+          "normalizedName": "ASUMAN GULALIOGLU",
+          "baseKey": "ASUMAN GULALIOGLU",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 8
+          },
+          "mergedFrom": [],
+          "personId": "0ae4bc3b-83f1-4f50-adca-c751d700f0a6",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "ASUMAN GÜLALİOĞLU",
+          "normalizedName": "ASUMAN GULALIOGLU",
+          "baseKey": "ASUMAN GULALIOGLU",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 8
+          },
+          "mergedFrom": [],
+          "personId": "0ae4bc3b-83f1-4f50-adca-c751d700f0a6",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:27:54.227Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:27:54.227Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "1c3c13f9-cf07-470d-a1ce-54f7cd13f01c",
       "action": "UPDATE",
@@ -41915,36 +41965,6 @@
         }
       },
       "timestamp": "2026-01-09T12:23:47.259Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "4a52e204-6cd7-44db-a9e1-328209429ef6",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "ee638392-fb4f-4be9-a20c-785caf065409",
-      "details": {
-        "person": {
-          "fullName": "ZEKAİ UYAR",
-          "normalizedName": "ZEKAI UYAR",
-          "baseKey": "ZEKAI UYAR",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 52
-          },
-          "mergedFrom": [],
-          "personId": "ee638392-fb4f-4be9-a20c-785caf065409",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        }
-      },
-      "timestamp": "2026-01-09T12:23:31.241Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
