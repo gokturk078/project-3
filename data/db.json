@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T07:59:53.543Z"
+    "lastUpdated": "2026-04-25T08:00:06.543Z"
   },
   "taxonomy": {
     "categories": [
@@ -6633,18 +6633,6 @@
       "updatedAt": "2026-04-08T08:46:25.628Z"
     },
     {
-      "id": "20f0e69a-7b6d-4320-9116-77fb6e4d1a04",
-      "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
-      "applicationNo": "124610/2026",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "2026-03-17",
-      "contactPerson": "NEŞAT",
-      "notes": "",
-      "createdAt": "2026-03-17T15:21:28.529Z",
-      "updatedAt": "2026-04-08T08:47:07.589Z"
-    },
-    {
       "id": "3786cd42-79c1-4840-914b-573158d1c7f7",
       "personId": "c15075db-3630-43e7-92ab-0d0e184d3019",
       "applicationNo": "156318",
@@ -7815,6 +7803,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "776d244d-e373-4a81-97a6-fbfc4c889615",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "20f0e69a-7b6d-4320-9116-77fb6e4d1a04",
+      "details": {
+        "tracking": {
+          "id": "20f0e69a-7b6d-4320-9116-77fb6e4d1a04",
+          "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
+          "applicationNo": "124610/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-03-17",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-03-17T15:21:28.529Z",
+          "updatedAt": "2026-04-08T08:47:07.589Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:00:06.543Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "1a027bad-3dd4-4148-940d-388e5c7971ae",
       "action": "DELETE",
@@ -41636,53 +41646,6 @@
         }
       },
       "timestamp": "2026-01-06T13:05:06.402Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "7a39389c-61d2-40a9-b0d3-a3d29263d17c",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-      "details": {
-        "before": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af"
-        },
-        "after": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-          "updatedAt": "2026-01-06T13:05:03.139Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:05:03.139Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
