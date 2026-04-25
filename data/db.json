@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:26:37.716Z"
+    "lastUpdated": "2026-04-25T08:27:34.163Z"
   },
   "taxonomy": {
     "categories": [
@@ -526,7 +526,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -535,7 +535,7 @@
       "mergedFrom": [],
       "personId": "24482edc-60d8-41f7-9474-a73497f45f5d",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:27:34.163Z"
     },
     {
       "fullName": "HASAN KÜÇÜK",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "1c3c13f9-cf07-470d-a1ce-54f7cd13f01c",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "24482edc-60d8-41f7-9474-a73497f45f5d",
+      "details": {
+        "before": {
+          "fullName": "HALİL KARATAŞ",
+          "normalizedName": "HALIL KARATAS",
+          "baseKey": "HALIL KARATAS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 24
+          },
+          "mergedFrom": [],
+          "personId": "24482edc-60d8-41f7-9474-a73497f45f5d",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "HALİL KARATAŞ",
+          "normalizedName": "HALIL KARATAS",
+          "baseKey": "HALIL KARATAS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 24
+          },
+          "mergedFrom": [],
+          "personId": "24482edc-60d8-41f7-9474-a73497f45f5d",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:27:34.163Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:27:34.163Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "7b6d47a3-8d02-418c-8b4e-6e409f2f8a79",
       "action": "UPDATE",
@@ -41895,29 +41945,6 @@
         }
       },
       "timestamp": "2026-01-09T12:23:31.241Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "b17e065d-49c7-4f40-8bba-6db836561d89",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "93396654-0e35-4f00-a137-e2322fb9e14f",
-      "details": {
-        "departure": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2026-01-08",
-          "totalDays": 87,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-09T12:22:50.746Z"
-        }
-      },
-      "timestamp": "2026-01-09T12:22:50.746Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
