@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:16:12.472Z"
+    "lastUpdated": "2026-04-25T09:17:04.072Z"
   },
   "taxonomy": {
     "categories": [
@@ -8089,6 +8089,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T09:16:12.471Z",
       "updatedAt": "2026-04-25T09:16:12.471Z"
+    },
+    {
+      "id": "1e24aaaf-3cc8-4871-9a29-d03f83069429",
+      "personId": null,
+      "fullName": "ABDULSAMET DURU",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-01-04",
+      "exitDate": "2026-04-18",
+      "totalDays": 104,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T09:17:04.072Z",
+      "updatedAt": "2026-04-25T09:17:04.072Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8111,6 +8124,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "772c0159-5abf-4528-b7af-fbd0fcb184c3",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "1e24aaaf-3cc8-4871-9a29-d03f83069429",
+      "details": {
+        "departure": {
+          "id": "1e24aaaf-3cc8-4871-9a29-d03f83069429",
+          "personId": null,
+          "fullName": "ABDULSAMET DURU",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-01-04",
+          "exitDate": "2026-04-18",
+          "totalDays": 104,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T09:17:04.072Z",
+          "updatedAt": "2026-04-25T09:17:04.072Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:17:04.072Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "4fbceb67-e98e-4125-bc9b-e5fc22beda0a",
       "action": "CREATE",
@@ -41828,35 +41864,6 @@
         }
       },
       "timestamp": "2026-01-14T07:44:03.972Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "0324335d-944f-49cc-952a-d6e8797a0430",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "486e22c1-41a7-43ba-8a73-7f448440867a",
-      "details": {
-        "tracking": {
-          "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
-          "fullName": "NAZMİ DEMİR",
-          "normalizedName": "NAZMI DEMIR",
-          "baseKey": "NAZMI DEMIR",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116390/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "SÜLEYMAN ORUL",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 15
-          },
-          "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
-          "updatedAt": "2026-01-06T13:04:53.982Z"
-        }
-      },
-      "timestamp": "2026-01-14T07:43:47.523Z",
       "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
     }
   ]
