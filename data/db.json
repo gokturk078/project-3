@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:24:05.941Z"
+    "lastUpdated": "2026-04-25T08:24:35.597Z"
   },
   "taxonomy": {
     "categories": [
@@ -1166,7 +1166,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -1175,7 +1175,7 @@
       "mergedFrom": [],
       "personId": "e73a0f6a-6d6b-42a9-ba74-5dc0b65c3bb7",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:24:35.597Z"
     },
     {
       "fullName": "TALİP KARAGÜLLE",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "04de575b-1caf-4673-9aa4-8cba7e813f77",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "e73a0f6a-6d6b-42a9-ba74-5dc0b65c3bb7",
+      "details": {
+        "before": {
+          "fullName": "TAHİR BUDAK",
+          "normalizedName": "TAHIR BUDAK",
+          "baseKey": "TAHIR BUDAK",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 56
+          },
+          "mergedFrom": [],
+          "personId": "e73a0f6a-6d6b-42a9-ba74-5dc0b65c3bb7",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "TAHİR BUDAK",
+          "normalizedName": "TAHIR BUDAK",
+          "baseKey": "TAHIR BUDAK",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 56
+          },
+          "mergedFrom": [],
+          "personId": "e73a0f6a-6d6b-42a9-ba74-5dc0b65c3bb7",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:24:35.597Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:24:35.597Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "b1d04bce-c534-4a06-a902-4e32713262a2",
       "action": "UPDATE",
@@ -41696,26 +41746,6 @@
         }
       },
       "timestamp": "2026-01-09T09:23:15.437Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "79e6f37b-b2e6-4ec4-b5f7-df38718756f9",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "95545ddb-565d-4c0d-8fa8-40103c4d1ce9",
-      "details": {
-        "leave": {
-          "id": "95545ddb-565d-4c0d-8fa8-40103c4d1ce9",
-          "personId": "9735f86e-be5e-4194-9693-83629caa2a34",
-          "startDate": "2025-12-01",
-          "endDate": "2026-01-15",
-          "days": 46,
-          "type": "RAPOR",
-          "note": "hastalık sonucu rapor",
-          "createdAt": "2026-01-09T09:22:28.097Z"
-        }
-      },
-      "timestamp": "2026-01-09T09:22:28.098Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
