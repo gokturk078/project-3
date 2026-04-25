@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:28:59.317Z"
+    "lastUpdated": "2026-04-25T08:29:20.562Z"
   },
   "taxonomy": {
     "categories": [
@@ -4723,7 +4723,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4732,7 +4732,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:07:57.034Z",
-      "updatedAt": "2026-03-09T11:30:26.715Z",
+      "updatedAt": "2026-04-25T08:29:20.562Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "02b9530b-79fa-4414-a1c3-e7fd9f4106c2",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ae422373-9bee-452b-899b-aee6273d30a5",
+      "details": {
+        "before": {
+          "personId": "ae422373-9bee-452b-899b-aee6273d30a5",
+          "baseKey": "CEMİL ERİŞ",
+          "fullName": "CEMİL ERİŞ",
+          "normalizedName": "CEMİL ERİŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:57.034Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:57.034Z",
+          "updatedAt": "2026-03-09T11:30:26.715Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "ae422373-9bee-452b-899b-aee6273d30a5",
+          "baseKey": "CEMİL ERİŞ",
+          "fullName": "CEMİL ERİŞ",
+          "normalizedName": "CEMİL ERİŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:57.034Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:57.034Z",
+          "updatedAt": "2026-04-25T08:29:20.562Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:29:20.562Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "090a3cd1-17e9-4aeb-9796-da6b89947d37",
       "action": "UPDATE",
@@ -41989,53 +42041,6 @@
         }
       },
       "timestamp": "2026-01-10T07:36:50.385Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "2658e136-361c-4326-90f8-d86e8ed311bb",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-      "details": {
-        "before": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": null,
-          "contactPerson": "EYYÜP",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c"
-        },
-        "after": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "updatedAt": "2026-01-10T07:36:31.801Z"
-        }
-      },
-      "timestamp": "2026-01-10T07:36:31.802Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
