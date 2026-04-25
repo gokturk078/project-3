@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:28:40.135Z"
+    "lastUpdated": "2026-04-25T08:28:59.317Z"
   },
   "taxonomy": {
     "categories": [
@@ -1146,7 +1146,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -1155,7 +1155,7 @@
       "mergedFrom": [],
       "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:28:59.317Z"
     },
     {
       "fullName": "TAHİR BUDAK",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "090a3cd1-17e9-4aeb-9796-da6b89947d37",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
+      "details": {
+        "before": {
+          "fullName": "SÜLEYMAN ORUL",
+          "normalizedName": "SULEYMAN ORUL",
+          "baseKey": "SULEYMAN ORUL",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 55
+          },
+          "mergedFrom": [],
+          "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "SÜLEYMAN ORUL",
+          "normalizedName": "SULEYMAN ORUL",
+          "baseKey": "SULEYMAN ORUL",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 55
+          },
+          "mergedFrom": [],
+          "personId": "390b2c32-82a2-4edf-b530-9ba8d9f6ebb7",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:28:59.317Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:28:59.317Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "fc00f3d3-b79d-4a8f-af06-212cf942d2e9",
       "action": "UPDATE",
@@ -41986,36 +42036,6 @@
         }
       },
       "timestamp": "2026-01-10T07:36:31.802Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "ab438f83-c047-4966-b522-db1f26826a95",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
-      "details": {
-        "person": {
-          "fullName": "SALİH UYAR",
-          "normalizedName": "SALIH UYAR",
-          "baseKey": "SALIH UYAR",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 42
-          },
-          "mergedFrom": [],
-          "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        }
-      },
-      "timestamp": "2026-01-10T06:57:06.265Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
