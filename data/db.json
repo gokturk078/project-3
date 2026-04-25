@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:20:15.472Z"
+    "lastUpdated": "2026-04-25T08:20:36.818Z"
   },
   "taxonomy": {
     "categories": [
@@ -5369,7 +5369,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -5378,7 +5378,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-03T09:30:35.611Z",
-      "updatedAt": "2026-03-25T11:20:20.942Z",
+      "updatedAt": "2026-04-25T08:20:36.818Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "61798158-ea54-494c-94d5-4fbdbb0e8b42",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+      "details": {
+        "before": {
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "baseKey": "YAKUP SEZEN",
+          "fullName": "YAKUP SEZEN",
+          "normalizedName": "YAKUP SEZEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:30:35.611Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:30:35.611Z",
+          "updatedAt": "2026-03-25T11:20:20.942Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "734f6795-f4a4-46b2-826e-1c86e8a309b5",
+          "baseKey": "YAKUP SEZEN",
+          "fullName": "YAKUP SEZEN",
+          "normalizedName": "YAKUP SEZEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T09:30:35.611Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T09:30:35.611Z",
+          "updatedAt": "2026-04-25T08:20:36.818Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:20:36.818Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "ffeb496d-792a-4184-9d58-35623e1d36f8",
       "action": "UPDATE",
@@ -41503,36 +41555,6 @@
       },
       "timestamp": "2026-01-07T07:01:28.430Z",
       "adminSession": "61c94ad8-db42-4acd-9814-626519c61ab3"
-    },
-    {
-      "id": "99d936ba-8c8d-464c-90bd-57e2bd9a7249",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "9fa2456c-96ca-4789-afa1-a8cd7039139e",
-      "details": {
-        "person": {
-          "personId": "9fa2456c-96ca-4789-afa1-a8cd7039139e",
-          "baseKey": "MD  RAFİ MOLLA",
-          "fullName": "MD  RAFİ MOLLA",
-          "normalizedName": "MD  RAFİ MOLLA",
-          "category": "BANGLADEŞ",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-06T16:14:22.667Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-06T16:14:22.667Z",
-          "updatedAt": "2026-01-06T16:14:22.667Z"
-        }
-      },
-      "timestamp": "2026-01-06T16:28:32.986Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
 }
