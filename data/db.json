@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:25:37.289Z"
+    "lastUpdated": "2026-04-25T08:25:57.220Z"
   },
   "taxonomy": {
     "categories": [
@@ -426,7 +426,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -435,7 +435,7 @@
       "mergedFrom": [],
       "personId": "b6b6f780-e4a3-4eab-a73a-24af3bcb3fba",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:25:57.220Z"
     },
     {
       "fullName": "FERİT KAHRİMAN",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "dec1aad4-6989-48fe-923e-eacff9637349",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "b6b6f780-e4a3-4eab-a73a-24af3bcb3fba",
+      "details": {
+        "before": {
+          "fullName": "ESAT İĞDE",
+          "normalizedName": "ESAT IGDE",
+          "baseKey": "ESAT IGDE",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 19
+          },
+          "mergedFrom": [],
+          "personId": "b6b6f780-e4a3-4eab-a73a-24af3bcb3fba",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "ESAT İĞDE",
+          "normalizedName": "ESAT IGDE",
+          "baseKey": "ESAT IGDE",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 19
+          },
+          "mergedFrom": [],
+          "personId": "b6b6f780-e4a3-4eab-a73a-24af3bcb3fba",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:25:57.220Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:25:57.220Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "51087e4a-8230-4696-abd4-ca1680020ca5",
       "action": "UPDATE",
@@ -41809,26 +41859,6 @@
         }
       },
       "timestamp": "2026-01-09T10:06:13.559Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "3d078e1a-f0f4-4464-ad8f-2e85837633cf",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "8ef6aca2-e0d8-45bc-a331-5faa1586d1ae",
-      "details": {
-        "leave": {
-          "id": "8ef6aca2-e0d8-45bc-a331-5faa1586d1ae",
-          "personId": "e8bdfbec-ab38-4f74-b158-a1766a654c2f",
-          "startDate": "2026-01-10",
-          "endDate": "2026-01-15",
-          "days": 6,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-09T10:05:39.008Z"
-        }
-      },
-      "timestamp": "2026-01-09T10:05:39.008Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
