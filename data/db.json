@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:34:17.568Z"
+    "lastUpdated": "2026-04-25T08:35:21.227Z"
   },
   "taxonomy": {
     "categories": [
@@ -7881,6 +7881,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:34:17.568Z",
       "updatedAt": "2026-04-25T08:34:17.568Z"
+    },
+    {
+      "id": "7643a41b-84bd-4087-8704-6698fb46a410",
+      "personId": null,
+      "fullName": "ASUMAN GÜLALİOĞLU",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-10-10",
+      "exitDate": "2026-04-16",
+      "totalDays": 188,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:35:21.227Z",
+      "updatedAt": "2026-04-25T08:35:21.227Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7903,6 +7916,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "a7fe0009-305d-40a3-b034-365af79182cd",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "7643a41b-84bd-4087-8704-6698fb46a410",
+      "details": {
+        "departure": {
+          "id": "7643a41b-84bd-4087-8704-6698fb46a410",
+          "personId": null,
+          "fullName": "ASUMAN GÜLALİOĞLU",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-10-10",
+          "exitDate": "2026-04-16",
+          "totalDays": 188,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:35:21.227Z",
+          "updatedAt": "2026-04-25T08:35:21.227Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:35:21.227Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "60859176-acd8-48ae-bb05-fc8496868b46",
       "action": "CREATE",
@@ -41924,40 +41960,6 @@
         }
       },
       "timestamp": "2026-01-10T09:38:37.532Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "e833deb2-d267-4ae5-a879-d7ac4775d048",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-      "details": {
-        "before": {
-          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
-          "applicationNo": "116083/2025",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-05",
-          "contactPerson": "",
-          "notes": "geldi",
-          "createdAt": "2026-01-06T05:59:10.238Z",
-          "updatedAt": "2026-01-06T05:59:10.238Z"
-        },
-        "after": {
-          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
-          "applicationNo": "116083/2025",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-05",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-06T05:59:10.238Z",
-          "updatedAt": "2026-01-10T07:40:23.301Z"
-        }
-      },
-      "timestamp": "2026-01-10T07:40:23.301Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
