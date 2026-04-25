@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:00:41.097Z"
+    "lastUpdated": "2026-04-25T08:01:43.161Z"
   },
   "taxonomy": {
     "categories": [
@@ -6190,6 +6190,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-20T14:38:01.398Z",
       "updatedAt": "2026-04-20T14:38:01.398Z"
+    },
+    {
+      "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+      "baseKey": "ÇAĞRI POLAT",
+      "fullName": "çağrı polat",
+      "normalizedName": "ÇAĞRI POLAT",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-25T08:01:43.161Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-25T08:01:43.161Z",
+      "updatedAt": "2026-04-25T08:01:43.161Z"
     }
   ],
   "leaves": [
@@ -7767,6 +7787,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "0e3cd9f7-0014-4382-ae4a-76cbc7c0925e",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+      "details": {
+        "person": {
+          "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+          "baseKey": "ÇAĞRI POLAT",
+          "fullName": "çağrı polat",
+          "normalizedName": "ÇAĞRI POLAT",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T08:01:43.161Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T08:01:43.161Z",
+          "updatedAt": "2026-04-25T08:01:43.161Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:01:43.161Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "cb84182b-753a-4642-97f1-9d766ef8d4b3",
       "action": "DELETE",
@@ -41488,53 +41538,6 @@
         }
       },
       "timestamp": "2026-01-06T13:10:39.243Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "cda9bc39-1d46-4049-a46d-c680225dd37a",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-      "details": {
-        "before": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50"
-        },
-        "after": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-06T13:05:15.710Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:05:15.710Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
