@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:18:32.857Z"
+    "lastUpdated": "2026-04-25T09:19:10.872Z"
   },
   "taxonomy": {
     "categories": [
@@ -8128,6 +8128,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T09:18:32.857Z",
       "updatedAt": "2026-04-25T09:18:32.857Z"
+    },
+    {
+      "id": "086575a2-bfe2-47ce-b200-133c13f78fb7",
+      "personId": null,
+      "fullName": "UMUT YÜNDEMLİ",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-01-28",
+      "exitDate": "2026-04-15",
+      "totalDays": 77,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T09:19:10.872Z",
+      "updatedAt": "2026-04-25T09:19:10.872Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8150,6 +8163,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "6690785d-8204-467a-a475-516731679d45",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "086575a2-bfe2-47ce-b200-133c13f78fb7",
+      "details": {
+        "departure": {
+          "id": "086575a2-bfe2-47ce-b200-133c13f78fb7",
+          "personId": null,
+          "fullName": "UMUT YÜNDEMLİ",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-01-28",
+          "exitDate": "2026-04-15",
+          "totalDays": 77,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T09:19:10.872Z",
+          "updatedAt": "2026-04-25T09:19:10.872Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:19:10.872Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "f61c2229-1497-4c5d-8086-7ee76ee240b0",
       "action": "CREATE",
@@ -41847,36 +41883,6 @@
         }
       },
       "timestamp": "2026-01-14T07:48:57.181Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "69f8af4a-651b-4752-96cc-e746e295c377",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
-      "details": {
-        "person": {
-          "personId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
-          "baseKey": "ERCAN İŞLEK",
-          "fullName": "ERCAN İŞLEK",
-          "normalizedName": "ERCAN İŞLEK",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-14T07:48:36.950Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-14T07:48:36.950Z",
-          "updatedAt": "2026-01-14T07:48:36.950Z"
-        }
-      },
-      "timestamp": "2026-01-14T07:48:36.950Z",
       "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
     }
   ]
