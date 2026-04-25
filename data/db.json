@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:21:42.424Z"
+    "lastUpdated": "2026-04-25T08:22:04.470Z"
   },
   "taxonomy": {
     "categories": [
@@ -146,7 +146,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -155,7 +155,7 @@
       "mergedFrom": [],
       "personId": "ee884d7f-519e-4e45-b8ce-71508af58120",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:22:04.470Z"
     },
     {
       "fullName": "ADNAN ÇEVİK",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "c0d3d17b-79c7-4890-a0aa-680df6869276",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ee884d7f-519e-4e45-b8ce-71508af58120",
+      "details": {
+        "before": {
+          "fullName": "ABDULLAH TAŞ",
+          "normalizedName": "ABDULLAH TAS",
+          "baseKey": "ABDULLAH TAS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 3
+          },
+          "mergedFrom": [],
+          "personId": "ee884d7f-519e-4e45-b8ce-71508af58120",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "ABDULLAH TAŞ",
+          "normalizedName": "ABDULLAH TAS",
+          "baseKey": "ABDULLAH TAS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 3
+          },
+          "mergedFrom": [],
+          "personId": "ee884d7f-519e-4e45-b8ce-71508af58120",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:22:04.470Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:22:04.470Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "71ae44bd-0e46-4388-940c-a1a1c7b0d631",
       "action": "UPDATE",
@@ -41586,36 +41636,6 @@
         }
       },
       "timestamp": "2026-01-08T14:09:02.834Z",
-      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
-    },
-    {
-      "id": "47c3bf01-c1ca-4f17-b5e1-152f9b2792a3",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "1d3377c8-ffbf-4348-9d16-06b61d97acab",
-      "details": {
-        "person": {
-          "personId": "1d3377c8-ffbf-4348-9d16-06b61d97acab",
-          "baseKey": "RESUL DAVRANOV",
-          "fullName": "RESUL DAVRANOV",
-          "normalizedName": "RESUL DAVRANOV",
-          "category": "TÜRKMEN",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-08T12:06:02.266Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-08T12:06:02.266Z",
-          "updatedAt": "2026-01-08T12:06:02.266Z"
-        }
-      },
-      "timestamp": "2026-01-08T12:06:02.266Z",
       "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
     }
   ]
