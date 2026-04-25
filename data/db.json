@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:30:31.279Z"
+    "lastUpdated": "2026-04-25T08:31:12.308Z"
   },
   "taxonomy": {
     "categories": [
@@ -7829,6 +7829,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:30:31.279Z",
       "updatedAt": "2026-04-25T08:30:31.279Z"
+    },
+    {
+      "id": "3a4adfb3-0162-4149-abf9-4332b0a8f07c",
+      "personId": null,
+      "fullName": "CEMİL ERİŞ",
+      "category": null,
+      "job": "",
+      "entryDate": "2026-01-31",
+      "exitDate": "2026-04-15",
+      "totalDays": 74,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:31:12.308Z",
+      "updatedAt": "2026-04-25T08:31:12.308Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7851,6 +7864,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "a1de14bc-871b-4f70-9c0c-2a50f8e2c79a",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "3a4adfb3-0162-4149-abf9-4332b0a8f07c",
+      "details": {
+        "departure": {
+          "id": "3a4adfb3-0162-4149-abf9-4332b0a8f07c",
+          "personId": null,
+          "fullName": "CEMİL ERİŞ",
+          "category": null,
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-15",
+          "totalDays": 74,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:31:12.308Z",
+          "updatedAt": "2026-04-25T08:31:12.308Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:31:12.308Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "bb687630-75ef-4e2f-8b78-6d6e593c8691",
       "action": "CREATE",
@@ -41981,54 +42017,6 @@
         }
       },
       "timestamp": "2026-01-10T07:37:12.381Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "9b9b78c6-94a9-4b78-928b-22d5062b3f60",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-      "details": {
-        "before": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-06T13:05:13.063Z"
-        },
-        "after": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-10T07:37:00.158Z"
-        }
-      },
-      "timestamp": "2026-01-10T07:37:00.158Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
