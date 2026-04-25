@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T07:59:32.635Z"
+    "lastUpdated": "2026-04-25T07:59:40.131Z"
   },
   "taxonomy": {
     "categories": [
@@ -6693,18 +6693,6 @@
       "updatedAt": "2026-04-01T07:12:11.541Z"
     },
     {
-      "id": "37a55e25-d48f-490a-a9ad-c0826beb6a0a",
-      "personId": "d49157b2-80fb-4188-ba9b-41b2e93af453",
-      "applicationNo": "125856/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-04-01",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "createdAt": "2026-04-01T07:13:16.013Z",
-      "updatedAt": "2026-04-01T07:13:16.013Z"
-    },
-    {
       "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
       "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
       "applicationNo": "126220/2026",
@@ -7851,6 +7839,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ea30b184-1a7c-4a92-86ea-cc0212208866",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "37a55e25-d48f-490a-a9ad-c0826beb6a0a",
+      "details": {
+        "tracking": {
+          "id": "37a55e25-d48f-490a-a9ad-c0826beb6a0a",
+          "personId": "d49157b2-80fb-4188-ba9b-41b2e93af453",
+          "applicationNo": "125856/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-04-01",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-04-01T07:13:16.013Z",
+          "updatedAt": "2026-04-01T07:13:16.013Z"
+        }
+      },
+      "timestamp": "2026-04-25T07:59:40.131Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "7d161d31-2a21-4145-868a-3f75dd1a5013",
       "action": "DELETE",
@@ -41747,53 +41757,6 @@
         }
       },
       "timestamp": "2026-01-06T13:04:53.982Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "7824e0cf-837b-45ab-bf21-8861db4c6228",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "0833d07c-79df-492f-8a47-89589dd04ebc",
-      "details": {
-        "before": {
-          "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
-          "fullName": "REZZAN KAYA",
-          "normalizedName": "REZZAN KAYA",
-          "baseKey": "REZZAN KAYA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116388/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "HAYDAR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 16
-          },
-          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2"
-        },
-        "after": {
-          "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
-          "fullName": "REZZAN KAYA",
-          "normalizedName": "REZZAN KAYA",
-          "baseKey": "REZZAN KAYA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116388/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "HAYDAR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 16
-          },
-          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
-          "updatedAt": "2026-01-06T13:04:46.906Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:04:46.906Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
