@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:26:07.999Z"
+    "lastUpdated": "2026-04-25T09:51:21.053Z"
   },
   "taxonomy": {
     "categories": [
@@ -5163,7 +5163,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5172,7 +5172,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-10T09:14:05.057Z",
-      "updatedAt": "2026-02-10T09:14:05.057Z"
+      "updatedAt": "2026-04-25T09:45:53.724Z",
+      "jobTitle": null
     },
     {
       "personId": "2ef1f554-4f18-408a-895c-d1b1ee28ac36",
@@ -5246,7 +5247,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5255,7 +5256,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-26T07:31:43.410Z",
-      "updatedAt": "2026-02-26T07:31:43.410Z"
+      "updatedAt": "2026-04-25T09:43:47.509Z",
+      "jobTitle": null
     },
     {
       "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
@@ -5266,7 +5268,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5275,7 +5277,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-27T08:16:06.211Z",
-      "updatedAt": "2026-02-27T08:16:06.211Z"
+      "updatedAt": "2026-04-25T09:36:43.089Z",
+      "jobTitle": null
     },
     {
       "personId": "f7236f88-c90e-44ab-b752-b5c1d8a4a28d",
@@ -5286,7 +5289,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5295,7 +5298,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-02-27T08:16:30.371Z",
-      "updatedAt": "2026-02-27T08:16:30.371Z"
+      "updatedAt": "2026-04-25T09:36:59.173Z",
+      "jobTitle": null
     },
     {
       "personId": "be194848-8689-4ee4-ac9a-1aaf782a6f8e",
@@ -5411,7 +5415,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5420,7 +5424,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-03T10:48:19.761Z",
-      "updatedAt": "2026-03-03T10:48:19.761Z"
+      "updatedAt": "2026-04-25T09:38:15.052Z",
+      "jobTitle": null
     },
     {
       "personId": "a1ff43da-ff09-4fae-8461-0c66a7c163e3",
@@ -5431,7 +5436,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5440,7 +5445,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-03T13:08:31.369Z",
-      "updatedAt": "2026-03-03T13:08:31.369Z"
+      "updatedAt": "2026-04-25T09:39:30.199Z",
+      "jobTitle": null
     },
     {
       "personId": "0fc52e5b-a36a-490a-a6f7-2377c151e1ba",
@@ -5464,26 +5470,6 @@
       "jobTitle": null
     },
     {
-      "personId": "333fa41a-5a4f-41e2-9d8b-bc31aa4b12a0",
-      "baseKey": "MAHSUN ALTINKALEM",
-      "fullName": "MAHSUN ALTINKALEM",
-      "normalizedName": "MAHSUN ALTINKALEM",
-      "category": "NEŞAT",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-04T07:58:52.196Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-04T07:58:52.196Z",
-      "updatedAt": "2026-03-04T07:58:52.196Z"
-    },
-    {
       "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
       "baseKey": "OĞUZHAN BABAYİĞİT",
       "fullName": "OĞUZHAN BABAYİĞİT",
@@ -5492,7 +5478,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5501,7 +5487,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-04T07:59:11.179Z",
-      "updatedAt": "2026-03-04T07:59:11.179Z"
+      "updatedAt": "2026-04-25T09:37:38.787Z",
+      "jobTitle": null
     },
     {
       "personId": "1e975231-883a-4473-a16f-c0401a5a93e7",
@@ -5567,26 +5554,6 @@
       "jobTitle": null
     },
     {
-      "personId": "9cf42ffb-0ef6-475b-ac9e-d064feafff1e",
-      "baseKey": "MEHMET KEKİK",
-      "fullName": "MEHMET KEKİK",
-      "normalizedName": "MEHMET KEKİK",
-      "category": "NEŞAT",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-04T11:48:19.674Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-04T11:48:19.674Z",
-      "updatedAt": "2026-03-04T11:48:19.674Z"
-    },
-    {
       "personId": "78a412b2-b0c4-4d12-899a-139380bffd93",
       "baseKey": "NECATİ AKKAYA",
       "fullName": "NECATİ AKKAYA",
@@ -5595,7 +5562,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5604,7 +5571,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-04T11:48:38.523Z",
-      "updatedAt": "2026-03-04T11:48:38.523Z"
+      "updatedAt": "2026-04-25T09:38:41.528Z",
+      "jobTitle": null
     },
     {
       "personId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
@@ -5655,7 +5623,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5664,27 +5632,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-06T11:21:47.721Z",
-      "updatedAt": "2026-03-06T11:21:47.721Z"
-    },
-    {
-      "personId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
-      "baseKey": "MAHMUT KIZILTAŞ",
-      "fullName": "MAHMUT KIZILTAŞ",
-      "normalizedName": "MAHMUT KIZILTAŞ",
-      "category": "NEŞAT",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-09T09:35:34.127Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-09T09:35:34.127Z",
-      "updatedAt": "2026-03-09T09:35:34.127Z"
+      "updatedAt": "2026-04-25T09:37:31.794Z",
+      "jobTitle": null
     },
     {
       "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
@@ -5708,26 +5657,6 @@
       "jobTitle": null
     },
     {
-      "personId": "9ceef985-955b-48a0-8466-aefc743db103",
-      "baseKey": "SABRİ GÜLEKEN",
-      "fullName": "SABRİ GÜLEKEN",
-      "normalizedName": "SABRİ GÜLEKEN",
-      "category": "REPSAM",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-17T12:36:22.816Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-17T12:36:22.816Z",
-      "updatedAt": "2026-03-17T12:36:22.816Z"
-    },
-    {
       "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
       "baseKey": "MEHMET KESKİN",
       "fullName": "MEHMET KESKİN",
@@ -5736,7 +5665,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5745,7 +5674,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-17T12:36:42.265Z",
-      "updatedAt": "2026-03-17T12:36:42.265Z"
+      "updatedAt": "2026-04-25T09:39:00.875Z",
+      "jobTitle": null
     },
     {
       "personId": "ecb75bc5-198b-4554-962b-a18c605290b3",
@@ -5790,206 +5720,6 @@
       "jobTitle": null
     },
     {
-      "personId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
-      "baseKey": "MUSTAFA KUŞ",
-      "fullName": "MUSTAFA KUŞ",
-      "normalizedName": "MUSTAFA KUŞ",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-24T11:28:39.714Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-24T11:28:39.714Z",
-      "updatedAt": "2026-03-24T11:28:39.714Z"
-    },
-    {
-      "personId": "1285cfa6-7756-4c32-8eb2-2feef8d033e2",
-      "baseKey": "MAHMUT KUTLUCA",
-      "fullName": "MAHMUT KUTLUCA",
-      "normalizedName": "MAHMUT KUTLUCA",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-24T11:29:13.582Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-24T11:29:13.582Z",
-      "updatedAt": "2026-03-24T11:29:13.582Z"
-    },
-    {
-      "personId": "bd01d5b7-e367-4ca6-9a75-5ed93bc42bc6",
-      "baseKey": "MEHMET KAYA",
-      "fullName": "MEHMET KAYA",
-      "normalizedName": "MEHMET KAYA",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-24T11:29:30.964Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-24T11:29:30.964Z",
-      "updatedAt": "2026-03-24T11:29:30.964Z"
-    },
-    {
-      "personId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
-      "baseKey": "RÜSTEM KARAKUŞ",
-      "fullName": "RÜSTEM KARAKUŞ",
-      "normalizedName": "RÜSTEM KARAKUŞ",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-24T11:29:51.230Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-24T11:29:51.230Z",
-      "updatedAt": "2026-03-24T11:29:51.230Z"
-    },
-    {
-      "personId": "9e622566-98ad-4d28-bcdc-0d04b056892c",
-      "baseKey": "MEHMET AYDOĞAN",
-      "fullName": "MEHMET AYDOĞAN",
-      "normalizedName": "MEHMET AYDOĞAN",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-03-24T11:30:12.144Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-03-24T11:30:12.144Z",
-      "updatedAt": "2026-03-24T11:30:12.144Z"
-    },
-    {
-      "personId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
-      "baseKey": "YILMAZ UMUT ZENEZ",
-      "fullName": "YILMAZ UMUT ZENEZ",
-      "normalizedName": "YILMAZ UMUT ZENEZ",
-      "category": "REPSAM",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-01T07:08:48.028Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-01T07:08:48.028Z",
-      "updatedAt": "2026-04-01T07:08:48.028Z"
-    },
-    {
-      "personId": "d49157b2-80fb-4188-ba9b-41b2e93af453",
-      "baseKey": "BARAN KÖROĞLU",
-      "fullName": "BARAN KÖROĞLU",
-      "normalizedName": "BARAN KÖROĞLU",
-      "category": "REPSAM",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-01T07:09:18.301Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-01T07:09:18.301Z",
-      "updatedAt": "2026-04-01T07:09:18.301Z"
-    },
-    {
-      "personId": "d83ae53b-3f25-4573-8f72-f7c7a0674ac5",
-      "baseKey": "HAMZA AL",
-      "fullName": "HAMZA AL",
-      "normalizedName": "HAMZA AL",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-01T09:36:40.652Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-01T09:36:40.652Z",
-      "updatedAt": "2026-04-01T09:36:40.652Z"
-    },
-    {
-      "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
-      "baseKey": "HACI METİN",
-      "fullName": "HACI METİN",
-      "normalizedName": "HACI METİN",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-03T10:28:18.798Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-03T10:28:18.798Z",
-      "updatedAt": "2026-04-03T10:28:18.798Z"
-    },
-    {
-      "personId": "4a1209dc-fb1b-492b-be7c-42155835a2f4",
-      "baseKey": "MURAT AYDINLI",
-      "fullName": "MURAT AYDINLI",
-      "normalizedName": "MURAT AYDINLI",
-      "category": "REPSAM",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-03T10:28:38.146Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-03T10:28:38.146Z",
-      "updatedAt": "2026-04-03T10:28:38.146Z"
-    },
-    {
       "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
       "baseKey": "İBRAHİM AKSOY",
       "fullName": "İBRAHİM AKSOY",
@@ -6008,87 +5738,6 @@
       "mergedFrom": [],
       "createdAt": "2026-04-03T10:29:07.386Z",
       "updatedAt": "2026-04-03T10:29:07.386Z"
-    },
-    {
-      "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
-      "baseKey": "MEHMET SEVİM",
-      "fullName": "MEHMET SEVİM",
-      "normalizedName": "MEHMET SEVİM",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-03T10:29:35.860Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-03T10:29:35.860Z",
-      "updatedAt": "2026-04-03T10:33:10.177Z",
-      "jobTitle": null
-    },
-    {
-      "personId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
-      "baseKey": "MAHMUT KAPLAN",
-      "fullName": "MAHMUT KAPLAN",
-      "normalizedName": "MAHMUT KAPLAN",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-03T10:29:56.457Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-03T10:29:56.457Z",
-      "updatedAt": "2026-04-03T10:29:56.457Z"
-    },
-    {
-      "personId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
-      "baseKey": "EROL DAĞ",
-      "fullName": "EROL DAĞ",
-      "normalizedName": "EROL DAĞ",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-03T10:30:12.175Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-03T10:30:12.175Z",
-      "updatedAt": "2026-04-03T10:30:12.175Z"
-    },
-    {
-      "personId": "548b56e9-2a6a-43b6-b78f-10ee0f37f5b1",
-      "baseKey": "SEZER BAKIR",
-      "fullName": "SEZER BAKIR",
-      "normalizedName": "SEZER BAKIR",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-03T10:30:35.620Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-03T10:30:35.620Z",
-      "updatedAt": "2026-04-03T10:30:35.620Z"
     },
     {
       "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
@@ -6210,6 +5859,46 @@
       "mergedFrom": [],
       "createdAt": "2026-04-25T08:01:43.161Z",
       "updatedAt": "2026-04-25T08:01:43.161Z"
+    },
+    {
+      "personId": "9ad768eb-5c5b-432a-93c8-cf28d667e65d",
+      "baseKey": "MEHMET MERT YÜNDEMLİ",
+      "fullName": "MEHMET MERT YÜNDEMLİ",
+      "normalizedName": "MEHMET MERT YÜNDEMLİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-25T09:41:29.538Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-25T09:41:29.538Z",
+      "updatedAt": "2026-04-25T09:41:29.538Z"
+    },
+    {
+      "personId": "ad496311-eaa9-48be-959f-9f8bc7d956ce",
+      "baseKey": "AHMET DÖNMEZ",
+      "fullName": "AHMET DÖNMEZ",
+      "normalizedName": "AHMET DÖNMEZ",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-25T09:51:21.053Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-25T09:51:21.053Z",
+      "updatedAt": "2026-04-25T09:51:21.053Z"
     }
   ],
   "leaves": [
@@ -6621,12 +6310,12 @@
       "personId": "c15075db-3630-43e7-92ab-0d0e184d3019",
       "applicationNo": "156318",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-03-26T06:53:47.245Z",
-      "updatedAt": "2026-04-13T15:09:07.498Z"
+      "updatedAt": "2026-04-25T09:48:02.672Z"
     },
     {
       "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
@@ -7730,27 +7419,27 @@
       "id": "b212ffc6-ddaa-4d54-992d-b2f79d55f818",
       "personId": null,
       "fullName": "DAVUT SEZEN",
-      "category": "KALMES",
+      "category": "REPSAM",
       "job": "",
       "entryDate": "2025-10-18",
       "exitDate": "2026-03-01",
       "totalDays": 134,
       "exitMonth": "2026-03",
       "createdAt": "2026-04-03T07:55:00.570Z",
-      "updatedAt": "2026-04-03T07:55:00.570Z"
+      "updatedAt": "2026-04-25T09:26:44.432Z"
     },
     {
       "id": "e804a760-dd0b-4f25-bfb6-b78d9153f149",
       "personId": null,
       "fullName": "ŞAKİP YILDIZOĞLU",
-      "category": null,
+      "category": "REPSAM",
       "job": "",
       "entryDate": "2026-01-05",
       "exitDate": "2026-03-30",
       "totalDays": 84,
       "exitMonth": "2026-03",
       "createdAt": "2026-04-03T07:58:49.972Z",
-      "updatedAt": "2026-04-03T07:58:49.972Z"
+      "updatedAt": "2026-04-25T09:26:17.074Z"
     },
     {
       "id": "811a3a43-d906-4d5f-9856-14b445341cda",
@@ -8202,6 +7891,1223 @@
     }
   ],
   "audit": [
+    {
+      "id": "ca96387b-1d73-411c-b8c5-0a3db4b5664b",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "ad496311-eaa9-48be-959f-9f8bc7d956ce",
+      "details": {
+        "person": {
+          "personId": "ad496311-eaa9-48be-959f-9f8bc7d956ce",
+          "baseKey": "AHMET DÖNMEZ",
+          "fullName": "AHMET DÖNMEZ",
+          "normalizedName": "AHMET DÖNMEZ",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T09:51:21.053Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T09:51:21.053Z",
+          "updatedAt": "2026-04-25T09:51:21.053Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:51:21.053Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "8bb7072b-e5ab-42c7-b170-2e0be748242d",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "3786cd42-79c1-4840-914b-573158d1c7f7",
+      "details": {
+        "before": {
+          "id": "3786cd42-79c1-4840-914b-573158d1c7f7",
+          "personId": "c15075db-3630-43e7-92ab-0d0e184d3019",
+          "applicationNo": "156318",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:53:47.245Z",
+          "updatedAt": "2026-04-13T15:09:07.498Z"
+        },
+        "after": {
+          "id": "3786cd42-79c1-4840-914b-573158d1c7f7",
+          "personId": "c15075db-3630-43e7-92ab-0d0e184d3019",
+          "applicationNo": "156318",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:53:47.245Z",
+          "updatedAt": "2026-04-25T09:48:02.672Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:48:02.672Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "96a22b6b-d5ae-4394-b30f-c87fc9c1e410",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "faad9160-fd59-4c14-bfcd-75091fe70728",
+      "details": {
+        "before": {
+          "personId": "faad9160-fd59-4c14-bfcd-75091fe70728",
+          "baseKey": "ŞÜKÜR KALINTAŞ",
+          "fullName": "ŞÜKÜR KALINTAŞ",
+          "normalizedName": "ŞÜKÜR KALINTAŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T09:14:05.057Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T09:14:05.057Z",
+          "updatedAt": "2026-02-10T09:14:05.057Z"
+        },
+        "after": {
+          "personId": "faad9160-fd59-4c14-bfcd-75091fe70728",
+          "baseKey": "ŞÜKÜR KALINTAŞ",
+          "fullName": "ŞÜKÜR KALINTAŞ",
+          "normalizedName": "ŞÜKÜR KALINTAŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-10T09:14:05.057Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-10T09:14:05.057Z",
+          "updatedAt": "2026-04-25T09:45:53.724Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:45:53.724Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "a2fdc9b3-7f28-432c-ba64-b1d1dbff4de8",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+      "details": {
+        "before": {
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "baseKey": "MUSTAFA GÜNGÖR",
+          "fullName": "MUSTAFA GÜNGÖR",
+          "normalizedName": "MUSTAFA GÜNGÖR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-26T07:31:43.410Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-26T07:31:43.410Z",
+          "updatedAt": "2026-02-26T07:31:43.410Z"
+        },
+        "after": {
+          "personId": "037f743b-fa25-4f1f-8a79-7dd47275904e",
+          "baseKey": "MUSTAFA GÜNGÖR",
+          "fullName": "MUSTAFA GÜNGÖR",
+          "normalizedName": "MUSTAFA GÜNGÖR",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-26T07:31:43.410Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-26T07:31:43.410Z",
+          "updatedAt": "2026-04-25T09:43:47.509Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:43:47.509Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "4e88b033-26f8-4c10-8ba7-4d0ba09db772",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "9ad768eb-5c5b-432a-93c8-cf28d667e65d",
+      "details": {
+        "person": {
+          "personId": "9ad768eb-5c5b-432a-93c8-cf28d667e65d",
+          "baseKey": "MEHMET MERT YÜNDEMLİ",
+          "fullName": "MEHMET MERT YÜNDEMLİ",
+          "normalizedName": "MEHMET MERT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T09:41:29.538Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T09:41:29.538Z",
+          "updatedAt": "2026-04-25T09:41:29.538Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:41:29.538Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "c0f228c2-a710-4c5a-ba85-3e83e7f7b414",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "a1ff43da-ff09-4fae-8461-0c66a7c163e3",
+      "details": {
+        "before": {
+          "personId": "a1ff43da-ff09-4fae-8461-0c66a7c163e3",
+          "baseKey": "İLYAS BALTA",
+          "fullName": "İLYAS BALTA",
+          "normalizedName": "İLYAS BALTA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T13:08:31.369Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T13:08:31.369Z",
+          "updatedAt": "2026-03-03T13:08:31.369Z"
+        },
+        "after": {
+          "personId": "a1ff43da-ff09-4fae-8461-0c66a7c163e3",
+          "baseKey": "İLYAS BALTA",
+          "fullName": "İLYAS BALTA",
+          "normalizedName": "İLYAS BALTA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T13:08:31.369Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T13:08:31.369Z",
+          "updatedAt": "2026-04-25T09:39:30.199Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:39:30.200Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "e37afd56-54d4-4644-a87c-a37ed3cc4fde",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "f971840a-b753-49e1-8ba3-1641e8924691",
+      "details": {
+        "before": {
+          "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
+          "baseKey": "MEHMET KESKİN",
+          "fullName": "MEHMET KESKİN",
+          "normalizedName": "MEHMET KESKİN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:36:42.265Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:36:42.265Z",
+          "updatedAt": "2026-03-17T12:36:42.265Z"
+        },
+        "after": {
+          "personId": "f971840a-b753-49e1-8ba3-1641e8924691",
+          "baseKey": "MEHMET KESKİN",
+          "fullName": "MEHMET KESKİN",
+          "normalizedName": "MEHMET KESKİN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:36:42.265Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:36:42.265Z",
+          "updatedAt": "2026-04-25T09:39:00.875Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:39:00.875Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "8619d8d0-2d7d-4fa4-afe0-bbcfdaad9ed2",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "78a412b2-b0c4-4d12-899a-139380bffd93",
+      "details": {
+        "before": {
+          "personId": "78a412b2-b0c4-4d12-899a-139380bffd93",
+          "baseKey": "NECATİ AKKAYA",
+          "fullName": "NECATİ AKKAYA",
+          "normalizedName": "NECATİ AKKAYA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T11:48:38.523Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T11:48:38.523Z",
+          "updatedAt": "2026-03-04T11:48:38.523Z"
+        },
+        "after": {
+          "personId": "78a412b2-b0c4-4d12-899a-139380bffd93",
+          "baseKey": "NECATİ AKKAYA",
+          "fullName": "NECATİ AKKAYA",
+          "normalizedName": "NECATİ AKKAYA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T11:48:38.523Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T11:48:38.523Z",
+          "updatedAt": "2026-04-25T09:38:41.528Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:38:41.528Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "dab6337d-e3f7-4832-8509-a52076307847",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ab814877-1f0b-4bd4-bc58-7b9a93a745be",
+      "details": {
+        "before": {
+          "personId": "ab814877-1f0b-4bd4-bc58-7b9a93a745be",
+          "baseKey": "İSMAİL ŞAHİN",
+          "fullName": "İSMAİL ŞAHİN",
+          "normalizedName": "İSMAİL ŞAHİN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T10:48:19.761Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T10:48:19.761Z",
+          "updatedAt": "2026-03-03T10:48:19.761Z"
+        },
+        "after": {
+          "personId": "ab814877-1f0b-4bd4-bc58-7b9a93a745be",
+          "baseKey": "İSMAİL ŞAHİN",
+          "fullName": "İSMAİL ŞAHİN",
+          "normalizedName": "İSMAİL ŞAHİN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-03T10:48:19.761Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-03T10:48:19.761Z",
+          "updatedAt": "2026-04-25T09:38:15.052Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:38:15.052Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "9cd08b83-bb02-47b5-af70-bf222770eaec",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+      "details": {
+        "before": {
+          "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+          "baseKey": "OĞUZHAN BABAYİĞİT",
+          "fullName": "OĞUZHAN BABAYİĞİT",
+          "normalizedName": "OĞUZHAN BABAYİĞİT",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:11.179Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:11.179Z",
+          "updatedAt": "2026-03-04T07:59:11.179Z"
+        },
+        "after": {
+          "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+          "baseKey": "OĞUZHAN BABAYİĞİT",
+          "fullName": "OĞUZHAN BABAYİĞİT",
+          "normalizedName": "OĞUZHAN BABAYİĞİT",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:11.179Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:11.179Z",
+          "updatedAt": "2026-04-25T09:37:38.787Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:37:38.787Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "3a1cc916-a96f-4796-ab55-c8db7ce3f97a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+      "details": {
+        "before": {
+          "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+          "baseKey": "OĞUZHAN ALKAN",
+          "fullName": "OĞUZHAN ALKAN",
+          "normalizedName": "OĞUZHAN ALKAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-06T11:21:47.721Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-06T11:21:47.721Z",
+          "updatedAt": "2026-03-06T11:21:47.721Z"
+        },
+        "after": {
+          "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
+          "baseKey": "OĞUZHAN ALKAN",
+          "fullName": "OĞUZHAN ALKAN",
+          "normalizedName": "OĞUZHAN ALKAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-06T11:21:47.721Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-06T11:21:47.721Z",
+          "updatedAt": "2026-04-25T09:37:31.794Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:37:31.794Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "c3a85357-c897-47c8-b7ef-f19d9c854f34",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "f7236f88-c90e-44ab-b752-b5c1d8a4a28d",
+      "details": {
+        "before": {
+          "personId": "f7236f88-c90e-44ab-b752-b5c1d8a4a28d",
+          "baseKey": "CEMALETTİN TERCAN",
+          "fullName": "CEMALETTİN TERCAN",
+          "normalizedName": "CEMALETTİN TERCAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:16:30.371Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:16:30.371Z",
+          "updatedAt": "2026-02-27T08:16:30.371Z"
+        },
+        "after": {
+          "personId": "f7236f88-c90e-44ab-b752-b5c1d8a4a28d",
+          "baseKey": "CEMALETTİN TERCAN",
+          "fullName": "CEMALETTİN TERCAN",
+          "normalizedName": "CEMALETTİN TERCAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:16:30.371Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:16:30.371Z",
+          "updatedAt": "2026-04-25T09:36:59.173Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:36:59.173Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "9d8f9315-e5c3-4be2-b04b-e39dba710ae0",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+      "details": {
+        "before": {
+          "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+          "baseKey": "ÖZCAN TERCAN",
+          "fullName": "ÖZCAN TERCAN",
+          "normalizedName": "ÖZCAN TERCAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:16:06.211Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:16:06.211Z",
+          "updatedAt": "2026-02-27T08:16:06.211Z"
+        },
+        "after": {
+          "personId": "b4a638a0-bed0-42af-9b1b-915664ff413c",
+          "baseKey": "ÖZCAN TERCAN",
+          "fullName": "ÖZCAN TERCAN",
+          "normalizedName": "ÖZCAN TERCAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-02-27T08:16:06.211Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-02-27T08:16:06.211Z",
+          "updatedAt": "2026-04-25T09:36:43.089Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:36:43.089Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "7db289d2-0bfd-4697-b25b-328a871ca9e7",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "d83ae53b-3f25-4573-8f72-f7c7a0674ac5",
+      "details": {
+        "person": {
+          "personId": "d83ae53b-3f25-4573-8f72-f7c7a0674ac5",
+          "baseKey": "HAMZA AL",
+          "fullName": "HAMZA AL",
+          "normalizedName": "HAMZA AL",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-01T09:36:40.652Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-01T09:36:40.652Z",
+          "updatedAt": "2026-04-01T09:36:40.652Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:34:33.825Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "52b9ff29-34b0-41e9-816b-d380b4dcb617",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
+      "details": {
+        "person": {
+          "personId": "973c1cf0-ee57-4bce-8965-50a1bee8978f",
+          "baseKey": "MUSTAFA KUŞ",
+          "fullName": "MUSTAFA KUŞ",
+          "normalizedName": "MUSTAFA KUŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:28:39.714Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:28:39.714Z",
+          "updatedAt": "2026-03-24T11:28:39.714Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:34:15.876Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "0391ab97-3e8c-43a2-b9c5-05929b5c398f",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "1285cfa6-7756-4c32-8eb2-2feef8d033e2",
+      "details": {
+        "person": {
+          "personId": "1285cfa6-7756-4c32-8eb2-2feef8d033e2",
+          "baseKey": "MAHMUT KUTLUCA",
+          "fullName": "MAHMUT KUTLUCA",
+          "normalizedName": "MAHMUT KUTLUCA",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:29:13.582Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:29:13.582Z",
+          "updatedAt": "2026-03-24T11:29:13.582Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:34:00.639Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "2cfcd5fd-42c2-44e0-b9c9-b386af8fc95f",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "bd01d5b7-e367-4ca6-9a75-5ed93bc42bc6",
+      "details": {
+        "person": {
+          "personId": "bd01d5b7-e367-4ca6-9a75-5ed93bc42bc6",
+          "baseKey": "MEHMET KAYA",
+          "fullName": "MEHMET KAYA",
+          "normalizedName": "MEHMET KAYA",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:29:30.964Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:29:30.964Z",
+          "updatedAt": "2026-03-24T11:29:30.964Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:33:44.705Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "fc74499b-cd00-488d-9c50-f93e11e00296",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
+      "details": {
+        "person": {
+          "personId": "c9eebec4-cad5-4cc6-aec9-0ab2b3db11e9",
+          "baseKey": "RÜSTEM KARAKUŞ",
+          "fullName": "RÜSTEM KARAKUŞ",
+          "normalizedName": "RÜSTEM KARAKUŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:29:51.230Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:29:51.230Z",
+          "updatedAt": "2026-03-24T11:29:51.230Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:33:28.486Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "c691238c-1538-41cb-ac07-cfad27d1f299",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "9e622566-98ad-4d28-bcdc-0d04b056892c",
+      "details": {
+        "person": {
+          "personId": "9e622566-98ad-4d28-bcdc-0d04b056892c",
+          "baseKey": "MEHMET AYDOĞAN",
+          "fullName": "MEHMET AYDOĞAN",
+          "normalizedName": "MEHMET AYDOĞAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-24T11:30:12.144Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-24T11:30:12.144Z",
+          "updatedAt": "2026-03-24T11:30:12.144Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:33:12.483Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "910a5df7-0cc9-4536-8336-4f053cf1bf0f",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
+      "details": {
+        "person": {
+          "personId": "1ddd840f-239d-42a3-8e33-df4fb02acce5",
+          "baseKey": "MAHMUT KIZILTAŞ",
+          "fullName": "MAHMUT KIZILTAŞ",
+          "normalizedName": "MAHMUT KIZILTAŞ",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-09T09:35:34.127Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-09T09:35:34.127Z",
+          "updatedAt": "2026-03-09T09:35:34.127Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:32:57.183Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "08c54218-548e-4f09-bb89-268774a1e922",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "9cf42ffb-0ef6-475b-ac9e-d064feafff1e",
+      "details": {
+        "person": {
+          "personId": "9cf42ffb-0ef6-475b-ac9e-d064feafff1e",
+          "baseKey": "MEHMET KEKİK",
+          "fullName": "MEHMET KEKİK",
+          "normalizedName": "MEHMET KEKİK",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T11:48:19.674Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T11:48:19.674Z",
+          "updatedAt": "2026-03-04T11:48:19.674Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:32:39.282Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "9eb0e384-9ff5-4a07-9c11-f4f95be7e7e7",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "333fa41a-5a4f-41e2-9d8b-bc31aa4b12a0",
+      "details": {
+        "person": {
+          "personId": "333fa41a-5a4f-41e2-9d8b-bc31aa4b12a0",
+          "baseKey": "MAHSUN ALTINKALEM",
+          "fullName": "MAHSUN ALTINKALEM",
+          "normalizedName": "MAHSUN ALTINKALEM",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:58:52.196Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:58:52.196Z",
+          "updatedAt": "2026-03-04T07:58:52.196Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:32:23.863Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "1651a8ec-e66f-4f4b-ab90-d711ee97af5d",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
+      "details": {
+        "person": {
+          "personId": "1e303add-9e60-4f58-ad78-78be1941fa2a",
+          "baseKey": "EROL DAĞ",
+          "fullName": "EROL DAĞ",
+          "normalizedName": "EROL DAĞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:30:12.175Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:30:12.175Z",
+          "updatedAt": "2026-04-03T10:30:12.175Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:31:27.881Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "0a52f1f9-4535-42d9-b8af-344af4e47ea3",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "9ceef985-955b-48a0-8466-aefc743db103",
+      "details": {
+        "person": {
+          "personId": "9ceef985-955b-48a0-8466-aefc743db103",
+          "baseKey": "SABRİ GÜLEKEN",
+          "fullName": "SABRİ GÜLEKEN",
+          "normalizedName": "SABRİ GÜLEKEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:36:22.816Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:36:22.816Z",
+          "updatedAt": "2026-03-17T12:36:22.816Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:31:10.232Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "8f486495-4cf6-478b-a2d9-8dbfcaa876c9",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "548b56e9-2a6a-43b6-b78f-10ee0f37f5b1",
+      "details": {
+        "person": {
+          "personId": "548b56e9-2a6a-43b6-b78f-10ee0f37f5b1",
+          "baseKey": "SEZER BAKIR",
+          "fullName": "SEZER BAKIR",
+          "normalizedName": "SEZER BAKIR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:30:35.620Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:30:35.620Z",
+          "updatedAt": "2026-04-03T10:30:35.620Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:30:39.110Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "a9379881-6e27-4d67-8985-e5ccd6444769",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
+      "details": {
+        "person": {
+          "personId": "91fbbe88-9b7a-4fcc-8882-a011fed41bdc",
+          "baseKey": "MAHMUT KAPLAN",
+          "fullName": "MAHMUT KAPLAN",
+          "normalizedName": "MAHMUT KAPLAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:29:56.457Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:29:56.457Z",
+          "updatedAt": "2026-04-03T10:29:56.457Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:30:22.959Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "3c9f7bfd-ba9e-43d7-82cb-cab356376401",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+      "details": {
+        "person": {
+          "personId": "063ba707-f59d-48f1-9868-3880c3d68c89",
+          "baseKey": "HACI METİN",
+          "fullName": "HACI METİN",
+          "normalizedName": "HACI METİN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:28:18.798Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:28:18.798Z",
+          "updatedAt": "2026-04-03T10:28:18.798Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:30:06.175Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "c8c5a39f-97d4-4e21-9966-5ebfa975fb00",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+      "details": {
+        "person": {
+          "personId": "bf19b649-897c-43eb-8161-fa8dd22fca77",
+          "baseKey": "MEHMET SEVİM",
+          "fullName": "MEHMET SEVİM",
+          "normalizedName": "MEHMET SEVİM",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:29:35.860Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:29:35.860Z",
+          "updatedAt": "2026-04-03T10:33:10.177Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T09:29:45.744Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "5352edfa-7910-4a4e-8a9c-91f38ae31afb",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
+      "details": {
+        "person": {
+          "personId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
+          "baseKey": "YILMAZ UMUT ZENEZ",
+          "fullName": "YILMAZ UMUT ZENEZ",
+          "normalizedName": "YILMAZ UMUT ZENEZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-01T07:08:48.028Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-01T07:08:48.028Z",
+          "updatedAt": "2026-04-01T07:08:48.028Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:29:26.794Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "322cc307-20f7-4214-8b66-d95910b4f66f",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "d49157b2-80fb-4188-ba9b-41b2e93af453",
+      "details": {
+        "person": {
+          "personId": "d49157b2-80fb-4188-ba9b-41b2e93af453",
+          "baseKey": "BARAN KÖROĞLU",
+          "fullName": "BARAN KÖROĞLU",
+          "normalizedName": "BARAN KÖROĞLU",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-01T07:09:18.301Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-01T07:09:18.301Z",
+          "updatedAt": "2026-04-01T07:09:18.301Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:29:10.910Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "fb1f8654-8c97-4405-84b4-06fbe1466c7d",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "4a1209dc-fb1b-492b-be7c-42155835a2f4",
+      "details": {
+        "person": {
+          "personId": "4a1209dc-fb1b-492b-be7c-42155835a2f4",
+          "baseKey": "MURAT AYDINLI",
+          "fullName": "MURAT AYDINLI",
+          "normalizedName": "MURAT AYDINLI",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-03T10:28:38.146Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-03T10:28:38.146Z",
+          "updatedAt": "2026-04-03T10:28:38.146Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:28:54.075Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "be73654c-484e-4824-a427-14d2d8a7c56a",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "b212ffc6-ddaa-4d54-992d-b2f79d55f818",
+      "details": {
+        "before": {
+          "id": "b212ffc6-ddaa-4d54-992d-b2f79d55f818",
+          "personId": null,
+          "fullName": "DAVUT SEZEN",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-10-18",
+          "exitDate": "2026-03-01",
+          "totalDays": 134,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T07:55:00.570Z",
+          "updatedAt": "2026-04-03T07:55:00.570Z"
+        },
+        "after": {
+          "id": "b212ffc6-ddaa-4d54-992d-b2f79d55f818",
+          "personId": null,
+          "fullName": "DAVUT SEZEN",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-10-18",
+          "exitDate": "2026-03-01",
+          "totalDays": 134,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T07:55:00.570Z",
+          "updatedAt": "2026-04-25T09:26:44.432Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:26:44.432Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
+    {
+      "id": "f358e9ff-c954-4793-8efd-5ec3d64fc785",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "e804a760-dd0b-4f25-bfb6-b78d9153f149",
+      "details": {
+        "before": {
+          "id": "e804a760-dd0b-4f25-bfb6-b78d9153f149",
+          "personId": null,
+          "fullName": "ŞAKİP YILDIZOĞLU",
+          "category": null,
+          "job": "",
+          "entryDate": "2026-01-05",
+          "exitDate": "2026-03-30",
+          "totalDays": 84,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T07:58:49.972Z",
+          "updatedAt": "2026-04-03T07:58:49.972Z"
+        },
+        "after": {
+          "id": "e804a760-dd0b-4f25-bfb6-b78d9153f149",
+          "personId": null,
+          "fullName": "ŞAKİP YILDIZOĞLU",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-01-05",
+          "exitDate": "2026-03-30",
+          "totalDays": 84,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-03T07:58:49.972Z",
+          "updatedAt": "2026-04-25T09:26:17.074Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:26:17.074Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "f7ef0700-307c-4fce-84db-acdb5764cf38",
       "action": "UPDATE",
@@ -40736,1222 +41642,6 @@
       },
       "timestamp": "2026-01-17T08:46:55.944Z",
       "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "79197aba-9a9f-4795-95e4-5bf0f1fa478d",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "df013aaf-2d1d-4984-949a-85e56a06adb2",
-      "details": {
-        "tracking": {
-          "id": "df013aaf-2d1d-4984-949a-85e56a06adb2",
-          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
-          "applicationNo": "117458/2025",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-17T08:46:28.219Z",
-          "updatedAt": "2026-01-17T08:46:28.219Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:46:28.219Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "0b11015d-0127-4caf-9390-4596a1ef13d5",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
-      "details": {
-        "person": {
-          "personId": "6b7a6ef4-25fe-4208-9865-54375abbbc5a",
-          "baseKey": "MEHMET ÇİFTÇİ",
-          "fullName": "MEHMET ÇİFTÇİ",
-          "normalizedName": "MEHMET ÇİFTÇİ",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-17T08:45:01.588Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-17T08:45:01.588Z",
-          "updatedAt": "2026-01-17T08:45:01.588Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:45:01.588Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "2e0ec763-56df-44b2-9f1a-e33b93b742a1",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
-      "details": {
-        "before": {
-          "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
-          "fullName": "MUHAMMET AR",
-          "normalizedName": "MUHAMMET AR",
-          "baseKey": "MUHAMMET AR",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115670/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": null,
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 11
-          },
-          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a"
-        },
-        "after": {
-          "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
-          "fullName": "MUHAMMET AR",
-          "normalizedName": "MUHAMMET AR",
-          "baseKey": "MUHAMMET AR",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115670/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 11
-          },
-          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
-          "updatedAt": "2026-01-17T08:25:17.241Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:25:17.241Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "4f5120fb-0389-4904-8175-5e1a700ea6ee",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
-      "details": {
-        "before": {
-          "id": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
-          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
-          "applicationNo": "116094",
-          "profession": "FORMEN",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-17",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-16T13:54:33.482Z",
-          "updatedAt": "2026-01-16T13:54:33.482Z"
-        },
-        "after": {
-          "id": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
-          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
-          "applicationNo": "116094",
-          "profession": "FORMEN",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-17",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-16T13:54:33.482Z",
-          "updatedAt": "2026-01-17T08:25:04.002Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:25:04.002Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "8bf9cf65-7e14-4d6a-a7f4-7d6f57e950eb",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-      "details": {
-        "before": {
-          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
-          "applicationNo": "116083/2025",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-06T05:59:10.238Z",
-          "updatedAt": "2026-01-12T11:25:05.139Z"
-        },
-        "after": {
-          "id": "38346fa6-0de1-443d-86b3-de26ade4b5f3",
-          "personId": "79d3f932-3450-478d-ad21-16c7dfc726d0",
-          "applicationNo": "116083/2025",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-06T05:59:10.238Z",
-          "updatedAt": "2026-01-17T08:21:31.736Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:21:31.737Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "82b8bfab-012e-4fa0-ba6d-9f578334856c",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-      "details": {
-        "before": {
-          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "baseKey": "BENAN UYUR",
-          "applicationNo": "BÜRO MEMURU",
-          "profession": "117543/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 24
-          },
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-          "updatedAt": "2026-01-10T07:39:36.262Z"
-        },
-        "after": {
-          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "baseKey": "BENAN UYUR",
-          "applicationNo": "BÜRO MEMURU",
-          "profession": "117543/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 24
-          },
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-          "updatedAt": "2026-01-17T08:21:18.947Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:21:18.947Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "bc1ed769-d933-4a98-b21c-00c4dfb0c3e6",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
-      "details": {
-        "before": {
-          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
-          "fullName": "ABDULSAMET DURU",
-          "normalizedName": "ABDULSAMET DURU",
-          "baseKey": "ABDULSAMET DURU",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117471/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": null,
-          "contactPerson": "İSG(İŞÇİ)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 23
-          },
-          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b"
-        },
-        "after": {
-          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
-          "fullName": "ABDULSAMET DURU",
-          "normalizedName": "ABDULSAMET DURU",
-          "baseKey": "ABDULSAMET DURU",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117471/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "İSG(İŞÇİ)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 23
-          },
-          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
-          "updatedAt": "2026-01-17T08:21:09.572Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:21:09.572Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "db7e9737-5012-4088-9008-6d457a3010b9",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
-      "details": {
-        "before": {
-          "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
-          "fullName": "SERHAT İŞ",
-          "normalizedName": "SERHAT IS",
-          "baseKey": "SERHAT IS",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117470/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": null,
-          "contactPerson": "İSG (İŞÇİ)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 22
-          },
-          "personId": "ea679478-0826-4468-9be1-e8081993dc5a"
-        },
-        "after": {
-          "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
-          "fullName": "SERHAT İŞ",
-          "normalizedName": "SERHAT IS",
-          "baseKey": "SERHAT IS",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117470/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "İSG (İŞÇİ)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 22
-          },
-          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
-          "updatedAt": "2026-01-17T08:21:02.229Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:21:02.229Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "d8e16667-49f0-40d8-b871-f50f6e9eb90f",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-      "details": {
-        "before": {
-          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-          "fullName": "MECİT AYDOĞAN",
-          "normalizedName": "MECIT AYDOGAN",
-          "baseKey": "MECIT AYDOGAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117468/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": null,
-          "contactPerson": "MURAT ÜYÜR (İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 21
-          },
-          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e"
-        },
-        "after": {
-          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-          "fullName": "MECİT AYDOĞAN",
-          "normalizedName": "MECIT AYDOGAN",
-          "baseKey": "MECIT AYDOGAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117468/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR (İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 21
-          },
-          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-          "updatedAt": "2026-01-17T08:20:53.985Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:20:53.985Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "ab3e4786-17a0-4176-a05a-b1870ce6fdaf",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-      "details": {
-        "before": {
-          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-          "fullName": "RIDVAN GEZER",
-          "normalizedName": "RIDVAN GEZER",
-          "baseKey": "RIDVAN GEZER",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117452/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": null,
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 19
-          },
-          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf"
-        },
-        "after": {
-          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-          "fullName": "RIDVAN GEZER",
-          "normalizedName": "RIDVAN GEZER",
-          "baseKey": "RIDVAN GEZER",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117452/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 19
-          },
-          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-          "updatedAt": "2026-01-17T08:20:41.481Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:20:41.481Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "793d3d1f-3af8-4c9d-8625-17b592d11a9b",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-      "details": {
-        "before": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "updatedAt": "2026-01-11T12:23:38.418Z"
-        },
-        "after": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "updatedAt": "2026-01-17T08:20:17.655Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:20:17.655Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "7c6a86b2-9975-44f8-82d8-fc9b5e9fedc1",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "f47a162f-7130-47ef-bd9d-5db5b8858552",
-      "details": {
-        "before": {
-          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
-          "fullName": "MEHMET ŞERİF KORKMAZ",
-          "normalizedName": "MEHMET SERIF KORKMAZ",
-          "baseKey": "MEHMET SERIF KORKMAZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117450/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 17
-          },
-          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-          "updatedAt": "2026-01-06T13:03:48.343Z"
-        },
-        "after": {
-          "id": "f47a162f-7130-47ef-bd9d-5db5b8858552",
-          "fullName": "MEHMET ŞERİF KORKMAZ",
-          "normalizedName": "MEHMET SERIF KORKMAZ",
-          "baseKey": "MEHMET SERIF KORKMAZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117450/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 17
-          },
-          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-          "updatedAt": "2026-01-17T08:20:08.563Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:20:08.563Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "7b1034af-b31d-4d7e-83ba-20102ecedca7",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "b816461c-3d15-4e63-a725-ec59255e8db2",
-      "details": {
-        "before": {
-          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
-          "fullName": "CEMALETTİN KAPLAN",
-          "normalizedName": "CEMALETTIN KAPLAN",
-          "baseKey": "CEMALETTIN KAPLAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115668/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": null,
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 12
-          },
-          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a"
-        },
-        "after": {
-          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
-          "fullName": "CEMALETTİN KAPLAN",
-          "normalizedName": "CEMALETTIN KAPLAN",
-          "baseKey": "CEMALETTIN KAPLAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115668/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 12
-          },
-          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-          "updatedAt": "2026-01-17T08:20:00.121Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:20:00.121Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "d3fcbde7-10f5-4729-bf5c-27d00245f35e",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "d6778e87-2cb9-44dd-b3de-37bee423d628",
-      "details": {
-        "before": {
-          "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
-          "fullName": "BARIŞ TUNA",
-          "normalizedName": "BARIS TUNA",
-          "baseKey": "BARIS TUNA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113826/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "YEMEKHANECİ SEDAT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 5
-          },
-          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
-          "updatedAt": "2026-01-15T10:33:27.438Z"
-        },
-        "after": {
-          "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
-          "fullName": "BARIŞ TUNA",
-          "normalizedName": "BARIS TUNA",
-          "baseKey": "BARIS TUNA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113826/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "YEMEKHANECİ SEDAT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 5
-          },
-          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
-          "updatedAt": "2026-01-17T08:19:44.652Z"
-        }
-      },
-      "timestamp": "2026-01-17T08:19:44.652Z",
-      "adminSession": "d9a9fb2f-405b-4477-a9b0-d8e2865757e7"
-    },
-    {
-      "id": "0a95a8f6-e52b-4037-b3ae-a4fc705f0952",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
-      "details": {
-        "person": {
-          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
-          "baseKey": "REZZAN KAYA",
-          "fullName": "REZZAN KAYA",
-          "normalizedName": "REZZAN KAYA",
-          "category": null,
-          "role": null,
-          "jobTitle": "116388/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 16
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "116388/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-18",
-            "contactPerson": "HAYDAR"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        }
-      },
-      "timestamp": "2026-01-16T13:55:26.864Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "6dbfebf5-570f-42b6-b9e7-95d2b645321a",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
-      "details": {
-        "tracking": {
-          "id": "9445ebaa-034a-42c7-bb25-c011a8bb3945",
-          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
-          "applicationNo": "116094",
-          "profession": "FORMEN",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-17",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-16T13:54:33.482Z",
-          "updatedAt": "2026-01-16T13:54:33.482Z"
-        }
-      },
-      "timestamp": "2026-01-16T13:54:33.482Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "3b5c4cfc-0875-455a-a0f7-d27ea953a5f4",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "0833d07c-79df-492f-8a47-89589dd04ebc",
-      "details": {
-        "tracking": {
-          "id": "0833d07c-79df-492f-8a47-89589dd04ebc",
-          "fullName": "REZZAN KAYA",
-          "normalizedName": "REZZAN KAYA",
-          "baseKey": "REZZAN KAYA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116388/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 16
-          },
-          "personId": "2d7669dc-99f1-48cc-be89-6800be6d07a2",
-          "updatedAt": "2026-01-10T07:38:49.739Z"
-        }
-      },
-      "timestamp": "2026-01-16T13:02:57.424Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "b6656d33-19e0-4e8c-8526-014c60e59f22",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "e1bb4383-5444-4cec-99a5-881859b3f070",
-      "details": {
-        "tracking": {
-          "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
-          "fullName": "HARUN DURDU",
-          "normalizedName": "HARUN DURDU",
-          "baseKey": "HARUN DURDU",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116094/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 14
-          },
-          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
-          "updatedAt": "2026-01-06T13:04:59.376Z"
-        }
-      },
-      "timestamp": "2026-01-16T13:02:53.364Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "f64c26a0-e3cd-4ba3-bf0e-aabbfd42ccdf",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "c32b8a2f-701c-426f-93b0-f8a1a3ffcde2",
-      "details": {
-        "person": {
-          "fullName": "ADEM KOCA",
-          "normalizedName": "ADEM KOCA",
-          "baseKey": "ADEM KOCA",
-          "category": "REPSAM",
-          "role": "FORMEN",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 4
-          },
-          "mergedFrom": [],
-          "personId": "c32b8a2f-701c-426f-93b0-f8a1a3ffcde2",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        }
-      },
-      "timestamp": "2026-01-16T12:02:05.870Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "a5c73295-6092-4d24-8adc-9dcf0134016b",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "7af8809e-301e-4761-a945-90c2e5eddaea",
-      "details": {
-        "departure": {
-          "id": "7af8809e-301e-4761-a945-90c2e5eddaea",
-          "personId": null,
-          "fullName": "ADEM KOCA",
-          "category": "REPSAM",
-          "job": "",
-          "entryDate": "2025-11-07",
-          "exitDate": "2026-01-16",
-          "totalDays": 70,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-16T12:01:40.196Z",
-          "updatedAt": "2026-01-16T12:01:40.196Z"
-        }
-      },
-      "timestamp": "2026-01-16T12:01:40.196Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "09935be8-824b-40d9-80f5-d3bc4512feda",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
-      "details": {
-        "person": {
-          "fullName": "AHMET DÖNMEZ",
-          "normalizedName": "AHMET DONMEZ",
-          "baseKey": "AHMET DONMEZ",
-          "category": "NEŞAT",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 4
-          },
-          "mergedFrom": [],
-          "personId": "0c9e2a08-8a58-42df-b946-d261e11ec059",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T05:53:43.244Z"
-        }
-      },
-      "timestamp": "2026-01-16T08:45:42.882Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "bdf826cc-1caa-48a7-9961-e692bb98c7fa",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "dfabab13-f165-4495-8285-1cf36846f7a7",
-      "details": {
-        "departure": {
-          "id": "dfabab13-f165-4495-8285-1cf36846f7a7",
-          "personId": null,
-          "fullName": "AHMET DÖNMEZ",
-          "category": "NEŞAT",
-          "job": "",
-          "entryDate": "2025-12-07",
-          "exitDate": "2026-01-16",
-          "totalDays": 40,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-16T08:45:19.305Z",
-          "updatedAt": "2026-01-16T08:45:19.305Z"
-        }
-      },
-      "timestamp": "2026-01-16T08:45:19.306Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "875f439e-ece5-4523-90ff-97936a968b28",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "165719dc-185e-4dec-8d2b-750fddfea991",
-      "details": {
-        "person": {
-          "fullName": "BURAK ERDEM",
-          "normalizedName": "BURAK ERDEM",
-          "baseKey": "BURAK ERDEM",
-          "category": "CAPRA",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 7
-          },
-          "mergedFrom": [],
-          "personId": "165719dc-185e-4dec-8d2b-750fddfea991",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        }
-      },
-      "timestamp": "2026-01-16T06:31:20.001Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "7932a99b-8bdd-4b98-a736-89c7f0126c1a",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "8e361419-79de-4734-aeff-85e4fa5869c6",
-      "details": {
-        "departure": {
-          "id": "8e361419-79de-4734-aeff-85e4fa5869c6",
-          "personId": null,
-          "fullName": "BURAK ERDEM",
-          "category": "CAPRA",
-          "job": "",
-          "entryDate": "2025-09-12",
-          "exitDate": "2026-01-13",
-          "totalDays": 123,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-16T06:30:30.200Z",
-          "updatedAt": "2026-01-16T06:30:30.200Z"
-        }
-      },
-      "timestamp": "2026-01-16T06:30:30.200Z",
-      "adminSession": "8d3169d2-b64c-4ec9-b6ce-019c5635baa0"
-    },
-    {
-      "id": "3e2f2138-ba28-4a29-8932-2d3124047bdd",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "d6778e87-2cb9-44dd-b3de-37bee423d628",
-      "details": {
-        "before": {
-          "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
-          "fullName": "BARIŞ TUNA",
-          "normalizedName": "BARIS TUNA",
-          "baseKey": "BARIS TUNA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113826/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "YEMEKHANECİ SEDAT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 5
-          },
-          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b"
-        },
-        "after": {
-          "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
-          "fullName": "BARIŞ TUNA",
-          "normalizedName": "BARIS TUNA",
-          "baseKey": "BARIS TUNA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113826/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "YEMEKHANECİ SEDAT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 5
-          },
-          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
-          "updatedAt": "2026-01-15T10:33:27.438Z"
-        }
-      },
-      "timestamp": "2026-01-15T10:33:27.438Z",
-      "adminSession": "9c104ce6-4518-48ff-8c63-bf2ea7425ffe"
-    },
-    {
-      "id": "93e72e32-d772-40c8-850e-3dfb01719ba3",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "db910679-62cf-491d-af0b-6673313a6ca2",
-      "details": {
-        "before": {
-          "id": "db910679-62cf-491d-af0b-6673313a6ca2",
-          "fullName": "HALİL KAYA",
-          "normalizedName": "HALIL KAYA",
-          "baseKey": "HALIL KAYA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113790/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 4
-          },
-          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d"
-        },
-        "after": {
-          "id": "db910679-62cf-491d-af0b-6673313a6ca2",
-          "fullName": "HALİL KAYA",
-          "normalizedName": "HALIL KAYA",
-          "baseKey": "HALIL KAYA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113790/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 4
-          },
-          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
-          "updatedAt": "2026-01-15T10:33:19.196Z"
-        }
-      },
-      "timestamp": "2026-01-15T10:33:19.197Z",
-      "adminSession": "9c104ce6-4518-48ff-8c63-bf2ea7425ffe"
-    },
-    {
-      "id": "67923efc-5206-4ec2-b41b-6bf9f3e9f968",
-      "action": "UPDATE",
-      "entityType": "departure",
-      "entityId": "93396654-0e35-4f00-a137-e2322fb9e14f",
-      "details": {
-        "before": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2026-08-06",
-          "totalDays": 87,
-          "exitMonth": "2026-08",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-14T13:07:42.057Z"
-        },
-        "after": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2026-01-06",
-          "totalDays": 87,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-14T13:08:27.246Z"
-        }
-      },
-      "timestamp": "2026-01-14T13:08:27.246Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "339e7eaa-a969-48e7-8ff6-ff88d4b8b36a",
-      "action": "UPDATE",
-      "entityType": "departure",
-      "entityId": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
-      "details": {
-        "before": {
-          "id": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
-          "personId": null,
-          "fullName": "MUSTAFA KUŞ",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-09-24",
-          "exitDate": "2026-01-06",
-          "totalDays": 106,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:21:54.437Z",
-          "updatedAt": "2026-01-14T12:51:53.243Z"
-        },
-        "after": {
-          "id": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
-          "personId": null,
-          "fullName": "MUSTAFA KUŞ",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-09-24",
-          "exitDate": "2025-12-04",
-          "totalDays": 106,
-          "exitMonth": "2025-12",
-          "createdAt": "2026-01-09T12:21:54.437Z",
-          "updatedAt": "2026-01-14T13:08:05.668Z"
-        }
-      },
-      "timestamp": "2026-01-14T13:08:05.668Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "3ce9f2ca-8e0d-4444-9331-0fd60099599c",
-      "action": "UPDATE",
-      "entityType": "departure",
-      "entityId": "93396654-0e35-4f00-a137-e2322fb9e14f",
-      "details": {
-        "before": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2025-12-05",
-          "totalDays": 87,
-          "exitMonth": "2025-12",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-14T12:52:24.614Z"
-        },
-        "after": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2026-08-06",
-          "totalDays": 87,
-          "exitMonth": "2026-08",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-14T13:07:42.057Z"
-        }
-      },
-      "timestamp": "2026-01-14T13:07:42.057Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "c4e26fcd-08ef-4286-bc32-22d72a83fb1b",
-      "action": "UPDATE",
-      "entityType": "departure",
-      "entityId": "93396654-0e35-4f00-a137-e2322fb9e14f",
-      "details": {
-        "before": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2026-01-06",
-          "totalDays": 87,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-14T12:52:10.327Z"
-        },
-        "after": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2025-12-05",
-          "totalDays": 87,
-          "exitMonth": "2025-12",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-14T12:52:24.614Z"
-        }
-      },
-      "timestamp": "2026-01-14T12:52:24.614Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "94652d31-d268-48f1-9f64-67d69d451736",
-      "action": "UPDATE",
-      "entityType": "departure",
-      "entityId": "93396654-0e35-4f00-a137-e2322fb9e14f",
-      "details": {
-        "before": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2026-01-08",
-          "totalDays": 87,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-09T12:22:50.746Z"
-        },
-        "after": {
-          "id": "93396654-0e35-4f00-a137-e2322fb9e14f",
-          "personId": null,
-          "fullName": "ZEKAİ UYAR",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-13",
-          "exitDate": "2026-01-06",
-          "totalDays": 87,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:22:50.746Z",
-          "updatedAt": "2026-01-14T12:52:10.327Z"
-        }
-      },
-      "timestamp": "2026-01-14T12:52:10.327Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "7a0dcdd1-9597-41f0-b293-618f9a5686ae",
-      "action": "UPDATE",
-      "entityType": "departure",
-      "entityId": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
-      "details": {
-        "before": {
-          "id": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
-          "personId": null,
-          "fullName": "MUSTAFA KUŞ",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-09-24",
-          "exitDate": "2026-01-08",
-          "totalDays": 106,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:21:54.437Z",
-          "updatedAt": "2026-01-09T12:21:54.437Z"
-        },
-        "after": {
-          "id": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
-          "personId": null,
-          "fullName": "MUSTAFA KUŞ",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-09-24",
-          "exitDate": "2026-01-06",
-          "totalDays": 106,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:21:54.437Z",
-          "updatedAt": "2026-01-14T12:51:53.243Z"
-        }
-      },
-      "timestamp": "2026-01-14T12:51:53.243Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "e7451bab-f459-4e62-a097-f2027d37918c",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "2b2951d6-2015-4e6e-a302-c75bf6162f4c",
-      "details": {
-        "before": {
-          "id": "2b2951d6-2015-4e6e-a302-c75bf6162f4c",
-          "personId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
-          "applicationNo": "118858",
-          "profession": "İSKELE",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:54:25.208Z",
-          "updatedAt": "2026-01-14T07:54:25.208Z"
-        },
-        "after": {
-          "id": "2b2951d6-2015-4e6e-a302-c75bf6162f4c",
-          "personId": "3c0c9fda-8871-4374-aeec-4461d758b5a7",
-          "applicationNo": "118858/2026",
-          "profession": "İSKELE",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:54:25.208Z",
-          "updatedAt": "2026-01-14T07:55:29.114Z"
-        }
-      },
-      "timestamp": "2026-01-14T07:55:29.114Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
     }
   ]
 }
