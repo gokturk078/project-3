@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T07:59:40.131Z"
+    "lastUpdated": "2026-04-25T07:59:45.372Z"
   },
   "taxonomy": {
     "categories": [
@@ -6681,18 +6681,6 @@
       "updatedAt": "2026-04-21T12:57:53.394Z"
     },
     {
-      "id": "3e8daa41-72b3-4a50-9f9a-1d14aedb6743",
-      "personId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
-      "applicationNo": "125830/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": "2026-04-01",
-      "contactPerson": "MURAT ÜYÜR",
-      "notes": "",
-      "createdAt": "2026-04-01T07:12:11.541Z",
-      "updatedAt": "2026-04-01T07:12:11.541Z"
-    },
-    {
       "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
       "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
       "applicationNo": "126220/2026",
@@ -7839,6 +7827,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "85e5c601-3ad2-4d0a-b5d7-9f2d7b046032",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "3e8daa41-72b3-4a50-9f9a-1d14aedb6743",
+      "details": {
+        "tracking": {
+          "id": "3e8daa41-72b3-4a50-9f9a-1d14aedb6743",
+          "personId": "a57de6ef-7b85-4391-b298-b3f6d6f0e659",
+          "applicationNo": "125830/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "2026-04-01",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-04-01T07:12:11.541Z",
+          "updatedAt": "2026-04-01T07:12:11.541Z"
+        }
+      },
+      "timestamp": "2026-04-25T07:59:45.372Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "ea30b184-1a7c-4a92-86ea-cc0212208866",
       "action": "DELETE",
@@ -41710,53 +41720,6 @@
         }
       },
       "timestamp": "2026-01-06T13:04:59.376Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "5045caa0-dffb-4f22-b3ca-4ed63ca86927",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "486e22c1-41a7-43ba-8a73-7f448440867a",
-      "details": {
-        "before": {
-          "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
-          "fullName": "NAZMİ DEMİR",
-          "normalizedName": "NAZMI DEMIR",
-          "baseKey": "NAZMI DEMIR",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116390/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "SÜLEYMAN ORUL",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 15
-          },
-          "personId": "16281e34-9bfb-4a84-b623-319c2149edc8"
-        },
-        "after": {
-          "id": "486e22c1-41a7-43ba-8a73-7f448440867a",
-          "fullName": "NAZMİ DEMİR",
-          "normalizedName": "NAZMI DEMIR",
-          "baseKey": "NAZMI DEMIR",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116390/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "SÜLEYMAN ORUL",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 15
-          },
-          "personId": "16281e34-9bfb-4a84-b623-319c2149edc8",
-          "updatedAt": "2026-01-06T13:04:53.982Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:04:53.982Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
