@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:40:50.336Z"
+    "lastUpdated": "2026-04-25T08:41:29.833Z"
   },
   "taxonomy": {
     "categories": [
@@ -7946,6 +7946,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:40:50.336Z",
       "updatedAt": "2026-04-25T08:40:50.336Z"
+    },
+    {
+      "id": "e0eb4578-5726-4dbd-8c00-bbdee087e5af",
+      "personId": null,
+      "fullName": "TURAN YÜNDEMLİ",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-01-31",
+      "exitDate": "2026-04-15",
+      "totalDays": 74,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:41:29.833Z",
+      "updatedAt": "2026-04-25T08:41:29.833Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7968,6 +7981,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "b78ec921-8ca1-4a85-9417-15527d562191",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "e0eb4578-5726-4dbd-8c00-bbdee087e5af",
+      "details": {
+        "departure": {
+          "id": "e0eb4578-5726-4dbd-8c00-bbdee087e5af",
+          "personId": null,
+          "fullName": "TURAN YÜNDEMLİ",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-15",
+          "totalDays": 74,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:41:29.833Z",
+          "updatedAt": "2026-04-25T08:41:29.833Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:41:29.833Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "2060021e-7c8e-42c0-a5d1-62a76f48788c",
       "action": "CREATE",
@@ -41864,54 +41900,6 @@
         }
       },
       "timestamp": "2026-01-10T10:03:11.237Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "d1b2b354-8175-4e3b-963c-06ec7fcbeec3",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-      "details": {
-        "before": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-10T09:39:19.426Z"
-        },
-        "after": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-10T10:03:01.645Z"
-        }
-      },
-      "timestamp": "2026-01-10T10:03:01.645Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
