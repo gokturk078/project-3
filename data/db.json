@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:21:21.975Z"
+    "lastUpdated": "2026-04-25T08:21:42.424Z"
   },
   "taxonomy": {
     "categories": [
@@ -4765,7 +4765,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4774,7 +4774,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:08:38.862Z",
-      "updatedAt": "2026-02-02T07:35:30.998Z",
+      "updatedAt": "2026-04-25T08:21:42.424Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "71ae44bd-0e46-4388-940c-a1a1c7b0d631",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
+      "details": {
+        "before": {
+          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
+          "baseKey": "İSMAİL ÇELİK",
+          "fullName": "İSMAİL ÇELİK",
+          "normalizedName": "İSMAİL ÇELİK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:38.862Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:38.862Z",
+          "updatedAt": "2026-02-02T07:35:30.998Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
+          "baseKey": "İSMAİL ÇELİK",
+          "fullName": "İSMAİL ÇELİK",
+          "normalizedName": "İSMAİL ÇELİK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:08:38.862Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:08:38.862Z",
+          "updatedAt": "2026-04-25T08:21:42.424Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:21:42.424Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "302a97f1-bd5c-4a08-be99-d10c2175e824",
       "action": "UPDATE",
@@ -41564,36 +41616,6 @@
         }
       },
       "timestamp": "2026-01-08T12:06:02.266Z",
-      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
-    },
-    {
-      "id": "5371ced5-a6c4-4697-b64f-d33a3f072662",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "9735f86e-be5e-4194-9693-83629caa2a34",
-      "details": {
-        "person": {
-          "personId": "9735f86e-be5e-4194-9693-83629caa2a34",
-          "baseKey": "HİKMET TİRYAKİ",
-          "fullName": "HİKMET TİRYAKİ",
-          "normalizedName": "HİKMET TİRYAKİ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-08T11:52:09.461Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-08T11:52:09.461Z",
-          "updatedAt": "2026-01-08T11:52:09.461Z"
-        }
-      },
-      "timestamp": "2026-01-08T11:52:09.461Z",
       "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
     }
   ]
