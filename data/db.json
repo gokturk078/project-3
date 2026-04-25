@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:32:48.403Z"
+    "lastUpdated": "2026-04-25T08:32:56.862Z"
   },
   "taxonomy": {
     "categories": [
@@ -7834,14 +7834,14 @@
       "id": "3a4adfb3-0162-4149-abf9-4332b0a8f07c",
       "personId": null,
       "fullName": "CEMİL ERİŞ",
-      "category": null,
+      "category": "KALMES",
       "job": "",
       "entryDate": "2026-01-31",
       "exitDate": "2026-04-15",
       "totalDays": 74,
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:31:12.308Z",
-      "updatedAt": "2026-04-25T08:31:12.308Z"
+      "updatedAt": "2026-04-25T08:32:56.862Z"
     },
     {
       "id": "0202edfa-2dd6-4df6-9973-79fb087d3286",
@@ -7877,6 +7877,42 @@
     }
   ],
   "audit": [
+    {
+      "id": "fae7cde1-3731-410f-ad71-2209fdd31bcc",
+      "action": "UPDATE",
+      "entityType": "departure",
+      "entityId": "3a4adfb3-0162-4149-abf9-4332b0a8f07c",
+      "details": {
+        "before": {
+          "id": "3a4adfb3-0162-4149-abf9-4332b0a8f07c",
+          "personId": null,
+          "fullName": "CEMİL ERİŞ",
+          "category": null,
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-15",
+          "totalDays": 74,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:31:12.308Z",
+          "updatedAt": "2026-04-25T08:31:12.308Z"
+        },
+        "after": {
+          "id": "3a4adfb3-0162-4149-abf9-4332b0a8f07c",
+          "personId": null,
+          "fullName": "CEMİL ERİŞ",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-15",
+          "totalDays": 74,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:31:12.308Z",
+          "updatedAt": "2026-04-25T08:32:56.862Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:32:56.862Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "d43574ea-d8e2-4ac9-b374-bc3b06abee65",
       "action": "UPDATE",
@@ -41945,54 +41981,6 @@
         }
       },
       "timestamp": "2026-01-10T07:38:49.739Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "a56c8d67-3265-4951-af6a-6c3a9e59e127",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-      "details": {
-        "before": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-          "updatedAt": "2026-01-06T13:05:03.139Z"
-        },
-        "after": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-          "updatedAt": "2026-01-10T07:37:32.761Z"
-        }
-      },
-      "timestamp": "2026-01-10T07:37:32.761Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
