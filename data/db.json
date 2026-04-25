@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-21T13:58:32.097Z"
+    "lastUpdated": "2026-04-25T07:59:32.635Z"
   },
   "taxonomy": {
     "categories": [
@@ -6717,18 +6717,6 @@
       "updatedAt": "2026-04-21T13:58:32.096Z"
     },
     {
-      "id": "00685b98-afa3-49cf-a3eb-dd67760020bf",
-      "personId": "4a1209dc-fb1b-492b-be7c-42155835a2f4",
-      "applicationNo": "126216/2026",
-      "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
-      "contactPerson": "SEDAT",
-      "notes": "",
-      "createdAt": "2026-04-03T10:35:26.366Z",
-      "updatedAt": "2026-04-03T10:35:26.366Z"
-    },
-    {
       "id": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
       "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
       "applicationNo": "126481/2026",
@@ -7863,6 +7851,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "7d161d31-2a21-4145-868a-3f75dd1a5013",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "00685b98-afa3-49cf-a3eb-dd67760020bf",
+      "details": {
+        "tracking": {
+          "id": "00685b98-afa3-49cf-a3eb-dd67760020bf",
+          "personId": "4a1209dc-fb1b-492b-be7c-42155835a2f4",
+          "applicationNo": "126216/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "SEDAT",
+          "notes": "",
+          "createdAt": "2026-04-03T10:35:26.366Z",
+          "updatedAt": "2026-04-03T10:35:26.366Z"
+        }
+      },
+      "timestamp": "2026-04-25T07:59:32.635Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "3b8a0b88-5706-4ca5-8683-11bfb51ee0b7",
       "action": "UPDATE",
@@ -41784,53 +41794,6 @@
         }
       },
       "timestamp": "2026-01-06T13:04:46.906Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "c077ebc5-6799-4182-8a99-a722a1341b48",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
-      "details": {
-        "before": {
-          "id": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
-          "fullName": "MEHMET ÇİFTÇİ",
-          "normalizedName": "MEHMET CIFTCI",
-          "baseKey": "MEHMET CIFTCI",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117458/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": null,
-          "contactPerson": "MURAT ÜYÜR (İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 20
-          },
-          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab"
-        },
-        "after": {
-          "id": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
-          "fullName": "MEHMET ÇİFTÇİ",
-          "normalizedName": "MEHMET CIFTCI",
-          "baseKey": "MEHMET CIFTCI",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117458/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR (İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 20
-          },
-          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
-          "updatedAt": "2026-01-06T13:04:31.070Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:04:31.070Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
