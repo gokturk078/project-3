@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:23:41.313Z"
+    "lastUpdated": "2026-04-25T08:24:05.941Z"
   },
   "taxonomy": {
     "categories": [
@@ -726,7 +726,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -735,7 +735,7 @@
       "mergedFrom": [],
       "personId": "6b1e6efb-bf32-4b96-a105-c95d5ad6cce0",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:24:05.941Z"
     },
     {
       "fullName": "MEHMET SALİH ÖNEN",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "b1d04bce-c534-4a06-a902-4e32713262a2",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "6b1e6efb-bf32-4b96-a105-c95d5ad6cce0",
+      "details": {
+        "before": {
+          "fullName": "MEHMET KIZILKURT",
+          "normalizedName": "MEHMET KIZILKURT",
+          "baseKey": "MEHMET KIZILKURT",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 34
+          },
+          "mergedFrom": [],
+          "personId": "6b1e6efb-bf32-4b96-a105-c95d5ad6cce0",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MEHMET KIZILKURT",
+          "normalizedName": "MEHMET KIZILKURT",
+          "baseKey": "MEHMET KIZILKURT",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 34
+          },
+          "mergedFrom": [],
+          "personId": "6b1e6efb-bf32-4b96-a105-c95d5ad6cce0",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:24:05.941Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:24:05.941Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "7f96bd38-3f4e-4ceb-9048-8eb380187a12",
       "action": "UPDATE",
@@ -41666,26 +41716,6 @@
         }
       },
       "timestamp": "2026-01-09T09:22:28.098Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "a990da71-6e56-4880-b3b8-1625d432ee91",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "68daad34-9c12-400e-8c1b-1fda86d817ad",
-      "details": {
-        "leave": {
-          "id": "68daad34-9c12-400e-8c1b-1fda86d817ad",
-          "personId": "7d2f3c27-e761-4dc1-9610-bd28f217e45a",
-          "startDate": "2025-12-18",
-          "endDate": "2026-01-16",
-          "days": 30,
-          "type": "RAPOR",
-          "note": "iş kazası sonucu rapor",
-          "createdAt": "2026-01-09T09:21:05.041Z"
-        }
-      },
-      "timestamp": "2026-01-09T09:21:05.041Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
