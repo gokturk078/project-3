@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:22:04.470Z"
+    "lastUpdated": "2026-04-25T08:22:35.924Z"
   },
   "taxonomy": {
     "categories": [
@@ -4080,7 +4080,7 @@
       "jobTitle": "117471/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -4097,7 +4097,7 @@
         "contactPerson": "İSG(İŞÇİ)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T09:01:21.660Z"
+      "updatedAt": "2026-04-25T08:22:35.924Z"
     },
     {
       "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
@@ -7838,6 +7838,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "488d2dab-9241-4bc5-94c9-0a4c658f14e4",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+      "details": {
+        "before": {
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+          "baseKey": "ABDULSAMET DURU",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117471/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 23
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117471/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG(İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:01:21.660Z"
+        },
+        "after": {
+          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
+          "baseKey": "ABDULSAMET DURU",
+          "fullName": "ABDULSAMET DURU",
+          "normalizedName": "ABDULSAMET DURU",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117471/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 23
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117471/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG(İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-04-25T08:22:35.924Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:22:35.924Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "c0d3d17b-79c7-4890-a0aa-680df6869276",
       "action": "UPDATE",
@@ -41586,56 +41654,6 @@
         }
       },
       "timestamp": "2026-01-08T15:35:43.871Z",
-      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
-    },
-    {
-      "id": "d25d7b88-0997-42dd-8d34-5bb6212ff8cf",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "86729041-6047-43f8-9fab-d2a1d364fc8f",
-      "details": {
-        "before": {
-          "fullName": "YAMAN HAFEZ",
-          "normalizedName": "YAMAN HAFEZ",
-          "baseKey": "YAMAN HAFEZ",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 59
-          },
-          "mergedFrom": [],
-          "personId": "86729041-6047-43f8-9fab-d2a1d364fc8f",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "YAMAN HAFEZ",
-          "normalizedName": "YAMAN HAFEZ",
-          "baseKey": "YAMAN HAFEZ",
-          "category": "REPSAM",
-          "role": "MİMAR",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 59
-          },
-          "mergedFrom": [],
-          "personId": "86729041-6047-43f8-9fab-d2a1d364fc8f",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-08T14:09:02.834Z"
-        }
-      },
-      "timestamp": "2026-01-08T14:09:02.834Z",
       "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
     }
   ]
