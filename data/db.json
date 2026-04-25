@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:44:41.687Z"
+    "lastUpdated": "2026-04-25T08:45:22.965Z"
   },
   "taxonomy": {
     "categories": [
@@ -8011,6 +8011,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:44:41.687Z",
       "updatedAt": "2026-04-25T08:44:41.687Z"
+    },
+    {
+      "id": "0af377a9-03a4-4eaa-b558-37e4db819680",
+      "personId": null,
+      "fullName": "TAHİR BUDAK",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-07-24",
+      "exitDate": "2026-04-15",
+      "totalDays": 265,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:45:22.965Z",
+      "updatedAt": "2026-04-25T08:45:22.965Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8033,6 +8046,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "3ae880c0-0c10-4b42-b30a-c62e798f40f7",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "0af377a9-03a4-4eaa-b558-37e4db819680",
+      "details": {
+        "departure": {
+          "id": "0af377a9-03a4-4eaa-b558-37e4db819680",
+          "personId": null,
+          "fullName": "TAHİR BUDAK",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-07-24",
+          "exitDate": "2026-04-15",
+          "totalDays": 265,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:45:22.965Z",
+          "updatedAt": "2026-04-25T08:45:22.965Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:45:22.965Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "4c25f7b6-6340-45c2-b338-3f84b45fec5a",
       "action": "CREATE",
@@ -41820,54 +41856,6 @@
         }
       },
       "timestamp": "2026-01-11T12:23:38.418Z",
-      "adminSession": "05b9624d-469f-4eb3-adeb-fd94b434a7c5"
-    },
-    {
-      "id": "836468e2-c5a5-48f4-ba56-d669fb524da5",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-      "details": {
-        "before": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "updatedAt": "2026-01-06T13:04:17.615Z"
-        },
-        "after": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "updatedAt": "2026-01-11T12:22:49.394Z"
-        }
-      },
-      "timestamp": "2026-01-11T12:22:49.395Z",
       "adminSession": "05b9624d-469f-4eb3-adeb-fd94b434a7c5"
     }
   ]
