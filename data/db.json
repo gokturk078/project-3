@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:25:57.220Z"
+    "lastUpdated": "2026-04-25T08:26:16.935Z"
   },
   "taxonomy": {
     "categories": [
@@ -4975,7 +4975,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4984,7 +4984,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:12:38.461Z",
-      "updatedAt": "2026-02-21T11:55:57.169Z",
+      "updatedAt": "2026-04-25T08:26:16.935Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "0a343db1-ad82-450e-afe9-61c71190c378",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
+      "details": {
+        "before": {
+          "personId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
+          "baseKey": "TURAN YÜNDEMLİ",
+          "fullName": "TURAN YÜNDEMLİ",
+          "normalizedName": "TURAN YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:12:38.461Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:12:38.461Z",
+          "updatedAt": "2026-02-21T11:55:57.169Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
+          "baseKey": "TURAN YÜNDEMLİ",
+          "fullName": "TURAN YÜNDEMLİ",
+          "normalizedName": "TURAN YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:12:38.461Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:12:38.461Z",
+          "updatedAt": "2026-04-25T08:26:16.935Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:26:16.935Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "dec1aad4-6989-48fe-923e-eacff9637349",
       "action": "UPDATE",
@@ -41839,26 +41891,6 @@
         }
       },
       "timestamp": "2026-01-09T12:21:54.438Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "5afb2c02-9a87-4fd8-ba27-6190fd779570",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "7a926270-abb3-427f-bd81-c3f31123a1ed",
-      "details": {
-        "leave": {
-          "id": "7a926270-abb3-427f-bd81-c3f31123a1ed",
-          "personId": "0ae4bc3b-83f1-4f50-adca-c751d700f0a6",
-          "startDate": "2026-01-09",
-          "endDate": "2026-01-12",
-          "days": 4,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-09T10:06:13.559Z"
-        }
-      },
-      "timestamp": "2026-01-09T10:06:13.559Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
