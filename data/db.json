@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:00:19.979Z"
+    "lastUpdated": "2026-04-25T08:00:30.502Z"
   },
   "taxonomy": {
     "categories": [
@@ -6585,18 +6585,6 @@
   ],
   "tracking": [
     {
-      "id": "59601d3c-3028-46f1-8aeb-f7a59edcd568",
-      "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
-      "applicationNo": "123352/2026",
-      "profession": "inşaat işçisi",
-      "status": "AKİT YÜKLENECEK",
-      "expectedDate": "2026-03-04",
-      "contactPerson": "NEŞAT",
-      "notes": "",
-      "createdAt": "2026-03-04T08:03:27.622Z",
-      "updatedAt": "2026-04-15T12:51:32.593Z"
-    },
-    {
       "id": "07a78df0-46f6-47eb-b4e1-5f9dfc8510f9",
       "personId": "543a7f1f-d313-406c-8b21-922114f26f7c",
       "applicationNo": "123268/2026",
@@ -7791,6 +7779,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "be122ea5-cd07-4065-a5c9-e64d50fd986d",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "59601d3c-3028-46f1-8aeb-f7a59edcd568",
+      "details": {
+        "tracking": {
+          "id": "59601d3c-3028-46f1-8aeb-f7a59edcd568",
+          "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+          "applicationNo": "123352/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-03-04",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-03-04T08:03:27.622Z",
+          "updatedAt": "2026-04-15T12:51:32.593Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:00:30.502Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "13366d95-4690-462f-abb9-18eb1629a4da",
       "action": "DELETE",
@@ -41562,53 +41572,6 @@
         }
       },
       "timestamp": "2026-01-06T13:05:13.063Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "4fc3d3b8-8449-40f9-a82c-96fe5ae3bbd6",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ed8327ef-b584-4603-aebc-538e089f4f77",
-      "details": {
-        "before": {
-          "id": "ed8327ef-b584-4603-aebc-538e089f4f77",
-          "fullName": "YETİŞ KARBUZ",
-          "normalizedName": "YETIS KARBUZ",
-          "baseKey": "YETIS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115646/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 8
-          },
-          "personId": "42552932-7346-4a0a-9436-3edbc9774ef5"
-        },
-        "after": {
-          "id": "ed8327ef-b584-4603-aebc-538e089f4f77",
-          "fullName": "YETİŞ KARBUZ",
-          "normalizedName": "YETIS KARBUZ",
-          "baseKey": "YETIS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115646/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 8
-          },
-          "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
-          "updatedAt": "2026-01-06T13:05:09.215Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:05:09.215Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
