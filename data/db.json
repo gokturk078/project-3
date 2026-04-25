@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:19:10.872Z"
+    "lastUpdated": "2026-04-25T09:20:07.435Z"
   },
   "taxonomy": {
     "categories": [
@@ -8141,6 +8141,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T09:19:10.872Z",
       "updatedAt": "2026-04-25T09:19:10.872Z"
+    },
+    {
+      "id": "5c004402-cb08-4e6a-a5c3-bed4d6890c47",
+      "personId": null,
+      "fullName": "SERHAT İŞ",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-01-04",
+      "exitDate": "2026-04-18",
+      "totalDays": 104,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T09:20:07.435Z",
+      "updatedAt": "2026-04-25T09:20:07.435Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8163,6 +8176,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "57d823e9-863c-49f3-a664-668e8ad470a0",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "5c004402-cb08-4e6a-a5c3-bed4d6890c47",
+      "details": {
+        "departure": {
+          "id": "5c004402-cb08-4e6a-a5c3-bed4d6890c47",
+          "personId": null,
+          "fullName": "SERHAT İŞ",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-01-04",
+          "exitDate": "2026-04-18",
+          "totalDays": 104,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T09:20:07.435Z",
+          "updatedAt": "2026-04-25T09:20:07.435Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:20:07.435Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "6690785d-8204-467a-a475-516731679d45",
       "action": "CREATE",
@@ -41853,36 +41889,6 @@
         }
       },
       "timestamp": "2026-01-14T07:49:17.429Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "2cf282bd-54c2-401a-a217-96762f0eb499",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
-      "details": {
-        "person": {
-          "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
-          "baseKey": "RAĞİP TURAN",
-          "fullName": "RAĞİP TURAN",
-          "normalizedName": "RAĞİP TURAN",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-14T07:48:57.181Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-14T07:48:57.181Z",
-          "updatedAt": "2026-01-14T07:48:57.181Z"
-        }
-      },
-      "timestamp": "2026-01-14T07:48:57.181Z",
       "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
     }
   ]
