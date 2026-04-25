@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:37:05.314Z"
+    "lastUpdated": "2026-04-25T08:37:41.163Z"
   },
   "taxonomy": {
     "categories": [
@@ -7907,6 +7907,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:37:05.313Z",
       "updatedAt": "2026-04-25T08:37:05.313Z"
+    },
+    {
+      "id": "c9dbc8dc-238d-403d-af54-108dd269c3d3",
+      "personId": null,
+      "fullName": "ERSİN ŞEN",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2026-01-31",
+      "exitDate": "2026-04-06",
+      "totalDays": 65,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:37:41.163Z",
+      "updatedAt": "2026-04-25T08:37:41.163Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7929,6 +7942,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "52b06b17-e50c-47fc-8aaa-f7f3a2f834d9",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "c9dbc8dc-238d-403d-af54-108dd269c3d3",
+      "details": {
+        "departure": {
+          "id": "c9dbc8dc-238d-403d-af54-108dd269c3d3",
+          "personId": null,
+          "fullName": "ERSİN ŞEN",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-06",
+          "totalDays": 65,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:37:41.163Z",
+          "updatedAt": "2026-04-25T08:37:41.163Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:37:41.163Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "4cf4d2f3-17ba-447c-8602-81dadd5cd1f7",
       "action": "CREATE",
@@ -41900,54 +41936,6 @@
         }
       },
       "timestamp": "2026-01-10T09:39:01.425Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "b2bc375e-f46e-467d-8c4d-af43a0ba471a",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-      "details": {
-        "before": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-10T07:37:00.158Z"
-        },
-        "after": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-10T09:38:49.820Z"
-        }
-      },
-      "timestamp": "2026-01-10T09:38:49.820Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
