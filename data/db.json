@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:02:46.069Z"
+    "lastUpdated": "2026-04-25T08:12:54.435Z"
   },
   "taxonomy": {
     "categories": [
@@ -7777,6 +7777,19 @@
       "exitMonth": "2026-03",
       "createdAt": "2026-04-03T14:16:47.595Z",
       "updatedAt": "2026-04-03T14:16:47.595Z"
+    },
+    {
+      "id": "7e3e4c9e-aab8-4ef9-be31-c5e2afdc8bdc",
+      "personId": null,
+      "fullName": "MUHAMMET ÇALIŞKAN",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2026-01-24",
+      "exitDate": "2026-03-17",
+      "totalDays": 52,
+      "exitMonth": "2026-03",
+      "createdAt": "2026-04-25T08:12:54.434Z",
+      "updatedAt": "2026-04-25T08:12:54.434Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7799,6 +7812,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "284edacb-8dc2-4d61-9394-9a206be96e59",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "7e3e4c9e-aab8-4ef9-be31-c5e2afdc8bdc",
+      "details": {
+        "departure": {
+          "id": "7e3e4c9e-aab8-4ef9-be31-c5e2afdc8bdc",
+          "personId": null,
+          "fullName": "MUHAMMET ÇALIŞKAN",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2026-01-24",
+          "exitDate": "2026-03-17",
+          "totalDays": 52,
+          "exitMonth": "2026-03",
+          "createdAt": "2026-04-25T08:12:54.434Z",
+          "updatedAt": "2026-04-25T08:12:54.434Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:12:54.435Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "c900f402-a17e-4f11-ad61-64032413fce7",
       "action": "CREATE",
@@ -41502,56 +41538,6 @@
         }
       },
       "timestamp": "2026-01-06T13:30:05.085Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "98f722c2-9661-4eef-8fcb-78c8d3309f1b",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "731d093e-4970-4bd2-869f-772468ff1cce",
-      "details": {
-        "before": {
-          "fullName": "MUSTAFA DURAN",
-          "normalizedName": "MUSTAFA DURAN",
-          "baseKey": "MUSTAFA DURAN",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 41
-          },
-          "mergedFrom": [],
-          "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "MUSTAFA DURAN",
-          "normalizedName": "MUSTAFA DURAN",
-          "baseKey": "MUSTAFA DURAN",
-          "category": "REPSAM",
-          "role": "FORMEN",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 41
-          },
-          "mergedFrom": [],
-          "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T13:27:13.229Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:27:13.229Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
