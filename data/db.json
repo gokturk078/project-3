@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:24:57.691Z"
+    "lastUpdated": "2026-04-25T08:25:15.293Z"
   },
   "taxonomy": {
     "categories": [
@@ -886,7 +886,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -895,7 +895,7 @@
       "mergedFrom": [],
       "personId": "303650c0-5ad7-4edf-9d0c-e42e89842168",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:25:15.293Z"
     },
     {
       "fullName": "ORHAN ÖZCAN",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "7e4cfe8f-084f-411d-a5a8-a0e98a5fd2aa",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "303650c0-5ad7-4edf-9d0c-e42e89842168",
+      "details": {
+        "before": {
+          "fullName": "MUSTAFA ONARAN",
+          "normalizedName": "MUSTAFA ONARAN",
+          "baseKey": "MUSTAFA ONARAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 42
+          },
+          "mergedFrom": [],
+          "personId": "303650c0-5ad7-4edf-9d0c-e42e89842168",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MUSTAFA ONARAN",
+          "normalizedName": "MUSTAFA ONARAN",
+          "baseKey": "MUSTAFA ONARAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 42
+          },
+          "mergedFrom": [],
+          "personId": "303650c0-5ad7-4edf-9d0c-e42e89842168",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:25:15.293Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:25:15.293Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "4d424009-9fef-4a7d-97b1-359e1720f4b1",
       "action": "UPDATE",
@@ -41747,26 +41797,6 @@
         }
       },
       "timestamp": "2026-01-09T09:30:16.809Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "a51174fa-a3a6-4bd5-ac77-7aacec0530ad",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "387ad07c-ae1d-4396-b449-0b034d45e9dc",
-      "details": {
-        "leave": {
-          "id": "387ad07c-ae1d-4396-b449-0b034d45e9dc",
-          "personId": "5144f20c-d6d7-4811-9aa2-753af4e66d36",
-          "startDate": "2026-01-17",
-          "endDate": "2026-02-01",
-          "days": 16,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-09T09:29:01.230Z"
-        }
-      },
-      "timestamp": "2026-01-09T09:29:01.230Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
