@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:41:29.833Z"
+    "lastUpdated": "2026-04-25T08:42:09.679Z"
   },
   "taxonomy": {
     "categories": [
@@ -7959,6 +7959,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:41:29.833Z",
       "updatedAt": "2026-04-25T08:41:29.833Z"
+    },
+    {
+      "id": "ee04f5dc-7e9a-4a2c-b91e-db6723220376",
+      "personId": null,
+      "fullName": "ESAT İĞDE",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-11-22",
+      "exitDate": "2026-04-11",
+      "totalDays": 140,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:42:09.679Z",
+      "updatedAt": "2026-04-25T08:42:09.679Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7981,6 +7994,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "82f4a6ca-c474-416d-8b6a-4fc86e040325",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "ee04f5dc-7e9a-4a2c-b91e-db6723220376",
+      "details": {
+        "departure": {
+          "id": "ee04f5dc-7e9a-4a2c-b91e-db6723220376",
+          "personId": null,
+          "fullName": "ESAT İĞDE",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-11-22",
+          "exitDate": "2026-04-11",
+          "totalDays": 140,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:42:09.679Z",
+          "updatedAt": "2026-04-25T08:42:09.679Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:42:09.679Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "b78ec921-8ca1-4a85-9417-15527d562191",
       "action": "CREATE",
@@ -41852,54 +41888,6 @@
         }
       },
       "timestamp": "2026-01-10T10:03:19.329Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "24078185-f0dd-41ea-86b0-f7498179c417",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-      "details": {
-        "before": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-10T09:38:49.820Z"
-        },
-        "after": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-10T10:03:11.237Z"
-        }
-      },
-      "timestamp": "2026-01-10T10:03:11.237Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
