@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T07:59:45.372Z"
+    "lastUpdated": "2026-04-25T07:59:53.543Z"
   },
   "taxonomy": {
     "categories": [
@@ -6669,18 +6669,6 @@
       "updatedAt": "2026-04-01T07:10:50.598Z"
     },
     {
-      "id": "288d556f-85e0-4cf5-8be7-715403512c8a",
-      "personId": "41f4f8b0-9045-4bf3-bad8-698b9d25a86f",
-      "applicationNo": "156403",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-03-26T06:56:07.214Z",
-      "updatedAt": "2026-04-21T12:57:53.394Z"
-    },
-    {
       "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
       "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
       "applicationNo": "126220/2026",
@@ -7827,6 +7815,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "1a027bad-3dd4-4148-940d-388e5c7971ae",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "288d556f-85e0-4cf5-8be7-715403512c8a",
+      "details": {
+        "tracking": {
+          "id": "288d556f-85e0-4cf5-8be7-715403512c8a",
+          "personId": "41f4f8b0-9045-4bf3-bad8-698b9d25a86f",
+          "applicationNo": "156403",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:56:07.214Z",
+          "updatedAt": "2026-04-21T12:57:53.394Z"
+        }
+      },
+      "timestamp": "2026-04-25T07:59:53.543Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "85e5c601-3ad2-4d0a-b5d7-9f2d7b046032",
       "action": "DELETE",
@@ -41673,53 +41683,6 @@
         }
       },
       "timestamp": "2026-01-06T13:05:03.139Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "b1ecf402-4740-4cbd-a645-b75084094846",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "e1bb4383-5444-4cec-99a5-881859b3f070",
-      "details": {
-        "before": {
-          "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
-          "fullName": "HARUN DURDU",
-          "normalizedName": "HARUN DURDU",
-          "baseKey": "HARUN DURDU",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116094/2025",
-          "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 14
-          },
-          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7"
-        },
-        "after": {
-          "id": "e1bb4383-5444-4cec-99a5-881859b3f070",
-          "fullName": "HARUN DURDU",
-          "normalizedName": "HARUN DURDU",
-          "baseKey": "HARUN DURDU",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116094/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 14
-          },
-          "personId": "19ddf7cd-2579-4ba5-93bf-a0666a888ee7",
-          "updatedAt": "2026-01-06T13:04:59.376Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:04:59.376Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
