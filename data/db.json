@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:46:09.588Z"
+    "lastUpdated": "2026-04-25T08:46:49.601Z"
   },
   "taxonomy": {
     "categories": [
@@ -8037,6 +8037,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:46:09.588Z",
       "updatedAt": "2026-04-25T08:46:09.588Z"
+    },
+    {
+      "id": "52012b8f-5632-4b73-bb83-6486a9cd6382",
+      "personId": null,
+      "fullName": "MEHMET KIZILKURT",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-07-24",
+      "exitDate": "2026-04-15",
+      "totalDays": 265,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:46:49.600Z",
+      "updatedAt": "2026-04-25T08:46:49.600Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8059,6 +8072,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "f9ce071f-d0dc-4ac3-bf11-f39552094d6c",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "52012b8f-5632-4b73-bb83-6486a9cd6382",
+      "details": {
+        "departure": {
+          "id": "52012b8f-5632-4b73-bb83-6486a9cd6382",
+          "personId": null,
+          "fullName": "MEHMET KIZILKURT",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-07-24",
+          "exitDate": "2026-04-15",
+          "totalDays": 265,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:46:49.600Z",
+          "updatedAt": "2026-04-25T08:46:49.600Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:46:49.601Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "f51dd1e4-8973-4527-84ca-5794b4ed8ee4",
       "action": "CREATE",
@@ -41824,26 +41860,6 @@
         }
       },
       "timestamp": "2026-01-12T11:25:05.139Z",
-      "adminSession": "d7371b5e-dedf-4aaf-94c7-45031b9c1007"
-    },
-    {
-      "id": "036a55b3-875a-4960-8619-42059bbf7a97",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "cea495c0-c5b8-44b0-b522-57ecde099f0c",
-      "details": {
-        "leave": {
-          "id": "cea495c0-c5b8-44b0-b522-57ecde099f0c",
-          "personId": "f1c278ce-a7f5-4773-ba64-0723bc4b675a",
-          "startDate": "2026-01-12",
-          "endDate": "2026-01-14",
-          "days": 3,
-          "type": "NORMAL",
-          "note": "görevli(mahkeme)",
-          "createdAt": "2026-01-12T06:57:26.292Z"
-        }
-      },
-      "timestamp": "2026-01-12T06:57:26.292Z",
       "adminSession": "d7371b5e-dedf-4aaf-94c7-45031b9c1007"
     }
   ]
