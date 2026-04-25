@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:20:36.818Z"
+    "lastUpdated": "2026-04-25T08:20:59.479Z"
   },
   "taxonomy": {
     "categories": [
@@ -4051,7 +4051,7 @@
       "jobTitle": "117470/2025",
       "needsReview": true,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "file": "takip.xlsx",
@@ -4068,7 +4068,7 @@
         "contactPerson": "İSG (İŞÇİ)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T09:00:42.097Z"
+      "updatedAt": "2026-04-25T08:20:59.479Z"
     },
     {
       "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
@@ -7838,6 +7838,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "f5e738d9-8186-45e6-9fc3-3fa53b0fc218",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ea679478-0826-4468-9be1-e8081993dc5a",
+      "details": {
+        "before": {
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "baseKey": "SERHAT IS",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117470/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 22
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117470/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG (İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:00:42.097Z"
+        },
+        "after": {
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "baseKey": "SERHAT IS",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117470/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 22
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117470/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG (İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-04-25T08:20:59.479Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:20:59.479Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "61798158-ea54-494c-94d5-4fbdbb0e8b42",
       "action": "UPDATE",
@@ -41505,56 +41573,6 @@
       },
       "timestamp": "2026-01-08T11:51:43.585Z",
       "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
-    },
-    {
-      "id": "0404ba54-2ecc-479e-bbfd-de2d3ca90c1f",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "4cd74d7f-2642-443b-bd33-79b81dfc863f",
-      "details": {
-        "before": {
-          "fullName": "KAMAL SARDER",
-          "normalizedName": "KAMAL SARDER",
-          "baseKey": "KAMAL SARDER",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 29
-          },
-          "mergedFrom": [],
-          "personId": "4cd74d7f-2642-443b-bd33-79b81dfc863f",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "KAMAL SARDER",
-          "normalizedName": "KAMAL SARDER",
-          "baseKey": "KAMAL SARDER",
-          "category": "BANGLADEŞ",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 29
-          },
-          "mergedFrom": [],
-          "personId": "4cd74d7f-2642-443b-bd33-79b81dfc863f",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-07T07:01:28.429Z"
-        }
-      },
-      "timestamp": "2026-01-07T07:01:28.430Z",
-      "adminSession": "61c94ad8-db42-4acd-9814-626519c61ab3"
     }
   ]
 }
