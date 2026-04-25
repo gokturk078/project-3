@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:15:50.187Z"
+    "lastUpdated": "2026-04-25T08:18:57.860Z"
   },
   "taxonomy": {
     "categories": [
@@ -4303,7 +4303,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4312,7 +4312,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:05:46.607Z",
-      "updatedAt": "2026-02-05T11:58:53.758Z",
+      "updatedAt": "2026-04-25T08:18:57.860Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "c9a4dddc-137d-42b9-b0eb-35a36b4a9fa8",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "52050282-6982-4686-a995-1bd8c83b806a",
+      "details": {
+        "before": {
+          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
+          "baseKey": "MUHAMMET ÇALIŞKAN",
+          "fullName": "MUHAMMET ÇALIŞKAN",
+          "normalizedName": "MUHAMMET ÇALIŞKAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:05:46.607Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:05:46.607Z",
+          "updatedAt": "2026-02-05T11:58:53.758Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
+          "baseKey": "MUHAMMET ÇALIŞKAN",
+          "fullName": "MUHAMMET ÇALIŞKAN",
+          "normalizedName": "MUHAMMET ÇALIŞKAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:05:46.607Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:05:46.607Z",
+          "updatedAt": "2026-04-25T08:18:57.860Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:18:57.860Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "79e3ebe1-13dd-4499-9ae7-e95b822269fe",
       "action": "CREATE",
@@ -41460,56 +41512,6 @@
         }
       },
       "timestamp": "2026-01-06T16:14:22.667Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "ab4c011d-5031-439a-b273-a5888f333791",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "c2b31889-e96a-499f-933e-361e751688f7",
-      "details": {
-        "before": {
-          "fullName": "IKROM RAKHMATOV",
-          "normalizedName": "IKROM RAKHMATOV",
-          "baseKey": "IKROM RAKHMATOV",
-          "category": "BANGLADEŞ",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "BANGLADEŞ",
-            "row": 3
-          },
-          "mergedFrom": [],
-          "personId": "c2b31889-e96a-499f-933e-361e751688f7",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "IKROM RAKHMATOV",
-          "normalizedName": "IKROM RAKHMATOV",
-          "baseKey": "IKROM RAKHMATOV",
-          "category": "ÖZBEK",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "BANGLADEŞ",
-            "row": 3
-          },
-          "mergedFrom": [],
-          "personId": "c2b31889-e96a-499f-933e-361e751688f7",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T16:09:05.611Z"
-        }
-      },
-      "timestamp": "2026-01-06T16:09:05.611Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
