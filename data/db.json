@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:14:14.841Z"
+    "lastUpdated": "2026-04-25T08:15:50.187Z"
   },
   "taxonomy": {
     "categories": [
@@ -7803,6 +7803,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-04-25T08:14:14.841Z",
       "updatedAt": "2026-04-25T08:14:14.841Z"
+    },
+    {
+      "id": "ed39704c-9aa2-4814-8860-262fe19cd7a6",
+      "personId": null,
+      "fullName": "MURAT KALINTAŞ",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2025-07-21",
+      "exitDate": "2026-02-27",
+      "totalDays": 221,
+      "exitMonth": "2026-02",
+      "createdAt": "2026-04-25T08:15:50.187Z",
+      "updatedAt": "2026-04-25T08:15:50.187Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7825,6 +7838,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "79e3ebe1-13dd-4499-9ae7-e95b822269fe",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "ed39704c-9aa2-4814-8860-262fe19cd7a6",
+      "details": {
+        "departure": {
+          "id": "ed39704c-9aa2-4814-8860-262fe19cd7a6",
+          "personId": null,
+          "fullName": "MURAT KALINTAŞ",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-07-21",
+          "exitDate": "2026-02-27",
+          "totalDays": 221,
+          "exitMonth": "2026-02",
+          "createdAt": "2026-04-25T08:15:50.187Z",
+          "updatedAt": "2026-04-25T08:15:50.187Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:15:50.187Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "6cbcce65-459f-4c55-8fb2-3281c4a636b4",
       "action": "CREATE",
@@ -41474,56 +41510,6 @@
         }
       },
       "timestamp": "2026-01-06T16:09:05.611Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "3b7f8489-4415-4162-8ad6-dc0fb681a1ef",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
-      "details": {
-        "before": {
-          "fullName": "MUSTAFA ŞEN",
-          "normalizedName": "MUSTAFA SEN",
-          "baseKey": "MUSTAFA SEN",
-          "category": "CAPRA",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 4
-          },
-          "mergedFrom": [],
-          "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "MUSTAFA ŞEN",
-          "normalizedName": "MUSTAFA SEN",
-          "baseKey": "MUSTAFA SEN",
-          "category": "CAPRA",
-          "role": null,
-          "jobTitle": "iş güvenliği",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 4
-          },
-          "mergedFrom": [],
-          "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T13:32:41.207Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:32:41.207Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
