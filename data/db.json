@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:26:16.935Z"
+    "lastUpdated": "2026-04-25T08:26:37.716Z"
   },
   "taxonomy": {
     "categories": [
@@ -546,7 +546,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -555,7 +555,7 @@
       "mergedFrom": [],
       "personId": "22f873c5-0d7c-4a0a-a9f0-ea1506678fc1",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:26:37.716Z"
     },
     {
       "fullName": "İBRAHİM ER",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "7b6d47a3-8d02-418c-8b4e-6e409f2f8a79",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "22f873c5-0d7c-4a0a-a9f0-ea1506678fc1",
+      "details": {
+        "before": {
+          "fullName": "HASAN KÜÇÜK",
+          "normalizedName": "HASAN KUCUK",
+          "baseKey": "HASAN KUCUK",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 25
+          },
+          "mergedFrom": [],
+          "personId": "22f873c5-0d7c-4a0a-a9f0-ea1506678fc1",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "HASAN KÜÇÜK",
+          "normalizedName": "HASAN KUCUK",
+          "baseKey": "HASAN KUCUK",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 25
+          },
+          "mergedFrom": [],
+          "personId": "22f873c5-0d7c-4a0a-a9f0-ea1506678fc1",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:26:37.716Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:26:37.716Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "0a343db1-ad82-450e-afe9-61c71190c378",
       "action": "UPDATE",
@@ -41868,29 +41918,6 @@
         }
       },
       "timestamp": "2026-01-09T12:22:50.746Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "9385929c-616d-4b03-b20d-c8edf71b622b",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
-      "details": {
-        "departure": {
-          "id": "4ee35b8a-0195-48e0-ad9e-9caf80461471",
-          "personId": null,
-          "fullName": "MUSTAFA KUŞ",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-09-24",
-          "exitDate": "2026-01-08",
-          "totalDays": 106,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-09T12:21:54.437Z",
-          "updatedAt": "2026-01-09T12:21:54.437Z"
-        }
-      },
-      "timestamp": "2026-01-09T12:21:54.438Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
