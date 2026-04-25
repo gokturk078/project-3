@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:22:59.120Z"
+    "lastUpdated": "2026-04-25T08:23:41.313Z"
   },
   "taxonomy": {
     "categories": [
@@ -4702,7 +4702,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4711,7 +4711,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:07:37.203Z",
-      "updatedAt": "2026-02-09T09:02:59.735Z",
+      "updatedAt": "2026-04-25T08:23:41.313Z",
       "jobTitle": null
     },
     {
@@ -7838,6 +7838,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "7f96bd38-3f4e-4ceb-9048-8eb380187a12",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+      "details": {
+        "before": {
+          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+          "baseKey": "MAHMUT EMRE AKSOY",
+          "fullName": "MAHMUT EMRE AKSOY",
+          "normalizedName": "MAHMUT EMRE AKSOY",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:37.203Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:37.203Z",
+          "updatedAt": "2026-02-09T09:02:59.735Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
+          "baseKey": "MAHMUT EMRE AKSOY",
+          "fullName": "MAHMUT EMRE AKSOY",
+          "normalizedName": "MAHMUT EMRE AKSOY",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:07:37.203Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:07:37.203Z",
+          "updatedAt": "2026-04-25T08:23:41.313Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-25T08:23:41.313Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "9f6fce8b-558e-44c6-8305-0fbcc2a7d672",
       "action": "UPDATE",
@@ -41634,26 +41686,6 @@
         }
       },
       "timestamp": "2026-01-09T09:21:05.041Z",
-      "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "e98fcfa7-5ee0-42c6-a320-4893c3488c63",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "a7562e36-77ae-43c3-a1f7-d00bc6736652",
-      "details": {
-        "leave": {
-          "id": "a7562e36-77ae-43c3-a1f7-d00bc6736652",
-          "personId": "1130cfd3-7778-4573-b98a-1c24e601c855",
-          "startDate": "2025-12-04",
-          "endDate": "2025-12-10",
-          "days": 7,
-          "type": "RAPOR",
-          "note": "iş kazası sonucu rapor",
-          "createdAt": "2026-01-09T09:18:45.538Z"
-        }
-      },
-      "timestamp": "2026-01-09T09:18:45.538Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
     }
   ]
