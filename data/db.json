@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:43:56.562Z"
+    "lastUpdated": "2026-04-25T08:44:41.687Z"
   },
   "taxonomy": {
     "categories": [
@@ -7998,6 +7998,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T08:43:56.562Z",
       "updatedAt": "2026-04-25T08:43:56.562Z"
+    },
+    {
+      "id": "bc6d3342-c36a-40de-b824-3947eb5ae7fd",
+      "personId": null,
+      "fullName": "DİLAVER ŞAHİN",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-01-31",
+      "exitDate": "2026-04-15",
+      "totalDays": 74,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:44:41.687Z",
+      "updatedAt": "2026-04-25T08:44:41.687Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8020,6 +8033,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "4c25f7b6-6340-45c2-b338-3f84b45fec5a",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "bc6d3342-c36a-40de-b824-3947eb5ae7fd",
+      "details": {
+        "departure": {
+          "id": "bc6d3342-c36a-40de-b824-3947eb5ae7fd",
+          "personId": null,
+          "fullName": "DİLAVER ŞAHİN",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-15",
+          "totalDays": 74,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:44:41.687Z",
+          "updatedAt": "2026-04-25T08:44:41.687Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:44:41.687Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "4ca5f189-fc8d-41c8-b69d-fa2fa2757752",
       "action": "CREATE",
@@ -41833,38 +41869,6 @@
       },
       "timestamp": "2026-01-11T12:22:49.395Z",
       "adminSession": "05b9624d-469f-4eb3-adeb-fd94b434a7c5"
-    },
-    {
-      "id": "d0a897ab-e850-4495-b185-8f8f1c43dee6",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
-      "details": {
-        "before": {
-          "id": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
-          "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
-          "startDate": "2026-01-06",
-          "endDate": "2026-01-15",
-          "days": 10,
-          "type": "RAPOR",
-          "note": "iş kazası sonucu rapor",
-          "createdAt": "2026-01-06T13:10:39.242Z",
-          "updatedAt": "2026-01-09T09:23:15.437Z"
-        },
-        "after": {
-          "id": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
-          "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
-          "startDate": "2026-01-06",
-          "endDate": "2026-01-15",
-          "days": 10,
-          "type": "RAPOR",
-          "note": "SALİH UYAR(İŞTEN AYRILDI)iş kazası sonucu rapor",
-          "createdAt": "2026-01-06T13:10:39.242Z",
-          "updatedAt": "2026-01-10T13:17:12.416Z"
-        }
-      },
-      "timestamp": "2026-01-10T13:17:12.416Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
 }
