@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T09:17:04.072Z"
+    "lastUpdated": "2026-04-25T09:17:56.556Z"
   },
   "taxonomy": {
     "categories": [
@@ -8102,6 +8102,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-04-25T09:17:04.072Z",
       "updatedAt": "2026-04-25T09:17:04.072Z"
+    },
+    {
+      "id": "28463703-b5b4-427d-90c4-3d54b7eee5e7",
+      "personId": null,
+      "fullName": "ABDULLAH TAŞ",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-10-31",
+      "exitDate": "2026-04-16",
+      "totalDays": 167,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T09:17:56.556Z",
+      "updatedAt": "2026-04-25T09:17:56.556Z"
     }
   ],
   "duplicateCandidates": [],
@@ -8124,6 +8137,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "e8f48535-e3cf-4a69-8938-67415d7ef16c",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "28463703-b5b4-427d-90c4-3d54b7eee5e7",
+      "details": {
+        "departure": {
+          "id": "28463703-b5b4-427d-90c4-3d54b7eee5e7",
+          "personId": null,
+          "fullName": "ABDULLAH TAŞ",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-10-31",
+          "exitDate": "2026-04-16",
+          "totalDays": 167,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T09:17:56.556Z",
+          "updatedAt": "2026-04-25T09:17:56.556Z"
+        }
+      },
+      "timestamp": "2026-04-25T09:17:56.556Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "772c0159-5abf-4528-b7af-fbd0fcb184c3",
       "action": "CREATE",
@@ -41835,35 +41871,6 @@
         }
       },
       "timestamp": "2026-01-14T07:48:19.149Z",
-      "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
-    },
-    {
-      "id": "5987619f-2b45-4fef-aee2-bdd3bb51c7e9",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
-      "details": {
-        "tracking": {
-          "id": "f38e32cd-61ae-49d1-bc72-0e736538e2c0",
-          "fullName": "MEHMET ÇİFTÇİ",
-          "normalizedName": "MEHMET CIFTCI",
-          "baseKey": "MEHMET CIFTCI",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117458/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR (İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 20
-          },
-          "personId": "4fc34ff2-7d5d-4e7c-9c07-2f93ea356aab",
-          "updatedAt": "2026-01-06T13:04:31.070Z"
-        }
-      },
-      "timestamp": "2026-01-14T07:44:03.972Z",
       "adminSession": "f11362a6-4093-4c3a-bf89-becc4259c028"
     }
   ]
