@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:18:57.860Z"
+    "lastUpdated": "2026-04-25T08:20:15.472Z"
   },
   "taxonomy": {
     "categories": [
@@ -3306,7 +3306,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "ÖZBEK",
@@ -3315,7 +3315,7 @@
       "mergedFrom": [],
       "personId": "3450a745-a270-464b-adb1-eb8524368083",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:20:15.472Z"
     },
     {
       "fullName": "SARDOR MUKHAMMATOV",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "ffeb496d-792a-4184-9d58-35623e1d36f8",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "3450a745-a270-464b-adb1-eb8524368083",
+      "details": {
+        "before": {
+          "fullName": "KHAYOTJON MINGBOEV",
+          "normalizedName": "KHAYOTJON MINGBOEV",
+          "baseKey": "KHAYOTJON MINGBOEV",
+          "category": "ÖZBEK",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "ÖZBEK",
+            "row": 3
+          },
+          "mergedFrom": [],
+          "personId": "3450a745-a270-464b-adb1-eb8524368083",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "KHAYOTJON MINGBOEV",
+          "normalizedName": "KHAYOTJON MINGBOEV",
+          "baseKey": "KHAYOTJON MINGBOEV",
+          "category": "ÖZBEK",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "ÖZBEK",
+            "row": 3
+          },
+          "mergedFrom": [],
+          "personId": "3450a745-a270-464b-adb1-eb8524368083",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:20:15.472Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:20:15.472Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "c9a4dddc-137d-42b9-b0eb-35a36b4a9fa8",
       "action": "UPDATE",
@@ -41482,36 +41532,6 @@
         }
       },
       "timestamp": "2026-01-06T16:28:32.986Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "e2db0f54-7592-489d-841d-f077cc4bf539",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "9fa2456c-96ca-4789-afa1-a8cd7039139e",
-      "details": {
-        "person": {
-          "personId": "9fa2456c-96ca-4789-afa1-a8cd7039139e",
-          "baseKey": "MD  RAFİ MOLLA",
-          "fullName": "MD  RAFİ MOLLA",
-          "normalizedName": "MD  RAFİ MOLLA",
-          "category": "BANGLADEŞ",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-06T16:14:22.667Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-06T16:14:22.667Z",
-          "updatedAt": "2026-01-06T16:14:22.667Z"
-        }
-      },
-      "timestamp": "2026-01-06T16:14:22.667Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
