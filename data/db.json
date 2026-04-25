@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:22:35.924Z"
+    "lastUpdated": "2026-04-25T08:22:59.120Z"
   },
   "taxonomy": {
     "categories": [
@@ -3386,7 +3386,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "TÜRKMEN",
@@ -3395,7 +3395,7 @@
       "mergedFrom": [],
       "personId": "4637416b-d3f0-438e-a286-01119ec630a6",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-04-25T08:22:59.119Z"
     },
     {
       "fullName": "GAYGYSYZ DURNAZAROV",
@@ -7838,6 +7838,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "9f6fce8b-558e-44c6-8305-0fbcc2a7d672",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "4637416b-d3f0-438e-a286-01119ec630a6",
+      "details": {
+        "before": {
+          "fullName": "BEGENDIK SULTANOV",
+          "normalizedName": "BEGENDIK SULTANOV",
+          "baseKey": "BEGENDIK SULTANOV",
+          "category": "TÜRKMEN",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "TÜRKMEN",
+            "row": 1
+          },
+          "mergedFrom": [],
+          "personId": "4637416b-d3f0-438e-a286-01119ec630a6",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "BEGENDIK SULTANOV",
+          "normalizedName": "BEGENDIK SULTANOV",
+          "baseKey": "BEGENDIK SULTANOV",
+          "category": "TÜRKMEN",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "TÜRKMEN",
+            "row": 1
+          },
+          "mergedFrom": [],
+          "personId": "4637416b-d3f0-438e-a286-01119ec630a6",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-04-25T08:22:59.119Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:22:59.120Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "488d2dab-9241-4bc5-94c9-0a4c658f14e4",
       "action": "UPDATE",
@@ -41605,56 +41655,6 @@
       },
       "timestamp": "2026-01-09T09:18:45.538Z",
       "adminSession": "31f2e561-eb7e-45f5-a253-f490e1ced19e"
-    },
-    {
-      "id": "284cf239-9924-462c-820d-63eb1002ef20",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
-      "details": {
-        "before": {
-          "fullName": "MUSTAFA ŞEN",
-          "normalizedName": "MUSTAFA SEN",
-          "baseKey": "MUSTAFA SEN",
-          "category": "CAPRA",
-          "role": null,
-          "jobTitle": "iş güvenliği",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 4
-          },
-          "mergedFrom": [],
-          "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-06T13:32:41.207Z"
-        },
-        "after": {
-          "fullName": "MUSTAFA ŞEN",
-          "normalizedName": "MUSTAFA SEN",
-          "baseKey": "MUSTAFA SEN",
-          "category": "CAPRA",
-          "role": "İSG",
-          "jobTitle": "iş güvenliği",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "CAPRA",
-            "row": 4
-          },
-          "mergedFrom": [],
-          "personId": "557fb67d-48ba-4b0e-8b2d-7c24f0f325a3",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-08T15:35:43.871Z"
-        }
-      },
-      "timestamp": "2026-01-08T15:35:43.871Z",
-      "adminSession": "794b272a-643d-470a-aea1-f3a31bb41fb0"
     }
   ]
 }
