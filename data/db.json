@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:29:20.562Z"
+    "lastUpdated": "2026-04-25T08:30:31.279Z"
   },
   "taxonomy": {
     "categories": [
@@ -7816,6 +7816,19 @@
       "exitMonth": "2026-02",
       "createdAt": "2026-04-25T08:15:50.187Z",
       "updatedAt": "2026-04-25T08:15:50.187Z"
+    },
+    {
+      "id": "54802e4a-e9e6-4de1-8fea-4fac1280b732",
+      "personId": null,
+      "fullName": "SEFA AKDENİZ",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2026-01-31",
+      "exitDate": "2026-04-05",
+      "totalDays": 64,
+      "exitMonth": "2026-04",
+      "createdAt": "2026-04-25T08:30:31.279Z",
+      "updatedAt": "2026-04-25T08:30:31.279Z"
     }
   ],
   "duplicateCandidates": [],
@@ -7838,6 +7851,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "bb687630-75ef-4e2f-8b78-6d6e593c8691",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "54802e4a-e9e6-4de1-8fea-4fac1280b732",
+      "details": {
+        "departure": {
+          "id": "54802e4a-e9e6-4de1-8fea-4fac1280b732",
+          "personId": null,
+          "fullName": "SEFA AKDENİZ",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-04-05",
+          "totalDays": 64,
+          "exitMonth": "2026-04",
+          "createdAt": "2026-04-25T08:30:31.279Z",
+          "updatedAt": "2026-04-25T08:30:31.279Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:30:31.279Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "02b9530b-79fa-4414-a1c3-e7fd9f4106c2",
       "action": "UPDATE",
@@ -41993,54 +42029,6 @@
         }
       },
       "timestamp": "2026-01-10T07:37:00.158Z",
-      "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
-    },
-    {
-      "id": "5e0d8eb5-48dc-4889-a1c1-4881cbb17dfd",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-      "details": {
-        "before": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "MESUT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-06T13:05:15.710Z"
-        },
-        "after": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-10T07:36:50.385Z"
-        }
-      },
-      "timestamp": "2026-01-10T07:36:50.385Z",
       "adminSession": "73bf63df-16de-4f5f-b6d1-4c62de5f4bbc"
     }
   ]
