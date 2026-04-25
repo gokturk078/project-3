@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-25T08:01:43.161Z"
+    "lastUpdated": "2026-04-25T08:02:46.069Z"
   },
   "taxonomy": {
     "categories": [
@@ -6723,6 +6723,18 @@
       "notes": "",
       "createdAt": "2026-04-20T14:38:36.983Z",
       "updatedAt": "2026-04-20T14:38:36.983Z"
+    },
+    {
+      "id": "874f98d8-2e08-4f8d-a543-44dcf962101e",
+      "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+      "applicationNo": "128298/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "muhasebe",
+      "notes": "",
+      "createdAt": "2026-04-25T08:02:46.069Z",
+      "updatedAt": "2026-04-25T08:02:46.069Z"
     }
   ],
   "departures": [
@@ -7787,6 +7799,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "c900f402-a17e-4f11-ad61-64032413fce7",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "874f98d8-2e08-4f8d-a543-44dcf962101e",
+      "details": {
+        "tracking": {
+          "id": "874f98d8-2e08-4f8d-a543-44dcf962101e",
+          "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+          "applicationNo": "128298/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "muhasebe",
+          "notes": "",
+          "createdAt": "2026-04-25T08:02:46.069Z",
+          "updatedAt": "2026-04-25T08:02:46.069Z"
+        }
+      },
+      "timestamp": "2026-04-25T08:02:46.069Z",
+      "adminSession": "9ff6f043-b237-4662-a6dc-b81ff45fa083"
+    },
     {
       "id": "0e3cd9f7-0014-4382-ae4a-76cbc7c0925e",
       "action": "CREATE",
@@ -41518,26 +41552,6 @@
         }
       },
       "timestamp": "2026-01-06T13:27:13.229Z",
-      "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
-    },
-    {
-      "id": "92159d66-074a-440c-8304-ae805da45d59",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
-      "details": {
-        "leave": {
-          "id": "b0559776-a60d-407a-b9ed-d2d520ddd5e7",
-          "personId": "0023705c-ad45-43f7-9ffc-1dc5cb587ed1",
-          "startDate": "2026-01-06",
-          "endDate": "2026-01-15",
-          "days": 10,
-          "type": "RAPOR",
-          "note": "iş kazası sonucu rapor almıştır.",
-          "createdAt": "2026-01-06T13:10:39.242Z"
-        }
-      },
-      "timestamp": "2026-01-06T13:10:39.243Z",
       "adminSession": "30a2fe38-950f-4a70-98ec-2b052bf9da9d"
     }
   ]
