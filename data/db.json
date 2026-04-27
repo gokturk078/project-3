@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-27T12:42:17.027Z"
+    "lastUpdated": "2026-04-27T12:43:20.703Z"
   },
   "taxonomy": {
     "categories": [
@@ -6395,12 +6395,12 @@
       "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
       "applicationNo": "126220/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "ELEKTRİK ERHAN FORMEN",
       "notes": "",
       "createdAt": "2026-04-03T10:34:16.081Z",
-      "updatedAt": "2026-04-21T13:58:32.096Z"
+      "updatedAt": "2026-04-27T12:43:20.703Z"
     },
     {
       "id": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
@@ -7976,6 +7976,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "da4c4504-02a1-4d98-aa9e-5d227dd09786",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
+      "details": {
+        "before": {
+          "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
+          "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
+          "applicationNo": "126220/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "ELEKTRİK ERHAN FORMEN",
+          "notes": "",
+          "createdAt": "2026-04-03T10:34:16.081Z",
+          "updatedAt": "2026-04-21T13:58:32.096Z"
+        },
+        "after": {
+          "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
+          "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
+          "applicationNo": "126220/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "ELEKTRİK ERHAN FORMEN",
+          "notes": "",
+          "createdAt": "2026-04-03T10:34:16.081Z",
+          "updatedAt": "2026-04-27T12:43:20.703Z"
+        }
+      },
+      "timestamp": "2026-04-27T12:43:20.703Z",
+      "adminSession": "c091b2c9-b348-402f-853f-fdd5342a8bce"
+    },
     {
       "id": "2c8e60c9-416e-45b4-a157-a51c4327e826",
       "action": "UPDATE",
@@ -41642,36 +41676,6 @@
         }
       },
       "timestamp": "2026-01-19T07:08:35.997Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "e86398d9-5b11-456b-b90e-4d28f57dbd10",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "9295c071-83ec-4418-949a-aa274f97d98d",
-      "details": {
-        "person": {
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "baseKey": "SADIK BARAN",
-          "fullName": "SADIK BARAN",
-          "normalizedName": "SADIK BARAN",
-          "category": "NEŞAT",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:08:12.202Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:08:12.202Z",
-          "updatedAt": "2026-01-19T07:08:12.202Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:08:12.202Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
