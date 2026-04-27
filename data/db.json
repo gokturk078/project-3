@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-27T10:01:30.436Z"
+    "lastUpdated": "2026-04-27T10:02:27.400Z"
   },
   "taxonomy": {
     "categories": [
@@ -5748,7 +5748,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5757,7 +5757,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-08T08:41:41.294Z",
-      "updatedAt": "2026-04-08T08:41:41.294Z"
+      "updatedAt": "2026-04-27T10:02:27.399Z",
+      "jobTitle": null
     },
     {
       "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
@@ -7943,6 +7944,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "d277a4b2-69fc-4ae6-9627-4fa898b75074",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+      "details": {
+        "before": {
+          "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+          "baseKey": "AZİZ İLTER",
+          "fullName": "AZİZ İLTER",
+          "normalizedName": "AZİZ İLTER",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-08T08:41:41.294Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-08T08:41:41.294Z",
+          "updatedAt": "2026-04-08T08:41:41.294Z"
+        },
+        "after": {
+          "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+          "baseKey": "AZİZ İLTER",
+          "fullName": "AZİZ İLTER",
+          "normalizedName": "AZİZ İLTER",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-08T08:41:41.294Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-08T08:41:41.294Z",
+          "updatedAt": "2026-04-27T10:02:27.399Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-27T10:02:27.400Z",
+      "adminSession": "c091b2c9-b348-402f-853f-fdd5342a8bce"
+    },
     {
       "id": "ae5f0dac-0b26-419e-ad46-13086b8d1e45",
       "action": "CREATE",
@@ -41592,36 +41644,6 @@
         }
       },
       "timestamp": "2026-01-19T07:07:08.513Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "03ec0388-8276-44c9-bbbc-45cbca8b289d",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-      "details": {
-        "person": {
-          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-          "baseKey": "MAHMUT DEMİRALP",
-          "fullName": "MAHMUT DEMİRALP",
-          "normalizedName": "MAHMUT DEMİRALP",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:06:50.330Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:06:50.330Z",
-          "updatedAt": "2026-01-19T07:06:50.330Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:06:50.330Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
