@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-27T10:00:49.623Z"
+    "lastUpdated": "2026-04-27T10:01:30.436Z"
   },
   "taxonomy": {
     "categories": [
@@ -6464,6 +6464,18 @@
       "notes": "",
       "createdAt": "2026-04-25T09:54:35.106Z",
       "updatedAt": "2026-04-25T09:54:35.106Z"
+    },
+    {
+      "id": "f3d02938-677c-47c5-8901-cbc9fe53e782",
+      "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
+      "applicationNo": "127800",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "NEŞAT",
+      "notes": "",
+      "createdAt": "2026-04-27T10:01:30.436Z",
+      "updatedAt": "2026-04-27T10:01:30.436Z"
     }
   ],
   "departures": [
@@ -7931,6 +7943,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ae5f0dac-0b26-419e-ad46-13086b8d1e45",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "f3d02938-677c-47c5-8901-cbc9fe53e782",
+      "details": {
+        "tracking": {
+          "id": "f3d02938-677c-47c5-8901-cbc9fe53e782",
+          "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
+          "applicationNo": "127800",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-27T10:01:30.436Z",
+          "updatedAt": "2026-04-27T10:01:30.436Z"
+        }
+      },
+      "timestamp": "2026-04-27T10:01:30.436Z",
+      "adminSession": "c091b2c9-b348-402f-853f-fdd5342a8bce"
+    },
     {
       "id": "2b5f78e3-57cf-4fb7-b474-8d791f6cfc91",
       "action": "CREATE",
@@ -41588,36 +41622,6 @@
         }
       },
       "timestamp": "2026-01-19T07:06:50.330Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "0f0df0e9-c13e-4077-8e0b-d01b94012806",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
-      "details": {
-        "person": {
-          "personId": "ba7fb233-38ac-4b3f-bc8d-3e5ea3559ad4",
-          "baseKey": "İSAK PEHLİVAN",
-          "fullName": "İSAK PEHLİVAN",
-          "normalizedName": "İSAK PEHLİVAN",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:06:27.518Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:06:27.518Z",
-          "updatedAt": "2026-01-19T07:06:27.518Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:06:27.519Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
