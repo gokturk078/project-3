@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-27T09:25:59.929Z"
+    "lastUpdated": "2026-04-27T10:00:26.881Z"
   },
   "taxonomy": {
     "categories": [
@@ -6362,18 +6362,6 @@
       "updatedAt": "2026-04-21T13:58:32.096Z"
     },
     {
-      "id": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
-      "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
-      "applicationNo": "126481/2026",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "",
-      "notes": "",
-      "createdAt": "2026-04-08T08:42:21.057Z",
-      "updatedAt": "2026-04-21T12:58:24.981Z"
-    },
-    {
       "id": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
       "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
       "applicationNo": "126778/2026",
@@ -7923,6 +7911,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "6f38aaea-01bb-4a7f-a0c7-3856da4d5c52",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
+      "details": {
+        "tracking": {
+          "id": "7a61cb08-70f6-4503-82d1-f3e58f82c674",
+          "personId": "8afc995d-be59-4d40-bfbc-39aa125a8683",
+          "applicationNo": "126481/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-08T08:42:21.057Z",
+          "updatedAt": "2026-04-21T12:58:24.981Z"
+        }
+      },
+      "timestamp": "2026-04-27T10:00:26.881Z",
+      "adminSession": "c091b2c9-b348-402f-853f-fdd5342a8bce"
+    },
     {
       "id": "d4b8bfd2-62a1-4a62-bd9b-e690d5fe88cf",
       "action": "DELETE",
@@ -41588,36 +41598,6 @@
         }
       },
       "timestamp": "2026-01-19T07:06:06.954Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "6b024e60-5ac5-4d8e-a8cc-2e588792e8a0",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "52050282-6982-4686-a995-1bd8c83b806a",
-      "details": {
-        "person": {
-          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
-          "baseKey": "MUHAMMET ÇALIŞKAN",
-          "fullName": "MUHAMMET ÇALIŞKAN",
-          "normalizedName": "MUHAMMET ÇALIŞKAN",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:05:46.607Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:05:46.607Z",
-          "updatedAt": "2026-01-19T07:05:46.607Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:05:46.607Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
