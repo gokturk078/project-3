@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-27T12:12:58.805Z"
+    "lastUpdated": "2026-04-27T12:13:35.037Z"
   },
   "taxonomy": {
     "categories": [
@@ -6497,6 +6497,18 @@
       "notes": "",
       "createdAt": "2026-04-27T10:01:30.436Z",
       "updatedAt": "2026-04-27T10:01:30.436Z"
+    },
+    {
+      "id": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
+      "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
+      "applicationNo": "128485",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "NEŞAT",
+      "notes": "",
+      "createdAt": "2026-04-27T12:13:35.037Z",
+      "updatedAt": "2026-04-27T12:13:35.037Z"
     }
   ],
   "departures": [
@@ -7964,6 +7976,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "67a0a2f1-7253-4322-a4fe-ef9f34a283ed",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
+      "details": {
+        "tracking": {
+          "id": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
+          "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
+          "applicationNo": "128485",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-27T12:13:35.037Z",
+          "updatedAt": "2026-04-27T12:13:35.037Z"
+        }
+      },
+      "timestamp": "2026-04-27T12:13:35.037Z",
+      "adminSession": "c091b2c9-b348-402f-853f-fdd5342a8bce"
+    },
     {
       "id": "b571a2d9-a2c2-44bc-add0-0a0efc593ac3",
       "action": "CREATE",
@@ -41634,36 +41668,6 @@
         }
       },
       "timestamp": "2026-01-19T07:07:50.991Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "c4ee5e2f-46c1-4b9c-9f68-3b2d2e4ffa99",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "354f6255-739b-4607-97a7-fb1da9a21c30",
-      "details": {
-        "person": {
-          "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
-          "baseKey": "ADİL BAŞARMAK",
-          "fullName": "ADİL BAŞARMAK",
-          "normalizedName": "ADİL BAŞARMAK",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:07:30.342Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:07:30.342Z",
-          "updatedAt": "2026-01-19T07:07:30.342Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:07:30.342Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
