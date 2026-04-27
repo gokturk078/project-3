@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-27T09:25:54.132Z"
+    "lastUpdated": "2026-04-27T09:25:59.929Z"
   },
   "taxonomy": {
     "categories": [
@@ -6386,18 +6386,6 @@
       "updatedAt": "2026-04-15T13:42:47.408Z"
     },
     {
-      "id": "c9091c3f-d9a5-4973-ace0-f670137f8929",
-      "personId": "1d87d37c-ab31-439d-99b0-0ece1f4bac32",
-      "applicationNo": "",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-04-15T13:43:20.944Z",
-      "updatedAt": "2026-04-21T12:58:43.414Z"
-    },
-    {
       "id": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
       "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
       "applicationNo": "",
@@ -7935,6 +7923,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "d4b8bfd2-62a1-4a62-bd9b-e690d5fe88cf",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "c9091c3f-d9a5-4973-ace0-f670137f8929",
+      "details": {
+        "tracking": {
+          "id": "c9091c3f-d9a5-4973-ace0-f670137f8929",
+          "personId": "1d87d37c-ab31-439d-99b0-0ece1f4bac32",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-15T13:43:20.944Z",
+          "updatedAt": "2026-04-21T12:58:43.414Z"
+        }
+      },
+      "timestamp": "2026-04-27T09:25:59.929Z",
+      "adminSession": "c091b2c9-b348-402f-853f-fdd5342a8bce"
+    },
     {
       "id": "eac8b0c5-ed9b-40e5-875f-2a5d75d01b2d",
       "action": "UPDATE",
@@ -41608,36 +41618,6 @@
         }
       },
       "timestamp": "2026-01-19T07:05:46.607Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "5afc7bce-902e-422a-83d3-c16b3d2e26b7",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
-      "details": {
-        "person": {
-          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
-          "baseKey": "EMRULLAH BAŞARMAK",
-          "fullName": "EMRULLAH BAŞARMAK",
-          "normalizedName": "EMRULLAH BAŞARMAK",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:05:23.129Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:05:23.129Z",
-          "updatedAt": "2026-01-19T07:05:23.129Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:05:23.129Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
