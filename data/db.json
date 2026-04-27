@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-27T10:00:26.881Z"
+    "lastUpdated": "2026-04-27T10:00:49.623Z"
   },
   "taxonomy": {
     "categories": [
@@ -5919,6 +5919,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-25T09:54:17.588Z",
       "updatedAt": "2026-04-25T09:54:17.588Z"
+    },
+    {
+      "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
+      "baseKey": "ALİ KAYA",
+      "fullName": "ALİ KAYA",
+      "normalizedName": "ALİ KAYA",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-27T10:00:49.623Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-27T10:00:49.623Z",
+      "updatedAt": "2026-04-27T10:00:49.623Z"
     }
   ],
   "leaves": [
@@ -7911,6 +7931,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "2b5f78e3-57cf-4fb7-b474-8d791f6cfc91",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
+      "details": {
+        "person": {
+          "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
+          "baseKey": "ALİ KAYA",
+          "fullName": "ALİ KAYA",
+          "normalizedName": "ALİ KAYA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-27T10:00:49.623Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-27T10:00:49.623Z",
+          "updatedAt": "2026-04-27T10:00:49.623Z"
+        }
+      },
+      "timestamp": "2026-04-27T10:00:49.623Z",
+      "adminSession": "c091b2c9-b348-402f-853f-fdd5342a8bce"
+    },
     {
       "id": "6f38aaea-01bb-4a7f-a0c7-3856da4d5c52",
       "action": "DELETE",
@@ -41568,36 +41618,6 @@
         }
       },
       "timestamp": "2026-01-19T07:06:27.519Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "8eb186dd-3778-42cc-bec8-83d6f7c9570a",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-      "details": {
-        "person": {
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "baseKey": "YUSUF GEMİCİ",
-          "fullName": "YUSUF GEMİCİ",
-          "normalizedName": "YUSUF GEMİCİ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:06:06.954Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:06:06.954Z",
-          "updatedAt": "2026-01-19T07:06:06.954Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:06:06.954Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
