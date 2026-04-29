@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-29T14:54:37.785Z"
+    "lastUpdated": "2026-04-29T14:55:01.562Z"
   },
   "taxonomy": {
     "categories": [
@@ -6407,13 +6407,13 @@
       "id": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
       "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
       "applicationNo": "",
-      "profession": "TEMİNAT YATIRILACAK",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "profession": "TEMİNAT YATIRILDI",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "",
       "notes": "",
       "createdAt": "2026-04-15T13:44:51.209Z",
-      "updatedAt": "2026-04-15T13:44:51.209Z"
+      "updatedAt": "2026-04-29T14:55:01.562Z"
     },
     {
       "id": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
@@ -8061,6 +8061,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "f5d91960-328c-4862-8d1f-70d8314e0c0c",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
+      "details": {
+        "before": {
+          "id": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
+          "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+          "applicationNo": "",
+          "profession": "TEMİNAT YATIRILACAK",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-15T13:44:51.209Z",
+          "updatedAt": "2026-04-15T13:44:51.209Z"
+        },
+        "after": {
+          "id": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
+          "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+          "applicationNo": "",
+          "profession": "TEMİNAT YATIRILDI",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-15T13:44:51.209Z",
+          "updatedAt": "2026-04-29T14:55:01.562Z"
+        }
+      },
+      "timestamp": "2026-04-29T14:55:01.562Z",
+      "adminSession": "a258abe3-aa24-4fd5-9502-c77e3cf97139"
+    },
     {
       "id": "7494d143-aa93-457a-81ce-24e978e394d4",
       "action": "UPDATE",
@@ -41647,74 +41681,6 @@
         }
       },
       "timestamp": "2026-01-19T09:15:09.420Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "5fa13078-38d9-4770-8071-ba9a183d32ab",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "6bd35035-1712-42c4-a5cb-6665336e328b",
-      "details": {
-        "before": {
-          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
-          "baseKey": "BARIS TUNA",
-          "fullName": "BARIŞ TUNA",
-          "normalizedName": "BARIS TUNA",
-          "category": null,
-          "role": null,
-          "jobTitle": "113826/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 5
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "113826/2025",
-            "status": "SAĞLIĞA SEVK EDİLDİ",
-            "expectedDate": "2025-12-21",
-            "contactPerson": "YEMEKHANECİ SEDAT"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
-          "baseKey": "BARIS TUNA",
-          "fullName": "BARIŞ TUNA",
-          "normalizedName": "BARIS TUNA",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "113826/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 5
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "113826/2025",
-            "status": "SAĞLIĞA SEVK EDİLDİ",
-            "expectedDate": "2025-12-21",
-            "contactPerson": "YEMEKHANECİ SEDAT"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-19T07:23:54.173Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:23:54.173Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
