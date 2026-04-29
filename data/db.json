@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-29T14:39:59.571Z"
+    "lastUpdated": "2026-04-29T14:40:07.262Z"
   },
   "taxonomy": {
     "categories": [
@@ -6492,12 +6492,12 @@
       "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
       "applicationNo": "128485",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "NEŞAT",
       "notes": "",
       "createdAt": "2026-04-27T12:13:35.037Z",
-      "updatedAt": "2026-04-27T12:13:35.037Z"
+      "updatedAt": "2026-04-29T14:40:07.262Z"
     },
     {
       "id": "cd636172-0216-4d42-842b-33667dc25809",
@@ -8073,6 +8073,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "bc58ffef-0833-4642-a02c-7bf5e3ecb986",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
+      "details": {
+        "before": {
+          "id": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
+          "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
+          "applicationNo": "128485",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-27T12:13:35.037Z",
+          "updatedAt": "2026-04-27T12:13:35.037Z"
+        },
+        "after": {
+          "id": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
+          "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
+          "applicationNo": "128485",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-27T12:13:35.037Z",
+          "updatedAt": "2026-04-29T14:40:07.262Z"
+        }
+      },
+      "timestamp": "2026-04-29T14:40:07.262Z",
+      "adminSession": "a258abe3-aa24-4fd5-9502-c77e3cf97139"
+    },
     {
       "id": "0d614026-10d6-410c-ac9d-440c5f5a6e22",
       "action": "UPDATE",
@@ -41729,54 +41763,6 @@
         }
       },
       "timestamp": "2026-01-19T07:22:46.462Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "3ba5761b-7f3c-4bcb-b566-fb793e73d451",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "db910679-62cf-491d-af0b-6673313a6ca2",
-      "details": {
-        "before": {
-          "id": "db910679-62cf-491d-af0b-6673313a6ca2",
-          "fullName": "HALİL KAYA",
-          "normalizedName": "HALIL KAYA",
-          "baseKey": "HALIL KAYA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113790/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 4
-          },
-          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
-          "updatedAt": "2026-01-17T11:20:47.466Z"
-        },
-        "after": {
-          "id": "db910679-62cf-491d-af0b-6673313a6ca2",
-          "fullName": "HALİL KAYA",
-          "normalizedName": "HALIL KAYA",
-          "baseKey": "HALIL KAYA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113790/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 4
-          },
-          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
-          "updatedAt": "2026-01-19T07:22:31.633Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:22:31.633Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
