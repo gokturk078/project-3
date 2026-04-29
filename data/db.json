@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-28T08:04:28.694Z"
+    "lastUpdated": "2026-04-29T12:15:10.901Z"
   },
   "taxonomy": {
     "categories": [
@@ -5603,7 +5603,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5612,7 +5612,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-04T11:49:17.751Z",
-      "updatedAt": "2026-03-04T11:49:17.751Z"
+      "updatedAt": "2026-04-29T12:15:10.900Z",
+      "jobTitle": null
     },
     {
       "personId": "8047025a-d82a-4851-b841-e58e01d2c17d",
@@ -7976,6 +7977,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "aa2595ac-e266-4163-8ead-27125aaa4a95",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "543a7f1f-d313-406c-8b21-922114f26f7c",
+      "details": {
+        "before": {
+          "personId": "543a7f1f-d313-406c-8b21-922114f26f7c",
+          "baseKey": "MUSTAFA İŞÇİOĞLU",
+          "fullName": "MUSTAFA İŞÇİOĞLU",
+          "normalizedName": "MUSTAFA İŞÇİOĞLU",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T11:49:17.751Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T11:49:17.751Z",
+          "updatedAt": "2026-03-04T11:49:17.751Z"
+        },
+        "after": {
+          "personId": "543a7f1f-d313-406c-8b21-922114f26f7c",
+          "baseKey": "MUSTAFA İŞÇİOĞLU",
+          "fullName": "MUSTAFA İŞÇİOĞLU",
+          "normalizedName": "MUSTAFA İŞÇİOĞLU",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T11:49:17.751Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T11:49:17.751Z",
+          "updatedAt": "2026-04-29T12:15:10.900Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-04-29T12:15:10.901Z",
+      "adminSession": "a258abe3-aa24-4fd5-9502-c77e3cf97139"
+    },
     {
       "id": "357ea096-bcf3-4433-9212-b3fe9f7255eb",
       "action": "UPDATE",
@@ -41658,28 +41710,6 @@
         }
       },
       "timestamp": "2026-01-19T07:11:52.399Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "48d98022-fd46-409f-8f6c-c0f6c3b3b741",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-      "details": {
-        "tracking": {
-          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
-          "applicationNo": "119236",
-          "profession": "İinşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": null,
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:02.995Z",
-          "updatedAt": "2026-01-19T07:11:02.995Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:11:02.995Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
