@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-29T12:15:10.901Z"
+    "lastUpdated": "2026-04-29T12:15:26.188Z"
   },
   "taxonomy": {
     "categories": [
@@ -6368,18 +6368,6 @@
       "updatedAt": "2026-04-15T12:52:14.506Z"
     },
     {
-      "id": "3786cd42-79c1-4840-914b-573158d1c7f7",
-      "personId": "c15075db-3630-43e7-92ab-0d0e184d3019",
-      "applicationNo": "156318",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-03-26T06:53:47.245Z",
-      "updatedAt": "2026-04-25T09:48:02.672Z"
-    },
-    {
       "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
       "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
       "applicationNo": "155849",
@@ -7977,6 +7965,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "aaa6874a-20c9-4e4a-9bff-8fa5b9a6179a",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "3786cd42-79c1-4840-914b-573158d1c7f7",
+      "details": {
+        "tracking": {
+          "id": "3786cd42-79c1-4840-914b-573158d1c7f7",
+          "personId": "c15075db-3630-43e7-92ab-0d0e184d3019",
+          "applicationNo": "156318",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:53:47.245Z",
+          "updatedAt": "2026-04-25T09:48:02.672Z"
+        }
+      },
+      "timestamp": "2026-04-29T12:15:26.188Z",
+      "adminSession": "a258abe3-aa24-4fd5-9502-c77e3cf97139"
+    },
     {
       "id": "aa2595ac-e266-4163-8ead-27125aaa4a95",
       "action": "UPDATE",
@@ -41688,28 +41698,6 @@
         }
       },
       "timestamp": "2026-01-19T07:12:54.973Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "d736b962-4e63-47eb-8edb-715dd9bb2458",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "254d5842-78ef-4dab-8957-53670257eaa0",
-      "details": {
-        "tracking": {
-          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "applicationNo": "119227",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": null,
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:52.399Z",
-          "updatedAt": "2026-01-19T07:11:52.399Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:11:52.399Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
