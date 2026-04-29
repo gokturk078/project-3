@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-29T14:55:11.636Z"
+    "lastUpdated": "2026-04-29T14:55:19.195Z"
   },
   "taxonomy": {
     "categories": [
@@ -6432,12 +6432,12 @@
       "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": null,
+      "status": "AKİT YÜKLENECEK",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-20T14:38:36.983Z",
-      "updatedAt": "2026-04-20T14:38:36.983Z"
+      "updatedAt": "2026-04-29T14:55:19.195Z"
     },
     {
       "id": "874f98d8-2e08-4f8d-a543-44dcf962101e",
@@ -8061,6 +8061,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "c547f50b-3fbe-4774-8c8a-fd28d6e23ce5",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "861ead1b-7a7a-4706-8d58-8e02112373c7",
+      "details": {
+        "before": {
+          "id": "861ead1b-7a7a-4706-8d58-8e02112373c7",
+          "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-20T14:38:36.983Z",
+          "updatedAt": "2026-04-20T14:38:36.983Z"
+        },
+        "after": {
+          "id": "861ead1b-7a7a-4706-8d58-8e02112373c7",
+          "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-20T14:38:36.983Z",
+          "updatedAt": "2026-04-29T14:55:19.195Z"
+        }
+      },
+      "timestamp": "2026-04-29T14:55:19.195Z",
+      "adminSession": "a258abe3-aa24-4fd5-9502-c77e3cf97139"
+    },
     {
       "id": "e188e0a6-a330-4b6e-9528-163af08914ed",
       "action": "UPDATE",
@@ -41655,36 +41689,6 @@
         }
       },
       "timestamp": "2026-01-19T09:16:48.860Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "acbdba7e-4cfe-4d3d-8451-f30db162612e",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-      "details": {
-        "person": {
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "baseKey": "KÜBRA NUR TOSUN",
-          "fullName": "KÜBRA NUR TOSUN",
-          "normalizedName": "KÜBRA NUR TOSUN",
-          "category": "REPSAM",
-          "role": "MİMAR",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T09:15:37.660Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T09:15:37.660Z",
-          "updatedAt": "2026-01-19T09:15:37.660Z"
-        }
-      },
-      "timestamp": "2026-01-19T09:15:37.661Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
