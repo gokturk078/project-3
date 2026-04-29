@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-29T14:53:59.957Z"
+    "lastUpdated": "2026-04-29T14:54:25.529Z"
   },
   "taxonomy": {
     "categories": [
@@ -6360,12 +6360,12 @@
       "personId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
       "applicationNo": "123278/2026",
       "profession": "inşaat işçisi",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "2026-03-04",
       "contactPerson": "NEŞAT",
       "notes": "",
       "createdAt": "2026-03-04T11:51:28.564Z",
-      "updatedAt": "2026-04-15T12:52:14.506Z"
+      "updatedAt": "2026-04-29T14:54:25.529Z"
     },
     {
       "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
@@ -8061,6 +8061,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "4e95d093-ae89-4c2e-9b67-23b8f5d6e699",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "f586a107-b058-4910-9c2c-7db060b16d7a",
+      "details": {
+        "before": {
+          "id": "f586a107-b058-4910-9c2c-7db060b16d7a",
+          "personId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
+          "applicationNo": "123278/2026",
+          "profession": "inşaat işçisi",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "2026-03-04",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-03-04T11:51:28.564Z",
+          "updatedAt": "2026-04-15T12:52:14.506Z"
+        },
+        "after": {
+          "id": "f586a107-b058-4910-9c2c-7db060b16d7a",
+          "personId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
+          "applicationNo": "123278/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "2026-03-04",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-03-04T11:51:28.564Z",
+          "updatedAt": "2026-04-29T14:54:25.529Z"
+        }
+      },
+      "timestamp": "2026-04-29T14:54:25.529Z",
+      "adminSession": "a258abe3-aa24-4fd5-9502-c77e3cf97139"
+    },
     {
       "id": "eb2b828e-5699-440d-8ea2-817c7cf8d4f1",
       "action": "DELETE",
@@ -41715,35 +41749,6 @@
         }
       },
       "timestamp": "2026-01-19T07:23:19.939Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "bf3219f4-0ef7-454b-b6ae-ee2f3b633e8c",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "d6778e87-2cb9-44dd-b3de-37bee423d628",
-      "details": {
-        "tracking": {
-          "id": "d6778e87-2cb9-44dd-b3de-37bee423d628",
-          "fullName": "BARIŞ TUNA",
-          "normalizedName": "BARIS TUNA",
-          "baseKey": "BARIS TUNA",
-          "applicationNo": "inşaat işçisi",
-          "profession": "113826/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2025-12-21",
-          "contactPerson": "YEMEKHANECİ SEDAT",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 5
-          },
-          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
-          "updatedAt": "2026-01-17T08:19:44.652Z"
-        }
-      },
-      "timestamp": "2026-01-19T07:22:50.358Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
