@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-29T14:55:19.195Z"
+    "lastUpdated": "2026-04-30T05:21:41.129Z"
   },
   "taxonomy": {
     "categories": [
@@ -6452,18 +6452,6 @@
       "updatedAt": "2026-04-25T08:02:46.069Z"
     },
     {
-      "id": "ab64c055-2f95-469d-bbfb-08a5cd74e346",
-      "personId": "ad496311-eaa9-48be-959f-9f8bc7d956ce",
-      "applicationNo": "127779/2026",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": "",
-      "contactPerson": "NEŞAT",
-      "notes": "",
-      "createdAt": "2026-04-25T09:52:05.061Z",
-      "updatedAt": "2026-04-29T14:39:46.450Z"
-    },
-    {
       "id": "036625f4-292b-46de-8221-0a517c76a96a",
       "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
       "applicationNo": "128553/2026",
@@ -8061,6 +8049,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "e3f8ac72-3fb4-4013-8959-30acac47dbdd",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "ab64c055-2f95-469d-bbfb-08a5cd74e346",
+      "details": {
+        "tracking": {
+          "id": "ab64c055-2f95-469d-bbfb-08a5cd74e346",
+          "personId": "ad496311-eaa9-48be-959f-9f8bc7d956ce",
+          "applicationNo": "127779/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-25T09:52:05.061Z",
+          "updatedAt": "2026-04-29T14:39:46.450Z"
+        }
+      },
+      "timestamp": "2026-04-30T05:21:41.129Z",
+      "adminSession": "fdd75b96-42d0-4146-9d49-8737e0c1a17a"
+    },
     {
       "id": "c547f50b-3fbe-4774-8c8a-fd28d6e23ce5",
       "action": "UPDATE",
@@ -41667,28 +41677,6 @@
         }
       },
       "timestamp": "2026-01-19T09:17:39.679Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "46bc9c36-cd58-4bd2-a79a-ccfd71379cbf",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
-      "details": {
-        "tracking": {
-          "id": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
-          "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
-          "applicationNo": "119261",
-          "profession": "MİMAR",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:16:48.860Z",
-          "updatedAt": "2026-01-19T09:16:48.860Z"
-        }
-      },
-      "timestamp": "2026-01-19T09:16:48.860Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
