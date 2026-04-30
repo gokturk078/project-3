@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-30T05:22:48.169Z"
+    "lastUpdated": "2026-04-30T06:52:58.785Z"
   },
   "taxonomy": {
     "categories": [
@@ -5941,6 +5941,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-27T12:12:58.804Z",
       "updatedAt": "2026-04-27T12:12:58.804Z"
+    },
+    {
+      "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+      "baseKey": "MEHMET KOLAKAN",
+      "fullName": "MEHMET KOLAKAN",
+      "normalizedName": "MEHMET KOLAKAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-30T06:52:58.784Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-30T06:52:58.784Z",
+      "updatedAt": "2026-04-30T06:52:58.784Z"
     }
   ],
   "leaves": [
@@ -8029,6 +8049,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "a0d38d45-68be-400e-9fd5-3c51dd25a143",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+      "details": {
+        "person": {
+          "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+          "baseKey": "MEHMET KOLAKAN",
+          "fullName": "MEHMET KOLAKAN",
+          "normalizedName": "MEHMET KOLAKAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-30T06:52:58.784Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-30T06:52:58.784Z",
+          "updatedAt": "2026-04-30T06:52:58.784Z"
+        }
+      },
+      "timestamp": "2026-04-30T06:52:58.785Z",
+      "adminSession": "fdd75b96-42d0-4146-9d49-8737e0c1a17a"
+    },
     {
       "id": "7d1fda6e-805f-4270-a6e7-3741ce02bc66",
       "action": "DELETE",
@@ -41631,40 +41681,6 @@
         }
       },
       "timestamp": "2026-01-19T09:18:12.147Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "0917678b-dfe6-443e-b905-dd990de574ef",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "4c794d61-8133-4cc3-a210-c303d1e7b07d",
-      "details": {
-        "before": {
-          "id": "4c794d61-8133-4cc3-a210-c303d1e7b07d",
-          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
-          "applicationNo": "119219/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": null,
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:19:23.893Z",
-          "updatedAt": "2026-01-19T07:19:23.893Z"
-        },
-        "after": {
-          "id": "4c794d61-8133-4cc3-a210-c303d1e7b07d",
-          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
-          "applicationNo": "119219/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:19:23.893Z",
-          "updatedAt": "2026-01-19T09:17:58.995Z"
-        }
-      },
-      "timestamp": "2026-01-19T09:17:58.995Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
