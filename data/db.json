@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-30T06:53:19.515Z"
+    "lastUpdated": "2026-04-30T06:54:04.139Z"
   },
   "taxonomy": {
     "categories": [
@@ -6602,6 +6602,18 @@
       "notes": "",
       "createdAt": "2026-04-29T14:38:34.633Z",
       "updatedAt": "2026-04-29T14:38:34.633Z"
+    },
+    {
+      "id": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+      "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+      "applicationNo": "128627/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "MAHSUM",
+      "notes": "",
+      "createdAt": "2026-04-30T06:54:04.139Z",
+      "updatedAt": "2026-04-30T06:54:04.139Z"
     }
   ],
   "departures": [
@@ -8069,6 +8081,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ec5c4c7f-5fac-4287-8d5c-b89c172556c6",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+      "details": {
+        "tracking": {
+          "id": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+          "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+          "applicationNo": "128627/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "MAHSUM",
+          "notes": "",
+          "createdAt": "2026-04-30T06:54:04.139Z",
+          "updatedAt": "2026-04-30T06:54:04.139Z"
+        }
+      },
+      "timestamp": "2026-04-30T06:54:04.139Z",
+      "adminSession": "fdd75b96-42d0-4146-9d49-8737e0c1a17a"
+    },
     {
       "id": "b707e117-ca68-452e-84b0-1cf5a1878072",
       "action": "CREATE",
@@ -41663,40 +41697,6 @@
         }
       },
       "timestamp": "2026-01-19T09:18:35.526Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "e9aad75d-e810-440f-a4e4-4b303ebc4862",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-      "details": {
-        "before": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": null,
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-01-19T07:17:28.400Z"
-        },
-        "after": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-01-19T09:18:25.070Z"
-        }
-      },
-      "timestamp": "2026-01-19T09:18:25.070Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
