@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-30T06:52:58.785Z"
+    "lastUpdated": "2026-04-30T06:53:19.515Z"
   },
   "taxonomy": {
     "categories": [
@@ -5961,6 +5961,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-30T06:52:58.784Z",
       "updatedAt": "2026-04-30T06:52:58.784Z"
+    },
+    {
+      "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+      "baseKey": "ALİ ÇELİK",
+      "fullName": "ALİ ÇELİK",
+      "normalizedName": "ALİ ÇELİK",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-04-30T06:53:19.515Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-04-30T06:53:19.515Z",
+      "updatedAt": "2026-04-30T06:53:19.515Z"
     }
   ],
   "leaves": [
@@ -8049,6 +8069,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "b707e117-ca68-452e-84b0-1cf5a1878072",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+      "details": {
+        "person": {
+          "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+          "baseKey": "ALİ ÇELİK",
+          "fullName": "ALİ ÇELİK",
+          "normalizedName": "ALİ ÇELİK",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-30T06:53:19.515Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-30T06:53:19.515Z",
+          "updatedAt": "2026-04-30T06:53:19.515Z"
+        }
+      },
+      "timestamp": "2026-04-30T06:53:19.515Z",
+      "adminSession": "fdd75b96-42d0-4146-9d49-8737e0c1a17a"
+    },
     {
       "id": "a0d38d45-68be-400e-9fd5-3c51dd25a143",
       "action": "CREATE",
@@ -41647,40 +41697,6 @@
         }
       },
       "timestamp": "2026-01-19T09:18:25.070Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "e400642f-cf2b-45cc-86b7-d638aa73685d",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "f6a2cf39-162f-45de-b076-e80afac149a6",
-      "details": {
-        "before": {
-          "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
-          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
-          "applicationNo": "119220/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": null,
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:18:39.785Z",
-          "updatedAt": "2026-01-19T07:18:39.785Z"
-        },
-        "after": {
-          "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
-          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
-          "applicationNo": "119220/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:18:39.785Z",
-          "updatedAt": "2026-01-19T09:18:12.147Z"
-        }
-      },
-      "timestamp": "2026-01-19T09:18:12.147Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
