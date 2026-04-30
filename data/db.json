@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-30T05:21:41.129Z"
+    "lastUpdated": "2026-04-30T05:22:48.169Z"
   },
   "taxonomy": {
     "categories": [
@@ -5883,26 +5883,6 @@
       "updatedAt": "2026-04-25T09:41:29.538Z"
     },
     {
-      "personId": "ad496311-eaa9-48be-959f-9f8bc7d956ce",
-      "baseKey": "AHMET DÖNMEZ",
-      "fullName": "AHMET DÖNMEZ",
-      "normalizedName": "AHMET DÖNMEZ",
-      "category": "NEŞAT",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-25T09:51:21.053Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-25T09:51:21.053Z",
-      "updatedAt": "2026-04-25T09:51:21.053Z"
-    },
-    {
       "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
       "baseKey": "BEKİR ORHAN",
       "fullName": "BEKİR ORHAN",
@@ -8049,6 +8029,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "7d1fda6e-805f-4270-a6e7-3741ce02bc66",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "ad496311-eaa9-48be-959f-9f8bc7d956ce",
+      "details": {
+        "person": {
+          "personId": "ad496311-eaa9-48be-959f-9f8bc7d956ce",
+          "baseKey": "AHMET DÖNMEZ",
+          "fullName": "AHMET DÖNMEZ",
+          "normalizedName": "AHMET DÖNMEZ",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T09:51:21.053Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T09:51:21.053Z",
+          "updatedAt": "2026-04-25T09:51:21.053Z"
+        }
+      },
+      "timestamp": "2026-04-30T05:22:48.169Z",
+      "adminSession": "fdd75b96-42d0-4146-9d49-8737e0c1a17a"
+    },
     {
       "id": "e3f8ac72-3fb4-4013-8959-30acac47dbdd",
       "action": "DELETE",
@@ -41655,28 +41665,6 @@
         }
       },
       "timestamp": "2026-01-19T09:17:58.995Z",
-      "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
-    },
-    {
-      "id": "e368666b-f313-4fed-ae80-d2a420986167",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-      "details": {
-        "tracking": {
-          "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "applicationNo": "119258",
-          "profession": "MİMAR",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:17:39.679Z",
-          "updatedAt": "2026-01-19T09:17:39.679Z"
-        }
-      },
-      "timestamp": "2026-01-19T09:17:39.679Z",
       "adminSession": "7b4d2acb-9a29-4597-9d5b-c660abfebb06"
     }
   ]
