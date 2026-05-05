@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-05T05:53:07.255Z"
+    "lastUpdated": "2026-05-05T05:53:21.340Z"
   },
   "taxonomy": {
     "categories": [
@@ -6632,12 +6632,12 @@
       "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
       "applicationNo": "",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-29T14:38:13.969Z",
-      "updatedAt": "2026-04-29T14:38:13.969Z"
+      "updatedAt": "2026-05-05T05:53:21.340Z"
     },
     {
       "id": "5142a293-f615-48b4-8a7c-d4de74987212",
@@ -8141,6 +8141,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "295407f0-6ad1-46b2-bf16-47a8069ef269",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "97210684-0ee6-471c-a493-8fb1c7d2ba32",
+      "details": {
+        "before": {
+          "id": "97210684-0ee6-471c-a493-8fb1c7d2ba32",
+          "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:38:13.969Z",
+          "updatedAt": "2026-04-29T14:38:13.969Z"
+        },
+        "after": {
+          "id": "97210684-0ee6-471c-a493-8fb1c7d2ba32",
+          "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:38:13.969Z",
+          "updatedAt": "2026-05-05T05:53:21.340Z"
+        }
+      },
+      "timestamp": "2026-05-05T05:53:21.340Z",
+      "adminSession": "95eb4ad2-e869-43b0-9d0c-c717c5fd771a"
+    },
     {
       "id": "b84a1d45-c2ea-40bb-a1ab-6b6c9fdd032c",
       "action": "UPDATE",
@@ -41705,40 +41739,6 @@
         }
       },
       "timestamp": "2026-01-21T08:43:16.299Z",
-      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
-    },
-    {
-      "id": "9add840d-131a-4e86-9283-42138cbab0f9",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "d5b853db-6abb-4dd3-8a58-04983c4cc519",
-      "details": {
-        "before": {
-          "id": "d5b853db-6abb-4dd3-8a58-04983c4cc519",
-          "personId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
-          "applicationNo": "118864/2026",
-          "profession": "İSKELE",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:55:12.997Z",
-          "updatedAt": "2026-01-14T07:55:12.997Z"
-        },
-        "after": {
-          "id": "d5b853db-6abb-4dd3-8a58-04983c4cc519",
-          "personId": "f02b2855-ebae-4896-aa9a-3357b3dcd3d4",
-          "applicationNo": "118864/2026",
-          "profession": "İSKELE",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:55:12.997Z",
-          "updatedAt": "2026-01-21T06:41:52.672Z"
-        }
-      },
-      "timestamp": "2026-01-21T06:41:52.672Z",
       "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
     }
   ]
