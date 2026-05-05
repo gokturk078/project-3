@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-05T05:53:21.340Z"
+    "lastUpdated": "2026-05-05T05:53:30.550Z"
   },
   "taxonomy": {
     "categories": [
@@ -6644,12 +6644,12 @@
       "personId": "1ed1536d-5f88-4c52-9ec3-f6bb4b904baf",
       "applicationNo": "",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-29T14:38:34.633Z",
-      "updatedAt": "2026-04-29T14:38:34.633Z"
+      "updatedAt": "2026-05-05T05:53:30.550Z"
     },
     {
       "id": "1762fd98-7bd4-4665-b04d-31f85752be4f",
@@ -8141,6 +8141,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "7a558462-c38c-4b38-9667-c0b7b82322ef",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "5142a293-f615-48b4-8a7c-d4de74987212",
+      "details": {
+        "before": {
+          "id": "5142a293-f615-48b4-8a7c-d4de74987212",
+          "personId": "1ed1536d-5f88-4c52-9ec3-f6bb4b904baf",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:38:34.633Z",
+          "updatedAt": "2026-04-29T14:38:34.633Z"
+        },
+        "after": {
+          "id": "5142a293-f615-48b4-8a7c-d4de74987212",
+          "personId": "1ed1536d-5f88-4c52-9ec3-f6bb4b904baf",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:38:34.633Z",
+          "updatedAt": "2026-05-05T05:53:30.550Z"
+        }
+      },
+      "timestamp": "2026-05-05T05:53:30.550Z",
+      "adminSession": "95eb4ad2-e869-43b0-9d0c-c717c5fd771a"
+    },
     {
       "id": "295407f0-6ad1-46b2-bf16-47a8069ef269",
       "action": "UPDATE",
@@ -41691,54 +41725,6 @@
         }
       },
       "timestamp": "2026-01-21T08:43:45.256Z",
-      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
-    },
-    {
-      "id": "135aac75-76cc-4706-861f-1816d5f80886",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-      "details": {
-        "before": {
-          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "baseKey": "BENAN UYUR",
-          "applicationNo": "BÜRO MEMURU",
-          "profession": "117543/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 24
-          },
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-          "updatedAt": "2026-01-17T08:21:18.947Z"
-        },
-        "after": {
-          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "baseKey": "BENAN UYUR",
-          "applicationNo": "BÜRO MEMURU",
-          "profession": "117543/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 24
-          },
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-          "updatedAt": "2026-01-21T08:43:16.299Z"
-        }
-      },
-      "timestamp": "2026-01-21T08:43:16.299Z",
       "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
     }
   ]
