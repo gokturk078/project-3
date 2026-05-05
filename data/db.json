@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-05T05:51:02.721Z"
+    "lastUpdated": "2026-05-05T05:51:09.663Z"
   },
   "taxonomy": {
     "categories": [
@@ -6460,18 +6460,6 @@
       "updatedAt": "2026-05-05T05:51:02.721Z"
     },
     {
-      "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
-      "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
-      "applicationNo": "126220/2026",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "ELEKTRİK ERHAN FORMEN",
-      "notes": "",
-      "createdAt": "2026-04-03T10:34:16.081Z",
-      "updatedAt": "2026-04-27T12:43:20.703Z"
-    },
-    {
       "id": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
       "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
       "applicationNo": "126778/2026",
@@ -8153,6 +8141,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "aaedd552-4f25-4d65-ad42-3340a93924d4",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
+      "details": {
+        "tracking": {
+          "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
+          "personId": "122d315b-40b7-4929-9ef9-0f6b671ec838",
+          "applicationNo": "126220/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "ELEKTRİK ERHAN FORMEN",
+          "notes": "",
+          "createdAt": "2026-04-03T10:34:16.081Z",
+          "updatedAt": "2026-04-27T12:43:20.703Z"
+        }
+      },
+      "timestamp": "2026-05-05T05:51:09.663Z",
+      "adminSession": "95eb4ad2-e869-43b0-9d0c-c717c5fd771a"
+    },
     {
       "id": "a6ec48c8-66a8-4b7b-aec1-5fbc9dd5ffb3",
       "action": "UPDATE",
@@ -41730,40 +41740,6 @@
       },
       "timestamp": "2026-01-20T06:08:41.225Z",
       "adminSession": "33d350e0-7b33-4946-b7f0-6eb9fb72a954"
-    },
-    {
-      "id": "d030ac09-b843-4645-b2dc-d11566ca04e8",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-      "details": {
-        "before": {
-          "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "applicationNo": "119258",
-          "profession": "MİMAR",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:17:39.679Z",
-          "updatedAt": "2026-01-19T09:17:39.679Z"
-        },
-        "after": {
-          "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "applicationNo": "119258/2026",
-          "profession": "MİMAR",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:17:39.679Z",
-          "updatedAt": "2026-01-19T15:57:11.223Z"
-        }
-      },
-      "timestamp": "2026-01-19T15:57:11.223Z",
-      "adminSession": "6ce8706d-6fea-4bbb-a526-5f15297b0894"
     }
   ]
 }
