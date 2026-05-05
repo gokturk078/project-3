@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-04-30T13:32:56.827Z"
+    "lastUpdated": "2026-05-05T05:51:02.721Z"
   },
   "taxonomy": {
     "categories": [
@@ -6452,12 +6452,12 @@
       "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
       "applicationNo": "155849",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENECEK",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-03-26T06:54:57.629Z",
-      "updatedAt": "2026-04-01T07:10:50.598Z"
+      "updatedAt": "2026-05-05T05:51:02.721Z"
     },
     {
       "id": "fd578dc5-ba03-4110-a2de-cf87567c8ccd",
@@ -8153,6 +8153,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "a6ec48c8-66a8-4b7b-aec1-5fbc9dd5ffb3",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
+      "details": {
+        "before": {
+          "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
+          "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
+          "applicationNo": "155849",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:54:57.629Z",
+          "updatedAt": "2026-04-01T07:10:50.598Z"
+        },
+        "after": {
+          "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
+          "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
+          "applicationNo": "155849",
+          "profession": "",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-03-26T06:54:57.629Z",
+          "updatedAt": "2026-05-05T05:51:02.721Z"
+        }
+      },
+      "timestamp": "2026-05-05T05:51:02.721Z",
+      "adminSession": "95eb4ad2-e869-43b0-9d0c-c717c5fd771a"
+    },
     {
       "id": "d68caf28-59ff-4168-b56a-5e6e3c73e049",
       "action": "UPDATE",
@@ -41729,40 +41763,6 @@
         }
       },
       "timestamp": "2026-01-19T15:57:11.223Z",
-      "adminSession": "6ce8706d-6fea-4bbb-a526-5f15297b0894"
-    },
-    {
-      "id": "cdda7dd8-61d5-4c6d-abda-42f89dd27d0e",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
-      "details": {
-        "before": {
-          "id": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
-          "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
-          "applicationNo": "119261",
-          "profession": "MİMAR",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:16:48.860Z",
-          "updatedAt": "2026-01-19T09:16:48.860Z"
-        },
-        "after": {
-          "id": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
-          "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
-          "applicationNo": "119261/2026",
-          "profession": "MİMAR",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:16:48.860Z",
-          "updatedAt": "2026-01-19T15:56:59.600Z"
-        }
-      },
-      "timestamp": "2026-01-19T15:56:59.601Z",
       "adminSession": "6ce8706d-6fea-4bbb-a526-5f15297b0894"
     }
   ]
