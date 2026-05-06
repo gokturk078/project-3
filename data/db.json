@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:24:57.335Z"
+    "lastUpdated": "2026-05-06T06:25:17.298Z"
   },
   "taxonomy": {
     "categories": [
@@ -6061,6 +6061,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:24:57.335Z",
       "updatedAt": "2026-05-06T06:24:57.335Z"
+    },
+    {
+      "personId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
+      "baseKey": "DURMUŞ AŞÇI",
+      "fullName": "DURMUŞ AŞÇI",
+      "normalizedName": "DURMUŞ AŞÇI",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T06:25:17.298Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T06:25:17.298Z",
+      "updatedAt": "2026-05-06T06:25:17.298Z"
     }
   ],
   "leaves": [
@@ -8161,6 +8181,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "9f3d6317-2fe7-4580-8b5b-6058e384d02a",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
+      "details": {
+        "person": {
+          "personId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
+          "baseKey": "DURMUŞ AŞÇI",
+          "fullName": "DURMUŞ AŞÇI",
+          "normalizedName": "DURMUŞ AŞÇI",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:25:17.298Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:25:17.298Z",
+          "updatedAt": "2026-05-06T06:25:17.298Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:25:17.298Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "cad610a7-798e-4993-bbf1-c48b496a43a8",
       "action": "CREATE",
@@ -41665,54 +41715,6 @@
         }
       },
       "timestamp": "2026-01-21T08:44:50.278Z",
-      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
-    },
-    {
-      "id": "c891f660-4581-4403-b953-d42d2361e87c",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "b816461c-3d15-4e63-a725-ec59255e8db2",
-      "details": {
-        "before": {
-          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
-          "fullName": "CEMALETTİN KAPLAN",
-          "normalizedName": "CEMALETTIN KAPLAN",
-          "baseKey": "CEMALETTIN KAPLAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115668/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 12
-          },
-          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-          "updatedAt": "2026-01-17T08:20:00.121Z"
-        },
-        "after": {
-          "id": "b816461c-3d15-4e63-a725-ec59255e8db2",
-          "fullName": "CEMALETTİN KAPLAN",
-          "normalizedName": "CEMALETTIN KAPLAN",
-          "baseKey": "CEMALETTIN KAPLAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115668/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 12
-          },
-          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-          "updatedAt": "2026-01-21T08:44:27.998Z"
-        }
-      },
-      "timestamp": "2026-01-21T08:44:27.998Z",
       "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
     }
   ]
