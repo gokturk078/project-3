@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:31:19.010Z"
+    "lastUpdated": "2026-05-06T06:32:01.203Z"
   },
   "taxonomy": {
     "categories": [
@@ -6918,6 +6918,18 @@
       "notes": "",
       "createdAt": "2026-05-06T06:31:19.010Z",
       "updatedAt": "2026-05-06T06:31:19.010Z"
+    },
+    {
+      "id": "2448c560-784a-4d56-9dee-deb2b60026ff",
+      "personId": "90fec3ab-d8f0-4935-a9e7-d0fa8b8caa9c",
+      "applicationNo": "129246/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "ERCAN İŞLEK",
+      "notes": "",
+      "createdAt": "2026-05-06T06:32:01.203Z",
+      "updatedAt": "2026-05-06T06:32:01.203Z"
     }
   ],
   "departures": [
@@ -8385,6 +8397,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "f13f49fe-6bd4-482e-bbf0-8759d02fe612",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "2448c560-784a-4d56-9dee-deb2b60026ff",
+      "details": {
+        "tracking": {
+          "id": "2448c560-784a-4d56-9dee-deb2b60026ff",
+          "personId": "90fec3ab-d8f0-4935-a9e7-d0fa8b8caa9c",
+          "applicationNo": "129246/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T06:32:01.203Z",
+          "updatedAt": "2026-05-06T06:32:01.203Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:32:01.203Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "2a88a2de-dd1e-42cd-bd31-cfe3bbb3477d",
       "action": "CREATE",
@@ -41768,37 +41802,6 @@
         }
       },
       "timestamp": "2026-01-22T09:37:51.657Z",
-      "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
-    },
-    {
-      "id": "8fa4d131-55fd-4e6a-8f9b-5766f61eb925",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "9beb9492-ffb0-48d8-8551-deb4532ea4d1",
-      "details": {
-        "before": {
-          "id": "9beb9492-ffb0-48d8-8551-deb4532ea4d1",
-          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-          "startDate": "2025-12-13",
-          "endDate": "2026-02-01",
-          "days": 51,
-          "type": "ÜCRETSİZ",
-          "note": "",
-          "createdAt": "2026-01-22T09:08:11.068Z"
-        },
-        "after": {
-          "id": "9beb9492-ffb0-48d8-8551-deb4532ea4d1",
-          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-          "startDate": "2026-01-13",
-          "endDate": "2026-02-01",
-          "days": 20,
-          "type": "ÜCRETSİZ",
-          "note": "",
-          "createdAt": "2026-01-22T09:08:11.068Z",
-          "updatedAt": "2026-01-22T09:31:54.656Z"
-        }
-      },
-      "timestamp": "2026-01-22T09:31:54.656Z",
       "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
     }
   ]
