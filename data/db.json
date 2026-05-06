@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T07:35:32.505Z"
+    "lastUpdated": "2026-05-06T09:46:55.835Z"
   },
   "taxonomy": {
     "categories": [
@@ -6222,6 +6222,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:55:49.683Z",
       "updatedAt": "2026-05-06T06:55:49.683Z"
+    },
+    {
+      "personId": "b57fbb96-469c-430f-8525-e5dc90f75739",
+      "baseKey": "SELAHATTİN SEYMAN",
+      "fullName": "SELAHATTİN SEYMAN",
+      "normalizedName": "SELAHATTİN SEYMAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T09:46:55.835Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T09:46:55.835Z",
+      "updatedAt": "2026-05-06T09:46:55.835Z"
     }
   ],
   "leaves": [
@@ -8430,6 +8450,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8ba1408e-1a4e-485d-8f5d-f9c032e85619",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "b57fbb96-469c-430f-8525-e5dc90f75739",
+      "details": {
+        "person": {
+          "personId": "b57fbb96-469c-430f-8525-e5dc90f75739",
+          "baseKey": "SELAHATTİN SEYMAN",
+          "fullName": "SELAHATTİN SEYMAN",
+          "normalizedName": "SELAHATTİN SEYMAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T09:46:55.835Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T09:46:55.835Z",
+          "updatedAt": "2026-05-06T09:46:55.835Z"
+        }
+      },
+      "timestamp": "2026-05-06T09:46:55.835Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "7baa9cee-37d8-4e30-9ef0-9387a2a64d18",
       "action": "UPDATE",
@@ -41742,36 +41792,6 @@
         }
       },
       "timestamp": "2026-01-23T09:46:24.597Z",
-      "adminSession": "da618ae9-4862-4655-bd4e-aee93ccce0bd"
-    },
-    {
-      "id": "27ebc7bb-e21d-4f0e-918c-09dbcd3671d6",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
-      "details": {
-        "person": {
-          "personId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
-          "baseKey": "İBRAHİM ÇAVUŞLU",
-          "fullName": "İBRAHİM ÇAVUŞLU",
-          "normalizedName": "İBRAHİM ÇAVUŞLU",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-23T09:45:29.049Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-23T09:45:29.049Z",
-          "updatedAt": "2026-01-23T09:45:29.049Z"
-        }
-      },
-      "timestamp": "2026-01-23T09:45:29.049Z",
       "adminSession": "da618ae9-4862-4655-bd4e-aee93ccce0bd"
     }
   ]
