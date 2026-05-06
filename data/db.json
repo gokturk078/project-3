@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:55:49.684Z"
+    "lastUpdated": "2026-05-06T06:56:38.505Z"
   },
   "taxonomy": {
     "categories": [
@@ -6951,6 +6951,18 @@
       "notes": "",
       "createdAt": "2026-05-06T06:32:01.203Z",
       "updatedAt": "2026-05-06T06:32:01.203Z"
+    },
+    {
+      "id": "7e5bccab-5642-489d-9449-98b7e308a38e",
+      "personId": "3c7fd70f-0e29-41ab-a4ec-27834f9c4529",
+      "applicationNo": "129364/2026",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "PROJE MÜDÜRÜ",
+      "notes": "",
+      "createdAt": "2026-05-06T06:56:38.505Z",
+      "updatedAt": "2026-05-06T06:56:38.505Z"
     }
   ],
   "departures": [
@@ -8418,6 +8430,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "3b5776f3-4b47-468d-86d4-1d4444b43043",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "7e5bccab-5642-489d-9449-98b7e308a38e",
+      "details": {
+        "tracking": {
+          "id": "7e5bccab-5642-489d-9449-98b7e308a38e",
+          "personId": "3c7fd70f-0e29-41ab-a4ec-27834f9c4529",
+          "applicationNo": "129364/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "PROJE MÜDÜRÜ",
+          "notes": "",
+          "createdAt": "2026-05-06T06:56:38.505Z",
+          "updatedAt": "2026-05-06T06:56:38.505Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:56:38.505Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "e5449998-825e-4777-ac9e-b18863fbf9b6",
       "action": "CREATE",
@@ -41736,74 +41770,6 @@
         }
       },
       "timestamp": "2026-01-22T12:51:03.823Z",
-      "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
-    },
-    {
-      "id": "2895b0d2-f5e5-48b1-8ec7-c6389a903be6",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-      "details": {
-        "before": {
-          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-          "baseKey": "MEHMET SERIF KORKMAZ",
-          "fullName": "MEHMET ŞERİF KORKMAZ",
-          "normalizedName": "MEHMET SERIF KORKMAZ",
-          "category": null,
-          "role": null,
-          "jobTitle": "117450/2025",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 17
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117450/2025",
-            "status": "SAĞLIĞA SEV EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR( İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-22T11:34:47.399Z"
-        },
-        "after": {
-          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-          "baseKey": "MEHMET SERIF KORKMAZ",
-          "fullName": "MEHMET ŞERİF KORKMAZ",
-          "normalizedName": "MEHMET SERIF KORKMAZ",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "117450/2025",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 17
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117450/2025",
-            "status": "SAĞLIĞA SEV EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR( İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-22T11:36:33.933Z"
-        }
-      },
-      "timestamp": "2026-01-22T11:36:33.933Z",
       "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
     }
   ]
