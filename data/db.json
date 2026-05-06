@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:29:28.214Z"
+    "lastUpdated": "2026-05-06T06:29:59.318Z"
   },
   "taxonomy": {
     "categories": [
@@ -6882,6 +6882,18 @@
       "notes": "",
       "createdAt": "2026-05-06T06:29:28.214Z",
       "updatedAt": "2026-05-06T06:29:28.214Z"
+    },
+    {
+      "id": "6093a189-16e0-4099-8123-cc663a9ed307",
+      "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+      "applicationNo": "129151/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "MURAT ÜYÜR",
+      "notes": "",
+      "createdAt": "2026-05-06T06:29:59.318Z",
+      "updatedAt": "2026-05-06T06:29:59.318Z"
     }
   ],
   "departures": [
@@ -8349,6 +8361,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "2169fc25-b7d5-47e8-8917-eac0c5b28b13",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "6093a189-16e0-4099-8123-cc663a9ed307",
+      "details": {
+        "tracking": {
+          "id": "6093a189-16e0-4099-8123-cc663a9ed307",
+          "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+          "applicationNo": "129151/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-05-06T06:29:59.318Z",
+          "updatedAt": "2026-05-06T06:29:59.318Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:29:59.318Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "0c0a8ebd-c16a-4094-b2c3-e58ff8e829a3",
       "action": "CREATE",
@@ -41747,29 +41781,6 @@
         }
       },
       "timestamp": "2026-01-22T09:06:36.391Z",
-      "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
-    },
-    {
-      "id": "01290918-4d44-4020-a29d-ddb0e9f92620",
-      "action": "DELETE",
-      "entityType": "departure",
-      "entityId": "8e361419-79de-4734-aeff-85e4fa5869c6",
-      "details": {
-        "departure": {
-          "id": "8e361419-79de-4734-aeff-85e4fa5869c6",
-          "personId": null,
-          "fullName": "BURAK ERDEM",
-          "category": "CAPRA",
-          "job": "",
-          "entryDate": "2025-09-12",
-          "exitDate": "2026-01-13",
-          "totalDays": 123,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-16T06:30:30.200Z",
-          "updatedAt": "2026-01-16T06:30:30.200Z"
-        }
-      },
-      "timestamp": "2026-01-22T09:06:13.431Z",
       "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
     }
   ]
