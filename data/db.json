@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:28:53.829Z"
+    "lastUpdated": "2026-05-06T06:29:28.214Z"
   },
   "taxonomy": {
     "categories": [
@@ -6870,6 +6870,18 @@
       "notes": "",
       "createdAt": "2026-05-06T06:28:53.829Z",
       "updatedAt": "2026-05-06T06:28:53.829Z"
+    },
+    {
+      "id": "13ae9ff0-8dfc-4c01-8887-9792077ff8f6",
+      "personId": "ae8c86f5-38c3-4bc3-8646-0b8f814531bb",
+      "applicationNo": "129270/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "ERCAN İŞLEK",
+      "notes": "",
+      "createdAt": "2026-05-06T06:29:28.214Z",
+      "updatedAt": "2026-05-06T06:29:28.214Z"
     }
   ],
   "departures": [
@@ -8337,6 +8349,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "0c0a8ebd-c16a-4094-b2c3-e58ff8e829a3",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "13ae9ff0-8dfc-4c01-8887-9792077ff8f6",
+      "details": {
+        "tracking": {
+          "id": "13ae9ff0-8dfc-4c01-8887-9792077ff8f6",
+          "personId": "ae8c86f5-38c3-4bc3-8646-0b8f814531bb",
+          "applicationNo": "129270/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T06:29:28.214Z",
+          "updatedAt": "2026-05-06T06:29:28.214Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:29:28.214Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "54d1733f-8347-4eda-919e-5a8c3e4b4fb8",
       "action": "CREATE",
@@ -41737,40 +41771,6 @@
       },
       "timestamp": "2026-01-22T09:06:13.431Z",
       "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
-    },
-    {
-      "id": "f7f641de-43e6-496a-acb8-29e9d7745742",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "a9a91dce-b839-46a7-b513-7cf67e14f993",
-      "details": {
-        "before": {
-          "id": "a9a91dce-b839-46a7-b513-7cf67e14f993",
-          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
-          "applicationNo": "118867/2026",
-          "profession": "İSKELE",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:52:24.371Z",
-          "updatedAt": "2026-01-20T06:50:29.615Z"
-        },
-        "after": {
-          "id": "a9a91dce-b839-46a7-b513-7cf67e14f993",
-          "personId": "05ee7f0f-c52c-4bca-9031-c1496ffba827",
-          "applicationNo": "118867/2026",
-          "profession": "İSKELE",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:52:24.371Z",
-          "updatedAt": "2026-01-21T15:31:15.659Z"
-        }
-      },
-      "timestamp": "2026-01-21T15:31:15.659Z",
-      "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
     }
   ]
 }
