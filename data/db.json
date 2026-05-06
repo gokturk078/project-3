@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:29:59.318Z"
+    "lastUpdated": "2026-05-06T06:30:48.023Z"
   },
   "taxonomy": {
     "categories": [
@@ -6894,6 +6894,18 @@
       "notes": "",
       "createdAt": "2026-05-06T06:29:59.318Z",
       "updatedAt": "2026-05-06T06:29:59.318Z"
+    },
+    {
+      "id": "6eeb48cf-47d7-4756-976e-9f4483e96406",
+      "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
+      "applicationNo": "129252/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "ERCAN İŞLEK",
+      "notes": "",
+      "createdAt": "2026-05-06T06:30:48.022Z",
+      "updatedAt": "2026-05-06T06:30:48.022Z"
     }
   ],
   "departures": [
@@ -8361,6 +8373,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "5f6d1bae-01a9-4ec7-be14-7b4e57d7fb84",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "6eeb48cf-47d7-4756-976e-9f4483e96406",
+      "details": {
+        "tracking": {
+          "id": "6eeb48cf-47d7-4756-976e-9f4483e96406",
+          "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
+          "applicationNo": "129252/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T06:30:48.022Z",
+          "updatedAt": "2026-05-06T06:30:48.022Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:30:48.023Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "2169fc25-b7d5-47e8-8917-eac0c5b28b13",
       "action": "CREATE",
@@ -41751,36 +41785,6 @@
         }
       },
       "timestamp": "2026-01-22T09:08:11.069Z",
-      "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
-    },
-    {
-      "id": "55c3fec1-b1a2-498c-9de8-0e251b26420a",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-      "details": {
-        "person": {
-          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-          "baseKey": "BURAK ERDEM",
-          "fullName": "BURAK ERDEM",
-          "normalizedName": "BURAK ERDEM",
-          "category": "CAPRA",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-22T09:06:36.391Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-22T09:06:36.391Z",
-          "updatedAt": "2026-01-22T09:06:36.391Z"
-        }
-      },
-      "timestamp": "2026-01-22T09:06:36.391Z",
       "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
     }
   ]
