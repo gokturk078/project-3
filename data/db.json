@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:25:34.149Z"
+    "lastUpdated": "2026-05-06T06:25:54.080Z"
   },
   "taxonomy": {
     "categories": [
@@ -6101,6 +6101,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:25:34.149Z",
       "updatedAt": "2026-05-06T06:25:34.149Z"
+    },
+    {
+      "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+      "baseKey": "BARAN KÖROĞLU",
+      "fullName": "BARAN KÖROĞLU",
+      "normalizedName": "BARAN KÖROĞLU",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T06:25:54.080Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T06:25:54.080Z",
+      "updatedAt": "2026-05-06T06:25:54.080Z"
     }
   ],
   "leaves": [
@@ -8201,6 +8221,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e29195ee-1c1d-4ec6-9423-4a144e6a931b",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+      "details": {
+        "person": {
+          "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+          "baseKey": "BARAN KÖROĞLU",
+          "fullName": "BARAN KÖROĞLU",
+          "normalizedName": "BARAN KÖROĞLU",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:25:54.080Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:25:54.080Z",
+          "updatedAt": "2026-05-06T06:25:54.080Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:25:54.080Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "e13a3b64-a53b-4e3f-8a28-ce3e74e81fe0",
       "action": "CREATE",
@@ -41694,29 +41744,6 @@
         }
       },
       "timestamp": "2026-01-21T10:56:06.149Z",
-      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
-    },
-    {
-      "id": "fa107dc2-2de7-4e9a-b0fb-9953cda6cfff",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "0a627cad-aea2-44cb-bf4c-40a0c8f4b27b",
-      "details": {
-        "departure": {
-          "id": "0a627cad-aea2-44cb-bf4c-40a0c8f4b27b",
-          "personId": null,
-          "fullName": "ERKAN UZUN",
-          "category": "REPSAM",
-          "job": "",
-          "entryDate": "2025-10-20",
-          "exitDate": "2026-01-21",
-          "totalDays": 93,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-21T10:53:43.666Z",
-          "updatedAt": "2026-01-21T10:53:43.666Z"
-        }
-      },
-      "timestamp": "2026-01-21T10:53:43.666Z",
       "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
     }
   ]
