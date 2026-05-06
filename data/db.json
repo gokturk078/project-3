@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:26:11.780Z"
+    "lastUpdated": "2026-05-06T06:26:30.446Z"
   },
   "taxonomy": {
     "categories": [
@@ -6141,6 +6141,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:26:11.780Z",
       "updatedAt": "2026-05-06T06:26:11.780Z"
+    },
+    {
+      "personId": "d77cea8e-5dbe-4d15-ab40-c6b152e3012c",
+      "baseKey": "YILMAZ UMUT ZENEZ",
+      "fullName": "YILMAZ UMUT ZENEZ",
+      "normalizedName": "YILMAZ UMUT ZENEZ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T06:26:30.446Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T06:26:30.446Z",
+      "updatedAt": "2026-05-06T06:26:30.446Z"
     }
   ],
   "leaves": [
@@ -8241,6 +8261,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8e3dee5a-a2fe-4837-b881-e269ccea7919",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "d77cea8e-5dbe-4d15-ab40-c6b152e3012c",
+      "details": {
+        "person": {
+          "personId": "d77cea8e-5dbe-4d15-ab40-c6b152e3012c",
+          "baseKey": "YILMAZ UMUT ZENEZ",
+          "fullName": "YILMAZ UMUT ZENEZ",
+          "normalizedName": "YILMAZ UMUT ZENEZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:26:30.446Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:26:30.446Z",
+          "updatedAt": "2026-05-06T06:26:30.446Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:26:30.446Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "e68df27f-823d-47f4-a5f9-e9277cb8c0e4",
       "action": "CREATE",
@@ -41716,54 +41766,6 @@
         }
       },
       "timestamp": "2026-01-21T15:26:45.494Z",
-      "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
-    },
-    {
-      "id": "ba2ac461-4aa9-49ed-88f2-bcf073c80a53",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-      "details": {
-        "before": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-10T10:03:01.645Z"
-        },
-        "after": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-21T15:26:36.904Z"
-        }
-      },
-      "timestamp": "2026-01-21T15:26:36.904Z",
       "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
     }
   ]
