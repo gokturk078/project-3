@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:26:49.477Z"
+    "lastUpdated": "2026-05-06T06:27:07.162Z"
   },
   "taxonomy": {
     "categories": [
@@ -6181,6 +6181,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:26:49.477Z",
       "updatedAt": "2026-05-06T06:26:49.477Z"
+    },
+    {
+      "personId": "a96271ca-725d-41fd-8bb8-f8db7ccb14e9",
+      "baseKey": "SELÇUK SARI",
+      "fullName": "SELÇUK SARI",
+      "normalizedName": "SELÇUK SARI",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T06:27:07.162Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T06:27:07.162Z",
+      "updatedAt": "2026-05-06T06:27:07.162Z"
     }
   ],
   "leaves": [
@@ -8281,6 +8301,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "60139d2f-c5f8-4572-ab6e-0ab7f7a3758b",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "a96271ca-725d-41fd-8bb8-f8db7ccb14e9",
+      "details": {
+        "person": {
+          "personId": "a96271ca-725d-41fd-8bb8-f8db7ccb14e9",
+          "baseKey": "SELÇUK SARI",
+          "fullName": "SELÇUK SARI",
+          "normalizedName": "SELÇUK SARI",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:27:07.162Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:27:07.162Z",
+          "updatedAt": "2026-05-06T06:27:07.162Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:27:07.162Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "8fe76f0d-511f-43dc-9fed-2ce5b4d1ab22",
       "action": "CREATE",
@@ -41720,54 +41770,6 @@
         }
       },
       "timestamp": "2026-01-21T15:30:48.485Z",
-      "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
-    },
-    {
-      "id": "23f8531f-a4ab-4c67-84f8-a614969646c1",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-      "details": {
-        "before": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-          "updatedAt": "2026-01-10T10:03:29.003Z"
-        },
-        "after": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-          "updatedAt": "2026-01-21T15:26:52.888Z"
-        }
-      },
-      "timestamp": "2026-01-21T15:26:52.888Z",
       "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
     }
   ]
