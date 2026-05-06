@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:25:54.080Z"
+    "lastUpdated": "2026-05-06T06:26:11.780Z"
   },
   "taxonomy": {
     "categories": [
@@ -6121,6 +6121,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:25:54.080Z",
       "updatedAt": "2026-05-06T06:25:54.080Z"
+    },
+    {
+      "personId": "ae8c86f5-38c3-4bc3-8646-0b8f814531bb",
+      "baseKey": "EROL YILMAZ",
+      "fullName": "EROL YILMAZ",
+      "normalizedName": "EROL YILMAZ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T06:26:11.780Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T06:26:11.780Z",
+      "updatedAt": "2026-05-06T06:26:11.780Z"
     }
   ],
   "leaves": [
@@ -8221,6 +8241,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e68df27f-823d-47f4-a5f9-e9277cb8c0e4",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "ae8c86f5-38c3-4bc3-8646-0b8f814531bb",
+      "details": {
+        "person": {
+          "personId": "ae8c86f5-38c3-4bc3-8646-0b8f814531bb",
+          "baseKey": "EROL YILMAZ",
+          "fullName": "EROL YILMAZ",
+          "normalizedName": "EROL YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:26:11.780Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:26:11.780Z",
+          "updatedAt": "2026-05-06T06:26:11.780Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:26:11.780Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "e29195ee-1c1d-4ec6-9423-4a144e6a931b",
       "action": "CREATE",
@@ -41715,36 +41765,6 @@
       },
       "timestamp": "2026-01-21T15:26:36.904Z",
       "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
-    },
-    {
-      "id": "694ae55c-11c6-480a-82a8-49919148da8c",
-      "action": "DELETE",
-      "entityType": "person",
-      "entityId": "3ca77018-2dc7-4f50-a543-1aa64f8012f4",
-      "details": {
-        "person": {
-          "fullName": "ERKAN UZUN",
-          "normalizedName": "ERKAN UZUN",
-          "baseKey": "ERKAN UZUN",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 17
-          },
-          "mergedFrom": [],
-          "personId": "3ca77018-2dc7-4f50-a543-1aa64f8012f4",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        }
-      },
-      "timestamp": "2026-01-21T10:56:06.149Z",
-      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
     }
   ]
 }
