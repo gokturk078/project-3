@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-05T05:53:43.354Z"
+    "lastUpdated": "2026-05-06T06:24:57.335Z"
   },
   "taxonomy": {
     "categories": [
@@ -6041,6 +6041,26 @@
       "mergedFrom": [],
       "createdAt": "2026-04-30T10:38:15.381Z",
       "updatedAt": "2026-04-30T10:38:15.381Z"
+    },
+    {
+      "personId": "90fec3ab-d8f0-4935-a9e7-d0fa8b8caa9c",
+      "baseKey": "YUSUF ÇELEBİ",
+      "fullName": "YUSUF ÇELEBİ",
+      "normalizedName": "YUSUF ÇELEBİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T06:24:57.335Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T06:24:57.335Z",
+      "updatedAt": "2026-05-06T06:24:57.335Z"
     }
   ],
   "leaves": [
@@ -8141,6 +8161,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "cad610a7-798e-4993-bbf1-c48b496a43a8",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "90fec3ab-d8f0-4935-a9e7-d0fa8b8caa9c",
+      "details": {
+        "person": {
+          "personId": "90fec3ab-d8f0-4935-a9e7-d0fa8b8caa9c",
+          "baseKey": "YUSUF ÇELEBİ",
+          "fullName": "YUSUF ÇELEBİ",
+          "normalizedName": "YUSUF ÇELEBİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:24:57.335Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:24:57.335Z",
+          "updatedAt": "2026-05-06T06:24:57.335Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:24:57.335Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "9f09e1e5-7bf7-4d3f-9354-792956c7a896",
       "action": "UPDATE",
@@ -41663,54 +41713,6 @@
         }
       },
       "timestamp": "2026-01-21T08:44:27.998Z",
-      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
-    },
-    {
-      "id": "95c253b0-7ccd-4e16-a666-6f9e1c61ce2d",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
-      "details": {
-        "before": {
-          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
-          "fullName": "ABDULSAMET DURU",
-          "normalizedName": "ABDULSAMET DURU",
-          "baseKey": "ABDULSAMET DURU",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117471/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "İSG(İŞÇİ)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 23
-          },
-          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
-          "updatedAt": "2026-01-17T08:21:09.572Z"
-        },
-        "after": {
-          "id": "8b79cb7f-97ff-44df-b51c-0e11748f8e41",
-          "fullName": "ABDULSAMET DURU",
-          "normalizedName": "ABDULSAMET DURU",
-          "baseKey": "ABDULSAMET DURU",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117471/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "İSG(İŞÇİ)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 23
-          },
-          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
-          "updatedAt": "2026-01-21T08:44:01.290Z"
-        }
-      },
-      "timestamp": "2026-01-21T08:44:01.290Z",
       "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
     }
   ]
