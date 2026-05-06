@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:25:17.298Z"
+    "lastUpdated": "2026-05-06T06:25:34.149Z"
   },
   "taxonomy": {
     "categories": [
@@ -6081,6 +6081,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:25:17.298Z",
       "updatedAt": "2026-05-06T06:25:17.298Z"
+    },
+    {
+      "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
+      "baseKey": "AKİF YILMAZ",
+      "fullName": "AKİF YILMAZ",
+      "normalizedName": "AKİF YILMAZ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T06:25:34.149Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T06:25:34.149Z",
+      "updatedAt": "2026-05-06T06:25:34.149Z"
     }
   ],
   "leaves": [
@@ -8181,6 +8201,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e13a3b64-a53b-4e3f-8a28-ce3e74e81fe0",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
+      "details": {
+        "person": {
+          "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
+          "baseKey": "AKİF YILMAZ",
+          "fullName": "AKİF YILMAZ",
+          "normalizedName": "AKİF YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:25:34.149Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:25:34.149Z",
+          "updatedAt": "2026-05-06T06:25:34.149Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:25:34.149Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "9f3d6317-2fe7-4580-8b5b-6058e384d02a",
       "action": "CREATE",
@@ -41667,54 +41717,6 @@
         }
       },
       "timestamp": "2026-01-21T10:53:43.666Z",
-      "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
-    },
-    {
-      "id": "802251fa-bfe4-421b-9ce3-1ed8fc53e336",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-      "details": {
-        "before": {
-          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-          "fullName": "RIDVAN GEZER",
-          "normalizedName": "RIDVAN GEZER",
-          "baseKey": "RIDVAN GEZER",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117452/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 19
-          },
-          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-          "updatedAt": "2026-01-17T08:20:41.481Z"
-        },
-        "after": {
-          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-          "fullName": "RIDVAN GEZER",
-          "normalizedName": "RIDVAN GEZER",
-          "baseKey": "RIDVAN GEZER",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117452/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 19
-          },
-          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-          "updatedAt": "2026-01-21T08:44:50.278Z"
-        }
-      },
-      "timestamp": "2026-01-21T08:44:50.278Z",
       "adminSession": "079ba726-54f4-49c6-ba59-838dc5af5c37"
     }
   ]
