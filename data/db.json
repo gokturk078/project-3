@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T07:34:54.127Z"
+    "lastUpdated": "2026-05-06T07:35:01.767Z"
   },
   "taxonomy": {
     "categories": [
@@ -6921,12 +6921,12 @@
       "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
       "applicationNo": "129252/2026",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "ERCAN İŞLEK",
       "notes": "",
       "createdAt": "2026-05-06T06:30:48.022Z",
-      "updatedAt": "2026-05-06T06:30:48.022Z"
+      "updatedAt": "2026-05-06T07:35:01.767Z"
     },
     {
       "id": "e301e0cd-c277-4ef0-b19f-ea393d17dbba",
@@ -8430,6 +8430,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "3caf7d4f-4c1e-405e-8959-b65354ec0340",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "6eeb48cf-47d7-4756-976e-9f4483e96406",
+      "details": {
+        "before": {
+          "id": "6eeb48cf-47d7-4756-976e-9f4483e96406",
+          "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
+          "applicationNo": "129252/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T06:30:48.022Z",
+          "updatedAt": "2026-05-06T06:30:48.022Z"
+        },
+        "after": {
+          "id": "6eeb48cf-47d7-4756-976e-9f4483e96406",
+          "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
+          "applicationNo": "129252/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T06:30:48.022Z",
+          "updatedAt": "2026-05-06T07:35:01.767Z"
+        }
+      },
+      "timestamp": "2026-05-06T07:35:01.767Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "3e203b88-121e-4c7e-8520-df7c5ad71a1f",
       "action": "UPDATE",
@@ -41726,36 +41760,6 @@
         }
       },
       "timestamp": "2026-01-23T09:44:31.369Z",
-      "adminSession": "da618ae9-4862-4655-bd4e-aee93ccce0bd"
-    },
-    {
-      "id": "5eee6cf1-6479-44d3-a5ad-1d3b99f1478c",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
-      "details": {
-        "person": {
-          "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
-          "baseKey": "ERSİN ŞEN",
-          "fullName": "ERSİN ŞEN",
-          "normalizedName": "ERSİN ŞEN",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-23T09:44:12.654Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-23T09:44:12.654Z",
-          "updatedAt": "2026-01-23T09:44:12.654Z"
-        }
-      },
-      "timestamp": "2026-01-23T09:44:12.654Z",
       "adminSession": "da618ae9-4862-4655-bd4e-aee93ccce0bd"
     }
   ]
