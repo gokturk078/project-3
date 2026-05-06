@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:26:30.446Z"
+    "lastUpdated": "2026-05-06T06:26:49.477Z"
   },
   "taxonomy": {
     "categories": [
@@ -6161,6 +6161,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:26:30.446Z",
       "updatedAt": "2026-05-06T06:26:30.446Z"
+    },
+    {
+      "personId": "d848466c-0f7d-4133-bea5-edbd937a2932",
+      "baseKey": "MUSTAFA YILMAZ",
+      "fullName": "MUSTAFA YILMAZ",
+      "normalizedName": "MUSTAFA YILMAZ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-06T06:26:49.477Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-06T06:26:49.477Z",
+      "updatedAt": "2026-05-06T06:26:49.477Z"
     }
   ],
   "leaves": [
@@ -8261,6 +8281,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8fe76f0d-511f-43dc-9fed-2ce5b4d1ab22",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "d848466c-0f7d-4133-bea5-edbd937a2932",
+      "details": {
+        "person": {
+          "personId": "d848466c-0f7d-4133-bea5-edbd937a2932",
+          "baseKey": "MUSTAFA YILMAZ",
+          "fullName": "MUSTAFA YILMAZ",
+          "normalizedName": "MUSTAFA YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:26:49.477Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:26:49.477Z",
+          "updatedAt": "2026-05-06T06:26:49.477Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:26:49.477Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "8e3dee5a-a2fe-4837-b881-e269ccea7919",
       "action": "CREATE",
@@ -41718,54 +41768,6 @@
         }
       },
       "timestamp": "2026-01-21T15:26:52.888Z",
-      "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
-    },
-    {
-      "id": "8b53acf5-6ba5-419b-8539-a8c54d0c4c83",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-      "details": {
-        "before": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-10T10:03:11.237Z"
-        },
-        "after": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-21T15:26:45.494Z"
-        }
-      },
-      "timestamp": "2026-01-21T15:26:45.494Z",
       "adminSession": "6db4db1c-3139-4474-b1fe-bf7e476cc1b0"
     }
   ]
