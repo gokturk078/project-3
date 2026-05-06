@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-06T06:30:48.023Z"
+    "lastUpdated": "2026-05-06T06:31:19.010Z"
   },
   "taxonomy": {
     "categories": [
@@ -6906,6 +6906,18 @@
       "notes": "",
       "createdAt": "2026-05-06T06:30:48.022Z",
       "updatedAt": "2026-05-06T06:30:48.022Z"
+    },
+    {
+      "id": "e301e0cd-c277-4ef0-b19f-ea393d17dbba",
+      "personId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
+      "applicationNo": "129133/2026",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-05-06T06:31:19.010Z",
+      "updatedAt": "2026-05-06T06:31:19.010Z"
     }
   ],
   "departures": [
@@ -8373,6 +8385,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "2a88a2de-dd1e-42cd-bd31-cfe3bbb3477d",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "e301e0cd-c277-4ef0-b19f-ea393d17dbba",
+      "details": {
+        "tracking": {
+          "id": "e301e0cd-c277-4ef0-b19f-ea393d17dbba",
+          "personId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
+          "applicationNo": "129133/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-05-06T06:31:19.010Z",
+          "updatedAt": "2026-05-06T06:31:19.010Z"
+        }
+      },
+      "timestamp": "2026-05-06T06:31:19.010Z",
+      "adminSession": "e7948510-1372-4dcb-83a8-6da01fb463f7"
+    },
     {
       "id": "5f6d1bae-01a9-4ec7-be14-7b4e57d7fb84",
       "action": "CREATE",
@@ -41765,26 +41799,6 @@
         }
       },
       "timestamp": "2026-01-22T09:31:54.656Z",
-      "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
-    },
-    {
-      "id": "8055695c-dff2-4444-92e1-03d12e3edd44",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "9beb9492-ffb0-48d8-8551-deb4532ea4d1",
-      "details": {
-        "leave": {
-          "id": "9beb9492-ffb0-48d8-8551-deb4532ea4d1",
-          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-          "startDate": "2025-12-13",
-          "endDate": "2026-02-01",
-          "days": 51,
-          "type": "ÜCRETSİZ",
-          "note": "",
-          "createdAt": "2026-01-22T09:08:11.068Z"
-        }
-      },
-      "timestamp": "2026-01-22T09:08:11.069Z",
       "adminSession": "705608c1-d8a8-4002-8f65-c928e9fb6893"
     }
   ]
