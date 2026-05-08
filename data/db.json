@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-07T09:52:43.372Z"
+    "lastUpdated": "2026-05-08T07:04:55.148Z"
   },
   "taxonomy": {
     "categories": [
@@ -6242,6 +6242,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-06T09:46:55.835Z",
       "updatedAt": "2026-05-06T09:46:55.835Z"
+    },
+    {
+      "personId": "cc40d7ea-f404-42c8-91e3-339c92111724",
+      "baseKey": "NEJDET YILMAZ",
+      "fullName": "NEJDET YILMAZ",
+      "normalizedName": "NEJDET YILMAZ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-08T07:04:55.147Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-08T07:04:55.147Z",
+      "updatedAt": "2026-05-08T07:04:55.147Z"
     }
   ],
   "leaves": [
@@ -8462,6 +8482,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8ab90275-1aad-47d4-91f7-4c4b0a5439e1",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "cc40d7ea-f404-42c8-91e3-339c92111724",
+      "details": {
+        "person": {
+          "personId": "cc40d7ea-f404-42c8-91e3-339c92111724",
+          "baseKey": "NEJDET YILMAZ",
+          "fullName": "NEJDET YILMAZ",
+          "normalizedName": "NEJDET YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-08T07:04:55.147Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-08T07:04:55.147Z",
+          "updatedAt": "2026-05-08T07:04:55.147Z"
+        }
+      },
+      "timestamp": "2026-05-08T07:04:55.148Z",
+      "adminSession": "06124c0e-d024-4316-ac63-2a642b09eac1"
+    },
     {
       "id": "ba5b3731-0463-40ce-864e-95908a0e4fbd",
       "action": "UPDATE",
@@ -41806,28 +41856,6 @@
         }
       },
       "timestamp": "2026-01-23T09:51:17.606Z",
-      "adminSession": "da618ae9-4862-4655-bd4e-aee93ccce0bd"
-    },
-    {
-      "id": "e064863c-08c6-40f2-98ae-db2712ca168d",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "e08c6403-c7c7-489d-99c0-a45b7db85a48",
-      "details": {
-        "tracking": {
-          "id": "e08c6403-c7c7-489d-99c0-a45b7db85a48",
-          "personId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
-          "applicationNo": "119827/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-23T09:50:15.315Z",
-          "updatedAt": "2026-01-23T09:50:15.315Z"
-        }
-      },
-      "timestamp": "2026-01-23T09:50:15.315Z",
       "adminSession": "da618ae9-4862-4655-bd4e-aee93ccce0bd"
     }
   ]
