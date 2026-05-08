@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-08T07:06:03.767Z"
+    "lastUpdated": "2026-05-08T08:22:18.739Z"
   },
   "taxonomy": {
     "categories": [
@@ -6262,6 +6262,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-08T07:04:55.147Z",
       "updatedAt": "2026-05-08T07:04:55.147Z"
+    },
+    {
+      "personId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
+      "baseKey": "HİKMET KARA",
+      "fullName": "HİKMET KARA",
+      "normalizedName": "HİKMET KARA",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-08T08:22:18.739Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-08T08:22:18.739Z",
+      "updatedAt": "2026-05-08T08:22:18.739Z"
     }
   ],
   "leaves": [
@@ -8494,6 +8514,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "13e7a84f-6c2e-4353-8faa-ecc9ba73a867",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
+      "details": {
+        "person": {
+          "personId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
+          "baseKey": "HİKMET KARA",
+          "fullName": "HİKMET KARA",
+          "normalizedName": "HİKMET KARA",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-08T08:22:18.739Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-08T08:22:18.739Z",
+          "updatedAt": "2026-05-08T08:22:18.739Z"
+        }
+      },
+      "timestamp": "2026-05-08T08:22:18.739Z",
+      "adminSession": "06124c0e-d024-4316-ac63-2a642b09eac1"
+    },
     {
       "id": "336fe19c-7a50-40da-84b2-bd856e3c7f39",
       "action": "UPDATE",
@@ -41834,40 +41884,6 @@
         }
       },
       "timestamp": "2026-01-26T07:24:53.044Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "011e9b5a-e4df-43b6-a7ba-4617d0ef9537",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "f6a2cf39-162f-45de-b076-e80afac149a6",
-      "details": {
-        "before": {
-          "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
-          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
-          "applicationNo": "119220/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:18:39.785Z",
-          "updatedAt": "2026-01-19T09:18:12.147Z"
-        },
-        "after": {
-          "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
-          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
-          "applicationNo": "119220/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:18:39.785Z",
-          "updatedAt": "2026-01-26T07:24:44.322Z"
-        }
-      },
-      "timestamp": "2026-01-26T07:24:44.322Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
