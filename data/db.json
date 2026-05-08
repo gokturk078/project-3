@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-08T08:22:18.739Z"
+    "lastUpdated": "2026-05-08T08:22:42.018Z"
   },
   "taxonomy": {
     "categories": [
@@ -7047,6 +7047,18 @@
       "notes": "",
       "createdAt": "2026-05-08T07:05:45.799Z",
       "updatedAt": "2026-05-08T07:06:03.767Z"
+    },
+    {
+      "id": "143b7233-4314-470c-a64f-62c1136660c2",
+      "personId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-05-08T08:22:42.018Z",
+      "updatedAt": "2026-05-08T08:22:42.018Z"
     }
   ],
   "departures": [
@@ -8514,6 +8526,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ad775975-ff51-4bb4-a921-0858bdee7c49",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "143b7233-4314-470c-a64f-62c1136660c2",
+      "details": {
+        "tracking": {
+          "id": "143b7233-4314-470c-a64f-62c1136660c2",
+          "personId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-05-08T08:22:42.018Z",
+          "updatedAt": "2026-05-08T08:22:42.018Z"
+        }
+      },
+      "timestamp": "2026-05-08T08:22:42.018Z",
+      "adminSession": "06124c0e-d024-4316-ac63-2a642b09eac1"
+    },
     {
       "id": "13e7a84f-6c2e-4353-8faa-ecc9ba73a867",
       "action": "CREATE",
@@ -41850,40 +41884,6 @@
         }
       },
       "timestamp": "2026-01-26T07:25:03.103Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "d1ce45cb-c1b1-4830-b8fa-a6ee9aa6405f",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-      "details": {
-        "before": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-01-19T09:18:25.070Z"
-        },
-        "after": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-01-26T07:24:53.044Z"
-        }
-      },
-      "timestamp": "2026-01-26T07:24:53.044Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
