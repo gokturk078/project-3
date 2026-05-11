@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-11T08:00:36.410Z"
+    "lastUpdated": "2026-05-11T13:02:34.217Z"
   },
   "taxonomy": {
     "categories": [
@@ -6282,6 +6282,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-08T08:22:18.739Z",
       "updatedAt": "2026-05-08T08:22:18.739Z"
+    },
+    {
+      "personId": "c459e6d5-3cdb-4a60-8210-42682d17f132",
+      "baseKey": "ISMAIL MERT MERCAN",
+      "fullName": "ismail mert mercan",
+      "normalizedName": "ISMAIL MERT MERCAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-11T13:02:34.217Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-11T13:02:34.217Z",
+      "updatedAt": "2026-05-11T13:02:34.217Z"
     }
   ],
   "leaves": [
@@ -8526,6 +8546,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "05f86ece-4b56-4e2c-8fd4-b0310acb9024",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "c459e6d5-3cdb-4a60-8210-42682d17f132",
+      "details": {
+        "person": {
+          "personId": "c459e6d5-3cdb-4a60-8210-42682d17f132",
+          "baseKey": "ISMAIL MERT MERCAN",
+          "fullName": "ismail mert mercan",
+          "normalizedName": "ISMAIL MERT MERCAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-11T13:02:34.217Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-11T13:02:34.217Z",
+          "updatedAt": "2026-05-11T13:02:34.217Z"
+        }
+      },
+      "timestamp": "2026-05-11T13:02:34.217Z",
+      "adminSession": "282236e0-a866-4b56-a85a-8cae1c1c4332"
+    },
     {
       "id": "7b9459c6-6e44-404a-b6d5-44eb8b5fdc7c",
       "action": "UPDATE",
@@ -41868,40 +41918,6 @@
         }
       },
       "timestamp": "2026-01-26T09:35:44.774Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "d7761985-803b-459a-aad5-26fdbaa22f40",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "a85cf3d1-87bc-4e96-a364-c053c022c26b",
-      "details": {
-        "before": {
-          "id": "a85cf3d1-87bc-4e96-a364-c053c022c26b",
-          "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
-          "applicationNo": "119226/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:14:50.015Z",
-          "updatedAt": "2026-01-26T07:25:25.532Z"
-        },
-        "after": {
-          "id": "a85cf3d1-87bc-4e96-a364-c053c022c26b",
-          "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
-          "applicationNo": "119226/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:14:50.015Z",
-          "updatedAt": "2026-01-26T09:35:37.417Z"
-        }
-      },
-      "timestamp": "2026-01-26T09:35:37.417Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
