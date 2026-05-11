@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-08T12:19:03.890Z"
+    "lastUpdated": "2026-05-11T08:00:36.410Z"
   },
   "taxonomy": {
     "categories": [
@@ -4996,7 +4996,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -5005,7 +5005,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-28T09:13:03.272Z",
-      "updatedAt": "2026-02-21T11:55:37.537Z",
+      "updatedAt": "2026-05-11T08:00:36.410Z",
       "jobTitle": null
     },
     {
@@ -8526,6 +8526,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "7b9459c6-6e44-404a-b6d5-44eb8b5fdc7c",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
+      "details": {
+        "before": {
+          "personId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
+          "baseKey": "MAHMUT YÜNDEMLİ",
+          "fullName": "MAHMUT YÜNDEMLİ",
+          "normalizedName": "MAHMUT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:03.272Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:03.272Z",
+          "updatedAt": "2026-02-21T11:55:37.537Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
+          "baseKey": "MAHMUT YÜNDEMLİ",
+          "fullName": "MAHMUT YÜNDEMLİ",
+          "normalizedName": "MAHMUT YÜNDEMLİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-28T09:13:03.272Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-28T09:13:03.272Z",
+          "updatedAt": "2026-05-11T08:00:36.410Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-11T08:00:36.410Z",
+      "adminSession": "282236e0-a866-4b56-a85a-8cae1c1c4332"
+    },
     {
       "id": "f2a7d3d7-f667-4279-941d-22ad0d0bc5b3",
       "action": "UPDATE",
@@ -41850,40 +41902,6 @@
         }
       },
       "timestamp": "2026-01-26T09:35:37.417Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "fb72e0e1-da55-4db3-a772-34e58e0f12b7",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "bea1db6d-d1c6-4c17-9e04-df39ce583bec",
-      "details": {
-        "before": {
-          "id": "bea1db6d-d1c6-4c17-9e04-df39ce583bec",
-          "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
-          "applicationNo": "119217/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:14:05.673Z",
-          "updatedAt": "2026-01-26T07:25:43.382Z"
-        },
-        "after": {
-          "id": "bea1db6d-d1c6-4c17-9e04-df39ce583bec",
-          "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
-          "applicationNo": "119217/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:14:05.673Z",
-          "updatedAt": "2026-01-26T09:35:29.257Z"
-        }
-      },
-      "timestamp": "2026-01-26T09:35:29.258Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
