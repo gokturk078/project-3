@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-11T13:03:11.584Z"
+    "lastUpdated": "2026-05-11T13:03:57.505Z"
   },
   "taxonomy": {
     "categories": [
@@ -6917,12 +6917,12 @@
       "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
       "applicationNo": "128619/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "MAHSUM",
       "notes": "",
       "createdAt": "2026-04-30T06:54:04.139Z",
-      "updatedAt": "2026-05-05T05:51:41.985Z"
+      "updatedAt": "2026-05-11T13:03:57.505Z"
     },
     {
       "id": "1e2382ec-070e-481c-880a-553b59fc69c9",
@@ -8558,6 +8558,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "65b72bc9-0c0d-46a1-8241-c4fa389da3d5",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+      "details": {
+        "before": {
+          "id": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+          "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+          "applicationNo": "128619/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "MAHSUM",
+          "notes": "",
+          "createdAt": "2026-04-30T06:54:04.139Z",
+          "updatedAt": "2026-05-05T05:51:41.985Z"
+        },
+        "after": {
+          "id": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+          "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+          "applicationNo": "128619/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MAHSUM",
+          "notes": "",
+          "createdAt": "2026-04-30T06:54:04.139Z",
+          "updatedAt": "2026-05-11T13:03:57.505Z"
+        }
+      },
+      "timestamp": "2026-05-11T13:03:57.505Z",
+      "adminSession": "282236e0-a866-4b56-a85a-8cae1c1c4332"
+    },
     {
       "id": "09fc1e92-d0d6-46a8-af0f-36cccc9bfd38",
       "action": "CREATE",
@@ -41884,40 +41918,6 @@
         }
       },
       "timestamp": "2026-01-26T09:36:11.266Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "cdcd3427-2d95-477b-92aa-087ebe88ca92",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-      "details": {
-        "before": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-01-26T07:24:53.044Z"
-        },
-        "after": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-01-26T09:35:59.495Z"
-        }
-      },
-      "timestamp": "2026-01-26T09:35:59.495Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
