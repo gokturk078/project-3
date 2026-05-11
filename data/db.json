@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-11T13:05:59.310Z"
+    "lastUpdated": "2026-05-11T13:06:07.518Z"
   },
   "taxonomy": {
     "categories": [
@@ -6845,12 +6845,12 @@
       "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-29T14:35:59.610Z",
-      "updatedAt": "2026-05-05T05:52:31.772Z"
+      "updatedAt": "2026-05-11T13:06:07.517Z"
     },
     {
       "id": "174e4a8f-0b6e-4cf1-9898-6dcdae2b5cfb",
@@ -8558,6 +8558,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "a3b313b9-4ad4-4c71-90e7-6a72f60d56b8",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
+      "details": {
+        "before": {
+          "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
+          "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:59.610Z",
+          "updatedAt": "2026-05-05T05:52:31.772Z"
+        },
+        "after": {
+          "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
+          "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:59.610Z",
+          "updatedAt": "2026-05-11T13:06:07.517Z"
+        }
+      },
+      "timestamp": "2026-05-11T13:06:07.518Z",
+      "adminSession": "282236e0-a866-4b56-a85a-8cae1c1c4332"
+    },
     {
       "id": "cc2d916b-87ad-4860-aab5-7d5bbafdf462",
       "action": "UPDATE",
@@ -41894,36 +41928,6 @@
         }
       },
       "timestamp": "2026-01-26T15:07:57.034Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "31082905-c214-4780-9c99-b9cf2003b900",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-      "details": {
-        "person": {
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "baseKey": "MAHMUT EMRE AKSOY",
-          "fullName": "MAHMUT EMRE AKSOY",
-          "normalizedName": "MAHMUT EMRE AKSOY",
-          "category": "NEŞAT",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:07:37.203Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:07:37.203Z",
-          "updatedAt": "2026-01-26T15:07:37.203Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:07:37.203Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
