@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-11T13:06:07.518Z"
+    "lastUpdated": "2026-05-11T13:06:14.278Z"
   },
   "taxonomy": {
     "categories": [
@@ -6833,12 +6833,12 @@
       "personId": "1130cfd3-7778-4573-b98a-1c24e601c855",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-29T14:35:37.432Z",
-      "updatedAt": "2026-05-05T05:52:24.279Z"
+      "updatedAt": "2026-05-11T13:06:14.278Z"
     },
     {
       "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
@@ -8558,6 +8558,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "8fb4ae02-d967-4e9f-9054-f88034361e4b",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "a217dee3-c80f-4178-80bf-ae5b914f1823",
+      "details": {
+        "before": {
+          "id": "a217dee3-c80f-4178-80bf-ae5b914f1823",
+          "personId": "1130cfd3-7778-4573-b98a-1c24e601c855",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:37.432Z",
+          "updatedAt": "2026-05-05T05:52:24.279Z"
+        },
+        "after": {
+          "id": "a217dee3-c80f-4178-80bf-ae5b914f1823",
+          "personId": "1130cfd3-7778-4573-b98a-1c24e601c855",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:37.432Z",
+          "updatedAt": "2026-05-11T13:06:14.278Z"
+        }
+      },
+      "timestamp": "2026-05-11T13:06:14.278Z",
+      "adminSession": "282236e0-a866-4b56-a85a-8cae1c1c4332"
+    },
     {
       "id": "a3b313b9-4ad4-4c71-90e7-6a72f60d56b8",
       "action": "UPDATE",
@@ -41898,36 +41932,6 @@
         }
       },
       "timestamp": "2026-01-26T15:08:17.333Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "cb75aff6-a1ed-4479-adee-dc7bb04460d6",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "ae422373-9bee-452b-899b-aee6273d30a5",
-      "details": {
-        "person": {
-          "personId": "ae422373-9bee-452b-899b-aee6273d30a5",
-          "baseKey": "CEMİL ERİŞ",
-          "fullName": "CEMİL ERİŞ",
-          "normalizedName": "CEMİL ERİŞ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:07:57.034Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:07:57.034Z",
-          "updatedAt": "2026-01-26T15:07:57.034Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:07:57.034Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
