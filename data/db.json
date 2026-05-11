@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-11T13:04:25.931Z"
+    "lastUpdated": "2026-05-11T13:04:38.069Z"
   },
   "taxonomy": {
     "categories": [
@@ -6869,12 +6869,12 @@
       "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-29T14:37:32.425Z",
-      "updatedAt": "2026-05-05T05:52:54.034Z"
+      "updatedAt": "2026-05-11T13:04:38.069Z"
     },
     {
       "id": "df4a0aad-852a-4f66-b165-4fb659fabc6e",
@@ -8558,6 +8558,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "0d98b3eb-7d9b-4ad6-9340-2ba39bdc348d",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "01e47d9b-5298-4750-9392-a2254a79f14d",
+      "details": {
+        "before": {
+          "id": "01e47d9b-5298-4750-9392-a2254a79f14d",
+          "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:37:32.425Z",
+          "updatedAt": "2026-05-05T05:52:54.034Z"
+        },
+        "after": {
+          "id": "01e47d9b-5298-4750-9392-a2254a79f14d",
+          "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:37:32.425Z",
+          "updatedAt": "2026-05-11T13:04:38.069Z"
+        }
+      },
+      "timestamp": "2026-05-11T13:04:38.069Z",
+      "adminSession": "282236e0-a866-4b56-a85a-8cae1c1c4332"
+    },
     {
       "id": "104cc882-6b19-40fb-b024-6f2cc518af7f",
       "action": "UPDATE",
@@ -41886,36 +41920,6 @@
         }
       },
       "timestamp": "2026-01-26T15:07:16.238Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "507f7ec8-0f65-4bb6-b989-82a0aad47df7",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "3b641048-e38d-49f5-9d76-9145001d1892",
-      "details": {
-        "person": {
-          "personId": "3b641048-e38d-49f5-9d76-9145001d1892",
-          "baseKey": "MUSTAFA ÇOKÇETİN",
-          "fullName": "MUSTAFA ÇOKÇETİN",
-          "normalizedName": "MUSTAFA ÇOKÇETİN",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:06:56.427Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:06:56.427Z",
-          "updatedAt": "2026-01-26T15:06:56.427Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:06:56.428Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
