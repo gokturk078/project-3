@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-14T06:38:40.593Z"
+    "lastUpdated": "2026-05-14T06:38:45.810Z"
   },
   "taxonomy": {
     "categories": [
@@ -6889,18 +6889,6 @@
       "updatedAt": "2026-05-11T13:04:18.785Z"
     },
     {
-      "id": "5142a293-f615-48b4-8a7c-d4de74987212",
-      "personId": "1ed1536d-5f88-4c52-9ec3-f6bb4b904baf",
-      "applicationNo": "",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-04-29T14:38:34.633Z",
-      "updatedAt": "2026-05-11T13:04:09.746Z"
-    },
-    {
       "id": "1762fd98-7bd4-4665-b04d-31f85752be4f",
       "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
       "applicationNo": "128619/2026",
@@ -8546,6 +8534,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "c9c16b7e-6fe6-46a9-a177-c891c9fc4772",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "5142a293-f615-48b4-8a7c-d4de74987212",
+      "details": {
+        "tracking": {
+          "id": "5142a293-f615-48b4-8a7c-d4de74987212",
+          "personId": "1ed1536d-5f88-4c52-9ec3-f6bb4b904baf",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:38:34.633Z",
+          "updatedAt": "2026-05-11T13:04:09.746Z"
+        }
+      },
+      "timestamp": "2026-05-14T06:38:45.810Z",
+      "adminSession": "c7b13236-9be8-44f4-bd5f-9f674a5076fc"
+    },
     {
       "id": "2fba8425-c621-4020-870e-d3484590d29f",
       "action": "DELETE",
@@ -41886,36 +41896,6 @@
         }
       },
       "timestamp": "2026-01-26T15:09:14.645Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "5e7a2591-f53b-4964-bf1f-ee1c8c78ef37",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
-      "details": {
-        "person": {
-          "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
-          "baseKey": "ŞÜKRÜ AL",
-          "fullName": "ŞÜKRÜ AL",
-          "normalizedName": "ŞÜKRÜ AL",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:08:56.229Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:08:56.229Z",
-          "updatedAt": "2026-01-26T15:08:56.229Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:08:56.229Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
