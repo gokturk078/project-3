@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-14T06:38:45.810Z"
+    "lastUpdated": "2026-05-15T05:46:45.838Z"
   },
   "taxonomy": {
     "categories": [
@@ -6697,18 +6697,6 @@
   ],
   "tracking": [
     {
-      "id": "f586a107-b058-4910-9c2c-7db060b16d7a",
-      "personId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
-      "applicationNo": "123278/2026",
-      "profession": "inşaat işçisi",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "2026-03-04",
-      "contactPerson": "NEŞAT",
-      "notes": "",
-      "createdAt": "2026-03-04T11:51:28.564Z",
-      "updatedAt": "2026-05-08T12:18:15.419Z"
-    },
-    {
       "id": "34b0ed9e-057a-4f4c-be0a-2ccf13a286c1",
       "personId": "f8d28467-6cb2-490e-9b4d-4a0aa310d82a",
       "applicationNo": "155849",
@@ -8534,6 +8522,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "bb28cd06-d82f-45ef-b29f-d4cd45740b51",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "f586a107-b058-4910-9c2c-7db060b16d7a",
+      "details": {
+        "tracking": {
+          "id": "f586a107-b058-4910-9c2c-7db060b16d7a",
+          "personId": "c9b38b74-3f91-49fb-8eff-c437f8c385d1",
+          "applicationNo": "123278/2026",
+          "profession": "inşaat işçisi",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "2026-03-04",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-03-04T11:51:28.564Z",
+          "updatedAt": "2026-05-08T12:18:15.419Z"
+        }
+      },
+      "timestamp": "2026-05-15T05:46:45.838Z",
+      "adminSession": "32f83167-7b41-4721-88da-12ffe90650da"
+    },
     {
       "id": "c9c16b7e-6fe6-46a9-a177-c891c9fc4772",
       "action": "DELETE",
@@ -41866,36 +41876,6 @@
         }
       },
       "timestamp": "2026-01-26T15:09:32.996Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "721ccba4-59d8-4399-9266-2fbb140c6b0e",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
-      "details": {
-        "person": {
-          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
-          "baseKey": "HALİS KESER",
-          "fullName": "HALİS KESER",
-          "normalizedName": "HALİS KESER",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:09:14.645Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:09:14.645Z",
-          "updatedAt": "2026-01-26T15:09:14.645Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:09:14.645Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
