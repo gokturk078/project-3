@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-18T05:51:13.950Z"
+    "lastUpdated": "2026-05-18T05:51:29.171Z"
   },
   "taxonomy": {
     "categories": [
@@ -666,7 +666,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -675,7 +675,7 @@
       "mergedFrom": [],
       "personId": "90e2e13c-8f91-48ba-a965-9fb941fa9483",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-05-18T05:51:29.171Z"
     },
     {
       "fullName": "MEHMET ARTAN",
@@ -8524,6 +8524,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "3773d4f2-2581-4733-aac2-ac598f6d004f",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "90e2e13c-8f91-48ba-a965-9fb941fa9483",
+      "details": {
+        "before": {
+          "fullName": "MAHSUN YÜNDEMLİ",
+          "normalizedName": "MAHSUN YUNDEMLI",
+          "baseKey": "MAHSUN YUNDEMLI",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 31
+          },
+          "mergedFrom": [],
+          "personId": "90e2e13c-8f91-48ba-a965-9fb941fa9483",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MAHSUN YÜNDEMLİ",
+          "normalizedName": "MAHSUN YUNDEMLI",
+          "baseKey": "MAHSUN YUNDEMLI",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 31
+          },
+          "mergedFrom": [],
+          "personId": "90e2e13c-8f91-48ba-a965-9fb941fa9483",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-05-18T05:51:29.171Z"
+        }
+      },
+      "timestamp": "2026-05-18T05:51:29.171Z",
+      "adminSession": "8a88c2cc-986d-4fbf-bde3-a5d0e6cdc646"
+    },
     {
       "id": "0b671c65-0104-47bf-b91f-eebfa0a29934",
       "action": "UPDATE",
@@ -41976,28 +42026,6 @@
         }
       },
       "timestamp": "2026-01-26T15:13:08.194Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "8fb65c35-621d-437c-b12f-24d8e2376419",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "7626c60a-5338-4545-9805-1763c803537b",
-      "details": {
-        "tracking": {
-          "id": "7626c60a-5338-4545-9805-1763c803537b",
-          "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
-          "applicationNo": "120025",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:12:31.312Z",
-          "updatedAt": "2026-01-26T15:12:31.312Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:12:31.312Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
