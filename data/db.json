@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-15T14:35:57.245Z"
+    "lastUpdated": "2026-05-18T05:51:13.950Z"
   },
   "taxonomy": {
     "categories": [
@@ -2466,7 +2466,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "NEŞAT",
@@ -2475,7 +2475,7 @@
       "mergedFrom": [],
       "personId": "43398262-c0cb-4c48-bf34-9717d798d9d7",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-05-18T05:51:13.950Z"
     },
     {
       "fullName": "MUHAMMED EMİN KAHRAMAN",
@@ -4137,7 +4137,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4146,7 +4146,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-08T11:52:09.461Z",
-      "updatedAt": "2026-01-08T11:52:09.461Z"
+      "updatedAt": "2026-05-18T05:50:37.436Z",
+      "jobTitle": null
     },
     {
       "personId": "1d3377c8-ffbf-4348-9d16-06b61d97acab",
@@ -4471,7 +4472,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4480,7 +4481,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:08:35.997Z",
-      "updatedAt": "2026-02-09T09:02:10.181Z",
+      "updatedAt": "2026-05-18T05:50:54.919Z",
       "jobTitle": null
     },
     {
@@ -8523,6 +8524,159 @@
     }
   ],
   "audit": [
+    {
+      "id": "0b671c65-0104-47bf-b91f-eebfa0a29934",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "43398262-c0cb-4c48-bf34-9717d798d9d7",
+      "details": {
+        "before": {
+          "fullName": "MEHMET AKSOY",
+          "normalizedName": "MEHMET AKSOY",
+          "baseKey": "MEHMET AKSOY",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 9
+          },
+          "mergedFrom": [],
+          "personId": "43398262-c0cb-4c48-bf34-9717d798d9d7",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MEHMET AKSOY",
+          "normalizedName": "MEHMET AKSOY",
+          "baseKey": "MEHMET AKSOY",
+          "category": "NEŞAT",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "NEŞAT",
+            "row": 9
+          },
+          "mergedFrom": [],
+          "personId": "43398262-c0cb-4c48-bf34-9717d798d9d7",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-05-18T05:51:13.950Z"
+        }
+      },
+      "timestamp": "2026-05-18T05:51:13.950Z",
+      "adminSession": "8a88c2cc-986d-4fbf-bde3-a5d0e6cdc646"
+    },
+    {
+      "id": "38a55ec2-4adf-4df3-913d-9d542b4ead2b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+      "details": {
+        "before": {
+          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+          "baseKey": "MURAT SAYĞI",
+          "fullName": "MURAT SAYĞI",
+          "normalizedName": "MURAT SAYĞI",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:08:35.997Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:08:35.997Z",
+          "updatedAt": "2026-02-09T09:02:10.181Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
+          "baseKey": "MURAT SAYĞI",
+          "fullName": "MURAT SAYĞI",
+          "normalizedName": "MURAT SAYĞI",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:08:35.997Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:08:35.997Z",
+          "updatedAt": "2026-05-18T05:50:54.919Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-18T05:50:54.919Z",
+      "adminSession": "8a88c2cc-986d-4fbf-bde3-a5d0e6cdc646"
+    },
+    {
+      "id": "8c62480e-e35d-4c0f-aee1-22c5a304ae67",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "9735f86e-be5e-4194-9693-83629caa2a34",
+      "details": {
+        "before": {
+          "personId": "9735f86e-be5e-4194-9693-83629caa2a34",
+          "baseKey": "HİKMET TİRYAKİ",
+          "fullName": "HİKMET TİRYAKİ",
+          "normalizedName": "HİKMET TİRYAKİ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-08T11:52:09.461Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-08T11:52:09.461Z",
+          "updatedAt": "2026-01-08T11:52:09.461Z"
+        },
+        "after": {
+          "personId": "9735f86e-be5e-4194-9693-83629caa2a34",
+          "baseKey": "HİKMET TİRYAKİ",
+          "fullName": "HİKMET TİRYAKİ",
+          "normalizedName": "HİKMET TİRYAKİ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-08T11:52:09.461Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-08T11:52:09.461Z",
+          "updatedAt": "2026-05-18T05:50:37.436Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-18T05:50:37.437Z",
+      "adminSession": "8a88c2cc-986d-4fbf-bde3-a5d0e6cdc646"
+    },
     {
       "id": "b96cde2a-e637-41e8-ae41-f2cc5ab97a18",
       "action": "UPDATE",
@@ -41844,80 +41998,6 @@
         }
       },
       "timestamp": "2026-01-26T15:12:31.312Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "2e508092-3e0e-4562-af04-c3df6ed52153",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "7fd75add-f01e-49bc-b4b4-453ed30ae8c4",
-      "details": {
-        "tracking": {
-          "id": "7fd75add-f01e-49bc-b4b4-453ed30ae8c4",
-          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
-          "applicationNo": "119986",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:57.460Z",
-          "updatedAt": "2026-01-26T15:11:57.460Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:11:57.460Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "ff19b30a-7cc3-45ba-b763-97c230bc6523",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "6c63236c-6d83-4e53-98be-db1f69446b94",
-      "details": {
-        "tracking": {
-          "id": "6c63236c-6d83-4e53-98be-db1f69446b94",
-          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
-          "applicationNo": "119983",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:18.828Z",
-          "updatedAt": "2026-01-26T15:11:18.828Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:11:18.829Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "a059b88b-6e7a-483d-b718-aadc6ed0ec5f",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "cfe0610c-d964-42a7-9916-26babc3abed7",
-      "details": {
-        "person": {
-          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
-          "baseKey": "YASİN ÇALIŞ",
-          "fullName": "YASİN ÇALIŞ",
-          "normalizedName": "YASİN ÇALIŞ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:10:15.905Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:10:15.905Z",
-          "updatedAt": "2026-01-26T15:10:15.905Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:10:15.905Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
