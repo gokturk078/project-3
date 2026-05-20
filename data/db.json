@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-20T11:39:40.286Z"
+    "lastUpdated": "2026-05-20T11:39:51.593Z"
   },
   "taxonomy": {
     "categories": [
@@ -6969,12 +6969,12 @@
       "personId": "b57fbb96-469c-430f-8525-e5dc90f75739",
       "applicationNo": "129455/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "ERCAN İŞLEK",
       "notes": "",
       "createdAt": "2026-05-06T09:47:27.989Z",
-      "updatedAt": "2026-05-06T09:47:27.989Z"
+      "updatedAt": "2026-05-20T11:39:51.593Z"
     },
     {
       "id": "049e03b6-c978-4cb4-88d0-d0132202a5c3",
@@ -8478,6 +8478,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "09049bee-179d-4ec6-a646-5fb8d855bbe9",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "33cf094e-89a8-48f7-b2c1-d081bab02b43",
+      "details": {
+        "before": {
+          "id": "33cf094e-89a8-48f7-b2c1-d081bab02b43",
+          "personId": "b57fbb96-469c-430f-8525-e5dc90f75739",
+          "applicationNo": "129455/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T09:47:27.989Z",
+          "updatedAt": "2026-05-06T09:47:27.989Z"
+        },
+        "after": {
+          "id": "33cf094e-89a8-48f7-b2c1-d081bab02b43",
+          "personId": "b57fbb96-469c-430f-8525-e5dc90f75739",
+          "applicationNo": "129455/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T09:47:27.989Z",
+          "updatedAt": "2026-05-20T11:39:51.593Z"
+        }
+      },
+      "timestamp": "2026-05-20T11:39:51.593Z",
+      "adminSession": "3db7b965-11a7-468b-8cd8-7d25f5a6d3e8"
+    },
     {
       "id": "1c5bb401-9eb9-48cf-b7d6-181273aa8cf5",
       "action": "UPDATE",
@@ -42053,37 +42087,6 @@
         }
       },
       "timestamp": "2026-01-27T10:29:55.132Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "ca80bb9a-40c5-4dec-9adb-e88c0e826994",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "68daad34-9c12-400e-8c1b-1fda86d817ad",
-      "details": {
-        "before": {
-          "id": "68daad34-9c12-400e-8c1b-1fda86d817ad",
-          "personId": "7d2f3c27-e761-4dc1-9610-bd28f217e45a",
-          "startDate": "2025-12-18",
-          "endDate": "2026-01-16",
-          "days": 30,
-          "type": "RAPOR",
-          "note": "iş kazası sonucu rapor",
-          "createdAt": "2026-01-09T09:21:05.041Z"
-        },
-        "after": {
-          "id": "68daad34-9c12-400e-8c1b-1fda86d817ad",
-          "personId": "7d2f3c27-e761-4dc1-9610-bd28f217e45a",
-          "startDate": "2025-12-18",
-          "endDate": "2026-02-04",
-          "days": 49,
-          "type": "RAPOR",
-          "note": "iş kazası sonucu rapor",
-          "createdAt": "2026-01-09T09:21:05.041Z",
-          "updatedAt": "2026-01-27T09:30:18.225Z"
-        }
-      },
-      "timestamp": "2026-01-27T09:30:18.225Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
