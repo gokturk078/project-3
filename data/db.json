@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-20T09:13:01.320Z"
+    "lastUpdated": "2026-05-20T09:13:16.155Z"
   },
   "taxonomy": {
     "categories": [
@@ -6215,7 +6215,7 @@
       "role": "PROJE MÜDÜRÜ",
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -6224,7 +6224,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:55:49.683Z",
-      "updatedAt": "2026-05-06T06:55:49.683Z"
+      "updatedAt": "2026-05-20T09:13:16.155Z",
+      "jobTitle": null
     },
     {
       "personId": "b57fbb96-469c-430f-8525-e5dc90f75739",
@@ -8525,6 +8526,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "433378ec-ac78-4527-b31a-d83165145bd3",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "3c7fd70f-0e29-41ab-a4ec-27834f9c4529",
+      "details": {
+        "before": {
+          "personId": "3c7fd70f-0e29-41ab-a4ec-27834f9c4529",
+          "baseKey": "ÜNSAL AKGÜN",
+          "fullName": "ÜNSAL AKGÜN",
+          "normalizedName": "ÜNSAL AKGÜN",
+          "category": "REPSAM",
+          "role": "PROJE MÜDÜRÜ",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:55:49.683Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:55:49.683Z",
+          "updatedAt": "2026-05-06T06:55:49.683Z"
+        },
+        "after": {
+          "personId": "3c7fd70f-0e29-41ab-a4ec-27834f9c4529",
+          "baseKey": "ÜNSAL AKGÜN",
+          "fullName": "ÜNSAL AKGÜN",
+          "normalizedName": "ÜNSAL AKGÜN",
+          "category": "REPSAM",
+          "role": "PROJE MÜDÜRÜ",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:55:49.683Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:55:49.683Z",
+          "updatedAt": "2026-05-20T09:13:16.155Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-20T09:13:16.155Z",
+      "adminSession": "3db7b965-11a7-468b-8cd8-7d25f5a6d3e8"
+    },
     {
       "id": "daec212f-7765-4f33-8eb1-7659bd786695",
       "action": "UPDATE",
@@ -42034,28 +42086,6 @@
         }
       },
       "timestamp": "2026-01-26T15:14:18.212Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "7f1e90f3-49dd-46ad-9a63-7b23ca771494",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "607330d9-d41e-433e-8041-93ee5f84c15d",
-      "details": {
-        "tracking": {
-          "id": "607330d9-d41e-433e-8041-93ee5f84c15d",
-          "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
-          "applicationNo": "120032",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:13:36.069Z",
-          "updatedAt": "2026-01-26T15:13:36.069Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:13:36.069Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
