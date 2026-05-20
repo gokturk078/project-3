@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-20T11:40:27.810Z"
+    "lastUpdated": "2026-05-20T11:47:56.073Z"
   },
   "taxonomy": {
     "categories": [
@@ -6957,12 +6957,12 @@
       "personId": "90fec3ab-d8f0-4935-a9e7-d0fa8b8caa9c",
       "applicationNo": "129246/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "ERCAN İŞLEK",
       "notes": "",
       "createdAt": "2026-05-06T06:32:01.203Z",
-      "updatedAt": "2026-05-06T07:34:54.126Z"
+      "updatedAt": "2026-05-20T11:47:56.073Z"
     },
     {
       "id": "33cf094e-89a8-48f7-b2c1-d081bab02b43",
@@ -8478,6 +8478,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "22faf933-ed78-49a4-b0ae-e11f05146115",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "2448c560-784a-4d56-9dee-deb2b60026ff",
+      "details": {
+        "before": {
+          "id": "2448c560-784a-4d56-9dee-deb2b60026ff",
+          "personId": "90fec3ab-d8f0-4935-a9e7-d0fa8b8caa9c",
+          "applicationNo": "129246/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T06:32:01.203Z",
+          "updatedAt": "2026-05-06T07:34:54.126Z"
+        },
+        "after": {
+          "id": "2448c560-784a-4d56-9dee-deb2b60026ff",
+          "personId": "90fec3ab-d8f0-4935-a9e7-d0fa8b8caa9c",
+          "applicationNo": "129246/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T06:32:01.203Z",
+          "updatedAt": "2026-05-20T11:47:56.073Z"
+        }
+      },
+      "timestamp": "2026-05-20T11:47:56.073Z",
+      "adminSession": "3db7b965-11a7-468b-8cd8-7d25f5a6d3e8"
+    },
     {
       "id": "bacb7d4c-9c0f-45f6-82bc-b661ecfe5e22",
       "action": "UPDATE",
@@ -42053,40 +42087,6 @@
         }
       },
       "timestamp": "2026-01-27T10:30:17.678Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "0eaa0474-c716-4e0d-81fe-edef5a1bb4b5",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-      "details": {
-        "before": {
-          "id": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "applicationNo": "120079/2026",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-26T15:16:18.166Z",
-          "updatedAt": "2026-01-26T15:16:18.166Z"
-        },
-        "after": {
-          "id": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "applicationNo": "120079/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-26T15:16:18.166Z",
-          "updatedAt": "2026-01-27T10:30:11.284Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:30:11.284Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
