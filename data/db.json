@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-18T05:51:29.171Z"
+    "lastUpdated": "2026-05-20T09:13:01.320Z"
   },
   "taxonomy": {
     "categories": [
@@ -5854,7 +5854,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5863,7 +5863,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-25T08:01:43.161Z",
-      "updatedAt": "2026-04-25T08:01:43.161Z"
+      "updatedAt": "2026-05-20T09:13:01.320Z",
+      "jobTitle": null
     },
     {
       "personId": "9ad768eb-5c5b-432a-93c8-cf28d667e65d",
@@ -8524,6 +8525,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "daec212f-7765-4f33-8eb1-7659bd786695",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+      "details": {
+        "before": {
+          "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+          "baseKey": "ÇAĞRI POLAT",
+          "fullName": "çağrı polat",
+          "normalizedName": "ÇAĞRI POLAT",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T08:01:43.161Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T08:01:43.161Z",
+          "updatedAt": "2026-04-25T08:01:43.161Z"
+        },
+        "after": {
+          "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+          "baseKey": "ÇAĞRI POLAT",
+          "fullName": "çağrı polat",
+          "normalizedName": "ÇAĞRI POLAT",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T08:01:43.161Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T08:01:43.161Z",
+          "updatedAt": "2026-05-20T09:13:01.320Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-20T09:13:01.320Z",
+      "adminSession": "3db7b965-11a7-468b-8cd8-7d25f5a6d3e8"
+    },
     {
       "id": "3773d4f2-2581-4733-aac2-ac598f6d004f",
       "action": "UPDATE",
@@ -42004,28 +42056,6 @@
         }
       },
       "timestamp": "2026-01-26T15:13:36.069Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "2e4bbca9-5e3a-4a71-b9b1-26a90aa4e685",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "4429427f-1c36-4aac-acca-2d1825f89f15",
-      "details": {
-        "tracking": {
-          "id": "4429427f-1c36-4aac-acca-2d1825f89f15",
-          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
-          "applicationNo": "120030",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:13:08.194Z",
-          "updatedAt": "2026-01-26T15:13:08.194Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:13:08.194Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
