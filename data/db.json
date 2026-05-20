@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-20T09:14:08.098Z"
+    "lastUpdated": "2026-05-20T09:14:12.164Z"
   },
   "taxonomy": {
     "categories": [
@@ -6737,18 +6737,6 @@
       "updatedAt": "2026-04-29T14:55:11.636Z"
     },
     {
-      "id": "874f98d8-2e08-4f8d-a543-44dcf962101e",
-      "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
-      "applicationNo": "128298/2026",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "muhasebe",
-      "notes": "",
-      "createdAt": "2026-04-25T08:02:46.069Z",
-      "updatedAt": "2026-05-08T12:18:44.374Z"
-    },
-    {
       "id": "036625f4-292b-46de-8221-0a517c76a96a",
       "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
       "applicationNo": "128553/2026",
@@ -8502,6 +8490,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "6afa6f05-ece9-41e1-9e7f-0f0ac8a68cf1",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "874f98d8-2e08-4f8d-a543-44dcf962101e",
+      "details": {
+        "tracking": {
+          "id": "874f98d8-2e08-4f8d-a543-44dcf962101e",
+          "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
+          "applicationNo": "128298/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "muhasebe",
+          "notes": "",
+          "createdAt": "2026-04-25T08:02:46.069Z",
+          "updatedAt": "2026-05-08T12:18:44.374Z"
+        }
+      },
+      "timestamp": "2026-05-20T09:14:12.164Z",
+      "adminSession": "3db7b965-11a7-468b-8cd8-7d25f5a6d3e8"
+    },
     {
       "id": "9a317df9-18bc-4891-877d-6980be62a206",
       "action": "DELETE",
@@ -42052,28 +42062,6 @@
         }
       },
       "timestamp": "2026-01-26T15:17:03.490Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "19a6f166-176f-4405-8f1a-a102cc63511e",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-      "details": {
-        "tracking": {
-          "id": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "applicationNo": "120079/2026",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-26T15:16:18.166Z",
-          "updatedAt": "2026-01-26T15:16:18.166Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:16:18.166Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
