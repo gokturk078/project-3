@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-20T09:13:59.584Z"
+    "lastUpdated": "2026-05-20T09:14:08.098Z"
   },
   "taxonomy": {
     "categories": [
@@ -6737,18 +6737,6 @@
       "updatedAt": "2026-04-29T14:55:11.636Z"
     },
     {
-      "id": "861ead1b-7a7a-4706-8d58-8e02112373c7",
-      "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
-      "applicationNo": "",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-04-20T14:38:36.983Z",
-      "updatedAt": "2026-05-08T12:18:36.865Z"
-    },
-    {
       "id": "874f98d8-2e08-4f8d-a543-44dcf962101e",
       "personId": "40118a0d-dacb-45c1-bd8a-98408d4db90f",
       "applicationNo": "128298/2026",
@@ -8514,6 +8502,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "9a317df9-18bc-4891-877d-6980be62a206",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "861ead1b-7a7a-4706-8d58-8e02112373c7",
+      "details": {
+        "tracking": {
+          "id": "861ead1b-7a7a-4706-8d58-8e02112373c7",
+          "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-20T14:38:36.983Z",
+          "updatedAt": "2026-05-08T12:18:36.865Z"
+        }
+      },
+      "timestamp": "2026-05-20T09:14:08.098Z",
+      "adminSession": "3db7b965-11a7-468b-8cd8-7d25f5a6d3e8"
+    },
     {
       "id": "eebe3f00-7816-4519-96b5-fdc046afc385",
       "action": "UPDATE",
@@ -42064,28 +42074,6 @@
         }
       },
       "timestamp": "2026-01-26T15:16:18.166Z",
-      "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
-    },
-    {
-      "id": "1d9d8352-f99c-4e48-bfdb-092e4a3a387e",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "c8efac96-dddb-4dc4-a005-d0a490c81251",
-      "details": {
-        "tracking": {
-          "id": "c8efac96-dddb-4dc4-a005-d0a490c81251",
-          "personId": "ae422373-9bee-452b-899b-aee6273d30a5",
-          "applicationNo": "120076/2026",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:15:33.408Z",
-          "updatedAt": "2026-01-26T15:15:33.408Z"
-        }
-      },
-      "timestamp": "2026-01-26T15:15:33.408Z",
       "adminSession": "14bd2504-7efd-49e5-91e7-9e427764695e"
     }
   ]
