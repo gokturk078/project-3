@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:16:32.437Z"
+    "lastUpdated": "2026-05-26T10:16:57.797Z"
   },
   "taxonomy": {
     "categories": [
@@ -6348,6 +6348,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-26T10:16:32.436Z",
       "updatedAt": "2026-05-26T10:16:32.436Z"
+    },
+    {
+      "personId": "3935e599-035d-4a1e-8508-0c3d958a9912",
+      "baseKey": "ERCAN KAYA",
+      "fullName": "ERCAN KAYA",
+      "normalizedName": "ERCAN KAYA",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-26T10:16:57.797Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-26T10:16:57.797Z",
+      "updatedAt": "2026-05-26T10:16:57.797Z"
     }
   ],
   "leaves": [
@@ -8460,6 +8480,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "09152747-4bbc-4f6c-a0e8-95d65735fe49",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "3935e599-035d-4a1e-8508-0c3d958a9912",
+      "details": {
+        "person": {
+          "personId": "3935e599-035d-4a1e-8508-0c3d958a9912",
+          "baseKey": "ERCAN KAYA",
+          "fullName": "ERCAN KAYA",
+          "normalizedName": "ERCAN KAYA",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-26T10:16:57.797Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-26T10:16:57.797Z",
+          "updatedAt": "2026-05-26T10:16:57.797Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:16:57.797Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "eee6cf11-638a-4fb9-b895-ebda8ff3b20e",
       "action": "CREATE",
@@ -42079,28 +42129,6 @@
         }
       },
       "timestamp": "2026-01-28T09:15:55.195Z",
-      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
-    },
-    {
-      "id": "73bec642-b3f7-4447-a98d-594393d0e07c",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "f236d309-2a01-481d-9d88-2bba9d7bcd12",
-      "details": {
-        "tracking": {
-          "id": "f236d309-2a01-481d-9d88-2bba9d7bcd12",
-          "personId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
-          "applicationNo": "120264/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:14:59.580Z",
-          "updatedAt": "2026-01-28T09:14:59.580Z"
-        }
-      },
-      "timestamp": "2026-01-28T09:14:59.580Z",
       "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
     }
   ]
