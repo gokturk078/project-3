@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:57:05.810Z"
+    "lastUpdated": "2026-05-26T09:57:09.632Z"
   },
   "taxonomy": {
     "categories": [
@@ -6727,18 +6727,6 @@
       "updatedAt": "2026-05-26T09:57:05.810Z"
     },
     {
-      "id": "036625f4-292b-46de-8221-0a517c76a96a",
-      "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
-      "applicationNo": "128553/2026",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "elektrik",
-      "notes": "",
-      "createdAt": "2026-04-25T09:54:35.106Z",
-      "updatedAt": "2026-05-20T09:14:33.450Z"
-    },
-    {
       "id": "f3d02938-677c-47c5-8901-cbc9fe53e782",
       "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
       "applicationNo": "127800",
@@ -8468,6 +8456,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "444de6e9-d7ad-4d9f-8e18-57d4bc5c44bd",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "036625f4-292b-46de-8221-0a517c76a96a",
+      "details": {
+        "tracking": {
+          "id": "036625f4-292b-46de-8221-0a517c76a96a",
+          "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
+          "applicationNo": "128553/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "elektrik",
+          "notes": "",
+          "createdAt": "2026-04-25T09:54:35.106Z",
+          "updatedAt": "2026-05-20T09:14:33.450Z"
+        }
+      },
+      "timestamp": "2026-05-26T09:57:09.632Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "3558d805-388c-4feb-b0a3-4c8a3ca91372",
       "action": "UPDATE",
@@ -42087,36 +42097,6 @@
         }
       },
       "timestamp": "2026-01-27T10:51:32.220Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "d9675769-a7c2-405f-b1c7-41abedb6b855",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
-      "details": {
-        "person": {
-          "personId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
-          "baseKey": "SELİM YÜNDEMLİ",
-          "fullName": "SELİM YÜNDEMLİ",
-          "normalizedName": "SELİM YÜNDEMLİ",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-27T10:51:09.074Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-27T10:51:09.074Z",
-          "updatedAt": "2026-01-27T10:51:09.074Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:51:09.074Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
