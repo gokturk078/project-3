@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:54:54.565Z"
+    "lastUpdated": "2026-05-26T09:55:39.640Z"
   },
   "taxonomy": {
     "categories": [
@@ -5773,7 +5773,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5782,7 +5782,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-15T13:41:09.750Z",
-      "updatedAt": "2026-04-30T08:31:31.979Z",
+      "updatedAt": "2026-05-26T09:55:39.640Z",
       "jobTitle": null
     },
     {
@@ -8480,6 +8480,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "5b51f288-8e24-4818-99f9-e746ecdce9ba",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+      "details": {
+        "before": {
+          "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+          "baseKey": "SEDAT ŞEREBET",
+          "fullName": "SEDAT ŞEREBET",
+          "normalizedName": "SEDAT ŞEREBET",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-15T13:41:09.750Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-15T13:41:09.750Z",
+          "updatedAt": "2026-04-30T08:31:31.979Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+          "baseKey": "SEDAT ŞEREBET",
+          "fullName": "SEDAT ŞEREBET",
+          "normalizedName": "SEDAT ŞEREBET",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-15T13:41:09.750Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-15T13:41:09.750Z",
+          "updatedAt": "2026-05-26T09:55:39.640Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-26T09:55:39.640Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "9f47d6c3-a399-4405-ab31-2444ada9ca65",
       "action": "UPDATE",
@@ -42089,40 +42141,6 @@
         }
       },
       "timestamp": "2026-01-27T10:30:57.108Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "c10260cf-752d-4903-a6fd-f93aa2c78ba5",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "7626c60a-5338-4545-9805-1763c803537b",
-      "details": {
-        "before": {
-          "id": "7626c60a-5338-4545-9805-1763c803537b",
-          "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
-          "applicationNo": "120025/2026",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:12:31.312Z",
-          "updatedAt": "2026-01-26T15:18:36.919Z"
-        },
-        "after": {
-          "id": "7626c60a-5338-4545-9805-1763c803537b",
-          "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
-          "applicationNo": "120025/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:12:31.312Z",
-          "updatedAt": "2026-01-27T10:30:50.431Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:30:50.431Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
