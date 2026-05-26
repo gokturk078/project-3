@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:40:43.915Z"
+    "lastUpdated": "2026-05-26T10:40:57.551Z"
   },
   "taxonomy": {
     "categories": [
@@ -5479,7 +5479,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -5488,7 +5488,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-04T07:59:11.179Z",
-      "updatedAt": "2026-04-25T09:37:38.787Z",
+      "updatedAt": "2026-05-26T10:40:57.551Z",
       "jobTitle": null
     },
     {
@@ -8612,6 +8612,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "946dae26-b8c5-40c0-8a45-9a28754d94d4",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+      "details": {
+        "before": {
+          "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+          "baseKey": "OĞUZHAN BABAYİĞİT",
+          "fullName": "OĞUZHAN BABAYİĞİT",
+          "normalizedName": "OĞUZHAN BABAYİĞİT",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:11.179Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:11.179Z",
+          "updatedAt": "2026-04-25T09:37:38.787Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "5b5caa17-ef74-45fe-8c0c-c80860b4ea6f",
+          "baseKey": "OĞUZHAN BABAYİĞİT",
+          "fullName": "OĞUZHAN BABAYİĞİT",
+          "normalizedName": "OĞUZHAN BABAYİĞİT",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:11.179Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:11.179Z",
+          "updatedAt": "2026-05-26T10:40:57.551Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-26T10:40:57.551Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "cae0da8a-9515-4e5c-944d-c118d3a73d53",
       "action": "UPDATE",
@@ -42195,40 +42247,6 @@
         }
       },
       "timestamp": "2026-01-29T06:33:25.757Z",
-      "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
-    },
-    {
-      "id": "950e1235-7ff6-4b03-a457-0f6dae561c02",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-      "details": {
-        "before": {
-          "id": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
-          "applicationNo": "120110/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:53:18.571Z",
-          "updatedAt": "2026-01-27T10:53:18.571Z"
-        },
-        "after": {
-          "id": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
-          "applicationNo": "120110/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:53:18.571Z",
-          "updatedAt": "2026-01-29T06:32:36.132Z"
-        }
-      },
-      "timestamp": "2026-01-29T06:32:36.132Z",
       "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
     }
   ]
