@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:57:09.632Z"
+    "lastUpdated": "2026-05-26T09:57:12.818Z"
   },
   "taxonomy": {
     "categories": [
@@ -6727,18 +6727,6 @@
       "updatedAt": "2026-05-26T09:57:05.810Z"
     },
     {
-      "id": "f3d02938-677c-47c5-8901-cbc9fe53e782",
-      "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
-      "applicationNo": "127800",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "NEŞAT",
-      "notes": "",
-      "createdAt": "2026-04-27T10:01:30.436Z",
-      "updatedAt": "2026-05-20T11:37:47.942Z"
-    },
-    {
       "id": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
       "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
       "applicationNo": "128485",
@@ -8456,6 +8444,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "d16d0e0a-ee51-49d3-a8c1-40ce6b7c91de",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "f3d02938-677c-47c5-8901-cbc9fe53e782",
+      "details": {
+        "tracking": {
+          "id": "f3d02938-677c-47c5-8901-cbc9fe53e782",
+          "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
+          "applicationNo": "127800",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-27T10:01:30.436Z",
+          "updatedAt": "2026-05-20T11:37:47.942Z"
+        }
+      },
+      "timestamp": "2026-05-26T09:57:12.818Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "444de6e9-d7ad-4d9f-8e18-57d4bc5c44bd",
       "action": "DELETE",
@@ -42067,36 +42077,6 @@
         }
       },
       "timestamp": "2026-01-27T10:53:18.571Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "4bb7c406-5fe0-42ef-bc58-f9223246b91a",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "91f26123-18f5-4756-9ce7-9a4abce89115",
-      "details": {
-        "person": {
-          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
-          "baseKey": "UMUT YÜNDEMLİ",
-          "fullName": "UMUT YÜNDEMLİ",
-          "normalizedName": "UMUT YÜNDEMLİ",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-27T10:51:32.220Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-27T10:51:32.220Z",
-          "updatedAt": "2026-01-27T10:51:32.220Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:51:32.220Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
