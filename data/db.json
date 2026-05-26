@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:02:50.003Z"
+    "lastUpdated": "2026-05-26T10:03:07.164Z"
   },
   "taxonomy": {
     "categories": [
@@ -6727,18 +6727,6 @@
       "updatedAt": "2026-05-26T09:57:05.810Z"
     },
     {
-      "id": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
-      "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
-      "applicationNo": "128485",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "NEŞAT",
-      "notes": "",
-      "createdAt": "2026-04-27T12:13:35.037Z",
-      "updatedAt": "2026-05-06T09:48:53.349Z"
-    },
-    {
       "id": "cd636172-0216-4d42-842b-33667dc25809",
       "personId": "e097bd14-9505-4696-afcf-ca47bfb04675",
       "applicationNo": "",
@@ -8444,6 +8432,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "a6c8241a-4c06-48a0-b08b-f8e670503fa4",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
+      "details": {
+        "tracking": {
+          "id": "953f0e93-d5c7-4ac1-9eb2-24641169cc61",
+          "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
+          "applicationNo": "128485",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-27T12:13:35.037Z",
+          "updatedAt": "2026-05-06T09:48:53.349Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:03:07.164Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "b7ed0c80-1324-46d1-a8f7-c7b57b9c78c2",
       "action": "CREATE",
@@ -42071,36 +42081,6 @@
         }
       },
       "timestamp": "2026-01-28T09:13:03.272Z",
-      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
-    },
-    {
-      "id": "42403571-5122-45b6-895e-9bc1ac806072",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
-      "details": {
-        "person": {
-          "personId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
-          "baseKey": "TURAN YÜNDEMLİ",
-          "fullName": "TURAN YÜNDEMLİ",
-          "normalizedName": "TURAN YÜNDEMLİ",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-28T09:12:38.461Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-28T09:12:38.461Z",
-          "updatedAt": "2026-01-28T09:12:38.461Z"
-        }
-      },
-      "timestamp": "2026-01-28T09:12:38.462Z",
       "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
     }
   ]
