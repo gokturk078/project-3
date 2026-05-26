@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:20:13.879Z"
+    "lastUpdated": "2026-05-26T10:38:47.974Z"
   },
   "taxonomy": {
     "categories": [
@@ -506,7 +506,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -515,7 +515,7 @@
       "mergedFrom": [],
       "personId": "ad56b649-dd9d-4a03-b0bd-fb841721bc77",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-05-26T10:38:47.973Z"
     },
     {
       "fullName": "HALİL KARATAŞ",
@@ -8612,6 +8612,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "499cf216-fdb0-4fe5-b4e3-6a744c68310d",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ad56b649-dd9d-4a03-b0bd-fb841721bc77",
+      "details": {
+        "before": {
+          "fullName": "HAKAN UYDURAN",
+          "normalizedName": "HAKAN UYDURAN",
+          "baseKey": "HAKAN UYDURAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 23
+          },
+          "mergedFrom": [],
+          "personId": "ad56b649-dd9d-4a03-b0bd-fb841721bc77",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "HAKAN UYDURAN",
+          "normalizedName": "HAKAN UYDURAN",
+          "baseKey": "HAKAN UYDURAN",
+          "category": "REPSAM",
+          "role": "MÜHENDİS",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 23
+          },
+          "mergedFrom": [],
+          "personId": "ad56b649-dd9d-4a03-b0bd-fb841721bc77",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-05-26T10:38:47.973Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:38:47.974Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "5632b4cf-1dfd-469f-91ce-470730f742b3",
       "action": "UPDATE",
@@ -42112,54 +42162,6 @@
       },
       "timestamp": "2026-01-29T06:32:07.679Z",
       "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
-    },
-    {
-      "id": "b3a4aba0-7e93-45b7-a26c-36b322a2bc58",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-      "details": {
-        "before": {
-          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-          "fullName": "MECİT AYDOĞAN",
-          "normalizedName": "MECIT AYDOGAN",
-          "baseKey": "MECIT AYDOGAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117468/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR (İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 21
-          },
-          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-          "updatedAt": "2026-01-17T08:20:53.985Z"
-        },
-        "after": {
-          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-          "fullName": "MECİT AYDOĞAN",
-          "normalizedName": "MECIT AYDOGAN",
-          "baseKey": "MECIT AYDOGAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117468/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR (İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 21
-          },
-          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-          "updatedAt": "2026-01-28T14:09:10.880Z"
-        }
-      },
-      "timestamp": "2026-01-28T14:09:10.880Z",
-      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
     }
   ]
 }
