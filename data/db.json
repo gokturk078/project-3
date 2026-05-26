@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:16:57.797Z"
+    "lastUpdated": "2026-05-26T10:17:18.611Z"
   },
   "taxonomy": {
     "categories": [
@@ -6368,6 +6368,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-26T10:16:57.797Z",
       "updatedAt": "2026-05-26T10:16:57.797Z"
+    },
+    {
+      "personId": "644328d6-2cb9-4fca-99b9-5a759c4a8a7a",
+      "baseKey": "HASAN GÜREK",
+      "fullName": "HASAN GÜREK",
+      "normalizedName": "HASAN GÜREK",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-26T10:17:18.611Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-26T10:17:18.611Z",
+      "updatedAt": "2026-05-26T10:17:18.611Z"
     }
   ],
   "leaves": [
@@ -8480,6 +8500,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ea9b3e06-49af-4114-9dc8-058de8a086c8",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "644328d6-2cb9-4fca-99b9-5a759c4a8a7a",
+      "details": {
+        "person": {
+          "personId": "644328d6-2cb9-4fca-99b9-5a759c4a8a7a",
+          "baseKey": "HASAN GÜREK",
+          "fullName": "HASAN GÜREK",
+          "normalizedName": "HASAN GÜREK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-26T10:17:18.611Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-26T10:17:18.611Z",
+          "updatedAt": "2026-05-26T10:17:18.611Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:17:18.611Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "09152747-4bbc-4f6c-a0e8-95d65735fe49",
       "action": "CREATE",
@@ -42099,36 +42149,6 @@
         }
       },
       "timestamp": "2026-01-28T09:16:39.919Z",
-      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
-    },
-    {
-      "id": "65d0d918-51d3-4c90-8bea-adf8b8e1efaf",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "40e8b757-5829-4970-9818-8581db704eba",
-      "details": {
-        "person": {
-          "personId": "40e8b757-5829-4970-9818-8581db704eba",
-          "baseKey": "DİLAVER ŞAHİN",
-          "fullName": "DİLAVER ŞAHİN",
-          "normalizedName": "DİLAVER ŞAHİN",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-28T09:15:55.194Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-28T09:15:55.194Z",
-          "updatedAt": "2026-01-28T09:15:55.194Z"
-        }
-      },
-      "timestamp": "2026-01-28T09:15:55.195Z",
       "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
     }
   ]
