@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:40:57.551Z"
+    "lastUpdated": "2026-05-26T10:41:12.886Z"
   },
   "taxonomy": {
     "categories": [
@@ -5500,7 +5500,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -5509,7 +5509,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-04T07:59:34.806Z",
-      "updatedAt": "2026-04-09T08:20:07.810Z",
+      "updatedAt": "2026-05-26T10:41:12.886Z",
       "jobTitle": null
     },
     {
@@ -8612,6 +8612,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "f4208db4-09a2-415b-a4a3-c33fe9a327b0",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "1e975231-883a-4473-a16f-c0401a5a93e7",
+      "details": {
+        "before": {
+          "personId": "1e975231-883a-4473-a16f-c0401a5a93e7",
+          "baseKey": "BESTAMİ KARAYULUK",
+          "fullName": "BESTAMİ KARAYULUK",
+          "normalizedName": "BESTAMİ KARAYULUK",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:34.806Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:34.806Z",
+          "updatedAt": "2026-04-09T08:20:07.810Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "1e975231-883a-4473-a16f-c0401a5a93e7",
+          "baseKey": "BESTAMİ KARAYULUK",
+          "fullName": "BESTAMİ KARAYULUK",
+          "normalizedName": "BESTAMİ KARAYULUK",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-04T07:59:34.806Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-04T07:59:34.806Z",
+          "updatedAt": "2026-05-26T10:41:12.886Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-26T10:41:12.886Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "946dae26-b8c5-40c0-8a45-9a28754d94d4",
       "action": "UPDATE",
@@ -42213,40 +42265,6 @@
         }
       },
       "timestamp": "2026-01-29T06:33:33.312Z",
-      "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
-    },
-    {
-      "id": "5b680cec-4734-4ce0-af56-5274edffc5ff",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "e08c6403-c7c7-489d-99c0-a45b7db85a48",
-      "details": {
-        "before": {
-          "id": "e08c6403-c7c7-489d-99c0-a45b7db85a48",
-          "personId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
-          "applicationNo": "119827/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-23T09:50:15.315Z",
-          "updatedAt": "2026-01-23T09:50:15.315Z"
-        },
-        "after": {
-          "id": "e08c6403-c7c7-489d-99c0-a45b7db85a48",
-          "personId": "34ac7cbc-5fda-4fa0-a3ba-79b4495be1a6",
-          "applicationNo": "119827/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-23T09:50:15.315Z",
-          "updatedAt": "2026-01-29T06:33:25.757Z"
-        }
-      },
-      "timestamp": "2026-01-29T06:33:25.757Z",
       "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
     }
   ]
