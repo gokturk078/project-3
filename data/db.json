@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-20T11:52:31.217Z"
+    "lastUpdated": "2026-05-26T09:54:46.740Z"
   },
   "taxonomy": {
     "categories": [
@@ -5895,7 +5895,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5904,7 +5904,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-25T09:54:17.588Z",
-      "updatedAt": "2026-04-25T09:54:17.588Z"
+      "updatedAt": "2026-05-26T09:54:46.740Z",
+      "jobTitle": null
     },
     {
       "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
@@ -8478,6 +8479,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "62bb5c91-b405-49ac-a55d-23d4678e04f8",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
+      "details": {
+        "before": {
+          "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
+          "baseKey": "BEKİR ORHAN",
+          "fullName": "BEKİR ORHAN",
+          "normalizedName": "BEKİR ORHAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T09:54:17.588Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T09:54:17.588Z",
+          "updatedAt": "2026-04-25T09:54:17.588Z"
+        },
+        "after": {
+          "personId": "7f1fea61-ec62-49a0-9c55-f660d5a4edf6",
+          "baseKey": "BEKİR ORHAN",
+          "fullName": "BEKİR ORHAN",
+          "normalizedName": "BEKİR ORHAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-25T09:54:17.588Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-25T09:54:17.588Z",
+          "updatedAt": "2026-05-26T09:54:46.740Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-26T09:54:46.740Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "f59b07d8-9afe-4736-86ba-35a3ab51584e",
       "action": "UPDATE",
@@ -42053,40 +42105,6 @@
         }
       },
       "timestamp": "2026-01-27T10:30:44.204Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "30de824e-67df-4593-a587-7799362a850e",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "607330d9-d41e-433e-8041-93ee5f84c15d",
-      "details": {
-        "before": {
-          "id": "607330d9-d41e-433e-8041-93ee5f84c15d",
-          "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
-          "applicationNo": "120032/2026",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:13:36.069Z",
-          "updatedAt": "2026-01-26T15:18:20.585Z"
-        },
-        "after": {
-          "id": "607330d9-d41e-433e-8041-93ee5f84c15d",
-          "personId": "2fc8d4cc-799f-4f44-bbeb-d172f2a3c107",
-          "applicationNo": "120032/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:13:36.069Z",
-          "updatedAt": "2026-01-27T10:30:37.676Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:30:37.676Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
