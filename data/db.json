@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:57:26.639Z"
+    "lastUpdated": "2026-05-26T09:57:40.444Z"
   },
   "taxonomy": {
     "categories": [
@@ -6815,12 +6815,12 @@
       "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
       "applicationNo": "128627/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "MAHSUM",
       "notes": "",
       "createdAt": "2026-04-30T06:55:24.033Z",
-      "updatedAt": "2026-05-05T05:53:43.354Z"
+      "updatedAt": "2026-05-26T09:57:40.444Z"
     },
     {
       "id": "a9bdded1-50ce-4891-838f-053e4b05bb19",
@@ -8432,6 +8432,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "233050fb-c977-4394-8bc3-4a7f95257c8a",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "1e2382ec-070e-481c-880a-553b59fc69c9",
+      "details": {
+        "before": {
+          "id": "1e2382ec-070e-481c-880a-553b59fc69c9",
+          "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+          "applicationNo": "128627/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "MAHSUM",
+          "notes": "",
+          "createdAt": "2026-04-30T06:55:24.033Z",
+          "updatedAt": "2026-05-05T05:53:43.354Z"
+        },
+        "after": {
+          "id": "1e2382ec-070e-481c-880a-553b59fc69c9",
+          "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+          "applicationNo": "128627/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MAHSUM",
+          "notes": "",
+          "createdAt": "2026-04-30T06:55:24.033Z",
+          "updatedAt": "2026-05-26T09:57:40.444Z"
+        }
+      },
+      "timestamp": "2026-05-26T09:57:40.444Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "724f58a4-c4d6-4613-89c9-adfa309e704f",
       "action": "DELETE",
@@ -42043,28 +42077,6 @@
         }
       },
       "timestamp": "2026-01-27T10:55:57.007Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "d7d0d67f-3f8a-4337-9fe5-e1aa9b205331",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "a16df8e4-c723-4c53-8288-83ae801d26e6",
-      "details": {
-        "tracking": {
-          "id": "a16df8e4-c723-4c53-8288-83ae801d26e6",
-          "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
-          "applicationNo": "120171/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:54:33.434Z",
-          "updatedAt": "2026-01-27T10:54:33.434Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:54:33.434Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
