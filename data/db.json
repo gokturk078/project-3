@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:54:46.740Z"
+    "lastUpdated": "2026-05-26T09:54:54.565Z"
   },
   "taxonomy": {
     "categories": [
@@ -5936,7 +5936,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5945,7 +5945,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-27T12:12:58.804Z",
-      "updatedAt": "2026-04-27T12:12:58.804Z"
+      "updatedAt": "2026-05-26T09:54:54.565Z",
+      "jobTitle": null
     },
     {
       "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
@@ -8479,6 +8480,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "9f47d6c3-a399-4405-ab31-2444ada9ca65",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "04191c94-0c06-4153-aad4-be7eb075dba8",
+      "details": {
+        "before": {
+          "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
+          "baseKey": "BEKİR BORAZAN",
+          "fullName": "BEKİR BORAZAN",
+          "normalizedName": "BEKİR BORAZAN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-27T12:12:58.804Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-27T12:12:58.804Z",
+          "updatedAt": "2026-04-27T12:12:58.804Z"
+        },
+        "after": {
+          "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
+          "baseKey": "BEKİR BORAZAN",
+          "fullName": "BEKİR BORAZAN",
+          "normalizedName": "BEKİR BORAZAN",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-27T12:12:58.804Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-27T12:12:58.804Z",
+          "updatedAt": "2026-05-26T09:54:54.565Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-05-26T09:54:54.565Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "62bb5c91-b405-49ac-a55d-23d4678e04f8",
       "action": "UPDATE",
@@ -42071,40 +42123,6 @@
         }
       },
       "timestamp": "2026-01-27T10:30:50.431Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "2062cad3-d8ca-4602-819a-bbe208118cc3",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "4429427f-1c36-4aac-acca-2d1825f89f15",
-      "details": {
-        "before": {
-          "id": "4429427f-1c36-4aac-acca-2d1825f89f15",
-          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
-          "applicationNo": "120030/2026",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:13:08.194Z",
-          "updatedAt": "2026-01-26T15:18:28.661Z"
-        },
-        "after": {
-          "id": "4429427f-1c36-4aac-acca-2d1825f89f15",
-          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
-          "applicationNo": "120030/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:13:08.194Z",
-          "updatedAt": "2026-01-27T10:30:44.204Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:30:44.204Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
