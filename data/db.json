@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:19:40.694Z"
+    "lastUpdated": "2026-05-26T10:19:55.747Z"
   },
   "taxonomy": {
     "categories": [
@@ -7133,6 +7133,18 @@
       "notes": "",
       "createdAt": "2026-05-26T10:19:40.694Z",
       "updatedAt": "2026-05-26T10:19:40.694Z"
+    },
+    {
+      "id": "feb456ca-b29f-40c3-aaa0-2838b849839c",
+      "personId": "d994e4b7-f3f7-4009-bcee-ca163b379ce0",
+      "applicationNo": "",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-05-26T10:19:55.747Z",
+      "updatedAt": "2026-05-26T10:19:55.747Z"
     }
   ],
   "departures": [
@@ -8600,6 +8612,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "b00e1bd1-06ce-465a-994b-1dd476273cf8",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "feb456ca-b29f-40c3-aaa0-2838b849839c",
+      "details": {
+        "tracking": {
+          "id": "feb456ca-b29f-40c3-aaa0-2838b849839c",
+          "personId": "d994e4b7-f3f7-4009-bcee-ca163b379ce0",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-05-26T10:19:55.747Z",
+          "updatedAt": "2026-05-26T10:19:55.747Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:19:55.747Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "769ba412-3614-4d3e-bebb-b20c0500eb4d",
       "action": "CREATE",
@@ -42143,58 +42177,6 @@
         }
       },
       "timestamp": "2026-01-28T13:20:51.423Z",
-      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
-    },
-    {
-      "id": "bd5e7c7c-3379-44a4-b537-b2b4aa50cc95",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-      "details": {
-        "before": {
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "baseKey": "KÜBRA NUR TOSUN",
-          "fullName": "KÜBRA NUR TOSUN",
-          "normalizedName": "KÜBRA NUR TOSUN",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T09:15:37.660Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T09:15:37.660Z",
-          "updatedAt": "2026-01-28T13:19:25.120Z",
-          "jobTitle": null
-        },
-        "after": {
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "baseKey": "KÜBRA NUR TOSUN",
-          "fullName": "KÜBRA NUR TOSUN",
-          "normalizedName": "KÜBRA NUR TOSUN",
-          "category": "REPSAM",
-          "role": "MİMAR",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T09:15:37.660Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T09:15:37.660Z",
-          "updatedAt": "2026-01-28T13:20:27.129Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-01-28T13:20:27.129Z",
       "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
     }
   ]
