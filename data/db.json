@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:56:55.405Z"
+    "lastUpdated": "2026-05-26T09:57:05.810Z"
   },
   "taxonomy": {
     "categories": [
@@ -6719,12 +6719,12 @@
       "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
       "applicationNo": "127767/2026",
       "profession": "",
-      "status": "AKİT YÜKLENECEK",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "NEŞAT",
       "notes": "",
       "createdAt": "2026-04-20T12:51:18.245Z",
-      "updatedAt": "2026-04-29T14:55:11.636Z"
+      "updatedAt": "2026-05-26T09:57:05.810Z"
     },
     {
       "id": "036625f4-292b-46de-8221-0a517c76a96a",
@@ -8468,6 +8468,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "3558d805-388c-4feb-b0a3-4c8a3ca91372",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
+      "details": {
+        "before": {
+          "id": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
+          "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
+          "applicationNo": "127767/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENECEK",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-20T12:51:18.245Z",
+          "updatedAt": "2026-04-29T14:55:11.636Z"
+        },
+        "after": {
+          "id": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
+          "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
+          "applicationNo": "127767/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-20T12:51:18.245Z",
+          "updatedAt": "2026-05-26T09:57:05.810Z"
+        }
+      },
+      "timestamp": "2026-05-26T09:57:05.810Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "cbc08b6f-9bf6-4216-947b-27fad465276f",
       "action": "DELETE",
@@ -42083,36 +42117,6 @@
         }
       },
       "timestamp": "2026-01-27T10:51:09.074Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "e5931cbe-8e15-475d-821b-15ee98e1c767",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
-      "details": {
-        "person": {
-          "personId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
-          "baseKey": "MUHAMMET MERT YÜNDEMLİ",
-          "fullName": "MUHAMMET MERT YÜNDEMLİ",
-          "normalizedName": "MUHAMMET MERT YÜNDEMLİ",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-27T10:50:46.446Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-27T10:50:46.446Z",
-          "updatedAt": "2026-01-27T10:50:46.446Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:50:46.446Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
