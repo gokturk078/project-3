@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:17:18.611Z"
+    "lastUpdated": "2026-05-26T10:17:40.873Z"
   },
   "taxonomy": {
     "categories": [
@@ -6388,6 +6388,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-26T10:17:18.611Z",
       "updatedAt": "2026-05-26T10:17:18.611Z"
+    },
+    {
+      "personId": "d37b5e6b-970e-47f0-a9a3-c12f251ba2d2",
+      "baseKey": "İSKENDER BAYRAKTAR",
+      "fullName": "İSKENDER BAYRAKTAR",
+      "normalizedName": "İSKENDER BAYRAKTAR",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-26T10:17:40.873Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-26T10:17:40.873Z",
+      "updatedAt": "2026-05-26T10:17:40.873Z"
     }
   ],
   "leaves": [
@@ -8500,6 +8520,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "c7698dee-a780-42cd-9a25-e3b3efba7740",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "d37b5e6b-970e-47f0-a9a3-c12f251ba2d2",
+      "details": {
+        "person": {
+          "personId": "d37b5e6b-970e-47f0-a9a3-c12f251ba2d2",
+          "baseKey": "İSKENDER BAYRAKTAR",
+          "fullName": "İSKENDER BAYRAKTAR",
+          "normalizedName": "İSKENDER BAYRAKTAR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-26T10:17:40.873Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-26T10:17:40.873Z",
+          "updatedAt": "2026-05-26T10:17:40.873Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:17:40.873Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "ea9b3e06-49af-4114-9dc8-058de8a086c8",
       "action": "CREATE",
@@ -42127,28 +42177,6 @@
         }
       },
       "timestamp": "2026-01-28T09:17:35.632Z",
-      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
-    },
-    {
-      "id": "843d680f-9c34-4442-bb88-0e834df6e665",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "368030aa-7a20-4c86-9c48-441503ceac00",
-      "details": {
-        "tracking": {
-          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
-          "personId": "40e8b757-5829-4970-9818-8581db704eba",
-          "applicationNo": "120260/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:16:39.919Z",
-          "updatedAt": "2026-01-28T09:16:39.919Z"
-        }
-      },
-      "timestamp": "2026-01-28T09:16:39.919Z",
       "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
     }
   ]
