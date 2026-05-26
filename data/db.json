@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:03:07.164Z"
+    "lastUpdated": "2026-05-26T10:03:27.252Z"
   },
   "taxonomy": {
     "categories": [
@@ -6953,18 +6953,6 @@
       "notes": "",
       "createdAt": "2026-05-11T13:03:11.584Z",
       "updatedAt": "2026-05-11T13:03:11.584Z"
-    },
-    {
-      "id": "b2051a98-b8f3-4682-b5b2-a51072d8e3e2",
-      "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
-      "applicationNo": "",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": null,
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-05-26T10:02:50.003Z",
-      "updatedAt": "2026-05-26T10:02:50.003Z"
     }
   ],
   "departures": [
@@ -8432,6 +8420,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "f82b0082-ca57-4ca2-b9a2-e4e56321a6eb",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "b2051a98-b8f3-4682-b5b2-a51072d8e3e2",
+      "details": {
+        "tracking": {
+          "id": "b2051a98-b8f3-4682-b5b2-a51072d8e3e2",
+          "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-05-26T10:02:50.003Z",
+          "updatedAt": "2026-05-26T10:02:50.003Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:03:27.251Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "a6c8241a-4c06-48a0-b08b-f8e670503fa4",
       "action": "DELETE",
@@ -42051,36 +42061,6 @@
         }
       },
       "timestamp": "2026-01-28T09:13:29.430Z",
-      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
-    },
-    {
-      "id": "2966d78a-74b6-4509-a384-190f819ae1ca",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
-      "details": {
-        "person": {
-          "personId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
-          "baseKey": "MAHMUT YÜNDEMLİ",
-          "fullName": "MAHMUT YÜNDEMLİ",
-          "normalizedName": "MAHMUT YÜNDEMLİ",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-28T09:13:03.272Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-28T09:13:03.272Z",
-          "updatedAt": "2026-01-28T09:13:03.272Z"
-        }
-      },
-      "timestamp": "2026-01-28T09:13:03.272Z",
       "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
     }
   ]
