@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:58:06.286Z"
+    "lastUpdated": "2026-05-26T10:02:50.003Z"
   },
   "taxonomy": {
     "categories": [
@@ -6965,6 +6965,18 @@
       "notes": "",
       "createdAt": "2026-05-11T13:03:11.584Z",
       "updatedAt": "2026-05-11T13:03:11.584Z"
+    },
+    {
+      "id": "b2051a98-b8f3-4682-b5b2-a51072d8e3e2",
+      "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
+      "applicationNo": "",
+      "profession": "",
+      "status": "AKİT YÜKLENDİ",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-05-26T10:02:50.003Z",
+      "updatedAt": "2026-05-26T10:02:50.003Z"
     }
   ],
   "departures": [
@@ -8432,6 +8444,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "b7ed0c80-1324-46d1-a8f7-c7b57b9c78c2",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "b2051a98-b8f3-4682-b5b2-a51072d8e3e2",
+      "details": {
+        "tracking": {
+          "id": "b2051a98-b8f3-4682-b5b2-a51072d8e3e2",
+          "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-05-26T10:02:50.003Z",
+          "updatedAt": "2026-05-26T10:02:50.003Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:02:50.003Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "532ace5f-44d5-4fd3-8e9c-9263c1b11884",
       "action": "UPDATE",
@@ -42068,28 +42102,6 @@
       },
       "timestamp": "2026-01-28T09:12:38.462Z",
       "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
-    },
-    {
-      "id": "4cf0b04a-a167-4750-bc16-19350ce69864",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "3deae328-7ab9-450e-8fd7-6813a6ade1e8",
-      "details": {
-        "tracking": {
-          "id": "3deae328-7ab9-450e-8fd7-6813a6ade1e8",
-          "personId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
-          "applicationNo": "120115/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:56:53.852Z",
-          "updatedAt": "2026-01-27T10:56:53.852Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:56:53.852Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
 }
