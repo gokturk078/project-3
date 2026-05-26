@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:56:02.634Z"
+    "lastUpdated": "2026-05-26T09:56:15.239Z"
   },
   "taxonomy": {
     "categories": [
@@ -5908,26 +5908,6 @@
       "jobTitle": null
     },
     {
-      "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
-      "baseKey": "ALİ KAYA",
-      "fullName": "ALİ KAYA",
-      "normalizedName": "ALİ KAYA",
-      "category": "NEŞAT",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-04-27T10:00:49.623Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-04-27T10:00:49.623Z",
-      "updatedAt": "2026-04-27T10:00:49.623Z"
-    },
-    {
       "personId": "04191c94-0c06-4153-aad4-be7eb075dba8",
       "baseKey": "BEKİR BORAZAN",
       "fullName": "BEKİR BORAZAN",
@@ -8500,6 +8480,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "74b6c770-a1e7-4e20-a50a-2e12e5de8e09",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
+      "details": {
+        "person": {
+          "personId": "8ff27d02-9d8d-4eb4-b9f2-a21d41c8e693",
+          "baseKey": "ALİ KAYA",
+          "fullName": "ALİ KAYA",
+          "normalizedName": "ALİ KAYA",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-27T10:00:49.623Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-27T10:00:49.623Z",
+          "updatedAt": "2026-04-27T10:00:49.623Z"
+        }
+      },
+      "timestamp": "2026-05-26T09:56:15.239Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "05e76cd4-f1b9-4da2-b7bc-718e97c1e686",
       "action": "CREATE",
@@ -42123,40 +42133,6 @@
         }
       },
       "timestamp": "2026-01-27T10:50:17.872Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "cbabe9c5-70a3-4a75-98f1-2806356ffd55",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "6c63236c-6d83-4e53-98be-db1f69446b94",
-      "details": {
-        "before": {
-          "id": "6c63236c-6d83-4e53-98be-db1f69446b94",
-          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
-          "applicationNo": "119983/2026",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:18.828Z",
-          "updatedAt": "2026-01-26T15:18:53.821Z"
-        },
-        "after": {
-          "id": "6c63236c-6d83-4e53-98be-db1f69446b94",
-          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
-          "applicationNo": "119983/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:18.828Z",
-          "updatedAt": "2026-01-27T10:31:03.600Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:31:03.600Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
