@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T09:56:15.239Z"
+    "lastUpdated": "2026-05-26T09:56:55.405Z"
   },
   "taxonomy": {
     "categories": [
@@ -6703,18 +6703,6 @@
   ],
   "tracking": [
     {
-      "id": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
-      "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
-      "applicationNo": "126778/2026",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "",
-      "notes": "",
-      "createdAt": "2026-04-15T13:42:47.408Z",
-      "updatedAt": "2026-05-20T11:37:28.677Z"
-    },
-    {
       "id": "4cffc449-d3e9-48a4-a288-45a0f67279a6",
       "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
       "applicationNo": "",
@@ -8480,6 +8468,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "cbc08b6f-9bf6-4216-947b-27fad465276f",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
+      "details": {
+        "tracking": {
+          "id": "c22d1b1c-38f6-4b86-b868-37c95f1ace5f",
+          "personId": "b98feeb6-fb18-40fb-8296-0e55de92106d",
+          "applicationNo": "126778/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-04-15T13:42:47.408Z",
+          "updatedAt": "2026-05-20T11:37:28.677Z"
+        }
+      },
+      "timestamp": "2026-05-26T09:56:55.405Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "74b6c770-a1e7-4e20-a50a-2e12e5de8e09",
       "action": "DELETE",
@@ -42103,36 +42113,6 @@
         }
       },
       "timestamp": "2026-01-27T10:50:46.446Z",
-      "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
-    },
-    {
-      "id": "399d8276-4422-4606-b860-b65170f2520f",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
-      "details": {
-        "person": {
-          "personId": "7187fa1a-8a4e-455f-b361-66f70c64846c",
-          "baseKey": "MEHMET FERİT YÜNDEMLİ",
-          "fullName": "MEHMET FERİT YÜNDEMLİ",
-          "normalizedName": "MEHMET FERİT YÜNDEMLİ",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-27T10:50:17.872Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-27T10:50:17.872Z",
-          "updatedAt": "2026-01-27T10:50:17.872Z"
-        }
-      },
-      "timestamp": "2026-01-27T10:50:17.872Z",
       "adminSession": "d10ed681-2d83-4f90-a308-440a069c8eb2"
     }
   ]
