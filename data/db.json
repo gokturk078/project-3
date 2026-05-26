@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-05-26T10:17:40.873Z"
+    "lastUpdated": "2026-05-26T10:17:58.457Z"
   },
   "taxonomy": {
     "categories": [
@@ -6408,6 +6408,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-26T10:17:40.873Z",
       "updatedAt": "2026-05-26T10:17:40.873Z"
+    },
+    {
+      "personId": "00e9c169-9d03-470f-9051-4316ddbc573b",
+      "baseKey": "TURGAY AKIN",
+      "fullName": "TURGAY AKIN",
+      "normalizedName": "TURGAY AKIN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-05-26T10:17:58.457Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-05-26T10:17:58.457Z",
+      "updatedAt": "2026-05-26T10:17:58.457Z"
     }
   ],
   "leaves": [
@@ -8520,6 +8540,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "29bb5200-00f2-4aad-9009-4eab2c8e6d52",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "00e9c169-9d03-470f-9051-4316ddbc573b",
+      "details": {
+        "person": {
+          "personId": "00e9c169-9d03-470f-9051-4316ddbc573b",
+          "baseKey": "TURGAY AKIN",
+          "fullName": "TURGAY AKIN",
+          "normalizedName": "TURGAY AKIN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-26T10:17:58.457Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-26T10:17:58.457Z",
+          "updatedAt": "2026-05-26T10:17:58.457Z"
+        }
+      },
+      "timestamp": "2026-05-26T10:17:58.457Z",
+      "adminSession": "ef50ee94-c67c-4b1b-b813-3a24cba15790"
+    },
     {
       "id": "c7698dee-a780-42cd-9a25-e3b3efba7740",
       "action": "CREATE",
@@ -42155,28 +42205,6 @@
         }
       },
       "timestamp": "2026-01-28T09:18:28.800Z",
-      "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
-    },
-    {
-      "id": "307e440f-a6d0-49ad-8eb4-b255ba379dc2",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
-      "details": {
-        "tracking": {
-          "id": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
-          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
-          "applicationNo": "120271/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:17:35.632Z",
-          "updatedAt": "2026-01-28T09:17:35.632Z"
-        }
-      },
-      "timestamp": "2026-01-28T09:17:35.632Z",
       "adminSession": "d69888fc-cfb5-4299-9b0e-e71a154c00ac"
     }
   ]
