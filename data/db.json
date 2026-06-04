@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-04T13:33:11.658Z"
+    "lastUpdated": "2026-06-04T13:33:19.461Z"
   },
   "taxonomy": {
     "categories": [
@@ -6839,12 +6839,12 @@
       "personId": "e097bd14-9505-4696-afcf-ca47bfb04675",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-29T14:35:12.538Z",
-      "updatedAt": "2026-05-11T13:06:21.257Z"
+      "updatedAt": "2026-06-04T13:33:19.461Z"
     },
     {
       "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
@@ -8576,6 +8576,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "3683364c-33be-420a-b728-a32f4854c5ef",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "cd636172-0216-4d42-842b-33667dc25809",
+      "details": {
+        "before": {
+          "id": "cd636172-0216-4d42-842b-33667dc25809",
+          "personId": "e097bd14-9505-4696-afcf-ca47bfb04675",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:12.538Z",
+          "updatedAt": "2026-05-11T13:06:21.257Z"
+        },
+        "after": {
+          "id": "cd636172-0216-4d42-842b-33667dc25809",
+          "personId": "e097bd14-9505-4696-afcf-ca47bfb04675",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:12.538Z",
+          "updatedAt": "2026-06-04T13:33:19.461Z"
+        }
+      },
+      "timestamp": "2026-06-04T13:33:19.461Z",
+      "adminSession": "42f36e74-a472-4c91-87d5-25c724610b94"
+    },
     {
       "id": "07207ad0-cb5f-4603-9878-0a01dd5b870e",
       "action": "DELETE",
@@ -42207,29 +42241,6 @@
         }
       },
       "timestamp": "2026-01-30T10:15:21.490Z",
-      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
-    },
-    {
-      "id": "4eef5aee-0d70-41f9-8653-5595aa6de550",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "463f4590-6774-43a4-a352-c96967154a8b",
-      "details": {
-        "departure": {
-          "id": "463f4590-6774-43a4-a352-c96967154a8b",
-          "personId": null,
-          "fullName": "BURAK ERDEM",
-          "category": "CAPRA",
-          "job": "",
-          "entryDate": "2025-09-12",
-          "exitDate": "2026-01-12",
-          "totalDays": 122,
-          "exitMonth": "2026-01",
-          "createdAt": "2026-01-30T08:24:09.977Z",
-          "updatedAt": "2026-01-30T08:24:09.977Z"
-        }
-      },
-      "timestamp": "2026-01-30T08:24:09.977Z",
       "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
     }
   ]
