@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-04T13:29:47.209Z"
+    "lastUpdated": "2026-06-04T13:29:55.085Z"
   },
   "taxonomy": {
     "categories": [
@@ -7079,12 +7079,12 @@
       "personId": "d37b5e6b-970e-47f0-a9a3-c12f251ba2d2",
       "applicationNo": "",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-05-26T10:18:40.200Z",
-      "updatedAt": "2026-05-26T10:18:40.200Z"
+      "updatedAt": "2026-06-04T13:29:55.085Z"
     },
     {
       "id": "31e3870b-26fb-4c17-a25a-e96497c4ca0d",
@@ -8600,6 +8600,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "cb031810-ea00-48fd-a3e2-9a1f438f70ce",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "c73692c7-9669-478b-b0ca-385b55fead41",
+      "details": {
+        "before": {
+          "id": "c73692c7-9669-478b-b0ca-385b55fead41",
+          "personId": "d37b5e6b-970e-47f0-a9a3-c12f251ba2d2",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-05-26T10:18:40.200Z",
+          "updatedAt": "2026-05-26T10:18:40.200Z"
+        },
+        "after": {
+          "id": "c73692c7-9669-478b-b0ca-385b55fead41",
+          "personId": "d37b5e6b-970e-47f0-a9a3-c12f251ba2d2",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-05-26T10:18:40.200Z",
+          "updatedAt": "2026-06-04T13:29:55.085Z"
+        }
+      },
+      "timestamp": "2026-06-04T13:29:55.085Z",
+      "adminSession": "42f36e74-a472-4c91-87d5-25c724610b94"
+    },
     {
       "id": "2f5cf631-77ca-4f41-893a-1f53b060ab5b",
       "action": "UPDATE",
@@ -42248,37 +42282,6 @@
         }
       },
       "timestamp": "2026-01-29T14:18:20.133Z",
-      "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
-    },
-    {
-      "id": "0788360b-d62d-4b94-86e0-1136f394bac7",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "0625e8e1-3a6a-4007-b5cd-8ab13ae919c8",
-      "details": {
-        "before": {
-          "id": "0625e8e1-3a6a-4007-b5cd-8ab13ae919c8",
-          "personId": "1c4ef47e-0b08-4109-aeb0-105bb32777fd",
-          "startDate": "2026-01-29",
-          "endDate": "2026-01-30",
-          "days": 2,
-          "type": "RAPOR",
-          "note": "",
-          "createdAt": "2026-01-29T12:19:57.018Z"
-        },
-        "after": {
-          "id": "0625e8e1-3a6a-4007-b5cd-8ab13ae919c8",
-          "personId": "1c4ef47e-0b08-4109-aeb0-105bb32777fd",
-          "startDate": "2026-01-29",
-          "endDate": "2026-01-30",
-          "days": 2,
-          "type": "RAPOR",
-          "note": "HASTALIK",
-          "createdAt": "2026-01-29T12:19:57.018Z",
-          "updatedAt": "2026-01-29T12:20:10.385Z"
-        }
-      },
-      "timestamp": "2026-01-29T12:20:10.386Z",
       "adminSession": "67c16d7d-eefe-4651-b5c6-f08ff30f3458"
     }
   ]
