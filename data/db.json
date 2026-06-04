@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-04T13:30:18.346Z"
+    "lastUpdated": "2026-06-04T13:30:33.699Z"
   },
   "taxonomy": {
     "categories": [
@@ -6995,12 +6995,12 @@
       "personId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
       "applicationNo": "129133/2026",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-05-06T06:31:19.010Z",
-      "updatedAt": "2026-05-20T11:52:31.217Z"
+      "updatedAt": "2026-06-04T13:30:33.699Z"
     },
     {
       "id": "2448c560-784a-4d56-9dee-deb2b60026ff",
@@ -8588,6 +8588,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "860daa72-4211-41ce-ace7-39cad58302b0",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "e301e0cd-c277-4ef0-b19f-ea393d17dbba",
+      "details": {
+        "before": {
+          "id": "e301e0cd-c277-4ef0-b19f-ea393d17dbba",
+          "personId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
+          "applicationNo": "129133/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-05-06T06:31:19.010Z",
+          "updatedAt": "2026-05-20T11:52:31.217Z"
+        },
+        "after": {
+          "id": "e301e0cd-c277-4ef0-b19f-ea393d17dbba",
+          "personId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
+          "applicationNo": "129133/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-05-06T06:31:19.010Z",
+          "updatedAt": "2026-06-04T13:30:33.699Z"
+        }
+      },
+      "timestamp": "2026-06-04T13:30:33.699Z",
+      "adminSession": "42f36e74-a472-4c91-87d5-25c724610b94"
+    },
     {
       "id": "8d55f6d3-bb55-4be6-8c77-a8046e850529",
       "action": "DELETE",
@@ -42244,36 +42278,6 @@
         }
       },
       "timestamp": "2026-01-29T15:15:22.268Z",
-      "adminSession": "99934da9-106e-4af9-a4c4-797cab1f869c"
-    },
-    {
-      "id": "3fd946c4-fdab-4588-9d13-108639f233a2",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
-      "details": {
-        "person": {
-          "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
-          "baseKey": "ERHAN NERGİZ",
-          "fullName": "ERHAN NERGİZ",
-          "normalizedName": "ERHAN NERGİZ",
-          "category": "REPSAM",
-          "role": "FORMEN",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-29T15:14:32.630Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-29T15:14:32.630Z",
-          "updatedAt": "2026-01-29T15:14:32.630Z"
-        }
-      },
-      "timestamp": "2026-01-29T15:14:32.630Z",
       "adminSession": "99934da9-106e-4af9-a4c4-797cab1f869c"
     }
   ]
