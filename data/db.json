@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-04T13:30:33.699Z"
+    "lastUpdated": "2026-06-04T13:30:45.372Z"
   },
   "taxonomy": {
     "categories": [
@@ -6971,12 +6971,12 @@
       "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
       "applicationNo": "129151/2026",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "MURAT ÜYÜR",
       "notes": "",
       "createdAt": "2026-05-06T06:29:59.318Z",
-      "updatedAt": "2026-05-06T06:29:59.318Z"
+      "updatedAt": "2026-06-04T13:30:45.372Z"
     },
     {
       "id": "6eeb48cf-47d7-4756-976e-9f4483e96406",
@@ -8588,6 +8588,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "e2171620-96c5-4146-a1ac-49f0bfb7c0b6",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "6093a189-16e0-4099-8123-cc663a9ed307",
+      "details": {
+        "before": {
+          "id": "6093a189-16e0-4099-8123-cc663a9ed307",
+          "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+          "applicationNo": "129151/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-05-06T06:29:59.318Z",
+          "updatedAt": "2026-05-06T06:29:59.318Z"
+        },
+        "after": {
+          "id": "6093a189-16e0-4099-8123-cc663a9ed307",
+          "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+          "applicationNo": "129151/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-05-06T06:29:59.318Z",
+          "updatedAt": "2026-06-04T13:30:45.372Z"
+        }
+      },
+      "timestamp": "2026-06-04T13:30:45.372Z",
+      "adminSession": "42f36e74-a472-4c91-87d5-25c724610b94"
+    },
     {
       "id": "860daa72-4211-41ce-ace7-39cad58302b0",
       "action": "UPDATE",
@@ -42256,28 +42290,6 @@
         }
       },
       "timestamp": "2026-01-29T15:28:46.116Z",
-      "adminSession": "99934da9-106e-4af9-a4c4-797cab1f869c"
-    },
-    {
-      "id": "976ae700-1d20-45e3-8f75-bc86701d758e",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "e463dab9-5408-4cf0-a898-6d77de2e8dac",
-      "details": {
-        "tracking": {
-          "id": "e463dab9-5408-4cf0-a898-6d77de2e8dac",
-          "personId": "191126a6-cfe0-4ab7-8002-a17aaa0379fd",
-          "applicationNo": "120475/2026",
-          "profession": "FORMEN",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "KAAN EREN ERKAN",
-          "notes": "",
-          "createdAt": "2026-01-29T15:15:22.268Z",
-          "updatedAt": "2026-01-29T15:15:22.268Z"
-        }
-      },
-      "timestamp": "2026-01-29T15:15:22.268Z",
       "adminSession": "99934da9-106e-4af9-a4c4-797cab1f869c"
     }
   ]
