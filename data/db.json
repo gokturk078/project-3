@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-04T13:33:24.614Z"
+    "lastUpdated": "2026-06-04T13:33:57.625Z"
   },
   "taxonomy": {
     "categories": [
@@ -7097,6 +7097,18 @@
       "notes": "",
       "createdAt": "2026-05-26T10:19:55.747Z",
       "updatedAt": "2026-06-04T13:29:32.690Z"
+    },
+    {
+      "id": "f4d7c776-b35f-45a7-aad4-40978e7a8df2",
+      "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+      "applicationNo": "",
+      "profession": "acil",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": null,
+      "contactPerson": "",
+      "notes": "",
+      "createdAt": "2026-06-04T13:33:57.625Z",
+      "updatedAt": "2026-06-04T13:33:57.625Z"
     }
   ],
   "departures": [
@@ -8564,6 +8576,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "96d3f438-5da5-497b-bfd1-cc4bda7895fd",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "f4d7c776-b35f-45a7-aad4-40978e7a8df2",
+      "details": {
+        "tracking": {
+          "id": "f4d7c776-b35f-45a7-aad4-40978e7a8df2",
+          "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+          "applicationNo": "",
+          "profession": "acil",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": null,
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-06-04T13:33:57.625Z",
+          "updatedAt": "2026-06-04T13:33:57.625Z"
+        }
+      },
+      "timestamp": "2026-06-04T13:33:57.625Z",
+      "adminSession": "42f36e74-a472-4c91-87d5-25c724610b94"
+    },
     {
       "id": "04c58e3d-f81f-463e-8684-e71f4463f5ac",
       "action": "DELETE",
@@ -42178,29 +42212,6 @@
         }
       },
       "timestamp": "2026-01-30T13:18:47.672Z",
-      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
-    },
-    {
-      "id": "632bfc5f-f5b5-4f80-aa80-e9c49695ed8e",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "55c75d55-6317-4350-ac89-d8ed716041ef",
-      "details": {
-        "departure": {
-          "id": "55c75d55-6317-4350-ac89-d8ed716041ef",
-          "personId": null,
-          "fullName": "BİRKAN YILDIZ",
-          "category": "REPSAM",
-          "job": "MİMAR",
-          "entryDate": "2025-11-12",
-          "exitDate": "2026-02-02",
-          "totalDays": 82,
-          "exitMonth": "2026-02",
-          "createdAt": "2026-01-30T10:17:13.584Z",
-          "updatedAt": "2026-01-30T10:17:13.584Z"
-        }
-      },
-      "timestamp": "2026-01-30T10:17:13.585Z",
       "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
     }
   ]
