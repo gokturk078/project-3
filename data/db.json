@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-04T13:33:19.461Z"
+    "lastUpdated": "2026-06-04T13:33:24.614Z"
   },
   "taxonomy": {
     "categories": [
@@ -6823,18 +6823,6 @@
   ],
   "tracking": [
     {
-      "id": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
-      "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
-      "applicationNo": "127767/2026",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "NEŞAT",
-      "notes": "",
-      "createdAt": "2026-04-20T12:51:18.245Z",
-      "updatedAt": "2026-05-26T09:57:05.810Z"
-    },
-    {
       "id": "cd636172-0216-4d42-842b-33667dc25809",
       "personId": "e097bd14-9505-4696-afcf-ca47bfb04675",
       "applicationNo": "",
@@ -8576,6 +8564,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "04c58e3d-f81f-463e-8684-e71f4463f5ac",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
+      "details": {
+        "tracking": {
+          "id": "39645d28-9b0d-4ae2-8f79-a9ddf310a588",
+          "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
+          "applicationNo": "127767/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-04-20T12:51:18.245Z",
+          "updatedAt": "2026-05-26T09:57:05.810Z"
+        }
+      },
+      "timestamp": "2026-06-04T13:33:24.614Z",
+      "adminSession": "42f36e74-a472-4c91-87d5-25c724610b94"
+    },
     {
       "id": "3683364c-33be-420a-b728-a32f4854c5ef",
       "action": "UPDATE",
@@ -42191,56 +42201,6 @@
         }
       },
       "timestamp": "2026-01-30T10:17:13.585Z",
-      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
-    },
-    {
-      "id": "a6b03432-60f8-4a21-9f57-526b7ed7050f",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "78108cc2-8833-4c5d-b768-f8d1fb8daa8b",
-      "details": {
-        "before": {
-          "fullName": "BİRKAN YILDIZ",
-          "normalizedName": "BIRKAN YILDIZ",
-          "baseKey": "BIRKAN YILDIZ",
-          "category": "REPSAM",
-          "role": "MİMAR",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 62
-          },
-          "mergedFrom": [],
-          "personId": "78108cc2-8833-4c5d-b768-f8d1fb8daa8b",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "BİRKAN YILDIZ",
-          "normalizedName": "BIRKAN YILDIZ",
-          "baseKey": "BIRKAN YILDIZ",
-          "category": "REPSAM",
-          "role": "MİMAR",
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "departed",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 62
-          },
-          "mergedFrom": [],
-          "personId": "78108cc2-8833-4c5d-b768-f8d1fb8daa8b",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-30T10:15:21.490Z"
-        }
-      },
-      "timestamp": "2026-01-30T10:15:21.490Z",
       "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
     }
   ]
