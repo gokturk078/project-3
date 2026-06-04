@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-04T13:31:45.865Z"
+    "lastUpdated": "2026-06-04T13:33:11.658Z"
   },
   "taxonomy": {
     "categories": [
@@ -6847,18 +6847,6 @@
       "updatedAt": "2026-05-11T13:06:21.257Z"
     },
     {
-      "id": "a217dee3-c80f-4178-80bf-ae5b914f1823",
-      "personId": "1130cfd3-7778-4573-b98a-1c24e601c855",
-      "applicationNo": "",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-04-29T14:35:37.432Z",
-      "updatedAt": "2026-05-11T13:06:14.278Z"
-    },
-    {
       "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
       "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
       "applicationNo": "",
@@ -8588,6 +8576,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "07207ad0-cb5f-4603-9878-0a01dd5b870e",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "a217dee3-c80f-4178-80bf-ae5b914f1823",
+      "details": {
+        "tracking": {
+          "id": "a217dee3-c80f-4178-80bf-ae5b914f1823",
+          "personId": "1130cfd3-7778-4573-b98a-1c24e601c855",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:37.432Z",
+          "updatedAt": "2026-05-11T13:06:14.278Z"
+        }
+      },
+      "timestamp": "2026-06-04T13:33:11.658Z",
+      "adminSession": "42f36e74-a472-4c91-87d5-25c724610b94"
+    },
     {
       "id": "cdf78f86-e90d-43e2-ad1e-8babe1b75cbb",
       "action": "UPDATE",
@@ -42220,57 +42230,6 @@
         }
       },
       "timestamp": "2026-01-30T08:24:09.977Z",
-      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
-    },
-    {
-      "id": "3987e740-a1ae-4998-b533-1db506b21f78",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-      "details": {
-        "before": {
-          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-          "baseKey": "BURAK ERDEM",
-          "fullName": "BURAK ERDEM",
-          "normalizedName": "BURAK ERDEM",
-          "category": "CAPRA",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-22T09:06:36.391Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-22T09:06:36.391Z",
-          "updatedAt": "2026-01-22T09:06:36.391Z"
-        },
-        "after": {
-          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-          "baseKey": "BURAK ERDEM",
-          "fullName": "BURAK ERDEM",
-          "normalizedName": "BURAK ERDEM",
-          "category": "CAPRA",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "departed",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-22T09:06:36.391Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-22T09:06:36.391Z",
-          "updatedAt": "2026-01-30T08:22:33.865Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-01-30T08:22:33.865Z",
       "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
     }
   ]
