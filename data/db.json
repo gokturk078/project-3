@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-04T13:31:31.928Z"
+    "lastUpdated": "2026-06-04T13:31:45.865Z"
   },
   "taxonomy": {
     "categories": [
@@ -6904,7 +6904,7 @@
       "contactPerson": "MAHSUM",
       "notes": "",
       "createdAt": "2026-04-30T06:54:04.139Z",
-      "updatedAt": "2026-06-04T13:31:31.928Z"
+      "updatedAt": "2026-06-04T13:31:45.865Z"
     },
     {
       "id": "1e2382ec-070e-481c-880a-553b59fc69c9",
@@ -8588,6 +8588,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "cdf78f86-e90d-43e2-ad1e-8babe1b75cbb",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+      "details": {
+        "before": {
+          "id": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+          "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+          "applicationNo": "128619/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MAHSUM",
+          "notes": "",
+          "createdAt": "2026-04-30T06:54:04.139Z",
+          "updatedAt": "2026-06-04T13:31:31.928Z"
+        },
+        "after": {
+          "id": "1762fd98-7bd4-4665-b04d-31f85752be4f",
+          "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+          "applicationNo": "128619/2026",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "MAHSUM",
+          "notes": "",
+          "createdAt": "2026-04-30T06:54:04.139Z",
+          "updatedAt": "2026-06-04T13:31:45.865Z"
+        }
+      },
+      "timestamp": "2026-06-04T13:31:45.865Z",
+      "adminSession": "42f36e74-a472-4c91-87d5-25c724610b94"
+    },
     {
       "id": "4c5d6533-c5c0-42d1-9e41-5d063125c10b",
       "action": "UPDATE",
@@ -42237,56 +42271,6 @@
         }
       },
       "timestamp": "2026-01-30T08:22:33.865Z",
-      "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
-    },
-    {
-      "id": "2071bed9-8390-4350-ab9f-2569fc29d59a",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "305b5400-8191-48db-8b14-7733c36a4f89",
-      "details": {
-        "before": {
-          "fullName": "İSMAİL ORUL",
-          "normalizedName": "ISMAIL ORUL",
-          "baseKey": "ISMAIL ORUL",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 27
-          },
-          "mergedFrom": [],
-          "personId": "305b5400-8191-48db-8b14-7733c36a4f89",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "İSMAİL ORUL",
-          "normalizedName": "ISMAIL ORUL",
-          "baseKey": "ISMAIL ORUL",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "departed",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 27
-          },
-          "mergedFrom": [],
-          "personId": "305b5400-8191-48db-8b14-7733c36a4f89",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-30T08:21:46.660Z"
-        }
-      },
-      "timestamp": "2026-01-30T08:21:46.660Z",
       "adminSession": "f2965661-56a6-424e-880f-50586f5e33fd"
     }
   ]
