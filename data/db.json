@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-08T10:08:17.511Z"
+    "lastUpdated": "2026-06-08T10:08:24.795Z"
   },
   "taxonomy": {
     "categories": [
@@ -6827,12 +6827,12 @@
       "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "status": "AKİT YÜKLENDİ",
       "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-04-29T14:35:59.610Z",
-      "updatedAt": "2026-05-11T13:06:07.517Z"
+      "updatedAt": "2026-06-08T10:08:24.795Z"
     },
     {
       "id": "01e47d9b-5298-4750-9392-a2254a79f14d",
@@ -8564,6 +8564,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "309228e4-233f-4c29-8a9a-65171a61061f",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
+      "details": {
+        "before": {
+          "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
+          "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:59.610Z",
+          "updatedAt": "2026-05-11T13:06:07.517Z"
+        },
+        "after": {
+          "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
+          "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:59.610Z",
+          "updatedAt": "2026-06-08T10:08:24.795Z"
+        }
+      },
+      "timestamp": "2026-06-08T10:08:24.795Z",
+      "adminSession": "4138f0c6-c8dc-4d37-b75a-991ab98f9af6"
+    },
     {
       "id": "53757118-a1d2-49fb-a405-0995696c3727",
       "action": "DELETE",
@@ -42167,27 +42201,6 @@
         }
       },
       "timestamp": "2026-01-31T06:50:21.590Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "1c7b2830-2ca2-432d-9837-135cdb772308",
-      "action": "DELETE",
-      "entityType": "leave",
-      "entityId": "9beb9492-ffb0-48d8-8551-deb4532ea4d1",
-      "details": {
-        "leave": {
-          "id": "9beb9492-ffb0-48d8-8551-deb4532ea4d1",
-          "personId": "e8a622e7-87dd-4b6b-9693-46e81418d72d",
-          "startDate": "2026-01-13",
-          "endDate": "2026-01-27",
-          "days": 15,
-          "type": "ÜCRETSİZ",
-          "note": "",
-          "createdAt": "2026-01-22T09:08:11.068Z",
-          "updatedAt": "2026-01-22T09:37:51.656Z"
-        }
-      },
-      "timestamp": "2026-01-31T06:46:01.981Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
