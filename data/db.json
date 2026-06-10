@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-10T14:08:40.158Z"
+    "lastUpdated": "2026-06-10T14:08:45.152Z"
   },
   "taxonomy": {
     "categories": [
@@ -6871,18 +6871,6 @@
       "updatedAt": "2026-06-04T13:30:45.372Z"
     },
     {
-      "id": "049e03b6-c978-4cb4-88d0-d0132202a5c3",
-      "personId": "cc40d7ea-f404-42c8-91e3-339c92111724",
-      "applicationNo": "129480/2026",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "ERCAN İŞLEK",
-      "notes": "",
-      "createdAt": "2026-05-08T07:05:45.799Z",
-      "updatedAt": "2026-05-20T11:39:40.286Z"
-    },
-    {
       "id": "4a979609-e7c1-4ba8-999e-8b0d9714e601",
       "personId": "c459e6d5-3cdb-4a60-8210-42682d17f132",
       "applicationNo": "129822/2026",
@@ -8432,6 +8420,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "82ea7527-e1a3-4e36-8712-a925b42cdfae",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "049e03b6-c978-4cb4-88d0-d0132202a5c3",
+      "details": {
+        "tracking": {
+          "id": "049e03b6-c978-4cb4-88d0-d0132202a5c3",
+          "personId": "cc40d7ea-f404-42c8-91e3-339c92111724",
+          "applicationNo": "129480/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-08T07:05:45.799Z",
+          "updatedAt": "2026-05-20T11:39:40.286Z"
+        }
+      },
+      "timestamp": "2026-06-10T14:08:45.152Z",
+      "adminSession": "5a24c937-b4b5-4824-a812-a6afe780e7b2"
+    },
     {
       "id": "1d363d21-9b71-4ace-9070-a93ba905a1c2",
       "action": "DELETE",
@@ -42004,40 +42014,6 @@
         }
       },
       "timestamp": "2026-01-31T12:23:23.028Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "c1203f36-0973-47d8-bd35-0087b43be01b",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "4713652a-775c-41b0-b0cc-b05587423fe6",
-      "details": {
-        "before": {
-          "id": "4713652a-775c-41b0-b0cc-b05587423fe6",
-          "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
-          "applicationNo": "119823/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-23T09:46:24.597Z",
-          "updatedAt": "2026-01-23T09:47:04.991Z"
-        },
-        "after": {
-          "id": "4713652a-775c-41b0-b0cc-b05587423fe6",
-          "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
-          "applicationNo": "119823/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-23T09:46:24.597Z",
-          "updatedAt": "2026-01-31T12:23:14.519Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:23:14.519Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
