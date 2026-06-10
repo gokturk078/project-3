@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-10T05:55:23.139Z"
+    "lastUpdated": "2026-06-10T14:08:10.074Z"
   },
   "taxonomy": {
     "categories": [
@@ -6847,18 +6847,6 @@
       "updatedAt": "2026-05-20T11:39:09.200Z"
     },
     {
-      "id": "1e2382ec-070e-481c-880a-553b59fc69c9",
-      "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
-      "applicationNo": "128627/2026",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "MAHSUM",
-      "notes": "",
-      "createdAt": "2026-04-30T06:55:24.033Z",
-      "updatedAt": "2026-05-26T09:57:40.444Z"
-    },
-    {
       "id": "a9bdded1-50ce-4891-838f-053e4b05bb19",
       "personId": "a96271ca-725d-41fd-8bb8-f8db7ccb14e9",
       "applicationNo": "129197/2026",
@@ -8528,6 +8516,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "f15cebef-b883-4d27-b3fa-07e39ec4e77c",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "1e2382ec-070e-481c-880a-553b59fc69c9",
+      "details": {
+        "tracking": {
+          "id": "1e2382ec-070e-481c-880a-553b59fc69c9",
+          "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+          "applicationNo": "128627/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "MAHSUM",
+          "notes": "",
+          "createdAt": "2026-04-30T06:55:24.033Z",
+          "updatedAt": "2026-05-26T09:57:40.444Z"
+        }
+      },
+      "timestamp": "2026-06-10T14:08:10.074Z",
+      "adminSession": "5a24c937-b4b5-4824-a812-a6afe780e7b2"
+    },
     {
       "id": "ded58e4c-d566-431c-a32e-2e7c5e86355f",
       "action": "DELETE",
@@ -42140,26 +42150,6 @@
         }
       },
       "timestamp": "2026-01-31T06:56:42.916Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "5d67979f-d3f6-4733-8c9e-b6ec8b9882f2",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "6887a122-d9a9-47e2-b0bd-25338a084333",
-      "details": {
-        "leave": {
-          "id": "6887a122-d9a9-47e2-b0bd-25338a084333",
-          "personId": "201a2473-39a1-4c98-976b-1deaa4976cd4",
-          "startDate": "2026-01-16",
-          "endDate": "62026-01-27",
-          "days": 21914562,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-31T06:55:34.913Z"
-        }
-      },
-      "timestamp": "2026-01-31T06:55:34.913Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
