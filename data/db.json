@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-08T10:08:36.978Z"
+    "lastUpdated": "2026-06-10T05:54:57.217Z"
   },
   "taxonomy": {
     "categories": [
@@ -6823,18 +6823,6 @@
   ],
   "tracking": [
     {
-      "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
-      "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
-      "applicationNo": "",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-04-29T14:35:59.610Z",
-      "updatedAt": "2026-06-08T10:08:24.795Z"
-    },
-    {
       "id": "01e47d9b-5298-4750-9392-a2254a79f14d",
       "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
       "applicationNo": "",
@@ -8552,6 +8540,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ceeed128-7bdc-446e-b2d0-e290b5291c50",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
+      "details": {
+        "tracking": {
+          "id": "e714b1b6-b259-4e32-88c2-c4dabfce7c96",
+          "personId": "e8a33942-685f-4598-8411-ef9f8fcf39c3",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:35:59.610Z",
+          "updatedAt": "2026-06-08T10:08:24.795Z"
+        }
+      },
+      "timestamp": "2026-06-10T05:54:57.217Z",
+      "adminSession": "06777a4c-e3b9-4e8a-9008-b5ccd574f413"
+    },
     {
       "id": "cf91d7c4-05c0-48c0-bdbc-9ebaa21d03f8",
       "action": "DELETE",
@@ -42171,26 +42181,6 @@
         }
       },
       "timestamp": "2026-01-31T06:52:41.842Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "991c1a9a-63d6-4b68-a440-c3c3e70c97ae",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "2a50fe3d-0906-4de6-9d94-55ac06b72127",
-      "details": {
-        "leave": {
-          "id": "2a50fe3d-0906-4de6-9d94-55ac06b72127",
-          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
-          "startDate": "2026-01-15",
-          "endDate": "2026-01-21",
-          "days": 7,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-31T06:51:52.321Z"
-        }
-      },
-      "timestamp": "2026-01-31T06:51:52.321Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
