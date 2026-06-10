@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-10T14:08:22.618Z"
+    "lastUpdated": "2026-06-10T14:08:27.143Z"
   },
   "taxonomy": {
     "categories": [
@@ -6871,18 +6871,6 @@
       "updatedAt": "2026-06-04T13:30:45.372Z"
     },
     {
-      "id": "6eeb48cf-47d7-4756-976e-9f4483e96406",
-      "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
-      "applicationNo": "129252/2026",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "ERCAN İŞLEK",
-      "notes": "",
-      "createdAt": "2026-05-06T06:30:48.022Z",
-      "updatedAt": "2026-05-20T11:40:27.810Z"
-    },
-    {
       "id": "e301e0cd-c277-4ef0-b19f-ea393d17dbba",
       "personId": "dbd17217-904d-4c33-9eb8-4d2a62dc2ade",
       "applicationNo": "129133/2026",
@@ -8480,6 +8468,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "b16fdaac-5407-4076-9f7b-fa77a17c366f",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "6eeb48cf-47d7-4756-976e-9f4483e96406",
+      "details": {
+        "tracking": {
+          "id": "6eeb48cf-47d7-4756-976e-9f4483e96406",
+          "personId": "40e7396b-b1cc-4afa-b7be-491cc8822e7d",
+          "applicationNo": "129252/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "ERCAN İŞLEK",
+          "notes": "",
+          "createdAt": "2026-05-06T06:30:48.022Z",
+          "updatedAt": "2026-05-20T11:40:27.810Z"
+        }
+      },
+      "timestamp": "2026-06-10T14:08:27.143Z",
+      "adminSession": "5a24c937-b4b5-4824-a812-a6afe780e7b2"
+    },
     {
       "id": "cd19246a-cbe5-4c8f-93eb-56a571693817",
       "action": "DELETE",
@@ -42100,26 +42110,6 @@
         }
       },
       "timestamp": "2026-01-31T12:22:19.139Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "723a652e-fe29-432c-8855-285cb68114ea",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "aa14e9f7-91c0-4ad4-8985-081f56ffd91b",
-      "details": {
-        "leave": {
-          "id": "aa14e9f7-91c0-4ad4-8985-081f56ffd91b",
-          "personId": "90e2e13c-8f91-48ba-a965-9fb941fa9483",
-          "startDate": "2026-01-18",
-          "endDate": "2026-02-05",
-          "days": 19,
-          "type": "ÜCRETSİZ",
-          "note": "",
-          "createdAt": "2026-01-31T08:26:07.700Z"
-        }
-      },
-      "timestamp": "2026-01-31T08:26:07.700Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
