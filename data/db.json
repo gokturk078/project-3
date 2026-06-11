@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-11T07:08:02.162Z"
+    "lastUpdated": "2026-06-11T07:08:09.772Z"
   },
   "taxonomy": {
     "categories": [
@@ -6180,7 +6180,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -6189,7 +6189,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-05-06T06:27:07.162Z",
-      "updatedAt": "2026-05-06T06:27:07.162Z"
+      "updatedAt": "2026-06-11T07:08:09.772Z",
+      "jobTitle": null
     },
     {
       "personId": "3c7fd70f-0e29-41ab-a4ec-27834f9c4529",
@@ -8423,6 +8424,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "8653a02e-1dde-401b-aa9b-f162f17a25b0",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "a96271ca-725d-41fd-8bb8-f8db7ccb14e9",
+      "details": {
+        "before": {
+          "personId": "a96271ca-725d-41fd-8bb8-f8db7ccb14e9",
+          "baseKey": "SELÇUK SARI",
+          "fullName": "SELÇUK SARI",
+          "normalizedName": "SELÇUK SARI",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:27:07.162Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:27:07.162Z",
+          "updatedAt": "2026-05-06T06:27:07.162Z"
+        },
+        "after": {
+          "personId": "a96271ca-725d-41fd-8bb8-f8db7ccb14e9",
+          "baseKey": "SELÇUK SARI",
+          "fullName": "SELÇUK SARI",
+          "normalizedName": "SELÇUK SARI",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T06:27:07.162Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T06:27:07.162Z",
+          "updatedAt": "2026-06-11T07:08:09.772Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-11T07:08:09.772Z",
+      "adminSession": "562dd069-1db3-4eb6-b473-2085cbba83d0"
+    },
     {
       "id": "52a6730d-bd73-4dce-abd1-bf6c1bf60c0f",
       "action": "UPDATE",
@@ -42068,40 +42120,6 @@
         }
       },
       "timestamp": "2026-01-31T12:25:11.943Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "ff715b9e-6e0e-4616-8f40-c94122e48d76",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "33ec7de8-d95f-466b-aaff-fa1476aa8375",
-      "details": {
-        "before": {
-          "id": "33ec7de8-d95f-466b-aaff-fa1476aa8375",
-          "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
-          "applicationNo": "120074/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:14:52.597Z",
-          "updatedAt": "2026-01-27T10:30:24.389Z"
-        },
-        "after": {
-          "id": "33ec7de8-d95f-466b-aaff-fa1476aa8375",
-          "personId": "0d51c2b7-3f19-4681-9d94-79d2932138e6",
-          "applicationNo": "120074/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:14:52.597Z",
-          "updatedAt": "2026-01-31T12:24:59.972Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:24:59.972Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
