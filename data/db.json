@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-11T07:08:18.564Z"
+    "lastUpdated": "2026-06-11T07:08:27.520Z"
   },
   "taxonomy": {
     "categories": [
@@ -6243,7 +6243,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -6252,7 +6252,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-05-08T07:04:55.147Z",
-      "updatedAt": "2026-05-08T07:04:55.147Z"
+      "updatedAt": "2026-06-11T07:08:27.520Z",
+      "jobTitle": null
     },
     {
       "personId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
@@ -8425,6 +8426,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "e6c6fb33-c8e7-41d7-aea6-196ae84848bc",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "cc40d7ea-f404-42c8-91e3-339c92111724",
+      "details": {
+        "before": {
+          "personId": "cc40d7ea-f404-42c8-91e3-339c92111724",
+          "baseKey": "NEJDET YILMAZ",
+          "fullName": "NEJDET YILMAZ",
+          "normalizedName": "NEJDET YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-08T07:04:55.147Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-08T07:04:55.147Z",
+          "updatedAt": "2026-05-08T07:04:55.147Z"
+        },
+        "after": {
+          "personId": "cc40d7ea-f404-42c8-91e3-339c92111724",
+          "baseKey": "NEJDET YILMAZ",
+          "fullName": "NEJDET YILMAZ",
+          "normalizedName": "NEJDET YILMAZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-08T07:04:55.147Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-08T07:04:55.147Z",
+          "updatedAt": "2026-06-11T07:08:27.520Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-11T07:08:27.520Z",
+      "adminSession": "562dd069-1db3-4eb6-b473-2085cbba83d0"
+    },
     {
       "id": "54e13d9d-f908-4918-8b27-ad0692548d41",
       "action": "UPDATE",
@@ -42104,40 +42156,6 @@
         }
       },
       "timestamp": "2026-01-31T12:25:35.587Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "fe5732fe-da0a-411a-9a7d-ae0f69c73f29",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "c8efac96-dddb-4dc4-a005-d0a490c81251",
-      "details": {
-        "before": {
-          "id": "c8efac96-dddb-4dc4-a005-d0a490c81251",
-          "personId": "ae422373-9bee-452b-899b-aee6273d30a5",
-          "applicationNo": "120076/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:15:33.408Z",
-          "updatedAt": "2026-01-27T10:30:17.678Z"
-        },
-        "after": {
-          "id": "c8efac96-dddb-4dc4-a005-d0a490c81251",
-          "personId": "ae422373-9bee-452b-899b-aee6273d30a5",
-          "applicationNo": "120076/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:15:33.408Z",
-          "updatedAt": "2026-01-31T12:25:23.783Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:25:23.783Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
