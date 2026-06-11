@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-11T07:08:37.996Z"
+    "lastUpdated": "2026-06-11T07:09:32.678Z"
   },
   "taxonomy": {
     "categories": [
@@ -5959,7 +5959,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5968,7 +5968,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-30T06:53:19.515Z",
-      "updatedAt": "2026-04-30T06:53:19.515Z"
+      "updatedAt": "2026-06-11T07:09:32.678Z",
+      "jobTitle": null
     },
     {
       "personId": "f4660f53-730f-4acf-872b-77db9411d30a",
@@ -8427,6 +8428,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "6cf213fa-8a29-491e-8ab5-2420b2b63b3b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+      "details": {
+        "before": {
+          "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+          "baseKey": "ALİ ÇELİK",
+          "fullName": "ALİ ÇELİK",
+          "normalizedName": "ALİ ÇELİK",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-30T06:53:19.515Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-30T06:53:19.515Z",
+          "updatedAt": "2026-04-30T06:53:19.515Z"
+        },
+        "after": {
+          "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
+          "baseKey": "ALİ ÇELİK",
+          "fullName": "ALİ ÇELİK",
+          "normalizedName": "ALİ ÇELİK",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-30T06:53:19.515Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-30T06:53:19.515Z",
+          "updatedAt": "2026-06-11T07:09:32.678Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-11T07:09:32.678Z",
+      "adminSession": "562dd069-1db3-4eb6-b473-2085cbba83d0"
+    },
     {
       "id": "95bacc2e-fa8f-4590-b8a5-cda6d33c8fe3",
       "action": "UPDATE",
@@ -42124,56 +42176,6 @@
         }
       },
       "timestamp": "2026-01-31T12:56:48.670Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "8b69ef8d-af10-4158-bf1a-507603cf2645",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "7006cdb0-183f-47b5-ae14-724b350b483a",
-      "details": {
-        "before": {
-          "fullName": "GÖKHAN YILDIZ",
-          "normalizedName": "GOKHAN YILDIZ",
-          "baseKey": "GOKHAN YILDIZ",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 22
-          },
-          "mergedFrom": [],
-          "personId": "7006cdb0-183f-47b5-ae14-724b350b483a",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "GÖKHAN YILDIZ",
-          "normalizedName": "GOKHAN YILDIZ",
-          "baseKey": "GOKHAN YILDIZ",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "departed",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "REPSAM",
-            "row": 22
-          },
-          "mergedFrom": [],
-          "personId": "7006cdb0-183f-47b5-ae14-724b350b483a",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-31T12:56:01.331Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:56:01.331Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
