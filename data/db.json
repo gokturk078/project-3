@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-11T07:07:11.261Z"
+    "lastUpdated": "2026-06-11T07:07:17.970Z"
   },
   "taxonomy": {
     "categories": [
@@ -5803,7 +5803,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-15T13:43:43.506Z",
-      "updatedAt": "2026-06-11T07:07:11.261Z",
+      "updatedAt": "2026-06-11T07:07:17.970Z",
       "jobTitle": null
     },
     {
@@ -8421,6 +8421,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "7a2edd8c-9ab7-4534-b584-9a86f3539588",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+      "details": {
+        "before": {
+          "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+          "baseKey": "RUSLAN OMİROW",
+          "fullName": "RUSLAN OMİROW",
+          "normalizedName": "RUSLAN OMİROW",
+          "category": "TÜRKMEN",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-15T13:43:43.506Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-15T13:43:43.506Z",
+          "updatedAt": "2026-06-11T07:07:11.261Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "8a05613a-ea3e-4da7-8359-43a5947836b7",
+          "baseKey": "RUSLAN OMİROW",
+          "fullName": "RUSLAN OMİROW",
+          "normalizedName": "RUSLAN OMİROW",
+          "category": "TÜRKMEN",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-15T13:43:43.506Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-15T13:43:43.506Z",
+          "updatedAt": "2026-06-11T07:07:17.970Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-11T07:07:17.970Z",
+      "adminSession": "562dd069-1db3-4eb6-b473-2085cbba83d0"
+    },
     {
       "id": "0efe6bba-36e3-48e2-b06e-4493e31b6b7d",
       "action": "UPDATE",
@@ -42014,40 +42066,6 @@
         }
       },
       "timestamp": "2026-01-31T12:24:27.317Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "d3515958-11ee-4ee5-90af-63a4b0003b9c",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "c99df087-587c-4c7f-a5db-d35ef9cc7201",
-      "details": {
-        "before": {
-          "id": "c99df087-587c-4c7f-a5db-d35ef9cc7201",
-          "personId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
-          "applicationNo": "120081/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:17:03.490Z",
-          "updatedAt": "2026-01-27T10:30:02.158Z"
-        },
-        "after": {
-          "id": "c99df087-587c-4c7f-a5db-d35ef9cc7201",
-          "personId": "5023aa37-1306-4e0a-a3ea-92524c119faf",
-          "applicationNo": "120081/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:17:03.490Z",
-          "updatedAt": "2026-01-31T12:24:14.397Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:24:14.397Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
