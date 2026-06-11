@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-10T14:08:45.152Z"
+    "lastUpdated": "2026-06-11T07:03:17.562Z"
   },
   "taxonomy": {
     "categories": [
@@ -706,7 +706,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "REPSAM",
@@ -715,7 +715,7 @@
       "mergedFrom": [],
       "personId": "2ece817a-1647-44fc-be0a-ec2e14854611",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-06-11T07:03:17.562Z"
     },
     {
       "fullName": "MEHMET KIZILKURT",
@@ -8420,6 +8420,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "6135016f-71d2-4598-a9c1-fdf194c83799",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "2ece817a-1647-44fc-be0a-ec2e14854611",
+      "details": {
+        "before": {
+          "fullName": "MEHMET ERSİN AKBABA",
+          "normalizedName": "MEHMET ERSIN AKBABA",
+          "baseKey": "MEHMET ERSIN AKBABA",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 33
+          },
+          "mergedFrom": [],
+          "personId": "2ece817a-1647-44fc-be0a-ec2e14854611",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "MEHMET ERSİN AKBABA",
+          "normalizedName": "MEHMET ERSIN AKBABA",
+          "baseKey": "MEHMET ERSIN AKBABA",
+          "category": "REPSAM",
+          "role": "MİMAR",
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "REPSAM",
+            "row": 33
+          },
+          "mergedFrom": [],
+          "personId": "2ece817a-1647-44fc-be0a-ec2e14854611",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-06-11T07:03:17.562Z"
+        }
+      },
+      "timestamp": "2026-06-11T07:03:17.562Z",
+      "adminSession": "562dd069-1db3-4eb6-b473-2085cbba83d0"
+    },
     {
       "id": "82ea7527-e1a3-4e36-8712-a925b42cdfae",
       "action": "DELETE",
@@ -41980,40 +42030,6 @@
         }
       },
       "timestamp": "2026-01-31T12:23:47.290Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "48dae740-7e2c-4bdc-9985-e91142987954",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "6cab3662-85b0-4731-8293-0063e6f6b1ff",
-      "details": {
-        "before": {
-          "id": "6cab3662-85b0-4731-8293-0063e6f6b1ff",
-          "personId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
-          "applicationNo": "119832/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-23T09:51:17.606Z",
-          "updatedAt": "2026-01-23T09:51:17.606Z"
-        },
-        "after": {
-          "id": "6cab3662-85b0-4731-8293-0063e6f6b1ff",
-          "personId": "22e9fe4f-8b56-4657-9713-d52a28fa8bd1",
-          "applicationNo": "119832/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-23T09:51:17.606Z",
-          "updatedAt": "2026-01-31T12:23:23.028Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:23:23.028Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
