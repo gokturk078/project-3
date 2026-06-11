@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-11T07:08:09.772Z"
+    "lastUpdated": "2026-06-11T07:08:18.564Z"
   },
   "taxonomy": {
     "categories": [
@@ -6222,7 +6222,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -6231,7 +6231,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-05-06T09:46:55.835Z",
-      "updatedAt": "2026-05-06T09:46:55.835Z"
+      "updatedAt": "2026-06-11T07:08:18.564Z",
+      "jobTitle": null
     },
     {
       "personId": "cc40d7ea-f404-42c8-91e3-339c92111724",
@@ -8424,6 +8425,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "54e13d9d-f908-4918-8b27-ad0692548d41",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "b57fbb96-469c-430f-8525-e5dc90f75739",
+      "details": {
+        "before": {
+          "personId": "b57fbb96-469c-430f-8525-e5dc90f75739",
+          "baseKey": "SELAHATTİN SEYMAN",
+          "fullName": "SELAHATTİN SEYMAN",
+          "normalizedName": "SELAHATTİN SEYMAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T09:46:55.835Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T09:46:55.835Z",
+          "updatedAt": "2026-05-06T09:46:55.835Z"
+        },
+        "after": {
+          "personId": "b57fbb96-469c-430f-8525-e5dc90f75739",
+          "baseKey": "SELAHATTİN SEYMAN",
+          "fullName": "SELAHATTİN SEYMAN",
+          "normalizedName": "SELAHATTİN SEYMAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-06T09:46:55.835Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-06T09:46:55.835Z",
+          "updatedAt": "2026-06-11T07:08:18.564Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-11T07:08:18.564Z",
+      "adminSession": "562dd069-1db3-4eb6-b473-2085cbba83d0"
+    },
     {
       "id": "8653a02e-1dde-401b-aa9b-f162f17a25b0",
       "action": "UPDATE",
@@ -42086,40 +42138,6 @@
         }
       },
       "timestamp": "2026-01-31T12:25:23.783Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "6004cb95-5d63-4be8-815e-7d66f13e02c6",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "7626c60a-5338-4545-9805-1763c803537b",
-      "details": {
-        "before": {
-          "id": "7626c60a-5338-4545-9805-1763c803537b",
-          "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
-          "applicationNo": "120025/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:12:31.312Z",
-          "updatedAt": "2026-01-27T10:30:50.431Z"
-        },
-        "after": {
-          "id": "7626c60a-5338-4545-9805-1763c803537b",
-          "personId": "093adcea-08a5-4352-9b47-b82b5a2248a4",
-          "applicationNo": "120025/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:12:31.312Z",
-          "updatedAt": "2026-01-31T12:25:11.943Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:25:11.943Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
