@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-11T07:08:27.520Z"
+    "lastUpdated": "2026-06-11T07:08:37.996Z"
   },
   "taxonomy": {
     "categories": [
@@ -6264,7 +6264,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -6273,7 +6273,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-05-08T08:22:18.739Z",
-      "updatedAt": "2026-05-08T08:22:18.739Z"
+      "updatedAt": "2026-06-11T07:08:37.996Z",
+      "jobTitle": null
     },
     {
       "personId": "c459e6d5-3cdb-4a60-8210-42682d17f132",
@@ -8426,6 +8427,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "95bacc2e-fa8f-4590-b8a5-cda6d33c8fe3",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
+      "details": {
+        "before": {
+          "personId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
+          "baseKey": "HİKMET KARA",
+          "fullName": "HİKMET KARA",
+          "normalizedName": "HİKMET KARA",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-08T08:22:18.739Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-08T08:22:18.739Z",
+          "updatedAt": "2026-05-08T08:22:18.739Z"
+        },
+        "after": {
+          "personId": "1ed1e47a-6dba-400f-9e99-dbeb8f394ea0",
+          "baseKey": "HİKMET KARA",
+          "fullName": "HİKMET KARA",
+          "normalizedName": "HİKMET KARA",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-05-08T08:22:18.739Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-05-08T08:22:18.739Z",
+          "updatedAt": "2026-06-11T07:08:37.996Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-11T07:08:37.996Z",
+      "adminSession": "562dd069-1db3-4eb6-b473-2085cbba83d0"
+    },
     {
       "id": "e6c6fb33-c8e7-41d7-aea6-196ae84848bc",
       "action": "UPDATE",
@@ -42122,40 +42174,6 @@
         }
       },
       "timestamp": "2026-01-31T12:56:01.331Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "9572c045-debd-4d05-8a9b-8975d7ccf570",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "db0dc2d8-a376-415e-828d-bdd8e27eaf51",
-      "details": {
-        "before": {
-          "id": "db0dc2d8-a376-415e-828d-bdd8e27eaf51",
-          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
-          "applicationNo": "120073/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:14:18.212Z",
-          "updatedAt": "2026-01-27T10:30:31.265Z"
-        },
-        "after": {
-          "id": "db0dc2d8-a376-415e-828d-bdd8e27eaf51",
-          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
-          "applicationNo": "120073/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:14:18.212Z",
-          "updatedAt": "2026-01-31T12:25:35.587Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:25:35.587Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
