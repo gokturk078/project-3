@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-11T07:07:17.970Z"
+    "lastUpdated": "2026-06-11T07:07:39.567Z"
   },
   "taxonomy": {
     "categories": [
@@ -5938,7 +5938,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5947,7 +5947,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-30T06:52:58.784Z",
-      "updatedAt": "2026-04-30T06:52:58.784Z"
+      "updatedAt": "2026-06-11T07:07:39.567Z",
+      "jobTitle": null
     },
     {
       "personId": "183e3633-fe9f-40da-ad87-d4e61934bf2c",
@@ -8421,6 +8422,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "0bb47e37-8be7-43d6-871a-eda3714347a3",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+      "details": {
+        "before": {
+          "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+          "baseKey": "MEHMET KOLAKAN",
+          "fullName": "MEHMET KOLAKAN",
+          "normalizedName": "MEHMET KOLAKAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-30T06:52:58.784Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-30T06:52:58.784Z",
+          "updatedAt": "2026-04-30T06:52:58.784Z"
+        },
+        "after": {
+          "personId": "69e00567-3b6a-4ea7-8296-13b08a9a2c30",
+          "baseKey": "MEHMET KOLAKAN",
+          "fullName": "MEHMET KOLAKAN",
+          "normalizedName": "MEHMET KOLAKAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-30T06:52:58.784Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-30T06:52:58.784Z",
+          "updatedAt": "2026-06-11T07:07:39.567Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-11T07:07:39.567Z",
+      "adminSession": "562dd069-1db3-4eb6-b473-2085cbba83d0"
+    },
     {
       "id": "7a2edd8c-9ab7-4534-b584-9a86f3539588",
       "action": "UPDATE",
@@ -42032,40 +42084,6 @@
         }
       },
       "timestamp": "2026-01-31T12:24:45.584Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "fa6d3124-3532-49d7-b6ca-3479cbfba427",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "7fd75add-f01e-49bc-b4b4-453ed30ae8c4",
-      "details": {
-        "before": {
-          "id": "7fd75add-f01e-49bc-b4b4-453ed30ae8c4",
-          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
-          "applicationNo": "119986/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:57.460Z",
-          "updatedAt": "2026-01-27T10:30:57.108Z"
-        },
-        "after": {
-          "id": "7fd75add-f01e-49bc-b4b4-453ed30ae8c4",
-          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
-          "applicationNo": "119986/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:57.460Z",
-          "updatedAt": "2026-01-31T12:24:27.317Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:24:27.317Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
