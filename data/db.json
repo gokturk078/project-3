@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:49:27.673Z"
+    "lastUpdated": "2026-06-13T09:49:41.060Z"
   },
   "taxonomy": {
     "categories": [
@@ -4020,7 +4020,7 @@
       "category": "REPSAM",
       "role": null,
       "jobTitle": "117470/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "departed",
       "sources": [
@@ -4039,7 +4039,7 @@
         "contactPerson": "İSG (İŞÇİ)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-04-25T08:20:59.479Z"
+      "updatedAt": "2026-06-13T09:49:41.060Z"
     },
     {
       "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "af91c2fd-4a1d-40a5-b0f0-6b31e2948ac0",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "ea679478-0826-4468-9be1-e8081993dc5a",
+      "details": {
+        "before": {
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "baseKey": "SERHAT IS",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117470/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 22
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117470/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG (İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-04-25T08:20:59.479Z"
+        },
+        "after": {
+          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
+          "baseKey": "SERHAT IS",
+          "fullName": "SERHAT İŞ",
+          "normalizedName": "SERHAT IS",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117470/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 22
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117470/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "İSG (İŞÇİ)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:49:41.060Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:49:41.060Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "0e9983ab-3dee-43ac-8230-32046ec92a0b",
       "action": "UPDATE",
@@ -42577,40 +42645,6 @@
         }
       },
       "timestamp": "2026-02-07T08:29:12.503Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "f2a9f04b-bd0b-42a8-9344-6870f442369d",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ca9e8f18-4768-4a55-9fc8-6b150789ee10",
-      "details": {
-        "before": {
-          "id": "ca9e8f18-4768-4a55-9fc8-6b150789ee10",
-          "personId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
-          "applicationNo": "120278/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:19:26.613Z",
-          "updatedAt": "2026-01-31T13:54:34.679Z"
-        },
-        "after": {
-          "id": "ca9e8f18-4768-4a55-9fc8-6b150789ee10",
-          "personId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
-          "applicationNo": "120278/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:19:26.613Z",
-          "updatedAt": "2026-02-07T08:29:06.738Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:29:06.738Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
