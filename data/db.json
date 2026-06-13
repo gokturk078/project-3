@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:12:14.817Z"
+    "lastUpdated": "2026-06-13T08:12:36.198Z"
   },
   "taxonomy": {
     "categories": [
@@ -6617,6 +6617,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:12:14.817Z",
       "updatedAt": "2026-06-13T08:12:14.817Z"
+    },
+    {
+      "personId": "7b067569-90aa-48ad-8873-e40621b16e3f",
+      "baseKey": "YILDIZAY ARSLAN",
+      "fullName": "YILDIZAY ARSLAN",
+      "normalizedName": "YILDIZAY ARSLAN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:12:36.197Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:12:36.197Z",
+      "updatedAt": "2026-06-13T08:12:36.197Z"
     }
   ],
   "leaves": [
@@ -8609,6 +8629,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e0cbaba9-98cc-4c31-a4b2-8cc693200c23",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "7b067569-90aa-48ad-8873-e40621b16e3f",
+      "details": {
+        "person": {
+          "personId": "7b067569-90aa-48ad-8873-e40621b16e3f",
+          "baseKey": "YILDIZAY ARSLAN",
+          "fullName": "YILDIZAY ARSLAN",
+          "normalizedName": "YILDIZAY ARSLAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:12:36.197Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:12:36.197Z",
+          "updatedAt": "2026-06-13T08:12:36.197Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:12:36.198Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "c0f901e0-7102-4013-9004-0c1b68afa309",
       "action": "CREATE",
@@ -42287,54 +42337,6 @@
         }
       },
       "timestamp": "2026-01-31T14:57:17.996Z",
-      "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
-    },
-    {
-      "id": "db4e6384-089b-4671-b60f-d4589e31d591",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-      "details": {
-        "before": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-21T15:26:36.904Z"
-        },
-        "after": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-31T14:57:10.503Z"
-        }
-      },
-      "timestamp": "2026-01-31T14:57:10.503Z",
       "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
     }
   ]
