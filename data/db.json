@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:11:53.620Z"
+    "lastUpdated": "2026-06-13T08:12:14.817Z"
   },
   "taxonomy": {
     "categories": [
@@ -6597,6 +6597,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:11:53.620Z",
       "updatedAt": "2026-06-13T08:11:53.620Z"
+    },
+    {
+      "personId": "a1b2ff96-3380-4fc1-9ab1-b6faf1a9d343",
+      "baseKey": "DOĞAN KORKUTAN",
+      "fullName": "DOĞAN KORKUTAN",
+      "normalizedName": "DOĞAN KORKUTAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:12:14.817Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:12:14.817Z",
+      "updatedAt": "2026-06-13T08:12:14.817Z"
     }
   ],
   "leaves": [
@@ -8589,6 +8609,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "c0f901e0-7102-4013-9004-0c1b68afa309",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "a1b2ff96-3380-4fc1-9ab1-b6faf1a9d343",
+      "details": {
+        "person": {
+          "personId": "a1b2ff96-3380-4fc1-9ab1-b6faf1a9d343",
+          "baseKey": "DOĞAN KORKUTAN",
+          "fullName": "DOĞAN KORKUTAN",
+          "normalizedName": "DOĞAN KORKUTAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:12:14.817Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:12:14.817Z",
+          "updatedAt": "2026-06-13T08:12:14.817Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:12:14.817Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "ee99340b-3e94-4a7a-8d72-b3808484e361",
       "action": "CREATE",
@@ -42285,54 +42335,6 @@
         }
       },
       "timestamp": "2026-01-31T14:57:10.503Z",
-      "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
-    },
-    {
-      "id": "c1a3d2f5-b94f-4e77-8e9c-e157914ac403",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-      "details": {
-        "before": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "updatedAt": "2026-01-31T14:56:48.440Z"
-        },
-        "after": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "updatedAt": "2026-01-31T14:57:03.260Z"
-        }
-      },
-      "timestamp": "2026-01-31T14:57:03.260Z",
       "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
     }
   ]
