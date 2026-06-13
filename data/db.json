@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:44:53.948Z"
+    "lastUpdated": "2026-06-13T09:46:22.330Z"
   },
   "taxonomy": {
     "categories": [
@@ -3701,7 +3701,7 @@
       "category": "KALMES",
       "role": null,
       "jobTitle": "115652/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -3720,7 +3720,7 @@
         "contactPerson": "MESUT"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-02T07:34:10.806Z"
+      "updatedAt": "2026-06-13T09:46:22.330Z"
     },
     {
       "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "b067e4fc-b586-4425-937b-d3cad12facd5",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "37d42596-a665-48ed-8158-1299397d70e6",
+      "details": {
+        "before": {
+          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
+          "baseKey": "OGUN KARBUZ",
+          "fullName": "OGÜN KARBUZ",
+          "normalizedName": "OGUN KARBUZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "115652/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 7
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115652/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-02T07:34:10.806Z"
+        },
+        "after": {
+          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
+          "baseKey": "OGUN KARBUZ",
+          "fullName": "OGÜN KARBUZ",
+          "normalizedName": "OGUN KARBUZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": "115652/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 7
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115652/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-18",
+            "contactPerson": "MESUT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:46:22.330Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:46:22.330Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "f21c694a-1066-466f-8da1-a844e3d215da",
       "action": "CREATE",
@@ -42242,40 +42310,6 @@
         }
       },
       "timestamp": "2026-02-06T06:26:48.004Z",
-      "adminSession": "3594fe4d-076a-477a-8ce4-85a710f10416"
-    },
-    {
-      "id": "60442050-3c32-44c3-9a40-ad93fc479e29",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "fb6095b1-5912-487f-8a86-afcbea7a3d46",
-      "details": {
-        "before": {
-          "id": "fb6095b1-5912-487f-8a86-afcbea7a3d46",
-          "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
-          "applicationNo": "120612/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-02-02",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-02-02T08:56:41.586Z",
-          "updatedAt": "2026-02-02T08:56:58.970Z"
-        },
-        "after": {
-          "id": "fb6095b1-5912-487f-8a86-afcbea7a3d46",
-          "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
-          "applicationNo": "120612/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-02-02",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-02-02T08:56:41.586Z",
-          "updatedAt": "2026-02-06T06:26:17.866Z"
-        }
-      },
-      "timestamp": "2026-02-06T06:26:17.866Z",
       "adminSession": "3594fe4d-076a-477a-8ce4-85a710f10416"
     }
   ]
