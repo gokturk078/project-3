@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:16:44.516Z"
+    "lastUpdated": "2026-06-13T08:17:06.663Z"
   },
   "taxonomy": {
     "categories": [
@@ -7330,6 +7330,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:16:44.516Z",
       "updatedAt": "2026-06-13T08:16:44.516Z"
+    },
+    {
+      "id": "d2aa8d5d-84ae-4f7e-95d0-d8aa367898d1",
+      "personId": "903e872b-b05e-4326-83dc-9e0d4463bcee",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "NEŞAT",
+      "notes": "",
+      "createdAt": "2026-06-13T08:17:06.663Z",
+      "updatedAt": "2026-06-13T08:17:06.663Z"
     }
   ],
   "departures": [
@@ -8797,6 +8809,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "0728689b-6245-4ebf-957a-b7cfab88eea7",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "d2aa8d5d-84ae-4f7e-95d0-d8aa367898d1",
+      "details": {
+        "tracking": {
+          "id": "d2aa8d5d-84ae-4f7e-95d0-d8aa367898d1",
+          "personId": "903e872b-b05e-4326-83dc-9e0d4463bcee",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "NEŞAT",
+          "notes": "",
+          "createdAt": "2026-06-13T08:17:06.663Z",
+          "updatedAt": "2026-06-13T08:17:06.663Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:17:06.663Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "04db4c0a-7727-4e2e-bf11-69413d4f7401",
       "action": "CREATE",
@@ -42250,35 +42284,6 @@
         }
       },
       "timestamp": "2026-02-02T07:36:17.085Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "f19b3018-f38a-4528-a694-4e489c43d735",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-      "details": {
-        "tracking": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-          "updatedAt": "2026-01-31T14:57:27.903Z"
-        }
-      },
-      "timestamp": "2026-02-02T07:36:04.397Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
