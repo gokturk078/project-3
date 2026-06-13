@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:13:15.693Z"
+    "lastUpdated": "2026-06-13T08:13:40.436Z"
   },
   "taxonomy": {
     "categories": [
@@ -6677,6 +6677,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:13:15.693Z",
       "updatedAt": "2026-06-13T08:13:15.693Z"
+    },
+    {
+      "personId": "957e6fa2-84b4-4c66-b25c-2ec22be534ac",
+      "baseKey": "MUHAMMED KADİR",
+      "fullName": "MUHAMMED KADİR",
+      "normalizedName": "MUHAMMED KADİR",
+      "category": "REPSAM",
+      "role": "OFİS PERSONELİ",
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:13:40.436Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:13:40.436Z",
+      "updatedAt": "2026-06-13T08:13:40.436Z"
     }
   ],
   "leaves": [
@@ -8669,6 +8689,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "a31362c9-6553-4896-bd40-948317692386",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "957e6fa2-84b4-4c66-b25c-2ec22be534ac",
+      "details": {
+        "person": {
+          "personId": "957e6fa2-84b4-4c66-b25c-2ec22be534ac",
+          "baseKey": "MUHAMMED KADİR",
+          "fullName": "MUHAMMED KADİR",
+          "normalizedName": "MUHAMMED KADİR",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:13:40.436Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:13:40.436Z",
+          "updatedAt": "2026-06-13T08:13:40.436Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:13:40.436Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "bbeefb2e-0afd-4d98-8531-102624cbe833",
       "action": "CREATE",
@@ -42307,40 +42357,6 @@
         }
       },
       "timestamp": "2026-01-31T14:57:57.476Z",
-      "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
-    },
-    {
-      "id": "6cefca76-b4d2-401d-b909-b5ae1e5be529",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "b1010c12-f6c8-411f-9561-5bbdc929d311",
-      "details": {
-        "before": {
-          "id": "b1010c12-f6c8-411f-9561-5bbdc929d311",
-          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-          "applicationNo": "119223/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:15:45.447Z",
-          "updatedAt": "2026-01-31T13:11:01.756Z"
-        },
-        "after": {
-          "id": "b1010c12-f6c8-411f-9561-5bbdc929d311",
-          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-          "applicationNo": "119223/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:15:45.447Z",
-          "updatedAt": "2026-01-31T14:57:44.354Z"
-        }
-      },
-      "timestamp": "2026-01-31T14:57:44.354Z",
       "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
     }
   ]
