@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:07:20.659Z"
+    "lastUpdated": "2026-06-13T08:08:41.750Z"
   },
   "taxonomy": {
     "categories": [
@@ -6437,6 +6437,26 @@
       "mergedFrom": [],
       "createdAt": "2026-05-26T10:17:58.457Z",
       "updatedAt": "2026-05-26T10:17:58.457Z"
+    },
+    {
+      "personId": "1b7d6b9c-4a42-48b3-9b16-70d8d941da32",
+      "baseKey": "AHMET SATICI",
+      "fullName": "AHMET SATICI",
+      "normalizedName": "AHMET SATICI",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:08:41.750Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:08:41.750Z",
+      "updatedAt": "2026-06-13T08:08:41.750Z"
     }
   ],
   "leaves": [
@@ -8429,6 +8449,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "dc2578f0-9464-4fb4-acf8-523845031641",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "1b7d6b9c-4a42-48b3-9b16-70d8d941da32",
+      "details": {
+        "person": {
+          "personId": "1b7d6b9c-4a42-48b3-9b16-70d8d941da32",
+          "baseKey": "AHMET SATICI",
+          "fullName": "AHMET SATICI",
+          "normalizedName": "AHMET SATICI",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:08:41.750Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:08:41.750Z",
+          "updatedAt": "2026-06-13T08:08:41.750Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:08:41.750Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "51b0ac51-2543-4104-a02e-ed6ce0abdd10",
       "action": "UPDATE",
@@ -42185,40 +42235,6 @@
         }
       },
       "timestamp": "2026-01-31T13:52:55.041Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "6402b08a-3e9a-4fdf-b602-9c2801371705",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "b1010c12-f6c8-411f-9561-5bbdc929d311",
-      "details": {
-        "before": {
-          "id": "b1010c12-f6c8-411f-9561-5bbdc929d311",
-          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-          "applicationNo": "119223/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:15:45.447Z",
-          "updatedAt": "2026-01-26T09:35:44.774Z"
-        },
-        "after": {
-          "id": "b1010c12-f6c8-411f-9561-5bbdc929d311",
-          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-          "applicationNo": "119223/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:15:45.447Z",
-          "updatedAt": "2026-01-31T13:11:01.756Z"
-        }
-      },
-      "timestamp": "2026-01-31T13:11:01.756Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
