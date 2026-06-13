@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:09:08.424Z"
+    "lastUpdated": "2026-06-13T08:09:36.831Z"
   },
   "taxonomy": {
     "categories": [
@@ -6477,6 +6477,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:09:08.424Z",
       "updatedAt": "2026-06-13T08:09:08.424Z"
+    },
+    {
+      "personId": "a4ef7512-b62f-41d2-9eab-88a503e9dd51",
+      "baseKey": "SİNAN KARABAĞ",
+      "fullName": "SİNAN KARABAĞ",
+      "normalizedName": "SİNAN KARABAĞ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:09:36.830Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:09:36.830Z",
+      "updatedAt": "2026-06-13T08:09:36.830Z"
     }
   ],
   "leaves": [
@@ -8469,6 +8489,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "dd0fbd58-a104-464e-8f58-ad66b9e639e6",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "a4ef7512-b62f-41d2-9eab-88a503e9dd51",
+      "details": {
+        "person": {
+          "personId": "a4ef7512-b62f-41d2-9eab-88a503e9dd51",
+          "baseKey": "SİNAN KARABAĞ",
+          "fullName": "SİNAN KARABAĞ",
+          "normalizedName": "SİNAN KARABAĞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:09:36.830Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:09:36.830Z",
+          "updatedAt": "2026-06-13T08:09:36.830Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:09:36.831Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "26fdff75-d4e6-4e39-bdf4-bd3c3d7e75ed",
       "action": "CREATE",
@@ -42217,40 +42267,6 @@
         }
       },
       "timestamp": "2026-01-31T13:54:21.458Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "3dc36cfa-4d46-4124-9cd9-903f6dc644a6",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "6c54f249-b997-4387-84ea-68be7164e33f",
-      "details": {
-        "before": {
-          "id": "6c54f249-b997-4387-84ea-68be7164e33f",
-          "personId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
-          "applicationNo": "120274/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:18:28.800Z",
-          "updatedAt": "2026-01-28T09:18:28.800Z"
-        },
-        "after": {
-          "id": "6c54f249-b997-4387-84ea-68be7164e33f",
-          "personId": "06cc5eb6-2a84-4bbd-a98a-9636d8aee905",
-          "applicationNo": "120274/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:18:28.800Z",
-          "updatedAt": "2026-01-31T13:54:08.638Z"
-        }
-      },
-      "timestamp": "2026-01-31T13:54:08.638Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
