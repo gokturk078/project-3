@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:25:01.118Z"
+    "lastUpdated": "2026-06-13T08:25:42.862Z"
   },
   "taxonomy": {
     "categories": [
@@ -7499,13 +7499,13 @@
       "id": "4fe65114-f3de-473d-8661-89d80a850eb5",
       "personId": "309df1ba-e44a-4fa3-851f-305bb674176d",
       "applicationNo": "",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "profession": "TEMİNAT YATIRILICAK",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": "",
       "contactPerson": "TÜRKMEN",
       "notes": "",
       "createdAt": "2026-06-13T08:25:01.118Z",
-      "updatedAt": "2026-06-13T08:25:01.118Z"
+      "updatedAt": "2026-06-13T08:25:42.862Z"
     }
   ],
   "departures": [
@@ -8973,6 +8973,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "22f7b3b1-97be-48ad-9dc5-48b4c038f96a",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "4fe65114-f3de-473d-8661-89d80a850eb5",
+      "details": {
+        "before": {
+          "id": "4fe65114-f3de-473d-8661-89d80a850eb5",
+          "personId": "309df1ba-e44a-4fa3-851f-305bb674176d",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "TÜRKMEN",
+          "notes": "",
+          "createdAt": "2026-06-13T08:25:01.118Z",
+          "updatedAt": "2026-06-13T08:25:01.118Z"
+        },
+        "after": {
+          "id": "4fe65114-f3de-473d-8661-89d80a850eb5",
+          "personId": "309df1ba-e44a-4fa3-851f-305bb674176d",
+          "applicationNo": "",
+          "profession": "TEMİNAT YATIRILICAK",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": "",
+          "contactPerson": "TÜRKMEN",
+          "notes": "",
+          "createdAt": "2026-06-13T08:25:01.118Z",
+          "updatedAt": "2026-06-13T08:25:42.862Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:25:42.862Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "5519f092-39e7-4aac-82f8-e362805638a6",
       "action": "CREATE",
@@ -42260,57 +42294,6 @@
         }
       },
       "timestamp": "2026-02-03T09:20:38.543Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "8c6c2355-7065-4964-b995-97cc6e81c08f",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
-      "details": {
-        "before": {
-          "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
-          "baseKey": "EMRAH KARBUZ",
-          "fullName": "EMRAH KARBUZ",
-          "normalizedName": "EMRAH KARBUZ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:07:08.513Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:07:08.513Z",
-          "updatedAt": "2026-01-19T07:07:08.513Z"
-        },
-        "after": {
-          "personId": "caa67b2c-cdc9-4a1c-a029-5c33dbcd5760",
-          "baseKey": "EMRAH KARBUZ",
-          "fullName": "EMRAH KARBUZ",
-          "normalizedName": "EMRAH KARBUZ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:07:08.513Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:07:08.513Z",
-          "updatedAt": "2026-02-03T09:20:01.079Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-03T09:20:01.079Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
