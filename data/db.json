@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:50:09.418Z"
+    "lastUpdated": "2026-06-13T09:50:28.668Z"
   },
   "taxonomy": {
     "categories": [
@@ -5786,7 +5786,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "pending",
+      "status": "active",
       "sources": [
         {
           "type": "manual",
@@ -5795,7 +5795,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-04-20T12:50:25.843Z",
-      "updatedAt": "2026-04-20T12:50:25.843Z"
+      "updatedAt": "2026-06-13T09:50:28.667Z",
+      "jobTitle": null
     },
     {
       "personId": "dd39f763-a310-4fc9-8ca2-b78adea38deb",
@@ -9231,6 +9232,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "eccdc721-2991-405f-860c-88350350e482",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
+      "details": {
+        "before": {
+          "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
+          "baseKey": "HÜSEYİN İŞÇİOĞLU",
+          "fullName": "HÜSEYİN İŞÇİOĞLU",
+          "normalizedName": "HÜSEYİN İŞÇİOĞLU",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-20T12:50:25.843Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-20T12:50:25.843Z",
+          "updatedAt": "2026-04-20T12:50:25.843Z"
+        },
+        "after": {
+          "personId": "0821b609-004b-4a43-8e74-d60cbfd3b168",
+          "baseKey": "HÜSEYİN İŞÇİOĞLU",
+          "fullName": "HÜSEYİN İŞÇİOĞLU",
+          "normalizedName": "HÜSEYİN İŞÇİOĞLU",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-04-20T12:50:25.843Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-04-20T12:50:25.843Z",
+          "updatedAt": "2026-06-13T09:50:28.667Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-13T09:50:28.668Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "f02129af-f447-4ec8-a059-37dcd3c601aa",
       "action": "UPDATE",
@@ -42679,40 +42731,6 @@
         }
       },
       "timestamp": "2026-02-07T08:29:28.656Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "833f00e5-0562-48c9-8170-0b292af07cfe",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "368030aa-7a20-4c86-9c48-441503ceac00",
-      "details": {
-        "before": {
-          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
-          "personId": "40e8b757-5829-4970-9818-8581db704eba",
-          "applicationNo": "120260/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:16:39.919Z",
-          "updatedAt": "2026-01-31T13:54:57.009Z"
-        },
-        "after": {
-          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
-          "personId": "40e8b757-5829-4970-9818-8581db704eba",
-          "applicationNo": "120260/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:16:39.919Z",
-          "updatedAt": "2026-02-07T08:29:23.511Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:29:23.511Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
