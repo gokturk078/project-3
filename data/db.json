@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:11:10.744Z"
+    "lastUpdated": "2026-06-13T08:11:31.208Z"
   },
   "taxonomy": {
     "categories": [
@@ -6557,6 +6557,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:11:10.744Z",
       "updatedAt": "2026-06-13T08:11:10.744Z"
+    },
+    {
+      "personId": "86a1648a-fed8-455d-ac09-a66dde94fdb7",
+      "baseKey": "FERİDUN GÖRMÜŞ",
+      "fullName": "FERİDUN GÖRMÜŞ",
+      "normalizedName": "FERİDUN GÖRMÜŞ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:11:31.208Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:11:31.208Z",
+      "updatedAt": "2026-06-13T08:11:31.208Z"
     }
   ],
   "leaves": [
@@ -8549,6 +8569,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "5a9af272-d113-4972-a4ff-3bf3ac3bcd53",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "86a1648a-fed8-455d-ac09-a66dde94fdb7",
+      "details": {
+        "person": {
+          "personId": "86a1648a-fed8-455d-ac09-a66dde94fdb7",
+          "baseKey": "FERİDUN GÖRMÜŞ",
+          "fullName": "FERİDUN GÖRMÜŞ",
+          "normalizedName": "FERİDUN GÖRMÜŞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:11:31.208Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:11:31.208Z",
+          "updatedAt": "2026-06-13T08:11:31.208Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:11:31.208Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "bd2d9a04-30eb-4d06-a529-54822f45360c",
       "action": "CREATE",
@@ -42282,40 +42332,6 @@
       },
       "timestamp": "2026-01-31T14:56:48.440Z",
       "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
-    },
-    {
-      "id": "69a96b92-cbfa-4054-83ab-4f41fb1a4ab5",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "368030aa-7a20-4c86-9c48-441503ceac00",
-      "details": {
-        "before": {
-          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
-          "personId": "40e8b757-5829-4970-9818-8581db704eba",
-          "applicationNo": "120260/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:16:39.919Z",
-          "updatedAt": "2026-01-28T09:16:39.919Z"
-        },
-        "after": {
-          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
-          "personId": "40e8b757-5829-4970-9818-8581db704eba",
-          "applicationNo": "120260/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:16:39.919Z",
-          "updatedAt": "2026-01-31T13:54:57.009Z"
-        }
-      },
-      "timestamp": "2026-01-31T13:54:57.009Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
 }
