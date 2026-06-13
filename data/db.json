@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:39:10.759Z"
+    "lastUpdated": "2026-06-13T08:40:01.679Z"
   },
   "taxonomy": {
     "categories": [
@@ -9127,6 +9127,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:39:10.759Z",
       "updatedAt": "2026-06-13T08:39:10.759Z"
+    },
+    {
+      "id": "76585117-e9c3-45a1-816c-df3d5036a7ad",
+      "personId": null,
+      "fullName": "VEYSEL AKDEMİR",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2026-03-06",
+      "exitDate": "2026-05-22",
+      "totalDays": 77,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:40:01.679Z",
+      "updatedAt": "2026-06-13T08:40:01.679Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9149,6 +9162,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "67f139d0-4bb1-43ff-9f2d-bf9eac7cee3f",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "76585117-e9c3-45a1-816c-df3d5036a7ad",
+      "details": {
+        "departure": {
+          "id": "76585117-e9c3-45a1-816c-df3d5036a7ad",
+          "personId": null,
+          "fullName": "VEYSEL AKDEMİR",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2026-03-06",
+          "exitDate": "2026-05-22",
+          "totalDays": 77,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:40:01.679Z",
+          "updatedAt": "2026-06-13T08:40:01.679Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:40:01.679Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "455c64ab-d37d-46b7-902f-305b48cac86b",
       "action": "CREATE",
@@ -42265,40 +42301,6 @@
         }
       },
       "timestamp": "2026-02-04T14:32:01.152Z",
-      "adminSession": "9cf3e273-7eb4-4da2-bd6a-71f5ea447378"
-    },
-    {
-      "id": "86bca6c8-da14-400b-a88b-d29aeb4a3a33",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-      "details": {
-        "before": {
-          "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "applicationNo": "119258/2026",
-          "profession": "MİMAR",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:17:39.679Z",
-          "updatedAt": "2026-01-19T15:57:11.223Z"
-        },
-        "after": {
-          "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "applicationNo": "119258/2026",
-          "profession": "MİMAR",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:17:39.679Z",
-          "updatedAt": "2026-02-04T11:46:23.440Z"
-        }
-      },
-      "timestamp": "2026-02-04T11:46:23.440Z",
       "adminSession": "9cf3e273-7eb4-4da2-bd6a-71f5ea447378"
     }
   ]
