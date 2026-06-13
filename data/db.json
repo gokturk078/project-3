@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:56:13.231Z"
+    "lastUpdated": "2026-06-13T09:56:24.319Z"
   },
   "taxonomy": {
     "categories": [
@@ -7206,10 +7206,10 @@
       "profession": "",
       "status": "SAĞLIĞA SEVK EDİLECEK",
       "expectedDate": "",
-      "contactPerson": "MURAT ÜYÜR",
+      "contactPerson": "REPSAM",
       "notes": "",
       "createdAt": "2026-05-06T06:29:59.318Z",
-      "updatedAt": "2026-06-04T13:30:45.372Z"
+      "updatedAt": "2026-06-13T09:56:24.319Z"
     },
     {
       "id": "4a979609-e7c1-4ba8-999e-8b0d9714e601",
@@ -9232,6 +9232,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "ff3b787c-6c38-4181-9ede-3858d91be1f1",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "6093a189-16e0-4099-8123-cc663a9ed307",
+      "details": {
+        "before": {
+          "id": "6093a189-16e0-4099-8123-cc663a9ed307",
+          "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+          "applicationNo": "129151/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "MURAT ÜYÜR",
+          "notes": "",
+          "createdAt": "2026-05-06T06:29:59.318Z",
+          "updatedAt": "2026-06-04T13:30:45.372Z"
+        },
+        "after": {
+          "id": "6093a189-16e0-4099-8123-cc663a9ed307",
+          "personId": "48603e2a-4829-4d8b-8225-3a0d75130cf6",
+          "applicationNo": "129151/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-05-06T06:29:59.318Z",
+          "updatedAt": "2026-06-13T09:56:24.319Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:56:24.319Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "86467fc9-3423-4dc6-b2fc-4ad8ea3ae4a0",
       "action": "UPDATE",
@@ -42697,40 +42731,6 @@
         }
       },
       "timestamp": "2026-02-07T08:29:44.106Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "346ac6d2-4d66-4d78-a24b-292f69febed6",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "3deae328-7ab9-450e-8fd7-6813a6ade1e8",
-      "details": {
-        "before": {
-          "id": "3deae328-7ab9-450e-8fd7-6813a6ade1e8",
-          "personId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
-          "applicationNo": "120115/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:56:53.852Z",
-          "updatedAt": "2026-01-29T06:32:07.745Z"
-        },
-        "after": {
-          "id": "3deae328-7ab9-450e-8fd7-6813a6ade1e8",
-          "personId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
-          "applicationNo": "120115/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:56:53.852Z",
-          "updatedAt": "2026-02-07T08:29:35.116Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:29:35.116Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
