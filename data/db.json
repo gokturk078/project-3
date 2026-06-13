@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:34:57.246Z"
+    "lastUpdated": "2026-06-13T08:35:59.721Z"
   },
   "taxonomy": {
     "categories": [
@@ -9062,6 +9062,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:34:57.246Z",
       "updatedAt": "2026-06-13T08:34:57.246Z"
+    },
+    {
+      "id": "ca581817-2568-4730-82a1-2528dc39a31d",
+      "personId": null,
+      "fullName": "MAHMUT YÜNDEMLİ",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-01-31",
+      "exitDate": "2026-05-10",
+      "totalDays": 99,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:35:59.721Z",
+      "updatedAt": "2026-06-13T08:35:59.721Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9084,6 +9097,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "2d5c5ef4-2a9d-4ae4-9dea-f5dbf56b03e6",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "ca581817-2568-4730-82a1-2528dc39a31d",
+      "details": {
+        "departure": {
+          "id": "ca581817-2568-4730-82a1-2528dc39a31d",
+          "personId": null,
+          "fullName": "MAHMUT YÜNDEMLİ",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-01-31",
+          "exitDate": "2026-05-10",
+          "totalDays": 99,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:35:59.721Z",
+          "updatedAt": "2026-06-13T08:35:59.721Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:35:59.721Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "ecea2dfc-21fb-4dad-91f3-7286e39a20e1",
       "action": "CREATE",
@@ -42255,40 +42291,6 @@
         }
       },
       "timestamp": "2026-02-03T12:01:43.809Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "0d8e21db-1d94-4081-8f24-55fefd76d168",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-      "details": {
-        "before": {
-          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
-          "applicationNo": "119236/2026",
-          "profession": "İinşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:02.995Z",
-          "updatedAt": "2026-02-03T10:11:28.277Z"
-        },
-        "after": {
-          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
-          "applicationNo": "119236/2026",
-          "profession": "İinşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:02.995Z",
-          "updatedAt": "2026-02-03T12:01:37.349Z"
-        }
-      },
-      "timestamp": "2026-02-03T12:01:37.349Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
