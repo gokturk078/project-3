@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:11:31.208Z"
+    "lastUpdated": "2026-06-13T08:11:53.620Z"
   },
   "taxonomy": {
     "categories": [
@@ -6577,6 +6577,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:11:31.208Z",
       "updatedAt": "2026-06-13T08:11:31.208Z"
+    },
+    {
+      "personId": "97db92a1-43b4-4024-9de3-8bff9dbfd9bc",
+      "baseKey": "YUNUS TIĞIZ",
+      "fullName": "YUNUS TIĞIZ",
+      "normalizedName": "YUNUS TIĞIZ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:11:53.620Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:11:53.620Z",
+      "updatedAt": "2026-06-13T08:11:53.620Z"
     }
   ],
   "leaves": [
@@ -8569,6 +8589,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ee99340b-3e94-4a7a-8d72-b3808484e361",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "97db92a1-43b4-4024-9de3-8bff9dbfd9bc",
+      "details": {
+        "person": {
+          "personId": "97db92a1-43b4-4024-9de3-8bff9dbfd9bc",
+          "baseKey": "YUNUS TIĞIZ",
+          "fullName": "YUNUS TIĞIZ",
+          "normalizedName": "YUNUS TIĞIZ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:11:53.620Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:11:53.620Z",
+          "updatedAt": "2026-06-13T08:11:53.620Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:11:53.620Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "5a9af272-d113-4972-a4ff-3bf3ac3bcd53",
       "action": "CREATE",
@@ -42283,54 +42333,6 @@
         }
       },
       "timestamp": "2026-01-31T14:57:03.260Z",
-      "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
-    },
-    {
-      "id": "bba691cf-daf6-43bd-b20d-f360586fc8e9",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-      "details": {
-        "before": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "updatedAt": "2026-01-29T15:28:46.116Z"
-        },
-        "after": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "updatedAt": "2026-01-31T14:56:48.440Z"
-        }
-      },
-      "timestamp": "2026-01-31T14:56:48.440Z",
       "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
     }
   ]
