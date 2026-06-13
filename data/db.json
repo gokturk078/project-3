@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:21:42.420Z"
+    "lastUpdated": "2026-06-13T08:24:03.920Z"
   },
   "taxonomy": {
     "categories": [
@@ -6757,6 +6757,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:14:45.460Z",
       "updatedAt": "2026-06-13T08:14:45.460Z"
+    },
+    {
+      "personId": "309df1ba-e44a-4fa3-851f-305bb674176d",
+      "baseKey": "ALYJAN YAGMUROV",
+      "fullName": "ALYJAN YAGMUROV",
+      "normalizedName": "ALYJAN YAGMUROV",
+      "category": "TÜRKMEN",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:24:03.920Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:24:03.920Z",
+      "updatedAt": "2026-06-13T08:24:03.920Z"
     }
   ],
   "leaves": [
@@ -8941,6 +8961,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "23c7a683-88f6-4735-a5ce-42adaa3a3770",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "309df1ba-e44a-4fa3-851f-305bb674176d",
+      "details": {
+        "person": {
+          "personId": "309df1ba-e44a-4fa3-851f-305bb674176d",
+          "baseKey": "ALYJAN YAGMUROV",
+          "fullName": "ALYJAN YAGMUROV",
+          "normalizedName": "ALYJAN YAGMUROV",
+          "category": "TÜRKMEN",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:24:03.920Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:24:03.920Z",
+          "updatedAt": "2026-06-13T08:24:03.920Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:24:03.920Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "e6f01f27-22a0-4748-b3a2-49cf495f8069",
       "action": "CREATE",
@@ -42279,40 +42329,6 @@
       },
       "timestamp": "2026-02-03T09:19:36.268Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "5eb8fe7f-fc59-4cae-b5d2-3f6cd5de06b1",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-      "details": {
-        "before": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-01-26T09:35:59.495Z"
-        },
-        "after": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-02-02T14:12:58.613Z"
-        }
-      },
-      "timestamp": "2026-02-02T14:12:58.613Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
 }
