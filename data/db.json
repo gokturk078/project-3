@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:09:36.831Z"
+    "lastUpdated": "2026-06-13T08:10:25.135Z"
   },
   "taxonomy": {
     "categories": [
@@ -6497,6 +6497,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:09:36.830Z",
       "updatedAt": "2026-06-13T08:09:36.830Z"
+    },
+    {
+      "personId": "d6a9307e-c81d-4b3b-b546-5ae81549a821",
+      "baseKey": "HİKMET ARTAN",
+      "fullName": "HİKMET ARTAN",
+      "normalizedName": "HİKMET ARTAN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:10:25.135Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:10:25.135Z",
+      "updatedAt": "2026-06-13T08:10:25.135Z"
     }
   ],
   "leaves": [
@@ -8489,6 +8509,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "3d4855a9-bfc4-41a6-b768-6f1e7a631dfd",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "d6a9307e-c81d-4b3b-b546-5ae81549a821",
+      "details": {
+        "person": {
+          "personId": "d6a9307e-c81d-4b3b-b546-5ae81549a821",
+          "baseKey": "HİKMET ARTAN",
+          "fullName": "HİKMET ARTAN",
+          "normalizedName": "HİKMET ARTAN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:10:25.135Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:10:25.135Z",
+          "updatedAt": "2026-06-13T08:10:25.135Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:10:25.135Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "dd0fbd58-a104-464e-8f58-ad66b9e639e6",
       "action": "CREATE",
@@ -42233,40 +42283,6 @@
         }
       },
       "timestamp": "2026-01-31T13:54:34.679Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "eca5ebb0-9cd7-410a-8a5f-c62ccbed1509",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
-      "details": {
-        "before": {
-          "id": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
-          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
-          "applicationNo": "120271/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:17:35.632Z",
-          "updatedAt": "2026-01-28T09:17:35.632Z"
-        },
-        "after": {
-          "id": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
-          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
-          "applicationNo": "120271/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:17:35.632Z",
-          "updatedAt": "2026-01-31T13:54:21.458Z"
-        }
-      },
-      "timestamp": "2026-01-31T13:54:21.458Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
