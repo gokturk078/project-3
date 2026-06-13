@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:15:48.783Z"
+    "lastUpdated": "2026-06-13T08:16:07.748Z"
   },
   "taxonomy": {
     "categories": [
@@ -7306,6 +7306,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:15:36.261Z",
       "updatedAt": "2026-06-13T08:15:36.261Z"
+    },
+    {
+      "id": "4699b074-ee38-4660-9af9-d99b866e759f",
+      "personId": "dad27db7-4fb2-428b-be81-79ee2ddbb4fa",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-06-13T08:16:07.748Z",
+      "updatedAt": "2026-06-13T08:16:07.748Z"
     }
   ],
   "departures": [
@@ -8773,6 +8785,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "d2407575-250b-4102-93d1-7b0acf4a24c1",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "4699b074-ee38-4660-9af9-d99b866e759f",
+      "details": {
+        "tracking": {
+          "id": "4699b074-ee38-4660-9af9-d99b866e759f",
+          "personId": "dad27db7-4fb2-428b-be81-79ee2ddbb4fa",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:16:07.748Z",
+          "updatedAt": "2026-06-13T08:16:07.748Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:16:07.748Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "222b01d0-751c-4b01-9f30-771a2d636fa8",
       "action": "UPDATE",
@@ -42240,35 +42274,6 @@
         }
       },
       "timestamp": "2026-02-02T07:35:53.751Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "9bfdf2ee-ca5c-400f-ae29-a580143dcf7e",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-      "details": {
-        "tracking": {
-          "id": "ce0c46d5-8554-4c28-b1c8-b124d3b05cb1",
-          "fullName": "DOĞUŞ KARBUZ",
-          "normalizedName": "DOGUS KARBUZ",
-          "baseKey": "DOGUS KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115661/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 6
-          },
-          "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
-          "updatedAt": "2026-01-31T14:57:10.503Z"
-        }
-      },
-      "timestamp": "2026-02-02T07:35:49.648Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
