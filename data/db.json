@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:48:47.394Z"
+    "lastUpdated": "2026-06-13T09:49:01.647Z"
   },
   "taxonomy": {
     "categories": [
@@ -3933,7 +3933,7 @@
       "category": "REPSAM",
       "role": "İSG",
       "jobTitle": "117451/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "departed",
       "sources": [
@@ -3952,7 +3952,7 @@
         "contactPerson": "İSG"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-14T11:40:34.760Z"
+      "updatedAt": "2026-06-13T09:49:01.647Z"
     },
     {
       "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "83a4b52e-033b-4f9a-bf88-9ad98fb13f7a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+      "details": {
+        "before": {
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+          "baseKey": "MERTCAN SIMSEK",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "category": "REPSAM",
+          "role": "İSG",
+          "jobTitle": "117451/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 18
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117451/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-29",
+            "contactPerson": "İSG"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-14T11:40:34.760Z"
+        },
+        "after": {
+          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
+          "baseKey": "MERTCAN SIMSEK",
+          "fullName": "MERTCAN ŞİMŞEK",
+          "normalizedName": "MERTCAN SIMSEK",
+          "category": "REPSAM",
+          "role": "İSG",
+          "jobTitle": "117451/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 18
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117451/2025",
+            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
+            "expectedDate": "2026-01-29",
+            "contactPerson": "İSG"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:49:01.647Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:49:01.647Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "3db0727e-8036-4675-971b-9f49fa4e305a",
       "action": "UPDATE",
@@ -42476,40 +42544,6 @@
       },
       "timestamp": "2026-02-07T08:28:54.455Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "c1a5c17f-3a66-425a-af10-655bd39f36de",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-      "details": {
-        "before": {
-          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
-          "applicationNo": "119236/2026",
-          "profession": "İinşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:02.995Z",
-          "updatedAt": "2026-02-03T12:01:37.349Z"
-        },
-        "after": {
-          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
-          "applicationNo": "119236/2026",
-          "profession": "İinşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:02.995Z",
-          "updatedAt": "2026-02-06T15:36:18.908Z"
-        }
-      },
-      "timestamp": "2026-02-06T15:36:18.909Z",
-      "adminSession": "2b71c06e-302e-472a-89b7-363d3f5a184e"
     }
   ]
 }
