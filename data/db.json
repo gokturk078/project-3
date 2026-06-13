@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:47:25.196Z"
+    "lastUpdated": "2026-06-13T08:48:27.340Z"
   },
   "taxonomy": {
     "categories": [
@@ -9192,6 +9192,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:47:25.196Z",
       "updatedAt": "2026-06-13T08:47:25.196Z"
+    },
+    {
+      "id": "a602818c-5d27-4200-9259-58c1408dda02",
+      "personId": null,
+      "fullName": "HİKMET TİRYAKİ",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2025-09-21",
+      "exitDate": "2026-05-06",
+      "totalDays": 227,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:48:27.340Z",
+      "updatedAt": "2026-06-13T08:48:27.340Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9214,6 +9227,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "d6ca358a-e6c3-4bd4-bb76-99997446e77c",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "a602818c-5d27-4200-9259-58c1408dda02",
+      "details": {
+        "departure": {
+          "id": "a602818c-5d27-4200-9259-58c1408dda02",
+          "personId": null,
+          "fullName": "HİKMET TİRYAKİ",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-09-21",
+          "exitDate": "2026-05-06",
+          "totalDays": 227,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:48:27.340Z",
+          "updatedAt": "2026-06-13T08:48:27.340Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:48:27.340Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "4b60ad6c-5c82-448c-a137-bad8877fe6f2",
       "action": "CREATE",
@@ -42236,28 +42272,6 @@
         }
       },
       "timestamp": "2026-02-05T12:00:32.629Z",
-      "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
-    },
-    {
-      "id": "258050aa-4e5d-45af-8248-ef99bbda7559",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-      "details": {
-        "tracking": {
-          "id": "52387d13-f03d-46ea-a2ef-097a9a9c78bc",
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "applicationNo": "119221/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:17:28.400Z",
-          "updatedAt": "2026-02-03T09:21:58.470Z"
-        }
-      },
-      "timestamp": "2026-02-05T12:00:27.656Z",
       "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
     }
   ]
