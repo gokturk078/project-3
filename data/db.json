@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:38:29.481Z"
+    "lastUpdated": "2026-06-13T08:39:10.759Z"
   },
   "taxonomy": {
     "categories": [
@@ -9114,6 +9114,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:38:29.481Z",
       "updatedAt": "2026-06-13T08:38:29.481Z"
+    },
+    {
+      "id": "ade77d2f-4c08-425a-9671-b228bae11485",
+      "personId": null,
+      "fullName": "ÖZCAN TERCAN",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2026-03-03",
+      "exitDate": "2026-05-21",
+      "totalDays": 79,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:39:10.759Z",
+      "updatedAt": "2026-06-13T08:39:10.759Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9136,6 +9149,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "455c64ab-d37d-46b7-902f-305b48cac86b",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "ade77d2f-4c08-425a-9671-b228bae11485",
+      "details": {
+        "departure": {
+          "id": "ade77d2f-4c08-425a-9671-b228bae11485",
+          "personId": null,
+          "fullName": "ÖZCAN TERCAN",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2026-03-03",
+          "exitDate": "2026-05-21",
+          "totalDays": 79,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:39:10.759Z",
+          "updatedAt": "2026-06-13T08:39:10.759Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:39:10.759Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "e488935a-74c1-4b05-a30f-6601eb501056",
       "action": "CREATE",
@@ -42264,40 +42300,6 @@
       },
       "timestamp": "2026-02-04T11:46:23.440Z",
       "adminSession": "9cf3e273-7eb4-4da2-bd6a-71f5ea447378"
-    },
-    {
-      "id": "bbd83038-0db8-4606-830b-88aa1860ae45",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "f6a2cf39-162f-45de-b076-e80afac149a6",
-      "details": {
-        "before": {
-          "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
-          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
-          "applicationNo": "119220/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:18:39.785Z",
-          "updatedAt": "2026-01-26T09:36:11.266Z"
-        },
-        "after": {
-          "id": "f6a2cf39-162f-45de-b076-e80afac149a6",
-          "personId": "52050282-6982-4686-a995-1bd8c83b806a",
-          "applicationNo": "119220/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-19T07:18:39.785Z",
-          "updatedAt": "2026-02-03T15:36:22.838Z"
-        }
-      },
-      "timestamp": "2026-02-03T15:36:22.838Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
 }
