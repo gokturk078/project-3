@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:15:36.261Z"
+    "lastUpdated": "2026-06-13T08:15:48.783Z"
   },
   "taxonomy": {
     "categories": [
@@ -7288,12 +7288,12 @@
       "personId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
       "applicationNo": "",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-06-13T08:15:10.220Z",
-      "updatedAt": "2026-06-13T08:15:10.220Z"
+      "updatedAt": "2026-06-13T08:15:48.783Z"
     },
     {
       "id": "e9893f4b-120d-4867-9340-103dc94c493d",
@@ -8773,6 +8773,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "222b01d0-751c-4b01-9f30-771a2d636fa8",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "745aedc7-2d52-4bb1-9253-d50992a5a1ef",
+      "details": {
+        "before": {
+          "id": "745aedc7-2d52-4bb1-9253-d50992a5a1ef",
+          "personId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:15:10.220Z",
+          "updatedAt": "2026-06-13T08:15:10.220Z"
+        },
+        "after": {
+          "id": "745aedc7-2d52-4bb1-9253-d50992a5a1ef",
+          "personId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:15:10.220Z",
+          "updatedAt": "2026-06-13T08:15:48.783Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:15:48.783Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "f32e5c35-e65d-474b-9299-6fecd63fa544",
       "action": "CREATE",
@@ -42235,57 +42269,6 @@
         }
       },
       "timestamp": "2026-02-02T07:35:49.648Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "72cd0c2f-f4d5-478a-8872-2f6954f443f7",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
-      "details": {
-        "before": {
-          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
-          "baseKey": "İSMAİL ÇELİK",
-          "fullName": "İSMAİL ÇELİK",
-          "normalizedName": "İSMAİL ÇELİK",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:08:38.862Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:08:38.862Z",
-          "updatedAt": "2026-01-26T15:08:38.862Z"
-        },
-        "after": {
-          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
-          "baseKey": "İSMAİL ÇELİK",
-          "fullName": "İSMAİL ÇELİK",
-          "normalizedName": "İSMAİL ÇELİK",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:08:38.862Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:08:38.862Z",
-          "updatedAt": "2026-02-02T07:35:30.998Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-02T07:35:30.998Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
