@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:25:42.862Z"
+    "lastUpdated": "2026-06-13T08:26:15.300Z"
   },
   "taxonomy": {
     "categories": [
@@ -7506,6 +7506,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:25:01.118Z",
       "updatedAt": "2026-06-13T08:25:42.862Z"
+    },
+    {
+      "id": "5d519101-0858-457e-9b22-0251cfa26744",
+      "personId": "5144f20c-d6d7-4811-9aa2-753af4e66d36",
+      "applicationNo": "",
+      "profession": "TEMİNAT YATIRILICAK",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "ÖZBEK UZATMA",
+      "notes": "",
+      "createdAt": "2026-06-13T08:26:15.300Z",
+      "updatedAt": "2026-06-13T08:26:15.300Z"
     }
   ],
   "departures": [
@@ -8973,6 +8985,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "5a7d3d2d-f67b-430e-8ec2-9144e679c0b7",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "5d519101-0858-457e-9b22-0251cfa26744",
+      "details": {
+        "tracking": {
+          "id": "5d519101-0858-457e-9b22-0251cfa26744",
+          "personId": "5144f20c-d6d7-4811-9aa2-753af4e66d36",
+          "applicationNo": "",
+          "profession": "TEMİNAT YATIRILICAK",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "ÖZBEK UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-13T08:26:15.300Z",
+          "updatedAt": "2026-06-13T08:26:15.300Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:26:15.300Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "22f7b3b1-97be-48ad-9dc5-48b4c038f96a",
       "action": "UPDATE",
@@ -42242,58 +42276,6 @@
         }
       },
       "timestamp": "2026-02-03T09:21:09.582Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "04a42226-6f0c-450c-88e8-9ea169b91051",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "354f6255-739b-4607-97a7-fb1da9a21c30",
-      "details": {
-        "before": {
-          "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
-          "baseKey": "ADİL BAŞARMAK",
-          "fullName": "ADİL BAŞARMAK",
-          "normalizedName": "ADİL BAŞARMAK",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:07:30.342Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:07:30.342Z",
-          "updatedAt": "2026-01-19T07:21:12.175Z",
-          "jobTitle": null
-        },
-        "after": {
-          "personId": "354f6255-739b-4607-97a7-fb1da9a21c30",
-          "baseKey": "ADİL BAŞARMAK",
-          "fullName": "ADİL BAŞARMAK",
-          "normalizedName": "ADİL BAŞARMAK",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:07:30.342Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:07:30.342Z",
-          "updatedAt": "2026-02-03T09:20:38.543Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-03T09:20:38.543Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
