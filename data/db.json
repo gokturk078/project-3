@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:49:01.647Z"
+    "lastUpdated": "2026-06-13T09:49:14.802Z"
   },
   "taxonomy": {
     "categories": [
@@ -3759,7 +3759,7 @@
       "category": "REPSAM",
       "role": null,
       "jobTitle": "115670/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -3778,7 +3778,7 @@
         "contactPerson": "MURAT ÜYÜR"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T08:56:44.919Z"
+      "updatedAt": "2026-06-13T09:49:14.802Z"
     },
     {
       "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "3b3fc81a-3f71-45f3-a25e-5ff46276b75a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+      "details": {
+        "before": {
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+          "baseKey": "MUHAMMET AR",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "115670/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 11
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115670/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:56:44.919Z"
+        },
+        "after": {
+          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
+          "baseKey": "MUHAMMET AR",
+          "fullName": "MUHAMMET AR",
+          "normalizedName": "MUHAMMET AR",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "115670/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 11
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "115670/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:49:14.802Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:49:14.802Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "83a4b52e-033b-4f9a-bf88-9ad98fb13f7a",
       "action": "UPDATE",
@@ -42509,40 +42577,6 @@
         }
       },
       "timestamp": "2026-02-07T08:29:01.064Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "8420ab70-34e9-44b1-91de-8f13668e6971",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
-      "details": {
-        "before": {
-          "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
-          "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
-          "applicationNo": "147167/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "UZATMA 1 YIL",
-          "notes": "",
-          "createdAt": "2026-01-29T09:05:46.934Z",
-          "updatedAt": "2026-01-29T09:05:46.934Z"
-        },
-        "after": {
-          "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
-          "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
-          "applicationNo": "147167/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "UZATMA 1 YIL",
-          "notes": "",
-          "createdAt": "2026-01-29T09:05:46.934Z",
-          "updatedAt": "2026-02-07T08:28:54.454Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:28:54.455Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
