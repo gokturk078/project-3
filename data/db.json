@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:12:57.359Z"
+    "lastUpdated": "2026-06-13T08:13:15.693Z"
   },
   "taxonomy": {
     "categories": [
@@ -6657,6 +6657,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:12:57.359Z",
       "updatedAt": "2026-06-13T08:12:57.359Z"
+    },
+    {
+      "personId": "903e872b-b05e-4326-83dc-9e0d4463bcee",
+      "baseKey": "MUSTAFA ATALAY",
+      "fullName": "MUSTAFA ATALAY",
+      "normalizedName": "MUSTAFA ATALAY",
+      "category": "NEŞAT",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:13:15.693Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:13:15.693Z",
+      "updatedAt": "2026-06-13T08:13:15.693Z"
     }
   ],
   "leaves": [
@@ -8649,6 +8669,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "bbeefb2e-0afd-4d98-8531-102624cbe833",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "903e872b-b05e-4326-83dc-9e0d4463bcee",
+      "details": {
+        "person": {
+          "personId": "903e872b-b05e-4326-83dc-9e0d4463bcee",
+          "baseKey": "MUSTAFA ATALAY",
+          "fullName": "MUSTAFA ATALAY",
+          "normalizedName": "MUSTAFA ATALAY",
+          "category": "NEŞAT",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:13:15.693Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:13:15.693Z",
+          "updatedAt": "2026-06-13T08:13:15.693Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:13:15.693Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "223d90ec-57ab-415d-a2a1-aaf41f436746",
       "action": "CREATE",
@@ -42291,54 +42341,6 @@
         }
       },
       "timestamp": "2026-01-31T14:57:44.354Z",
-      "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
-    },
-    {
-      "id": "ae075a8f-ed4e-40d4-82bc-aa6205bfe362",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-      "details": {
-        "before": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-          "updatedAt": "2026-01-21T15:26:52.888Z"
-        },
-        "after": {
-          "id": "21472475-0265-4a9e-9aec-66bf4bf69be8",
-          "fullName": "SERVET ÖKSÜZ",
-          "normalizedName": "SERVET OKSUZ",
-          "baseKey": "SERVET OKSUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "116626/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 10
-          },
-          "personId": "5b473275-73f5-43bf-9337-084a8f4d15af",
-          "updatedAt": "2026-01-31T14:57:27.903Z"
-        }
-      },
-      "timestamp": "2026-01-31T14:57:27.904Z",
       "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
     }
   ]
