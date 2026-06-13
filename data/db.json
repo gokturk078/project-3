@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:46:30.432Z"
+    "lastUpdated": "2026-06-13T08:47:25.196Z"
   },
   "taxonomy": {
     "categories": [
@@ -9179,6 +9179,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:46:30.432Z",
       "updatedAt": "2026-06-13T08:46:30.432Z"
+    },
+    {
+      "id": "713c2f5a-ef72-453b-8c1b-feeabcc41328",
+      "personId": null,
+      "fullName": "ABDULLAH AYDIN",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "2025-08-20",
+      "exitDate": "2026-05-20",
+      "totalDays": 273,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:47:25.196Z",
+      "updatedAt": "2026-06-13T08:47:25.196Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9201,6 +9214,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "4b60ad6c-5c82-448c-a137-bad8877fe6f2",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "713c2f5a-ef72-453b-8c1b-feeabcc41328",
+      "details": {
+        "departure": {
+          "id": "713c2f5a-ef72-453b-8c1b-feeabcc41328",
+          "personId": null,
+          "fullName": "ABDULLAH AYDIN",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "2025-08-20",
+          "exitDate": "2026-05-20",
+          "totalDays": 273,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:47:25.196Z",
+          "updatedAt": "2026-06-13T08:47:25.196Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:47:25.196Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "19f78703-4d03-46e0-98f8-952881ce4cf6",
       "action": "CREATE",
@@ -42222,57 +42258,6 @@
         }
       },
       "timestamp": "2026-02-05T12:00:27.656Z",
-      "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
-    },
-    {
-      "id": "5eab401f-6c94-4551-96ad-0fd49c4b9fd0",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
-      "details": {
-        "before": {
-          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
-          "baseKey": "EMRULLAH BAŞARMAK",
-          "fullName": "EMRULLAH BAŞARMAK",
-          "normalizedName": "EMRULLAH BAŞARMAK",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:05:23.129Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:05:23.129Z",
-          "updatedAt": "2026-01-19T07:05:23.129Z"
-        },
-        "after": {
-          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
-          "baseKey": "EMRULLAH BAŞARMAK",
-          "fullName": "EMRULLAH BAŞARMAK",
-          "normalizedName": "EMRULLAH BAŞARMAK",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:05:23.129Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:05:23.129Z",
-          "updatedAt": "2026-02-05T11:59:39.681Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-05T11:59:39.681Z",
       "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
     }
   ]
