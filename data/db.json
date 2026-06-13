@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:33:50.375Z"
+    "lastUpdated": "2026-06-13T08:34:57.246Z"
   },
   "taxonomy": {
     "categories": [
@@ -9049,6 +9049,19 @@
       "exitMonth": "2026-06",
       "createdAt": "2026-06-13T08:33:50.375Z",
       "updatedAt": "2026-06-13T08:33:50.375Z"
+    },
+    {
+      "id": "10cce191-dc8a-4405-b1eb-78ca4bddac4e",
+      "personId": null,
+      "fullName": "TALİP KARAGÜLLE",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-10-28",
+      "exitDate": "2026-05-14",
+      "totalDays": 198,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:34:57.246Z",
+      "updatedAt": "2026-06-13T08:34:57.246Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9071,6 +9084,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "ecea2dfc-21fb-4dad-91f3-7286e39a20e1",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "10cce191-dc8a-4405-b1eb-78ca4bddac4e",
+      "details": {
+        "departure": {
+          "id": "10cce191-dc8a-4405-b1eb-78ca4bddac4e",
+          "personId": null,
+          "fullName": "TALİP KARAGÜLLE",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-10-28",
+          "exitDate": "2026-05-14",
+          "totalDays": 198,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:34:57.246Z",
+          "updatedAt": "2026-06-13T08:34:57.246Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:34:57.246Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "a4f05ae6-d287-4676-ae31-db8afb3e8af3",
       "action": "CREATE",
@@ -42253,40 +42289,6 @@
         }
       },
       "timestamp": "2026-02-03T12:01:37.349Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "fd9e85ef-5842-4c69-a45d-55ba20b56b36",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "254d5842-78ef-4dab-8957-53670257eaa0",
-      "details": {
-        "before": {
-          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "applicationNo": "119227/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:52.399Z",
-          "updatedAt": "2026-01-19T09:19:29.693Z"
-        },
-        "after": {
-          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "applicationNo": "119227/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:52.399Z",
-          "updatedAt": "2026-02-03T10:11:37.069Z"
-        }
-      },
-      "timestamp": "2026-02-03T10:11:37.069Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
