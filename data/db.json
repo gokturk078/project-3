@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:35:59.721Z"
+    "lastUpdated": "2026-06-13T08:36:55.451Z"
   },
   "taxonomy": {
     "categories": [
@@ -9075,6 +9075,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:35:59.721Z",
       "updatedAt": "2026-06-13T08:35:59.721Z"
+    },
+    {
+      "id": "0ecc41c5-cd4f-47bf-a736-71090de4ef55",
+      "personId": null,
+      "fullName": "MURAT SAYĞI",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2026-02-03",
+      "exitDate": "2026-05-06",
+      "totalDays": 92,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:36:55.451Z",
+      "updatedAt": "2026-06-13T08:36:55.451Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9097,6 +9110,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "c74f8c84-864a-441b-afe9-d31708596d00",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "0ecc41c5-cd4f-47bf-a736-71090de4ef55",
+      "details": {
+        "departure": {
+          "id": "0ecc41c5-cd4f-47bf-a736-71090de4ef55",
+          "personId": null,
+          "fullName": "MURAT SAYĞI",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2026-02-03",
+          "exitDate": "2026-05-06",
+          "totalDays": 92,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:36:55.451Z",
+          "updatedAt": "2026-06-13T08:36:55.451Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:36:55.451Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "2d5c5ef4-2a9d-4ae4-9dea-f5dbf56b03e6",
       "action": "CREATE",
@@ -42257,40 +42293,6 @@
         }
       },
       "timestamp": "2026-02-03T12:01:56.897Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "38555ea8-1477-47ec-876e-ee9c5afc4a10",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "254d5842-78ef-4dab-8957-53670257eaa0",
-      "details": {
-        "before": {
-          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "applicationNo": "119227/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:52.399Z",
-          "updatedAt": "2026-02-03T10:11:37.069Z"
-        },
-        "after": {
-          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "applicationNo": "119227/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:52.399Z",
-          "updatedAt": "2026-02-03T12:01:43.809Z"
-        }
-      },
-      "timestamp": "2026-02-03T12:01:43.809Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
