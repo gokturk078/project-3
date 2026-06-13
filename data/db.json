@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:36:55.451Z"
+    "lastUpdated": "2026-06-13T08:37:41.293Z"
   },
   "taxonomy": {
     "categories": [
@@ -9088,6 +9088,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:36:55.451Z",
       "updatedAt": "2026-06-13T08:36:55.451Z"
+    },
+    {
+      "id": "a24019d0-36b5-4345-95de-3596139f48d8",
+      "personId": null,
+      "fullName": "HAKAN UYDURAN",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-10-08",
+      "exitDate": "2026-05-25",
+      "totalDays": 229,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:37:41.293Z",
+      "updatedAt": "2026-06-13T08:37:41.293Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9110,6 +9123,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "36896f53-1e27-4f88-ab52-37234dddb218",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "a24019d0-36b5-4345-95de-3596139f48d8",
+      "details": {
+        "departure": {
+          "id": "a24019d0-36b5-4345-95de-3596139f48d8",
+          "personId": null,
+          "fullName": "HAKAN UYDURAN",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-10-08",
+          "exitDate": "2026-05-25",
+          "totalDays": 229,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:37:41.293Z",
+          "updatedAt": "2026-06-13T08:37:41.293Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:37:41.293Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "c74f8c84-864a-441b-afe9-d31708596d00",
       "action": "CREATE",
@@ -42259,40 +42295,6 @@
         }
       },
       "timestamp": "2026-02-03T15:36:15.395Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "1ef49bae-1773-4428-9022-4fed51697d03",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-      "details": {
-        "before": {
-          "id": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "applicationNo": "120079/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-26T15:16:18.166Z",
-          "updatedAt": "2026-01-30T13:18:47.670Z"
-        },
-        "after": {
-          "id": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "applicationNo": "120079/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-26T15:16:18.166Z",
-          "updatedAt": "2026-02-03T12:01:56.897Z"
-        }
-      },
-      "timestamp": "2026-02-03T12:01:56.897Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
