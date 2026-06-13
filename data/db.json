@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-11T07:11:39.394Z"
+    "lastUpdated": "2026-06-13T08:07:20.659Z"
   },
   "taxonomy": {
     "categories": [
@@ -6884,12 +6884,12 @@
       "personId": "c459e6d5-3cdb-4a60-8210-42682d17f132",
       "applicationNo": "129822/2026",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "sedat",
       "notes": "",
       "createdAt": "2026-05-11T13:03:11.584Z",
-      "updatedAt": "2026-05-11T13:03:11.584Z"
+      "updatedAt": "2026-06-13T08:07:20.659Z"
     },
     {
       "id": "7d99c057-3641-4ab1-87fe-32d4c0f00a7d",
@@ -8429,6 +8429,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "51b0ac51-2543-4104-a02e-ed6ce0abdd10",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "4a979609-e7c1-4ba8-999e-8b0d9714e601",
+      "details": {
+        "before": {
+          "id": "4a979609-e7c1-4ba8-999e-8b0d9714e601",
+          "personId": "c459e6d5-3cdb-4a60-8210-42682d17f132",
+          "applicationNo": "129822/2026",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "sedat",
+          "notes": "",
+          "createdAt": "2026-05-11T13:03:11.584Z",
+          "updatedAt": "2026-05-11T13:03:11.584Z"
+        },
+        "after": {
+          "id": "4a979609-e7c1-4ba8-999e-8b0d9714e601",
+          "personId": "c459e6d5-3cdb-4a60-8210-42682d17f132",
+          "applicationNo": "129822/2026",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "sedat",
+          "notes": "",
+          "createdAt": "2026-05-11T13:03:11.584Z",
+          "updatedAt": "2026-06-13T08:07:20.659Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:07:20.659Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "0ecd3a67-28da-4f00-af1d-343828439172",
       "action": "UPDATE",
@@ -42185,26 +42219,6 @@
         }
       },
       "timestamp": "2026-01-31T13:11:01.756Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "1c2b2fd0-c139-4a7e-a59c-6c14245f22f6",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "1ff4d235-af63-43c0-86a7-5a0d393a3e64",
-      "details": {
-        "leave": {
-          "id": "1ff4d235-af63-43c0-86a7-5a0d393a3e64",
-          "personId": "0c6c17ef-f68c-4d4c-9378-5892e3223f16",
-          "startDate": "2025-11-30",
-          "endDate": "2026-01-30",
-          "days": 62,
-          "type": "ÜCRETSİZ",
-          "note": "",
-          "createdAt": "2026-01-31T12:58:25.164Z"
-        }
-      },
-      "timestamp": "2026-01-31T12:58:25.164Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
