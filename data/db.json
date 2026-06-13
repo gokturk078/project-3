@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:12:36.198Z"
+    "lastUpdated": "2026-06-13T08:12:57.359Z"
   },
   "taxonomy": {
     "categories": [
@@ -6637,6 +6637,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:12:36.197Z",
       "updatedAt": "2026-06-13T08:12:36.197Z"
+    },
+    {
+      "personId": "e0074c13-d493-4894-8eb2-9ee647523dc7",
+      "baseKey": "ŞAFAK SANLAV",
+      "fullName": "ŞAFAK SANLAV",
+      "normalizedName": "ŞAFAK SANLAV",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:12:57.359Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:12:57.359Z",
+      "updatedAt": "2026-06-13T08:12:57.359Z"
     }
   ],
   "leaves": [
@@ -8629,6 +8649,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "223d90ec-57ab-415d-a2a1-aaf41f436746",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "e0074c13-d493-4894-8eb2-9ee647523dc7",
+      "details": {
+        "person": {
+          "personId": "e0074c13-d493-4894-8eb2-9ee647523dc7",
+          "baseKey": "ŞAFAK SANLAV",
+          "fullName": "ŞAFAK SANLAV",
+          "normalizedName": "ŞAFAK SANLAV",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:12:57.359Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:12:57.359Z",
+          "updatedAt": "2026-06-13T08:12:57.359Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:12:57.359Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "e0cbaba9-98cc-4c31-a4b2-8cc693200c23",
       "action": "CREATE",
@@ -42289,54 +42339,6 @@
         }
       },
       "timestamp": "2026-01-31T14:57:27.904Z",
-      "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
-    },
-    {
-      "id": "80cbb2e6-2970-4563-b321-ad2a9a286e57",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-      "details": {
-        "before": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-21T15:26:45.494Z"
-        },
-        "after": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-31T14:57:17.996Z"
-        }
-      },
-      "timestamp": "2026-01-31T14:57:17.996Z",
       "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
     }
   ]
