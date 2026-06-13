@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:41:55.806Z"
+    "lastUpdated": "2026-06-13T08:46:30.432Z"
   },
   "taxonomy": {
     "categories": [
@@ -9166,6 +9166,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:41:55.805Z",
       "updatedAt": "2026-06-13T08:41:55.805Z"
+    },
+    {
+      "id": "91fcde17-78bf-4f89-a0c0-fe075508365e",
+      "personId": null,
+      "fullName": "BESTAMİ KARAYOLUK",
+      "category": "NEŞAT",
+      "job": "",
+      "entryDate": "2026-03-06",
+      "exitDate": "2026-05-20",
+      "totalDays": 75,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-13T08:46:30.432Z",
+      "updatedAt": "2026-06-13T08:46:30.432Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9188,6 +9201,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "19f78703-4d03-46e0-98f8-952881ce4cf6",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "91fcde17-78bf-4f89-a0c0-fe075508365e",
+      "details": {
+        "departure": {
+          "id": "91fcde17-78bf-4f89-a0c0-fe075508365e",
+          "personId": null,
+          "fullName": "BESTAMİ KARAYOLUK",
+          "category": "NEŞAT",
+          "job": "",
+          "entryDate": "2026-03-06",
+          "exitDate": "2026-05-20",
+          "totalDays": 75,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-13T08:46:30.432Z",
+          "updatedAt": "2026-06-13T08:46:30.432Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:46:30.432Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "2f6439ad-2e35-46a6-9bb2-9131798877eb",
       "action": "CREATE",
@@ -42237,57 +42273,6 @@
         }
       },
       "timestamp": "2026-02-05T11:59:39.681Z",
-      "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
-    },
-    {
-      "id": "75daefb5-fadc-4d70-9aae-7843723691c6",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-      "details": {
-        "before": {
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "baseKey": "YUSUF GEMİCİ",
-          "fullName": "YUSUF GEMİCİ",
-          "normalizedName": "YUSUF GEMİCİ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:06:06.954Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:06:06.954Z",
-          "updatedAt": "2026-01-19T07:06:06.954Z"
-        },
-        "after": {
-          "personId": "3d00512f-e54b-4856-98e4-9c8400066eb9",
-          "baseKey": "YUSUF GEMİCİ",
-          "fullName": "YUSUF GEMİCİ",
-          "normalizedName": "YUSUF GEMİCİ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:06:06.954Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:06:06.954Z",
-          "updatedAt": "2026-02-05T11:59:20.597Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-05T11:59:20.597Z",
       "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
     }
   ]
