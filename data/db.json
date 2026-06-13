@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:10:25.135Z"
+    "lastUpdated": "2026-06-13T08:10:46.799Z"
   },
   "taxonomy": {
     "categories": [
@@ -6517,6 +6517,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:10:25.135Z",
       "updatedAt": "2026-06-13T08:10:25.135Z"
+    },
+    {
+      "personId": "84c0bead-1194-4325-8a20-e361f80711e7",
+      "baseKey": "GÜVEN GÖKPINAR",
+      "fullName": "GÜVEN GÖKPINAR",
+      "normalizedName": "GÜVEN GÖKPINAR",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:10:46.799Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:10:46.799Z",
+      "updatedAt": "2026-06-13T08:10:46.799Z"
     }
   ],
   "leaves": [
@@ -8509,6 +8529,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "58376029-047c-4ff3-afdf-696e0314db41",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "84c0bead-1194-4325-8a20-e361f80711e7",
+      "details": {
+        "person": {
+          "personId": "84c0bead-1194-4325-8a20-e361f80711e7",
+          "baseKey": "GÜVEN GÖKPINAR",
+          "fullName": "GÜVEN GÖKPINAR",
+          "normalizedName": "GÜVEN GÖKPINAR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:10:46.799Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:10:46.799Z",
+          "updatedAt": "2026-06-13T08:10:46.799Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:10:46.799Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "3d4855a9-bfc4-41a6-b768-6f1e7a631dfd",
       "action": "CREATE",
@@ -42249,40 +42299,6 @@
         }
       },
       "timestamp": "2026-01-31T13:54:44.836Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "c25ebee0-ef7f-4f7e-a8b7-ea2f615660e2",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ca9e8f18-4768-4a55-9fc8-6b150789ee10",
-      "details": {
-        "before": {
-          "id": "ca9e8f18-4768-4a55-9fc8-6b150789ee10",
-          "personId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
-          "applicationNo": "120278/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:19:26.613Z",
-          "updatedAt": "2026-01-28T09:19:26.613Z"
-        },
-        "after": {
-          "id": "ca9e8f18-4768-4a55-9fc8-6b150789ee10",
-          "personId": "d3d9a765-4035-42d3-8714-08ce37b2416c",
-          "applicationNo": "120278/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:19:26.613Z",
-          "updatedAt": "2026-01-31T13:54:34.679Z"
-        }
-      },
-      "timestamp": "2026-01-31T13:54:34.679Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
