@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:32:10.618Z"
+    "lastUpdated": "2026-06-13T08:33:50.375Z"
   },
   "taxonomy": {
     "categories": [
@@ -9036,6 +9036,19 @@
       "exitMonth": "2026-04",
       "createdAt": "2026-06-13T08:32:10.618Z",
       "updatedAt": "2026-06-13T08:32:10.618Z"
+    },
+    {
+      "id": "d252e574-03f5-4cbd-8108-e3c7da864616",
+      "personId": null,
+      "fullName": "MEHMET ERSİN AKBABA",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "2025-11-22",
+      "exitDate": "2026-06-07",
+      "totalDays": 197,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-13T08:33:50.375Z",
+      "updatedAt": "2026-06-13T08:33:50.375Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9058,6 +9071,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "a4f05ae6-d287-4676-ae31-db8afb3e8af3",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "d252e574-03f5-4cbd-8108-e3c7da864616",
+      "details": {
+        "departure": {
+          "id": "d252e574-03f5-4cbd-8108-e3c7da864616",
+          "personId": null,
+          "fullName": "MEHMET ERSİN AKBABA",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "2025-11-22",
+          "exitDate": "2026-06-07",
+          "totalDays": 197,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-13T08:33:50.375Z",
+          "updatedAt": "2026-06-13T08:33:50.375Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:33:50.375Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "e0069dfb-4da8-4424-929c-44cc1b52edb8",
       "action": "CREATE",
@@ -42251,40 +42287,6 @@
         }
       },
       "timestamp": "2026-02-03T10:11:37.069Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "70efaca8-96ff-4dd8-a999-b21e320c31eb",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-      "details": {
-        "before": {
-          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
-          "applicationNo": "119236/2026",
-          "profession": "İinşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:02.995Z",
-          "updatedAt": "2026-01-19T09:19:44.179Z"
-        },
-        "after": {
-          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
-          "applicationNo": "119236/2026",
-          "profession": "İinşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:02.995Z",
-          "updatedAt": "2026-02-03T10:11:28.277Z"
-        }
-      },
-      "timestamp": "2026-02-03T10:11:28.277Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
