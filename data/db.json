@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:24:03.920Z"
+    "lastUpdated": "2026-06-13T08:25:01.118Z"
   },
   "taxonomy": {
     "categories": [
@@ -7494,6 +7494,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:21:42.419Z",
       "updatedAt": "2026-06-13T08:21:42.419Z"
+    },
+    {
+      "id": "4fe65114-f3de-473d-8661-89d80a850eb5",
+      "personId": "309df1ba-e44a-4fa3-851f-305bb674176d",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "TÜRKMEN",
+      "notes": "",
+      "createdAt": "2026-06-13T08:25:01.118Z",
+      "updatedAt": "2026-06-13T08:25:01.118Z"
     }
   ],
   "departures": [
@@ -8961,6 +8973,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "5519f092-39e7-4aac-82f8-e362805638a6",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "4fe65114-f3de-473d-8661-89d80a850eb5",
+      "details": {
+        "tracking": {
+          "id": "4fe65114-f3de-473d-8661-89d80a850eb5",
+          "personId": "309df1ba-e44a-4fa3-851f-305bb674176d",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "TÜRKMEN",
+          "notes": "",
+          "createdAt": "2026-06-13T08:25:01.118Z",
+          "updatedAt": "2026-06-13T08:25:01.118Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:25:01.118Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "23c7a683-88f6-4735-a5ce-42adaa3a3770",
       "action": "CREATE",
@@ -42277,57 +42311,6 @@
         }
       },
       "timestamp": "2026-02-03T09:20:01.079Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "3d75f3dc-0293-4fdb-9dc3-3fc76d00c975",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "cf8b2fce-19ee-416a-8e3c-d0e23b7ac1b5",
-      "details": {
-        "before": {
-          "personId": "cf8b2fce-19ee-416a-8e3c-d0e23b7ac1b5",
-          "baseKey": "ÖMER FARUK KARA",
-          "fullName": "ÖMER FARUK KARA",
-          "normalizedName": "ÖMER FARUK KARA",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:07:50.991Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:07:50.991Z",
-          "updatedAt": "2026-01-19T07:07:50.991Z"
-        },
-        "after": {
-          "personId": "cf8b2fce-19ee-416a-8e3c-d0e23b7ac1b5",
-          "baseKey": "ÖMER FARUK KARA",
-          "fullName": "ÖMER FARUK KARA",
-          "normalizedName": "ÖMER FARUK KARA",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:07:50.991Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:07:50.991Z",
-          "updatedAt": "2026-02-03T09:19:36.268Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-03T09:19:36.268Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
