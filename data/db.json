@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:47:23.257Z"
+    "lastUpdated": "2026-06-13T09:48:07.881Z"
   },
   "taxonomy": {
     "categories": [
@@ -3585,7 +3585,7 @@
       "category": "REPSAM",
       "role": "OFİS PERSONELİ",
       "jobTitle": "112333/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -3604,7 +3604,7 @@
         "contactPerson": "EYYÜP"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T08:57:12.725Z"
+      "updatedAt": "2026-06-13T09:48:07.881Z"
     },
     {
       "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "2c9b3f15-3a52-4409-b49d-50b9866defff",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+      "details": {
+        "before": {
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+          "baseKey": "EYYUB SALIH ARIK",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": "112333/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 3
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "İnşaat işçisi",
+            "profession": "112333/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": null,
+            "contactPerson": "EYYÜP"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T08:57:12.725Z"
+        },
+        "after": {
+          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
+          "baseKey": "EYYUB SALIH ARIK",
+          "fullName": "EYYÜB SALİH ARIK",
+          "normalizedName": "EYYUB SALIH ARIK",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": "112333/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 3
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "İnşaat işçisi",
+            "profession": "112333/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": null,
+            "contactPerson": "EYYÜP"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:48:07.881Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:48:07.881Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "d647fff8-5fc2-45bd-9f97-567d82941f19",
       "action": "UPDATE",
@@ -42361,57 +42429,6 @@
         }
       },
       "timestamp": "2026-02-06T10:42:23.902Z",
-      "adminSession": "3594fe4d-076a-477a-8ce4-85a710f10416"
-    },
-    {
-      "id": "f004131c-e751-4368-9072-9bd6fd44612e",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
-      "details": {
-        "before": {
-          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
-          "baseKey": "KEMAL KAHYAOĞLU",
-          "fullName": "KEMAL KAHYAOĞLU",
-          "normalizedName": "KEMAL KAHYAOĞLU",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:09:57.138Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:09:57.138Z",
-          "updatedAt": "2026-01-26T15:09:57.138Z"
-        },
-        "after": {
-          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
-          "baseKey": "KEMAL KAHYAOĞLU",
-          "fullName": "KEMAL KAHYAOĞLU",
-          "normalizedName": "KEMAL KAHYAOĞLU",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:09:57.138Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:09:57.138Z",
-          "updatedAt": "2026-02-06T10:41:54.131Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-06T10:41:54.131Z",
       "adminSession": "3594fe4d-076a-477a-8ce4-85a710f10416"
     }
   ]
