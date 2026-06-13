@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:16:07.748Z"
+    "lastUpdated": "2026-06-13T08:16:44.516Z"
   },
   "taxonomy": {
     "categories": [
@@ -7318,6 +7318,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:16:07.748Z",
       "updatedAt": "2026-06-13T08:16:07.748Z"
+    },
+    {
+      "id": "81c7fe8f-8d77-4c8e-a3e3-0899daeccfa8",
+      "personId": "957e6fa2-84b4-4c66-b25c-2ec22be534ac",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-13T08:16:44.516Z",
+      "updatedAt": "2026-06-13T08:16:44.516Z"
     }
   ],
   "departures": [
@@ -8785,6 +8797,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "04db4c0a-7727-4e2e-bf11-69413d4f7401",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "81c7fe8f-8d77-4c8e-a3e3-0899daeccfa8",
+      "details": {
+        "tracking": {
+          "id": "81c7fe8f-8d77-4c8e-a3e3-0899daeccfa8",
+          "personId": "957e6fa2-84b4-4c66-b25c-2ec22be534ac",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-13T08:16:44.516Z",
+          "updatedAt": "2026-06-13T08:16:44.516Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:16:44.516Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "d2407575-250b-4102-93d1-7b0acf4a24c1",
       "action": "CREATE",
@@ -42245,35 +42279,6 @@
         }
       },
       "timestamp": "2026-02-02T07:36:04.397Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "169978d3-bab7-41f0-a8c1-e431f364f932",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-      "details": {
-        "tracking": {
-          "id": "eb075cfb-694f-4a9b-9004-a5b46b2648f2",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "baseKey": "OGUN KARBUZ",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115652/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-18",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 7
-          },
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "updatedAt": "2026-01-31T14:57:17.996Z"
-        }
-      },
-      "timestamp": "2026-02-02T07:35:53.751Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
