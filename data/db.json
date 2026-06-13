@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:43:56.933Z"
+    "lastUpdated": "2026-06-13T09:44:53.948Z"
   },
   "taxonomy": {
     "categories": [
@@ -6748,6 +6748,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:24:03.920Z",
       "updatedAt": "2026-06-13T08:24:03.920Z"
+    },
+    {
+      "personId": "fd8302c6-5af0-4a30-9fc6-26ccd3042aa6",
+      "baseKey": "SERVET ÖKSÜZ",
+      "fullName": "SERVET ÖKSÜZ",
+      "normalizedName": "SERVET ÖKSÜZ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T09:44:53.948Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T09:44:53.948Z",
+      "updatedAt": "2026-06-13T09:44:53.948Z"
     }
   ],
   "leaves": [
@@ -9211,6 +9231,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "f21c694a-1066-466f-8da1-a844e3d215da",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "fd8302c6-5af0-4a30-9fc6-26ccd3042aa6",
+      "details": {
+        "person": {
+          "personId": "fd8302c6-5af0-4a30-9fc6-26ccd3042aa6",
+          "baseKey": "SERVET ÖKSÜZ",
+          "fullName": "SERVET ÖKSÜZ",
+          "normalizedName": "SERVET ÖKSÜZ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T09:44:53.948Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T09:44:53.948Z",
+          "updatedAt": "2026-06-13T09:44:53.948Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:44:53.948Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "52193012-3d82-4288-b00b-c0fff293246f",
       "action": "DELETE",
@@ -42227,54 +42277,6 @@
       },
       "timestamp": "2026-02-06T06:26:17.866Z",
       "adminSession": "3594fe4d-076a-477a-8ce4-85a710f10416"
-    },
-    {
-      "id": "a7cc0883-a6f8-4b28-9a75-8f8f55acb29f",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-      "details": {
-        "before": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "updatedAt": "2026-01-17T08:20:17.655Z"
-        },
-        "after": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "updatedAt": "2026-02-05T15:26:44.020Z"
-        }
-      },
-      "timestamp": "2026-02-05T15:26:44.021Z",
-      "adminSession": "1e9ac805-80bd-4df4-9d59-6b4a36c7c4a6"
     }
   ]
 }
