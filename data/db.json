@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:13:40.436Z"
+    "lastUpdated": "2026-06-13T08:14:08.428Z"
   },
   "taxonomy": {
     "categories": [
@@ -6697,6 +6697,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:13:40.436Z",
       "updatedAt": "2026-06-13T08:13:40.436Z"
+    },
+    {
+      "personId": "dad27db7-4fb2-428b-be81-79ee2ddbb4fa",
+      "baseKey": "EROL DAĞ",
+      "fullName": "EROL DAĞ",
+      "normalizedName": "EROL DAĞ",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:14:08.428Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:14:08.428Z",
+      "updatedAt": "2026-06-13T08:14:08.428Z"
     }
   ],
   "leaves": [
@@ -8689,6 +8709,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "26a34bb6-af0a-4852-935e-7ebb7f5ca522",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "dad27db7-4fb2-428b-be81-79ee2ddbb4fa",
+      "details": {
+        "person": {
+          "personId": "dad27db7-4fb2-428b-be81-79ee2ddbb4fa",
+          "baseKey": "EROL DAĞ",
+          "fullName": "EROL DAĞ",
+          "normalizedName": "EROL DAĞ",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:14:08.428Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:14:08.428Z",
+          "updatedAt": "2026-06-13T08:14:08.428Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:14:08.428Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "a31362c9-6553-4896-bd40-948317692386",
       "action": "CREATE",
@@ -42324,40 +42374,6 @@
       },
       "timestamp": "2026-02-02T07:33:44.398Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "a121acb9-65aa-4ade-9e59-9bab15a73578",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "db0dc2d8-a376-415e-828d-bdd8e27eaf51",
-      "details": {
-        "before": {
-          "id": "db0dc2d8-a376-415e-828d-bdd8e27eaf51",
-          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
-          "applicationNo": "120073/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:14:18.212Z",
-          "updatedAt": "2026-01-31T12:25:35.587Z"
-        },
-        "after": {
-          "id": "db0dc2d8-a376-415e-828d-bdd8e27eaf51",
-          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
-          "applicationNo": "120073/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:14:18.212Z",
-          "updatedAt": "2026-01-31T14:57:57.475Z"
-        }
-      },
-      "timestamp": "2026-01-31T14:57:57.476Z",
-      "adminSession": "11be6262-3642-464a-b4b3-dacc64d63503"
     }
   ]
 }
