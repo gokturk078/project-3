@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:49:53.999Z"
+    "lastUpdated": "2026-06-13T09:50:09.418Z"
   },
   "taxonomy": {
     "categories": [
@@ -4078,7 +4078,7 @@
       "category": "REPSAM",
       "role": "OFİS PERSONELİ",
       "jobTitle": "117543/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -4097,7 +4097,7 @@
         "contactPerson": "MURAT ÜYÜR EŞİ"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T09:01:45.887Z"
+      "updatedAt": "2026-06-13T09:50:09.417Z"
     },
     {
       "personId": "9735f86e-be5e-4194-9693-83629caa2a34",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "f02129af-f447-4ec8-a059-37dcd3c601aa",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+      "details": {
+        "before": {
+          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+          "baseKey": "BENAN UYUR",
+          "fullName": "BENAN ÜYÜR",
+          "normalizedName": "BENAN UYUR",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": "117543/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 24
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "BÜRO MEMURU",
+            "profession": "117543/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR EŞİ"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:01:45.887Z"
+        },
+        "after": {
+          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
+          "baseKey": "BENAN UYUR",
+          "fullName": "BENAN ÜYÜR",
+          "normalizedName": "BENAN UYUR",
+          "category": "REPSAM",
+          "role": "OFİS PERSONELİ",
+          "jobTitle": "117543/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 24
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "BÜRO MEMURU",
+            "profession": "117543/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR EŞİ"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:50:09.417Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:50:09.417Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "ba0ba166-fec1-4793-8a97-563e5ef8f6e1",
       "action": "UPDATE",
@@ -42645,40 +42713,6 @@
         }
       },
       "timestamp": "2026-02-07T08:29:23.511Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "2d3fb9ca-7b7b-4e1f-8463-0bd5dd69e1ed",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
-      "details": {
-        "before": {
-          "id": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
-          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
-          "applicationNo": "120271/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:17:35.632Z",
-          "updatedAt": "2026-01-31T13:54:21.458Z"
-        },
-        "after": {
-          "id": "df857cf6-dee0-4759-8f81-7e79bfbd26cc",
-          "personId": "02a724b5-3b30-4a7f-bc96-66454bbf4c92",
-          "applicationNo": "120271/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:17:35.632Z",
-          "updatedAt": "2026-02-07T08:29:17.965Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:29:17.965Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
