@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:49:14.802Z"
+    "lastUpdated": "2026-06-13T09:49:27.673Z"
   },
   "taxonomy": {
     "categories": [
@@ -3991,7 +3991,7 @@
       "category": "REPSAM",
       "role": null,
       "jobTitle": "117468/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -4010,7 +4010,7 @@
         "contactPerson": "MURAT ÜYÜR (İSKELE)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-02-09T09:00:16.469Z"
+      "updatedAt": "2026-06-13T09:49:27.672Z"
     },
     {
       "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "0e9983ab-3dee-43ac-8230-32046ec92a0b",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+      "details": {
+        "before": {
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+          "baseKey": "MECIT AYDOGAN",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117468/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 21
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117468/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR (İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-02-09T09:00:16.469Z"
+        },
+        "after": {
+          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
+          "baseKey": "MECIT AYDOGAN",
+          "fullName": "MECİT AYDOĞAN",
+          "normalizedName": "MECIT AYDOGAN",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "117468/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 21
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "117468/2025",
+            "status": "SAĞLIĞA SEVK EDİLECEK",
+            "expectedDate": null,
+            "contactPerson": "MURAT ÜYÜR (İSKELE)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:49:27.672Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:49:27.672Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "3b3fc81a-3f71-45f3-a25e-5ff46276b75a",
       "action": "UPDATE",
@@ -42543,40 +42611,6 @@
         }
       },
       "timestamp": "2026-02-07T08:29:06.738Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "c4298e45-ccd6-4921-b1b3-3e18db5241ee",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "c6e026cf-4017-4cb8-a849-2d9eb298e6f1",
-      "details": {
-        "before": {
-          "id": "c6e026cf-4017-4cb8-a849-2d9eb298e6f1",
-          "personId": "01cffcc5-d938-47d5-9bb0-3d596e00301b",
-          "applicationNo": "147163/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "UZATMA 1 YIL",
-          "notes": "",
-          "createdAt": "2026-01-29T09:04:56.262Z",
-          "updatedAt": "2026-01-29T09:06:00.120Z"
-        },
-        "after": {
-          "id": "c6e026cf-4017-4cb8-a849-2d9eb298e6f1",
-          "personId": "01cffcc5-d938-47d5-9bb0-3d596e00301b",
-          "applicationNo": "147163/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "UZATMA 1 YIL",
-          "notes": "",
-          "createdAt": "2026-01-29T09:04:56.262Z",
-          "updatedAt": "2026-02-07T08:29:01.064Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:29:01.064Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
