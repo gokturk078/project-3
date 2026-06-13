@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:15:10.221Z"
+    "lastUpdated": "2026-06-13T08:15:36.261Z"
   },
   "taxonomy": {
     "categories": [
@@ -7294,6 +7294,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:15:10.220Z",
       "updatedAt": "2026-06-13T08:15:10.220Z"
+    },
+    {
+      "id": "e9893f4b-120d-4867-9340-103dc94c493d",
+      "personId": "2ecf4811-2c3b-453c-ba0c-776033baa9f4",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-06-13T08:15:36.261Z",
+      "updatedAt": "2026-06-13T08:15:36.261Z"
     }
   ],
   "departures": [
@@ -8761,6 +8773,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "f32e5c35-e65d-474b-9299-6fecd63fa544",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "e9893f4b-120d-4867-9340-103dc94c493d",
+      "details": {
+        "tracking": {
+          "id": "e9893f4b-120d-4867-9340-103dc94c493d",
+          "personId": "2ecf4811-2c3b-453c-ba0c-776033baa9f4",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:15:36.261Z",
+          "updatedAt": "2026-06-13T08:15:36.261Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:15:36.261Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "6263fc6a-77a9-4011-8240-48a9c81841f0",
       "action": "CREATE",
@@ -42252,57 +42286,6 @@
         }
       },
       "timestamp": "2026-02-02T07:35:30.998Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "06db5aa8-e3e0-47df-895f-1faa7248c7e8",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-      "details": {
-        "before": {
-          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-          "baseKey": "MAHMUT DEMİRALP",
-          "fullName": "MAHMUT DEMİRALP",
-          "normalizedName": "MAHMUT DEMİRALP",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:06:50.330Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:06:50.330Z",
-          "updatedAt": "2026-01-19T07:06:50.330Z"
-        },
-        "after": {
-          "personId": "99e33290-bedb-4e24-a859-b1ae67ac87b0",
-          "baseKey": "MAHMUT DEMİRALP",
-          "fullName": "MAHMUT DEMİRALP",
-          "normalizedName": "MAHMUT DEMİRALP",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:06:50.330Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:06:50.330Z",
-          "updatedAt": "2026-02-02T07:35:03.224Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-02T07:35:03.224Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
