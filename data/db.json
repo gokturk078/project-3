@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:26:15.300Z"
+    "lastUpdated": "2026-06-13T08:26:39.111Z"
   },
   "taxonomy": {
     "categories": [
@@ -7518,6 +7518,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:26:15.300Z",
       "updatedAt": "2026-06-13T08:26:15.300Z"
+    },
+    {
+      "id": "4ba7639e-7eb5-437d-b051-8747dddee57a",
+      "personId": "e9d045f7-db34-4359-b013-4a30daa97d0e",
+      "applicationNo": "",
+      "profession": "TEMİNAT YATIRILICAK",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "ÖZBEK UZATMA",
+      "notes": "",
+      "createdAt": "2026-06-13T08:26:39.111Z",
+      "updatedAt": "2026-06-13T08:26:39.111Z"
     }
   ],
   "departures": [
@@ -8985,6 +8997,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "d2205dbf-3921-4b65-9635-bc28c3a96757",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "4ba7639e-7eb5-437d-b051-8747dddee57a",
+      "details": {
+        "tracking": {
+          "id": "4ba7639e-7eb5-437d-b051-8747dddee57a",
+          "personId": "e9d045f7-db34-4359-b013-4a30daa97d0e",
+          "applicationNo": "",
+          "profession": "TEMİNAT YATIRILICAK",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "ÖZBEK UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-13T08:26:39.111Z",
+          "updatedAt": "2026-06-13T08:26:39.111Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:26:39.111Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "5a7d3d2d-f67b-430e-8ec2-9144e679c0b7",
       "action": "CREATE",
@@ -42208,74 +42242,6 @@
         }
       },
       "timestamp": "2026-02-03T09:21:25.267Z",
-      "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
-    },
-    {
-      "id": "67368c9b-b003-42fd-81f6-bb8cdba29c1a",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "42552932-7346-4a0a-9436-3edbc9774ef5",
-      "details": {
-        "before": {
-          "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
-          "baseKey": "YETIS KARBUZ",
-          "fullName": "YETİŞ KARBUZ",
-          "normalizedName": "YETIS KARBUZ",
-          "category": null,
-          "role": null,
-          "jobTitle": "115646/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 8
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115646/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-18",
-            "contactPerson": "MESUT"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "42552932-7346-4a0a-9436-3edbc9774ef5",
-          "baseKey": "YETIS KARBUZ",
-          "fullName": "YETİŞ KARBUZ",
-          "normalizedName": "YETIS KARBUZ",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": "115646/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 8
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115646/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-18",
-            "contactPerson": "MESUT"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-03T09:21:09.582Z"
-        }
-      },
-      "timestamp": "2026-02-03T09:21:09.582Z",
       "adminSession": "05240696-41ce-4a83-b4b6-9e4b42e127d7"
     }
   ]
