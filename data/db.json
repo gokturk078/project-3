@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:18:46.153Z"
+    "lastUpdated": "2026-06-13T08:19:06.583Z"
   },
   "taxonomy": {
     "categories": [
@@ -7390,6 +7390,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:18:46.153Z",
       "updatedAt": "2026-06-13T08:18:46.153Z"
+    },
+    {
+      "id": "df0451e6-6a2a-416b-95a2-16a6385967ae",
+      "personId": "86a1648a-fed8-455d-ac09-a66dde94fdb7",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-06-13T08:19:06.583Z",
+      "updatedAt": "2026-06-13T08:19:06.583Z"
     }
   ],
   "departures": [
@@ -8857,6 +8869,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ccc86a11-cc3a-4da3-83e4-3194c286c57d",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "df0451e6-6a2a-416b-95a2-16a6385967ae",
+      "details": {
+        "tracking": {
+          "id": "df0451e6-6a2a-416b-95a2-16a6385967ae",
+          "personId": "86a1648a-fed8-455d-ac09-a66dde94fdb7",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:19:06.583Z",
+          "updatedAt": "2026-06-13T08:19:06.583Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:19:06.583Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "142c8b8c-9763-4bb6-91cd-a0f3abf7f433",
       "action": "CREATE",
@@ -42292,28 +42326,6 @@
         }
       },
       "timestamp": "2026-02-02T08:56:58.970Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "b71d533e-4f48-4491-a81b-d4a0c560209f",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "fb6095b1-5912-487f-8a86-afcbea7a3d46",
-      "details": {
-        "tracking": {
-          "id": "fb6095b1-5912-487f-8a86-afcbea7a3d46",
-          "personId": "6183ff70-baf3-463f-aa93-542a8a8267ce",
-          "applicationNo": "120612/2026",
-          "profession": "",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-02-02",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-02-02T08:56:41.586Z",
-          "updatedAt": "2026-02-02T08:56:41.586Z"
-        }
-      },
-      "timestamp": "2026-02-02T08:56:41.586Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
