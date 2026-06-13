@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:48:28.928Z"
+    "lastUpdated": "2026-06-13T09:48:47.394Z"
   },
   "taxonomy": {
     "categories": [
@@ -3643,7 +3643,7 @@
       "category": "REPSAM",
       "role": null,
       "jobTitle": "113826/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -3662,7 +3662,7 @@
         "contactPerson": "YEMEKHANECİ SEDAT"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-19T07:23:54.173Z"
+      "updatedAt": "2026-06-13T09:48:47.394Z"
     },
     {
       "personId": "9ddce421-1e23-4ad9-96e3-72a0932dee50",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "3db0727e-8036-4675-971b-9f49fa4e305a",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "6bd35035-1712-42c4-a5cb-6665336e328b",
+      "details": {
+        "before": {
+          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
+          "baseKey": "BARIS TUNA",
+          "fullName": "BARIŞ TUNA",
+          "normalizedName": "BARIS TUNA",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "113826/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 5
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "113826/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": "2025-12-21",
+            "contactPerson": "YEMEKHANECİ SEDAT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-19T07:23:54.173Z"
+        },
+        "after": {
+          "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
+          "baseKey": "BARIS TUNA",
+          "fullName": "BARIŞ TUNA",
+          "normalizedName": "BARIS TUNA",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "113826/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 5
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "113826/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": "2025-12-21",
+            "contactPerson": "YEMEKHANECİ SEDAT"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:48:47.394Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:48:47.394Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "1dd4f3da-9d33-489a-8325-bc73945669cd",
       "action": "UPDATE",
@@ -42441,40 +42509,6 @@
         }
       },
       "timestamp": "2026-02-06T15:36:18.909Z",
-      "adminSession": "2b71c06e-302e-472a-89b7-363d3f5a184e"
-    },
-    {
-      "id": "8ce1e626-4f42-4d94-911e-90c26c006d51",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "254d5842-78ef-4dab-8957-53670257eaa0",
-      "details": {
-        "before": {
-          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "applicationNo": "119227/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:52.399Z",
-          "updatedAt": "2026-02-03T12:01:43.809Z"
-        },
-        "after": {
-          "id": "254d5842-78ef-4dab-8957-53670257eaa0",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "applicationNo": "119227/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:52.399Z",
-          "updatedAt": "2026-02-06T15:36:09.151Z"
-        }
-      },
-      "timestamp": "2026-02-06T15:36:09.152Z",
       "adminSession": "2b71c06e-302e-472a-89b7-363d3f5a184e"
     }
   ]
