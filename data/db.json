@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:14:27.693Z"
+    "lastUpdated": "2026-06-13T08:14:45.460Z"
   },
   "taxonomy": {
     "categories": [
@@ -6737,6 +6737,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:14:27.693Z",
       "updatedAt": "2026-06-13T08:14:27.693Z"
+    },
+    {
+      "personId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
+      "baseKey": "AHMET AĞLIK",
+      "fullName": "AHMET AĞLIK",
+      "normalizedName": "AHMET AĞLIK",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:14:45.460Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:14:45.460Z",
+      "updatedAt": "2026-06-13T08:14:45.460Z"
     }
   ],
   "leaves": [
@@ -8729,6 +8749,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "af659002-f4f5-46b3-bc82-5d5f1e94848e",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
+      "details": {
+        "person": {
+          "personId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
+          "baseKey": "AHMET AĞLIK",
+          "fullName": "AHMET AĞLIK",
+          "normalizedName": "AHMET AĞLIK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:14:45.460Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:14:45.460Z",
+          "updatedAt": "2026-06-13T08:14:45.460Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:14:45.460Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "3a0d3c60-44ba-4963-98b7-438ed931c621",
       "action": "CREATE",
@@ -42287,74 +42337,6 @@
         }
       },
       "timestamp": "2026-02-02T07:34:35.798Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "2453c0bb-4fe1-46e0-af11-d20aa255a5ad",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "37d42596-a665-48ed-8158-1299397d70e6",
-      "details": {
-        "before": {
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "baseKey": "OGUN KARBUZ",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "category": null,
-          "role": null,
-          "jobTitle": "115652/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 7
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115652/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-18",
-            "contactPerson": "MESUT"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "37d42596-a665-48ed-8158-1299397d70e6",
-          "baseKey": "OGUN KARBUZ",
-          "fullName": "OGÜN KARBUZ",
-          "normalizedName": "OGUN KARBUZ",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": "115652/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 7
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115652/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-18",
-            "contactPerson": "MESUT"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-02T07:34:10.806Z"
-        }
-      },
-      "timestamp": "2026-02-02T07:34:10.806Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
