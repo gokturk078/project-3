@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:17:29.957Z"
+    "lastUpdated": "2026-06-13T08:17:56.731Z"
   },
   "taxonomy": {
     "categories": [
@@ -7354,6 +7354,18 @@
       "notes": "",
       "createdAt": "2026-06-13T08:17:29.957Z",
       "updatedAt": "2026-06-13T08:17:29.957Z"
+    },
+    {
+      "id": "37ca5abc-e49f-46b1-8c8f-c7d1d364d671",
+      "personId": "7b067569-90aa-48ad-8873-e40621b16e3f",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "KALMES",
+      "notes": "",
+      "createdAt": "2026-06-13T08:17:56.731Z",
+      "updatedAt": "2026-06-13T08:17:56.731Z"
     }
   ],
   "departures": [
@@ -8821,6 +8833,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "f65fc626-1cc0-4e98-a9b8-9688588e540f",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "37ca5abc-e49f-46b1-8c8f-c7d1d364d671",
+      "details": {
+        "tracking": {
+          "id": "37ca5abc-e49f-46b1-8c8f-c7d1d364d671",
+          "personId": "7b067569-90aa-48ad-8873-e40621b16e3f",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:17:56.731Z",
+          "updatedAt": "2026-06-13T08:17:56.731Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:17:56.731Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "9b7f60b0-4a72-460c-8d2f-029de96ac1fe",
       "action": "CREATE",
@@ -42274,28 +42308,6 @@
         }
       },
       "timestamp": "2026-02-02T08:54:58.932Z",
-      "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
-    },
-    {
-      "id": "269f3bf2-0a37-4418-be85-08fe47bcb62e",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "db0dc2d8-a376-415e-828d-bdd8e27eaf51",
-      "details": {
-        "tracking": {
-          "id": "db0dc2d8-a376-415e-828d-bdd8e27eaf51",
-          "personId": "474010b9-be2c-43bf-ad9d-ae0835e0815e",
-          "applicationNo": "120073/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:14:18.212Z",
-          "updatedAt": "2026-01-31T14:57:57.475Z"
-        }
-      },
-      "timestamp": "2026-02-02T07:36:25.513Z",
       "adminSession": "70413143-9cdf-47c0-be2f-981eb6ef3cfd"
     }
   ]
