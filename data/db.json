@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T08:08:41.750Z"
+    "lastUpdated": "2026-06-13T08:09:08.424Z"
   },
   "taxonomy": {
     "categories": [
@@ -6457,6 +6457,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T08:08:41.750Z",
       "updatedAt": "2026-06-13T08:08:41.750Z"
+    },
+    {
+      "personId": "657066a1-f23c-43f2-90d8-047b96ee1e5a",
+      "baseKey": "ALİ UZUN",
+      "fullName": "ALİ UZUN",
+      "normalizedName": "ALİ UZUN",
+      "category": "KALMES",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-13T08:09:08.424Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-13T08:09:08.424Z",
+      "updatedAt": "2026-06-13T08:09:08.424Z"
     }
   ],
   "leaves": [
@@ -8449,6 +8469,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "26fdff75-d4e6-4e39-bdf4-bd3c3d7e75ed",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "657066a1-f23c-43f2-90d8-047b96ee1e5a",
+      "details": {
+        "person": {
+          "personId": "657066a1-f23c-43f2-90d8-047b96ee1e5a",
+          "baseKey": "ALİ UZUN",
+          "fullName": "ALİ UZUN",
+          "normalizedName": "ALİ UZUN",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:09:08.424Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:09:08.424Z",
+          "updatedAt": "2026-06-13T08:09:08.424Z"
+        }
+      },
+      "timestamp": "2026-06-13T08:09:08.424Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "dc2578f0-9464-4fb4-acf8-523845031641",
       "action": "CREATE",
@@ -42201,40 +42251,6 @@
         }
       },
       "timestamp": "2026-01-31T13:54:08.638Z",
-      "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
-    },
-    {
-      "id": "e493754a-1251-4bf6-86d6-8985f0f225c1",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
-      "details": {
-        "before": {
-          "id": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
-          "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
-          "applicationNo": "119261/2026",
-          "profession": "MİMAR",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:16:48.860Z",
-          "updatedAt": "2026-01-28T13:19:46.683Z"
-        },
-        "after": {
-          "id": "07d043fd-9291-4b28-beed-e89a1fd2fc5b",
-          "personId": "f0fc8aed-eda7-40af-b4bf-3eb0d4be5d47",
-          "applicationNo": "119261/2026",
-          "profession": "MİMAR",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:16:48.860Z",
-          "updatedAt": "2026-01-31T13:52:55.041Z"
-        }
-      },
-      "timestamp": "2026-01-31T13:52:55.041Z",
       "adminSession": "db06f25a-0440-4efb-a7a9-ab92684bee15"
     }
   ]
