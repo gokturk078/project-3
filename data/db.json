@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:48:07.881Z"
+    "lastUpdated": "2026-06-13T09:48:28.928Z"
   },
   "taxonomy": {
     "categories": [
@@ -3614,7 +3614,7 @@
       "category": "REPSAM",
       "role": null,
       "jobTitle": "113790/2025",
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
       "status": "active",
       "sources": [
@@ -3633,7 +3633,7 @@
         "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)"
       },
       "createdAt": "2026-01-05T12:12:49.592Z",
-      "updatedAt": "2026-01-19T07:23:19.939Z"
+      "updatedAt": "2026-06-13T09:48:28.928Z"
     },
     {
       "personId": "6bd35035-1712-42c4-a5cb-6665336e328b",
@@ -9231,6 +9231,74 @@
     }
   ],
   "audit": [
+    {
+      "id": "1dd4f3da-9d33-489a-8325-bc73945669cd",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+      "details": {
+        "before": {
+          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+          "baseKey": "HALIL KAYA",
+          "fullName": "HALİL KAYA",
+          "normalizedName": "HALIL KAYA",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "113790/2025",
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 4
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "113790/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": "2025-12-21",
+            "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-01-19T07:23:19.939Z"
+        },
+        "after": {
+          "personId": "9987614f-d957-4b21-b255-6e29fc51f80d",
+          "baseKey": "HALIL KAYA",
+          "fullName": "HALİL KAYA",
+          "normalizedName": "HALIL KAYA",
+          "category": "REPSAM",
+          "role": null,
+          "jobTitle": "113790/2025",
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "file": "takip.xlsx",
+              "sheet": "GÜNCEL (3)",
+              "row": 4
+            }
+          ],
+          "mergedFrom": [],
+          "trackingInfo": {
+            "applicationNo": "inşaat işçisi",
+            "profession": "113790/2025",
+            "status": "SAĞLIĞA SEVK EDİLDİ",
+            "expectedDate": "2025-12-21",
+            "contactPerson": "MURAT ŞEF(KAYNAK ALÇIPAN)"
+          },
+          "createdAt": "2026-01-05T12:12:49.592Z",
+          "updatedAt": "2026-06-13T09:48:28.928Z"
+        }
+      },
+      "timestamp": "2026-06-13T09:48:28.928Z",
+      "adminSession": "95761248-3db9-4f4b-9a1c-67dfddb53f67"
+    },
     {
       "id": "2c9b3f15-3a52-4409-b49d-50b9866defff",
       "action": "UPDATE",
@@ -42408,28 +42476,6 @@
       },
       "timestamp": "2026-02-06T15:36:09.152Z",
       "adminSession": "2b71c06e-302e-472a-89b7-363d3f5a184e"
-    },
-    {
-      "id": "b8a982c7-e41b-4d14-a94e-5df9a836c5c4",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "7fd75add-f01e-49bc-b4b4-453ed30ae8c4",
-      "details": {
-        "tracking": {
-          "id": "7fd75add-f01e-49bc-b4b4-453ed30ae8c4",
-          "personId": "2a9f9c0b-fd79-4ee3-87de-52c938e6ef06",
-          "applicationNo": "119986/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:57.460Z",
-          "updatedAt": "2026-02-06T07:54:15.334Z"
-        }
-      },
-      "timestamp": "2026-02-06T10:42:23.902Z",
-      "adminSession": "3594fe4d-076a-477a-8ce4-85a710f10416"
     }
   ]
 }
