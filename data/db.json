@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:44:39.646Z"
+    "lastUpdated": "2026-06-16T13:46:31.690Z"
   },
   "taxonomy": {
     "categories": [
@@ -6749,6 +6749,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-13T09:44:53.948Z",
       "updatedAt": "2026-06-13T09:44:53.948Z"
+    },
+    {
+      "personId": "3956f556-17a6-48f8-93b9-3137051fd4fa",
+      "baseKey": "AZİZ KELEŞ",
+      "fullName": "AZİZ KELEŞ",
+      "normalizedName": "AZİZ KELEŞ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-16T13:46:31.690Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-16T13:46:31.690Z",
+      "updatedAt": "2026-06-16T13:46:31.690Z"
     }
   ],
   "leaves": [
@@ -9212,6 +9232,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ed116f0c-56fe-41e1-95e7-6e0a211cd46b",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "3956f556-17a6-48f8-93b9-3137051fd4fa",
+      "details": {
+        "person": {
+          "personId": "3956f556-17a6-48f8-93b9-3137051fd4fa",
+          "baseKey": "AZİZ KELEŞ",
+          "fullName": "AZİZ KELEŞ",
+          "normalizedName": "AZİZ KELEŞ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-16T13:46:31.690Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-16T13:46:31.690Z",
+          "updatedAt": "2026-06-16T13:46:31.690Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:46:31.690Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "4bcc31d8-b788-4f0f-82a2-1efe10e713b3",
       "action": "UPDATE",
@@ -42559,35 +42609,6 @@
         }
       },
       "timestamp": "2026-02-09T08:55:17.057Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "af0037a4-17b5-4f67-9349-0b65fd4877bc",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-      "details": {
-        "tracking": {
-          "id": "de86d3aa-0c7b-41a4-9d32-787e5987e304",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "baseKey": "BENAN UYUR",
-          "applicationNo": "BÜRO MEMURU",
-          "profession": "117543/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 24
-          },
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-          "updatedAt": "2026-02-07T08:31:34.088Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:54:52.813Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
