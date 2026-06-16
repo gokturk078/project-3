@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:46:52.138Z"
+    "lastUpdated": "2026-06-16T13:47:34.780Z"
   },
   "taxonomy": {
     "categories": [
@@ -7590,6 +7590,18 @@
       "notes": "",
       "createdAt": "2026-06-13T09:57:29.326Z",
       "updatedAt": "2026-06-13T09:57:29.326Z"
+    },
+    {
+      "id": "13d57150-e358-4af9-b3c6-9a1fd6c08547",
+      "personId": "3956f556-17a6-48f8-93b9-3137051fd4fa",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "",
+      "notes": "",
+      "createdAt": "2026-06-16T13:47:34.780Z",
+      "updatedAt": "2026-06-16T13:47:34.780Z"
     }
   ],
   "departures": [
@@ -9252,6 +9264,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "4f9e59ee-d6ff-434f-bc57-422c3b3f6f67",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "13d57150-e358-4af9-b3c6-9a1fd6c08547",
+      "details": {
+        "tracking": {
+          "id": "13d57150-e358-4af9-b3c6-9a1fd6c08547",
+          "personId": "3956f556-17a6-48f8-93b9-3137051fd4fa",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-06-16T13:47:34.780Z",
+          "updatedAt": "2026-06-16T13:47:34.780Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:47:34.780Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "e55062b6-d59b-42e0-8881-30d2ba8e6f10",
       "action": "CREATE",
@@ -42615,28 +42649,6 @@
         }
       },
       "timestamp": "2026-02-09T08:55:40.601Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "c522856c-3c5e-4174-98e8-8d5a1a82e97a",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-      "details": {
-        "tracking": {
-          "id": "172acf5d-9fae-4830-9b15-73ea03e02c99",
-          "personId": "277860f9-67f4-4934-8292-f5d2045ee64f",
-          "applicationNo": "119236/2026",
-          "profession": "İinşaat işçisi",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-19T07:11:02.995Z",
-          "updatedAt": "2026-02-07T11:46:48.374Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:55:36.776Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
