@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:43:48.626Z"
+    "lastUpdated": "2026-06-16T13:43:56.935Z"
   },
   "taxonomy": {
     "categories": [
@@ -7448,12 +7448,12 @@
       "personId": "1b7d6b9c-4a42-48b3-9b16-70d8d941da32",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-06-13T08:21:42.419Z",
-      "updatedAt": "2026-06-13T08:21:42.419Z"
+      "updatedAt": "2026-06-16T13:43:56.935Z"
     },
     {
       "id": "4fe65114-f3de-473d-8661-89d80a850eb5",
@@ -9212,6 +9212,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "681ef3a9-cac2-46a0-81f6-39f10aefd3a9",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "a3d43d3b-f9d0-463a-b168-99f5e07af582",
+      "details": {
+        "before": {
+          "id": "a3d43d3b-f9d0-463a-b168-99f5e07af582",
+          "personId": "1b7d6b9c-4a42-48b3-9b16-70d8d941da32",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:21:42.419Z",
+          "updatedAt": "2026-06-13T08:21:42.419Z"
+        },
+        "after": {
+          "id": "a3d43d3b-f9d0-463a-b168-99f5e07af582",
+          "personId": "1b7d6b9c-4a42-48b3-9b16-70d8d941da32",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:21:42.419Z",
+          "updatedAt": "2026-06-16T13:43:56.935Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:43:56.935Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "6b3b8566-3c27-4403-8cc1-e89326b4fd2a",
       "action": "UPDATE",
@@ -42544,35 +42578,6 @@
         }
       },
       "timestamp": "2026-02-09T08:54:47.711Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "79d7ca87-a8e4-4e93-9db0-50fc4ff2f312",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-      "details": {
-        "tracking": {
-          "id": "d0c46b67-937e-483e-ba1b-38b7874be8e4",
-          "fullName": "MECİT AYDOĞAN",
-          "normalizedName": "MECIT AYDOGAN",
-          "baseKey": "MECIT AYDOGAN",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117468/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR (İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 21
-          },
-          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-          "updatedAt": "2026-02-07T08:32:04.126Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:54:45.108Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
