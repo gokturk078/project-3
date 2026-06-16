@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:43:15.424Z"
+    "lastUpdated": "2026-06-16T13:43:21.335Z"
   },
   "taxonomy": {
     "categories": [
@@ -7388,12 +7388,12 @@
       "personId": "86a1648a-fed8-455d-ac09-a66dde94fdb7",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-06-13T08:19:06.583Z",
-      "updatedAt": "2026-06-13T08:19:06.583Z"
+      "updatedAt": "2026-06-16T13:43:21.335Z"
     },
     {
       "id": "f534d978-91ac-4e15-b03b-3b034b100ff4",
@@ -9212,6 +9212,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "e3fcd25c-e29c-466f-b0d5-d72b29e7c079",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "df0451e6-6a2a-416b-95a2-16a6385967ae",
+      "details": {
+        "before": {
+          "id": "df0451e6-6a2a-416b-95a2-16a6385967ae",
+          "personId": "86a1648a-fed8-455d-ac09-a66dde94fdb7",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:19:06.583Z",
+          "updatedAt": "2026-06-13T08:19:06.583Z"
+        },
+        "after": {
+          "id": "df0451e6-6a2a-416b-95a2-16a6385967ae",
+          "personId": "86a1648a-fed8-455d-ac09-a66dde94fdb7",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:19:06.583Z",
+          "updatedAt": "2026-06-16T13:43:21.335Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:43:21.335Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "4d70cfe7-2bfc-427e-9b94-128894ca84c8",
       "action": "UPDATE",
@@ -42519,35 +42553,6 @@
         }
       },
       "timestamp": "2026-02-09T08:54:32.461Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "58541cef-ca30-4977-a44c-0d448e3b5967",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
-      "details": {
-        "tracking": {
-          "id": "7e8bbf09-175b-4ec3-a326-e6ae8e58a85b",
-          "fullName": "MUHAMMET AR",
-          "normalizedName": "MUHAMMET AR",
-          "baseKey": "MUHAMMET AR",
-          "applicationNo": "inşaat işçisi",
-          "profession": "115670/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 11
-          },
-          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
-          "updatedAt": "2026-02-07T08:32:40.159Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:54:29.616Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
