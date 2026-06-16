@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:46:31.690Z"
+    "lastUpdated": "2026-06-16T13:46:52.138Z"
   },
   "taxonomy": {
     "categories": [
@@ -6769,6 +6769,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-16T13:46:31.690Z",
       "updatedAt": "2026-06-16T13:46:31.690Z"
+    },
+    {
+      "personId": "a446b4ab-4064-4755-9ed0-7a240fabbc89",
+      "baseKey": "EMRAH ORAL",
+      "fullName": "EMRAH ORAL",
+      "normalizedName": "EMRAH ORAL",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-16T13:46:52.138Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-16T13:46:52.138Z",
+      "updatedAt": "2026-06-16T13:46:52.138Z"
     }
   ],
   "leaves": [
@@ -9232,6 +9252,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "e55062b6-d59b-42e0-8881-30d2ba8e6f10",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "a446b4ab-4064-4755-9ed0-7a240fabbc89",
+      "details": {
+        "person": {
+          "personId": "a446b4ab-4064-4755-9ed0-7a240fabbc89",
+          "baseKey": "EMRAH ORAL",
+          "fullName": "EMRAH ORAL",
+          "normalizedName": "EMRAH ORAL",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-16T13:46:52.138Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-16T13:46:52.138Z",
+          "updatedAt": "2026-06-16T13:46:52.138Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:46:52.138Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "ed116f0c-56fe-41e1-95e7-6e0a211cd46b",
       "action": "CREATE",
@@ -42587,28 +42637,6 @@
         }
       },
       "timestamp": "2026-02-09T08:55:36.776Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "79158e20-7221-497c-9f45-c0a45a78e7c4",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-      "details": {
-        "tracking": {
-          "id": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "applicationNo": "120079/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-26T15:16:18.166Z",
-          "updatedAt": "2026-02-07T11:47:15.249Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:55:17.057Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
