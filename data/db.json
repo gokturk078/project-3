@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:42:43.004Z"
+    "lastUpdated": "2026-06-16T13:42:49.015Z"
   },
   "taxonomy": {
     "categories": [
@@ -7340,12 +7340,12 @@
       "personId": "e0074c13-d493-4894-8eb2-9ee647523dc7",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-06-13T08:17:29.957Z",
-      "updatedAt": "2026-06-13T08:17:29.957Z"
+      "updatedAt": "2026-06-16T13:42:49.015Z"
     },
     {
       "id": "37ca5abc-e49f-46b1-8c8f-c7d1d364d671",
@@ -9212,6 +9212,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "edde8fe6-07ac-4c26-82fc-b67b84c2d0ad",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "9b3b2c4b-ed53-43fb-a422-c89f9594205a",
+      "details": {
+        "before": {
+          "id": "9b3b2c4b-ed53-43fb-a422-c89f9594205a",
+          "personId": "e0074c13-d493-4894-8eb2-9ee647523dc7",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:17:29.957Z",
+          "updatedAt": "2026-06-13T08:17:29.957Z"
+        },
+        "after": {
+          "id": "9b3b2c4b-ed53-43fb-a422-c89f9594205a",
+          "personId": "e0074c13-d493-4894-8eb2-9ee647523dc7",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:17:29.957Z",
+          "updatedAt": "2026-06-16T13:42:49.015Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:42:49.015Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "eb4b53c8-3255-4a42-881a-c0132d39c52c",
       "action": "UPDATE",
@@ -42509,54 +42543,6 @@
         }
       },
       "timestamp": "2026-02-07T11:46:48.374Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "d087d84b-419b-4c80-a14c-fb70674d6a04",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-      "details": {
-        "before": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "updatedAt": "2026-01-31T14:57:03.260Z"
-        },
-        "after": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "updatedAt": "2026-02-07T08:32:53.097Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:32:53.097Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
