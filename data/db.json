@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:43:33.424Z"
+    "lastUpdated": "2026-06-16T13:43:39.483Z"
   },
   "taxonomy": {
     "categories": [
@@ -7424,12 +7424,12 @@
       "personId": "a4ef7512-b62f-41d2-9eab-88a503e9dd51",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-06-13T08:20:45.724Z",
-      "updatedAt": "2026-06-13T08:20:45.724Z"
+      "updatedAt": "2026-06-16T13:43:39.483Z"
     },
     {
       "id": "b0a5b591-baee-4f27-966d-e5f30d41f90c",
@@ -9212,6 +9212,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "6e939929-4187-4356-821c-da13e23ed4e7",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "bef989c2-cec7-4f41-ba2f-e6683a7905da",
+      "details": {
+        "before": {
+          "id": "bef989c2-cec7-4f41-ba2f-e6683a7905da",
+          "personId": "a4ef7512-b62f-41d2-9eab-88a503e9dd51",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:20:45.724Z",
+          "updatedAt": "2026-06-13T08:20:45.724Z"
+        },
+        "after": {
+          "id": "bef989c2-cec7-4f41-ba2f-e6683a7905da",
+          "personId": "a4ef7512-b62f-41d2-9eab-88a503e9dd51",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:20:45.724Z",
+          "updatedAt": "2026-06-16T13:43:39.483Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:43:39.483Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "9ade68ad-8eab-4807-9672-046256281bac",
       "action": "UPDATE",
@@ -42534,35 +42568,6 @@
         }
       },
       "timestamp": "2026-02-09T08:54:42.113Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "1d5b45fd-15ff-498e-a746-ad8ce72606ec",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-      "details": {
-        "tracking": {
-          "id": "9dc730b7-04ee-40f5-84eb-1afda675f80e",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "baseKey": "MERTCAN SIMSEK",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117451/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "İSG",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 18
-          },
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "updatedAt": "2026-02-07T08:32:18.946Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:54:39.287Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
