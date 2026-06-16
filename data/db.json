@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:42:54.677Z"
+    "lastUpdated": "2026-06-16T13:43:07.112Z"
   },
   "taxonomy": {
     "categories": [
@@ -7364,12 +7364,12 @@
       "personId": "a1b2ff96-3380-4fc1-9ab1-b6faf1a9d343",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "REPSAM",
       "notes": "",
       "createdAt": "2026-06-13T08:18:22.707Z",
-      "updatedAt": "2026-06-13T08:18:22.707Z"
+      "updatedAt": "2026-06-16T13:43:07.112Z"
     },
     {
       "id": "bae91208-8c73-475c-be15-9586368c4efe",
@@ -9212,6 +9212,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "62b498da-3346-42f7-831b-28efe225411a",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "b5fbacda-b460-4b0c-97f4-a0774145f35a",
+      "details": {
+        "before": {
+          "id": "b5fbacda-b460-4b0c-97f4-a0774145f35a",
+          "personId": "a1b2ff96-3380-4fc1-9ab1-b6faf1a9d343",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-13T08:18:22.707Z",
+          "updatedAt": "2026-06-13T08:18:22.707Z"
+        },
+        "after": {
+          "id": "b5fbacda-b460-4b0c-97f4-a0774145f35a",
+          "personId": "a1b2ff96-3380-4fc1-9ab1-b6faf1a9d343",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-13T08:18:22.707Z",
+          "updatedAt": "2026-06-16T13:43:07.112Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:43:07.112Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "9d6576c1-0fc3-44c3-b9c1-00a516ba4bdb",
       "action": "UPDATE",
@@ -42510,40 +42544,6 @@
       },
       "timestamp": "2026-02-09T08:54:25.967Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "be5e7cdc-0247-4892-8d2c-4ecf3d7c54d7",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-      "details": {
-        "before": {
-          "id": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "applicationNo": "120079/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-26T15:16:18.166Z",
-          "updatedAt": "2026-02-03T12:01:56.897Z"
-        },
-        "after": {
-          "id": "1697d450-ead6-4990-bfe5-f8c9d2f47be3",
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "applicationNo": "120079/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-01-26T15:16:18.166Z",
-          "updatedAt": "2026-02-07T11:47:15.249Z"
-        }
-      },
-      "timestamp": "2026-02-07T11:47:15.249Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
 }
