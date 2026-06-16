@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:42:02.658Z"
+    "lastUpdated": "2026-06-16T13:42:15.180Z"
   },
   "taxonomy": {
     "categories": [
@@ -7280,12 +7280,12 @@
       "personId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "status": "SAĞLIĞA SEVK EDİLDİ",
       "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-06-13T08:15:10.220Z",
-      "updatedAt": "2026-06-13T08:15:48.783Z"
+      "updatedAt": "2026-06-16T13:42:15.180Z"
     },
     {
       "id": "e9893f4b-120d-4867-9340-103dc94c493d",
@@ -9212,6 +9212,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "443277fa-89f2-47d6-82aa-206873599115",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "745aedc7-2d52-4bb1-9253-d50992a5a1ef",
+      "details": {
+        "before": {
+          "id": "745aedc7-2d52-4bb1-9253-d50992a5a1ef",
+          "personId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:15:10.220Z",
+          "updatedAt": "2026-06-13T08:15:48.783Z"
+        },
+        "after": {
+          "id": "745aedc7-2d52-4bb1-9253-d50992a5a1ef",
+          "personId": "d48eacdf-998c-46c0-a78a-d91cbdfc32e6",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:15:10.220Z",
+          "updatedAt": "2026-06-16T13:42:15.180Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:42:15.180Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "43f8d952-ccf3-4f1e-ad0d-0a7bf7bc4afa",
       "action": "UPDATE",
@@ -42579,54 +42613,6 @@
         }
       },
       "timestamp": "2026-02-07T08:32:18.946Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "fbe8e74c-a332-4f81-9654-9937d04bf0ad",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-      "details": {
-        "before": {
-          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-          "fullName": "RIDVAN GEZER",
-          "normalizedName": "RIDVAN GEZER",
-          "baseKey": "RIDVAN GEZER",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117452/2025",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 19
-          },
-          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-          "updatedAt": "2026-01-21T08:44:50.278Z"
-        },
-        "after": {
-          "id": "21c06de9-33c1-40a4-b9b0-badf4f5e48db",
-          "fullName": "RIDVAN GEZER",
-          "normalizedName": "RIDVAN GEZER",
-          "baseKey": "RIDVAN GEZER",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117452/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "MURAT ÜYÜR( İSKELE)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 19
-          },
-          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-          "updatedAt": "2026-02-07T08:32:10.505Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:32:10.505Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
