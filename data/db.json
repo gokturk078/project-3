@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:43:07.112Z"
+    "lastUpdated": "2026-06-16T13:43:15.424Z"
   },
   "taxonomy": {
     "categories": [
@@ -7376,12 +7376,12 @@
       "personId": "97db92a1-43b4-4024-9de3-8bff9dbfd9bc",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "KALMES",
       "notes": "",
       "createdAt": "2026-06-13T08:18:46.153Z",
-      "updatedAt": "2026-06-13T08:18:46.153Z"
+      "updatedAt": "2026-06-16T13:43:15.424Z"
     },
     {
       "id": "df0451e6-6a2a-416b-95a2-16a6385967ae",
@@ -9212,6 +9212,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "4d70cfe7-2bfc-427e-9b94-128894ca84c8",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "bae91208-8c73-475c-be15-9586368c4efe",
+      "details": {
+        "before": {
+          "id": "bae91208-8c73-475c-be15-9586368c4efe",
+          "personId": "97db92a1-43b4-4024-9de3-8bff9dbfd9bc",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:18:46.153Z",
+          "updatedAt": "2026-06-13T08:18:46.153Z"
+        },
+        "after": {
+          "id": "bae91208-8c73-475c-be15-9586368c4efe",
+          "personId": "97db92a1-43b4-4024-9de3-8bff9dbfd9bc",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-06-13T08:18:46.153Z",
+          "updatedAt": "2026-06-16T13:43:15.424Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:43:15.424Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "62b498da-3346-42f7-831b-28efe225411a",
       "action": "UPDATE",
@@ -42514,35 +42548,6 @@
         }
       },
       "timestamp": "2026-02-09T08:54:29.616Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "0913552a-58e1-4107-87b7-fa10c4a44b0e",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-      "details": {
-        "tracking": {
-          "id": "bb324497-b7a0-45ef-b21a-1572db7f11b9",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "baseKey": "EYYUB SALIH ARIK",
-          "applicationNo": "İnşaat işçisi",
-          "profession": "112333/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "OFİS PERSONELİ",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 3
-          },
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "updatedAt": "2026-02-07T08:32:53.097Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:54:25.967Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
