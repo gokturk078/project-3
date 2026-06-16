@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:43:56.935Z"
+    "lastUpdated": "2026-06-16T13:44:30.471Z"
   },
   "taxonomy": {
     "categories": [
@@ -7520,12 +7520,12 @@
       "personId": "058a79e2-7d8b-4769-b4a0-7a05c34c4dfd",
       "applicationNo": "",
       "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLDİ",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-06-13T08:29:38.160Z",
-      "updatedAt": "2026-06-13T08:29:38.160Z"
+      "updatedAt": "2026-06-16T13:44:30.471Z"
     },
     {
       "id": "3baeac0c-5bd4-4733-8dcc-d389caa41a08",
@@ -9212,6 +9212,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "782f1628-da60-466d-94ae-a62406a7bcea",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "67d98b35-efa6-45a2-a179-f5c183bf6a14",
+      "details": {
+        "before": {
+          "id": "67d98b35-efa6-45a2-a179-f5c183bf6a14",
+          "personId": "058a79e2-7d8b-4769-b4a0-7a05c34c4dfd",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-13T08:29:38.160Z",
+          "updatedAt": "2026-06-13T08:29:38.160Z"
+        },
+        "after": {
+          "id": "67d98b35-efa6-45a2-a179-f5c183bf6a14",
+          "personId": "058a79e2-7d8b-4769-b4a0-7a05c34c4dfd",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-13T08:29:38.160Z",
+          "updatedAt": "2026-06-16T13:44:30.471Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:44:30.471Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "681ef3a9-cac2-46a0-81f6-39f10aefd3a9",
       "action": "UPDATE",
@@ -42549,35 +42583,6 @@
         }
       },
       "timestamp": "2026-02-09T08:54:49.949Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "ccb34f5c-4723-4cf6-8ae1-2d64031bdaaf",
-      "action": "DELETE",
-      "entityType": "tracking",
-      "entityId": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
-      "details": {
-        "tracking": {
-          "id": "fdd7bab8-93fa-41c0-9eda-5d0173542c5b",
-          "fullName": "SERHAT İŞ",
-          "normalizedName": "SERHAT IS",
-          "baseKey": "SERHAT IS",
-          "applicationNo": "inşaat işçisi",
-          "profession": "117470/2025",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "",
-          "contactPerson": "İSG (İŞÇİ)",
-          "notes": "",
-          "source": {
-            "file": "takip.xlsx",
-            "sheet": "GÜNCEL (3)",
-            "row": 22
-          },
-          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
-          "updatedAt": "2026-02-07T08:31:57.749Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:54:47.711Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
