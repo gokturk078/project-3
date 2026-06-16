@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-13T09:57:29.326Z"
+    "lastUpdated": "2026-06-16T13:40:26.613Z"
   },
   "taxonomy": {
     "categories": [
@@ -6491,26 +6491,6 @@
       "updatedAt": "2026-06-13T08:10:25.135Z"
     },
     {
-      "personId": "84c0bead-1194-4325-8a20-e361f80711e7",
-      "baseKey": "GÜVEN GÖKPINAR",
-      "fullName": "GÜVEN GÖKPINAR",
-      "normalizedName": "GÜVEN GÖKPINAR",
-      "category": "KALMES",
-      "role": null,
-      "needsReview": false,
-      "unmappedTags": [],
-      "status": "pending",
-      "sources": [
-        {
-          "type": "manual",
-          "date": "2026-06-13T08:10:46.799Z"
-        }
-      ],
-      "mergedFrom": [],
-      "createdAt": "2026-06-13T08:10:46.799Z",
-      "updatedAt": "2026-06-13T08:10:46.799Z"
-    },
-    {
       "personId": "af5eb7dc-49b5-4be6-b312-9aea413c8cf3",
       "baseKey": "ÖMER FARUK ÖZTÜRK",
       "fullName": "ÖMER FARUK ÖZTÜRK",
@@ -9244,6 +9224,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "52bb5879-271b-4a69-a5d9-ec8862340608",
+      "action": "DELETE",
+      "entityType": "person",
+      "entityId": "84c0bead-1194-4325-8a20-e361f80711e7",
+      "details": {
+        "person": {
+          "personId": "84c0bead-1194-4325-8a20-e361f80711e7",
+          "baseKey": "GÜVEN GÖKPINAR",
+          "fullName": "GÜVEN GÖKPINAR",
+          "normalizedName": "GÜVEN GÖKPINAR",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-13T08:10:46.799Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-13T08:10:46.799Z",
+          "updatedAt": "2026-06-13T08:10:46.799Z"
+        }
+      },
+      "timestamp": "2026-06-16T13:40:26.612Z",
+      "adminSession": "0573e725-a02e-4a45-a382-99de655ef383"
+    },
     {
       "id": "f28b49fb-0e4c-4f3e-92b1-a1c0f08863eb",
       "action": "CREATE",
@@ -42697,40 +42707,6 @@
         }
       },
       "timestamp": "2026-02-07T08:30:14.180Z",
-      "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
-    },
-    {
-      "id": "f46c613d-230b-490a-b312-3096c5b4128c",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-      "details": {
-        "before": {
-          "id": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
-          "applicationNo": "120110/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:53:18.571Z",
-          "updatedAt": "2026-01-29T06:32:36.132Z"
-        },
-        "after": {
-          "id": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
-          "applicationNo": "120110/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:53:18.571Z",
-          "updatedAt": "2026-02-07T08:29:54.980Z"
-        }
-      },
-      "timestamp": "2026-02-07T08:29:54.980Z",
       "adminSession": "0c102535-b60f-41b9-a115-ca57b3c1a387"
     }
   ]
