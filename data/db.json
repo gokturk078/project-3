@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-18T12:28:45.110Z"
+    "lastUpdated": "2026-06-18T12:28:49.517Z"
   },
   "taxonomy": {
     "categories": [
@@ -7184,18 +7184,6 @@
   ],
   "tracking": [
     {
-      "id": "97210684-0ee6-471c-a493-8fb1c7d2ba32",
-      "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
-      "applicationNo": "",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-04-29T14:38:13.969Z",
-      "updatedAt": "2026-05-20T11:39:09.200Z"
-    },
-    {
       "id": "4206ef2b-9687-454f-9e78-d1619a268abe",
       "personId": "d77cea8e-5dbe-4d15-ab40-c6b152e3012c",
       "applicationNo": "129155/2026",
@@ -9264,6 +9252,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "f430c0e3-f20a-459f-94de-f7a6b7e0ce99",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "97210684-0ee6-471c-a493-8fb1c7d2ba32",
+      "details": {
+        "tracking": {
+          "id": "97210684-0ee6-471c-a493-8fb1c7d2ba32",
+          "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:38:13.969Z",
+          "updatedAt": "2026-05-20T11:39:09.200Z"
+        }
+      },
+      "timestamp": "2026-06-18T12:28:49.517Z",
+      "adminSession": "60942fbd-27f1-4bf8-9bd6-ca71bfe320b1"
+    },
     {
       "id": "ba8c9221-5113-425c-a2cc-ed7ced6a96de",
       "action": "DELETE",
@@ -42535,74 +42545,6 @@
         }
       },
       "timestamp": "2026-02-09T08:57:12.725Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "658ce6b7-d325-4f5f-809a-0f4c20c4aa41",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
-      "details": {
-        "before": {
-          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
-          "baseKey": "MUHAMMET AR",
-          "fullName": "MUHAMMET AR",
-          "normalizedName": "MUHAMMET AR",
-          "category": null,
-          "role": null,
-          "jobTitle": "115670/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 11
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115670/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "2063ce50-37fd-4328-9dc2-8c695cf3189a",
-          "baseKey": "MUHAMMET AR",
-          "fullName": "MUHAMMET AR",
-          "normalizedName": "MUHAMMET AR",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "115670/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 11
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115670/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:56:44.919Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:56:44.919Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
