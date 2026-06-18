@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-16T13:47:50.084Z"
+    "lastUpdated": "2026-06-18T12:28:45.110Z"
   },
   "taxonomy": {
     "categories": [
@@ -7184,18 +7184,6 @@
   ],
   "tracking": [
     {
-      "id": "01e47d9b-5298-4750-9392-a2254a79f14d",
-      "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
-      "applicationNo": "",
-      "profession": "",
-      "status": "AKİT YÜKLENDİ",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-04-29T14:37:32.425Z",
-      "updatedAt": "2026-05-20T09:15:09.117Z"
-    },
-    {
       "id": "97210684-0ee6-471c-a493-8fb1c7d2ba32",
       "personId": "999a55c4-8faa-42f1-9527-55b10e33c341",
       "applicationNo": "",
@@ -9276,6 +9264,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "ba8c9221-5113-425c-a2cc-ed7ced6a96de",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "01e47d9b-5298-4750-9392-a2254a79f14d",
+      "details": {
+        "tracking": {
+          "id": "01e47d9b-5298-4750-9392-a2254a79f14d",
+          "personId": "731d093e-4970-4bd2-869f-772468ff1cce",
+          "applicationNo": "",
+          "profession": "",
+          "status": "AKİT YÜKLENDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-04-29T14:37:32.425Z",
+          "updatedAt": "2026-05-20T09:15:09.117Z"
+        }
+      },
+      "timestamp": "2026-06-18T12:28:45.109Z",
+      "adminSession": "60942fbd-27f1-4bf8-9bd6-ca71bfe320b1"
+    },
     {
       "id": "fec63ac7-4e9c-4f65-9768-cf2ece8710aa",
       "action": "CREATE",
@@ -42593,74 +42603,6 @@
         }
       },
       "timestamp": "2026-02-09T08:56:44.919Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "b5e2b55e-c4c4-432a-9742-9c0d614b0438",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-      "details": {
-        "before": {
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "baseKey": "EYYUB SALIH ARIK",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "category": null,
-          "role": null,
-          "jobTitle": "112333/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 3
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "İnşaat işçisi",
-            "profession": "112333/2025",
-            "status": "SAĞLIĞA SEVK EDİLDİ",
-            "expectedDate": null,
-            "contactPerson": "EYYÜP"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "baseKey": "EYYUB SALIH ARIK",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "category": null,
-          "role": null,
-          "jobTitle": "112333/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 3
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "İnşaat işçisi",
-            "profession": "112333/2025",
-            "status": "SAĞLIĞA SEVK EDİLDİ",
-            "expectedDate": null,
-            "contactPerson": "EYYÜP"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:56:06.738Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:56:06.738Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
