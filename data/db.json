@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:05:01.688Z"
+    "lastUpdated": "2026-06-19T10:05:17.890Z"
   },
   "taxonomy": {
     "categories": [
@@ -8004,6 +8004,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:05:01.688Z",
       "updatedAt": "2026-06-19T10:05:01.688Z"
+    },
+    {
+      "id": "0ca1759f-4d5e-47b4-b081-9b6c83da16c7",
+      "personId": "c5c4d20c-3f32-4870-9cad-27775a3aafbd",
+      "applicationNo": "",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-06-19T10:05:17.890Z",
+      "updatedAt": "2026-06-19T10:05:17.890Z"
     }
   ],
   "departures": [
@@ -9666,6 +9678,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "03a4fb39-e0b6-4404-87b6-92a43fb4b8d7",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "0ca1759f-4d5e-47b4-b081-9b6c83da16c7",
+      "details": {
+        "tracking": {
+          "id": "0ca1759f-4d5e-47b4-b081-9b6c83da16c7",
+          "personId": "c5c4d20c-3f32-4870-9cad-27775a3aafbd",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:05:17.890Z",
+          "updatedAt": "2026-06-19T10:05:17.890Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:05:17.890Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "a11d5916-52de-4165-9596-deb6739e1b99",
       "action": "CREATE",
@@ -42415,36 +42449,6 @@
         }
       },
       "timestamp": "2026-02-10T09:14:28.424Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "d230cdd0-5a71-4a13-859a-53bdad28fb32",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "faad9160-fd59-4c14-bfcd-75091fe70728",
-      "details": {
-        "person": {
-          "personId": "faad9160-fd59-4c14-bfcd-75091fe70728",
-          "baseKey": "ŞÜKÜR KALINTAŞ",
-          "fullName": "ŞÜKÜR KALINTAŞ",
-          "normalizedName": "ŞÜKÜR KALINTAŞ",
-          "category": "KALMES",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-10T09:14:05.057Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-10T09:14:05.057Z",
-          "updatedAt": "2026-02-10T09:14:05.057Z"
-        }
-      },
-      "timestamp": "2026-02-10T09:14:05.057Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
