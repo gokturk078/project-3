@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:49:37.741Z"
+    "lastUpdated": "2026-06-19T10:49:43.485Z"
   },
   "taxonomy": {
     "categories": [
@@ -7990,12 +7990,12 @@
       "personId": "c5c4d20c-3f32-4870-9cad-27775a3aafbd",
       "applicationNo": "",
       "profession": "",
-      "status": "ÖN İZNİ ONAYLANDI",
-      "expectedDate": null,
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": "",
       "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-06-19T10:05:17.890Z",
-      "updatedAt": "2026-06-19T10:05:17.890Z"
+      "updatedAt": "2026-06-19T10:49:43.485Z"
     },
     {
       "id": "fd4132e3-ce99-4440-aa9e-2f5f703611f6",
@@ -9910,6 +9910,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "f37c2439-3bf7-4060-855a-864bf2d9e013",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "0ca1759f-4d5e-47b4-b081-9b6c83da16c7",
+      "details": {
+        "before": {
+          "id": "0ca1759f-4d5e-47b4-b081-9b6c83da16c7",
+          "personId": "c5c4d20c-3f32-4870-9cad-27775a3aafbd",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:05:17.890Z",
+          "updatedAt": "2026-06-19T10:05:17.890Z"
+        },
+        "after": {
+          "id": "0ca1759f-4d5e-47b4-b081-9b6c83da16c7",
+          "personId": "c5c4d20c-3f32-4870-9cad-27775a3aafbd",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:05:17.890Z",
+          "updatedAt": "2026-06-19T10:49:43.485Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:49:43.485Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "3d695a24-5cf9-42a5-ad6f-f6563422bc35",
       "action": "UPDATE",
@@ -42468,57 +42502,6 @@
         }
       },
       "timestamp": "2026-02-11T15:42:28.472Z",
-      "adminSession": "33eef303-b0aa-4278-9304-9d4c3ad942ce"
-    },
-    {
-      "id": "64c29c63-b5d1-4d8e-9004-52452538319d",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "cce49799-7ddc-4281-ba13-02e895085903",
-      "details": {
-        "before": {
-          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
-          "baseKey": "EROL YILMAZ",
-          "fullName": "EROL YILMAZ",
-          "normalizedName": "EROL YILMAZ",
-          "category": "REPSAM",
-          "role": "FORMEN",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-10T14:02:32.783Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-10T14:02:32.783Z",
-          "updatedAt": "2026-02-10T14:02:32.783Z"
-        },
-        "after": {
-          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
-          "baseKey": "EROL YILMAZ",
-          "fullName": "EROL YILMAZ",
-          "normalizedName": "EROL YILMAZ",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-10T14:02:32.783Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-10T14:02:32.783Z",
-          "updatedAt": "2026-02-11T14:21:53.478Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-11T14:21:53.479Z",
       "adminSession": "33eef303-b0aa-4278-9304-9d4c3ad942ce"
     }
   ]
