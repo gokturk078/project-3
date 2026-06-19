@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:54:30.775Z"
+    "lastUpdated": "2026-06-19T09:55:13.503Z"
   },
   "taxonomy": {
     "categories": [
@@ -6829,6 +6829,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:54:30.775Z",
       "updatedAt": "2026-06-19T09:54:30.775Z"
+    },
+    {
+      "personId": "58ed0731-da84-404b-bfa5-8f13b4d3fc5d",
+      "baseKey": "MUHAMMED ALİ ÖLÇER",
+      "fullName": "MUHAMMED ALİ ÖLÇER",
+      "normalizedName": "MUHAMMED ALİ ÖLÇER",
+      "category": null,
+      "role": null,
+      "needsReview": true,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:55:13.503Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:55:13.503Z",
+      "updatedAt": "2026-06-19T09:55:13.503Z"
     }
   ],
   "leaves": [
@@ -9292,6 +9312,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "92cf6faf-9de7-4750-a563-8e6f7235f823",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "58ed0731-da84-404b-bfa5-8f13b4d3fc5d",
+      "details": {
+        "person": {
+          "personId": "58ed0731-da84-404b-bfa5-8f13b4d3fc5d",
+          "baseKey": "MUHAMMED ALİ ÖLÇER",
+          "fullName": "MUHAMMED ALİ ÖLÇER",
+          "normalizedName": "MUHAMMED ALİ ÖLÇER",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:55:13.503Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:55:13.503Z",
+          "updatedAt": "2026-06-19T09:55:13.503Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:55:13.503Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "a1ddaac7-e0ff-422f-8860-1bc4c5791bfa",
       "action": "CREATE",
@@ -42441,74 +42491,6 @@
         }
       },
       "timestamp": "2026-02-09T08:58:12.170Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "9176ab71-6861-4016-8f1e-f1264f9262c3",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-      "details": {
-        "before": {
-          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-          "baseKey": "CEMALETTIN KAPLAN",
-          "fullName": "CEMALETTİN KAPLAN",
-          "normalizedName": "CEMALETTIN KAPLAN",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "115668/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 12
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115668/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:57:37.253Z"
-        },
-        "after": {
-          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-          "baseKey": "CEMALETTIN KAPLAN",
-          "fullName": "CEMALETTİN KAPLAN",
-          "normalizedName": "CEMALETTIN KAPLAN",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "115668/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 12
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115668/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:57:45.528Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:57:45.528Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
