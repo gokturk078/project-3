@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:05:34.707Z"
+    "lastUpdated": "2026-06-19T10:05:50.609Z"
   },
   "taxonomy": {
     "categories": [
@@ -8028,6 +8028,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:05:34.707Z",
       "updatedAt": "2026-06-19T10:05:34.707Z"
+    },
+    {
+      "id": "bcbc4544-c172-405c-8c72-deac7396c173",
+      "personId": "8637e718-e2e2-4ba7-b9af-c7e419db4f2c",
+      "applicationNo": "",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-06-19T10:05:50.609Z",
+      "updatedAt": "2026-06-19T10:05:50.609Z"
     }
   ],
   "departures": [
@@ -9690,6 +9702,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "59329eed-1164-4428-9e89-cf1e321ec624",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "bcbc4544-c172-405c-8c72-deac7396c173",
+      "details": {
+        "tracking": {
+          "id": "bcbc4544-c172-405c-8c72-deac7396c173",
+          "personId": "8637e718-e2e2-4ba7-b9af-c7e419db4f2c",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:05:50.609Z",
+          "updatedAt": "2026-06-19T10:05:50.609Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:05:50.609Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "c4c6b9ab-151c-46cd-8e36-74120b637dc4",
       "action": "CREATE",
@@ -42423,36 +42457,6 @@
         }
       },
       "timestamp": "2026-02-10T09:15:48.798Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "e0e3ac88-88a9-4162-867e-4f8c44dbd816",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
-      "details": {
-        "person": {
-          "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
-          "baseKey": "HASAN ARIZ",
-          "fullName": "HASAN ARIZ",
-          "normalizedName": "HASAN ARIZ",
-          "category": "NEŞAT",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-10T09:14:48.838Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-10T09:14:48.838Z",
-          "updatedAt": "2026-02-10T09:14:48.838Z"
-        }
-      },
-      "timestamp": "2026-02-10T09:14:48.838Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
