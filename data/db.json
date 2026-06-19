@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:55:35.383Z"
+    "lastUpdated": "2026-06-19T09:56:05.921Z"
   },
   "taxonomy": {
     "categories": [
@@ -6835,11 +6835,11 @@
       "baseKey": "MUHAMMED ALİ ÖLÇER",
       "fullName": "MUHAMMED ALİ ÖLÇER",
       "normalizedName": "MUHAMMED ALİ ÖLÇER",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "pending",
       "sources": [
         {
           "type": "manual",
@@ -6848,7 +6848,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:55:13.503Z",
-      "updatedAt": "2026-06-19T09:55:13.503Z"
+      "updatedAt": "2026-06-19T09:56:05.921Z",
+      "jobTitle": null
     },
     {
       "personId": "7a09c5d6-7696-4c80-8626-f80bbff7826e",
@@ -9332,6 +9333,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "8df9b956-3cdb-49f4-805d-cfdf9acb37cd",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "58ed0731-da84-404b-bfa5-8f13b4d3fc5d",
+      "details": {
+        "before": {
+          "personId": "58ed0731-da84-404b-bfa5-8f13b4d3fc5d",
+          "baseKey": "MUHAMMED ALİ ÖLÇER",
+          "fullName": "MUHAMMED ALİ ÖLÇER",
+          "normalizedName": "MUHAMMED ALİ ÖLÇER",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:55:13.503Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:55:13.503Z",
+          "updatedAt": "2026-06-19T09:55:13.503Z"
+        },
+        "after": {
+          "personId": "58ed0731-da84-404b-bfa5-8f13b4d3fc5d",
+          "baseKey": "MUHAMMED ALİ ÖLÇER",
+          "fullName": "MUHAMMED ALİ ÖLÇER",
+          "normalizedName": "MUHAMMED ALİ ÖLÇER",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:55:13.503Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:55:13.503Z",
+          "updatedAt": "2026-06-19T09:56:05.921Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-19T09:56:05.921Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "d7d294e1-c2fd-48da-8e12-6649146f0692",
       "action": "CREATE",
@@ -42405,74 +42457,6 @@
         }
       },
       "timestamp": "2026-02-09T08:59:05.420Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "6519081d-2254-4cfe-a893-07881b033e13",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-      "details": {
-        "before": {
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "baseKey": "MERTCAN SIMSEK",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "category": null,
-          "role": null,
-          "jobTitle": "117451/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 18
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117451/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-29",
-            "contactPerson": "İSG"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "baseKey": "MERTCAN SIMSEK",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "category": "REPSAM",
-          "role": "İSG",
-          "jobTitle": "117451/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 18
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117451/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-29",
-            "contactPerson": "İSG"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:58:41.810Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:58:41.810Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
