@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:00:47.009Z"
+    "lastUpdated": "2026-06-19T10:01:07.173Z"
   },
   "taxonomy": {
     "categories": [
@@ -7110,6 +7110,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T10:00:47.008Z",
       "updatedAt": "2026-06-19T10:00:47.008Z"
+    },
+    {
+      "personId": "cdfa52ce-22e8-41a5-8ddc-a1e4ab1bc705",
+      "baseKey": "SEDAT ÖKMEN",
+      "fullName": "SEDAT ÖKMEN",
+      "normalizedName": "SEDAT ÖKMEN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T10:01:07.173Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T10:01:07.173Z",
+      "updatedAt": "2026-06-19T10:01:07.173Z"
     }
   ],
   "leaves": [
@@ -9573,6 +9593,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "9920f6fa-d8d5-4aaa-8166-13fcda4dcbf8",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "cdfa52ce-22e8-41a5-8ddc-a1e4ab1bc705",
+      "details": {
+        "person": {
+          "personId": "cdfa52ce-22e8-41a5-8ddc-a1e4ab1bc705",
+          "baseKey": "SEDAT ÖKMEN",
+          "fullName": "SEDAT ÖKMEN",
+          "normalizedName": "SEDAT ÖKMEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T10:01:07.173Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T10:01:07.173Z",
+          "updatedAt": "2026-06-19T10:01:07.173Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:01:07.173Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "b9099d16-4027-4dac-a06c-5cba78b595df",
       "action": "CREATE",
@@ -42328,56 +42378,6 @@
         }
       },
       "timestamp": "2026-02-09T14:41:46.596Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "398d4df3-3b09-40e1-a114-2be96c99a980",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "a10c619f-6dc5-4434-b361-edfbc3d0fdde",
-      "details": {
-        "before": {
-          "fullName": "FİKRET YAZAN",
-          "normalizedName": "FIKRET YAZAN",
-          "baseKey": "FIKRET YAZAN",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 21
-          },
-          "mergedFrom": [],
-          "personId": "a10c619f-6dc5-4434-b361-edfbc3d0fdde",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "FİKRET YAZAN",
-          "normalizedName": "FIKRET YAZAN",
-          "baseKey": "FIKRET YAZAN",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "departed",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 21
-          },
-          "mergedFrom": [],
-          "personId": "a10c619f-6dc5-4434-b361-edfbc3d0fdde",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-02-09T14:41:23.318Z"
-        }
-      },
-      "timestamp": "2026-02-09T14:41:23.318Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
