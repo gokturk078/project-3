@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-18T12:28:49.517Z"
+    "lastUpdated": "2026-06-19T09:54:10.993Z"
   },
   "taxonomy": {
     "categories": [
@@ -6789,6 +6789,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-16T13:46:52.138Z",
       "updatedAt": "2026-06-16T13:46:52.138Z"
+    },
+    {
+      "personId": "4fe62e97-aea4-44ec-9d41-ff48c0bd25a8",
+      "baseKey": "AZİZ KELEŞ",
+      "fullName": "AZİZ KELEŞ",
+      "normalizedName": "AZİZ KELEŞ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:54:10.993Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:54:10.993Z",
+      "updatedAt": "2026-06-19T09:54:10.993Z"
     }
   ],
   "leaves": [
@@ -9252,6 +9272,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "ad3c0a77-535b-4700-a330-b8fd4e349171",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "4fe62e97-aea4-44ec-9d41-ff48c0bd25a8",
+      "details": {
+        "person": {
+          "personId": "4fe62e97-aea4-44ec-9d41-ff48c0bd25a8",
+          "baseKey": "AZİZ KELEŞ",
+          "fullName": "AZİZ KELEŞ",
+          "normalizedName": "AZİZ KELEŞ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:54:10.993Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:54:10.993Z",
+          "updatedAt": "2026-06-19T09:54:10.993Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:54:10.993Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "f430c0e3-f20a-459f-94de-f7a6b7e0ce99",
       "action": "DELETE",
@@ -42477,74 +42527,6 @@
         }
       },
       "timestamp": "2026-02-09T08:57:37.253Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "6eb162ac-32be-4436-b02d-80ab5d8fbb02",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-      "details": {
-        "before": {
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "baseKey": "EYYUB SALIH ARIK",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "category": null,
-          "role": null,
-          "jobTitle": "112333/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 3
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "İnşaat işçisi",
-            "profession": "112333/2025",
-            "status": "SAĞLIĞA SEVK EDİLDİ",
-            "expectedDate": null,
-            "contactPerson": "EYYÜP"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:56:06.738Z"
-        },
-        "after": {
-          "personId": "0e6d0c6e-f9ff-434e-96d9-01179b2f3b6c",
-          "baseKey": "EYYUB SALIH ARIK",
-          "fullName": "EYYÜB SALİH ARIK",
-          "normalizedName": "EYYUB SALIH ARIK",
-          "category": "REPSAM",
-          "role": "OFİS PERSONELİ",
-          "jobTitle": "112333/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 3
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "İnşaat işçisi",
-            "profession": "112333/2025",
-            "status": "SAĞLIĞA SEVK EDİLDİ",
-            "expectedDate": null,
-            "contactPerson": "EYYÜP"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:57:12.725Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:57:12.725Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
