@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:02:30.212Z"
+    "lastUpdated": "2026-06-19T10:05:01.688Z"
   },
   "taxonomy": {
     "categories": [
@@ -7992,6 +7992,18 @@
       "notes": "",
       "createdAt": "2026-06-16T13:47:50.084Z",
       "updatedAt": "2026-06-16T13:47:50.084Z"
+    },
+    {
+      "id": "3f11dda7-deec-45eb-9cd2-4a7bfbd2a30c",
+      "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
+      "applicationNo": "",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-06-19T10:05:01.688Z",
+      "updatedAt": "2026-06-19T10:05:01.688Z"
     }
   ],
   "departures": [
@@ -9654,6 +9666,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "a11d5916-52de-4165-9596-deb6739e1b99",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "3f11dda7-deec-45eb-9cd2-4a7bfbd2a30c",
+      "details": {
+        "tracking": {
+          "id": "3f11dda7-deec-45eb-9cd2-4a7bfbd2a30c",
+          "personId": "45c0855f-26a1-4eb3-8049-acc10c4086a5",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:05:01.688Z",
+          "updatedAt": "2026-06-19T10:05:01.688Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:05:01.688Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "fb6ce0fc-dc81-4b5f-b231-f53aa59551da",
       "action": "UPDATE",
@@ -42412,29 +42446,6 @@
       },
       "timestamp": "2026-02-10T09:14:05.057Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "2949e528-418d-4567-a23e-a5210a061e94",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "5208b586-a2db-4215-82ae-51ce283a612b",
-      "details": {
-        "departure": {
-          "id": "5208b586-a2db-4215-82ae-51ce283a612b",
-          "personId": null,
-          "fullName": "RAMAZAN ÖZBEN",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-09",
-          "exitDate": "2026-02-09",
-          "totalDays": 123,
-          "exitMonth": "2026-02",
-          "createdAt": "2026-02-09T14:44:11.909Z",
-          "updatedAt": "2026-02-09T14:44:11.909Z"
-        }
-      },
-      "timestamp": "2026-02-09T14:44:11.909Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
 }
