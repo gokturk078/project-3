@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:58:15.600Z"
+    "lastUpdated": "2026-06-19T09:58:35.615Z"
   },
   "taxonomy": {
     "categories": [
@@ -6970,6 +6970,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:58:15.600Z",
       "updatedAt": "2026-06-19T09:58:15.600Z"
+    },
+    {
+      "personId": "cecfb4e0-d88f-4728-b2d1-4f97034551ca",
+      "baseKey": "HAMDULLAH TAŞAN",
+      "fullName": "HAMDULLAH TAŞAN",
+      "normalizedName": "HAMDULLAH TAŞAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:58:35.615Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:58:35.615Z",
+      "updatedAt": "2026-06-19T09:58:35.615Z"
     }
   ],
   "leaves": [
@@ -9433,6 +9453,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "b17eaf89-b7ba-4444-adf3-7701fb00a10a",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "cecfb4e0-d88f-4728-b2d1-4f97034551ca",
+      "details": {
+        "person": {
+          "personId": "cecfb4e0-d88f-4728-b2d1-4f97034551ca",
+          "baseKey": "HAMDULLAH TAŞAN",
+          "fullName": "HAMDULLAH TAŞAN",
+          "normalizedName": "HAMDULLAH TAŞAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:58:35.615Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:58:35.615Z",
+          "updatedAt": "2026-06-19T09:58:35.615Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:58:35.615Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "c6909a37-e59a-4aa6-9162-c8ac5c45731a",
       "action": "CREATE",
@@ -42299,74 +42349,6 @@
         }
       },
       "timestamp": "2026-02-09T09:01:45.887Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "e743a310-7619-4eee-a5f0-8dd09af6d4b7",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "8839f24f-9749-49a0-b4f9-84733601a72b",
-      "details": {
-        "before": {
-          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
-          "baseKey": "ABDULSAMET DURU",
-          "fullName": "ABDULSAMET DURU",
-          "normalizedName": "ABDULSAMET DURU",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "117471/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 23
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117471/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "İSG(İŞÇİ)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T09:01:12.268Z"
-        },
-        "after": {
-          "personId": "8839f24f-9749-49a0-b4f9-84733601a72b",
-          "baseKey": "ABDULSAMET DURU",
-          "fullName": "ABDULSAMET DURU",
-          "normalizedName": "ABDULSAMET DURU",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "117471/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 23
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117471/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "İSG(İŞÇİ)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T09:01:21.660Z"
-        }
-      },
-      "timestamp": "2026-02-09T09:01:21.660Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
