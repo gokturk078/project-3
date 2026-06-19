@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:16:28.063Z"
+    "lastUpdated": "2026-06-19T10:17:05.379Z"
   },
   "taxonomy": {
     "categories": [
@@ -8112,6 +8112,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:16:28.063Z",
       "updatedAt": "2026-06-19T10:16:28.063Z"
+    },
+    {
+      "id": "e1e3292a-23f1-44e6-9af3-7d70383dd79f",
+      "personId": "3e95197f-785d-4173-a1fe-b733e3138282",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:17:05.379Z",
+      "updatedAt": "2026-06-19T10:17:05.379Z"
     }
   ],
   "departures": [
@@ -9774,6 +9786,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "8d05f668-1d00-4e4c-8456-60e2f9dd0dcc",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "e1e3292a-23f1-44e6-9af3-7d70383dd79f",
+      "details": {
+        "tracking": {
+          "id": "e1e3292a-23f1-44e6-9af3-7d70383dd79f",
+          "personId": "3e95197f-785d-4173-a1fe-b733e3138282",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:17:05.379Z",
+          "updatedAt": "2026-06-19T10:17:05.379Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:17:05.379Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "920e506e-5183-42a3-a7ce-32434e0372c4",
       "action": "CREATE",
@@ -42458,36 +42492,6 @@
         }
       },
       "timestamp": "2026-02-10T14:02:32.783Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "594ca145-75a7-4d60-8602-25ffe1befcee",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
-      "details": {
-        "person": {
-          "personId": "7a037c1f-7a7a-4b8e-9074-1a4036368a9c",
-          "baseKey": "MUSTAFA YILMAZ",
-          "fullName": "MUSTAFA YILMAZ",
-          "normalizedName": "MUSTAFA YILMAZ",
-          "category": "REPSAM",
-          "role": "FORMEN",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-10T14:02:05.060Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-10T14:02:05.060Z",
-          "updatedAt": "2026-02-10T14:02:05.060Z"
-        }
-      },
-      "timestamp": "2026-02-10T14:02:05.060Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
