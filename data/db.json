@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:58:35.615Z"
+    "lastUpdated": "2026-06-19T09:58:54.847Z"
   },
   "taxonomy": {
     "categories": [
@@ -6990,6 +6990,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:58:35.615Z",
       "updatedAt": "2026-06-19T09:58:35.615Z"
+    },
+    {
+      "personId": "7e530bb3-38ff-4710-bb3a-1f424bd43fdc",
+      "baseKey": "YAVUZ PARASAY",
+      "fullName": "YAVUZ PARASAY",
+      "normalizedName": "YAVUZ PARASAY",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:58:54.847Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:58:54.847Z",
+      "updatedAt": "2026-06-19T09:58:54.847Z"
     }
   ],
   "leaves": [
@@ -9453,6 +9473,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "8d690559-d141-4118-bd4b-d8a95ba4874c",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "7e530bb3-38ff-4710-bb3a-1f424bd43fdc",
+      "details": {
+        "person": {
+          "personId": "7e530bb3-38ff-4710-bb3a-1f424bd43fdc",
+          "baseKey": "YAVUZ PARASAY",
+          "fullName": "YAVUZ PARASAY",
+          "normalizedName": "YAVUZ PARASAY",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:58:54.847Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:58:54.847Z",
+          "updatedAt": "2026-06-19T09:58:54.847Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:58:54.847Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "b17eaf89-b7ba-4444-adf3-7701fb00a10a",
       "action": "CREATE",
@@ -42281,74 +42331,6 @@
         }
       },
       "timestamp": "2026-02-09T09:02:10.181Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "7156f50e-5e31-4a80-9b53-4a8432ede9ca",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-      "details": {
-        "before": {
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-          "baseKey": "BENAN UYUR",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "category": null,
-          "role": null,
-          "jobTitle": "117543/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 24
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "BÜRO MEMURU",
-            "profession": "117543/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR EŞİ"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "b15a631d-eb8b-4443-8d8f-a9b20c05d220",
-          "baseKey": "BENAN UYUR",
-          "fullName": "BENAN ÜYÜR",
-          "normalizedName": "BENAN UYUR",
-          "category": "REPSAM",
-          "role": "OFİS PERSONELİ",
-          "jobTitle": "117543/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 24
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "BÜRO MEMURU",
-            "profession": "117543/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR EŞİ"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T09:01:45.887Z"
-        }
-      },
-      "timestamp": "2026-02-09T09:01:45.887Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
