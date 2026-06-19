@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:17:27.525Z"
+    "lastUpdated": "2026-06-19T10:17:58.314Z"
   },
   "taxonomy": {
     "categories": [
@@ -8136,6 +8136,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:17:27.525Z",
       "updatedAt": "2026-06-19T10:17:27.525Z"
+    },
+    {
+      "id": "b49d355c-2616-4069-883a-7e2798fd623d",
+      "personId": "7bcc84a6-f5c2-4b63-ab87-39a9a2fbe0aa",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:17:58.313Z",
+      "updatedAt": "2026-06-19T10:17:58.313Z"
     }
   ],
   "departures": [
@@ -9798,6 +9810,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "bc39987a-dc58-49fe-b0d2-ef305ca3f4f7",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "b49d355c-2616-4069-883a-7e2798fd623d",
+      "details": {
+        "tracking": {
+          "id": "b49d355c-2616-4069-883a-7e2798fd623d",
+          "personId": "7bcc84a6-f5c2-4b63-ab87-39a9a2fbe0aa",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:17:58.313Z",
+          "updatedAt": "2026-06-19T10:17:58.313Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:17:58.313Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "eaeab1cd-3811-478f-ba25-56825eb812df",
       "action": "CREATE",
@@ -42466,36 +42500,6 @@
         }
       },
       "timestamp": "2026-02-10T14:04:41.181Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "ee749602-4272-4be3-b2be-c23beb30b4a2",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
-      "details": {
-        "person": {
-          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
-          "baseKey": "MUHAMMED FERHAT ÜSTÜNER",
-          "fullName": "MUHAMMED FERHAT ÜSTÜNER",
-          "normalizedName": "MUHAMMED FERHAT ÜSTÜNER",
-          "category": "REPSAM",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-10T14:03:10.765Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-10T14:03:10.765Z",
-          "updatedAt": "2026-02-10T14:03:10.765Z"
-        }
-      },
-      "timestamp": "2026-02-10T14:03:10.765Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
