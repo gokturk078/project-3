@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:01:07.173Z"
+    "lastUpdated": "2026-06-19T10:01:25.206Z"
   },
   "taxonomy": {
     "categories": [
@@ -7130,6 +7130,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T10:01:07.173Z",
       "updatedAt": "2026-06-19T10:01:07.173Z"
+    },
+    {
+      "personId": "24d2947a-4ebe-47d3-98a7-f77ee1a52647",
+      "baseKey": "EMRAH ÖKMEN",
+      "fullName": "EMRAH ÖKMEN",
+      "normalizedName": "EMRAH ÖKMEN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T10:01:25.206Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T10:01:25.206Z",
+      "updatedAt": "2026-06-19T10:01:25.206Z"
     }
   ],
   "leaves": [
@@ -9593,6 +9613,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "26734ff1-0d85-4728-8a91-88cee0ae0112",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "24d2947a-4ebe-47d3-98a7-f77ee1a52647",
+      "details": {
+        "person": {
+          "personId": "24d2947a-4ebe-47d3-98a7-f77ee1a52647",
+          "baseKey": "EMRAH ÖKMEN",
+          "fullName": "EMRAH ÖKMEN",
+          "normalizedName": "EMRAH ÖKMEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T10:01:25.206Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T10:01:25.206Z",
+          "updatedAt": "2026-06-19T10:01:25.206Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:01:25.206Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "9920f6fa-d8d5-4aaa-8166-13fcda4dcbf8",
       "action": "CREATE",
@@ -42328,56 +42378,6 @@
         }
       },
       "timestamp": "2026-02-09T14:42:07.009Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "988d6f12-9987-48ab-ac4a-365d18118803",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "d2444015-5768-4454-bccc-be393c85ed19",
-      "details": {
-        "before": {
-          "fullName": "YASİN YILDIRIM",
-          "normalizedName": "YASIN YILDIRIM",
-          "baseKey": "YASIN YILDIRIM",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 50
-          },
-          "mergedFrom": [],
-          "personId": "d2444015-5768-4454-bccc-be393c85ed19",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "YASİN YILDIRIM",
-          "normalizedName": "YASIN YILDIRIM",
-          "baseKey": "YASIN YILDIRIM",
-          "category": "KALMES",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "departed",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "KALMES",
-            "row": 50
-          },
-          "mergedFrom": [],
-          "personId": "d2444015-5768-4454-bccc-be393c85ed19",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-02-09T14:41:46.596Z"
-        }
-      },
-      "timestamp": "2026-02-09T14:41:46.596Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
