@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:55:13.503Z"
+    "lastUpdated": "2026-06-19T09:55:35.383Z"
   },
   "taxonomy": {
     "categories": [
@@ -6849,6 +6849,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:55:13.503Z",
       "updatedAt": "2026-06-19T09:55:13.503Z"
+    },
+    {
+      "personId": "7a09c5d6-7696-4c80-8626-f80bbff7826e",
+      "baseKey": "EYYÜB YAVUZ",
+      "fullName": "EYYÜB YAVUZ",
+      "normalizedName": "EYYÜB YAVUZ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:55:35.383Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:55:35.383Z",
+      "updatedAt": "2026-06-19T09:55:35.383Z"
     }
   ],
   "leaves": [
@@ -9312,6 +9332,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "d7d294e1-c2fd-48da-8e12-6649146f0692",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "7a09c5d6-7696-4c80-8626-f80bbff7826e",
+      "details": {
+        "person": {
+          "personId": "7a09c5d6-7696-4c80-8626-f80bbff7826e",
+          "baseKey": "EYYÜB YAVUZ",
+          "fullName": "EYYÜB YAVUZ",
+          "normalizedName": "EYYÜB YAVUZ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:55:35.383Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:55:35.383Z",
+          "updatedAt": "2026-06-19T09:55:35.383Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:55:35.383Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "92cf6faf-9de7-4750-a563-8e6f7235f823",
       "action": "CREATE",
@@ -42423,74 +42473,6 @@
         }
       },
       "timestamp": "2026-02-09T08:58:41.810Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "5adbb91b-567a-4fac-9f65-38063a0af7d0",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-      "details": {
-        "before": {
-          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-          "baseKey": "MEHMET SERIF KORKMAZ",
-          "fullName": "MEHMET ŞERİF KORKMAZ",
-          "normalizedName": "MEHMET SERIF KORKMAZ",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "117450/2025",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 17
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117450/2025",
-            "status": "SAĞLIĞA SEV EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR( İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-22T11:36:33.933Z"
-        },
-        "after": {
-          "personId": "f1257296-e565-4898-b78f-edc05ae0e8bd",
-          "baseKey": "MEHMET SERIF KORKMAZ",
-          "fullName": "MEHMET ŞERİF KORKMAZ",
-          "normalizedName": "MEHMET SERIF KORKMAZ",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "117450/2025",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 17
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117450/2025",
-            "status": "SAĞLIĞA SEV EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR( İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:58:12.170Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:58:12.170Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
