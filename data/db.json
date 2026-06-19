@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:24:25.851Z"
+    "lastUpdated": "2026-06-19T10:24:54.874Z"
   },
   "taxonomy": {
     "categories": [
@@ -8196,6 +8196,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:24:25.851Z",
       "updatedAt": "2026-06-19T10:24:25.851Z"
+    },
+    {
+      "id": "920fcd90-0bfd-485d-b884-4a1c528d6899",
+      "personId": "08613a59-6453-4612-bed5-c95a0a93e6e7",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:24:54.874Z",
+      "updatedAt": "2026-06-19T10:24:54.874Z"
     }
   ],
   "departures": [
@@ -9858,6 +9870,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "e22597d3-3d2b-4bfb-a9b9-01557313fd07",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "920fcd90-0bfd-485d-b884-4a1c528d6899",
+      "details": {
+        "tracking": {
+          "id": "920fcd90-0bfd-485d-b884-4a1c528d6899",
+          "personId": "08613a59-6453-4612-bed5-c95a0a93e6e7",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:24:54.874Z",
+          "updatedAt": "2026-06-19T10:24:54.874Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:24:54.874Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "8760746f-ca4a-4f3b-bb8d-da568413c4e6",
       "action": "CREATE",
@@ -42502,40 +42536,6 @@
         }
       },
       "timestamp": "2026-02-10T14:34:22.380Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "96e9a7e3-22d6-4cd1-841f-134d4ec827ea",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "5b2e364e-0698-4968-953f-556bec46a742",
-      "details": {
-        "before": {
-          "id": "5b2e364e-0698-4968-953f-556bec46a742",
-          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
-          "applicationNo": "121500",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-02-10",
-          "contactPerson": "ADNAN ŞEF",
-          "notes": "",
-          "createdAt": "2026-02-10T14:04:41.181Z",
-          "updatedAt": "2026-02-10T14:04:41.181Z"
-        },
-        "after": {
-          "id": "5b2e364e-0698-4968-953f-556bec46a742",
-          "personId": "f00b5424-5e9c-42b8-9faa-64f363a6fdc5",
-          "applicationNo": "121500/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-02-10",
-          "contactPerson": "ADNAN ŞEF",
-          "notes": "",
-          "createdAt": "2026-02-10T14:04:41.181Z",
-          "updatedAt": "2026-02-10T14:06:42.267Z"
-        }
-      },
-      "timestamp": "2026-02-10T14:06:42.267Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
