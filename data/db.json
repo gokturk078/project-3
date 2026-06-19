@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:27:22.102Z"
+    "lastUpdated": "2026-06-19T10:27:37.173Z"
   },
   "taxonomy": {
     "categories": [
@@ -8224,6 +8224,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:27:22.102Z",
       "updatedAt": "2026-06-19T10:27:22.102Z"
+    },
+    {
+      "id": "720573aa-49c4-478b-a5b4-07aa5bdb431b",
+      "personId": "194ee0bc-e0e0-4af8-8f64-e8fc5ff5ecdc",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:27:37.173Z",
+      "updatedAt": "2026-06-19T10:27:37.173Z"
     }
   ],
   "departures": [
@@ -9886,6 +9898,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "8a832ecd-785c-49f5-8cf8-a206555a9834",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "720573aa-49c4-478b-a5b4-07aa5bdb431b",
+      "details": {
+        "tracking": {
+          "id": "720573aa-49c4-478b-a5b4-07aa5bdb431b",
+          "personId": "194ee0bc-e0e0-4af8-8f64-e8fc5ff5ecdc",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:27:37.173Z",
+          "updatedAt": "2026-06-19T10:27:37.173Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:27:37.173Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "41c3dfc4-a23f-4c09-b8dd-6e06b95c7372",
       "action": "CREATE",
@@ -42498,37 +42532,6 @@
         }
       },
       "timestamp": "2026-02-10T15:53:15.150Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "601767f6-ddcb-48c4-8093-a38b235ad4c6",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "a80c70f1-64eb-4b50-a1d7-bb6ca2b0d103",
-      "details": {
-        "before": {
-          "id": "a80c70f1-64eb-4b50-a1d7-bb6ca2b0d103",
-          "personId": "2ece817a-1647-44fc-be0a-ec2e14854611",
-          "startDate": "0206-01-19",
-          "endDate": "62026-01-20",
-          "days": 22579294,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-31T06:56:42.916Z"
-        },
-        "after": {
-          "id": "a80c70f1-64eb-4b50-a1d7-bb6ca2b0d103",
-          "personId": "2ece817a-1647-44fc-be0a-ec2e14854611",
-          "startDate": "0206-01-19",
-          "endDate": "2026-01-20",
-          "days": 664744,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-31T06:56:42.916Z",
-          "updatedAt": "2026-02-10T15:53:06.593Z"
-        }
-      },
-      "timestamp": "2026-02-10T15:53:06.593Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
