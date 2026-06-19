@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:48:17.433Z"
+    "lastUpdated": "2026-06-19T10:48:29.222Z"
   },
   "taxonomy": {
     "categories": [
@@ -8243,11 +8243,11 @@
       "applicationNo": "",
       "profession": "",
       "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": null,
-      "contactPerson": "",
+      "expectedDate": "",
+      "contactPerson": "UZATMA",
       "notes": "",
       "createdAt": "2026-06-19T10:48:17.433Z",
-      "updatedAt": "2026-06-19T10:48:17.433Z"
+      "updatedAt": "2026-06-19T10:48:29.221Z"
     }
   ],
   "departures": [
@@ -9910,6 +9910,40 @@
     }
   ],
   "audit": [
+    {
+      "id": "da9fa096-b8fb-4f3d-a9a7-57a0c7581e37",
+      "action": "UPDATE",
+      "entityType": "tracking",
+      "entityId": "ffc892e1-c7a2-42df-a800-76ecd1f3886e",
+      "details": {
+        "before": {
+          "id": "ffc892e1-c7a2-42df-a800-76ecd1f3886e",
+          "personId": "0c73a8ce-06d0-4e35-8d12-cd4b16c85e04",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": null,
+          "contactPerson": "",
+          "notes": "",
+          "createdAt": "2026-06-19T10:48:17.433Z",
+          "updatedAt": "2026-06-19T10:48:17.433Z"
+        },
+        "after": {
+          "id": "ffc892e1-c7a2-42df-a800-76ecd1f3886e",
+          "personId": "0c73a8ce-06d0-4e35-8d12-cd4b16c85e04",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:48:17.433Z",
+          "updatedAt": "2026-06-19T10:48:29.221Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:48:29.222Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "bb46fece-ff33-4be1-9f59-3bd76fa6f8ca",
       "action": "CREATE",
@@ -42503,38 +42537,6 @@
       },
       "timestamp": "2026-02-11T14:21:33.048Z",
       "adminSession": "33eef303-b0aa-4278-9304-9d4c3ad942ce"
-    },
-    {
-      "id": "722d7b0c-e2e0-4f27-859a-505990f9880d",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "a80c70f1-64eb-4b50-a1d7-bb6ca2b0d103",
-      "details": {
-        "before": {
-          "id": "a80c70f1-64eb-4b50-a1d7-bb6ca2b0d103",
-          "personId": "2ece817a-1647-44fc-be0a-ec2e14854611",
-          "startDate": "0206-01-19",
-          "endDate": "2026-01-20",
-          "days": 664744,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-31T06:56:42.916Z",
-          "updatedAt": "2026-02-10T15:53:15.150Z"
-        },
-        "after": {
-          "id": "a80c70f1-64eb-4b50-a1d7-bb6ca2b0d103",
-          "personId": "2ece817a-1647-44fc-be0a-ec2e14854611",
-          "startDate": "2026-01-19",
-          "endDate": "2026-01-20",
-          "days": 2,
-          "type": "NORMAL",
-          "note": "",
-          "createdAt": "2026-01-31T06:56:42.916Z",
-          "updatedAt": "2026-02-10T15:53:27.773Z"
-        }
-      },
-      "timestamp": "2026-02-10T15:53:27.773Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
 }
