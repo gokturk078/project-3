@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:57:09.278Z"
+    "lastUpdated": "2026-06-19T09:57:31.058Z"
   },
   "taxonomy": {
     "categories": [
@@ -6910,6 +6910,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:57:09.278Z",
       "updatedAt": "2026-06-19T09:57:09.278Z"
+    },
+    {
+      "personId": "0603a7d8-5183-4dbf-81a2-31e189c2463e",
+      "baseKey": "SEYDALİ ARSLAN",
+      "fullName": "SEYDALİ ARSLAN",
+      "normalizedName": "SEYDALİ ARSLAN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:57:31.058Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:57:31.058Z",
+      "updatedAt": "2026-06-19T09:57:31.058Z"
     }
   ],
   "leaves": [
@@ -9373,6 +9393,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "bf051ed8-5444-4ed5-aa82-79425548dda7",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "0603a7d8-5183-4dbf-81a2-31e189c2463e",
+      "details": {
+        "person": {
+          "personId": "0603a7d8-5183-4dbf-81a2-31e189c2463e",
+          "baseKey": "SEYDALİ ARSLAN",
+          "fullName": "SEYDALİ ARSLAN",
+          "normalizedName": "SEYDALİ ARSLAN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:57:31.058Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:57:31.058Z",
+          "updatedAt": "2026-06-19T09:57:31.058Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:57:31.058Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "b7d8e2e4-8a98-419c-a592-bccfeb506e6d",
       "action": "CREATE",
@@ -42353,74 +42403,6 @@
         }
       },
       "timestamp": "2026-02-09T09:00:42.097Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "c18da390-a6fe-4de4-84aa-580b4945f403",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-      "details": {
-        "before": {
-          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-          "baseKey": "MECIT AYDOGAN",
-          "fullName": "MECİT AYDOĞAN",
-          "normalizedName": "MECIT AYDOGAN",
-          "category": null,
-          "role": null,
-          "jobTitle": "117468/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 21
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117468/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR (İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "0af29589-af64-4fa8-aef7-7b480090f51e",
-          "baseKey": "MECIT AYDOGAN",
-          "fullName": "MECİT AYDOĞAN",
-          "normalizedName": "MECIT AYDOGAN",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "117468/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 21
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117468/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR (İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T09:00:16.469Z"
-        }
-      },
-      "timestamp": "2026-02-09T09:00:16.469Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
