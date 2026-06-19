@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:05:17.890Z"
+    "lastUpdated": "2026-06-19T10:05:34.707Z"
   },
   "taxonomy": {
     "categories": [
@@ -8016,6 +8016,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:05:17.890Z",
       "updatedAt": "2026-06-19T10:05:17.890Z"
+    },
+    {
+      "id": "fd4132e3-ce99-4440-aa9e-2f5f703611f6",
+      "personId": "b55ca12d-519c-4b89-8c38-6f3e2e840dce",
+      "applicationNo": "",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-06-19T10:05:34.707Z",
+      "updatedAt": "2026-06-19T10:05:34.707Z"
     }
   ],
   "departures": [
@@ -9678,6 +9690,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "c4c6b9ab-151c-46cd-8e36-74120b637dc4",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "fd4132e3-ce99-4440-aa9e-2f5f703611f6",
+      "details": {
+        "tracking": {
+          "id": "fd4132e3-ce99-4440-aa9e-2f5f703611f6",
+          "personId": "b55ca12d-519c-4b89-8c38-6f3e2e840dce",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:05:34.707Z",
+          "updatedAt": "2026-06-19T10:05:34.707Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:05:34.707Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "03a4fb39-e0b6-4404-87b6-92a43fb4b8d7",
       "action": "CREATE",
@@ -42419,36 +42453,6 @@
         }
       },
       "timestamp": "2026-02-10T09:14:48.838Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "cde85c31-c5fc-41ef-94d4-c3c1f69da46d",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "2ef1f554-4f18-408a-895c-d1b1ee28ac36",
-      "details": {
-        "person": {
-          "personId": "2ef1f554-4f18-408a-895c-d1b1ee28ac36",
-          "baseKey": "ARİF AKÇAY",
-          "fullName": "ARİF AKÇAY",
-          "normalizedName": "ARİF AKÇAY",
-          "category": "NEŞAT",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-10T09:14:28.424Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-10T09:14:28.424Z",
-          "updatedAt": "2026-02-10T09:14:28.424Z"
-        }
-      },
-      "timestamp": "2026-02-10T09:14:28.424Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
