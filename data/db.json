@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:18:42.655Z"
+    "lastUpdated": "2026-06-19T10:23:43.524Z"
   },
   "taxonomy": {
     "categories": [
@@ -8160,6 +8160,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:18:42.655Z",
       "updatedAt": "2026-06-19T10:18:42.655Z"
+    },
+    {
+      "id": "e1138227-4c03-4267-87c0-cd8106482255",
+      "personId": "0603a7d8-5183-4dbf-81a2-31e189c2463e",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:23:43.524Z",
+      "updatedAt": "2026-06-19T10:23:43.524Z"
     }
   ],
   "departures": [
@@ -9822,6 +9834,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "8d778cdb-fb9a-4998-8082-4e0ec4c4f051",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "e1138227-4c03-4267-87c0-cd8106482255",
+      "details": {
+        "tracking": {
+          "id": "e1138227-4c03-4267-87c0-cd8106482255",
+          "personId": "0603a7d8-5183-4dbf-81a2-31e189c2463e",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:23:43.524Z",
+          "updatedAt": "2026-06-19T10:23:43.524Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:23:43.524Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "9339bfde-f5b9-42c0-a749-f2f4771fa0b2",
       "action": "CREATE",
@@ -42490,28 +42524,6 @@
         }
       },
       "timestamp": "2026-02-10T14:06:14.693Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "8539876e-ae1f-4028-8ced-7e65a41ea8ae",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
-      "details": {
-        "tracking": {
-          "id": "d8530121-86c5-4372-a8ec-d1b8c78e98e4",
-          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
-          "applicationNo": "121503",
-          "profession": "FORMEN",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-02-10",
-          "contactPerson": "ERCAN İŞLEK",
-          "notes": "",
-          "createdAt": "2026-02-10T14:05:31.933Z",
-          "updatedAt": "2026-02-10T14:05:31.933Z"
-        }
-      },
-      "timestamp": "2026-02-10T14:05:31.933Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
