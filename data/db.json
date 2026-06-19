@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:16:06.484Z"
+    "lastUpdated": "2026-06-19T10:16:28.063Z"
   },
   "taxonomy": {
     "categories": [
@@ -8100,6 +8100,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:16:06.484Z",
       "updatedAt": "2026-06-19T10:16:06.484Z"
+    },
+    {
+      "id": "f77c27ee-c800-42fe-8efb-53d1a7c21c94",
+      "personId": "91d6dfcf-8bcb-4f0b-8afb-dfe97e37378a",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:16:28.063Z",
+      "updatedAt": "2026-06-19T10:16:28.063Z"
     }
   ],
   "departures": [
@@ -9762,6 +9774,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "920e506e-5183-42a3-a7ce-32434e0372c4",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "f77c27ee-c800-42fe-8efb-53d1a7c21c94",
+      "details": {
+        "tracking": {
+          "id": "f77c27ee-c800-42fe-8efb-53d1a7c21c94",
+          "personId": "91d6dfcf-8bcb-4f0b-8afb-dfe97e37378a",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:16:28.063Z",
+          "updatedAt": "2026-06-19T10:16:28.063Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:16:28.063Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "af15b1b4-6a65-477c-b036-826d12b5d409",
       "action": "CREATE",
@@ -42454,29 +42488,6 @@
         }
       },
       "timestamp": "2026-02-10T14:02:05.060Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "6b4c94c5-b879-4bbf-bb0c-aced2e08af05",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "81346b58-f890-45df-b68f-520367d001f4",
-      "details": {
-        "departure": {
-          "id": "81346b58-f890-45df-b68f-520367d001f4",
-          "personId": null,
-          "fullName": "ÖMER DOĞAN",
-          "category": "NEŞAT",
-          "job": "",
-          "entryDate": "2025-10-28",
-          "exitDate": "2026-02-10",
-          "totalDays": 105,
-          "exitMonth": "2026-02",
-          "createdAt": "2026-02-10T12:25:28.484Z",
-          "updatedAt": "2026-02-10T12:25:28.484Z"
-        }
-      },
-      "timestamp": "2026-02-10T12:25:28.484Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
