@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:59:56.039Z"
+    "lastUpdated": "2026-06-19T10:00:22.648Z"
   },
   "taxonomy": {
     "categories": [
@@ -7070,6 +7070,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:59:56.039Z",
       "updatedAt": "2026-06-19T09:59:56.039Z"
+    },
+    {
+      "personId": "7bcc84a6-f5c2-4b63-ab87-39a9a2fbe0aa",
+      "baseKey": "ABDULMUTTALİP KELEŞ",
+      "fullName": "ABDULMUTTALİP KELEŞ",
+      "normalizedName": "ABDULMUTTALİP KELEŞ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T10:00:22.648Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T10:00:22.648Z",
+      "updatedAt": "2026-06-19T10:00:22.648Z"
     }
   ],
   "leaves": [
@@ -9533,6 +9553,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "6bdcc09b-a927-4e09-a4cc-5a25ab3ebcaf",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "7bcc84a6-f5c2-4b63-ab87-39a9a2fbe0aa",
+      "details": {
+        "person": {
+          "personId": "7bcc84a6-f5c2-4b63-ab87-39a9a2fbe0aa",
+          "baseKey": "ABDULMUTTALİP KELEŞ",
+          "fullName": "ABDULMUTTALİP KELEŞ",
+          "normalizedName": "ABDULMUTTALİP KELEŞ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T10:00:22.648Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T10:00:22.648Z",
+          "updatedAt": "2026-06-19T10:00:22.648Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:00:22.648Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "1cf31fe4-1df0-4c2c-a7c0-656430003633",
       "action": "CREATE",
@@ -42308,26 +42358,6 @@
         }
       },
       "timestamp": "2026-02-09T09:29:33.094Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "011619d1-5208-4a9a-874d-5fcc9c87922f",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
-      "details": {
-        "leave": {
-          "id": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "startDate": "2026-02-06",
-          "endDate": "2026-02-10",
-          "days": 5,
-          "type": "RAPOR",
-          "note": "İŞ KAZASI",
-          "createdAt": "2026-02-09T09:08:46.145Z"
-        }
-      },
-      "timestamp": "2026-02-09T09:08:46.145Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
