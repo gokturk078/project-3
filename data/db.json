@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:17:05.379Z"
+    "lastUpdated": "2026-06-19T10:17:27.525Z"
   },
   "taxonomy": {
     "categories": [
@@ -8124,6 +8124,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:17:05.379Z",
       "updatedAt": "2026-06-19T10:17:05.379Z"
+    },
+    {
+      "id": "d8d81962-998d-4dd1-8e1b-37c52e3871a3",
+      "personId": "cecfb4e0-d88f-4728-b2d1-4f97034551ca",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:17:27.525Z",
+      "updatedAt": "2026-06-19T10:17:27.525Z"
     }
   ],
   "departures": [
@@ -9786,6 +9798,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "eaeab1cd-3811-478f-ba25-56825eb812df",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "d8d81962-998d-4dd1-8e1b-37c52e3871a3",
+      "details": {
+        "tracking": {
+          "id": "d8d81962-998d-4dd1-8e1b-37c52e3871a3",
+          "personId": "cecfb4e0-d88f-4728-b2d1-4f97034551ca",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:17:27.525Z",
+          "updatedAt": "2026-06-19T10:17:27.525Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:17:27.525Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "8d05f668-1d00-4e4c-8456-60e2f9dd0dcc",
       "action": "CREATE",
@@ -42462,36 +42496,6 @@
         }
       },
       "timestamp": "2026-02-10T14:03:10.765Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "8639a732-0041-415d-b8fa-25ed4297d717",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "cce49799-7ddc-4281-ba13-02e895085903",
-      "details": {
-        "person": {
-          "personId": "cce49799-7ddc-4281-ba13-02e895085903",
-          "baseKey": "EROL YILMAZ",
-          "fullName": "EROL YILMAZ",
-          "normalizedName": "EROL YILMAZ",
-          "category": "REPSAM",
-          "role": "FORMEN",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-10T14:02:32.783Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-10T14:02:32.783Z",
-          "updatedAt": "2026-02-10T14:02:32.783Z"
-        }
-      },
-      "timestamp": "2026-02-10T14:02:32.783Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
