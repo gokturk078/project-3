@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:57:31.058Z"
+    "lastUpdated": "2026-06-19T09:57:50.190Z"
   },
   "taxonomy": {
     "categories": [
@@ -6930,6 +6930,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:57:31.058Z",
       "updatedAt": "2026-06-19T09:57:31.058Z"
+    },
+    {
+      "personId": "08613a59-6453-4612-bed5-c95a0a93e6e7",
+      "baseKey": "TANER ÖKMEN",
+      "fullName": "TANER ÖKMEN",
+      "normalizedName": "TANER ÖKMEN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:57:50.190Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:57:50.190Z",
+      "updatedAt": "2026-06-19T09:57:50.190Z"
     }
   ],
   "leaves": [
@@ -9393,6 +9413,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "5471c992-1b2f-4fdd-960c-a6b8b234124f",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "08613a59-6453-4612-bed5-c95a0a93e6e7",
+      "details": {
+        "person": {
+          "personId": "08613a59-6453-4612-bed5-c95a0a93e6e7",
+          "baseKey": "TANER ÖKMEN",
+          "fullName": "TANER ÖKMEN",
+          "normalizedName": "TANER ÖKMEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:57:50.190Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:57:50.190Z",
+          "updatedAt": "2026-06-19T09:57:50.190Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:57:50.190Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "bf051ed8-5444-4ed5-aa82-79425548dda7",
       "action": "CREATE",
@@ -42335,74 +42385,6 @@
         }
       },
       "timestamp": "2026-02-09T09:01:12.268Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "fed0c719-df5b-4f82-8743-97daa3901d38",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "ea679478-0826-4468-9be1-e8081993dc5a",
-      "details": {
-        "before": {
-          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
-          "baseKey": "SERHAT IS",
-          "fullName": "SERHAT İŞ",
-          "normalizedName": "SERHAT IS",
-          "category": null,
-          "role": null,
-          "jobTitle": "117470/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 22
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117470/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "İSG (İŞÇİ)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "ea679478-0826-4468-9be1-e8081993dc5a",
-          "baseKey": "SERHAT IS",
-          "fullName": "SERHAT İŞ",
-          "normalizedName": "SERHAT IS",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "117470/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 22
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117470/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "İSG (İŞÇİ)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T09:00:42.097Z"
-        }
-      },
-      "timestamp": "2026-02-09T09:00:42.097Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
