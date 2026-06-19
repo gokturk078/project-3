@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:09:30.820Z"
+    "lastUpdated": "2026-06-19T10:16:06.484Z"
   },
   "taxonomy": {
     "categories": [
@@ -8088,6 +8088,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:08:54.504Z",
       "updatedAt": "2026-06-19T10:08:54.504Z"
+    },
+    {
+      "id": "33ae5031-6598-4611-b580-1226192aacf9",
+      "personId": "5170278b-a4dd-4ca3-bd10-2857eb2e4837",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:16:06.484Z",
+      "updatedAt": "2026-06-19T10:16:06.484Z"
     }
   ],
   "departures": [
@@ -9750,6 +9762,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "af15b1b4-6a65-477c-b036-826d12b5d409",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "33ae5031-6598-4611-b580-1226192aacf9",
+      "details": {
+        "tracking": {
+          "id": "33ae5031-6598-4611-b580-1226192aacf9",
+          "personId": "5170278b-a4dd-4ca3-bd10-2857eb2e4837",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:16:06.484Z",
+          "updatedAt": "2026-06-19T10:16:06.484Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:16:06.484Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "a21d9233-5b18-43b7-bacb-54c3143e4f57",
       "action": "UPDATE",
@@ -42443,56 +42477,6 @@
         }
       },
       "timestamp": "2026-02-10T12:25:28.484Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "1c26ea05-be09-449a-aa37-85405ee57326",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "bd839efc-5216-41c9-92f2-560ee78edc05",
-      "details": {
-        "before": {
-          "fullName": "ÖMER DOĞAN",
-          "normalizedName": "OMER DOGAN",
-          "baseKey": "OMER DOGAN",
-          "category": "NEŞAT",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "NEŞAT",
-            "row": 14
-          },
-          "mergedFrom": [],
-          "personId": "bd839efc-5216-41c9-92f2-560ee78edc05",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "ÖMER DOĞAN",
-          "normalizedName": "OMER DOGAN",
-          "baseKey": "OMER DOGAN",
-          "category": "NEŞAT",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "departed",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "NEŞAT",
-            "row": 14
-          },
-          "mergedFrom": [],
-          "personId": "bd839efc-5216-41c9-92f2-560ee78edc05",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-02-10T12:24:43.924Z"
-        }
-      },
-      "timestamp": "2026-02-10T12:24:43.924Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
