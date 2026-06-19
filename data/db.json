@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:59:17.292Z"
+    "lastUpdated": "2026-06-19T09:59:38.106Z"
   },
   "taxonomy": {
     "categories": [
@@ -7030,6 +7030,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:59:17.292Z",
       "updatedAt": "2026-06-19T09:59:17.292Z"
+    },
+    {
+      "personId": "194ee0bc-e0e0-4af8-8f64-e8fc5ff5ecdc",
+      "baseKey": "SEMİH KAROL",
+      "fullName": "SEMİH KAROL",
+      "normalizedName": "SEMİH KAROL",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:59:38.106Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:59:38.106Z",
+      "updatedAt": "2026-06-19T09:59:38.106Z"
     }
   ],
   "leaves": [
@@ -9493,6 +9513,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "871594f2-4dca-458c-9b02-613f4a9310c9",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "194ee0bc-e0e0-4af8-8f64-e8fc5ff5ecdc",
+      "details": {
+        "person": {
+          "personId": "194ee0bc-e0e0-4af8-8f64-e8fc5ff5ecdc",
+          "baseKey": "SEMİH KAROL",
+          "fullName": "SEMİH KAROL",
+          "normalizedName": "SEMİH KAROL",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:59:38.106Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:59:38.106Z",
+          "updatedAt": "2026-06-19T09:59:38.106Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:59:38.106Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "c6478922-e43c-4bc4-9759-c12e439655a0",
       "action": "CREATE",
@@ -42279,57 +42329,6 @@
         }
       },
       "timestamp": "2026-02-09T09:02:59.735Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "842c6f51-6453-4257-9e38-38d88033b0cc",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "9295c071-83ec-4418-949a-aa274f97d98d",
-      "details": {
-        "before": {
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "baseKey": "SADIK BARAN",
-          "fullName": "SADIK BARAN",
-          "normalizedName": "SADIK BARAN",
-          "category": "NEŞAT",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:08:12.202Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:08:12.202Z",
-          "updatedAt": "2026-01-19T07:08:12.202Z"
-        },
-        "after": {
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "baseKey": "SADIK BARAN",
-          "fullName": "SADIK BARAN",
-          "normalizedName": "SADIK BARAN",
-          "category": "NEŞAT",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-19T07:08:12.202Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-19T07:08:12.202Z",
-          "updatedAt": "2026-02-09T09:02:34.092Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-09T09:02:34.092Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
