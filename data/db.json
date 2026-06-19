@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:54:10.993Z"
+    "lastUpdated": "2026-06-19T09:54:30.775Z"
   },
   "taxonomy": {
     "categories": [
@@ -6809,6 +6809,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:54:10.993Z",
       "updatedAt": "2026-06-19T09:54:10.993Z"
+    },
+    {
+      "personId": "234e1971-a1e0-4f66-a545-75d39e963b91",
+      "baseKey": "EMRAH ORAL",
+      "fullName": "EMRAH ORAL",
+      "normalizedName": "EMRAH ORAL",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:54:30.775Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:54:30.775Z",
+      "updatedAt": "2026-06-19T09:54:30.775Z"
     }
   ],
   "leaves": [
@@ -9272,6 +9292,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "a1ddaac7-e0ff-422f-8860-1bc4c5791bfa",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "234e1971-a1e0-4f66-a545-75d39e963b91",
+      "details": {
+        "person": {
+          "personId": "234e1971-a1e0-4f66-a545-75d39e963b91",
+          "baseKey": "EMRAH ORAL",
+          "fullName": "EMRAH ORAL",
+          "normalizedName": "EMRAH ORAL",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:54:30.775Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:54:30.775Z",
+          "updatedAt": "2026-06-19T09:54:30.775Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:54:30.775Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "ad3c0a77-535b-4700-a330-b8fd4e349171",
       "action": "CREATE",
@@ -42459,74 +42509,6 @@
         }
       },
       "timestamp": "2026-02-09T08:57:45.528Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "de4fc5d7-6089-41bc-9a39-f12b94c73908",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-      "details": {
-        "before": {
-          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-          "baseKey": "CEMALETTIN KAPLAN",
-          "fullName": "CEMALETTİN KAPLAN",
-          "normalizedName": "CEMALETTIN KAPLAN",
-          "category": null,
-          "role": null,
-          "jobTitle": "115668/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 12
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115668/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "d4f651b4-60b1-4010-9f09-9246bf1e949a",
-          "baseKey": "CEMALETTIN KAPLAN",
-          "fullName": "CEMALETTİN KAPLAN",
-          "normalizedName": "CEMALETTIN KAPLAN",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "115668/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 12
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "115668/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:57:37.253Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:57:37.253Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
