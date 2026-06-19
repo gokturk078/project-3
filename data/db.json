@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:00:22.648Z"
+    "lastUpdated": "2026-06-19T10:00:47.009Z"
   },
   "taxonomy": {
     "categories": [
@@ -7090,6 +7090,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T10:00:22.648Z",
       "updatedAt": "2026-06-19T10:00:22.648Z"
+    },
+    {
+      "personId": "081fd69e-51e5-42ac-93ca-ce2fceae056f",
+      "baseKey": "İLYAS ÖKMEN",
+      "fullName": "İLYAS ÖKMEN",
+      "normalizedName": "İLYAS ÖKMEN",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T10:00:47.008Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T10:00:47.008Z",
+      "updatedAt": "2026-06-19T10:00:47.008Z"
     }
   ],
   "leaves": [
@@ -9553,6 +9573,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "b9099d16-4027-4dac-a06c-5cba78b595df",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "081fd69e-51e5-42ac-93ca-ce2fceae056f",
+      "details": {
+        "person": {
+          "personId": "081fd69e-51e5-42ac-93ca-ce2fceae056f",
+          "baseKey": "İLYAS ÖKMEN",
+          "fullName": "İLYAS ÖKMEN",
+          "normalizedName": "İLYAS ÖKMEN",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T10:00:47.008Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T10:00:47.008Z",
+          "updatedAt": "2026-06-19T10:00:47.008Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:00:47.009Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "6bdcc09b-a927-4e09-a4cc-5a25ab3ebcaf",
       "action": "CREATE",
@@ -42328,36 +42378,6 @@
         }
       },
       "timestamp": "2026-02-09T14:41:23.318Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "727dbd47-89c4-4d07-b3d0-d6059750611e",
-      "action": "CREATE",
-      "entityType": "person",
-      "entityId": "d7d4fda2-be36-439d-a04d-655d76ae1ba0",
-      "details": {
-        "person": {
-          "personId": "d7d4fda2-be36-439d-a04d-655d76ae1ba0",
-          "baseKey": "MARILOU SANCHEZ",
-          "fullName": "MARILOU SANCHEZ",
-          "normalizedName": "MARILOU SANCHEZ",
-          "category": "CAPRA",
-          "role": "HİZMETLİ",
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-02-09T09:29:33.094Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-02-09T09:29:33.094Z",
-          "updatedAt": "2026-02-09T09:29:33.094Z"
-        }
-      },
-      "timestamp": "2026-02-09T09:29:33.094Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
