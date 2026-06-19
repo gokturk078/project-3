@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:24:54.874Z"
+    "lastUpdated": "2026-06-19T10:25:14.773Z"
   },
   "taxonomy": {
     "categories": [
@@ -8208,6 +8208,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:24:54.874Z",
       "updatedAt": "2026-06-19T10:24:54.874Z"
+    },
+    {
+      "id": "23f529e0-6809-4c05-ab15-84d33dadde44",
+      "personId": "cdfa52ce-22e8-41a5-8ddc-a1e4ab1bc705",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-19T10:25:14.773Z",
+      "updatedAt": "2026-06-19T10:25:14.773Z"
     }
   ],
   "departures": [
@@ -9870,6 +9882,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "5c1ee9e8-5c68-4c5a-a27c-d5c418d35219",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "23f529e0-6809-4c05-ab15-84d33dadde44",
+      "details": {
+        "tracking": {
+          "id": "23f529e0-6809-4c05-ab15-84d33dadde44",
+          "personId": "cdfa52ce-22e8-41a5-8ddc-a1e4ab1bc705",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-19T10:25:14.773Z",
+          "updatedAt": "2026-06-19T10:25:14.773Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:25:14.773Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "e22597d3-3d2b-4bfb-a9b9-01557313fd07",
       "action": "CREATE",
@@ -42516,26 +42550,6 @@
         }
       },
       "timestamp": "2026-02-10T15:37:34.564Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "d8d9bd3f-91e5-4cbb-a95a-29e85cb34757",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "cdaec4eb-f923-49c8-8a88-29258db11f18",
-      "details": {
-        "leave": {
-          "id": "cdaec4eb-f923-49c8-8a88-29258db11f18",
-          "personId": "d0be571d-8ae4-409d-8d41-1320a8931787",
-          "startDate": "2026-02-09",
-          "endDate": "2026-02-15",
-          "days": 7,
-          "type": "RAPOR",
-          "note": "İŞ KAZASI HASTANEDE YATIŞ AMELİYAT",
-          "createdAt": "2026-02-10T14:34:22.380Z"
-        }
-      },
-      "timestamp": "2026-02-10T14:34:22.380Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
