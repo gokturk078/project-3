@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:59:38.106Z"
+    "lastUpdated": "2026-06-19T09:59:56.039Z"
   },
   "taxonomy": {
     "categories": [
@@ -7050,6 +7050,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:59:38.106Z",
       "updatedAt": "2026-06-19T09:59:38.106Z"
+    },
+    {
+      "personId": "500ab50f-c03a-49ee-a1bf-8c7c6bbac298",
+      "baseKey": "EMRAH KORKAÇ",
+      "fullName": "EMRAH KORKAÇ",
+      "normalizedName": "EMRAH KORKAÇ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:59:56.039Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:59:56.039Z",
+      "updatedAt": "2026-06-19T09:59:56.039Z"
     }
   ],
   "leaves": [
@@ -9513,6 +9533,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "1cf31fe4-1df0-4c2c-a7c0-656430003633",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "500ab50f-c03a-49ee-a1bf-8c7c6bbac298",
+      "details": {
+        "person": {
+          "personId": "500ab50f-c03a-49ee-a1bf-8c7c6bbac298",
+          "baseKey": "EMRAH KORKAÇ",
+          "fullName": "EMRAH KORKAÇ",
+          "normalizedName": "EMRAH KORKAÇ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:59:56.039Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:59:56.039Z",
+          "updatedAt": "2026-06-19T09:59:56.039Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:59:56.039Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "871594f2-4dca-458c-9b02-613f4a9310c9",
       "action": "CREATE",
@@ -42278,57 +42328,6 @@
         }
       },
       "timestamp": "2026-02-09T09:08:46.145Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "caa2d392-cf18-4737-930a-af318e470e7a",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-      "details": {
-        "before": {
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "baseKey": "MAHMUT EMRE AKSOY",
-          "fullName": "MAHMUT EMRE AKSOY",
-          "normalizedName": "MAHMUT EMRE AKSOY",
-          "category": "NEŞAT",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:07:37.203Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:07:37.203Z",
-          "updatedAt": "2026-01-26T15:07:37.203Z"
-        },
-        "after": {
-          "personId": "475ba9d6-637b-4095-97f0-b510f4a776ed",
-          "baseKey": "MAHMUT EMRE AKSOY",
-          "fullName": "MAHMUT EMRE AKSOY",
-          "normalizedName": "MAHMUT EMRE AKSOY",
-          "category": "NEŞAT",
-          "role": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "type": "manual",
-              "date": "2026-01-26T15:07:37.203Z"
-            }
-          ],
-          "mergedFrom": [],
-          "createdAt": "2026-01-26T15:07:37.203Z",
-          "updatedAt": "2026-02-09T09:02:59.735Z",
-          "jobTitle": null
-        }
-      },
-      "timestamp": "2026-02-09T09:02:59.735Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
