@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:02:05.386Z"
+    "lastUpdated": "2026-06-19T10:02:30.212Z"
   },
   "taxonomy": {
     "categories": [
@@ -7176,11 +7176,11 @@
       "baseKey": "MUHAMMED ÇEPER",
       "fullName": "MUHAMMED ÇEPER",
       "normalizedName": "MUHAMMED ÇEPER",
-      "category": null,
+      "category": "REPSAM",
       "role": null,
-      "needsReview": true,
+      "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "pending",
       "sources": [
         {
           "type": "manual",
@@ -7189,7 +7189,8 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-06-19T10:02:05.386Z",
-      "updatedAt": "2026-06-19T10:02:05.386Z"
+      "updatedAt": "2026-06-19T10:02:30.212Z",
+      "jobTitle": null
     }
   ],
   "leaves": [
@@ -9653,6 +9654,57 @@
     }
   ],
   "audit": [
+    {
+      "id": "fb6ce0fc-dc81-4b5f-b231-f53aa59551da",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "5170278b-a4dd-4ca3-bd10-2857eb2e4837",
+      "details": {
+        "before": {
+          "personId": "5170278b-a4dd-4ca3-bd10-2857eb2e4837",
+          "baseKey": "MUHAMMED ÇEPER",
+          "fullName": "MUHAMMED ÇEPER",
+          "normalizedName": "MUHAMMED ÇEPER",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T10:02:05.386Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T10:02:05.386Z",
+          "updatedAt": "2026-06-19T10:02:05.386Z"
+        },
+        "after": {
+          "personId": "5170278b-a4dd-4ca3-bd10-2857eb2e4837",
+          "baseKey": "MUHAMMED ÇEPER",
+          "fullName": "MUHAMMED ÇEPER",
+          "normalizedName": "MUHAMMED ÇEPER",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T10:02:05.386Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T10:02:05.386Z",
+          "updatedAt": "2026-06-19T10:02:30.212Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-19T10:02:30.212Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "d9314d0d-b3e7-47a5-a05c-dde81df5dc44",
       "action": "CREATE",
@@ -42382,29 +42434,6 @@
         }
       },
       "timestamp": "2026-02-09T14:44:11.909Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "197db708-931f-498d-b9c5-288d22e3d859",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "c2a73cd9-2af2-4f83-84a2-a14d5ec929f7",
-      "details": {
-        "departure": {
-          "id": "c2a73cd9-2af2-4f83-84a2-a14d5ec929f7",
-          "personId": null,
-          "fullName": "YASİN YILDIRIM",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-09",
-          "exitDate": "2026-02-09",
-          "totalDays": 123,
-          "exitMonth": "2026-02",
-          "createdAt": "2026-02-09T14:43:42.654Z",
-          "updatedAt": "2026-02-09T14:43:42.654Z"
-        }
-      },
-      "timestamp": "2026-02-09T14:43:42.654Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
