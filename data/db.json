@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T09:56:48.181Z"
+    "lastUpdated": "2026-06-19T09:57:09.278Z"
   },
   "taxonomy": {
     "categories": [
@@ -6890,6 +6890,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T09:56:48.181Z",
       "updatedAt": "2026-06-19T09:56:48.181Z"
+    },
+    {
+      "personId": "adb6cd6f-d2b9-47e5-989a-d0ff85228593",
+      "baseKey": "FARUK ÇELEBİ",
+      "fullName": "FARUK ÇELEBİ",
+      "normalizedName": "FARUK ÇELEBİ",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T09:57:09.278Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T09:57:09.278Z",
+      "updatedAt": "2026-06-19T09:57:09.278Z"
     }
   ],
   "leaves": [
@@ -9353,6 +9373,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "b7d8e2e4-8a98-419c-a592-bccfeb506e6d",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "adb6cd6f-d2b9-47e5-989a-d0ff85228593",
+      "details": {
+        "person": {
+          "personId": "adb6cd6f-d2b9-47e5-989a-d0ff85228593",
+          "baseKey": "FARUK ÇELEBİ",
+          "fullName": "FARUK ÇELEBİ",
+          "normalizedName": "FARUK ÇELEBİ",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T09:57:09.278Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T09:57:09.278Z",
+          "updatedAt": "2026-06-19T09:57:09.278Z"
+        }
+      },
+      "timestamp": "2026-06-19T09:57:09.278Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "753c68a9-4c16-4d91-8a52-45c21c70e7b9",
       "action": "CREATE",
@@ -42371,74 +42421,6 @@
         }
       },
       "timestamp": "2026-02-09T09:00:16.469Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "8bc3ccad-1ea0-4a5e-a5c2-0734f24eb4c7",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-      "details": {
-        "before": {
-          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-          "baseKey": "RIDVAN GEZER",
-          "fullName": "RIDVAN GEZER",
-          "normalizedName": "RIDVAN GEZER",
-          "category": null,
-          "role": null,
-          "jobTitle": "117452/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "pending",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 19
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117452/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR( İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-01-05T12:12:49.592Z"
-        },
-        "after": {
-          "personId": "607ceaa2-15ca-431e-bd2a-ebeee88e2dbf",
-          "baseKey": "RIDVAN GEZER",
-          "fullName": "RIDVAN GEZER",
-          "normalizedName": "RIDVAN GEZER",
-          "category": "REPSAM",
-          "role": null,
-          "jobTitle": "117452/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 19
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117452/2025",
-            "status": "SAĞLIĞA SEVK EDİLECEK",
-            "expectedDate": null,
-            "contactPerson": "MURAT ÜYÜR( İSKELE)"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:59:52.626Z"
-        }
-      },
-      "timestamp": "2026-02-09T08:59:52.626Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
