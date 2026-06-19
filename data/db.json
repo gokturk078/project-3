@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:01:48.418Z"
+    "lastUpdated": "2026-06-19T10:02:05.386Z"
   },
   "taxonomy": {
     "categories": [
@@ -7170,6 +7170,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-19T10:01:48.418Z",
       "updatedAt": "2026-06-19T10:01:48.418Z"
+    },
+    {
+      "personId": "5170278b-a4dd-4ca3-bd10-2857eb2e4837",
+      "baseKey": "MUHAMMED ÇEPER",
+      "fullName": "MUHAMMED ÇEPER",
+      "normalizedName": "MUHAMMED ÇEPER",
+      "category": null,
+      "role": null,
+      "needsReview": true,
+      "unmappedTags": [],
+      "status": "active",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-19T10:02:05.386Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-19T10:02:05.386Z",
+      "updatedAt": "2026-06-19T10:02:05.386Z"
     }
   ],
   "leaves": [
@@ -9633,6 +9653,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "d9314d0d-b3e7-47a5-a05c-dde81df5dc44",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "5170278b-a4dd-4ca3-bd10-2857eb2e4837",
+      "details": {
+        "person": {
+          "personId": "5170278b-a4dd-4ca3-bd10-2857eb2e4837",
+          "baseKey": "MUHAMMED ÇEPER",
+          "fullName": "MUHAMMED ÇEPER",
+          "normalizedName": "MUHAMMED ÇEPER",
+          "category": null,
+          "role": null,
+          "needsReview": true,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-19T10:02:05.386Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-19T10:02:05.386Z",
+          "updatedAt": "2026-06-19T10:02:05.386Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:02:05.386Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "a02fddce-ef8f-4e46-ae99-1f5f735ac4e1",
       "action": "CREATE",
@@ -42355,29 +42405,6 @@
         }
       },
       "timestamp": "2026-02-09T14:43:42.654Z",
-      "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
-    },
-    {
-      "id": "49292399-97ba-43fa-b6b9-ea7ab5835113",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "f8800980-51cd-4622-b9b5-d5fab7c10fd0",
-      "details": {
-        "departure": {
-          "id": "f8800980-51cd-4622-b9b5-d5fab7c10fd0",
-          "personId": null,
-          "fullName": "FİKRET YAZAN",
-          "category": "KALMES",
-          "job": "",
-          "entryDate": "2025-10-09",
-          "exitDate": "2026-02-09",
-          "totalDays": 123,
-          "exitMonth": "2026-02",
-          "createdAt": "2026-02-09T14:43:07.320Z",
-          "updatedAt": "2026-02-09T14:43:07.320Z"
-        }
-      },
-      "timestamp": "2026-02-09T14:43:07.320Z",
       "adminSession": "9955cc49-4c1f-4fa7-82c6-1838e499bc74"
     }
   ]
