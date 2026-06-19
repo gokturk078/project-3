@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:06:12.855Z"
+    "lastUpdated": "2026-06-19T10:07:39.939Z"
   },
   "taxonomy": {
     "categories": [
@@ -8052,6 +8052,18 @@
       "notes": "",
       "createdAt": "2026-06-19T10:06:12.854Z",
       "updatedAt": "2026-06-19T10:06:12.854Z"
+    },
+    {
+      "id": "2a4ea82c-4d74-4277-addd-1fafbe6f1ee0",
+      "personId": "201a2473-39a1-4c98-976b-1deaa4976cd4",
+      "applicationNo": "",
+      "profession": "",
+      "status": "ÖN İZNİ ONAYLANDI",
+      "expectedDate": null,
+      "contactPerson": "UZATMA",
+      "notes": "",
+      "createdAt": "2026-06-19T10:07:39.939Z",
+      "updatedAt": "2026-06-19T10:07:39.939Z"
     }
   ],
   "departures": [
@@ -9714,6 +9726,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "1167e422-23c3-4814-a235-e1f16099ead7",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "2a4ea82c-4d74-4277-addd-1fafbe6f1ee0",
+      "details": {
+        "tracking": {
+          "id": "2a4ea82c-4d74-4277-addd-1fafbe6f1ee0",
+          "personId": "201a2473-39a1-4c98-976b-1deaa4976cd4",
+          "applicationNo": "",
+          "profession": "",
+          "status": "ÖN İZNİ ONAYLANDI",
+          "expectedDate": null,
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:07:39.939Z",
+          "updatedAt": "2026-06-19T10:07:39.939Z"
+        }
+      },
+      "timestamp": "2026-06-19T10:07:39.939Z",
+      "adminSession": "971ccab1-4a9c-4caf-9bd0-e2bed577ac1f"
+    },
     {
       "id": "7d9c9a86-0bbd-450d-ac4c-71011ee86b82",
       "action": "CREATE",
@@ -42447,28 +42481,6 @@
         }
       },
       "timestamp": "2026-02-10T09:17:35.216Z",
-      "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
-    },
-    {
-      "id": "3083841b-c35b-4d6d-8ac9-ca565bb5b9a3",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "92eb54a5-d4f6-4562-8ee1-e30fe1ee0157",
-      "details": {
-        "tracking": {
-          "id": "92eb54a5-d4f6-4562-8ee1-e30fe1ee0157",
-          "personId": "faad9160-fd59-4c14-bfcd-75091fe70728",
-          "applicationNo": "121365/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-02-10",
-          "contactPerson": "",
-          "notes": "",
-          "createdAt": "2026-02-10T09:16:43.680Z",
-          "updatedAt": "2026-02-10T09:16:43.680Z"
-        }
-      },
-      "timestamp": "2026-02-10T09:16:43.680Z",
       "adminSession": "5f242e3d-e841-4991-aa1c-14f8dddd0a48"
     }
   ]
