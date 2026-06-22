@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-19T10:50:03.500Z"
+    "lastUpdated": "2026-06-22T07:15:54.659Z"
   },
   "taxonomy": {
     "categories": [
@@ -7171,6 +7171,26 @@
       "createdAt": "2026-06-19T10:02:05.386Z",
       "updatedAt": "2026-06-19T10:02:30.212Z",
       "jobTitle": null
+    },
+    {
+      "personId": "ebe327e0-f14d-4b0a-a8a6-60e1d5776ccc",
+      "baseKey": "NEDİM KEKLİK",
+      "fullName": "NEDİM KEKLİK",
+      "normalizedName": "NEDİM KEKLİK",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-22T07:15:54.659Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-22T07:15:54.659Z",
+      "updatedAt": "2026-06-22T07:15:54.659Z"
     }
   ],
   "leaves": [
@@ -9910,6 +9930,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "fade77b1-ebf7-4d03-9fa2-a89c8e643b58",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "ebe327e0-f14d-4b0a-a8a6-60e1d5776ccc",
+      "details": {
+        "person": {
+          "personId": "ebe327e0-f14d-4b0a-a8a6-60e1d5776ccc",
+          "baseKey": "NEDİM KEKLİK",
+          "fullName": "NEDİM KEKLİK",
+          "normalizedName": "NEDİM KEKLİK",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-22T07:15:54.659Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-22T07:15:54.659Z",
+          "updatedAt": "2026-06-22T07:15:54.659Z"
+        }
+      },
+      "timestamp": "2026-06-22T07:15:54.659Z",
+      "adminSession": "a394fbc3-eb26-40c8-a7df-4db9badbae51"
+    },
     {
       "id": "b2838321-1e32-4418-81fa-99a63dd1ce2a",
       "action": "UPDATE",
@@ -42468,40 +42518,6 @@
         }
       },
       "timestamp": "2026-02-13T07:50:10.800Z",
-      "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
-    },
-    {
-      "id": "c67df80f-9d2c-4b1d-bbce-b29b7b8be9de",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
-      "details": {
-        "before": {
-          "id": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
-          "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
-          "applicationNo": "121346/2026",
-          "profession": "inşaat işçisi",
-          "status": "ÖN İZNİ ONAYLANDI",
-          "expectedDate": "2026-02-10",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-02-10T09:15:48.798Z",
-          "updatedAt": "2026-02-10T09:18:14.347Z"
-        },
-        "after": {
-          "id": "d5a67cdc-bfd0-4d03-90e8-50fae39daf32",
-          "personId": "d4a3b2e9-ba9f-4594-9ea5-48dd9096ebbd",
-          "applicationNo": "121346/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-02-10",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-02-10T09:15:48.798Z",
-          "updatedAt": "2026-02-13T06:22:06.655Z"
-        }
-      },
-      "timestamp": "2026-02-13T06:22:06.655Z",
       "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
     }
   ]
