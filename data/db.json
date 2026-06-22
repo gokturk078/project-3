@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-22T07:15:54.659Z"
+    "lastUpdated": "2026-06-22T07:16:20.283Z"
   },
   "taxonomy": {
     "categories": [
@@ -7191,6 +7191,26 @@
       "mergedFrom": [],
       "createdAt": "2026-06-22T07:15:54.659Z",
       "updatedAt": "2026-06-22T07:15:54.659Z"
+    },
+    {
+      "personId": "df110b62-bef2-4346-ab01-1cc79da2d30e",
+      "baseKey": "İDRİS BOZKURT",
+      "fullName": "İDRİS BOZKURT",
+      "normalizedName": "İDRİS BOZKURT",
+      "category": "REPSAM",
+      "role": null,
+      "needsReview": false,
+      "unmappedTags": [],
+      "status": "pending",
+      "sources": [
+        {
+          "type": "manual",
+          "date": "2026-06-22T07:16:20.283Z"
+        }
+      ],
+      "mergedFrom": [],
+      "createdAt": "2026-06-22T07:16:20.283Z",
+      "updatedAt": "2026-06-22T07:16:20.283Z"
     }
   ],
   "leaves": [
@@ -9930,6 +9950,36 @@
     }
   ],
   "audit": [
+    {
+      "id": "eb5f1d2e-2d15-4f8e-8177-5e92abe74a7b",
+      "action": "CREATE",
+      "entityType": "person",
+      "entityId": "df110b62-bef2-4346-ab01-1cc79da2d30e",
+      "details": {
+        "person": {
+          "personId": "df110b62-bef2-4346-ab01-1cc79da2d30e",
+          "baseKey": "İDRİS BOZKURT",
+          "fullName": "İDRİS BOZKURT",
+          "normalizedName": "İDRİS BOZKURT",
+          "category": "REPSAM",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "pending",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-06-22T07:16:20.283Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-06-22T07:16:20.283Z",
+          "updatedAt": "2026-06-22T07:16:20.283Z"
+        }
+      },
+      "timestamp": "2026-06-22T07:16:20.283Z",
+      "adminSession": "a394fbc3-eb26-40c8-a7df-4db9badbae51"
+    },
     {
       "id": "fade77b1-ebf7-4d03-9fa2-a89c8e643b58",
       "action": "CREATE",
@@ -42484,40 +42534,6 @@
         }
       },
       "timestamp": "2026-02-13T07:50:16.444Z",
-      "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
-    },
-    {
-      "id": "b473534c-b21d-45fd-855b-d3b40fbdaf62",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "90e91dbd-be5d-4c57-8fa6-eac66153ab7e",
-      "details": {
-        "before": {
-          "id": "90e91dbd-be5d-4c57-8fa6-eac66153ab7e",
-          "personId": "2ef1f554-4f18-408a-895c-d1b1ee28ac36",
-          "applicationNo": "121351/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-02-10",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-02-10T09:17:35.216Z",
-          "updatedAt": "2026-02-13T06:21:57.660Z"
-        },
-        "after": {
-          "id": "90e91dbd-be5d-4c57-8fa6-eac66153ab7e",
-          "personId": "2ef1f554-4f18-408a-895c-d1b1ee28ac36",
-          "applicationNo": "121351/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-02-10",
-          "contactPerson": "NEŞAT",
-          "notes": "",
-          "createdAt": "2026-02-10T09:17:35.216Z",
-          "updatedAt": "2026-02-13T07:50:10.799Z"
-        }
-      },
-      "timestamp": "2026-02-13T07:50:10.800Z",
       "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
     }
   ]
