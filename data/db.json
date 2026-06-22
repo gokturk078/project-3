@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-22T07:17:21.894Z"
+    "lastUpdated": "2026-06-22T12:58:40.056Z"
   },
   "taxonomy": {
     "categories": [
@@ -8062,18 +8062,6 @@
       "updatedAt": "2026-06-19T10:49:53.560Z"
     },
     {
-      "id": "e56ea8a2-9ff9-4b39-9d66-b5c03014551e",
-      "personId": "67f6ed61-5bb8-4a41-b2f1-9b7accae6f3d",
-      "applicationNo": "",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLECEK",
-      "expectedDate": "",
-      "contactPerson": "UZATMA",
-      "notes": "",
-      "createdAt": "2026-06-19T10:06:12.854Z",
-      "updatedAt": "2026-06-19T10:49:58.272Z"
-    },
-    {
       "id": "2a4ea82c-4d74-4277-addd-1fafbe6f1ee0",
       "personId": "201a2473-39a1-4c98-976b-1deaa4976cd4",
       "applicationNo": "",
@@ -9974,6 +9962,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "6fd9d593-5dad-4361-8817-64ecb5ad550b",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "e56ea8a2-9ff9-4b39-9d66-b5c03014551e",
+      "details": {
+        "tracking": {
+          "id": "e56ea8a2-9ff9-4b39-9d66-b5c03014551e",
+          "personId": "67f6ed61-5bb8-4a41-b2f1-9b7accae6f3d",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": "",
+          "contactPerson": "UZATMA",
+          "notes": "",
+          "createdAt": "2026-06-19T10:06:12.854Z",
+          "updatedAt": "2026-06-19T10:49:58.272Z"
+        }
+      },
+      "timestamp": "2026-06-22T12:58:40.056Z",
+      "adminSession": "a394fbc3-eb26-40c8-a7df-4db9badbae51"
+    },
     {
       "id": "5970f8d3-6e13-4943-8573-6df0d842580e",
       "action": "CREATE",
@@ -42512,40 +42522,6 @@
         }
       },
       "timestamp": "2026-02-13T13:35:38.306Z",
-      "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
-    },
-    {
-      "id": "1f8a8dcc-e0e4-4c21-a846-ab306249a95b",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
-      "details": {
-        "before": {
-          "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
-          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
-          "applicationNo": "150019/2026",
-          "profession": "",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-02-13",
-          "contactPerson": "UZATMA",
-          "notes": "",
-          "createdAt": "2026-02-13T12:05:40.233Z",
-          "updatedAt": "2026-02-13T12:05:40.233Z"
-        },
-        "after": {
-          "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
-          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
-          "applicationNo": "150019/2026",
-          "profession": "SAHA MEKANİK",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-02-13",
-          "contactPerson": "UZATMA",
-          "notes": "",
-          "createdAt": "2026-02-13T12:05:40.233Z",
-          "updatedAt": "2026-02-13T12:06:55.981Z"
-        }
-      },
-      "timestamp": "2026-02-13T12:06:55.981Z",
       "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
     }
   ]
