@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-22T07:16:52.871Z"
+    "lastUpdated": "2026-06-22T07:17:21.894Z"
   },
   "taxonomy": {
     "categories": [
@@ -8300,6 +8300,18 @@
       "notes": "",
       "createdAt": "2026-06-22T07:16:52.870Z",
       "updatedAt": "2026-06-22T07:16:52.870Z"
+    },
+    {
+      "id": "b70f862f-baf9-42d1-b445-440908cc375e",
+      "personId": "df110b62-bef2-4346-ab01-1cc79da2d30e",
+      "applicationNo": "",
+      "profession": "",
+      "status": "SAĞLIĞA SEVK EDİLECEK",
+      "expectedDate": null,
+      "contactPerson": "REPSAM",
+      "notes": "",
+      "createdAt": "2026-06-22T07:17:21.894Z",
+      "updatedAt": "2026-06-22T07:17:21.894Z"
     }
   ],
   "departures": [
@@ -9962,6 +9974,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "5970f8d3-6e13-4943-8573-6df0d842580e",
+      "action": "CREATE",
+      "entityType": "tracking",
+      "entityId": "b70f862f-baf9-42d1-b445-440908cc375e",
+      "details": {
+        "tracking": {
+          "id": "b70f862f-baf9-42d1-b445-440908cc375e",
+          "personId": "df110b62-bef2-4346-ab01-1cc79da2d30e",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLECEK",
+          "expectedDate": null,
+          "contactPerson": "REPSAM",
+          "notes": "",
+          "createdAt": "2026-06-22T07:17:21.894Z",
+          "updatedAt": "2026-06-22T07:17:21.894Z"
+        }
+      },
+      "timestamp": "2026-06-22T07:17:21.894Z",
+      "adminSession": "a394fbc3-eb26-40c8-a7df-4db9badbae51"
+    },
     {
       "id": "dadb0952-51d1-49ca-9e20-7381685a9612",
       "action": "CREATE",
@@ -42512,28 +42546,6 @@
         }
       },
       "timestamp": "2026-02-13T12:06:55.981Z",
-      "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
-    },
-    {
-      "id": "ba742fd9-788e-4004-b968-d07b78a03b0c",
-      "action": "CREATE",
-      "entityType": "tracking",
-      "entityId": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
-      "details": {
-        "tracking": {
-          "id": "2f293db3-6f9c-4ef7-b227-1e61fdbad0ff",
-          "personId": "f8f4111e-edbf-47d5-903e-382830c6a57f",
-          "applicationNo": "150019/2026",
-          "profession": "",
-          "status": "SAĞLIĞA SEVK EDİLECEK",
-          "expectedDate": "2026-02-13",
-          "contactPerson": "UZATMA",
-          "notes": "",
-          "createdAt": "2026-02-13T12:05:40.233Z",
-          "updatedAt": "2026-02-13T12:05:40.233Z"
-        }
-      },
-      "timestamp": "2026-02-13T12:05:40.233Z",
       "adminSession": "96efc409-271b-437f-a7b7-331146abec44"
     }
   ]
