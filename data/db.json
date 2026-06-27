@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-27T10:56:37.961Z"
+    "lastUpdated": "2026-06-27T10:57:02.886Z"
   },
   "taxonomy": {
     "categories": [
@@ -9993,6 +9993,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-27T10:56:37.961Z",
       "updatedAt": "2026-06-27T10:56:37.961Z"
+    },
+    {
+      "id": "9d0363bf-82ea-44cb-92bc-8c11a3812d43",
+      "personId": null,
+      "fullName": "EMRULLAH BAŞARMAK",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-06-11",
+      "totalDays": 0,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-27T10:57:02.886Z",
+      "updatedAt": "2026-06-27T10:57:02.886Z"
     }
   ],
   "duplicateCandidates": [],
@@ -10015,6 +10028,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "ef032142-12aa-4a6a-9c75-d927f3068738",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "9d0363bf-82ea-44cb-92bc-8c11a3812d43",
+      "details": {
+        "departure": {
+          "id": "9d0363bf-82ea-44cb-92bc-8c11a3812d43",
+          "personId": null,
+          "fullName": "EMRULLAH BAŞARMAK",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-06-11",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-27T10:57:02.886Z",
+          "updatedAt": "2026-06-27T10:57:02.886Z"
+        }
+      },
+      "timestamp": "2026-06-27T10:57:02.886Z",
+      "adminSession": "094a897f-a163-453d-9a4a-4a4a3ba40491"
+    },
     {
       "id": "210ad75c-7452-4dac-8320-eef639f70dac",
       "action": "CREATE",
@@ -42450,56 +42486,6 @@
         }
       },
       "timestamp": "2026-02-16T14:53:14.612Z",
-      "adminSession": "b32fe3c4-7c20-4f13-8e8e-2173463ce2a1"
-    },
-    {
-      "id": "0ec80cc6-1620-46bf-9833-2e4807dd19fe",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "d89696ac-af37-450d-b94d-eed058ae2527",
-      "details": {
-        "before": {
-          "fullName": "YILMAZ ÇIRA",
-          "normalizedName": "YILMAZ CIRA",
-          "baseKey": "YILMAZ CIRA",
-          "category": "NEŞAT",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "active",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "NEŞAT",
-            "row": 19
-          },
-          "mergedFrom": [],
-          "personId": "d89696ac-af37-450d-b94d-eed058ae2527",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-01-05T12:12:49.580Z"
-        },
-        "after": {
-          "fullName": "YILMAZ ÇIRA",
-          "normalizedName": "YILMAZ CIRA",
-          "baseKey": "YILMAZ CIRA",
-          "category": "NEŞAT",
-          "role": null,
-          "jobTitle": null,
-          "needsReview": false,
-          "unmappedTags": [],
-          "status": "departed",
-          "source": {
-            "file": "on_izin.xlsx",
-            "sheet": "NEŞAT",
-            "row": 19
-          },
-          "mergedFrom": [],
-          "personId": "d89696ac-af37-450d-b94d-eed058ae2527",
-          "createdAt": "2026-01-05T12:12:49.580Z",
-          "updatedAt": "2026-02-16T14:52:27.374Z"
-        }
-      },
-      "timestamp": "2026-02-16T14:52:27.374Z",
       "adminSession": "b32fe3c4-7c20-4f13-8e8e-2173463ce2a1"
     }
   ]
