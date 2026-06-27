@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-27T10:57:02.886Z"
+    "lastUpdated": "2026-06-27T10:57:26.883Z"
   },
   "taxonomy": {
     "categories": [
@@ -10006,6 +10006,19 @@
       "exitMonth": "2026-06",
       "createdAt": "2026-06-27T10:57:02.886Z",
       "updatedAt": "2026-06-27T10:57:02.886Z"
+    },
+    {
+      "id": "a0cacab7-4abd-4f08-9c6b-12958e35b9e9",
+      "personId": null,
+      "fullName": "DURMUŞ AŞÇI",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-06-13",
+      "totalDays": 0,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-27T10:57:26.882Z",
+      "updatedAt": "2026-06-27T10:57:26.882Z"
     }
   ],
   "duplicateCandidates": [],
@@ -10028,6 +10041,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "f53642c5-4cf7-4d5c-80a4-634153e8993d",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "a0cacab7-4abd-4f08-9c6b-12958e35b9e9",
+      "details": {
+        "departure": {
+          "id": "a0cacab7-4abd-4f08-9c6b-12958e35b9e9",
+          "personId": null,
+          "fullName": "DURMUŞ AŞÇI",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-06-13",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-27T10:57:26.882Z",
+          "updatedAt": "2026-06-27T10:57:26.882Z"
+        }
+      },
+      "timestamp": "2026-06-27T10:57:26.883Z",
+      "adminSession": "094a897f-a163-453d-9a4a-4a4a3ba40491"
+    },
     {
       "id": "ef032142-12aa-4a6a-9c75-d927f3068738",
       "action": "CREATE",
@@ -42464,29 +42500,6 @@
       },
       "timestamp": "2026-02-18T06:44:55.335Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "f3177a8a-1ae1-4360-b4c9-e5be8c2b0bd7",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "04905d94-a80f-4adb-869c-dae97789a9b8",
-      "details": {
-        "departure": {
-          "id": "04905d94-a80f-4adb-869c-dae97789a9b8",
-          "personId": null,
-          "fullName": "YILMAZ ÇIRA",
-          "category": "NEŞAT",
-          "job": "",
-          "entryDate": "2025-06-13",
-          "exitDate": "2026-02-16",
-          "totalDays": 248,
-          "exitMonth": "2026-02",
-          "createdAt": "2026-02-16T14:53:14.612Z",
-          "updatedAt": "2026-02-16T14:53:14.612Z"
-        }
-      },
-      "timestamp": "2026-02-16T14:53:14.612Z",
-      "adminSession": "b32fe3c4-7c20-4f13-8e8e-2173463ce2a1"
     }
   ]
 }
