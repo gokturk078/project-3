@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-22T12:58:54.629Z"
+    "lastUpdated": "2026-06-27T10:55:13.240Z"
   },
   "taxonomy": {
     "categories": [
@@ -9928,6 +9928,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-13T08:49:11.082Z",
       "updatedAt": "2026-06-13T08:49:11.082Z"
+    },
+    {
+      "id": "70ddb87b-7f66-4200-9dc1-bd5beef615db",
+      "personId": null,
+      "fullName": "MEHMET ERSİN AKBABA",
+      "category": "REPSAM",
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-06-07",
+      "totalDays": 0,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-27T10:55:13.240Z",
+      "updatedAt": "2026-06-27T10:55:13.240Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9950,6 +9963,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "d3ae5612-10d1-4738-ab01-82061b007360",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "70ddb87b-7f66-4200-9dc1-bd5beef615db",
+      "details": {
+        "departure": {
+          "id": "70ddb87b-7f66-4200-9dc1-bd5beef615db",
+          "personId": null,
+          "fullName": "MEHMET ERSİN AKBABA",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-06-07",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-27T10:55:13.240Z",
+          "updatedAt": "2026-06-27T10:55:13.240Z"
+        }
+      },
+      "timestamp": "2026-06-27T10:55:13.240Z",
+      "adminSession": "094a897f-a163-453d-9a4a-4a4a3ba40491"
+    },
     {
       "id": "eed3af04-5523-48ec-83fa-41d9a8764a2e",
       "action": "DELETE",
@@ -42442,74 +42478,6 @@
         }
       },
       "timestamp": "2026-02-14T11:41:34.357Z",
-      "adminSession": "b52d9794-d32c-4173-b388-9b49756c1288"
-    },
-    {
-      "id": "166ba4a2-87f4-444a-921c-b70822eac83d",
-      "action": "UPDATE",
-      "entityType": "person",
-      "entityId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-      "details": {
-        "before": {
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "baseKey": "MERTCAN SIMSEK",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "category": "REPSAM",
-          "role": "İSG",
-          "jobTitle": "117451/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "active",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 18
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117451/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-29",
-            "contactPerson": "İSG"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-09T08:59:05.420Z"
-        },
-        "after": {
-          "personId": "c779d665-4d33-4529-95fd-59a2a73e95eb",
-          "baseKey": "MERTCAN SIMSEK",
-          "fullName": "MERTCAN ŞİMŞEK",
-          "normalizedName": "MERTCAN SIMSEK",
-          "category": "REPSAM",
-          "role": "İSG",
-          "jobTitle": "117451/2025",
-          "needsReview": true,
-          "unmappedTags": [],
-          "status": "departed",
-          "sources": [
-            {
-              "file": "takip.xlsx",
-              "sheet": "GÜNCEL (3)",
-              "row": 18
-            }
-          ],
-          "mergedFrom": [],
-          "trackingInfo": {
-            "applicationNo": "inşaat işçisi",
-            "profession": "117451/2025",
-            "status": "ÖN İZNİ ONAYLANDI HENÜZ GİRİŞ YAPMADI",
-            "expectedDate": "2026-01-29",
-            "contactPerson": "İSG"
-          },
-          "createdAt": "2026-01-05T12:12:49.592Z",
-          "updatedAt": "2026-02-14T11:40:34.760Z"
-        }
-      },
-      "timestamp": "2026-02-14T11:40:34.760Z",
       "adminSession": "b52d9794-d32c-4173-b388-9b49756c1288"
     }
   ]
