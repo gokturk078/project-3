@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-27T10:55:37.367Z"
+    "lastUpdated": "2026-06-27T10:55:56.465Z"
   },
   "taxonomy": {
     "categories": [
@@ -9954,6 +9954,19 @@
       "exitMonth": "2026-05",
       "createdAt": "2026-06-27T10:55:37.367Z",
       "updatedAt": "2026-06-27T10:55:37.367Z"
+    },
+    {
+      "id": "b4267dbd-d841-4aab-809a-db4a0100e57d",
+      "personId": null,
+      "fullName": "HALİS KESER",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-05-21",
+      "totalDays": 0,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-27T10:55:56.465Z",
+      "updatedAt": "2026-06-27T10:55:56.465Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9976,6 +9989,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "a80c5375-54d7-403b-a615-3785e5012373",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "b4267dbd-d841-4aab-809a-db4a0100e57d",
+      "details": {
+        "departure": {
+          "id": "b4267dbd-d841-4aab-809a-db4a0100e57d",
+          "personId": null,
+          "fullName": "HALİS KESER",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-05-21",
+          "totalDays": 0,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-27T10:55:56.465Z",
+          "updatedAt": "2026-06-27T10:55:56.465Z"
+        }
+      },
+      "timestamp": "2026-06-27T10:55:56.465Z",
+      "adminSession": "094a897f-a163-453d-9a4a-4a4a3ba40491"
+    },
     {
       "id": "4a2f9aee-a318-4632-a7bf-798ebdfc54d3",
       "action": "CREATE",
@@ -42461,37 +42497,6 @@
       },
       "timestamp": "2026-02-16T13:20:13.764Z",
       "adminSession": "b32fe3c4-7c20-4f13-8e8e-2173463ce2a1"
-    },
-    {
-      "id": "23a22872-4ca9-4197-ad12-f45d97873ab1",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "cdaec4eb-f923-49c8-8a88-29258db11f18",
-      "details": {
-        "before": {
-          "id": "cdaec4eb-f923-49c8-8a88-29258db11f18",
-          "personId": "d0be571d-8ae4-409d-8d41-1320a8931787",
-          "startDate": "2026-02-09",
-          "endDate": "2026-02-15",
-          "days": 7,
-          "type": "RAPOR",
-          "note": "İŞ KAZASI HASTANEDE YATIŞ AMELİYAT",
-          "createdAt": "2026-02-10T14:34:22.380Z"
-        },
-        "after": {
-          "id": "cdaec4eb-f923-49c8-8a88-29258db11f18",
-          "personId": "d0be571d-8ae4-409d-8d41-1320a8931787",
-          "startDate": "2026-02-09",
-          "endDate": "2026-03-25",
-          "days": 45,
-          "type": "RAPOR",
-          "note": "İŞ KAZASI RAPOR",
-          "createdAt": "2026-02-10T14:34:22.380Z",
-          "updatedAt": "2026-02-14T14:58:23.987Z"
-        }
-      },
-      "timestamp": "2026-02-14T14:58:23.987Z",
-      "adminSession": "b52d9794-d32c-4173-b388-9b49756c1288"
     }
   ]
 }
