@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-27T10:55:13.240Z"
+    "lastUpdated": "2026-06-27T10:55:37.367Z"
   },
   "taxonomy": {
     "categories": [
@@ -9941,6 +9941,19 @@
       "exitMonth": "2026-06",
       "createdAt": "2026-06-27T10:55:13.240Z",
       "updatedAt": "2026-06-27T10:55:13.240Z"
+    },
+    {
+      "id": "2212874e-7660-402f-b76b-ba279eaef619",
+      "personId": null,
+      "fullName": "ADİL BAŞARMAK",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-05-21",
+      "totalDays": 0,
+      "exitMonth": "2026-05",
+      "createdAt": "2026-06-27T10:55:37.367Z",
+      "updatedAt": "2026-06-27T10:55:37.367Z"
     }
   ],
   "duplicateCandidates": [],
@@ -9963,6 +9976,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "4a2f9aee-a318-4632-a7bf-798ebdfc54d3",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "2212874e-7660-402f-b76b-ba279eaef619",
+      "details": {
+        "departure": {
+          "id": "2212874e-7660-402f-b76b-ba279eaef619",
+          "personId": null,
+          "fullName": "ADİL BAŞARMAK",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-05-21",
+          "totalDays": 0,
+          "exitMonth": "2026-05",
+          "createdAt": "2026-06-27T10:55:37.367Z",
+          "updatedAt": "2026-06-27T10:55:37.367Z"
+        }
+      },
+      "timestamp": "2026-06-27T10:55:37.367Z",
+      "adminSession": "094a897f-a163-453d-9a4a-4a4a3ba40491"
+    },
     {
       "id": "d3ae5612-10d1-4738-ab01-82061b007360",
       "action": "CREATE",
@@ -42455,29 +42491,6 @@
         }
       },
       "timestamp": "2026-02-14T14:58:23.987Z",
-      "adminSession": "b52d9794-d32c-4173-b388-9b49756c1288"
-    },
-    {
-      "id": "ccb7eb75-1a68-48e3-a8b5-562162519a8e",
-      "action": "CREATE",
-      "entityType": "departure",
-      "entityId": "741f8e2b-4b14-4485-8f95-0aacbb222f5b",
-      "details": {
-        "departure": {
-          "id": "741f8e2b-4b14-4485-8f95-0aacbb222f5b",
-          "personId": null,
-          "fullName": "MERTCAN ŞİMŞEK",
-          "category": "REPSAM",
-          "job": "İSG",
-          "entryDate": "2026-01-11",
-          "exitDate": "2026-02-14",
-          "totalDays": 34,
-          "exitMonth": "2026-02",
-          "createdAt": "2026-02-14T11:41:34.357Z",
-          "updatedAt": "2026-02-14T11:41:34.357Z"
-        }
-      },
-      "timestamp": "2026-02-14T11:41:34.357Z",
       "adminSession": "b52d9794-d32c-4173-b388-9b49756c1288"
     }
   ]
