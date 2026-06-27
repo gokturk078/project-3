@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-27T10:57:26.883Z"
+    "lastUpdated": "2026-06-27T10:57:55.788Z"
   },
   "taxonomy": {
     "categories": [
@@ -10019,6 +10019,19 @@
       "exitMonth": "2026-06",
       "createdAt": "2026-06-27T10:57:26.882Z",
       "updatedAt": "2026-06-27T10:57:26.882Z"
+    },
+    {
+      "id": "34031658-fbb8-401a-b36a-5d423e6a7954",
+      "personId": null,
+      "fullName": "OSMAN TAŞAR",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-06-11",
+      "totalDays": 0,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-27T10:57:55.788Z",
+      "updatedAt": "2026-06-27T10:57:55.788Z"
     }
   ],
   "duplicateCandidates": [],
@@ -10041,6 +10054,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "55436a31-7aea-45cc-b482-ad441fa66066",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "34031658-fbb8-401a-b36a-5d423e6a7954",
+      "details": {
+        "departure": {
+          "id": "34031658-fbb8-401a-b36a-5d423e6a7954",
+          "personId": null,
+          "fullName": "OSMAN TAŞAR",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-06-11",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-27T10:57:55.788Z",
+          "updatedAt": "2026-06-27T10:57:55.788Z"
+        }
+      },
+      "timestamp": "2026-06-27T10:57:55.788Z",
+      "adminSession": "094a897f-a163-453d-9a4a-4a4a3ba40491"
+    },
     {
       "id": "f53642c5-4cf7-4d5c-80a4-634153e8993d",
       "action": "CREATE",
@@ -42468,37 +42504,6 @@
         }
       },
       "timestamp": "2026-02-18T06:46:03.321Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "f9661840-b2a3-41c7-adbc-f5977c5e5acc",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
-      "details": {
-        "before": {
-          "id": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "startDate": "2026-02-06",
-          "endDate": "2026-02-10",
-          "days": 5,
-          "type": "RAPOR",
-          "note": "İŞ KAZASI",
-          "createdAt": "2026-02-09T09:08:46.145Z"
-        },
-        "after": {
-          "id": "cf653f6f-1af3-4ca0-a3f1-084b6302ff7a",
-          "personId": "9295c071-83ec-4418-949a-aa274f97d98d",
-          "startDate": "2026-02-06",
-          "endDate": "2026-03-18",
-          "days": 41,
-          "type": "RAPOR",
-          "note": "İŞ KAZASI",
-          "createdAt": "2026-02-09T09:08:46.145Z",
-          "updatedAt": "2026-02-18T06:44:55.335Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:44:55.335Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
