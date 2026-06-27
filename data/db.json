@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-27T10:58:19.667Z"
+    "lastUpdated": "2026-06-27T10:58:46.758Z"
   },
   "taxonomy": {
     "categories": [
@@ -10045,6 +10045,19 @@
       "exitMonth": "2026-06",
       "createdAt": "2026-06-27T10:58:19.667Z",
       "updatedAt": "2026-06-27T10:58:19.667Z"
+    },
+    {
+      "id": "191e6436-dcc0-49c2-aa52-4c3d058acd97",
+      "personId": null,
+      "fullName": "BAHTİYAR KARAKUŞ",
+      "category": "KALMES",
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-06-23",
+      "totalDays": 0,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-27T10:58:46.757Z",
+      "updatedAt": "2026-06-27T10:58:46.757Z"
     }
   ],
   "duplicateCandidates": [],
@@ -10067,6 +10080,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "bfcdf37b-a090-4d67-91cc-bb9a91046391",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "191e6436-dcc0-49c2-aa52-4c3d058acd97",
+      "details": {
+        "departure": {
+          "id": "191e6436-dcc0-49c2-aa52-4c3d058acd97",
+          "personId": null,
+          "fullName": "BAHTİYAR KARAKUŞ",
+          "category": "KALMES",
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-06-23",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-27T10:58:46.757Z",
+          "updatedAt": "2026-06-27T10:58:46.757Z"
+        }
+      },
+      "timestamp": "2026-06-27T10:58:46.758Z",
+      "adminSession": "094a897f-a163-453d-9a4a-4a4a3ba40491"
+    },
     {
       "id": "7e66480b-d26a-403d-9623-7eb1313a5e4f",
       "action": "CREATE",
@@ -42472,40 +42508,6 @@
         }
       },
       "timestamp": "2026-02-18T06:46:37.172Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "66dbbfa6-45a8-4c3b-abf0-9bb3fb508707",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
-      "details": {
-        "before": {
-          "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
-          "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
-          "applicationNo": "147167/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "UZATMA 1 YIL",
-          "notes": "",
-          "createdAt": "2026-01-29T09:05:46.934Z",
-          "updatedAt": "2026-02-07T08:28:54.454Z"
-        },
-        "after": {
-          "id": "ac367cfb-b752-4fdc-ab2b-d7e4d782eab8",
-          "personId": "93e3df39-cadd-41d2-80c0-98a8f1a11552",
-          "applicationNo": "147167/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-29",
-          "contactPerson": "UZATMA 1 YIL",
-          "notes": "",
-          "createdAt": "2026-01-29T09:05:46.934Z",
-          "updatedAt": "2026-02-18T06:46:11.280Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:46:11.281Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
