@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:36:44.075Z"
+    "lastUpdated": "2026-06-30T12:37:00.908Z"
   },
   "taxonomy": {
     "categories": [
@@ -1846,7 +1846,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -1855,7 +1855,7 @@
       "mergedFrom": [],
       "personId": "c7c41b45-920a-4732-aa26-4f4e69cb1824",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-06-30T12:37:00.908Z"
     },
     {
       "fullName": "KEMAL BİRİNCİ",
@@ -10106,6 +10106,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "5acfc3d2-97ae-47dc-8fcc-b162240c45cf",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "c7c41b45-920a-4732-aa26-4f4e69cb1824",
+      "details": {
+        "before": {
+          "fullName": "İSA YILMAZ",
+          "normalizedName": "ISA YILMAZ",
+          "baseKey": "ISA YILMAZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 27
+          },
+          "mergedFrom": [],
+          "personId": "c7c41b45-920a-4732-aa26-4f4e69cb1824",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "İSA YILMAZ",
+          "normalizedName": "ISA YILMAZ",
+          "baseKey": "ISA YILMAZ",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 27
+          },
+          "mergedFrom": [],
+          "personId": "c7c41b45-920a-4732-aa26-4f4e69cb1824",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-06-30T12:37:00.908Z"
+        }
+      },
+      "timestamp": "2026-06-30T12:37:00.908Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "7f1d6c63-fc20-498c-9079-86aea60e9b96",
       "action": "UPDATE",
@@ -42663,37 +42713,6 @@
         }
       },
       "timestamp": "2026-02-18T14:46:16.335Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "227f9d38-9492-4abe-955c-ebf131094fcf",
-      "action": "UPDATE",
-      "entityType": "leave",
-      "entityId": "7214455b-031e-44a7-81b8-dd00cd381e94",
-      "details": {
-        "before": {
-          "id": "7214455b-031e-44a7-81b8-dd00cd381e94",
-          "personId": "e642e259-2d2d-4bd2-8065-5d264b85d776",
-          "startDate": "2026-02-18",
-          "endDate": "2026-02-20",
-          "days": 3,
-          "type": "NORMAL",
-          "note": "RAPOR ",
-          "createdAt": "2026-02-18T11:11:49.722Z"
-        },
-        "after": {
-          "id": "7214455b-031e-44a7-81b8-dd00cd381e94",
-          "personId": "e642e259-2d2d-4bd2-8065-5d264b85d776",
-          "startDate": "2026-02-18",
-          "endDate": "2026-02-20",
-          "days": 3,
-          "type": "RAPOR",
-          "note": "",
-          "createdAt": "2026-02-18T11:11:49.722Z",
-          "updatedAt": "2026-02-18T11:12:18.430Z"
-        }
-      },
-      "timestamp": "2026-02-18T11:12:18.430Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
