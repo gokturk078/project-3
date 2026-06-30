@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-27T10:58:46.758Z"
+    "lastUpdated": "2026-06-30T12:14:52.263Z"
   },
   "taxonomy": {
     "categories": [
@@ -9930,19 +9930,6 @@
       "updatedAt": "2026-06-13T08:49:11.082Z"
     },
     {
-      "id": "70ddb87b-7f66-4200-9dc1-bd5beef615db",
-      "personId": null,
-      "fullName": "MEHMET ERSİN AKBABA",
-      "category": "REPSAM",
-      "job": "",
-      "entryDate": "",
-      "exitDate": "2026-06-07",
-      "totalDays": 0,
-      "exitMonth": "2026-06",
-      "createdAt": "2026-06-27T10:55:13.240Z",
-      "updatedAt": "2026-06-27T10:55:13.240Z"
-    },
-    {
       "id": "2212874e-7660-402f-b76b-ba279eaef619",
       "personId": null,
       "fullName": "ADİL BAŞARMAK",
@@ -10080,6 +10067,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "0d65b730-aebe-498b-9a6a-acbe1f9dd52c",
+      "action": "DELETE",
+      "entityType": "departure",
+      "entityId": "70ddb87b-7f66-4200-9dc1-bd5beef615db",
+      "details": {
+        "departure": {
+          "id": "70ddb87b-7f66-4200-9dc1-bd5beef615db",
+          "personId": null,
+          "fullName": "MEHMET ERSİN AKBABA",
+          "category": "REPSAM",
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-06-07",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-27T10:55:13.240Z",
+          "updatedAt": "2026-06-27T10:55:13.240Z"
+        }
+      },
+      "timestamp": "2026-06-30T12:14:52.263Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "bfcdf37b-a090-4d67-91cc-bb9a91046391",
       "action": "CREATE",
@@ -42474,40 +42484,6 @@
         }
       },
       "timestamp": "2026-02-18T06:46:52.042Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "bf5a6550-e1ed-47b3-af7e-e5c6c75d44ca",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "368030aa-7a20-4c86-9c48-441503ceac00",
-      "details": {
-        "before": {
-          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
-          "personId": "40e8b757-5829-4970-9818-8581db704eba",
-          "applicationNo": "120260/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:16:39.919Z",
-          "updatedAt": "2026-02-07T08:29:23.511Z"
-        },
-        "after": {
-          "id": "368030aa-7a20-4c86-9c48-441503ceac00",
-          "personId": "40e8b757-5829-4970-9818-8581db704eba",
-          "applicationNo": "120260/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:16:39.919Z",
-          "updatedAt": "2026-02-18T06:46:37.172Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:46:37.172Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
