@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:14:52.263Z"
+    "lastUpdated": "2026-06-30T12:16:02.768Z"
   },
   "taxonomy": {
     "categories": [
@@ -10045,6 +10045,19 @@
       "exitMonth": "2026-06",
       "createdAt": "2026-06-27T10:58:46.757Z",
       "updatedAt": "2026-06-27T10:58:46.757Z"
+    },
+    {
+      "id": "dfa93fbf-a3d1-47bf-8b63-f956b96e2fc8",
+      "personId": null,
+      "fullName": "bayram hatun",
+      "category": null,
+      "job": "KALMES",
+      "entryDate": "",
+      "exitDate": "2026-06-28",
+      "totalDays": 0,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-30T12:16:02.768Z",
+      "updatedAt": "2026-06-30T12:16:02.768Z"
     }
   ],
   "duplicateCandidates": [],
@@ -10067,6 +10080,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "cedd811c-9636-4f55-9e12-d2bf90e71b68",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "dfa93fbf-a3d1-47bf-8b63-f956b96e2fc8",
+      "details": {
+        "departure": {
+          "id": "dfa93fbf-a3d1-47bf-8b63-f956b96e2fc8",
+          "personId": null,
+          "fullName": "bayram hatun",
+          "category": null,
+          "job": "KALMES",
+          "entryDate": "",
+          "exitDate": "2026-06-28",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-30T12:16:02.768Z",
+          "updatedAt": "2026-06-30T12:16:02.768Z"
+        }
+      },
+      "timestamp": "2026-06-30T12:16:02.768Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "0d65b730-aebe-498b-9a6a-acbe1f9dd52c",
       "action": "DELETE",
@@ -42450,40 +42486,6 @@
         }
       },
       "timestamp": "2026-02-18T06:47:03.448Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "c5340ac7-e429-4b5a-9746-857186901b58",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "f236d309-2a01-481d-9d88-2bba9d7bcd12",
-      "details": {
-        "before": {
-          "id": "f236d309-2a01-481d-9d88-2bba9d7bcd12",
-          "personId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
-          "applicationNo": "120264/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:14:59.580Z",
-          "updatedAt": "2026-02-07T08:29:28.655Z"
-        },
-        "after": {
-          "id": "f236d309-2a01-481d-9d88-2bba9d7bcd12",
-          "personId": "09d1430b-0e0c-4439-94a6-e714593b16ad",
-          "applicationNo": "120264/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-28",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-28T09:14:59.580Z",
-          "updatedAt": "2026-02-18T06:46:52.042Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:46:52.042Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
