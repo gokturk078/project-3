@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:36:09.174Z"
+    "lastUpdated": "2026-06-30T12:36:25.342Z"
   },
   "taxonomy": {
     "categories": [
@@ -1486,7 +1486,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -1495,7 +1495,7 @@
       "mergedFrom": [],
       "personId": "8637e718-e2e2-4ba7-b9af-c7e419db4f2c",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-06-30T12:36:25.342Z"
     },
     {
       "fullName": "BERZAN UÇAN",
@@ -10106,6 +10106,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "f4797f5e-ec8a-43e2-b854-3abd7eebb19e",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "8637e718-e2e2-4ba7-b9af-c7e419db4f2c",
+      "details": {
+        "before": {
+          "fullName": "BAYRAM HATUN",
+          "normalizedName": "BAYRAM HATUN",
+          "baseKey": "BAYRAM HATUN",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 9
+          },
+          "mergedFrom": [],
+          "personId": "8637e718-e2e2-4ba7-b9af-c7e419db4f2c",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "BAYRAM HATUN",
+          "normalizedName": "BAYRAM HATUN",
+          "baseKey": "BAYRAM HATUN",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 9
+          },
+          "mergedFrom": [],
+          "personId": "8637e718-e2e2-4ba7-b9af-c7e419db4f2c",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-06-30T12:36:25.342Z"
+        }
+      },
+      "timestamp": "2026-06-30T12:36:25.342Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "27817488-4589-4ca9-b134-ae66817f32b6",
       "action": "UPDATE",
@@ -42614,40 +42664,6 @@
         }
       },
       "timestamp": "2026-02-18T11:11:49.722Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "99d39eea-2a1e-4127-a68f-1753d58bf19d",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "4713652a-775c-41b0-b0cc-b05587423fe6",
-      "details": {
-        "before": {
-          "id": "4713652a-775c-41b0-b0cc-b05587423fe6",
-          "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
-          "applicationNo": "119823/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-23T09:46:24.597Z",
-          "updatedAt": "2026-01-31T12:23:14.519Z"
-        },
-        "after": {
-          "id": "4713652a-775c-41b0-b0cc-b05587423fe6",
-          "personId": "0ae891cf-f93e-4769-bc8d-2aa2ab4b6b99",
-          "applicationNo": "119823/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-23",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-23T09:46:24.597Z",
-          "updatedAt": "2026-02-18T06:49:46.163Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:49:46.163Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
