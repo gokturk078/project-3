@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:16:23.165Z"
+    "lastUpdated": "2026-06-30T12:16:50.773Z"
   },
   "taxonomy": {
     "categories": [
@@ -10071,6 +10071,19 @@
       "exitMonth": "2026-06",
       "createdAt": "2026-06-30T12:16:23.165Z",
       "updatedAt": "2026-06-30T12:16:23.165Z"
+    },
+    {
+      "id": "2ef672d4-7bc3-4aaa-a98c-be7fd4c79f8f",
+      "personId": null,
+      "fullName": "İSA YILMAZ",
+      "category": null,
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-06-26",
+      "totalDays": 0,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-30T12:16:50.773Z",
+      "updatedAt": "2026-06-30T12:16:50.773Z"
     }
   ],
   "duplicateCandidates": [],
@@ -10093,6 +10106,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "af3d2d46-8ab2-4c5a-bcd2-345e32bf266e",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "2ef672d4-7bc3-4aaa-a98c-be7fd4c79f8f",
+      "details": {
+        "departure": {
+          "id": "2ef672d4-7bc3-4aaa-a98c-be7fd4c79f8f",
+          "personId": null,
+          "fullName": "İSA YILMAZ",
+          "category": null,
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-06-26",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-30T12:16:50.773Z",
+          "updatedAt": "2026-06-30T12:16:50.773Z"
+        }
+      },
+      "timestamp": "2026-06-30T12:16:50.773Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "87189294-aac9-4804-9b92-a4dacbf66a2e",
       "action": "CREATE",
@@ -42454,40 +42490,6 @@
         }
       },
       "timestamp": "2026-02-18T06:47:24.411Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "38d0bcce-d656-4fed-aeb9-6974135ff2de",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "ef88fbf0-9ab5-46b0-8654-96385aa4e768",
-      "details": {
-        "before": {
-          "id": "ef88fbf0-9ab5-46b0-8654-96385aa4e768",
-          "personId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
-          "applicationNo": "120167/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:55:57.007Z",
-          "updatedAt": "2026-02-07T08:29:44.106Z"
-        },
-        "after": {
-          "id": "ef88fbf0-9ab5-46b0-8654-96385aa4e768",
-          "personId": "4f6bbc90-ef55-4696-93fe-09483958fef0",
-          "applicationNo": "120167/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:55:57.007Z",
-          "updatedAt": "2026-02-18T06:47:17.268Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:47:17.269Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
