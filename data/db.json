@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:32:06.268Z"
+    "lastUpdated": "2026-06-30T12:32:22.269Z"
   },
   "taxonomy": {
     "categories": [
@@ -4779,7 +4779,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4788,7 +4788,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-26T15:09:14.645Z",
-      "updatedAt": "2026-03-09T11:29:49.951Z",
+      "updatedAt": "2026-06-30T12:32:22.269Z",
       "jobTitle": null
     },
     {
@@ -10106,6 +10106,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "4aeb1a97-f1c0-40d3-9fe0-1c5d7ddc484d",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
+      "details": {
+        "before": {
+          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
+          "baseKey": "HALİS KESER",
+          "fullName": "HALİS KESER",
+          "normalizedName": "HALİS KESER",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:14.645Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:14.645Z",
+          "updatedAt": "2026-03-09T11:29:49.951Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "37ef89a9-c5e5-46f8-a0bc-a4ce199ac6b9",
+          "baseKey": "HALİS KESER",
+          "fullName": "HALİS KESER",
+          "normalizedName": "HALİS KESER",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-26T15:09:14.645Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-26T15:09:14.645Z",
+          "updatedAt": "2026-06-30T12:32:22.269Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-30T12:32:22.269Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "e394ca13-b517-49f9-afc1-8f0c0d9208a1",
       "action": "UPDATE",
@@ -42474,40 +42526,6 @@
         }
       },
       "timestamp": "2026-02-18T06:47:51.353Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "465f8d08-c65f-493a-9561-b278117dca9e",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-      "details": {
-        "before": {
-          "id": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
-          "applicationNo": "120110/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:53:18.571Z",
-          "updatedAt": "2026-02-07T08:29:54.980Z"
-        },
-        "after": {
-          "id": "99ce6045-cdcb-4762-8a1c-700880d98a42",
-          "personId": "91f26123-18f5-4756-9ce7-9a4abce89115",
-          "applicationNo": "120110/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:53:18.571Z",
-          "updatedAt": "2026-02-18T06:47:32.537Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:47:32.537Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
