@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:36:25.342Z"
+    "lastUpdated": "2026-06-30T12:36:44.075Z"
   },
   "taxonomy": {
     "categories": [
@@ -2186,7 +2186,7 @@
       "jobTitle": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "source": {
         "file": "on_izin.xlsx",
         "sheet": "KALMES",
@@ -2195,7 +2195,7 @@
       "mergedFrom": [],
       "personId": "67f6ed61-5bb8-4a41-b2f1-9b7accae6f3d",
       "createdAt": "2026-01-05T12:12:49.580Z",
-      "updatedAt": "2026-01-05T12:12:49.580Z"
+      "updatedAt": "2026-06-30T12:36:44.075Z"
     },
     {
       "fullName": "TARKAN KALINTAŞ",
@@ -10106,6 +10106,56 @@
     }
   ],
   "audit": [
+    {
+      "id": "7f1d6c63-fc20-498c-9079-86aea60e9b96",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "67f6ed61-5bb8-4a41-b2f1-9b7accae6f3d",
+      "details": {
+        "before": {
+          "fullName": "SÜLEYMAN HATUN",
+          "normalizedName": "SULEYMAN HATUN",
+          "baseKey": "SULEYMAN HATUN",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 46
+          },
+          "mergedFrom": [],
+          "personId": "67f6ed61-5bb8-4a41-b2f1-9b7accae6f3d",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-01-05T12:12:49.580Z"
+        },
+        "after": {
+          "fullName": "SÜLEYMAN HATUN",
+          "normalizedName": "SULEYMAN HATUN",
+          "baseKey": "SULEYMAN HATUN",
+          "category": "KALMES",
+          "role": null,
+          "jobTitle": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "source": {
+            "file": "on_izin.xlsx",
+            "sheet": "KALMES",
+            "row": 46
+          },
+          "mergedFrom": [],
+          "personId": "67f6ed61-5bb8-4a41-b2f1-9b7accae6f3d",
+          "createdAt": "2026-01-05T12:12:49.580Z",
+          "updatedAt": "2026-06-30T12:36:44.075Z"
+        }
+      },
+      "timestamp": "2026-06-30T12:36:44.075Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "f4797f5e-ec8a-43e2-b854-3abd7eebb19e",
       "action": "UPDATE",
@@ -42644,26 +42694,6 @@
         }
       },
       "timestamp": "2026-02-18T11:12:18.430Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "2719b0d7-b04b-4623-9252-d80d06c80ae9",
-      "action": "CREATE",
-      "entityType": "leave",
-      "entityId": "7214455b-031e-44a7-81b8-dd00cd381e94",
-      "details": {
-        "leave": {
-          "id": "7214455b-031e-44a7-81b8-dd00cd381e94",
-          "personId": "e642e259-2d2d-4bd2-8065-5d264b85d776",
-          "startDate": "2026-02-18",
-          "endDate": "2026-02-20",
-          "days": 3,
-          "type": "NORMAL",
-          "note": "RAPOR ",
-          "createdAt": "2026-02-18T11:11:49.722Z"
-        }
-      },
-      "timestamp": "2026-02-18T11:11:49.722Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
