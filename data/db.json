@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:35:41.399Z"
+    "lastUpdated": "2026-06-30T12:35:55.720Z"
   },
   "taxonomy": {
     "categories": [
@@ -5618,7 +5618,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -5627,7 +5627,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-03-17T12:35:47.315Z",
-      "updatedAt": "2026-04-09T06:25:10.973Z",
+      "updatedAt": "2026-06-30T12:35:55.720Z",
       "jobTitle": null
     },
     {
@@ -10106,6 +10106,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "7a5dc399-d2df-46ec-ba68-7b6208a54595",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+      "details": {
+        "before": {
+          "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+          "baseKey": "BAKİ CİVELEK",
+          "fullName": "BAKİ CİVELEK",
+          "normalizedName": "BAKİ CİVELEK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:35:47.315Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:35:47.315Z",
+          "updatedAt": "2026-04-09T06:25:10.973Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "e799834c-b07d-428f-bf17-5bbb911e30e6",
+          "baseKey": "BAKİ CİVELEK",
+          "fullName": "BAKİ CİVELEK",
+          "normalizedName": "BAKİ CİVELEK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-03-17T12:35:47.315Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-03-17T12:35:47.315Z",
+          "updatedAt": "2026-06-30T12:35:55.720Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-30T12:35:55.720Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "2c8c22f0-94ab-43dd-a8f1-0ab8d65803d5",
       "action": "UPDATE",
@@ -42580,40 +42632,6 @@
         }
       },
       "timestamp": "2026-02-18T06:49:29.561Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "10d91307-0272-4b33-b11f-1933683abcce",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "6c63236c-6d83-4e53-98be-db1f69446b94",
-      "details": {
-        "before": {
-          "id": "6c63236c-6d83-4e53-98be-db1f69446b94",
-          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
-          "applicationNo": "119983/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:18.828Z",
-          "updatedAt": "2026-01-31T12:22:32.908Z"
-        },
-        "after": {
-          "id": "6c63236c-6d83-4e53-98be-db1f69446b94",
-          "personId": "cfe0610c-d964-42a7-9916-26babc3abed7",
-          "applicationNo": "119983/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "KALMES",
-          "notes": "",
-          "createdAt": "2026-01-26T15:11:18.828Z",
-          "updatedAt": "2026-02-18T06:49:16.206Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:49:16.206Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
