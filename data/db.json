@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:34:38.908Z"
+    "lastUpdated": "2026-06-30T12:35:05.483Z"
   },
   "taxonomy": {
     "categories": [
@@ -4254,7 +4254,7 @@
       "role": null,
       "needsReview": false,
       "unmappedTags": [],
-      "status": "active",
+      "status": "departed",
       "sources": [
         {
           "type": "manual",
@@ -4263,7 +4263,7 @@
       ],
       "mergedFrom": [],
       "createdAt": "2026-01-19T07:05:23.129Z",
-      "updatedAt": "2026-02-05T11:59:39.681Z",
+      "updatedAt": "2026-06-30T12:35:05.483Z",
       "jobTitle": null
     },
     {
@@ -10106,6 +10106,58 @@
     }
   ],
   "audit": [
+    {
+      "id": "be8289f6-e71a-4efc-820b-61fd36482986",
+      "action": "UPDATE",
+      "entityType": "person",
+      "entityId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+      "details": {
+        "before": {
+          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+          "baseKey": "EMRULLAH BAŞARMAK",
+          "fullName": "EMRULLAH BAŞARMAK",
+          "normalizedName": "EMRULLAH BAŞARMAK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "active",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:05:23.129Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:05:23.129Z",
+          "updatedAt": "2026-02-05T11:59:39.681Z",
+          "jobTitle": null
+        },
+        "after": {
+          "personId": "e69b568d-14c3-4a5e-a9e5-f8d3cfdf2595",
+          "baseKey": "EMRULLAH BAŞARMAK",
+          "fullName": "EMRULLAH BAŞARMAK",
+          "normalizedName": "EMRULLAH BAŞARMAK",
+          "category": "KALMES",
+          "role": null,
+          "needsReview": false,
+          "unmappedTags": [],
+          "status": "departed",
+          "sources": [
+            {
+              "type": "manual",
+              "date": "2026-01-19T07:05:23.129Z"
+            }
+          ],
+          "mergedFrom": [],
+          "createdAt": "2026-01-19T07:05:23.129Z",
+          "updatedAt": "2026-06-30T12:35:05.483Z",
+          "jobTitle": null
+        }
+      },
+      "timestamp": "2026-06-30T12:35:05.483Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "a7e32042-c8dc-47dc-ae34-4c6dd383e459",
       "action": "UPDATE",
@@ -42526,40 +42578,6 @@
         }
       },
       "timestamp": "2026-02-18T06:48:48.982Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "d3450ebd-3a94-4fb2-bb5a-46d3f8cccd58",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-      "details": {
-        "before": {
-          "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "applicationNo": "119258/2026",
-          "profession": "MİMAR",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:17:39.679Z",
-          "updatedAt": "2026-02-07T08:30:35.426Z"
-        },
-        "after": {
-          "id": "19eda63b-baba-4273-94bf-d1883ce6dd45",
-          "personId": "4b1e1627-7473-4fa1-93c9-57ad592b1a1d",
-          "applicationNo": "119258/2026",
-          "profession": "MİMAR",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-19",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-19T09:17:39.679Z",
-          "updatedAt": "2026-02-18T06:48:35.295Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:48:35.295Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
