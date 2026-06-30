@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-06-30T12:16:02.768Z"
+    "lastUpdated": "2026-06-30T12:16:23.165Z"
   },
   "taxonomy": {
     "categories": [
@@ -10058,6 +10058,19 @@
       "exitMonth": "2026-06",
       "createdAt": "2026-06-30T12:16:02.768Z",
       "updatedAt": "2026-06-30T12:16:02.768Z"
+    },
+    {
+      "id": "36c20ac8-4843-4def-9a2e-dc224e0ba1f9",
+      "personId": null,
+      "fullName": "SÜLEYMAN HATUN",
+      "category": null,
+      "job": "",
+      "entryDate": "",
+      "exitDate": "2026-06-28",
+      "totalDays": 0,
+      "exitMonth": "2026-06",
+      "createdAt": "2026-06-30T12:16:23.165Z",
+      "updatedAt": "2026-06-30T12:16:23.165Z"
     }
   ],
   "duplicateCandidates": [],
@@ -10080,6 +10093,29 @@
     }
   ],
   "audit": [
+    {
+      "id": "87189294-aac9-4804-9b92-a4dacbf66a2e",
+      "action": "CREATE",
+      "entityType": "departure",
+      "entityId": "36c20ac8-4843-4def-9a2e-dc224e0ba1f9",
+      "details": {
+        "departure": {
+          "id": "36c20ac8-4843-4def-9a2e-dc224e0ba1f9",
+          "personId": null,
+          "fullName": "SÜLEYMAN HATUN",
+          "category": null,
+          "job": "",
+          "entryDate": "",
+          "exitDate": "2026-06-28",
+          "totalDays": 0,
+          "exitMonth": "2026-06",
+          "createdAt": "2026-06-30T12:16:23.165Z",
+          "updatedAt": "2026-06-30T12:16:23.165Z"
+        }
+      },
+      "timestamp": "2026-06-30T12:16:23.165Z",
+      "adminSession": "1707c296-4724-49cd-b24c-d3c6e76db37a"
+    },
     {
       "id": "cedd811c-9636-4f55-9e12-d2bf90e71b68",
       "action": "CREATE",
@@ -42452,40 +42488,6 @@
         }
       },
       "timestamp": "2026-02-18T06:47:17.269Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "0dc4016f-6292-4678-905b-5b7309ef0cc0",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "3deae328-7ab9-450e-8fd7-6813a6ade1e8",
-      "details": {
-        "before": {
-          "id": "3deae328-7ab9-450e-8fd7-6813a6ade1e8",
-          "personId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
-          "applicationNo": "120115/2026",
-          "profession": "inşaat işçisi",
-          "status": "SAĞLIĞA SEVK EDİLDİ",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:56:53.852Z",
-          "updatedAt": "2026-02-07T08:29:35.116Z"
-        },
-        "after": {
-          "id": "3deae328-7ab9-450e-8fd7-6813a6ade1e8",
-          "personId": "9027a8fa-dda1-460b-99a0-67fe83bf29a8",
-          "applicationNo": "120115/2026",
-          "profession": "inşaat işçisi",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-27",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-27T10:56:53.852Z",
-          "updatedAt": "2026-02-18T06:47:03.448Z"
-        }
-      },
-      "timestamp": "2026-02-18T06:47:03.448Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
