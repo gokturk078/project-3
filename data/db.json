@@ -67,7 +67,7 @@
         "UNASSIGNED": 172
       }
     },
-    "lastUpdated": "2026-07-01T12:27:09.350Z"
+    "lastUpdated": "2026-07-01T12:27:13.567Z"
   },
   "taxonomy": {
     "categories": [
@@ -7618,18 +7618,6 @@
       "updatedAt": "2026-06-16T13:40:58.300Z"
     },
     {
-      "id": "7d99c057-3641-4ab1-87fe-32d4c0f00a7d",
-      "personId": "00e9c169-9d03-470f-9051-4316ddbc573b",
-      "applicationNo": "",
-      "profession": "",
-      "status": "SAĞLIĞA SEVK EDİLDİ",
-      "expectedDate": "",
-      "contactPerson": "KALMES",
-      "notes": "",
-      "createdAt": "2026-05-26T10:18:17.870Z",
-      "updatedAt": "2026-06-16T13:41:19.249Z"
-    },
-    {
       "id": "c73692c7-9669-478b-b0ca-385b55fead41",
       "personId": "d37b5e6b-970e-47f0-a9a3-c12f251ba2d2",
       "applicationNo": "",
@@ -10082,6 +10070,28 @@
     }
   ],
   "audit": [
+    {
+      "id": "35080c1f-a9bc-4ffa-bd3c-b8fe4ea86564",
+      "action": "DELETE",
+      "entityType": "tracking",
+      "entityId": "7d99c057-3641-4ab1-87fe-32d4c0f00a7d",
+      "details": {
+        "tracking": {
+          "id": "7d99c057-3641-4ab1-87fe-32d4c0f00a7d",
+          "personId": "00e9c169-9d03-470f-9051-4316ddbc573b",
+          "applicationNo": "",
+          "profession": "",
+          "status": "SAĞLIĞA SEVK EDİLDİ",
+          "expectedDate": "",
+          "contactPerson": "KALMES",
+          "notes": "",
+          "createdAt": "2026-05-26T10:18:17.870Z",
+          "updatedAt": "2026-06-16T13:41:19.249Z"
+        }
+      },
+      "timestamp": "2026-07-01T12:27:13.567Z",
+      "adminSession": "fee4b139-5c65-4730-85ec-7db9eba2f082"
+    },
     {
       "id": "ced2db15-2e4a-4b94-bb96-3089a4126e7c",
       "action": "DELETE",
@@ -42631,40 +42641,6 @@
         }
       },
       "timestamp": "2026-02-18T14:46:34.984Z",
-      "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
-    },
-    {
-      "id": "53725a5a-03c7-4db8-b56a-393d66b40217",
-      "action": "UPDATE",
-      "entityType": "tracking",
-      "entityId": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
-      "details": {
-        "before": {
-          "id": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
-          "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
-          "applicationNo": "118865/2026",
-          "profession": "İSKELE",
-          "status": "AKİT YÜKLENECEK",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:53:21.184Z",
-          "updatedAt": "2026-01-21T15:31:05.619Z"
-        },
-        "after": {
-          "id": "d276e19f-a6ce-445e-b7fe-a3180527fcdf",
-          "personId": "1531e21d-7224-42ca-b1ad-2b462cfa5724",
-          "applicationNo": "118865/2026",
-          "profession": "İSKELE",
-          "status": "AKİT YÜKLENDİ",
-          "expectedDate": "2026-01-14",
-          "contactPerson": "MURAT ÜYÜR",
-          "notes": "",
-          "createdAt": "2026-01-14T07:53:21.184Z",
-          "updatedAt": "2026-02-18T14:46:29.555Z"
-        }
-      },
-      "timestamp": "2026-02-18T14:46:29.555Z",
       "adminSession": "28140282-ddad-4a71-881a-84a056414ac6"
     }
   ]
